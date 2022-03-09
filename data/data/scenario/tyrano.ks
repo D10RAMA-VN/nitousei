@@ -75,9 +75,8 @@ tf.savetext = "<span style='font-size:10px'>"+tf.save_date+"</span><br />"+tf.ti
 [endmacro]
 
 
-[macro name="hokuto"][chara_show name="hokuto" storage="hokuto/hokuto1.png" page="%page|fore" top="%top|20" left="%left" time="%time|700" width="%width|1000" wait="%wait|true"][endmacro]
+[macro name="shin"][chara_show name="shinguzi" storage="shinguzi/frend.png" page="%page|fore" top="%top|20" left="%left" time="%time|700" width="%width|1300" wait="%wait|true"][endmacro]
 
-[macro name="minami"][chara_show name="minami" storage="minami/minami1.png" page="%page|fore" top="%top|20" left="%left" time="%time|700" width="%width|1000" wait="%wait|true"][endmacro]
 
 [macro name="yukino/1"][chara_mod name="yukino" storage="yukino/tatie1.png" cross="false" wait="true" time=100][endmacro]
 [macro name="yukino1"][chara_show name="yukino" storage="yukino/tatie1.png" page="%page|fore" top="%top|50" left="%left" time="%time|700" width="%width|1000" wait="%wait|true"][endmacro]
@@ -98,21 +97,21 @@ tf.savetext = "<span style='font-size:10px'>"+tf.save_date+"</span><br />"+tf.ti
 [macro name="mshow"][anim layer="message0" opacity=255 time="%time|1000"][endmacro]
 ;陽だまりの栞のメニューボタン
 [macro name="rolebutton"]
-[button name="role_button" role=rock graphic="ui/lock.png" x=1836 y=1040 fix=true]
-[button name="role_button" role=save graphic="ui/save.png" x=1180 y=1040 fix=true]
-[button name="role_button" role=load graphic="ui/load.png" x=1277 y=1040 fix=true]
-[button name="role_button" role=backlog graphic="ui/backlog.png" x=1377 y=1040 fix=true]
-[button name="role_button" role=auto graphic="ui/auto.png" x=1525 y=1042 fix=true]
-[button name="role_button" role=skip graphic="ui/skip.png" x=1625 y=1040 fix=true]
-[button name="role_button" role=config graphic="ui/config.png" x=1713 y=1040 fix=true]
-[button name="role_button" role=window graphic="ui/close.png" x=1876 y=1040 fix=true]
+[button name="role_button" role=rock graphic="lock.png" x=1130 y=1030 fix=true]
+[button name="role_button" role=save graphic="save.png" x=1210 y=1030 fix=true]
+[button name="role_button" role=load graphic="load.png" x=1350 y=1030 fix=true]
+[button name="role_button" role=backlog graphic="log.png" x=1490 y=1030 fix=true]
+[button name="role_button" role=auto graphic="auto.png" x=1570 y=1030 fix=true]
+[button name="role_button" role=skip graphic="skip.png" x=1640 y=1030 fix=true]
+[button name="role_button" role=config graphic="config.png" x=1730 y=1030 fix=true]
+[button name="role_button" role=window graphic="close.png" x=1800 y=1030 fix=true]
 [endmacro]
 
 
 ;メッセージボックス
 [macro name="M0"]
-[position layer="message0" left=0 top=790 width=1920 height=290 opacity=&sf.mopacity frame="ui/frame.png" page=fore visible=true]
-[position layer="message0" page=fore margint="30" marginl="400" marginr="250" marginb="50"]
+[position layer="message0" left=0 top=756 width=1920 height=324 opacity=&sf.mopacity frame="frame_siori.png" page=fore visible=true]
+[position layer="message0" page=fore margint="30" marginl="280" marginr="300" marginb="50"]
 [endmacro]
 
 [macro name="trans_in"]

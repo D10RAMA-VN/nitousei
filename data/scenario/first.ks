@@ -1,4 +1,4 @@
-[title name="陽だまりの栞"]
+[title name="見えない二等星"]
 
 [stop_keyconfig]
 [hidemenubutton]
@@ -6,9 +6,14 @@
 [plugin name="backlog"]	
 @call storage="backlog.ks"
 
-[chara_new  name="souitiro" storage="shinguzi/frend.png" width=900 jname="宗一郎" color=000]
-[chara_new  name="shinguzi" storage="shinguzi/frend.png" width=1200 jname="眞行寺" color=000]
-[chara_new  name="child" storage="shinguzi/frend.png" width=900 jname="子供" color=000]
+[chara_new  name="hokuto" storage="hokuto/hokuto1.png" width=900 jname="北斗" color=000]
+[chara_new  name="minami" storage="minami/minami1.png" width=1200 jname="美波" color=000]
+[chara_new  name="seizi" storage="seizi/seizi1.png" width=900 jname="清二" color=000]
+[chara_new  name="nanao" storage="hokuto/hokuto1.png" width=900 jname="七音" color=000]
+[chara_new  name="kaname" storage="hokuto/hokuto1.png" width=900 jname="奏女" color=000]
+[chara_new  name="reito" storage="hokuto/hokuto1.png" width=900 jname="令人" color=000]
+
+
 
 @call storage="tyrano.ks"
 

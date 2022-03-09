@@ -583,15 +583,15 @@ body{
 
 .message_inner{
 	text-shadow:
-            1px 1px 1px #4A24E0, -1px -1px 1px #4A24E0,
-           -1px 1px 1px #4A24E0,  1px -1px 1px #4A24E0;
+            1px 1px 1px #fff, -1px -1px 1px #fff,
+           -1px 1px 1px #fff,  1px -1px 1px #fff;
   font-weight: 600;
 }
 
 .chara_name_area{
   text-shadow:
-            1px 1px 1px #4A24E0, -1px -1px 1px #4A24E0,
-           -1px 1px 1px #4A24E0,  1px -1px 1px #4A24E0;
+            1px 1px 1px #fff, -1px -1px 1px #fff,
+           -1px 1px 1px #fff,  1px -1px 1px #fff;
 }
 
 .tyrano_base{

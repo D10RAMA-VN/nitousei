@@ -12,13 +12,30 @@
 }
 
 @font-face {
-	font-family:"NotoMedium";
-	src:url("../../data/others/Noto_Sans_JP/NotoSansJP-Medium.otf") format("otf")
-	font-weight:normal;font-style:medium;
+	font-family:"NotoLite";
+	src:url("../../data/others/NotoSansJPLite-Bold.woff") format("woff"),
+	url("../../data/others/NotoSansJPLite-Bold.ttf") format("truetype");
+	font-weight:bold;font-style:bold;
 
-	font-family:"NotoBlack";
-	src:url("../../data/others/Noto_Sans_JP/NotoSansJP-Black.otf") format("otf")
-	font-weight:bold;font-style:normal;
+	font-family:"NotoLite";
+	src:url("../../data/others/NotoSansJPLite-Medium.woff") format("woff"),
+	url("../../data/others/NotoSansJPLite-Medium.ttf") format("truetype");
+	font-weight:medium;font-style:medium;
+
+	font-family:"NotoLite";
+	src:url("../../data/others/NotoSansJPLite-Regular.woff") format("woff"),
+	url("../../data/others/NotoSansJPLite-Regular.ttf") format("truetype");
+	font-weight:normal;font-style:normal;
+
+	font-family:"NotoLite";
+	src:url("../../data/others/NotoSansJPLite-Light.woff") format("woff"),
+	url("../../data/others/NotoSansJPLite-Light.ttf") format("truetype");
+	font-weight:thin;font-style:thin;
+	
+	font-family:"NotoLite";
+	src:url("../../data/others/NotoSansJPLite-DemiLight.woff") format("woff"),
+	url("../../data/others/NotoSansJPLite-DemiLight.ttf") format("truetype");
+	font-weight:lighter;font-style:lighter;
 }
 
 @font-face {

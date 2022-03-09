@@ -341,9 +341,9 @@ tyrano.plugin.kag.tag.loadjs = {
       var t = this.kag.stat.charas[a.name];
       if (t) {
         if ($("." + this.kag.stat.chara_ptext).html($.escapeHTML(t.jname)), "" != t.color && $("." + this.kag.stat.chara_ptext).css({
-              "color": "white",
+              "color": "black",
               "font-weight": "bold",
-              "text-shadow": "1px 1px 1px #4A24E0, -1px -1px 1px #4A24E0,-1px 1px 1px #4A24E0,  1px -1px 1px #4A24E0;",
+              "text-shadow": "1px 1px 1px #fff, -1px -1px 1px #fff,-1px 1px 1px #fff,  1px -1px 1px #fff;",
               "letter-spacing": "10px"
             }), "none" != this.kag.stat.chara_talk_focus && ($("#tyrano_base").find(".tyrano_chara").css({
             "-webkit-filter": this.kag.stat.apply_filter_str,
