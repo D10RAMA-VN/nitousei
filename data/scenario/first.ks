@@ -13,7 +13,7 @@
 [chara_new  name="kaname" storage="hokuto/hokuto1.png" width=900 jname="奏女" color=000]
 [chara_new  name="reito" storage="hokuto/hokuto1.png" width=900 jname="令人" color=000]
 
-
+[glyph fix=true left=1750 top=880]
 
 @call storage="tyrano.ks"
 

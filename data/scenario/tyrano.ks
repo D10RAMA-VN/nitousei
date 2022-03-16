@@ -79,10 +79,6 @@ tf.savetext = "<span style='font-size:10px'>"+tf.save_date+"</span><br />"+tf.ti
 
 [macro name="minami"][chara_show name="minami" storage="minami/minami1.png" page="%page|fore" top="%top|20" left="%left" time="%time|700" width="%width|1000" wait="%wait|true"][endmacro]
 
-[macro name="yukino/1"][chara_mod name="yukino" storage="yukino/tatie1.png" cross="false" wait="true" time=100][endmacro]
-[macro name="yukino1"][chara_show name="yukino" storage="yukino/tatie1.png" page="%page|fore" top="%top|50" left="%left" time="%time|700" width="%width|1000" wait="%wait|true"][endmacro]
-[macro name="yukinohide"][chara_hide name="yukino" time=700][endmacro]
-[macro name="hide"][chara_hide name="yukino" time="%time|1000" wait="%wait|true"][endmacro]
 
 [macro name="haruya"][chara_show name="haruya" storage="%storage|haruya/haruya1.png" page="%page|fore" top="370" left="-330" time="%time|700" zindex="200" layer="message0"][endmacro]
 [macro name="haruyahide"][chara_hide name="haruya" time="%time|700" layer="message0" wait="%wait|true"][endmacro]
@@ -96,7 +92,7 @@ tf.savetext = "<span style='font-size:10px'>"+tf.save_date+"</span><br />"+tf.ti
 [macro name="rhide"][clearfix name="role_button"][endmacro]
 [macro name="mhide"][anim layer="message0" opacity=0 time="%time|1000"][endmacro]
 [macro name="mshow"][anim layer="message0" opacity=255 time="%time|1000"][endmacro]
-;陽だまりの栞のメニューボタン
+;メニューボタン
 [macro name="rolebutton"]
 [button name="role_button" role=rock graphic="ui/lock.png" x=1836 y=1040 fix=true]
 [button name="role_button" role=save graphic="ui/save.png" x=1180 y=1040 fix=true]
