@@ -374,10 +374,11 @@ input[type=radio]:checked + .checkbox:after {
 /* セーブ時の画面の設定
 --------------------------*/
 .area_save_list {
-	display: block;
-	width: 1700px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 1400px;
 	height: 670px;
-	margin: 250px 400px 0 25px;
+	margin: 250px 0px 0px 400px;
 	overflow-y: scroll;
 	-webkit-overflow-scrolling: touch;
 	-webkit-transform: translateZ(0);
@@ -390,21 +391,29 @@ input[type=radio]:checked + .checkbox:after {
 }
 
 .area_save_list::-webkit-scrollbar-thumb {
-	border-radius: 50px;
-	background: #000;
+	background-image: url('images/system/click.png');
+    
 }
+
+
 
 .area_save_list::-webkit-scrollbar-track {
 	border-radius: 0;
 	background: rgba(255, 255, 255, 0.5);
 }
 
+/*
+.scrollbar::-webkit-scrollbar-button{
+    background-image: url('');
+    background-size: cover;
+}
+*/
 
 /* セーブデータリスト全体の設定 */
 .save_list {
-	display: table;
-	table-layout: fixed;
-	width: 1080px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 1400px;
 	height: 75px;
 	margin: 0;
 	padding: 0;
@@ -418,14 +427,15 @@ input[type=radio]:checked + .checkbox:after {
 /* セーブデータの設定 */
 .save_list_item {
 	display:table-row;
-	width: 1080px;
-	height: 75px;
-	margin: 0;
+	width: 400px;
+	height: 300px;
+	margin: 20px 40px 0px 10px;
 	padding: 0;
 	border: none;
 	cursor: pointer;
 	background-color: rgba(255, 255, 254,0);
 	transition:.3s;
+	border: 2.5px solid #E02463;
 }
 
 .save_list_item:hover{
@@ -435,12 +445,14 @@ input[type=radio]:checked + .checkbox:after {
 
 /* セーブデータのサムネイル部分の設定 */
 .save_list_item_thumb {
-	display: table-cell;
-	width: 115px;
-	height: 75px;
+	display: flex;
+	position: relative;
+	top: -10%;
+	left: 4%;
+	width: 365px;
 	margin: 0;
 	padding: 0;
-	background-color: rgba(255 ,255 ,255 ,0);
+	background-color: white;
 	background-image: url('images/system/saveslot.png');
 	background-repeat: y-repeat;
 	background-position: left top;
@@ -449,19 +461,17 @@ input[type=radio]:checked + .checkbox:after {
 
 /* サムネイル画像の設定 */
 .save_list_item_thumb img {
-	width: 115px;
-	height: 61px;
-	margin: 7px 0 0 0;
-	padding: 0;
+	width: 350px;
+	padding: 5px;
 	border-radius: 0;
 }
 
 /* セーブデータのテキスト部文の設定 */
 .save_list_item_area {
-	display: table-cell;
-	width: 550px;
-	height: 75px;
-	padding: 0 20px 0 0;
+	display: flex;
+	margin-top: -30px;
+	width: 400px;
+	height: 70px;
 	border:none;
 	border-radius: 0;
 	background-color: rgba(255 ,255 ,255 ,0);
@@ -474,43 +484,48 @@ input[type=radio]:checked + .checkbox:after {
 }
 
 .save_list_item_area1 {
-	display: table-cell;
-	width: 85px;
-	height: 75px;
-	padding: 0px 0px 0 0;
+	display: flex;
+	position: relative;
+	top: 30%;
+	left: -44%;
+	width: 214px;
+	height: 30px;
 	border:none;
 	border-radius: 0;
-	background-color: rgba(255 ,255 ,255 ,0);
+	background-color: white;
 	background-image: url('images/system/saveslot.png');
 	background-repeat: y-repeat;
 	background-position: right top;
 	text-align: left;
 	vertical-align: top;
 	box-sizing: border-box;
+	transform:rotate(270deg);
 }
 
 /* セーブデータの日付の設定 */
 .save_list_item_date {
 	display: block;
-	margin-top: 30px;
-	padding: 0 0 0 10px;
+	margin-top: 0px;
+	padding: 0;
 	line-height: 1;
 	color: #000;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: bold;
 	box-sizing: border-box;
 }
 
 /* セーブデータのテキストの設定 */
 .save_list_item_text {
-	display: inline-block;
+	display: flex;
 	vertical-align: middle;
-	height: 70px;
+	height: 65px;
+	width: 380px;
 	margin: 0;
-	padding: 10px 10px 0 15px;
+	padding: 10px 10px 0 10px;
 	font-size: 16px;
 	overflow: hidden;
 	box-sizing: border-box;
+	color: white;
 }
 
 .save_close:before {
@@ -572,9 +587,18 @@ body{
 
 /*次へのクリックを促すアイコン*/
 
-.img_next{
+.glyph_image{
+  -webkit-animation: next 1s ease-in-out infinite alternate;
+  animation: next 0.8s ease-in-out infinite alternate;
 }
-
+@-webkit-keyframes next {
+	0% { opacity:1; }
+	100% { opacity:0; }
+}
+@keyframes next {
+	0% { opacity:1; }
+	100% { opacity:0; }
+}
 
 
 /*テキストボックスの共通スタイル*/
@@ -590,8 +614,8 @@ body{
 
 .chara_name_area{
   text-shadow:
-            1px 1px 1px #4A24E0, -1px -1px 1px #4A24E0,
-           -1px 1px 1px #4A24E0,  1px -1px 1px #4A24E0;
+            2px 2px 2px #4A24E0, -2px -2px 2px #4A24E0,
+           -2px 2px 2px #4A24E0,  2px -2px 2px #4A24E0;
 }
 
 .tyrano_base{
@@ -970,6 +994,23 @@ audio {
 .fadein{
   animation-name: my-fade-in;
   animation-duration: .5s;
+}
+
+
+.role_button:hover{
+	animation-name: role_hover;
+	animation-duration: 1.5s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+}
+
+@keyframes role_hover{
+  from{
+   opacity:0.8;
+  }
+  to {
+    opacity:0.5; 
+  }
 }
 
 ;タイトル

@@ -22,7 +22,7 @@ tyrano.plugin.kag.ftag = {
   showNextImg: function () {
     if ("false" == this.kag.stat.flag_glyph) {
       $(".img_next").remove();
-      this.kag.getMessageInnerLayer().find("p").append("<div class='img_next circle'></div>")
+      this.kag.getMessageInnerLayer().find("p").append("<img class='img_next' src='./tyrano/images/system/click.png' />")
     } else $(".glyph_image").show()
   },
   nextOrder: function () {
@@ -1070,7 +1070,7 @@ tyrano.plugin.kag.ftag = {
   }
 }, tyrano.plugin.kag.tag.glyph = {
   pm: {
-    line:  "nextpage.gif",
+    line:  "click.png",
     layer: "message0",
     fix: "false",
     left: 0,
