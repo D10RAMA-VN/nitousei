@@ -377,9 +377,9 @@ input[type=radio]:checked + .checkbox:after {
 	display: flex;
 	flex-wrap: wrap;
 	width: 1400px;
-	height: 670px;
-	margin: 250px 0px 0px 400px;
-	overflow-y: scroll;
+	height: 650px;
+	margin: 250px 0px 0px 50px;
+	overflow-y: hidden;
 	-webkit-overflow-scrolling: touch;
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
@@ -435,11 +435,10 @@ input[type=radio]:checked + .checkbox:after {
 	cursor: pointer;
 	background-color: rgba(255, 255, 254,0);
 	transition:.3s;
-	border: 2.5px solid #E02463;
 }
 
 .save_list_item:hover{
-	background-color: rgba(255, 255, 254,0.55);
+	background-color: rgba(255, 255, 254,0.1);
 }
 
 
@@ -447,9 +446,10 @@ input[type=radio]:checked + .checkbox:after {
 .save_list_item_thumb {
 	display: flex;
 	position: relative;
-	top: -10%;
+	top: -14%;
 	left: 4%;
 	width: 365px;
+	height: 200px;
 	margin: 0;
 	padding: 0;
 	background-color: white;
@@ -469,7 +469,7 @@ input[type=radio]:checked + .checkbox:after {
 /* セーブデータのテキスト部文の設定 */
 .save_list_item_area {
 	display: flex;
-	margin-top: -30px;
+	margin-top: 0px;
 	width: 400px;
 	height: 70px;
 	border:none;
@@ -486,13 +486,12 @@ input[type=radio]:checked + .checkbox:after {
 .save_list_item_area1 {
 	display: flex;
 	position: relative;
-	top: 30%;
-	left: -44%;
+	top: 36%;
+	left: -43.5%;
 	width: 214px;
 	height: 30px;
 	border:none;
 	border-radius: 0;
-	background-color: white;
 	background-image: url('images/system/saveslot.png');
 	background-repeat: y-repeat;
 	background-position: right top;
@@ -522,7 +521,7 @@ input[type=radio]:checked + .checkbox:after {
 	width: 380px;
 	margin: 0;
 	padding: 10px 10px 0 10px;
-	font-size: 16px;
+	font-size: 18px;
 	overflow: hidden;
 	box-sizing: border-box;
 	color: white;
@@ -532,23 +531,19 @@ input[type=radio]:checked + .checkbox:after {
  	content: '';
     /*絶対配置で位置を指定*/
  	position: absolute;
- 	top: 12px;
- 	left: -20px;
- 	z-index: -1;
-    /*色や形状*/
-    background-image: url('images/system/back_hover.png');
-    background-size:  auto;
- 	width: 118px;
-	height: 20px;
-    /*アニメーション*/
- 	transition: transform .3s cubic-bezier(0.8, 0, 0.2, 1) 0s;
- 	transform: scale(0, 1);
-	transform-origin: left top;
+ 	top: 40px;
+ 	left: -50px;
+ 	width: 220px;
+ 	height: 40px;
+ 	border-bottom: 3px solid #fff;
+ 	border-left: 4.5px solid #fff;
+ 	transform: skew(135deg);
+ 	transition: 0.3s
 }
 
 .save_close:hover:before{
-	transform-origin:left top;
-	transform:scale(1, 1);
+	width: 260px;
+	left: -90px;
 }
 
 .layer_event_click{
@@ -1055,30 +1050,22 @@ audio {
 	z-index: 2;
 }
 
-.title_item:before {
- 	content: '';
-    /*絶対配置で位置を指定*/
+.title_item:before{
+	content: '';
  	position: absolute;
- 	top: 12px;
- 	left: -20px;
- 	z-index: -1;
-    /*色や形状*/
-    background-image: url("../data/fgimage/title_hover.png");
-    background-size:  auto;
- 	width: 173px;
-	height: 29px;
-    /*アニメーション*/
- 	transition: transform .3s cubic-bezier(0.8, 0, 0.2, 1) 0s;
- 	transform: scale(0, 1);
-	transform-origin: left top;
+ 	top: -25px;
+ 	left: -50px;
+	transition:.3s;
+	width:36px;
+	height:101px;
+	transform:rotate(7deg);
+	opacity:0;
+	background-image: url('images/system/click.png');
 }
 
 .title_item:hover:before{
-	transform-origin:left top;
-	transform:scale(1, 1);
+	opacity:1;
 }
-  
-
 
 #top {
 	margin: 0;

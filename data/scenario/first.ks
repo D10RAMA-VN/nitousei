@@ -28,6 +28,5 @@
 ;[mask_off time=100]
 
 
-;@jump storage="title.ks"
-@jump storage=scene1.ks
+@jump storage="title.ks"
 [s]
