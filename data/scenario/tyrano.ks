@@ -74,10 +74,14 @@ tf.savetext = "<span style='font-size:10px'>"+tf.save_date+"</span><br />"+tf.ti
 
 [endmacro]
 
+;北斗
+[macro name="hokuto"][chara_show name="hokuto" storage="hokuto_win/mu.png" page="%page|fore" top="%top|20" left="%left" time="%time|700" width="%width|1000" wait="%wait|true"][endmacro]
 
-[macro name="hokuto"][chara_show name="hokuto" storage="hokuto/hokuto1.png" page="%page|fore" top="%top|20" left="%left" time="%time|700" width="%width|1000" wait="%wait|true"][endmacro]
+;美波
+[macro name="minami"][chara_show name="minami" storage="minami_win/magao.png" page="%page|fore" top="%top|20" left="%left" time="%time|700" width="%width|1000" wait="%wait|true"][endmacro]
 
-[macro name="minami"][chara_show name="minami" storage="minami/minami1.png" page="%page|fore" top="%top|20" left="%left" time="%time|700" width="%width|1000" wait="%wait|true"][endmacro]
+;清二
+[macro name="seizi"][chara_show name="hokuto" storage="seizi/mu.png" page="%page|fore" top="%top|20" left="%left" time="%time|700" width="%width|1000" wait="%wait|true"][endmacro]
 
 
 [macro name="haruya"][chara_show name="haruya" storage="%storage|haruya/haruya1.png" page="%page|fore" top="370" left="-330" time="%time|700" zindex="200" layer="message0"][endmacro]
@@ -108,7 +112,7 @@ tf.savetext = "<span style='font-size:10px'>"+tf.save_date+"</span><br />"+tf.ti
 ;メッセージボックス
 [macro name="M0"]
 [position layer="message0" left=0 top=790 width=1920 height=290 opacity=&sf.mopacity frame="ui/frame.png" page=fore visible=true]
-[position layer="message0" page=fore margint="30" marginl="400" marginr="250" marginb="50"]
+[position layer="message0" page=fore margint="15" marginl="390" marginr="220" marginb="50"]
 [endmacro]
 
 [macro name="trans_in"]

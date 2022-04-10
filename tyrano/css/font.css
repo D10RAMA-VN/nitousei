@@ -38,3 +38,9 @@
 	src:url("../../data/others/AppliMincho/AppliMincho.otf") format("opentype");
 	font-weight:bold;font-style:normal;
 }
+
+@font-face {
+	font-family:"ubuntu-italic";
+	src:url("../../data/others/Ubuntu/Ubuntu-BoldItalic.ttf") format("truetype");
+	font-weight:bold;font-style:normal;
+}

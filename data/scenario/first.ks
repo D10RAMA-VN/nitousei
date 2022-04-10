@@ -6,12 +6,12 @@
 [plugin name="backlog"]	
 @call storage="backlog.ks"
 
-[chara_new  name="hokuto" storage="hokuto/hokuto1.png" width=900 jname="北斗" color=000]
-[chara_new  name="minami" storage="minami/minami1.png" width=1200 jname="美波" color=000]
-[chara_new  name="seizi" storage="seizi/seizi1.png" width=900 jname="清二" color=000]
-[chara_new  name="nanao" storage="hokuto/hokuto1.png" width=900 jname="七音" color=000]
-[chara_new  name="kaname" storage="hokuto/hokuto1.png" width=900 jname="奏女" color=000]
-[chara_new  name="reito" storage="hokuto/hokuto1.png" width=900 jname="令人" color=000]
+[chara_new  name="hokuto" storage="hokuto_win/mu.png" width=900 jname="北斗" color=#EA580C]
+[chara_new  name="minami" storage="minami_win/magao.png" width=1200 jname="美波" color=#0299E3]
+[chara_new  name="seizi" storage="seizi/mu.png" width=900 jname="清二" color=#E11D48]
+[chara_new  name="nanao" storage="hokuto_win/mu.png" width=900 jname="七音" color=#E3CC02]
+[chara_new  name="kaname" storage="hokuto_win/mu.png" width=900 jname="奏女" color=#E63CB0]
+[chara_new  name="reito" storage="hokuto_win/mu.png" width=900 jname="令人" color=#0ACC62]
 
 [glyph fix=true left=1750 top=880]
 

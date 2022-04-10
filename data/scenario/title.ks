@@ -78,11 +78,11 @@ $('#title_quit').click(function(){tyrano.plugin.kag.ftag.startTag("close")});
 
 
 *gamestart
-
+[html]
+<img src="data/bgimage/black.png" style="width:1920px;height:1080px;" class="fadein">
+[endhtml]
 [wait time=500]
 
 @jump storage="scene1.ks"
 
 [s]
-
-

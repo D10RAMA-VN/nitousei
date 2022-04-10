@@ -1,65 +1,66 @@
 <div>
 
- 
 	<div style='clear:both'></div>
-	<img class="img_bg_base" src="tyrano/images/system/config_bg_new.png" style="z-index:-1;left:0;top:0;width:100%;height:100%;position:absolute;">
+	<img class="img_bg_base" src="tyrano/images/system/bg.png" style="z-index:-1;left:0;top:0;width:100%;height:100%;position:absolute;">
 
 <div class='tabs'>
   <div class='tab-buttons'>
-    <span class='content1' style="margin-left:105px;padding-top:10px;transition: .3s;">設定</span>
-    <span class='content2' style="padding-top:10px;transition: .3s;">ボイス</span> 
-    <div id='lamp' class='content1 lamp'></div>
+    <span class='content1' style="margin-left:100px;padding-top:17px;border:solid;transition: .3s;">一般設定</span>
+    <span class='content2' style="padding-top:17px;margin-left:-12px;border:solid;transition: .3s;">ボイス設定</span> 
   </div>
   
   <div class='tab-content'>
    <div class='content1'>
 	<div class="config_body">
-			<div class="range">
-				<p><span id="spanbgm" style="display:inline-block;margin-top:25px;">50</span></p>
-				<input type="range" id="bgm_volume" min="0" max="100" step="1" value="50" style="left:125px;top:50px;position:absolute;">
+			<div class="range"> 
+				<p><span id="master" style="display:inline-block;margin-top:50px;margin-left:-200px;width:300px;text-align:right;">マスター音量</span></p>
+				<input type="range" id="master_volume" min="0" max="100" step="1" value="50" style="left:125px;top:70px;position:absolute;">
 			</div>
 			<div class="range">
-				<span id="spanse" style="display:inline-block;margin-top:25px;"></span>
-				<input type="range" id="se_volume" min="0" max="100" value="20" step="1" style="left:125px;top:120px;position:absolute;">
+				<p><span style="display:inline-block;margin-top:25px;margin-left:-200px;width:300px;text-align:right;">BGM音量</span></p>
+				<input type="range" id="bgm_volume" min="0" max="100" step="1" value="50" style="left:125px;top:142px;position:absolute;">
 			</div>
 			<div class="range">
-				<span id="spantext" style="display:inline-block;margin-top:21px;"></span>
-				<input type="range" id="text_speed" min="-100" max="0" value="-30" step="1" style="left:125px;top:188px;position:absolute;">
+				<span style="display:inline-block;margin-top:25px;margin-left:-200px;width:300px;text-align:right;">SE音量</span>
+				<input type="range" id="se_volume" min="0" max="100" value="20" step="1" style="left:125px;top:215px;position:absolute;">
+			</div>
+			<div class="range"> 
+				<p><span style="display:inline-block;margin-top:25.5px;margin-left:-200px;width:300px;text-align:right;">ボイス音量</span></p>
+				<input type="range" id="vo_volume" min="0" max="100" step="1" value="50" style="left:125px;top:285px;position:absolute;">
 			</div>
 			<div class="range">
-				<span id="spanauto" style="display:inline-block;margin-top:22px;"></span>
-				<input type="range" id="auto_speed" min="-5000" max="-500" value="-1300" step="100" style="left:125px;top:257px;position:absolute;">
+				<span style="display:inline-block;margin-top:65px;margin-left:-200px;width:300px;text-align:right;">テキスト速度</span>
+				<input type="range" id="text_speed" min="-100" max="0" value="-30" step="1" style="left:125px;top:405px;position:absolute;">
 			</div>
-			<div class="unread_area" id="unread_check" style="left:300px;top:300px;position:absolute;">
+			<div class="range">
+				<span style="display:inline-block;margin-top:25px;margin-left:-200px;width:300px;text-align:right;">オートモード速度</span>
+				<input type="range" id="auto_speed" min="-5000" max="-500" value="-1300" step="100" style="left:125px;top:475px;position:absolute;">
+			</div>
+			<span style="display:inline-block;margin-top:25px;margin-left:-200px;width:300px;text-align:right;">未読スキップ</span>
+            <div class="unread_area" id="unread_check" style="left:60px;top:520px;position:absolute;font-family:ubuntu-italic;">
                 <input type="radio" name="unread_skip" id="unreadon">
-                <label for="unreadon" class="checkbox c1" style="padding:28px 80px 28px 0px;left:-180px;"></label>
+                <label for="unreadon">ON</label>
                 <input type="radio" name="unread_skip" id="unreadoff">
-                <label for="unreadoff" class="checkbox c2" style="left:-120px;width:100px;"></label>
+                <label for="unreadoff">OFF</label>
             </div>
-            <div id="fullscreen" style="position:absolute;top:350px;">FullScreen</div>
 	</div>
    </div>
    <div class='content2'>
 	<div class="config_body">
-			<div class="range"> 
-				<p><span id="vo" style="display:inline-block;margin-top:25px;">50</span></p>
-				<input type="range" id="vo_volume" min="0" max="100" step="1" value="50" style="left:125px;top:50px;position:absolute;">
-			</div>
 			<div class="range">
 				<p><span id="vo1" style="display:inline-block;margin-top:25px;">50</span></p>
 				<input type="range" id="vo1_volume" min="0" max="100" step="1" value="50" style="left:125px;top:120px;position:absolute;">
-			</div>
-			<div class="range">
-				<p><span id="mopacity" style="display:inline-block;margin-top:25px;">50</span></p>
-				<input type="range" id="mo_volume" min="0" max="255" step="1" value="50" style="left:125px;top:190px;position:absolute;">
 			</div>
 	</div>
    </div>
   </div>
 </div>
 	
-	<div class="menu_close config_back" style="left:100px;top:900px;position:absolute;cursor:pointer;">
-	  <img src="tyrano/images/system/back_system.png" alt="" class="non">
+	<div style="position:absolute;top:0px;width:50px;height:100%;background:linear-gradient(#0C008A, #007882);"></div>
+	<img src="tyrano/images/system/title_setting.png" style="left:130px;top:80px;position:absolute;">
+	<img src="tyrano/images/system/logo_h.png" style="width:600px;left:1200px;top:50px;position:absolute;">
+	<div class="menu_close save_close" style="left:240px;top:950px;position:absolute;cursor:pointer;">
+	  <img src="tyrano/images/system/back_button.png" alt="" class="non">
 	</div>
 	
 <script>
@@ -178,8 +179,6 @@ $('.tab-content>div').first().slideDown();
 			});
 	   });
 	</script>
-
-
 
 
 
