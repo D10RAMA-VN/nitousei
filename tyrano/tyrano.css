@@ -559,8 +559,8 @@ input[type=radio]:checked + .checkbox:after {
  	left: -50px;
  	width: 220px;
  	height: 40px;
- 	border-bottom: 3px solid #fff;
- 	border-left: 4.5px solid #fff;
+ 	border-bottom: 3px solid #606589;
+ 	border-left: 4.5px solid #606589;
  	transform: skew(135deg);
  	transition: 0.3s
 }
@@ -568,6 +568,8 @@ input[type=radio]:checked + .checkbox:after {
 .save_close:hover:before{
 	width: 260px;
 	left: -90px;
+	border-bottom: 3px solid #007882;
+ 	border-left: 4.5px solid #007882;
 }
 
 .layer_event_click{
@@ -586,7 +588,22 @@ input[type=radio]:checked + .checkbox:after {
     cursor:pointer;
 }
 
+.pagenumber{
+	cursor:pointer;
+	position:absolute;
+	top:950px;
+	height:70px;
+	width:70px;
+	border-radius:50%;
+}
 
+.pagenumber_active{
+	background-color:#007882;
+}
+
+#slot1,#slot2,#slot3,#slot4,#slot5{
+	margin:25%;
+}
 
 
 /*
