@@ -5,8 +5,8 @@
 
 <div class='tabs'>
   <div class='tab-buttons'>
-    <span class='content1' style="margin-left:100px;padding-top:17px;border:solid;transition: .3s;">一般設定</span>
-    <span class='content2' style="padding-top:17px;margin-left:-12px;border:solid;transition: .3s;">ボイス設定</span> 
+    <span class='content1' style="margin-left:100px;padding-top:17px;border-top:solid;border-left:solid;border-right:solid;transition: .3s;">一般設定</span>
+    <span class='content2' style="padding-top:17px;margin-left:-12px;border-top:solid;border-right:solid;transition: .3s;">ボイス設定</span> 
   </div>
   
   <div class='tab-content'>
@@ -48,7 +48,7 @@
    <div class='content2'>
 	<div class="config_body">
 			<div class="range">
-				<p><span id="vo1" style="display:inline-block;margin-top:25px;">50</span></p>
+				<p><span style="display:inline-block;margin-top:25px;">ボイス１</span></p>
 				<input type="range" id="vo1_volume" min="0" max="100" step="1" value="50" style="left:125px;top:120px;position:absolute;">
 			</div>
 	</div>
@@ -56,6 +56,11 @@
   </div>
 </div>
 	
+	
+	<div class="border1" style="position:absolute;top:299px;left:687px;width:960px;height:620px;border-top:solid white;border-right:solid white;border-bottom:solid white;z-index:-1;"></div>
+	<div class="border2" style="position:absolute;top:298px;left:300px;width:390px;height:622px;border-left:solid white;border-bottom:solid white;"></div>
+	<div class="border3" style="position:absolute;top:299px;left:300px;width:195px;height:622px;border-top:solid white;display:none;"></div>
+	<div class="border4" style="position:absolute;top:299px;left:494px;width:193px;height:622px;border-top:solid white;"></div>
 	<div style="position:absolute;top:0px;width:50px;height:100%;background:linear-gradient(#0C008A, #007882);"></div>
 	<img src="tyrano/images/system/title_setting.png" style="left:130px;top:80px;position:absolute;">
 	<img src="tyrano/images/system/logo_h.png" style="width:600px;left:1200px;top:50px;position:absolute;">
@@ -129,6 +134,15 @@ $(function () {
 				tyrano.plugin.kag.variable.sf.mopacity=$(this).val();
 				$('.message_outer').css('opacity',tyrano.plugin.kag.variable.sf.mopacity/255);
 			});
+});
+
+$('.content1').on('click',function(){
+	$('.border3').hide();
+	$('.border4').show();
+});
+$('.content2').on('click',function(){
+	$('.border4').hide();
+	$('.border3').show();
 });
 
 $('.tab-content>div').hide();
