@@ -589,6 +589,7 @@ input[type=radio]:checked + .checkbox:after {
 	margin: 0;
 	padding: 10px 10px 0 10px;
 	font-size: 18px;
+	font-family:Ubuntu;
 	overflow: hidden;
 	box-sizing: border-box;
 	color: white;

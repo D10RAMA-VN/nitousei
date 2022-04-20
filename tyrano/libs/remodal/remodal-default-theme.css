@@ -61,7 +61,12 @@
   
   font-family: applimincho;
   color: #fff;
-  background: #000;
+  background: #1A1A24;
+  border-radius:100vh;
+}
+
+.remodal_title{
+	color: #5F6587;
 }
 
 .remodal.remodal-is-opening,
@@ -163,36 +168,35 @@
 
 .remodal-confirm {
   color: #fff;
-  font-size: 12px;
-  border-radius:10px;
-  background: #333333;
+  font-size: 16px;
+  font-weight:500;
+  font-family:Yu Gothic;
+  background: #1A1A24;
   position: relative;
   margin-right: 10px;
 }
 
-.remodal-confirm:hover,
-.remodal-confirm:focus {
-  }
+.remodal-confirm:before,
+.remodal-cancel:before {
+    content:'';
+	position:absolute;
+	left:0px;
+	top:8px;
+	width:9px;
+	height:25px;
+	opacity:0;
+	background-size:cover;
+	background-image:url('../../images/system/click.png');
+	transition:.3s;
+}
 
-.remodal-confirm:hover::before,
-.remodal-cancel:hover::before {
-    content: '';
-    /*絶対配置で波形の位置を決める*/
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    /*波形の形状*/
-    border: 1.5px solid #FFF;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    /*はじめは不透明*/
+.remodal-cancel:before{
+	margin-left:-8px;
+}
+
+.remodal-confirm:hover:before,
+.remodal-cancel:hover:before {
 	opacity:1;
-    /*アニメーションの設定*/
-    animation:1s circleanime forwards;
 }
 
 @keyframes circleanime{
@@ -207,9 +211,10 @@
 
 .remodal-cancel {
   color: #fff;
-  font-size: 12px;
-  border-radius:10px;
-  background: #333333;
+  font-size: 16px;
+  font-weight:500;
+  font-family:Yu Gothic;
+  background: #1A1A24;
   position: relative;
   margin-left: 10px;
 }
@@ -345,7 +350,8 @@
 
 @media only screen and (min-width: 641px) {
   .remodal {
-    max-width: 700px;
+    max-width: 330px;
+    max-height: 130px;
   }
 }
 
