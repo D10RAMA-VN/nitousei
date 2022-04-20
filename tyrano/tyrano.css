@@ -201,7 +201,9 @@ abbr,acronym{
 }
 
 .backlog_chara_name{
-	width:130px;
+	width:50px;
+	height:30px;
+	float:left;
 }
 
 .display_menu .button:first-child {margin-top:0;}
@@ -580,7 +582,7 @@ input[type=radio]:checked + .checkbox:after {
 
 /* セーブデータのテキストの設定 */
 .save_list_item_text {
-	display: flex;
+	display: block;
 	vertical-align: middle;
 	height: 65px;
 	width: 380px;
