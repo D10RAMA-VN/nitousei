@@ -317,7 +317,7 @@ tyrano.plugin.kag.ftag = {
   start: function () {
     var t = this,
       a = this.kag.getMessageInnerLayer(),
-      e = a.find("p").find(".current_span").html() + "<br />";
+      e = a.find("p").find(".current_span").html() + "<br >";
     a.find("p").find(".current_span").html(e), setTimeout(function () {
       t.kag.ftag.nextOrder()
     }, 5)

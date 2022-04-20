@@ -13,6 +13,8 @@
 [chara_new  name="kaname" storage="hokuto_win/mu.png" width=900 jname="奏女" color=#E63CB0]
 [chara_new  name="reito" storage="hokuto_win/mu.png" width=900 jname="令人" color=#0ACC62]
 
+[voconfig sebuf=4 name="kaname" vostorage="kaname/k_{number}.ogg" number=1 ]
+
 [glyph fix=true left=1750 top=880]
 
 @call storage="tyrano.ks"
