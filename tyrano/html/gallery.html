@@ -11,9 +11,9 @@
     
     <div class='content1' style="display:flex;">
       <img src="data/bgimage/still_kansoku.png" style="width:500px;margin:25px 0 0 30px;" id="chapbg">
-      <div id="chaptertitle" style="font-family:ubuntu;">prologue</div>
+      <div id="chaptertitle" style="font-family:ubuntu;">Prologue</div>
       <div id="summary">ふたりでひとつの傘に入りながら、ともに帰路を歩む春也と先輩。やがて先輩と別れひとりになる春也だったが、その背後には巨大な魚影が忍び寄っていた。</div>
-      <div id="chapterbutton">チャプターへ移動</div>
+      <div id="chapterbutton" class="prologue">チャプターへ移動</div>
       <div class="chapterchoice">
         <img src="tyrano/html/star.png" id="prologue" class="chap">
         <img src="tyrano/html/star.png" id="chapter2" class="chap">
@@ -96,156 +96,145 @@ $('.tab-content>div').first().slideDown();
     });
   });
 
-$('#prologue').hover(
+$('#prologue').click(
   function(){
     $('#chaptertitle').text('Prologue');
     $('#summary').text('ふたりでひとつの傘に入りながら、ともに帰路を歩む春也と先輩。やがて先輩と別れひとりになる春也だったが、その背後には巨大な魚影が忍び寄っていた。');
     $('#chapbg').attr('src','data/bgimage/still_kansoku.png');
-  },function(){
-});
-$('#chapter1').hover(
+    $('#chapterbutton').removeClass().addClass('prologue');
+  });
+$('#chapter1').click(
   function(){
     $('#chaptertitle').text('Chapter1');
     $('#summary').text('ふたりでひとつの傘に入りながら、ともに帰路を歩む春也と先輩。やがて先輩と別れひとりになる春也だったが、その背後には巨大な魚影が忍び寄っていた。');
     $('#chapbg').attr('src','data/bgimage/still_kansoku.png');
-  },function(){
-});
-$('#chapter2').hover(
+    $('#chapterbutton').removeClass().addClass('chapter1');
+  });
+$('#chapter2').click(
   function(){
     $('#chaptertitle').text('Chapter2');
     $('#summary').text('ふたりでひとつの傘に入りながら、ともに帰路を歩む春也と先輩。やがて先輩と別れひとりになる春也だったが、その背後には巨大な魚影が忍び寄っていた。');
     $('#chapbg').attr('src','data/bgimage/still_kansoku.png');
-  },function(){
-});
-$('#chapter3').hover(
+    $('#chapterbutton').removeClass().addClass('chapter2');
+  });
+$('#chapter3').click(
   function(){
     $('#chaptertitle').text('Chapter3');
     $('#summary').text('ふたりでひとつの傘に入りながら、ともに帰路を歩む春也と先輩。やがて先輩と別れひとりになる春也だったが、その背後には巨大な魚影が忍び寄っていた。');
     $('#chapbg').attr('src','data/bgimage/still_kansoku.png');
-  },function(){
-});
-$('#chapter4').hover(
+    $('#chapterbutton').removeClass().addClass('chapter3');
+  });
+$('#chapter4').click(
   function(){
     $('#chaptertitle').text('Chapter4');
     $('#summary').text('ふたりでひとつの傘に入りながら、ともに帰路を歩む春也と先輩。やがて先輩と別れひとりになる春也だったが、その背後には巨大な魚影が忍び寄っていた。');
     $('#chapbg').attr('src','data/bgimage/still_kansoku.png');
-  },function(){
-});
-$('#chapter5').hover(
+    $('#chapterbutton').removeClass().addClass('chapter4');
+  });
+$('#chapter5').click(
   function(){
     $('#chaptertitle').text('Chapter5');
     $('#summary').text('ふたりでひとつの傘に入りながら、ともに帰路を歩む春也と先輩。やがて先輩と別れひとりになる春也だったが、その背後には巨大な魚影が忍び寄っていた。');
     $('#chapbg').attr('src','data/bgimage/still_kansoku.png');
-  },function(){
-});
-$('#chapter6').hover(
+    $('#chapterbutton').removeClass().addClass('chapter5');
+  });
+$('#chapter6').click(
   function(){
     $('#chaptertitle').text('Chapter6');
     $('#summary').text('ふたりでひとつの傘に入りながら、ともに帰路を歩む春也と先輩。やがて先輩と別れひとりになる春也だったが、その背後には巨大な魚影が忍び寄っていた。');
     $('#chapbg').attr('src','data/bgimage/still_kansoku.png');
-  },function(){
-});
-$('#chapter7').hover(
+    $('#chapterbutton').removeClass().addClass('chapter6');
+  });
+$('#chapter7').click(
   function(){
     $('#chaptertitle').text('Chapter7');
     $('#summary').text('ふたりでひとつの傘に入りながら、ともに帰路を歩む春也と先輩。やがて先輩と別れひとりになる春也だったが、その背後には巨大な魚影が忍び寄っていた。');
     $('#chapbg').attr('src','data/bgimage/still_kansoku.png');
-  },function(){
-});
-$('#chapter8').hover(
+    $('#chapterbutton').removeClass().addClass('chapter7');
+  });
+$('#chapter8').click(
   function(){
     $('#chaptertitle').text('Chapter8');
     $('#summary').text('ふたりでひとつの傘に入りながら、ともに帰路を歩む春也と先輩。やがて先輩と別れひとりになる春也だったが、その背後には巨大な魚影が忍び寄っていた。');
     $('#chapbg').attr('src','data/bgimage/still_kansoku.png');
-  },function(){
-});
-$('#chapter9').hover(
+    $('#chapterbutton').removeClass().addClass('chapter8');
+  });
+$('#chapter9').click(
   function(){
     $('#chaptertitle').text('Chapter9');
     $('#summary').text('ふたりでひとつの傘に入りながら、ともに帰路を歩む春也と先輩。やがて先輩と別れひとりになる春也だったが、その背後には巨大な魚影が忍び寄っていた。');
     $('#chapbg').attr('src','data/bgimage/still_kansoku.png');
-  },function(){
-});
-$('#epilog').hover(
+    $('#chapterbutton').removeClass().addClass('chapter9');
+  });
+$('#epilog').click(
   function(){
     $('#chaptertitle').text('Epilog');
     $('#summary').text('ふたりでひとつの傘に入りながら、ともに帰路を歩む春也と先輩。やがて先輩と別れひとりになる春也だったが、その背後には巨大な魚影が忍び寄っていた。');
     $('#chapbg').attr('src','data/bgimage/still_kansoku.png');
-  },function(){
-});
+    $('#chapterbutton').removeClass().addClass('epilog');
+  });
 
-$('#prologue').click(
-  function(){
+$('.content1').on('click','.prologue',function(){
     tyrano.plugin.kag.ftag.startTag("jump",{storage:"prologue.ks"}),
     $('.layer_menu').fadeOut(200, function () {
           $('.layer_menu').empty()
        })
 });
-$('#chapter1').click(
-  function(){
+$('.content1').on('click','.chapter1',function(){
     tyrano.plugin.kag.ftag.startTag("jump",{storage:"scene1.ks"}),
     $('.layer_menu').fadeOut(200, function () {
           $('.layer_menu').empty()
        })
 });
-$('#chapter2').click(
-  function(){
+$('.content1').on('click','.chapter2',function(){
     tyrano.plugin.kag.ftag.startTag("jump",{storage:"scene2.ks"}),
     $('.layer_menu').fadeOut(200, function () {
           $('.layer_menu').empty()
        })
 });
-$('#chapter3').click(
-  function(){
+$('.content1').on('click','.chapter3',function(){
     tyrano.plugin.kag.ftag.startTag("jump",{storage:"scene3.ks"}),
     $('.layer_menu').fadeOut(200, function () {
           $('.layer_menu').empty()
        })
 });
-$('#chapter4').click(
-  function(){
+$('.content1').on('click','.chapter4',function(){
     tyrano.plugin.kag.ftag.startTag("jump",{storage:"scene4.ks"}),
     $('.layer_menu').fadeOut(200, function () {
           $('.layer_menu').empty()
        })
 });
-$('#chapter5').click(
-  function(){
+$('.content1').on('click','.chapter5',function(){
     tyrano.plugin.kag.ftag.startTag("jump",{storage:"scene5.ks"}),
     $('.layer_menu').fadeOut(200, function () {
           $('.layer_menu').empty()
        })
 });
-$('#chapter6').click(
-  function(){
+$('.content1').on('click','.chapter6',function(){
     tyrano.plugin.kag.ftag.startTag("jump",{storage:"scene6.ks"}),
     $('.layer_menu').fadeOut(200, function () {
           $('.layer_menu').empty()
        })
 });
-$('#chapter7').click(
-  function(){
+$('.content1').on('click','.chapter7',function(){
     tyrano.plugin.kag.ftag.startTag("jump",{storage:"scene7.ks"}),
     $('.layer_menu').fadeOut(200, function () {
           $('.layer_menu').empty()
        })
 });
-$('#chapter8').click(
-  function(){
+$('.content1').on('click','.chapter8',function(){
     tyrano.plugin.kag.ftag.startTag("jump",{storage:"scene8.ks"}),
     $('.layer_menu').fadeOut(200, function () {
           $('.layer_menu').empty()
        })
 });
-$('#chapter9').click(
-  function(){
+$('.content1').on('click','.chapter9',function(){
     tyrano.plugin.kag.ftag.startTag("jump",{storage:"scene9.ks"}),
     $('.layer_menu').fadeOut(200, function () {
           $('.layer_menu').empty()
        })
 });
-$('#epilog').click(
-  function(){
+$('.content1').on('click','.epilog',function(){
     tyrano.plugin.kag.ftag.startTag("jump",{storage:"epilog.ks"}),
     $('.layer_menu').fadeOut(200, function () {
           $('.layer_menu').empty()
