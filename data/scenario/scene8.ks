@@ -1,3 +1,19 @@
+*start
+[cm]
+[clearfix]
+[start_keyconfig]
+[fadeoutbgm time=300]
+[wait time=500]
+[mask time=500]
+[bg storage="black.png" time="500"]
+[rolebutton]
+[M0]
+@layopt layer=message0 visible=true
+[ptext name="chara_name_area" layer="message0" color="white" size=50 bold=true x=350 y=750 face="NotoBlack"]
+[wait time=500]
+[mask_off time=1000]
+
+
 *chapter8
 #
 翌日。オレと美波は放課後、来瀬総合病院に直行した。[p]
@@ -195,4 +211,4 @@
 #北斗
 「爺さん…嘘が下手だって自分で言ってるのに、そういう言い方すんなよ…[r]　ばれるような嘘、つかないでくれよ…」[p]
 
-@jump storage="scene9.ks"
+@jump storage="scene9.ks" target=*chapter9

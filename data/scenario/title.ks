@@ -40,19 +40,19 @@ if(typeof sf.vo1_vol!="undefined"){tf.vo1_vol=sf.vo1_vol}else{tf.vo1_vol=100}
 
 
 
-<div id="title_start" class="title_item" style="left:1450px;top:420px;position:absolute;cursor:pointer;">
+<div id="title_start" class="title_item" style="top:420px;">
 	<img src="data/image/title_start.png" alt="" class="non">
 </div>
-<div id="title_load" class="title_item" style="left:1450px;top:540px;position:absolute;cursor:pointer;">
+<div id="title_load" class="title_item" style="top:540px;">
 	<img src="data/image/title_load.png" alt="" class="non">
 </div>
-<div id="title_config" class="title_item" style="left:1450px;top:660px;position:absolute;cursor:pointer;">
+<div id="title_config" class="title_item" style="top:660px;">
 	<img src="data/image/title_settings.png" alt="" class="non">
 </div>
-<div id="title_gallery" class="title_item" style="left:1450px;top:780px;position:absolute;cursor:pointer;">
+<div id="title_gallery" class="title_item menu_gallery" style="top:780px;">
 	<img src="data/image/title_gallery.png" alt="" class="non">
 </div>
-<div id="title_quit" class="title_item" style="left:1450px;top:900px;position:absolute;cursor:pointer;">
+<div id="title_quit" class="title_item" style="top:900px;">
 	<img src="data/image/title_quit.png" alt="" class="non">
 </div>
 
@@ -67,7 +67,7 @@ if(typeof sf.vo1_vol!="undefined"){tf.vo1_vol=sf.vo1_vol}else{tf.vo1_vol=100}
 $('#title_start').click(function(){tyrano.plugin.kag.ftag.startTag("jump",{target:"gamestart"})});
 $('#title_load').click(function(){tyrano.plugin.kag.ftag.startTag("showload")});
 $('#title_config').click(function(){tyrano.plugin.kag.ftag.startTag("showconfig")});
-$('#title_gallery').click(function(){tyrano.plugin.kag.ftag.startTag("jump",{storage:"cg.ks",target:"start"})});
+$('#title_gallery').click(function(){tyrano.plugin.kag.ftag.startTag("showgallery")});
 $('#title_quit').click(function(){tyrano.plugin.kag.ftag.startTag("close")});
 
 </script>
@@ -83,6 +83,6 @@ $('#title_quit').click(function(){tyrano.plugin.kag.ftag.startTag("close")});
 [endhtml]
 [wait time=500]
 
-@jump storage="scene1.ks"
+@jump storage="prologue.ks"
 
 [s]

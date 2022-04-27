@@ -942,7 +942,7 @@ audio {
 .tab-buttons span{
   font-size:32px;
   font-weight:bold;
-  font-family:applimincho;
+  font-family:Noto;
   cursor:pointer;
   display:block;
   width:20%;
@@ -963,23 +963,43 @@ audio {
 }
 
 #chaptertitle{
-	font-size: 22px;
-	font-family:applimincho;
-	margin: 7px 0 7px 30px;
+	font-size: 50px;
+	margin: 20px 0 0 50px;
 }
 
 #summary{
-	font-size: 16px;
-	font-family:applimincho;
+	position: absolute;
+	top: 120px;
+	left: 590px;
+	font-size: 22px;
+	font-family: Noto;
 	width: 380px;
-	overflow: hidden;
-	margin-left: 15px;
+	text-align:left;
+}
+
+#chapterbutton{
+	position:absolute;
+	top:280px;
+	left:900px;
+	background:gray;
+	border-radius:50vh;
+	text-align:center;
+	padding-top:8px;
+	width:250px;
+	height:40px;
+	cursor:pointer;
 }
 
 .chapterchoice{
 	position:absolute;
-	top:60px;
-	left:500px;
+	top:370px;
+	left:200px;
+}
+
+.chapterchoice2{
+	position:absolute;
+	top:500px;
+	left:290px;
 }
 
 .chapterA{
@@ -995,42 +1015,9 @@ audio {
 }
 
 .chap{
-	padding-left:5px; 
-	font-size:20px;
-	font-family:applimincho;
-	margin-bottom:17px;
-	border-left: solid rgba(0, 0, 0,0);
-	border-width:4px;
+	width:60px;
+	margin-right:100px;
 	cursor:pointer;
-	transition: .3s;
-}
-
-#chapter1{
-	border-left: solid rgba(0, 0, 0,1);
-	border-width:4px;
-}
-
-.cg_back:before {
- 	content: '';
-    /*絶対配置で位置を指定*/
- 	position: absolute;
- 	top: 12px;
- 	left: -20px;
- 	z-index: -1;
-    /*色や形状*/
-    background-image: url("../tyrano/images/system/back_hover.png");
-    background-size:  auto;
- 	width: 118px;
-	height: 20px;
-    /*アニメーション*/
- 	transition: transform .3s cubic-bezier(0.8, 0, 0.2, 1) 0s;
- 	transform: scale(0, 1);
-	transform-origin: left top;
-}
-
-.cg_back:hover:before{
-	transform-origin:left top;
-	transform:scale(1, 1);
 }
 
 
@@ -1084,28 +1071,12 @@ audio {
 	z-index: 2;
 }
 
-#title_config{
-    position: relative;
-}
 
-#title_config .non{
-	z-index: 2;
-}
 
-#title_gallery{
-    position: relative;
-}
-
-#title_gallery .non{
-	z-index: 2;
-}
-
-#title_quit{
-    position: relative;
-}
-
-#title_quit .non{
-	z-index: 2;
+.title_item{
+	position:absolute;
+	left:1450px;
+	cursor:pointer;
 }
 
 .title_item:before{

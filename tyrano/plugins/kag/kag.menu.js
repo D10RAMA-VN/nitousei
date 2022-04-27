@@ -27,6 +27,8 @@ tyrano.plugin.kag.menu = {
         1 != n && (n = !0, a.displaySave(), t.stopPropagation())
       }), e.find(".menu_load").click(function (t) {
         1 != n && (n = !0, a.displayLoad(), t.stopPropagation())
+      }), e.find(".menu_gallery").click(function (t) {
+        1 != n && (n = !0, a.displayGallery(), t.stopPropagation())
       }), e.find(".menu_config").click(function (t) {
         e.hide(),1 != n && (n = !0, tyrano.plugin.kag.ftag.startTag("sleepgame",{storage:"config.ks",next:false}))
       }), e.find(".menu_log").click(function (t) {
@@ -39,6 +41,24 @@ tyrano.plugin.kag.menu = {
     })
   },
   
+  displayGallery: function (t) {
+    var a = this;
+    this.kag.stat.is_skip = !1;
+    var layer_menu = a.kag.layer.getMenuLayer();
+    this.kag.html("gallery", {
+      novel: $.novel
+    }, function (q) {
+      var n = $(q);
+      n.find(".menu_back_title").click(function () {
+        a.kag.backTitle()
+      }),
+      "pc" != $.userenv() && (n.find(".button_smart").show(), n.find(".button_arrow_up").click(function () {
+      }));
+      var layer_menu = a.kag.layer.getMenuLayer();
+      a.setMenu(n, t)
+    })
+  },
+  
    displayConfig: function (t) {
     var a = this;
     this.kag.stat.is_skip = !1;
@@ -47,15 +67,10 @@ tyrano.plugin.kag.menu = {
       novel: $.novel
     }, function (w) {
       var n = $(w);
-       n.find(".menu_load").click(function (t) {
-         a.displayLoad(), w.fadeOut(function () {
+      n.find(".menu_gallery").click(function () {
+         w.fadeOut(200, function () {
           n.empty()
-        })
-      }),
-      n.find(".menu_save").click(function (t) {
-        a.displaySave(), w.fadeOut(function () {
-          n.empty()
-        })
+        }),a.displayGallery();
       }),
       n.find(".menu_back_title").click(function () {
         a.kag.backTitle()

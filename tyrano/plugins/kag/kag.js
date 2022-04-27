@@ -160,7 +160,8 @@ tyrano.plugin.kag = {
       load: "./tyrano/html/load.html",
       backlog: "./tyrano/html/backlog.html",
       menu: "./tyrano/html/menu.html",
-      config: "./tyrano/html/config.html"
+      config: "./tyrano/html/config.html",
+      gallery:"./tyrano/html/gallery.html"
     },
     chara_pos_mode: "true",
     chara_effect: "swing",

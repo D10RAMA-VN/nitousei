@@ -1,3 +1,18 @@
+*start
+[cm]
+[clearfix]
+[start_keyconfig]
+[fadeoutbgm time=300]
+[wait time=500]
+[mask time=500]
+[bg storage="black.png" time="500"]
+[rolebutton]
+[M0]
+@layopt layer=message0 visible=true
+[ptext name="chara_name_area" layer="message0" color="white" size=50 bold=true x=350 y=750 face="NotoBlack"]
+[wait time=500]
+[mask_off time=1000]
+
 *chapter7
 #
 [bg storage="class.jpg" time="500"]
@@ -542,4 +557,4 @@
 #北斗
 「はい。ありがとうございます。」[p]
 
-@jump storage="scene8.ks"
+@jump storage="scene8.ks" target=*chapter8

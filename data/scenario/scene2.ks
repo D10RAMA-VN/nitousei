@@ -1,3 +1,18 @@
+*start
+[cm]
+[clearfix]
+[start_keyconfig]
+[fadeoutbgm time=300]
+[wait time=500]
+[mask time=500]
+[bg storage="black.png" time="500"]
+[rolebutton]
+[M0]
+@layopt layer=message0 visible=true
+[ptext name="chara_name_area" layer="message0" color="white" size=50 bold=true x=350 y=750 face="NotoBlack"]
+[wait time=500]
+[mask_off time=1000]
+
 *chapter2
 
 ;（河川敷）
@@ -203,4 +218,4 @@ USB充電式の小型アンプとシールド（コードって言いたくな�
 [bg storage="night.png" time="500"]
 そうして、その日の天体観測を始めた。[r]でも自分は、ギターのことで頭がいっぱいだった。[p]
 
-@jump storage="scene3.ks"
+@jump storage="scene3.ks" target="*chapter3"

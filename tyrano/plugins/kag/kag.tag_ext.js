@@ -124,6 +124,14 @@ tyrano.plugin.kag.tag.loadjs = {
       t.kag.ftag.nextOrder()
     })
   }
+}, tyrano.plugin.kag.tag.showgallery = {
+  pm: {},
+  start: function (a) {
+    var t = this;
+    this.kag.menu.displayGallery(function () {
+      t.kag.ftag.nextOrder()
+    })
+  }
 }, tyrano.plugin.kag.tag.showmenu = {
   pm: {},
   start: function (a) {

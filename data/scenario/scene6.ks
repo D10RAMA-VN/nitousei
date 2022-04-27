@@ -1,3 +1,18 @@
+*start
+[cm]
+[clearfix]
+[start_keyconfig]
+[fadeoutbgm time=300]
+[wait time=500]
+[mask time=500]
+[bg storage="black.png" time="500"]
+[rolebutton]
+[M0]
+@layopt layer=message0 visible=true
+[ptext name="chara_name_area" layer="message0" color="white" size=50 bold=true x=350 y=750 face="NotoBlack"]
+[wait time=500]
+[mask_off time=1000]
+
 *chapter6
 #
 [bg storage="class.jpg" time="500"]
@@ -291,4 +306,4 @@
 「（…？）」[p]
 #
 爺さんの態度にどこか違和感を感じたものの、[r]その日はとりあえず一区切りということで、[r]少し星を眺めたあと、解散という流れになった。[p]
-@jump storage="scene7.ks"
+@jump storage="scene7.ks" target=*chapter7

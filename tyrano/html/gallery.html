@@ -1,0 +1,255 @@
+<div id="cgall">
+<div class="fadein">
+
+<div class='tabs'>
+  <div class='tab-buttons'>
+    <span class='content1' style="margin-left:105px;padding-top:10px;transition: .3s;">チャプター</span>
+    <span class='content2' style="padding-top:10px;transition: .3s;">イベントＣＧ</span>
+    <span class='content3' style="padding-top:10px;transition:.3s;">音楽</span>
+  </div>
+  <div class='tab-content'>
+    
+    <div class='content1' style="display:flex;">
+      <img src="data/bgimage/still_kansoku.png" style="width:500px;margin:25px 0 0 30px;" id="chapbg">
+      <div id="chaptertitle" style="font-family:ubuntu;">prologue</div>
+      <div id="summary">ふたりでひとつの傘に入りながら、ともに帰路を歩む春也と先輩。やがて先輩と別れひとりになる春也だったが、その背後には巨大な魚影が忍び寄っていた。</div>
+      <div id="chapterbutton">チャプターへ移動</div>
+      <div class="chapterchoice">
+        <img src="tyrano/html/star.png" id="prologue" class="chap">
+        <img src="tyrano/html/star.png" id="chapter2" class="chap">
+        <img src="tyrano/html/star.png" id="chapter4" class="chap">
+        <img src="tyrano/html/star.png" id="chapter6" class="chap">
+        <img src="tyrano/html/star.png" id="chapter8" class="chap">
+        <img src="tyrano/html/star.png" id="epilog" class="chap">
+      </div>
+      
+      <div class="chapterchoice2">
+        <img src="tyrano/html/star.png" id="chapter1" class="chap">
+        <img src="tyrano/html/star.png" id="chapter3" class="chap">
+        <img src="tyrano/html/star.png" id="chapter5" class="chap">
+        <img src="tyrano/html/star.png" id="chapter7" class="chap">
+        <img src="tyrano/html/star.png" id="chapter9" class="chap">
+      </div>
+    </div>
+    
+    <div class='content2'>
+      <div style="float:left;position:absolute;top:-10px;left:40px;">
+        <img src="data/bgimage/still.png" class="cg" id="tonari">
+      </div>
+    </div>
+    
+    <div class='content3'>
+      <audio src="data/bgm/main.ogg" id="audiotag"></audio>
+      <div style="position:absolute;left:150px;">
+        <div id="bgm1" class="m_title">雨にして人を外れ</div>
+        <div id="bgm2" class="m_title">日常会話</div>
+        <div id="bgm3" class="m_title">あじさい園</div>
+        <div id="bgm4" class="m_title">雨妖</div>
+        <div id="bgm5" class="m_title">僕の先輩</div>
+        <div id="bgm6" class="m_title">雨にして人を外れOPver.</div>
+        <div id="bgm7" class="m_title">外の光</div>
+        <div id="bgm8" class="m_title">心の中へ</div>
+      </div>
+      <div id="play"><img src="data/image/music3.png" class="act"></div>
+	  <div id="time">
+  		<span id="current" style="position:absolute;top:265px;left:575px;font-weight:bold;font-size:20px;font-family:applimincho;">00:00</span>
+		<span id="duration" style="position:absolute;top:265px;left:995px;font-weight:bold;font-size:20px;font-family:applimincho;">00:00</span>
+	  </div>
+	  <div id="seekbar" style="position:absolute;top:264px;left:647px;"></div>
+	  <img src="data/image/music5.png"  style="position:absolute;left:805px;top:328px;">
+	  <input type="range" id="volume" style="position:absolute;top:341px;left:800px;width:200px;height:4px;" value="30" min="0" max="99">
+	  <div id="bmusic" style="position:absolute;left:580px;top:326px;cursor:pointer;"><img src="data/image/music2.png"></div>
+	  <div id="nmusic" style="position:absolute;left:720px;top:326px;cursor:pointer;"><img src="data/image/music4.png"></div>
+	  <img src="data/image/music1.png" style="position:absolute;left:670px;top:-20px;" >
+    </div>
+    
+  </div>
+  <div id="cgbig"></div>
+  <div id="cgvideo"><video src="" autoplay id="vcg"></video></div>
+</div>
+</div>
+
+	<div style="position:absolute;top:0px;width:50px;height:100%;background:linear-gradient(#0C008A, #007882);"></div>
+	<img src="tyrano/images/system/save_title.png" style="left:130px;top:80px;position:absolute;">
+	<img src="tyrano/images/system/logo_h.png" style="width:600px;left:1200px;top:50px;position:absolute;">
+	<img class="img_bg_base" src="tyrano/images/system/bg.png" style="z-index:-1;left:0;top:0;width:100%;height:100%;position:absolute;">
+    <div class="menu_close save_close" style="left:240px;top:950px;position:absolute;cursor:pointer;">
+	  <img src="tyrano/images/system/back_button.png" alt="" class="non">
+	</div>
+
+
+<script>
+$('.cg_back').click(function(){tyrano.plugin.kag.ftag.startTag("jump", {target:"backtitle"})});
+
+$('.tab-content>div').hide();
+$('.tab-content>div').first().slideDown();
+  $('.tab-buttons span').click(function(){
+    var thisclass=$(this).attr('class');
+    $('#lamp').removeClass().addClass(thisclass);
+    $('.tab-content>div').each(function(){
+      if($(this).hasClass(thisclass)){
+        $(this).fadeIn(800);
+      }
+      else{
+        $(this).hide();
+      }
+    });
+  });
+
+$('#prologue').hover(
+  function(){
+    $('#chaptertitle').text('Prologue');
+    $('#summary').text('ふたりでひとつの傘に入りながら、ともに帰路を歩む春也と先輩。やがて先輩と別れひとりになる春也だったが、その背後には巨大な魚影が忍び寄っていた。');
+    $('#chapbg').attr('src','data/bgimage/still_kansoku.png');
+  },function(){
+});
+$('#chapter1').hover(
+  function(){
+    $('#chaptertitle').text('Chapter1');
+    $('#summary').text('ふたりでひとつの傘に入りながら、ともに帰路を歩む春也と先輩。やがて先輩と別れひとりになる春也だったが、その背後には巨大な魚影が忍び寄っていた。');
+    $('#chapbg').attr('src','data/bgimage/still_kansoku.png');
+  },function(){
+});
+$('#chapter2').hover(
+  function(){
+    $('#chaptertitle').text('Chapter2');
+    $('#summary').text('ふたりでひとつの傘に入りながら、ともに帰路を歩む春也と先輩。やがて先輩と別れひとりになる春也だったが、その背後には巨大な魚影が忍び寄っていた。');
+    $('#chapbg').attr('src','data/bgimage/still_kansoku.png');
+  },function(){
+});
+$('#chapter3').hover(
+  function(){
+    $('#chaptertitle').text('Chapter3');
+    $('#summary').text('ふたりでひとつの傘に入りながら、ともに帰路を歩む春也と先輩。やがて先輩と別れひとりになる春也だったが、その背後には巨大な魚影が忍び寄っていた。');
+    $('#chapbg').attr('src','data/bgimage/still_kansoku.png');
+  },function(){
+});
+$('#chapter4').hover(
+  function(){
+    $('#chaptertitle').text('Chapter4');
+    $('#summary').text('ふたりでひとつの傘に入りながら、ともに帰路を歩む春也と先輩。やがて先輩と別れひとりになる春也だったが、その背後には巨大な魚影が忍び寄っていた。');
+    $('#chapbg').attr('src','data/bgimage/still_kansoku.png');
+  },function(){
+});
+$('#chapter5').hover(
+  function(){
+    $('#chaptertitle').text('Chapter5');
+    $('#summary').text('ふたりでひとつの傘に入りながら、ともに帰路を歩む春也と先輩。やがて先輩と別れひとりになる春也だったが、その背後には巨大な魚影が忍び寄っていた。');
+    $('#chapbg').attr('src','data/bgimage/still_kansoku.png');
+  },function(){
+});
+$('#chapter6').hover(
+  function(){
+    $('#chaptertitle').text('Chapter6');
+    $('#summary').text('ふたりでひとつの傘に入りながら、ともに帰路を歩む春也と先輩。やがて先輩と別れひとりになる春也だったが、その背後には巨大な魚影が忍び寄っていた。');
+    $('#chapbg').attr('src','data/bgimage/still_kansoku.png');
+  },function(){
+});
+$('#chapter7').hover(
+  function(){
+    $('#chaptertitle').text('Chapter7');
+    $('#summary').text('ふたりでひとつの傘に入りながら、ともに帰路を歩む春也と先輩。やがて先輩と別れひとりになる春也だったが、その背後には巨大な魚影が忍び寄っていた。');
+    $('#chapbg').attr('src','data/bgimage/still_kansoku.png');
+  },function(){
+});
+$('#chapter8').hover(
+  function(){
+    $('#chaptertitle').text('Chapter8');
+    $('#summary').text('ふたりでひとつの傘に入りながら、ともに帰路を歩む春也と先輩。やがて先輩と別れひとりになる春也だったが、その背後には巨大な魚影が忍び寄っていた。');
+    $('#chapbg').attr('src','data/bgimage/still_kansoku.png');
+  },function(){
+});
+$('#chapter9').hover(
+  function(){
+    $('#chaptertitle').text('Chapter9');
+    $('#summary').text('ふたりでひとつの傘に入りながら、ともに帰路を歩む春也と先輩。やがて先輩と別れひとりになる春也だったが、その背後には巨大な魚影が忍び寄っていた。');
+    $('#chapbg').attr('src','data/bgimage/still_kansoku.png');
+  },function(){
+});
+$('#epilog').hover(
+  function(){
+    $('#chaptertitle').text('Epilog');
+    $('#summary').text('ふたりでひとつの傘に入りながら、ともに帰路を歩む春也と先輩。やがて先輩と別れひとりになる春也だったが、その背後には巨大な魚影が忍び寄っていた。');
+    $('#chapbg').attr('src','data/bgimage/still_kansoku.png');
+  },function(){
+});
+
+$('#prologue').click(
+  function(){
+    tyrano.plugin.kag.ftag.startTag("jump",{storage:"prologue.ks"}),
+    $('.layer_menu').fadeOut(200, function () {
+          $('.layer_menu').empty()
+       })
+});
+$('#chapter1').click(
+  function(){
+    tyrano.plugin.kag.ftag.startTag("jump",{storage:"scene1.ks"}),
+    $('.layer_menu').fadeOut(200, function () {
+          $('.layer_menu').empty()
+       })
+});
+$('#chapter2').click(
+  function(){
+    tyrano.plugin.kag.ftag.startTag("jump",{storage:"scene2.ks"}),
+    $('.layer_menu').fadeOut(200, function () {
+          $('.layer_menu').empty()
+       })
+});
+$('#chapter3').click(
+  function(){
+    tyrano.plugin.kag.ftag.startTag("jump",{storage:"scene3.ks"}),
+    $('.layer_menu').fadeOut(200, function () {
+          $('.layer_menu').empty()
+       })
+});
+$('#chapter4').click(
+  function(){
+    tyrano.plugin.kag.ftag.startTag("jump",{storage:"scene4.ks"}),
+    $('.layer_menu').fadeOut(200, function () {
+          $('.layer_menu').empty()
+       })
+});
+$('#chapter5').click(
+  function(){
+    tyrano.plugin.kag.ftag.startTag("jump",{storage:"scene5.ks"}),
+    $('.layer_menu').fadeOut(200, function () {
+          $('.layer_menu').empty()
+       })
+});
+$('#chapter6').click(
+  function(){
+    tyrano.plugin.kag.ftag.startTag("jump",{storage:"scene6.ks"}),
+    $('.layer_menu').fadeOut(200, function () {
+          $('.layer_menu').empty()
+       })
+});
+$('#chapter7').click(
+  function(){
+    tyrano.plugin.kag.ftag.startTag("jump",{storage:"scene7.ks"}),
+    $('.layer_menu').fadeOut(200, function () {
+          $('.layer_menu').empty()
+       })
+});
+$('#chapter8').click(
+  function(){
+    tyrano.plugin.kag.ftag.startTag("jump",{storage:"scene8.ks"}),
+    $('.layer_menu').fadeOut(200, function () {
+          $('.layer_menu').empty()
+       })
+});
+$('#chapter9').click(
+  function(){
+    tyrano.plugin.kag.ftag.startTag("jump",{storage:"scene9.ks"}),
+    $('.layer_menu').fadeOut(200, function () {
+          $('.layer_menu').empty()
+       })
+});
+$('#epilog').click(
+  function(){
+    tyrano.plugin.kag.ftag.startTag("jump",{storage:"epilog.ks"}),
+    $('.layer_menu').fadeOut(200, function () {
+          $('.layer_menu').empty()
+       })
+});
+$('.content1').show();
+</script>
