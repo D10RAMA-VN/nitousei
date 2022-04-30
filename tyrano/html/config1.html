@@ -1,0 +1,224 @@
+<div>
+
+	<div style='clear:both'></div>
+	<img class="img_bg_base" src="tyrano/images/system/bg.png" style="z-index:-1;left:0;top:0;width:100%;height:100%;position:absolute;">
+
+<div class='tabs'>
+  <div class='tab-buttons'>
+    <span class='content1' style="margin-left:100px;padding-top:17px;border-top:solid;border-left:solid;border-right:solid;transition: .3s;">一般設定</span>
+    <span class='content2' style="padding-top:17px;margin-left:-12px;border-top:solid;border-right:solid;transition: .3s;">ボイス設定</span> 
+  </div>
+  
+  <div class='tab-content'>
+   <div class='content1'>
+	<div class="config_body">
+			<div class="range"> 
+				<p><span id="master" style="display:inline-block;margin-top:50px;margin-left:-200px;width:300px;text-align:right;">マスター音量</span></p>
+				<input type="range" id="master_volume" min="0" max="100" step="1" value="50" style="left:125px;top:70px;position:absolute;">
+			</div>
+			<div class="range">
+				<p><span style="display:inline-block;margin-top:25px;margin-left:-200px;width:300px;text-align:right;">BGM音量</span></p>
+				<input type="range" id="bgm_volume" min="0" max="100" step="1" value="50" style="left:125px;top:142px;position:absolute;">
+			</div>
+			<div class="range">
+				<span style="display:inline-block;margin-top:25px;margin-left:-200px;width:300px;text-align:right;">SE音量</span>
+				<input type="range" id="se_volume" min="0" max="100" value="20" step="1" style="left:125px;top:215px;position:absolute;">
+			</div>
+			<div class="range"> 
+				<p><span style="display:inline-block;margin-top:25.5px;margin-left:-200px;width:300px;text-align:right;">ボイス音量</span></p>
+				<input type="range" id="vo_volume" min="0" max="100" step="1" value="50" style="left:125px;top:285px;position:absolute;">
+			</div>
+			<div class="range">
+				<span style="display:inline-block;margin-top:65px;margin-left:-200px;width:300px;text-align:right;">テキスト速度</span>
+				<input type="range" id="text_speed" min="-100" max="0" value="-30" step="1" style="left:125px;top:405px;position:absolute;">
+			</div>
+			<div class="range">
+				<span style="display:inline-block;margin-top:25px;margin-left:-200px;width:300px;text-align:right;">オートモード速度</span>
+				<input type="range" id="auto_speed" min="-5000" max="-500" value="-1300" step="100" style="left:125px;top:475px;position:absolute;">
+			</div>
+			<span style="display:inline-block;margin-top:25px;margin-left:-200px;width:300px;text-align:right;">未読スキップ</span>
+            <div class="unread_area" id="unread_check" style="left:60px;top:520px;position:absolute;font-family:ubuntu-italic;">
+                <input type="radio" name="unread_skip" id="unreadon">
+                <label for="unreadon">ON</label>
+                <input type="radio" name="unread_skip" id="unreadoff">
+                <label for="unreadoff">OFF</label>
+            </div>
+	</div>
+   </div>
+   <div class='content2'>
+	<div class="config_body">
+			<img style="position:absolute;top:50px;left:-200px;" src="tyrano/images/system/icon_hokuto.png">
+			<div class="range">
+				<p><span class="config_voice_name" style="top:60px;">加賀屋北斗</span></p>
+				<input type="range" id="vo1_volume" min="0" max="100" step="1" value="50" style="top:150px;position:absolute;width:300px;">
+			</div>
+			<img style="position:absolute;top:250px;left:-200px;" src="tyrano/images/system/icon_minami.png">
+			<div class="range">
+				<p><span class="config_voice_name" style="top:260px;">来瀬美波</span></p>
+				<input type="range" id="vo2_volume" min="0" max="100" step="1" value="50" style="top:350px;position:absolute;width:300px;">
+			</div>
+			<img style="position:absolute;top:450px;left:-200px;" src="tyrano/images/system/icon_takamura.png">
+			<div class="range">
+				<p><span class="config_voice_name" style="top:460px;">高村清二</span></p>
+				<input type="range" id="vo3_volume" min="0" max="100" step="1" value="50" style="top:550px;position:absolute;width:300px;">
+			</div>
+	</div>
+   </div>
+  </div>
+</div>
+	
+	
+	<div class="border1" style="position:absolute;top:299px;left:687px;width:960px;height:620px;border-top:solid white;border-right:solid white;border-bottom:solid white;z-index:-1;"></div>
+	<div class="border2" style="position:absolute;top:299px;left:300px;width:385.8px;height:622px;border-left:solid white;border-bottom:solid white;"></div>
+	<div class="border3" style="position:absolute;top:299px;left:300px;width:195.5px;height:622px;border-top:solid white;display:none;"></div>
+	<div class="border4" style="position:absolute;top:299px;left:494px;width:193px;height:622px;border-top:solid white;"></div>
+	<div style="position:absolute;top:0px;width:50px;height:100%;background:linear-gradient(#0C008A, #007882);"></div>
+	<img src="tyrano/images/system/title_setting.png" style="left:130px;top:80px;position:absolute;">
+	<img src="tyrano/images/system/logo_h.png" style="width:600px;left:1200px;top:50px;position:absolute;">
+	<div class="menu_close save_close" style="left:240px;top:950px;position:absolute;cursor:pointer;">
+	  <img src="tyrano/images/system/back_button.png" alt="" class="non">
+	</div>
+	<div class="config_button menu_back_title" style="left:880px;top:970px;position:absolute;">
+	   <img src="tyrano/images/system/set_title_gray.png">
+	   <img src="tyrano/images/system/set_title_w.png" class="config_button_hover">
+	</div>
+	<div class="config_button config_gallery" style="left:1270px;top:970px;position:absolute;">
+	   <img src="tyrano/images/system/set_gallery_gray.png">
+	   <img src="tyrano/images/system/set_gallery_w.png" class="config_button_hover">
+	</div>
+	<div class="config_button config_quit" style="left:1630px;top:970px;position:absolute;">
+	   <img src="tyrano/images/system/set_quit_gray.png">
+	   <img src="tyrano/images/system/set_quit_w.png" class="config_button_hover">
+	</div>
+	
+<script>
+$(function () {
+			var current_bgm_vol=parseInt(tyrano.plugin.kag.config.defaultBgmVolume); //システム値取得
+			$('#bgm_volume').val(current_bgm_vol); //スライダー初期位置
+			$('#spanbgm').html(current_bgm_vol); //初期表示
+			$('#bgm_volume').on('input change', function() {
+				$('#spanbgm').html($(this).val());
+				current_bgm_vol=$(this).val();
+				tyrano.plugin.kag.ftag.startTag("bgmopt",{volume: $(this).val()});
+			});
+			var current_ch_speed=parseInt(tyrano.plugin.kag.config.chSpeed); //システム値取得
+			var span_ch_speed=-current_ch_speed+100 //表示用変数
+			$('#text_speed').val(-current_ch_speed); //スライダー初期位置
+			$('#spantext').html(span_ch_speed); //初期表示
+			$('#text_speed').on('input change', function() {
+				span_ch_speed=100+parseInt($(this).val());
+				$('#spantext').html(span_ch_speed);
+				current_ch_speed=-$(this).val();
+				tyrano.plugin.kag.ftag.startTag("configdelay",{speed: -$(this).val()});
+			});
+			var current_auto_speed=parseInt(tyrano.plugin.kag.config.autoSpeed); //システム値取得
+			var span_auto_speed=(-current_auto_speed+5500)/50 //表示用変数
+			$('#auto_speed').val(-current_auto_speed); //スライダー初期位置
+			$('#spanauto').html(span_auto_speed); //初期表示
+			$('#auto_speed').on('input change', function() {
+				span_auto_speed=(5500+parseInt($(this).val()))/50;
+				$('#spanauto').html(span_auto_speed);
+				current_auto_speed=-$(this).val();
+				tyrano.plugin.kag.ftag.startTag("autoconfig",{speed: -$(this).val()});
+			});
+			
+			if(typeof tyrano.plugin.kag.variable.sf.current_se_vol!="undefined"){tyrano.plugin.kag.variable.tf.current_se_vol=tyrano.plugin.kag.variable.sf.current_se_vol}else{tyrano.plugin.kag.variable.tf.current_se_vol=50}
+			$('#se_volume').val(tyrano.plugin.kag.variable.tf.current_se_vol); //スライダー初期位置
+			$('#spanse').html(tyrano.plugin.kag.variable.tf.current_se_vol); //初期表示
+			$('#se_volume').on('input change', function() {
+				$('#spanse').html($(this).val());
+				tyrano.plugin.kag.variable.tf.current_se_vol=$(this).val();
+				tyrano.plugin.kag.variable.sf.current_se_vol=tyrano.plugin.kag.variable.tf.current_se_vol;
+				tyrano.plugin.kag.ftag.startTag("seopt",{volume:tyrano.plugin.kag.variable.tf.current_se_vol,buf:1});
+			});
+			$('#vo_volume').val(tyrano.plugin.kag.variable.sf.vo_vol); //スライダー初期位置
+			$('#vo').html(tyrano.plugin.kag.variable.sf.vo_vol); //初期表示
+			$('#vo_volume').on('input change', function() {
+				$('#vo').html($(this).val());
+				tyrano.plugin.kag.variable.sf.vo_vol=$(this).val();
+			});
+			if(typeof tyrano.plugin.kag.variable.sf.vo1_vol!="undefined"){tyrano.plugin.kag.variable.tf.vo1_vol=tyrano.plugin.kag.variable.sf.vo1_vol}else{tyrano.plugin.kag.variable.tf.vo1_vol=100}
+			$('#vo1_volume').val(tyrano.plugin.kag.variable.tf.vo1_vol); //スライダー初期位置
+			$('#vo1').html(tyrano.plugin.kag.variable.tf.vo1_vol); //初期表示
+			$('#vo1_volume').on('input change', function() {
+				$('#vo1').html($(this).val());
+				tyrano.plugin.kag.variable.tf.vo1_vol=$(this).val();
+				tyrano.plugin.kag.variable.sf.vo1_vol=tyrano.plugin.kag.variable.tf.vo1_vol;
+				tyrano.plugin.kag.ftag.startTag("seopt",{volume:tyrano.plugin.kag.variable.tf.vo1_vol,buf:2});
+			});
+			
+			$('#fullscreen').on('click',function(e){tyrano.plugin.kag.menu.screenFull()});
+			
+			if(typeof tyrano.plugin.kag.variable.sf.mopacity=="undefined"){tyrano.plugin.kag.variable.sf.mopacity=255}
+			$('#mo_volume').val(tyrano.plugin.kag.variable.sf.mopacity); //スライダー初期位置
+			$('#mopacity').html(tyrano.plugin.kag.variable.sf.mopacity); //初期表示
+			$('#mo_volume').on('input change', function() {
+				$('#mopacity').html($(this).val());
+				tyrano.plugin.kag.variable.sf.mopacity=$(this).val();
+				$('.message_outer').css('opacity',tyrano.plugin.kag.variable.sf.mopacity/255);
+			});
+});
+
+$('.content1').on('click',function(){
+	$('.border3').hide();
+	$('.border4').show();
+});
+$('.content2').on('click',function(){
+	$('.border4').hide();
+	$('.border3').show();
+});
+
+$('.tab-content>div').hide();
+$('.tab-content>div').first().slideDown();
+  $('.tab-buttons span').click(function(){
+    var thisclass=$(this).attr('class');
+    $('#lamp').removeClass().addClass(thisclass);
+    $('.tab-content>div').each(function(){
+      if($(this).hasClass(thisclass)){
+        $(this).fadeIn(800);
+      }
+      else{
+        $(this).hide();
+      }
+    });
+  });
+  
+$('.config_quit').click(function(){tyrano.plugin.kag.ftag.startTag("close")});
+</script>
+
+	
+	<script>
+	   $(function(){
+            var text_skip ="ON";
+			if(tyrano.plugin.kag.config.unReadTextSkip != "true"){
+				text_skip ="OFF";
+			};
+			if(text_skip=="ON"){
+				$('#unreadon').prop('checked', true);$('#unreadoff').prop('checked', false);
+			}else{
+				$('#unreadon').prop('checked', false);$('#unreadoff').prop('checked', true);
+			};
+			$('#unreadon').change(function(){
+				if( $(this).prop('checked') ){
+					text_skip ="ON";
+					tyrano.plugin.kag.ftag.startTag("config_record_label",{skip: "true"});
+				}else{
+					text_skip ="OFF";
+					tyrano.plugin.kag.ftag.startTag("config_record_label",{skip: "false"});
+				}
+			});
+			$('#unreadoff').change(function(){
+				if( $(this).prop('checked') ){
+					text_skip ="OFF";
+					tyrano.plugin.kag.ftag.startTag("config_record_label",{skip: "false"});
+				}else{
+					text_skip ="ON";
+					tyrano.plugin.kag.ftag.startTag("config_record_label",{skip: "true"});
+				}
+			});
+	   });
+	</script>
+
+
+
+</div>
