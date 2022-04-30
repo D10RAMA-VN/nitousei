@@ -52,15 +52,16 @@
 [hokuto_w_egao2]
 「お、美波、お疲れ。」[p]
 #
-[chara_hide_all]
+[hide]
 高校に入学して数日目の放課後。[r]廊下には新歓の先輩たちとついていく新入生たちであふれかえっている。[p]
 ついさっきの新歓説明会から、部活動への加入が解禁された。[r]いわゆる新歓期間である。[p]
 とはいえどこへ行ったものかとぶらついていたところ、[r]氷のように透き通る姿と声をした少女に呼び止められた。[p]
 …春の陽気にでもあてられたか。こんな表現をするのはばからしい。[r]何せ昔から見知った間柄だ。[p]
+[minami_w_magao]
 [ruby text="クル"]来[ruby text="セ"]瀬[ruby text="ミ"]美[ruby text="ナミ"]波。[p]
 保育園からずっと一緒で、街一番の大きな病院の院長令嬢（おじいさんが院長先生なので正しくは孫娘だが、お父さんも同じ病院の医師なので自分は茶化し半分にそう呼んでいる）でもある。[p]
 #美波
-[minami_w_tun]
+[mw/tun]
 「北斗はなにするの？今度は。」[p]
 #北斗
 [hokuto_w_mu2]
@@ -93,16 +94,16 @@
 #北斗
 [hw/aseri]
 「軽音部か…」[p]
+#
 [chara_hide_all time=500]
 [bg storage="stage.jpg" time="1000"]
-
-#
+[kaname_magao left=-130 wait=false][nao_magao left=460 wait=false][reito_magao left=900]
 広い講堂のステージ上にいたのは、たった３人。[p]
 ギターボーカルと、ベースと、ドラムだけのバンドだった。[p]
 音楽には明るくないが、ああいうのはスリーピースというんだったか。[p]
 ただ、圧倒的にボーカルの女性が上手くて、[r]高校生とは思えないほどだった。[p]
 とはいえ、その前のマンドリン部や吹奏楽部が人数も音圧もすごくて、[r]自分としては正直あまり印象には残っていなかったのだけれども。[p]
-
+[hide]
 [bg storage="rouka_s.jpg" time="1000"]
 [hokuto_w_magao left="40" wait=false][minami_w_magao left="640"]
 #北斗
@@ -408,7 +409,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [bg storage="ongaku.jpg" time=0]
 [free_filter layer=base page=back]
 [trans layer=base time=1000]
-[nao_niko2 wait=false left=640][kaname_kanasimi left=40]
+[nao_niko2 wait=false left=730][kaname_kanasimi left=140]
 #奏女
 「というところで、説明は多分以上なんだけど…」[p]
 #七音
@@ -648,7 +649,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 「…ほう。」[p]
 #
 その時初めて、爺さんはこっちを向いてくれた。[p]
-[chara_move name="hokuto" time=700 left=360 wait=false][chara_move name="seizi" time=700 left=-120 wait=false][minami_w_odoroki left=840]
+[chara_move name="hokuto" time=700 left=360 anim=true wait=false][chara_move name="seizi" time=700 left=-120 anim=true wait=false][minami_w_odoroki left=840]
 #美波
 「ちょっと、何勝手に言ってるのよ。…すいませんホントに。」[p]
 #老人
@@ -668,7 +669,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #老人
 「お嬢さん、キミもだ。早くこっちへ。二度手間は嫌いなんだ。」[p]
 #
-[hide wati=false][chara_move name=minami left=360 time=500]
+[hide wati=false][chara_move name=minami left=360 time=500 anim=true anim=true]
 #美波
 [mw/oogoe]
 「え、ええ？何この状況～！」[p]
@@ -823,12 +824,13 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #北斗
 [hw_odoroki]
 「え、そうなの？」[p]
+[mhhide]
 #高村
 [s_magao]
 「そうさ。あのアルファベットのWに似た5つの星があるだろう。[r]　Wに見立てた上側に、やはり5文字分伸ばしていくと…」[p]
 [mshide]
 #北斗
-[hw_knasimi]
+[hw_kanasimi]
 「…北斗七星側からやってみても同じだし。[r]　やっぱりあれ北極星だ…なんか代わりがあるっていうと、[r]　なんでか知らないけどショックだな…」[p]
 [mhhide]
 #高村
@@ -918,8 +920,9 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 「今みたいな春先に、おとめ座やしし座が見える、ですね。」[p]
 #
 [mmhide]
-そういうことか。星座の見える時期と星占いの時期、それぞれのどっちかさえ覚えれば、あとはそれを半年ずらせばもう片方の時期もわかると。
-…いや、どのみちどっちかは全部暗記しないといけないことに変わりはないだろう。すごいな爺さん。[p]
+そういうことか。[p]
+星座の見える時期と星占いの時期、それぞれのどっちかさえ覚えれば、[r]あとはそれを半年ずらせばもう片方の時期もわかると。[p]
+…いや、どのみちどっちかは全部暗記しないといけないことに[r]変わりはないだろう。すごいな爺さん。[p]
 [bg storage="kawa_n.jpg" time=1000]
 [hokuto_w_mu2 left=640 wait=false][seizi_mu left=40]
 #北斗
@@ -959,7 +962,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #高村
 「いやいや。しかし、せっかくなら美波君にちなんで、[r]　南にかかわる星も見てみたいところだが。[r]　南とつく星座と言えば南十字星だけれどもなあ。」[p]
 #
-[chara_move name="hokuto" time=700 left=360 wait=false][chara_move name="seizi" time=700 left=-120 wait=false][minami_w_bishou left=840]
+[chara_move name="hokuto" time=700 left=360 wait=false anim=true][chara_move name="seizi" time=700 left=-120 wait=false anim=true][minami_w_bishou left=840]
 #美波
 「南十字星、サザンクロス、ですか？」[p]
 #北斗
@@ -996,7 +999,8 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [s/hohoemi]
 「なに、いいんだよ。」[p]
 #
-そう言う爺さんの様子を見て感じる。…まるで、とりあえず時間つぶしができてよかったと言っているようだ。[p]
+そう言う爺さんの様子を見て感じる。[p]
+…まるで、とりあえず時間つぶしができてよかったと言っているようだ。[p]
 あるいは、本題に入らずに済んでよかったとでもいうような、そんな感じ。[p]
 #北斗
 [hw/mu]
