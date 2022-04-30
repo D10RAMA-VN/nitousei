@@ -337,6 +337,14 @@
 [macro name="r_magao"][chara_show name="reito" storage="reito/magao.png" page="%page|fore" top="600" left="-290" time="%time|700" width="%width|1000" wait="%wait|true" zindex="200" layer="message0"][endmacro]
 [macro name="r_niko"][chara_show name="reito" storage="reito/niko.png" page="%page|fore" top="600" left="-290" time="%time|700" width="%width|1000" wait="%wait|true" zindex="200" layer="message0"][endmacro]
 [macro name="r_tukomi"][chara_show name="reito" storage="reito/tukomi.png" page="%page|fore" top="600" left="-290" time="%time|700" width="%width|1000" wait="%wait|true" zindex="200" layer="message0"][endmacro]
+;seizi
+[macro name="s_hohoemi"][chara_show name="seizi" storage="seizi/hohoemi.png" page="%page|fore" top="%top|720" left="-300" time="%time|700" width="%width|1000" wait="%wait|true" zindex="200" layer="message0"][endmacro]
+[macro name="s_hohoemi2"][chara_show name="seizi" storage="seizi/hohoemi2.png" page="%page|fore" top="%top|720" left="-300" time="%time|700" width="%width|1000" wait="%wait|true" zindex="200" layer="message0"][endmacro]
+[macro name="s_kanasimi"][chara_show name="seizi" storage="seizi/knasimi.png" page="%page|fore" top="%top|720" left="-300" time="%time|700" width="%width|1000" wait="%wait|true" zindex="200" layer="message0"][endmacro]
+[macro name="s_kuti"][chara_show name="seizi" storage="seizi/kuti.png" page="%page|fore" top="%top|720" left="-300" time="%time|700" width="%width|1000" wait="%wait|true" zindex="200" layer="message0"][endmacro]
+[macro name="s_magao"][chara_show name="seizi" storage="seizi/magao.png" page="%page|fore" top="%top|720" left="-300" time="%time|700" width="%width|1000" wait="%wait|true" zindex="200" layer="message0"][endmacro]
+[macro name="s_metozi"][chara_show name="seizi" storage="seizi/metozi.png" page="%page|fore" top="%top|720" left="-300" time="%time|700" width="%width|1000" wait="%wait|true" zindex="200" layer="message0"][endmacro]
+[macro name="s_mu"][chara_show name="seizi" storage="seizi/mu.png" page="%page|fore" top="%top|720" left="-300" time="%time|700" width="%width|1000" wait="%wait|true" zindex="200" layer="message0"][endmacro]
 
 ;キャラ消去
 [macro name="hhide"][chara_hide name="hokuto" time="%time|700" wait="%wait|true"][endmacro]
@@ -346,11 +354,12 @@
 [macro name="khide"][chara_hide name="kaname" time="%time|700" wait="%wait|true"][endmacro]
 [macro name="rhide"][chara_hide name="reito" time="%time|700" wait="%wait|true"][endmacro]
 [macro name="yhide"][chara_hide name="yuko" time="%time|700" wait="%wait|true"][endmacro]
-[macro name="m_hhide"][chara_hide name="hokuto" time="%time|500" layer="message0" wait="%wait|true"][endmacro]
-[macro name="m_mhide"][chara_hide name="minami" time="%time|500" layer="message0" wait="%wait|true"][endmacro]
-[macro name="m_nhide"][chara_hide name="nao" time="%time|500" layer="message0" wait="%wait|true"][endmacro]
-[macro name="m_khide"][chara_hide name="kaname" time="%time|500" layer="message0" wait="%wait|true"][endmacro]
-[macro name="m_rhide"][chara_hide name="reito" time="%time|500" layer="message0" wait="%wait|true"][endmacro]
+[macro name="mhhide"][chara_hide name="hokuto" time="%time|500" layer="message0" wait="%wait|true"][endmacro]
+[macro name="mmhide"][chara_hide name="minami" time="%time|500" layer="message0" wait="%wait|true"][endmacro]
+[macro name="mnhide"][chara_hide name="nao" time="%time|500" layer="message0" wait="%wait|true"][endmacro]
+[macro name="mkhide"][chara_hide name="kaname" time="%time|500" layer="message0" wait="%wait|true"][endmacro]
+[macro name="mrhide"][chara_hide name="reito" time="%time|500" layer="message0" wait="%wait|true"][endmacro]
+[macro name="mshide"][chara_hide name="seizi" time="%time|500" layer="message0" wait="%wait|true"][endmacro]
 [macro name="hide"][chara_hide_all time=500][endmacro]
 
 [return]
