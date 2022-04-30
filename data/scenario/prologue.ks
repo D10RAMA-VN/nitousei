@@ -5,16 +5,16 @@
 [fadeoutbgm time=300]
 [wait time=500]
 [mask time=500]
-[bg storage="black.png" time="500"]
+[bg storage="sky.png" time="500"]
 [rolebutton]
 [M0]
 @layopt layer=message0 visible=true
 [ptext name="chara_name_area" layer="message0" color="white" size=50 bold=true x=350 y=750 face="NotoBlack"]
+#
 [wait time=500]
 [mask_off time=1000]
 
 *prologue
-;sky
 *1
 #？？？
 「星というのは、一つの星、一つの星座が見つかれば、[r]　ほかの星座も続けて見つかることが多い。[r]　特に、北斗七星やおとめ座なんて大物はな。」[p]
@@ -45,11 +45,11 @@
 だから、高校に上がっても、ただ勉強がしんどくなると思うだけで、[r]何をやるという気もあまりなかった。[p]
 
 [bg storage="rouka_s.jpg" time="1000"]
-[minami_w_magao]
+[minami_w_magao2]
 #美波
 「あ、北斗。」[p]
 #北斗
-[hokuto_w_egao]
+[hokuto_w_egao2]
 「お、美波、お疲れ。」[p]
 #
 [chara_hide_all]
@@ -57,34 +57,44 @@
 ついさっきの新歓説明会から、部活動への加入が解禁された。[r]いわゆる新歓期間である。[p]
 とはいえどこへ行ったものかとぶらついていたところ、[r]氷のように透き通る姿と声をした少女に呼び止められた。[p]
 …春の陽気にでもあてられたか。こんな表現をするのはばからしい。[r]何せ昔から見知った間柄だ。[p]
-来瀬美波（くるせみなみ）。[p]
+[ruby text="クル"]来[ruby text="セ"]瀬[ruby text="ミ"]美[ruby text="ナミ"]波。[p]
 保育園からずっと一緒で、街一番の大きな病院の院長令嬢（おじいさんが院長先生なので正しくは孫娘だが、お父さんも同じ病院の医師なので自分は茶化し半分にそう呼んでいる）でもある。[p]
 #美波
+[minami_w_tun]
 「北斗はなにするの？今度は。」[p]
 #北斗
+[hokuto_w_mu2]
 「今度って、まだどこも見学行ってないよ。」[p]
 #美波
+[mw/odoroki]
 「あら、てっきりもう部活決めてると思った。[r]　なんならもう練習に混ざってるかと。」[p]
 #北斗
+[hw/akire]
 「オレをなんだと思ってるんだよ…」[p]
 #美波
+[mw/tun]
 「だって北斗ったら、いつも急に新しいこと始めるから」[p]
 #北斗
+[hw/magao]
 「それはまあ…否定はしないけど。そういう美波はどうするんだよ。[r]　中学の時みたいに美術部か？それともまた生徒会にでも？」[p]
 #美波
+[mw/iradati]
 「いやよ生徒会なんか。そもそも北斗に巻き込まれて入ったのに、[r]　いつの間にか生徒会長なんてさせられて。」[p]
 #北斗
 「それなりにうまくやってたじゃないか」[p]
 #美波
 「仕事しない誰かさんよりはね。でももうこりごり。[r]　それに美術部もね～、あんまり絵得意じゃないし、[r]　雰囲気も合わなかったし。」[p]
 #北斗
+[hw/akire]
 「じゃあどうするんだよ。」[p]
 #美波
+[mw/magao]
 「…う～ん、どうしよう。[r]　説明会でいいなと思ったのは軽音部だったけどね…」[p]
 #北斗
+[hw/aseri]
 「軽音部か…」[p]
-
-[bg storage="still.png" time="1000"]
+[chara_hide_all time=500]
+[bg storage="stage.jpg" time="1000"]
 
 #
 広い講堂のステージ上にいたのは、たった３人。[p]
@@ -94,63 +104,102 @@
 とはいえ、その前のマンドリン部や吹奏楽部が人数も音圧もすごくて、[r]自分としては正直あまり印象には残っていなかったのだけれども。[p]
 
 [bg storage="rouka_s.jpg" time="1000"]
+[hokuto_w_magao left="40" wait=false][minami_w_magao left="640"]
 #北斗
 「音楽系なら他の部も色々あったけど？」[p]
 #美波
+[mw/bishou]
 「なんかね。[r]　人数が少なくても精一杯やってるんだなっていうのが伝わったし、[r]　それに本人たちが一番楽しそうだったかなって…」[p]
 #北斗
+[hw/metozi]
 「……」[p]
 #美波
+[mw/uwame]
 「北斗？」[p]
 #北斗
+[hw/egao2]
 「行くか、軽音部。」[p]
 #美波
+[mw/odoroki]
 「えぇ？」[p]
 #北斗
+[hw/magao]
 「興味あるんだろ？」[p]
 #美波
 「いや、そうだけど、北斗も？」[p]
 #北斗
+[hw/egao2]
 「オレ、そういえば音楽はやったことないからさ。[r]　興味わいた。ほら行くぞ。」[p]
 #美波
+[mw/dere2]
 「あ、ちょっと引っ張らないで～！」[p]
-
+#
+[chara_hide_all time=500]
 [bg storage="ongaku.jpg" time="1000"]
-
+[nao_niko2 left=640 wait=false][minami_w_tere left=40]
 #？？？
 「ようこそ鹿北軽音部へ！[r]　新歓ライブでも言ったかもだけど、改めて自己紹介するね。」[p]
 #美波
 「は、はい。よろしくお願いします。」[p]
 #
+[hide]
 というわけで、美波ともども部室にやってきた。[p]
 他の音楽系の部活は校舎内の教室などでは敷地が足りないのか、[r]校舎の隅に建てられたプレハブ小屋に部室を構えているが、[r]軽音部はちゃんと校舎内に部室がある。[p]
 #七音
-「ワタシが部長で3年生の保科七音（ホシナナオ）。[r]　バンドではボーカルとギターやってます。」[p]
-
-;（以下、地の文中背景に演奏中の画像）
-
+[nao_bishou]
+「ワタシが部長で3年生の[ruby text="ホシ"]保[ruby text="ナ"]科[ruby text="ナ"]七[ruby text="オ"]音。[r]　バンドではボーカルとギターやってます。」[p]
 #
+[backlay layer=base]
+[bg storage="ongaku.jpg" time=0]
+[filter brightness=50 layer=base page=back]
+[trans layer=base time=1000]
+[wt]
 部長というこの女性は、腰まである長髪を揺らしながら、[r]元気いっぱいに話している。[p]
 こうしているとどこかあどけなさも感じさせるが、[r]さっきの絶唱では鬼気迫るものがあった。[p]
+[free_filter layer=base page=back]
+[trans layer=base time=1000]
+[nhide]
 #奏女
+[kaname_bishou]
 「同じく副部長で3年の天宮奏女です。ベースやってます。」[p]
 #
+[backlay layer=base]
+[bg storage="ongaku.jpg" time=0]
+[filter brightness=50 layer=base page=back]
+[trans layer=base time=1000]
+[wt]
 そういうこの人は部長とは対象的に、[r]ショートヘアに柔和な笑顔をたたえている。[p]
+[free_filter layer=base page=back]
+[trans layer=base time=1000]
+[khide]
 #令人
-「…2年の草間令人（ソウマレイト）。ドラムとか、やってる」[p]
+[reito_magao]
+「…2年の[ruby text="ソウ"]草[ruby text="マ"]間[ruby text="レイ"]令[ruby text="ト"]人。ドラムとか、やってる」[p]
 #
+[backlay layer=base]
+[bg storage="ongaku.jpg" time=0]
+[filter brightness=50 layer=base page=back]
+[trans layer=base time=1000]
+[wt]
 そして、男子の先輩。[p]
 MCというか、部活説明は全て部長と副部長の２人でやっていたから、[r]この男性はどんな人なんだろうと思ったが、[r]目つきも鋭く寡黙な印象を受ける。[p]
 …ちょっと怖い人なのかな。[p]
 #奏女
+[free_filter layer=base page=back]
+[trans layer=base time=1000]
+[kaname_niyake]
 「わー令人君、ハチャメチャに緊張してる～」[p]
 #令人
+[r/komari]
 「や、やめてくださいそういうの…」[p]
 #
+[khide]
 あ、大丈夫そう。[p]
 目つきも「私、困ってます」と言わんばかりに緩みきっている。[p]
 これはあれだ。この人は生粋のいじられキャラだ。[p]
+[rhide]
 #七音
+[nao_niko]
 「えー、というわけで、今うちの部は3年生2人、[r]　2年生１人の計3人で活動してます。」[p]
 #美波
 「…３年生が多いんですね。」[p]
@@ -164,7 +213,8 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #???（少年）
 「はい！」[p]
 #北斗
-「オレ、新入生の加賀谷北斗（カガヤホクト）って言います！[r]　新歓ライブにすごく感動しました！[r]　で、こっちが幼馴染の来瀬美波（クルセミナミ）です。」[p]
+「オレ、新入生の[ruby text="カ"]加[ruby text="ガ"]賀[ruby text="ヤ"]谷[ruby text="ホク"]北[ruby text="ト"]斗って言います！[r]　新歓ライブにすごく感動しました！」[p]　
+「で、こっちが幼馴染の来瀬美波です。」[p]
 #美波
 「ちょっと、私のことはいいから…」[p]
 #奏女

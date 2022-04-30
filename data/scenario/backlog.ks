@@ -6,6 +6,6 @@
   [backlog_line size="17" img="line.png" margint="48" marginb="40"]											
   [backlog_select color="0xFF0000"]											
   [backlog_button_voice buf="1,2" pos="left" img="play.png" img_enter="play_enter.png" img_stop="stop.png" img_stop_enter="stop_enter.png" width="56"]		
-  [backlog_button_close img="back_button.png" x="150" y="950"]									
+  [backlog_button_close img="back_button.png" x="170" y="950"]									
   [endbacklog]	
   [return]										
