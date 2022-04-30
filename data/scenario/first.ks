@@ -14,11 +14,12 @@
 [chara_new  name="reito" storage="reito/magao.png" width=900 jname="令人" color=#0ACC62]
 [chara_new  name="yuko" storage="yuko/hohoemi.png" width=900 jname="優子" color=#0ACC62]
 
-[voconfig sebuf=4 name="kaname" vostorage="kaname/k_{number}.ogg" number=1 ]
+;[voconfig sebuf=4 name="kaname" vostorage="kaname/k_{number}.ogg" number=1 ]
 
 [glyph fix=true left=1750 top=880]
 
 @call storage="tyrano.ks"
+@call storage="macro.ks"
 
 @layopt layer="message" visible=false
 
