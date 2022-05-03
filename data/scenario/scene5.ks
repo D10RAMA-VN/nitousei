@@ -3,6 +3,7 @@
 [clearfix]
 [start_keyconfig]
 [fadeoutbgm time=300]
+[hide time=0]
 [wait time=500]
 [mask time=500]
 [bg storage="black.png" time="500"]

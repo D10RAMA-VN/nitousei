@@ -2,21 +2,20 @@
 [cm]
 [clearfix]
 [start_keyconfig]
+[hide time=0]
 [fadeoutbgm time=300]
 [wait time=500]
 [mask time=500]
-[bg storage="black.png" time="500"]
+[bg storage="kawa_n.jpg" time="500"]
 [rolebutton]
 [M0]
 @layopt layer=message0 visible=true
 [ptext name="chara_name_area" layer="message0" color="white" size=50 bold=true x=350 y=750 face="NotoBlack"]
+[seizi_mu left=-145 time=0][hokuto_w_kanasimi left=360 time=0][minami_w_kanasimi left=840 time=0]
 [wait time=500]
 [mask_off time=1000]
 
 *chapter2
-
-;（河川敷）
-[bg storage="kawa_n.jpg" time="500"]
 #高村
 「そうか、君たちは軽音部をやっているのか。」[p]
 #北斗

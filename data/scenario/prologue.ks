@@ -2,6 +2,7 @@
 [cm]
 [clearfix]
 [start_keyconfig]
+[hide time=0]
 [fadeoutbgm time=300]
 [wait time=500]
 [mask time=500]
@@ -97,13 +98,11 @@
 #
 [chara_hide_all time=500]
 [bg storage="stage.jpg" time="1000"]
-[kaname_magao left=-130 wait=false][nao_magao left=460 wait=false][reito_magao left=900]
 広い講堂のステージ上にいたのは、たった３人。[p]
 ギターボーカルと、ベースと、ドラムだけのバンドだった。[p]
 音楽には明るくないが、ああいうのはスリーピースというんだったか。[p]
 ただ、圧倒的にボーカルの女性が上手くて、[r]高校生とは思えないほどだった。[p]
 とはいえ、その前のマンドリン部や吹奏楽部が人数も音圧もすごくて、[r]自分としては正直あまり印象には残っていなかったのだけれども。[p]
-[hide]
 [bg storage="rouka_s.jpg" time="1000"]
 [hokuto_w_magao left="40" wait=false][minami_w_magao left="640"]
 #北斗
@@ -924,7 +923,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 星座の見える時期と星占いの時期、それぞれのどっちかさえ覚えれば、[r]あとはそれを半年ずらせばもう片方の時期もわかると。[p]
 …いや、どのみちどっちかは全部暗記しないといけないことに[r]変わりはないだろう。すごいな爺さん。[p]
 [bg storage="kawa_n.jpg" time=1000]
-[hokuto_w_mu2 left=640 wait=false][seizi_mu left=40]
+[hokuto_w_mu2 left=680 wait=false][seizi_mu left=15]
 #北斗
 「あれ、なんの話だっけ…あ、そう、[r]　おとめ座の星が北極星ならわかりやすいのに、みたいな話だっけ。」[p]
 #高村
@@ -1052,5 +1051,9 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 美波の両親を説得するのは流石に骨が折れたけど、[r]成績を絶対に落とさないことを条件に許してもらった。[p]
 こうして毎週毎週、[r]週末の夜になると河川敷に集まって望遠鏡を眺めることになったんだ。[p]
 
+[mask time=500]
+[hide time=0][kaname_bishou2 time=0]
+[bg storage="ongaku.jpg" time="500"]
+[mask_off time=500]
 
 @jump storage="scene1.ks" target=*chapter1

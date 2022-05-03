@@ -2,6 +2,7 @@
 [cm]
 [clearfix]
 [start_keyconfig]
+[hide time=0]
 [fadeoutbgm time=300]
 [wait time=500]
 [mask time=500]
