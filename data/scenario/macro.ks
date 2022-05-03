@@ -203,7 +203,7 @@
 ;清二_表情
 [macro name="s/hohoemi"][chara_mod name="seizi" storage="seizi/hohoemi.png" page="%page|fore" top="%top|70" left="%left" time="%time|100" width="%width|1250" wait="%wait|true"][endmacro]
 [macro name="s/hohoemi2"][chara_mod name="seizi" storage="seizi/hohoemi2.png" page="%page|fore" top="%top|70" left="%left" time="%time|00" width="%width|1250" wait="%wait|true"][endmacro]
-[macro name="s/kanasimi"][chara_mod name="seizi" storage="seizi/knasimi.png" page="%page|fore" top="%top|70" left="%left" time="%time|100" width="%width|1250" wait="%wait|true"][endmacro]
+[macro name="s/kanasimi"][chara_mod name="seizi" storage="seizi/kanasimi.png" page="%page|fore" top="%top|70" left="%left" time="%time|100" width="%width|1250" wait="%wait|true"][endmacro]
 [macro name="s/kuti"][chara_mod name="seizi" storage="seizi/kuti.png" page="%page|fore" top="%top|70" left="%left" time="%time|100" width="%width|1250" wait="%wait|true"][endmacro]
 [macro name="s/magao"][chara_mod name="seizi" storage="seizi/magao.png" page="%page|fore" top="%top|70" left="%left" time="%time|100" width="%width|1250" wait="%wait|true"][endmacro]
 [macro name="s/metozi"][chara_mod name="seizi" storage="seizi/metozi.png" page="%page|fore" top="%top|70" left="%left" time="%time|100" width="%width|1250" wait="%wait|true"][endmacro]
@@ -228,6 +228,7 @@
 [macro name="k/bishou"][chara_mod name="kaname" storage="kaname/bishou.png" page="%page|fore" top="%top|10" left="%left" time="%time|100" width="%width|1100" wait="%wait|true"][endmacro]
 [macro name="k/bishou2"][chara_mod name="kaname" storage="kaname/bishou2.png" page="%page|fore" top="%top|10" left="%left" time="%time|100" width="%width|1100" wait="%wait|true"][endmacro]
 [macro name="k/iradati"][chara_mod name="kaname" storage="kaname/iradati.png" page="%page|fore" top="%top|10" left="%left" time="%time|100" width="%width|1100" wait="%wait|true"][endmacro]
+[macro name="k/kanasimi"][chara_mod name="kaname" storage="kaname/kanasimi.png" page="%page|fore" top="%top|10" left="%left" time="%time|100" width="%width|1100" wait="%wait|true"][endmacro]
 [macro name="k/magao"][chara_mod name="kaname" storage="kaname/magao.png" page="%page|fore" top="%top|10" left="%left" time="%time|100" width="%width|1100" wait="%wait|true"][endmacro]
 [macro name="k/niko"][chara_mod name="kaname" storage="kaname/niko.png" page="%page|fore" top="%top|10" left="%left" time="%time|100" width="%width|1100" wait="%wait|true"][endmacro]
 [macro name="k/niyake"][chara_mod name="kaname" storage="kaname/niyake.png" page="%page|fore" top="%top|10" left="%left" time="%time|100" width="%width|1100" wait="%wait|true"][endmacro]
