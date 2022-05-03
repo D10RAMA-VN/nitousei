@@ -172,7 +172,7 @@
 #美波
 「…北斗、大丈夫？」[p]
 #北斗
-[move name=minami left=40][hokuto_s_hohoemi left=640]
+[move name=minami left=40][hokuto_s_bishou left=640]
 「うん、とりあえず。」[p]
 #美波
 [ms/dere]
@@ -255,7 +255,7 @@
 [hs_aseri]
 「…！」[p]
 #
-[mhhide][bg storage=still_cry.png time=500]
+[hide wait=false][mhhide][bg storage=still_cry.png time=500]
 見れば、美波が目に涙を浮かべている。[p]
 #北斗
 [hs_mu]

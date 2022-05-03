@@ -889,7 +889,19 @@ tyrano.plugin.kag.ftag = {
             next: "false"
           }), !("save" != r.role && "menu" != r.role && "quicksave" != r.role && "sleepgame" != r.role || 1 != g.kag.stat.is_adding_text && 1 != g.kag.stat.is_wait)) return !1;
         switch (r.role) {
-        case "rock":
+        case "lock":
+          var off = $('.role_button').offset();
+          $('.role_button').offset(function(index, coords) {
+   			return {left: coords.left + 1000};
+  		  });
+  		  $('.role_button2').css({'opacity':'1','pointer-events':'auto'});
+          break;
+        case "unlock":
+          var off = $('.role_button').offset();
+          $('.role_button').offset(function(index, coords) {
+   			return {left: coords.left - 1000};
+  		  });
+  		  $('.role_button2').css({'opacity':'0','pointer-events':'none'});
           break;
         case "save":
           g.kag.menu.displaySave();

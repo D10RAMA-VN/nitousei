@@ -84,7 +84,7 @@ tf.savetext = "<span style='font-size:10px'>"+tf.save_date+"</span><br />"+tf.ti
 [macro name="mshow"][anim layer="message0" opacity=255 time="%time|1200"][endmacro]
 ;メニューボタン
 [macro name="rolebutton"]
-;[button name="role_button" role=lock graphic="ui/close_menu.png" x=1164 y=1041 fix=true]
+[button name="role_button" role=lock graphic="ui/close_menu.png" x=1164 y=1041 fix=true]
 [button name="role_button" role=save graphic="ui/save.png" x=1220 y=1040 fix=true]
 [button name="role_button" role=load graphic="ui/load.png" x=1317 y=1040 fix=true]
 [button name="role_button" role=backlog graphic="ui/backlog.png" x=1417 y=1040 fix=true]
@@ -92,13 +92,14 @@ tf.savetext = "<span style='font-size:10px'>"+tf.save_date+"</span><br />"+tf.ti
 [button name="role_button" role=skip graphic="ui/skip.png" x=1665 y=1040 fix=true]
 [button name="role_button" role=config graphic="ui/config.png" x=1753 y=1040 fix=true]
 [button name="role_button" role=window graphic="ui/close.png" x=1876 y=1040 fix=true]
+[button name="role_button2" role=unlock graphic="ui/menu.png" x=1758 y=1035 fix=true]
 [endmacro]
 
 
 ;メッセージボックス
 [macro name="M0"]
 [position layer="message0" left=0 top=790 width=1920 height=290 opacity=&sf.mopacity frame="ui/frame.png" page=fore visible=true]
-[position layer="message0" page=fore margint="15" marginl="390" marginr="220" marginb="50"]
+[position layer="message0" page=fore margint="15" marginl="390" marginr="190" marginb="50"]
 [endmacro]
 
 [macro name="trans_in"]

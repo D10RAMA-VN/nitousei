@@ -992,34 +992,36 @@ audio {
 
 .chapterchoice{
 	position:absolute;
-	top:370px;
-	left:200px;
+	top:385px;
+	left:40px;
 }
 
 .chapterchoice2{
 	position:absolute;
-	top:500px;
-	left:290px;
-}
-
-.chapterA{
-	position:absolute;
-	top:60px;
-	left:725px;
-}
-
-.chapterB{
-	position:absolute;
-	top:60px;
-	left:950px;
+	top:510px;
+	left:164.5px;
 }
 
 .chap{
+	position:absolute;
 	width:60px;
-	margin-right:100px;
 	cursor:pointer;
 }
 
+.chapbar{
+	position:absolute;
+	top:480px;
+	width:190px;
+	height:1px;
+	background:white;
+}
+
+.gallery_border{
+	position:absolute;
+	top:50px;
+	height:620px;
+	pointer-events: none;
+}
 
 
 @keyframes my-fade-in {
@@ -1036,8 +1038,24 @@ audio {
   animation-duration: .5s;
 }
 
+.role_button{
+	transition:1s;
+}
+
+.role_button2{
+	opacity:0;
+    pointer-events:none;
+	transition:1s;
+}
 
 .role_button:hover{
+	animation-name: role_hover;
+	animation-duration: 1.5s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+}
+
+.role_button2:hover{
 	animation-name: role_hover;
 	animation-duration: 1.5s;
 	animation-iteration-count:infinite;

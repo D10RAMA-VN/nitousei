@@ -16,20 +16,22 @@
       <div id="chapterbutton" class="prologue">チャプターへ移動</div>
       <div class="chapterchoice">
         <img src="tyrano/html/star.png" id="prologue" class="chap">
-        <img src="tyrano/html/star.png" id="chapter2" class="chap">
-        <img src="tyrano/html/star.png" id="chapter4" class="chap">
-        <img src="tyrano/html/star.png" id="chapter6" class="chap">
-        <img src="tyrano/html/star.png" id="chapter8" class="chap">
-        <img src="tyrano/html/star.png" id="epilog" class="chap">
+        <img src="tyrano/html/star.png" id="chapter2" class="chap" style="left:245px;">
+        <img src="tyrano/html/star.png" id="chapter4" class="chap" style="left:485px;">
+        <img src="tyrano/html/star.png" id="chapter6" class="chap" style="left:725px;">
+        <img src="tyrano/html/star.png" id="chapter8" class="chap" style="left:965px;">
+        <img src="tyrano/html/star.png" id="epilog" class="chap" style="left:1200px;">
       </div>
       
       <div class="chapterchoice2">
         <img src="tyrano/html/star.png" id="chapter1" class="chap">
-        <img src="tyrano/html/star.png" id="chapter3" class="chap">
-        <img src="tyrano/html/star.png" id="chapter5" class="chap">
-        <img src="tyrano/html/star.png" id="chapter7" class="chap">
-        <img src="tyrano/html/star.png" id="chapter9" class="chap">
+        <img src="tyrano/html/star.png" id="chapter3" class="chap" style="left:240px;">
+        <img src="tyrano/html/star.png" id="chapter5" class="chap" style="left:481px;">
+        <img src="tyrano/html/star.png" id="chapter7" class="chap" style="left:721px;">
+        <img src="tyrano/html/star.png" id="chapter9" class="chap" style="left:960px;">
       </div>
+      <div class="chapbar" style="transform:rotate(45deg);left:40px;"></div><div class="chapbar" style="transform:rotate(45deg);left:280px;"></div><div class="chapbar" style="transform:rotate(45deg);left:520px;"></div><div class="chapbar" style="transform:rotate(45deg);left:760px;"></div><div class="chapbar" style="transform:rotate(45deg);left:1000px;"></div>
+      <div class="chapbar" style="transform:rotate(-45deg);left:160px;"></div><div class="chapbar" style="transform:rotate(-45deg);left:400px;"></div><div class="chapbar" style="transform:rotate(-45deg);left:640px;"></div><div class="chapbar" style="transform:rotate(-45deg);left:880px;"></div><div class="chapbar" style="transform:rotate(-45deg);left:1120px;"></div>
     </div>
     
     <div class='content2'>
@@ -66,6 +68,10 @@
   </div>
   <div id="cgbig"></div>
   <div id="cgvideo"><video src="" autoplay id="vcg"></video></div>
+  <div id="gb1" class="gallery_border" style="left:100px;width:200px;border-top:solid .5px #606589;border-left:solid .5px #606589;"></div>
+  <div id="gb2" class="gallery_border" style="left:300px;width:200px;border-top:solid .5px #606589;"></div>
+  <div id="gb3" class="gallery_border" style="left:500px;width:200px;border-top:solid .5px #606589;"></div>
+  <div id="gb4" class="gallery_border" style="left:700px;width:750px;border-top:solid .5px #606589;border-right:solid .5px #606589;"></div>
 </div>
 </div>
 
@@ -176,7 +182,7 @@ $('#epilog').click(
 
 $('.content1').on('click','.prologue',function(){
     tyrano.plugin.kag.ftag.startTag("jump",{storage:"prologue.ks"}),
-    $('.layer_menu').fadeOut(200, function () {
+    $('.layer_menu').fadeOut(1000, function () {
           $('.layer_menu').empty()
        })
 });
