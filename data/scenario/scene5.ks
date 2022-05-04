@@ -243,7 +243,7 @@
 #
 一瞬、フラッシュバックする光景があった。[p]
 …そういう、ことか。[p]
-いやまさか。[r]　しかし、この味を出せるようなやつを自分は一人しか知らない。[p]
+いやまさか。[r]しかし、この味を出せるようなやつを自分は一人しか知らない。[p]
 しかし、そうだとして、どんな動機でこんな真似をしたというのか。[p]
 …いや、思い当たることは、いくつもある。[p]
 それは、あまりにも都合がよすぎて、うぬぼれにも近いこと。[p]
@@ -375,7 +375,7 @@
 [r/kanasimi]
 「もっとも、これでも全然追いつかないんだが…」[p]
 #北斗
-[r/odoroki]
+[hs/odoroki]
 「え？」[p]
 #令人
 [r/bishou]
@@ -716,7 +716,7 @@
 「…ん。」[p]
 
 [mask time=500
-[hide time=0]][kaname_niyake left=-80 wait=false][nao_niko left=460 wait=false][reito_komori left=850]
+[hide time=0]][kaname_niyake left=-80 wait=false][nao_niko left=460 wait=false][reito_komari left=850]
 [bg storage="rouka_s.jpg" time="500"]
 [mask_off time=500]
 #奏女

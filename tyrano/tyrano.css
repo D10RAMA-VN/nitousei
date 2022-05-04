@@ -437,6 +437,13 @@ input[type=radio]:checked + .checkbox:after {
 	opacity:1;
 }
 
+.min_max{
+	position:absolute;
+	font-family:ubuntu-italic;
+	font-size:28px;
+	color:#606589;
+}
+
 /* セーブ時の画面の設定
 --------------------------*/
 .area_save_list {
