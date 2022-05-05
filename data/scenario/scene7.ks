@@ -749,7 +749,7 @@
 [hs/kanasimi]
 「すいません…」[p]
 #七音
-[n_kanasmi]
+[n_kanasimi]
 「しょうがないな。一日だけね？」[p]
 [mnhide]
 #北斗

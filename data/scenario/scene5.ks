@@ -141,7 +141,7 @@
 [mask time=500]
 [bg storage="ongaku.jpg" time="500"]
 [hs/metozi time=0][r/magao time=0]
-[mask time=500]
+[mask_off time=500]
 #北斗
 「（そういえば、令人先輩と2人で話すのほぼ初だな…）」[p]
 #
@@ -269,7 +269,7 @@
 その嘘つきお手製の弁当を、味わいながらもかきこんでいった。[p]
 
 [mask time=0]
-[hide][reito_kanasimi left=40px time=0][hokuto_s_bishou left=680px time=0]
+[hide][reito_kanasimi left=40 time=0][hokuto_s_bishou left=680 time=0]
 [mask_off time=0]
 
 #令人
@@ -291,6 +291,8 @@
 #令人
 [r/magao]
 「…わかった。」[p]
+
+; 一瞬暗転はさんでほしい（安田）
 
 ;[演奏]
 #北斗
@@ -393,6 +395,7 @@
 [hide time=0]
 [bg storage=rouka_s.jpg time=500]
 [mask_off time=500]
+; 美波視点とわかるカットインとか？（安田）
 
 #
 4限の授業が終わり、部室へ向かう。[p]
@@ -627,7 +630,7 @@
 [hs/akire]
 「（美波…考えたあげくに出てくるのがそれとか…ホント、[r]　本当にもう…）」[p]
 #
-オレもいくつか美波の動機を考えていたものの、美波の持っていた理由は、オレの予想よりも遥かに、素朴で、純粋だった。[p]
+オレもいくつか美波の動機を考えていたものの、美波の持っていた理由は、[r]オレの予想よりも遥かに、素朴で、純粋だった。[p]
 #美波
 [ms/naki]
 「それで、その、最初はホントにお母さんにお願いしたんだけど、なんか、　自分で作ってみたら？とか言われちゃって。」[p]
@@ -716,7 +719,7 @@
 「…ん。」[p]
 
 [mask time=500
-[hide time=0]][kaname_niyake left=-80 wait=false][nao_niko left=460 wait=false][reito_komari left=850]
+[hide time=0][kaname_niyake left=-80 wait=false][nao_niko left=460 wait=false][reito_komari left=850]
 [bg storage="rouka_s.jpg" time="500"]
 [mask_off time=500]
 #奏女
@@ -777,7 +780,7 @@
 「前にさ…」[p]
 
 #
-こうして、季節と一緒に少しずつ何かが変わっていきながら、[r]　５月最後の週が始まっていった。[p]
+こうして、季節と一緒に少しずつ何かが変わっていきながら、[r]５月最後の週が始まっていった。[p]
 
 [mask time=500]
 [hide time=0]
