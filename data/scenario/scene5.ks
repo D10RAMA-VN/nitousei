@@ -6,7 +6,7 @@
 [hide time=0]
 [wait time=500]
 [mask time=500]
-[bg storage="michi.png" time="500"]
+[bg storage="michi.jpg" time="500"]
 [rolebutton]
 [M0]
 @layopt layer=message0 visible=true
@@ -715,8 +715,8 @@
 [ms/dere]
 「…ん。」[p]
 
-[mask time=500
-[hide time=0]][kaname_niyake left=-80 wait=false][nao_niko left=460 wait=false][reito_komari left=850]
+[mask time=500]
+[hide time=0][kaname_niyake left=-80 wait=false][nao_niko left=460 wait=false][reito_komari left=850]
 [bg storage="rouka_s.jpg" time="500"]
 [mask_off time=500]
 #奏女

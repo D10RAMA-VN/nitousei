@@ -99,9 +99,10 @@
 	
 <script>
 $(function () {
+			
 			var current_bgm_vol=parseInt(tyrano.plugin.kag.config.defaultBgmVolume); //システム値取得
 			$('#bgm_volume').val(current_bgm_vol); //スライダー初期位置
-			$('#spanbgm').html(current_bgm_vol); //初期表示
+			$('#spanbgm').html(current_bgm_vol); 
 			$('#bgm_volume').on('input change', function() {
 				$('#spanbgm').html($(this).val());
 				current_bgm_vol=$(this).val();
@@ -138,9 +139,7 @@ $(function () {
 				tyrano.plugin.kag.ftag.startTag("seopt",{volume:tyrano.plugin.kag.variable.tf.current_se_vol,buf:1});
 			});
 			$('#vo_volume').val(tyrano.plugin.kag.variable.sf.vo_vol); //スライダー初期位置
-			$('#vo').html(tyrano.plugin.kag.variable.sf.vo_vol); //初期表示
 			$('#vo_volume').on('input change', function() {
-				$('#vo').html($(this).val());
 				tyrano.plugin.kag.variable.sf.vo_vol=$(this).val();
 			});
 			if(typeof tyrano.plugin.kag.variable.sf.vo1_vol!="undefined"){tyrano.plugin.kag.variable.tf.vo1_vol=tyrano.plugin.kag.variable.sf.vo1_vol}else{tyrano.plugin.kag.variable.tf.vo1_vol=100}

@@ -162,7 +162,7 @@
 [sh/hohoemi2]
 「美波君。キミにも、世話になっていいかな？」[p]
 #美波
-[minami_s_hohemi left=840]
+[minami_s_hohoemi left=840]
 「はい、もちろんです。」[p]
 
 #
@@ -211,7 +211,7 @@
 
 [mask time=500]
 [hide time=0][seizi_h_kanasimi left=15 time=0][hokuto_s_magao left=680 time=0]
-[bg storage=byousitu.png time=500]
+[bg storage=byousitu.jpg time=500]
 [mask_off time=500]
 #北斗
 「……爺さん、今日の調子はどう？」[p]
@@ -291,7 +291,7 @@
 「爺さん…嘘が下手だって自分で言ってるのに、そういう言い方すんなよ…[r]　ばれるような嘘、つかないでくれよ…」[p]
 
 [mask time=500]
-[hide time=0][bg storage=black.jpg time=500]
+[hide time=0][bg storage=black.png time=500]
 [mask_off time=500]
 
 @jump storage="scene9.ks" target=*chapter9

@@ -14,7 +14,14 @@
 [chara_new  name="reito" storage="reito/magao.png" width=900 jname="令人" color=#0ACC62]
 [chara_new  name="yuko" storage="yuko/hohoemi.png" width=900 jname="優子" color=#0ACC62]
 
-;[voconfig sebuf=4 name="kaname" vostorage="kaname/k_{number}.ogg" number=1 ]
+
+;[voconfig sebuf=1 name="hokuto" vostorage="kaname/k_{number}.ogg" number=1 ]
+;[voconfig sebuf=2 name="minami" vostorage="kaname/k_{number}.ogg" number=1 ]
+;[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=1 ]
+;[voconfig sebuf=4 name="nao" vostorage="kaname/kaname_{number}.ogg" number=1 ]
+;[voconfig sebuf=5 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=1 ]
+;[voconfig sebuf=6 name="reito" vostorage="reito/reito_{number}.ogg" number=1 ]
+[vostart]
 
 [glyph fix=true left=1750 top=880]
 

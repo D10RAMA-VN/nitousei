@@ -170,5 +170,3 @@ tf.savetext = "<span style='font-size:10px'>"+tf.save_date+"</span><br />"+tf.ti
 [endkeyframe]
 
 [return]
-
-
