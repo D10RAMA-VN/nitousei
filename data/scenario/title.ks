@@ -18,14 +18,16 @@ else{
     sf.pc=false;
 }
 
+if(typeof sf.master_volum!="undefined"){tf.master_volum=sf.master_volum}else{tf.master_volum=100}
 if(typeof sf.current_se_vol!="undefined"){tf.current_se_vol=sf.current_se_vol}else{tf.current_se_vol=50}
 if(typeof sf.vo1_vol!="undefined"){tf.vo1_vol=sf.vo1_vol}else{tf.vo1_vol=100}
+
 [endscript]
 
 [eval exp="sf.current_bgm_vol=20"]
 
 
-;[playbgm storage="main_loop.ogg"]
+[playbgm storage="main_loop.ogg"]
 *title
 @clearfix
 [cm]
