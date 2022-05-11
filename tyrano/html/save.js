@@ -189,24 +189,3 @@ document.getElementById("27").style.display ="block";
 document.getElementById("28").style.display ="block";
 document.getElementById("29").style.display ="block";
 });
-
-$("#page1").on('click',function(){
-	$("#page1").css( "background-color", "#007882");
-	$("#page2,#page3,#page4,#page5").css( "background-color", "rgba(0,0,0,0)");
-});
-$("#page2").on('click',function(){
-	$("#page2").css( "background-color", "#007882");
-	$("#page1,#page3,#page4,#page5").css( "background-color", "rgba(0,0,0,0)");
-});
-$("#page3").on('click',function(){
-	$("#page3").css( "background-color", "#007882");
-	$("#page1,#page2,#page4,#page5").css( "background-color", "rgba(0,0,0,0)");
-});
-$("#page4").on('click',function(){
-	$("#page4").css( "background-color", "#007882");
-	$("#page1,#page2,#page3,#page5").css( "background-color", "rgba(0,0,0,0)");
-});
-$("#page5").on('click',function(){
-	$("#page5").css( "background-color", "#007882");
-	$("#page1,#page2,#page3,#page4").css( "background-color", "rgba(0,0,0,0)");
-});

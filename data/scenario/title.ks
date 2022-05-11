@@ -18,16 +18,22 @@ else{
     sf.pc=false;
 }
 
-if(typeof sf.master_volum!="undefined"){tf.master_volum=sf.master_volum}else{tf.master_volum=100}
-if(typeof sf.current_se_vol!="undefined"){tf.current_se_vol=sf.current_se_vol}else{tf.current_se_vol=50}
-if(typeof sf.vo1_vol!="undefined"){tf.vo1_vol=sf.vo1_vol}else{tf.vo1_vol=100}
+
+if(typeof tyrano.plugin.kag.variable.sf.current_se_vol!="undefined"){tf.current_se_vol=sf.current_se_vol}else{tf.current_se_vol=50}
+if(typeof tyrano.plugin.kag.variable.sf.current_vo_vol!="undefined"){tf.current_vo_vol=sf.current_vo_vol}else{tf.current_vo_vol=50}
+if(typeof tyrano.plugin.kag.variable.sf.vo1_vol!="undefined"){tyrano.plugin.kag.variable.tf.vo1_vol=sf.vo1_vol}else{tyrano.plugin.kag.variable.tf.vo1_vol=100}
+if(typeof tyrano.plugin.kag.variable.sf.vo2_vol!="undefined"){tyrano.plugin.kag.variable.tf.vo2_vol=sf.vo2_vol}else{tyrano.plugin.kag.variable.tf.vo2_vol=100}
+if(typeof tyrano.plugin.kag.variable.sf.vo3_vol!="undefined"){tyrano.plugin.kag.variable.tf.vo3_vol=sf.vo3_vol}else{tyrano.plugin.kag.variable.tf.vo3_vol=100}
+if(typeof tyrano.plugin.kag.variable.sf.vo4_vol!="undefined"){tyrano.plugin.kag.variable.tf.vo4_vol=sf.vo4_vol}else{tyrano.plugin.kag.variable.tf.vo4_vol=100}
+if(typeof tyrano.plugin.kag.variable.sf.vo5_vol!="undefined"){tyrano.plugin.kag.variable.tf.vo5_vol=sf.vo5_vol}else{tyrano.plugin.kag.variable.tf.vo5_vol=100}
+if(typeof tyrano.plugin.kag.variable.sf.vo6_vol!="undefined"){tyrano.plugin.kag.variable.tf.vo6_vol=sf.vo6_vol}else{tyrano.plugin.kag.variable.tf.vo6_vol=100}
 
 [endscript]
 
 [eval exp="sf.current_bgm_vol=20"]
 
 
-[playbgm storage="main_loop.ogg"]
+;[playbgm storage="main_loop.ogg"]
 *title
 @clearfix
 [cm]

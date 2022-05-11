@@ -335,7 +335,7 @@ TYRANO.kag.tmp.backlog.functions.setScrollbar = function () {
   if (d.tab_img != "") {
     l.css({
       width: d.width + "px",
-      background: "rgba(0,0,0,0) url('" + TYRANO.kag.tmp.backlog.image_path + d.bgimage + "') no-repeat",
+      background: "linear-gradient(90deg, #00000000 0%, #00000000 48%, #ffffff 48%, #ffffff 52%, #00000000 52%, #00000000 100%)",
       "border-radius": "0px"
     });
     j.css({

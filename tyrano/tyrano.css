@@ -225,7 +225,7 @@ abbr,acronym{
 	left:295px;
 	width:40px;
 	transform: translateZ(0);
-	font-family:applimincho;
+	font-family:ubuntu;
 	font-size:26pt;
 	color:white;
 }
@@ -235,7 +235,7 @@ input[type="range"]{
     appearance: none;
     outline:none;
     cursor: pointer; /* カーソルを分かりやすく */
-    height: 3px; 
+    height: 4px; 
     width: 600px; 
     margin-left: 50px;
     background: #fff; /* バーの背景色 */
@@ -281,27 +281,23 @@ input[type="range"]::-webkit-slider-thumb {
 
  /* === ON側のラジオボタンのラベル（標準） ================== */
 .unread_area #unreadon + label {
-  color:#fff;
-  opacity:0.3;
+  color:#606589;
 }
  
  /* === ON側のラジオボタンのラベル（ONのとき） ============== */
 .unread_area #unreadon:checked +label {
   color: #fff;
-  opacity:1;
 }
  
  /* === OFF側のラジオボタンのラベル（標準） ================ */
 .unread_area #unreadoff + label {
   margin-left:50px;
-  color:#fff;
-  opacity:0.3;
+  color:#606589;
 }
  
  /* === OFF側のラジオボタンのラベル（OFFのとき） ============= */
 .unread_area #unreadoff:checked +label {
     color: #fff;
-    opacity:1;
 }
 
 .c1:hover:after{
@@ -964,7 +960,7 @@ audio {
   padding:15px;
   position:absolute;
   top:50px;
-  left:100px;
+  left:90px;
   height:590px;
   width:1320px;
 }
@@ -988,7 +984,7 @@ audio {
 	position:absolute;
 	top:280px;
 	left:900px;
-	background:gray;
+	background:#606589;
 	border-radius:50vh;
 	text-align:center;
 	padding-top:8px;
@@ -1012,6 +1008,7 @@ audio {
 .chap{
 	position:absolute;
 	width:60px;
+	z-index:1;
 	cursor:pointer;
 }
 
@@ -1020,7 +1017,7 @@ audio {
 	top:480px;
 	width:190px;
 	height:1px;
-	background:white;
+	background:#606589;
 }
 
 .gallery_border{

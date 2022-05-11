@@ -32,13 +32,13 @@
 	
 	</div>
 	
-	<div class="pagenumber" id="page1" style="cursor:pointer;position:absolute;top:970px;left:650px;background-color:#007882;"><img id="slot1" src='tyrano/images/system/1.png' /></div>
+	<div class="pagenumber" id="page1" style="cursor:pointer;position:absolute;top:970px;left:650px;background-color:#0C008A;"><img id="slot1" src='tyrano/images/system/1.png' /></div>
 	<div class="pagenumber" id="page2" style="cursor:pointer;position:absolute;top:970px;left:800px;"><img id="slot2" src='tyrano/images/system/2.png' /></div>
 	<div class="pagenumber" id="page3" style="cursor:pointer;position:absolute;top:970px;left:950px;"><img id="slot3" src='tyrano/images/system/3.png' /></div>
 	<div class="pagenumber" id="page4" style="cursor:pointer;position:absolute;top:970px;left:1100px;"><img id="slot4" src='tyrano/images/system/4.png' /></div>
 	<div class="pagenumber" id="page5" style="cursor:pointer;position:absolute;top:970px;left:1250px;"><img id="slot5" src='tyrano/images/system/5.png' /></div>
 	
-	<div style="position:absolute;top:0px;width:50px;height:100%;background:linear-gradient(#0C008A, #007882);"></div>
+	<div style="position:absolute;top:0px;width:50px;height:100%;background:#0C008A;"></div>
 	<img src="tyrano/images/system/save_title.png" style="left:130px;top:80px;position:absolute;">
 	<img src="tyrano/images/system/logo_h.png" style="width:600px;left:1200px;top:50px;position:absolute;">
 	<img class="img_bg_base" src="tyrano/images/system/bg.png" style="z-index:-1;left:0;top:0;width:100%;height:100%;position:absolute;">
@@ -47,5 +47,28 @@
 	</div>
 
 <script type="text/javascript" src="./tyrano/html/save.js"></script>
+
+<script>
+$("#page1").on('click',function(){
+	$("#page1").css( "background-color", "#0C008A");
+	$("#page2,#page3,#page4,#page5").css( "background-color", "rgba(0,0,0,0)");
+});
+$("#page2").on('click',function(){
+	$("#page2").css( "background-color", "#0C008A");
+	$("#page1,#page3,#page4,#page5").css( "background-color", "rgba(0,0,0,0)");
+});
+$("#page3").on('click',function(){
+	$("#page3").css( "background-color", "#0C008A");
+	$("#page1,#page2,#page4,#page5").css( "background-color", "rgba(0,0,0,0)");
+});
+$("#page4").on('click',function(){
+	$("#page4").css( "background-color", "#0C008A");
+	$("#page1,#page2,#page3,#page5").css( "background-color", "rgba(0,0,0,0)");
+});
+$("#page5").on('click',function(){
+	$("#page5").css( "background-color", "#0C008A");
+	$("#page1,#page2,#page3,#page4").css( "background-color", "rgba(0,0,0,0)");
+});
+</script>
 
 </div>

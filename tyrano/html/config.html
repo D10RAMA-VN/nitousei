@@ -5,68 +5,79 @@
 
 <div class='tabs'>
   <div class='tab-buttons'>
-    <span class='content1' style="margin-left:100px;padding-top:17px;border-top:solid;border-left:solid;border-right:solid;transition: .3s;">一般設定</span>
-    <span class='content2' style="padding-top:17px;margin-left:-12px;border-top:solid;border-right:solid;transition: .3s;">ボイス設定</span> 
+    <span class='content1' style="margin-left:100px;padding-top:17px;border-top:solid;border-left:solid #606589;border-right:solid #606589;transition: .3s;">一般設定</span>
+    <span class='content2' style="padding-top:17px;margin-left:-12px;border-top:solid;border-right:solid #606589;transition: .3s;">ボイス設定</span> 
   </div>
   
   <div class='tab-content'>
    <div class='content1'>
 	<div class="config_body">
-			<div class="range"> 
-				<p><span id="master" style="display:inline-block;margin-top:50px;margin-left:-200px;width:300px;text-align:right;">マスター音量</span></p>
-				<input type="range" id="master_volume" min="0" max="100" step="1" value="50" style="left:135px;top:70px;position:absolute;">
+			<div class="range">
+				<p><span style="display:inline-block;margin-top:60px;margin-left:-200px;width:300px;text-align:right;">BGM音量</span></p>
+				<input type="range" id="bgm_volume" min="0" max="100" step="1" value="50" style="left:145px;top:81px;position:absolute;">
 			</div>
 			<div class="range">
-				<p><span style="display:inline-block;margin-top:25px;margin-left:-200px;width:300px;text-align:right;">BGM音量</span></p>
-				<input type="range" id="bgm_volume" min="0" max="100" step="1" value="50" style="left:135px;top:142px;position:absolute;">
-			</div>
-			<div class="range">
-				<span style="display:inline-block;margin-top:25px;margin-left:-200px;width:300px;text-align:right;">SE音量</span>
-				<input type="range" id="se_volume" min="0" max="100" value="20" step="1" style="left:135px;top:215px;position:absolute;">
+				<span style="display:inline-block;margin-top:30px;margin-left:-200px;width:300px;text-align:right;">SE音量</span>
+				<input type="range" id="se_volume" min="0" max="100" value="20" step="1" style="left:145px;top:163px;position:absolute;">
 			</div>
 			<div class="range"> 
-				<p><span style="display:inline-block;margin-top:25.5px;margin-left:-200px;width:300px;text-align:right;">ボイス音量</span></p>
-				<input type="range" id="vo_volume" min="0" max="100" step="1" value="50" style="left:135px;top:286px;position:absolute;">
+				<p><span style="display:inline-block;margin-top:30px;margin-left:-200px;width:300px;text-align:right;">ボイス音量</span></p>
+				<input type="range" id="vo_volume" min="0" max="100" step="1" value="50" style="left:145px;top:246px;position:absolute;">
 			</div>
 			<div class="range">
 				<span style="display:inline-block;margin-top:65px;margin-left:-200px;width:300px;text-align:right;">テキスト速度</span>
-				<input type="range" id="text_speed" min="-100" max="0" value="-30" step="1" style="left:135px;top:405px;position:absolute;">
+				<input type="range" id="text_speed" min="-100" max="0" value="-30" step="1" style="left:145px;top:363px;position:absolute;">
 			</div>
 			<div class="range">
-				<span style="display:inline-block;margin-top:25px;margin-left:-200px;width:300px;text-align:right;">オートモード速度</span>
-				<input type="range" id="auto_speed" min="-5000" max="-500" value="-1300" step="100" style="left:135px;top:475px;position:absolute;">
+				<span style="display:inline-block;margin-top:30px;margin-left:-200px;width:300px;text-align:right;">オートモード速度</span>
+				<input type="range" id="auto_speed" min="-5000" max="-500" value="-1300" step="100" style="left:145px;top:446px;position:absolute;">
 			</div>
-			<span style="display:inline-block;margin-top:25px;margin-left:-200px;width:300px;text-align:right;">未読スキップ</span>
-            <div class="unread_area" id="unread_check" style="left:60px;top:520px;position:absolute;font-family:ubuntu-italic;">
+			<span style="display:inline-block;margin-top:30px;margin-left:-200px;width:300px;text-align:right;">未読スキップ</span>
+            <div class="unread_area" id="unread_check" style="left:60px;top:501px;position:absolute;font-family:ubuntu-italic;">
                 <input type="radio" name="unread_skip" id="unreadon">
                 <label for="unreadon">ON</label>
                 <input type="radio" name="unread_skip" id="unreadoff">
                 <label for="unreadoff">OFF</label>
             </div>
-            <div class=min_max style="left:123px;top:54px;">min</div><div class=min_max style="left:800px;top:54px;">max</div>
-            <div class=min_max style="left:123px;top:126px;">min</div><div class=min_max style="left:800px;top:126px;">max</div>
-            <div class=min_max style="left:123px;top:198px;">min</div><div class=min_max style="left:800px;top:198px;">max</div>
-            <div class=min_max style="left:123px;top:270px;">min</div><div class=min_max style="left:800px;top:270px;">max</div>
-            <div class=min_max style="left:123px;top:388px;">min</div><div class=min_max style="left:800px;top:388px;">max</div>
-            <div class=min_max style="left:123px;top:459px;">min</div><div class=min_max style="left:800px;top:459px;">max</div>
+            <div class=min_max style="left:133px;top:67px;">min</div><div class=min_max style="left:810px;top:67px;">max</div>
+            <div class=min_max style="left:133px;top:146px;">min</div><div class=min_max style="left:810px;top:146px;">max</div>
+            <div class=min_max style="left:133px;top:228px;">min</div><div class=min_max style="left:810px;top:228px;">max</div>
+            <div class=min_max style="left:133px;top:345px;">min</div><div class=min_max style="left:810px;top:345px;">max</div>
+            <div class=min_max style="left:133px;top:429px;">min</div><div class=min_max style="left:810px;top:429px;">max</div>
 	</div>
    </div>
    <div class='content2'>
 	<div class="config_body">
-			<img style="position:absolute;top:50px;left:-200px;" src="tyrano/images/system/icon_hokuto.png">
+			<img style="position:absolute;top:40px;left:-220px;" src="tyrano/images/system/icon_hokuto.png">
 			<div class="range">
-				<p><span class="config_voice_name" style="top:60px;">加賀屋北斗</span></p>
-				<input type="range" id="vo1_volume" min="0" max="100" step="1" value="50" style="top:150px;position:absolute;width:300px;">
+				<p><span class="config_voice_name" style="top:50px;left:-10px;"><span style="font-weight:lighter;">加賀屋 </span>北斗</p>
+				<input type="range" id="vo1_volume" min="0" max="100" step="1" value="50" style="top:140px;position:absolute;width:300px;left:-25px;">
 			</div>
-			<img style="position:absolute;top:250px;left:-200px;" src="tyrano/images/system/icon_minami.png">
+			<img style="position:absolute;top:240px;left:-220px;" src="tyrano/images/system/icon_minami.png">
 			<div class="range">
-				<p><span class="config_voice_name" style="top:260px;">来瀬美波</span></p>
-				<input type="range" id="vo2_volume" min="0" max="100" step="1" value="50" style="top:350px;position:absolute;width:300px;">
+				<p><span class="config_voice_name" style="top:250px;left:-10px;"><span style="font-weight:lighter;">来瀬 </span>美波</span></p>
+				<input type="range" id="vo2_volume" min="0" max="100" step="1" value="50" style="top:340px;position:absolute;width:300px;left:-25px;">
 			</div>
-			<img style="position:absolute;top:450px;left:-200px;" src="tyrano/images/system/icon_takamura.png">
+			<img style="position:absolute;top:440px;left:-220px;" src="tyrano/images/system/icon_takamura.png">
 			<div class="range">
-				<p><span class="config_voice_name" style="top:460px;">高村清二</span></p>
-				<input type="range" id="vo3_volume" min="0" max="100" step="1" value="50" style="top:550px;position:absolute;width:300px;">
+				<p><span class="config_voice_name" style="top:450px;left:-10px;"><span style="font-weight:lighter;">高村 </span>清二</span></p>
+				<input type="range" id="vo3_volume" min="0" max="100" step="1" value="50" style="top:540px;position:absolute;width:300px;left:-25px;">
+			</div>
+			
+			<img style="position:absolute;top:40px;left:440px;" src="tyrano/images/system/icon_nao.png">
+			<div class="range">
+				<p><span class="config_voice_name" style="top:50px;left:650px;"><span style="font-weight:lighter;">保科 </span>七音</span></p>
+				<input type="range" id="vo4_volume" min="0" max="100" step="1" value="50" style="top:140px;position:absolute;width:300px;left:635px;">
+			</div>
+			<img style="position:absolute;top:240px;left:440px;" src="tyrano/images/system/icon_reito.png">
+			<div class="range">
+				<p><span class="config_voice_name" style="top:250px;left:650px;"><span style="font-weight:lighter;">草間 </span>令人</span></p>
+				<input type="range" id="vo5_volume" min="0" max="100" step="1" value="50" style="top:340px;position:absolute;width:300px;left:635px;">
+			</div>
+			<img style="position:absolute;top:440px;left:440px;" src="tyrano/images/system/icon_kaname.png">
+			<div class="range">
+				<p><span class="config_voice_name" style="top:450px;left:650px;"><span style="font-weight:lighter;">天宮 </span>奏女</span></p>
+				<input type="range" id="vo6_volume" min="0" max="100" step="1" value="50" style="top:540px;position:absolute;width:300px;left:635px;">
 			</div>
 	</div>
    </div>
@@ -74,10 +85,10 @@
 </div>
 	
 	
-	<div class="border1" style="position:absolute;top:299px;left:687px;width:960px;height:620px;border-top:solid white;border-right:solid white;border-bottom:solid white;z-index:-1;"></div>
-	<div class="border2" style="position:absolute;top:299px;left:300px;width:385.8px;height:622px;border-left:solid white;border-bottom:solid white;"></div>
-	<div class="border3" style="position:absolute;top:299px;left:300px;width:195.5px;height:622px;border-top:solid white;display:none;"></div>
-	<div class="border4" style="position:absolute;top:299px;left:494px;width:193px;height:622px;border-top:solid white;"></div>
+	<div class="border1" style="position:absolute;top:299px;left:687px;width:960px;height:620px;border-top:solid #606589;border-right:solid #606589;border-bottom:solid #606589;z-index:-1;"></div>
+	<div class="border2" style="position:absolute;top:299px;left:300px;width:385.8px;height:622px;border-left:solid #606589;border-bottom:solid#606589;"></div>
+	<div class="border3" style="position:absolute;top:299px;left:300px;width:195.5px;height:622px;border-top:solid #606589;display:none;"></div>
+	<div class="border4" style="position:absolute;top:299px;left:494px;width:193px;height:622px;border-top:solid #606589;"></div>
 	<div style="position:absolute;top:0px;width:50px;height:100%;background:linear-gradient(#0C008A, #007882);"></div>
 	<img src="tyrano/images/system/title_setting.png" style="left:130px;top:80px;position:absolute;">
 	<img src="tyrano/images/system/logo_h.png" style="width:600px;left:1200px;top:50px;position:absolute;">
@@ -99,15 +110,15 @@
 	
 <script>
 $(function () {
-			
+			//BGM
 			var current_bgm_vol=parseInt(tyrano.plugin.kag.config.defaultBgmVolume); //システム値取得
 			$('#bgm_volume').val(current_bgm_vol); //スライダー初期位置
 			$('#spanbgm').html(current_bgm_vol); 
 			$('#bgm_volume').on('input change', function() {
-				$('#spanbgm').html($(this).val());
-				current_bgm_vol=$(this).val();
-				tyrano.plugin.kag.ftag.startTag("bgmopt",{volume: $(this).val()});
+				current_bgm_vol=Number($(this).val());
+				tyrano.plugin.kag.ftag.startTag("bgmopt",{volume: current_bgm_vol});
 			});
+			//テキスト
 			var current_ch_speed=parseInt(tyrano.plugin.kag.config.chSpeed); //システム値取得
 			var span_ch_speed=-current_ch_speed+100 //表示用変数
 			$('#text_speed').val(-current_ch_speed); //スライダー初期位置
@@ -118,6 +129,7 @@ $(function () {
 				current_ch_speed=-$(this).val();
 				tyrano.plugin.kag.ftag.startTag("configdelay",{speed: -$(this).val()});
 			});
+			//オート
 			var current_auto_speed=parseInt(tyrano.plugin.kag.config.autoSpeed); //システム値取得
 			var span_auto_speed=(-current_auto_speed+5500)/50 //表示用変数
 			$('#auto_speed').val(-current_auto_speed); //スライダー初期位置
@@ -128,39 +140,71 @@ $(function () {
 				current_auto_speed=-$(this).val();
 				tyrano.plugin.kag.ftag.startTag("autoconfig",{speed: -$(this).val()});
 			});
-			
+			//SE
 			if(typeof tyrano.plugin.kag.variable.sf.current_se_vol!="undefined"){tyrano.plugin.kag.variable.tf.current_se_vol=tyrano.plugin.kag.variable.sf.current_se_vol}else{tyrano.plugin.kag.variable.tf.current_se_vol=50}
 			$('#se_volume').val(tyrano.plugin.kag.variable.tf.current_se_vol); //スライダー初期位置
-			$('#spanse').html(tyrano.plugin.kag.variable.tf.current_se_vol); //初期表示
 			$('#se_volume').on('input change', function() {
-				$('#spanse').html($(this).val());
 				tyrano.plugin.kag.variable.tf.current_se_vol=$(this).val();
 				tyrano.plugin.kag.variable.sf.current_se_vol=tyrano.plugin.kag.variable.tf.current_se_vol;
-				tyrano.plugin.kag.ftag.startTag("seopt",{volume:tyrano.plugin.kag.variable.tf.current_se_vol,buf:1});
+				current_se_vol= Number($(this).val());
+				tyrano.plugin.kag.ftag.startTag("seopt",{volume:current_se_vol,buf:0});
 			});
-			$('#vo_volume').val(tyrano.plugin.kag.variable.sf.vo_vol); //スライダー初期位置
+			//ボイスマスター
+			if(typeof tyrano.plugin.kag.variable.sf.current_vo_vol!="undefined"){tyrano.plugin.kag.variable.tf.current_vo_vol=tyrano.plugin.kag.variable.sf.current_vo_vol}else{tyrano.plugin.kag.variable.tf.current_vo_vol=50}
+			$('#vo_volume').val(tyrano.plugin.kag.variable.tf.current_vo_vol); //スライダー初期位置
 			$('#vo_volume').on('input change', function() {
-				tyrano.plugin.kag.variable.sf.vo_vol=$(this).val();
+				tyrano.plugin.kag.variable.tf.current_vo_vol=$(this).val();
+				tyrano.plugin.kag.variable.sf.current_vo_vol=tyrano.plugin.kag.variable.tf.current_vo_vol;
+				current_vo_vol=Number($(this).val());
+				tyrano.plugin.kag.ftag.startTag("seopt",{volume:current_vo_vol,buf:7});
 			});
+			//ボイス北斗
 			if(typeof tyrano.plugin.kag.variable.sf.vo1_vol!="undefined"){tyrano.plugin.kag.variable.tf.vo1_vol=tyrano.plugin.kag.variable.sf.vo1_vol}else{tyrano.plugin.kag.variable.tf.vo1_vol=100}
 			$('#vo1_volume').val(tyrano.plugin.kag.variable.tf.vo1_vol); //スライダー初期位置
-			$('#vo1').html(tyrano.plugin.kag.variable.tf.vo1_vol); //初期表示
 			$('#vo1_volume').on('input change', function() {
-				$('#vo1').html($(this).val());
-				tyrano.plugin.kag.variable.tf.vo1_vol=$(this).val();
+				tyrano.plugin.kag.variable.tf.vo1_vol=Math.ceil(Number($('#vo_volume').val())*Number($(this).val())/100);
 				tyrano.plugin.kag.variable.sf.vo1_vol=tyrano.plugin.kag.variable.tf.vo1_vol;
-				tyrano.plugin.kag.ftag.startTag("seopt",{volume:tyrano.plugin.kag.variable.tf.vo1_vol,buf:2});
+				tyrano.plugin.kag.ftag.startTag("seopt",{volume:tyrano.plugin.kag.variable.tf.vo1_vol,buf:1});
 			});
-			
-			$('#fullscreen').on('click',function(e){tyrano.plugin.kag.menu.screenFull()});
-			
-			if(typeof tyrano.plugin.kag.variable.sf.mopacity=="undefined"){tyrano.plugin.kag.variable.sf.mopacity=255}
-			$('#mo_volume').val(tyrano.plugin.kag.variable.sf.mopacity); //スライダー初期位置
-			$('#mopacity').html(tyrano.plugin.kag.variable.sf.mopacity); //初期表示
-			$('#mo_volume').on('input change', function() {
-				$('#mopacity').html($(this).val());
-				tyrano.plugin.kag.variable.sf.mopacity=$(this).val();
-				$('.message_outer').css('opacity',tyrano.plugin.kag.variable.sf.mopacity/255);
+			//ボイス美波
+			if(typeof tyrano.plugin.kag.variable.sf.vo2_vol!="undefined"){tyrano.plugin.kag.variable.tf.vo2_vol=tyrano.plugin.kag.variable.sf.vo2_vol}else{tyrano.plugin.kag.variable.tf.vo2_vol=100}
+			$('#vo2_volume').val(tyrano.plugin.kag.variable.tf.vo2_vol); //スライダー初期位置
+			$('#vo2_volume').on('input change', function() {
+				tyrano.plugin.kag.variable.tf.vo2_vol=Math.ceil(Number($('#vo_volume').val())*Number($(this).val())/100);
+				tyrano.plugin.kag.variable.sf.vo2_vol=tyrano.plugin.kag.variable.tf.vo2_vol;
+				tyrano.plugin.kag.ftag.startTag("seopt",{volume:tyrano.plugin.kag.variable.tf.vo2_vol,buf:2});
+			});
+			//ボイス清二
+			if(typeof tyrano.plugin.kag.variable.sf.vo3_vol!="undefined"){tyrano.plugin.kag.variable.tf.vo3_vol=tyrano.plugin.kag.variable.sf.vo3_vol}else{tyrano.plugin.kag.variable.tf.vo3_vol=100}
+			$('#vo3_volume').val(tyrano.plugin.kag.variable.tf.vo3_vol); //スライダー初期位置
+			$('#vo3_volume').on('input change', function() {
+				tyrano.plugin.kag.variable.tf.vo3_vol=Math.ceil(Number($('#vo_volume').val())*Number($(this).val())/100);
+				tyrano.plugin.kag.variable.sf.vo3_vol=tyrano.plugin.kag.variable.tf.vo3_vol;
+				tyrano.plugin.kag.ftag.startTag("seopt",{volume:tyrano.plugin.kag.variable.tf.vo3_vol,buf:3});
+			});
+			//ボイス七音
+			if(typeof tyrano.plugin.kag.variable.sf.vo4_vol!="undefined"){tyrano.plugin.kag.variable.tf.vo4_vol=tyrano.plugin.kag.variable.sf.vo4_vol}else{tyrano.plugin.kag.variable.tf.vo4_vol=100}
+			$('#vo4_volume').val(tyrano.plugin.kag.variable.tf.vo4_vol); //スライダー初期位置
+			$('#vo4_volume').on('input change', function() {
+				tyrano.plugin.kag.variable.tf.vo4_vol=Math.ceil(Number($('#vo_volume').val())*Number($(this).val())/100);
+				tyrano.plugin.kag.variable.sf.vo4_vol=tyrano.plugin.kag.variable.tf.vo4_vol;
+				tyrano.plugin.kag.ftag.startTag("seopt",{volume:tyrano.plugin.kag.variable.tf.vo4_vol,buf:4});
+			});
+			//ボイス奏女
+			if(typeof tyrano.plugin.kag.variable.sf.vo5_vol!="undefined"){tyrano.plugin.kag.variable.tf.vo5_vol=tyrano.plugin.kag.variable.sf.vo5_vol}else{tyrano.plugin.kag.variable.tf.vo5_vol=100}
+			$('#vo5_volume').val(tyrano.plugin.kag.variable.tf.vo5_vol); //スライダー初期位置
+			$('#vo5_volume').on('input change', function() {
+				tyrano.plugin.kag.variable.tf.vo5_vol=Math.ceil(Number($('#vo_volume').val())*Number($(this).val())/100);
+				tyrano.plugin.kag.variable.sf.vo5_vol=tyrano.plugin.kag.variable.tf.vo5_vol;
+				tyrano.plugin.kag.ftag.startTag("seopt",{volume:tyrano.plugin.kag.variable.tf.vo5_vol,buf:5});
+			});
+			//ボイス怜人
+			if(typeof tyrano.plugin.kag.variable.sf.vo6_vol!="undefined"){tyrano.plugin.kag.variable.tf.vo6_vol=tyrano.plugin.kag.variable.sf.vo6_vol}else{tyrano.plugin.kag.variable.tf.vo6_vol=100}
+			$('#vo6_volume').val(tyrano.plugin.kag.variable.tf.vo6_vol); //スライダー初期位置
+			$('#vo6_volume').on('input change', function() {
+				tyrano.plugin.kag.variable.tf.vo6_vol=Math.ceil(Number($('#vo_volume').val())*Number($(this).val())/100);
+				tyrano.plugin.kag.variable.sf.vo6_vol=tyrano.plugin.kag.variable.tf.vo6_vol;
+				tyrano.plugin.kag.ftag.startTag("seopt",{volume:tyrano.plugin.kag.variable.tf.vo6_vol,buf:6});
 			});
 });
 
