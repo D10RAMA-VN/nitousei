@@ -5,8 +5,8 @@
 
 <div class='tabs'>
   <div class='tab-buttons'>
-    <span class='content1' style="margin-left:100px;padding-top:17px;border-top:solid;border-left:solid #606589;border-right:solid #606589;transition: .3s;">一般設定</span>
-    <span class='content2' style="padding-top:17px;margin-left:-12px;border-top:solid;border-right:solid #606589;transition: .3s;">ボイス設定</span> 
+    <span class='content1' id="tab_button1" style="margin-left:100px;padding-top:17px;border-top:solid;border-left:solid #606589;border-right:solid #606589;transition: .3s;">一般設定</span>
+    <span class='content2' id="tab_button2" style="padding-top:17px;margin-left:-9px;;color:#606589;">ボイス設定</span> 
   </div>
   
   <div class='tab-content'>
@@ -39,11 +39,11 @@
                 <input type="radio" name="unread_skip" id="unreadoff">
                 <label for="unreadoff">OFF</label>
             </div>
-            <div class=min_max style="left:133px;top:67px;">min</div><div class=min_max style="left:810px;top:67px;">max</div>
-            <div class=min_max style="left:133px;top:146px;">min</div><div class=min_max style="left:810px;top:146px;">max</div>
-            <div class=min_max style="left:133px;top:228px;">min</div><div class=min_max style="left:810px;top:228px;">max</div>
-            <div class=min_max style="left:133px;top:345px;">min</div><div class=min_max style="left:810px;top:345px;">max</div>
-            <div class=min_max style="left:133px;top:429px;">min</div><div class=min_max style="left:810px;top:429px;">max</div>
+            <div class=min_max style="left:133px;top:67px;">min</div><div class=min_max style="left:810px;top:68px;">MAX</div>
+            <div class=min_max style="left:133px;top:146px;">min</div><div class=min_max style="left:810px;top:147px;">MAX</div>
+            <div class=min_max style="left:133px;top:228px;">min</div><div class=min_max style="left:810px;top:229px;">MAX</div>
+            <div class=min_max style="left:133px;top:345px;">min</div><div class=min_max style="left:810px;top:346px;">MAX</div>
+            <div class=min_max style="left:133px;top:429px;">min</div><div class=min_max style="left:810px;top:430px;">MAX</div>
 	</div>
    </div>
    <div class='content2'>
@@ -85,10 +85,10 @@
 </div>
 	
 	
-	<div class="border1" style="position:absolute;top:299px;left:687px;width:960px;height:620px;border-top:solid #606589;border-right:solid #606589;border-bottom:solid #606589;z-index:-1;"></div>
-	<div class="border2" style="position:absolute;top:299px;left:300px;width:385.8px;height:622px;border-left:solid #606589;border-bottom:solid#606589;"></div>
-	<div class="border3" style="position:absolute;top:299px;left:300px;width:195.5px;height:622px;border-top:solid #606589;display:none;"></div>
-	<div class="border4" style="position:absolute;top:299px;left:494px;width:193px;height:622px;border-top:solid #606589;"></div>
+	<div class="border1" style="position:absolute;top:299px;left:687px;width:960px;height:620px;border-top:solid #606589;border-right:solid #606589;z-index:-1;"></div>
+	<div class="border2" style="position:absolute;top:299px;left:300px;width:385.8px;height:622px;border-left:solid #606589;z-index:-1;"></div>
+	<div class="border3" style="position:absolute;top:299px;left:300px;width:195.5px;height:622px;border-top:solid #606589;display:none;z-index:-1;"></div>
+	<div class="border4" style="position:absolute;top:299px;left:494px;width:193px;height:622px;border-top:solid #606589;z-index:-1;"></div>
 	<div style="position:absolute;top:0px;width:50px;height:100%;background:linear-gradient(#0C008A, #007882);"></div>
 	<img src="tyrano/images/system/title_setting.png" style="left:130px;top:80px;position:absolute;">
 	<img src="tyrano/images/system/logo_h.png" style="width:600px;left:1200px;top:50px;position:absolute;">
@@ -157,6 +157,24 @@ $(function () {
 				tyrano.plugin.kag.variable.sf.current_vo_vol=tyrano.plugin.kag.variable.tf.current_vo_vol;
 				current_vo_vol=Number($(this).val());
 				tyrano.plugin.kag.ftag.startTag("seopt",{volume:current_vo_vol,buf:7});
+				tyrano.plugin.kag.variable.tf.vo1_vol=Math.ceil(Number($('#vo1_volume').val())*Number($(this).val())/100);
+				tyrano.plugin.kag.variable.sf.vo1_vol=tyrano.plugin.kag.variable.tf.vo1_vol;
+				tyrano.plugin.kag.ftag.startTag("seopt",{volume:tyrano.plugin.kag.variable.tf.vo1_vol,buf:1});
+				tyrano.plugin.kag.variable.tf.vo2_vol=Math.ceil(Number($('#vo2_volume').val())*Number($(this).val())/100);
+				tyrano.plugin.kag.variable.sf.vo2_vol=tyrano.plugin.kag.variable.tf.vo2_vol;
+				tyrano.plugin.kag.ftag.startTag("seopt",{volume:tyrano.plugin.kag.variable.tf.vo2_vol,buf:2});
+				tyrano.plugin.kag.variable.tf.vo3_vol=Math.ceil(Number($('#vo3_volume').val())*Number($(this).val())/100);
+				tyrano.plugin.kag.variable.sf.vo3_vol=tyrano.plugin.kag.variable.tf.vo3_vol;
+				tyrano.plugin.kag.ftag.startTag("seopt",{volume:tyrano.plugin.kag.variable.tf.vo3_vol,buf:3});
+				tyrano.plugin.kag.variable.tf.vo4_vol=Math.ceil(Number($('#vo4_volume').val())*Number($(this).val())/100);
+				tyrano.plugin.kag.variable.sf.vo4_vol=tyrano.plugin.kag.variable.tf.vo4_vol;
+				tyrano.plugin.kag.ftag.startTag("seopt",{volume:tyrano.plugin.kag.variable.tf.vo4_vol,buf:4});
+				tyrano.plugin.kag.variable.tf.vo5_vol=Math.ceil(Number($('#vo5_volume').val())*Number($(this).val())/100);
+				tyrano.plugin.kag.variable.sf.vo5_vol=tyrano.plugin.kag.variable.tf.vo5_vol;
+				tyrano.plugin.kag.ftag.startTag("seopt",{volume:tyrano.plugin.kag.variable.tf.vo5_vol,buf:5});
+				tyrano.plugin.kag.variable.tf.vo6_vol=Math.ceil(Number($('#vo6_volume').val())*Number($(this).val())/100);
+				tyrano.plugin.kag.variable.sf.vo6_vol=tyrano.plugin.kag.variable.tf.vo6_vol;
+				tyrano.plugin.kag.ftag.startTag("seopt",{volume:tyrano.plugin.kag.variable.tf.vo6_vol,buf:6});
 			});
 			//ボイス北斗
 			if(typeof tyrano.plugin.kag.variable.sf.vo1_vol!="undefined"){tyrano.plugin.kag.variable.tf.vo1_vol=tyrano.plugin.kag.variable.sf.vo1_vol}else{tyrano.plugin.kag.variable.tf.vo1_vol=100}
@@ -211,10 +229,14 @@ $(function () {
 $('.content1').on('click',function(){
 	$('.border3').hide();
 	$('.border4').show();
+	$('#tab_button1').css({"border-top":"solid","border-left":"solid #606589","border-right":"solid #606589","color":"white"});
+	$('#tab_button2').css({'border':'solid 0px','color':'#606589'});
 });
 $('.content2').on('click',function(){
 	$('.border4').hide();
 	$('.border3').show();
+	$('#tab_button2').css({"border-top":"solid","border-left":"solid #606589","border-right":"solid #606589","color":"white"});
+	$('#tab_button1').css({'border':'solid 0px','color':'#606589'});
 });
 
 $('.tab-content>div').hide();
