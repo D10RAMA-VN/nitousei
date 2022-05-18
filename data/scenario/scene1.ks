@@ -5,13 +5,13 @@
 [hide time=0]
 [fadeoutbgm time=300]
 [wait time=500]
-;[voconfig sebuf=1 name="hokuto" vostorage="hokuto/{number}.ogg" number=1 ]
-;[voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=1 ]
-;[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=1 ]
-;[voconfig sebuf=4 name="nao" vostorage="kaname/kaname_{number}.ogg" number=1 ]
-;[voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=1 ]
-;[voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=1 ]
-;[vostart]
+[voconfig sebuf=1 name="hokuto" vostorage="hokuto/{number}.ogg" number=99 ]
+[voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=82 ]
+[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=63 ]
+[voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=22 ]
+[voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=9 ]
+[voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=18 ]
+[vostart]
 [mask time=500]
 [bg storage="ongaku.jpg" time="500"]
 [kaname_bishou2 time=0]
@@ -29,10 +29,11 @@
 [mw_magao]
 「はい…」[p][stopse buf=2]
 [mmhide]
+[vostop]
 #北斗
 [hw_magao]
 「…」[p][stopse buf=1]
-[mhhide]
+[mhhide][vostart]
 #
 [move name=kaname left=140][nao_niko left=730]
 #七音
@@ -63,7 +64,7 @@
 [n/niko]
 「さて、今年度のメンバーも決まったところで、[r]　今年度初の部会を開催したいと思います！」[p][stopse buf=4]
 #一同
-[hw_egao2]
+[hw_egao2][playse storage=hokuto/hokuto_oh2.ogg loop=false buf=1]
 「おー（パチパチ）」[p]
 #
 [mhhide]
@@ -271,6 +272,7 @@
 #美波
 [mw_magao2]
 「真面目にやるときはその分楽しんで打ち込み、[r]　やり過ぎたときはちゃんと休む。」[p][stopse buf=2]
+#美波
 「そしてもしちょっと遊びすぎちゃったりして気が抜けちゃったあとは[r]　その分真面目にやって取り返す、メリハリをつける、[r]　っていうのはどうでしょうか。」[p][stopse buf=2]
 [mmhide]
 #奏女
@@ -279,6 +281,7 @@
 #北斗
 [hw_magao]
 「でも、メリハリをつける、だけだと味気ないですよね、[r]　そうだな…よし、こんなのはどうですか？」[p][stopse buf=1]
+#北斗
 [chara_mod name=hokuto storage=hokuto_win/egao2.png time=700]
 「『マジメさと楽しさは両立させるべし！』」[p][stopse buf=1]
 [mhhide]
@@ -309,6 +312,7 @@
 #令人
 [r/bishou]
 「いつもみんな自分が弾いてみたい曲を持ち寄ってみる感じかな。」[p][stopse buf=5]
+#令人
 「今回は練習期間３か月くらいだから、[r]　３、４曲くらいはやりたいって感じですかねえ…？」[p][stopse buf=5]
 #七音
 [n/kanasimi]

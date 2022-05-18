@@ -8,17 +8,18 @@
 
 [chara_new  name="hokuto" storage="hokuto_win/mu.png" width=900 jname="北斗" color=#EA580C]
 [chara_new  name="minami" storage="minami_win/magao.png" width=1200 jname="美波" color=#0299E3]
-[chara_new  name="seizi" storage="seizi/mu.png" width=900 jname="清二" color=#E11D48]
+[chara_new  name="seizi" storage="seizi/mu.png" width=900 jname="高村" color=#E11D48]
 [chara_new  name="nao" storage="nao/magao.png" width=900 jname="七音" color=#E3CC02]
 [chara_new  name="kaname" storage="kaname/magao.png" width=900 jname="奏女" color=#E63CB0]
 [chara_new  name="reito" storage="reito/magao.png" width=900 jname="令人" color=#0ACC62]
 [chara_new  name="yuko" storage="yuko/hohoemi.png" width=900 jname="優子" color=#0ACC62]
+[chara_new  name="rouzin" storage="seizi/mu.png" width=900 jname="老人" color=#E11D48]
 
 
 ;[voconfig sebuf=1 name="hokuto" vostorage="hokuto/{number}.ogg" number=1 ]
 ;[voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=1 ]
 ;[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=1 ]
-;[voconfig sebuf=4 name="nao" vostorage="kaname/kaname_{number}.ogg" number=1 ]
+;[voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=1 ]
 ;[voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=1 ]
 ;[voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=1 ]
 

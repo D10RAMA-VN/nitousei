@@ -5,13 +5,13 @@
 [hide time=0]
 [fadeoutbgm time=300]
 [wait time=500]
-;[voconfig sebuf=1 name="hokuto" vostorage="hokuto/{number}.ogg" number=1 ]
-;[voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=1 ]
-;[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=1 ]
-;[voconfig sebuf=4 name="nao" vostorage="kaname/kaname_{number}.ogg" number=1 ]
-;[voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=1 ]
-;[voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=1 ]
-;[vostart]
+[voconfig sebuf=1 name="hokuto" vostorage="hokuto/{number}.ogg" number=229 ]
+[voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=149 ]
+[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=91 ]
+[voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=63 ]
+[voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=28 ]
+[voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=36 ]
+[vostart]
 [mask time=500]
 [bg storage="heya.jpg" time="500"]
 [rolebutton]
@@ -68,10 +68,10 @@
 「少しだけ聞いたが。せっかく人が心配してくれるのを無下にするのは…」[p][stopse buf=3]
 #北斗
 [hs/kanasimi]
-「…それはわかってますよ、でも…」[p][stopse buf=1]
+「…それはわかってますよ、でも…」[p][stopse buf=1][vostop]
 #高村
 [s/magao]
-「……」[p][stopse buf=3]
+「……」[p][vostart]
 #
 爺さんの視線が鋭くなっていく。[r]まるで、言い訳するなと言っているように。[p]
 でも、…でも。[p]
@@ -82,13 +82,13 @@
 「違うとは？」[p][stopse buf=3]
 #北斗
 [hs/kanasimi]
-「昔、ちょっと色々あって・・・」[p][stopse buf=1]
+「昔、ちょっと色々あって・・・」[p][stopse buf=1][vostop]
 #高村
-「・・・」[p][stopse buf=3]
+「・・・」[p][vostart]
 #北斗
-「・・・」[p][stopse buf=1]
+「・・・」[p][stopse buf=1][vostop]
 #高村
-「・・・」[p][stopse buf=3]
+「・・・」[p][vostart]
 #北斗
 [hs/mu2]
 「・・・聞いてくれますか？」[p][stopse buf=1]
@@ -117,31 +117,36 @@
 「…そうなのか。」[p][stopse buf=3]
 #北斗
 [hs/mu2]
-「まあ、ありきたりな病気してて。治療とか手術とかしたけどダメで。[r]　それで…」[p][stopse buf=1]
+「まあ、ありきたりな病気してて。治療とか手術とかしたけどダメで。[r]　それで…」[p][stopse b[vostop]
 #高村
-「……」[p][stopse buf=3]
+「……」[p][vostart]
 #北斗
 [hs/mu]
-「…うちの親父の主治医が、美波の親父さんだったんです。」[p][stopse buf=1]
+「…うちの親父の主治医が、美波の親父さんだったんです。」[p][stopse buf=1][vostop]
 #高村
 [s/magao]
-「……！」[p][stopse buf=3]
+「……！」[p][vostart]
 #北斗
 [hs/akire]
 「元々ご近所さんだったし、知り合いの主治医って、こういう時に気まずく[r]　なったりするから引き受けないのが普通らしいんですけど…」[p][stopse buf=1]
+#北斗
 [hs/bishou]
 「…親父が病気なんだって美波に言ったら、[r]　うちのパパはお医者さんだからって、[r]　親父さんにかけあってくれたらしくて。」[p][stopse buf=1]
+#北斗
 [hs/kanasimi]
 「それで美波の親父さんが治療してくれたけど、[r]　まあさっき言った通りダメで。それで・・・」[p][stopse buf=1]
+#北斗
 [hs/mu2]
-「あいつ、無駄に責任感じてるらしいんですよね、色々と。」[p][stopse buf=1]
+「あいつ、無駄に責任感じてるらしいんですよね、色々と。」[p][stopse buf=1][vostop]
 #高村
-「……」[p][stopse buf=3]
+「……」[p][vostart]
 #北斗
 [hs/mu]
 「こっちは別に、親父さんの処置が悪かったわけでもないし、[r]　気にしてないのに…」[p][stopse buf=1]
+#北斗
 [hs/kanasimi]
 「そんなことがあったから、[r]　あいつ色々と俺に構うようになったんですよね…」[p][stopse buf=1]
+#北斗
 「それで、俺、昨日美波に言っちゃって。[r]　罪悪感を押し付けるな、なんて…」[p][stopse buf=1]
 #高村
 「そうか…それは…随分なことを言ったな。」[p][stopse buf=3]
@@ -184,7 +189,9 @@
 #高村
 [s/hohoemi]
 「キミは見る限り考えるより先に身体が動くタチだろう。」[p][stopse buf=3]
+#高村
 「それなのに美波君のところではなく私のところに来たということは、[r]　何かしかの答えが欲しい、そうでなければ美波君と話せない、」[p][stopse buf=3]
+#高村
 「あるいはとりあえず謝ったところで、お互いにしこりが残るんじゃないか、[r]　そう思っている…違うかな？」[p][stopse buf=3]
 #
 …自分でも言語化できていないもやもやを、すべて突きつけられたようだ。[p]
@@ -202,6 +209,7 @@
 #高村
 [s/magao]
 「ああ。…まあ私たちのことはいい。さて、今は君たちのことだ。[r]　もう一度聞くぞ。」[p][stopse buf=3]
+#高村
 「キミは美波君にどうしてほしい。キミはどうしたいんだね。」[p][stopse buf=3]
 #北斗
 [hs/kanasimi]
@@ -234,6 +242,7 @@
 #高村
 [s/hohoemi]
 「…そうか。まあ、ゆっくり考えるといい。[r]　あまり時間をかけすぎてこじれてもいかんがな。」[p][stopse buf=3]
+#高村
 「少し星でも見よう、病み上がりだというから、ほんの少しだけな。」[p][stopse buf=3]
 #北斗
 [hs/bishou]
@@ -327,6 +336,7 @@
 「…爺さん、言いたいことはわかるけど、クサすぎだよ…」[p][stopse buf=1]
 #高村
 「そうか？まあとにかくだ、星というのは、一つの星、[r]　一つの星座が見つかれば、ほかの星座も続けて見つかることが多い。」[p][stopse buf=3]
+#高村
 「特に、北斗七星やおとめ座なんて大物はな。」[p][stopse buf=3]
 #北斗
 [hs/mu]
@@ -334,6 +344,7 @@
 #高村
 [s/magao]
 「とはいえ、星は一つではただの光る点だ。[r]　どの星かなんて一つだけ見てもわからん。[r]　星座として夜空に映るからわかる。」[p][stopse buf=3]
+#高村
 「北斗七星の先にあるから、ただの2等星が北極星だとわかるし、[r]　明るいだけの星もあの形の中にあるから[r]　しし座やおとめ座だとわかるのさ。」[p][stopse buf=3]
 #北斗
 [hs/bishou]

@@ -5,13 +5,14 @@
 [hide time=0]
 [fadeoutbgm time=300]
 [wait time=500]
-;[voconfig sebuf=1 name="hokuto" vostorage="hokuto/{number}.ogg" number=1 ]
-;[voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=1 ]
-;[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=1 ]
-;[voconfig sebuf=4 name="nao" vostorage="kaname/kaname_{number}.ogg" number=1 ]
-;[voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=1 ]
-;[voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=1 ]
-;[vostart]
+[voconfig sebuf=1 name="hokuto" vostorage="hokuto/{number}.ogg" number=1 ]
+[voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=1 ]
+[voconfig sebuf=3 name="rouzin" vostorage="seizi/takamura_{number}.ogg" number=1 ]
+[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=22 ]
+[voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=1 ]
+[voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=1 ]
+[voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=1 ]
+[vostart]
 [mask time=500]
 [bg storage="sky.png" time="500"]
 [rolebutton]
@@ -32,6 +33,7 @@
 *3
 #？？？
 「とはいえ、星は一つではただの光る点だ。[r]　どの星かなんて一つだけ見てもわからん。[r]　星座として夜空に映るからわかる。」[p][stopse buf=3]
+#？？？
 「北斗七星の先にあるから、ただの2等星が北極星だとわかるし、[r]　明るいだけの星もあの形の中にあるから[r]　しし座やおとめ座だとわかるのさ。」[p][stopse buf=3]
 *4
 #？？？
@@ -169,7 +171,7 @@
 [nhide]
 #奏女
 [kaname_bishou]
-「同じく副部長で3年の天宮奏女です。ベースやってます。」[p][stopse buf=6]
+「同じく副部長で3年の[ruby text="アマ"]天[ruby text="ミヤ"]宮[ruby text="カナ"]奏[ruby text="メ"]女です。ベースやってます。」[p][stopse buf=6]
 #
 [backlay layer=base]
 [bg storage="ongaku.jpg" time=0]
@@ -222,6 +224,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #七音
 [n/magao]
 「まあでも、令人君が独りぼっちになっちゃうんじゃないかって言うのは[r]　本当のことよ。」[p][stopse buf=4]
+#七音
 「そういうこともあって、[r]　ぜひ2人にはうちの部に入って欲しいんだけど…って、[r]　２人の名前も聞いてなかった。自己紹介してくれる？」[p][stopse buf=4]
 [hide]
 #北斗
@@ -229,6 +232,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 「はい！」[p][stopse buf=1]
 #北斗
 「オレ、新入生の[ruby text="カ"]加[ruby text="ガ"]賀[ruby text="ヤ"]谷[ruby text="ホク"]北[ruby text="ト"]斗って言います！[r]　新歓ライブにすごく感動しました！」[p][stopse buf=1]
+#北斗
 「で、こっちが幼馴染の来瀬美波です。」[p][stopse buf=1]
 #美波
 [minami_w_iradati]
@@ -489,6 +493,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [minami_w_magao left=40 wait=false][hokuto_w_metozi left=640]
 #美波
 「仕方ないわよ。3年の先輩たちは夏には退部なんだもの。」[p][stopse buf=2]
+#美波
 「早く私たちが一人前にならないと、[r]　まともな演奏できなくなっちゃうから。」[p][stopse buf=2]
 #北斗
 [hw/metozi]
@@ -687,6 +692,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [bg storage="still_kansoku.png" time=1000]
 #老人
 「さて、いきなりどこにあるのかもわからない星を見るよりは、[r]　有名な星を見るところから始めた方がよかろう。」[p][stopse buf=3]
+#老人
 「そうでないと、[r]　むやみに何もない夜空をただ見回すだけになってしまうからな。」[p][stopse buf=3]
 #北斗
 「はい。」[p][stopse buf=1]
@@ -696,6 +702,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 「月ですか。ウサギの模様とかよく見えたりします？」[p][stopse buf=1]
 #老人
 「今日は三日月だから、そこまでは見えんだろう。[r]　また満月の夜にでも見るといい。」[p][stopse buf=3]
+#老人
 「ただ、月明りが強すぎるとほかの星が見えなくなるから、[r]　満月の日はあまり天体観測には向かないんだがな。」[p][stopse buf=3]
 #北斗
 「なるほど…お、三日月がきれいに見える！」[p][stopse buf=1]
@@ -703,8 +710,11 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 「…月の光でほかの星が見えなくなるなんてことがあるんですか？」[p][stopse buf=2]
 #老人
 「ああ。星にもよるが、基本星の光はあまりに弱い。」[p][stopse buf=3]
+#老人
 「街灯、繁華街の光。[r]　それだけじゃない、携帯電話や懐中電灯の光でさえ、[r]　星の光をさえぎってしまう。」[p][stopse buf=3]
+#老人
 「月も同じ夜空にあるとはいえ、光源には違いないからな。」[p][stopse buf=3]
+#老人
 「…この町も、昔はもっと星がよく見えたんだがなあ。[r]　最近は随分街になってしまった。」[p][stopse buf=3]
 #美波
 「へえ…」[p][stopse buf=2]
@@ -752,6 +762,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #高村
 [s_mu]
 「古代ギリシャでは、主神ゼウスの子を産んだ女性が、[r]　ゼウスの本妻であるヘラの嫉妬によって熊に変えられてしまった、[r]　という星座さ。」[p][stopse buf=3]
+#高村
 「もっとも、世界の多くではひしゃくに見えるとか[r]　色々言われていたようだがね。」[p][stopse buf=3]
 [mshide]
 #北斗
@@ -799,7 +810,9 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #高村
 [s_mu]
 「そう。昔の旅人や船乗りなど、[r]　方位がわからない時には北極星を頼りにした。」[p][stopse buf=3]
+#高村
 「星空は地球の回転の影響で東から西へ、[r]　時間がたつごとに位置が変わっていくが、[r]　北極星だけは位置が変わらない。」[p][stopse buf=3]
+#高村
 「他の星は見つけたところで方位を測るのは難しいが、[r]　北極星は見えている限りそちらが北だとわかるからね。」[p][stopse buf=3]
 [mshide]
 #北斗
@@ -817,6 +830,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #北斗
 [hw_bishou]
 「季節によって…ああ、七夕の夏の大三角とか、そういう。まあでも、[r]　大事な星を探すのに絶対に必要な星座ってのは変わらないし。」[p][stopse buf=1]
+#北斗
 「父さんも名前だけはいいのつけてくれたな。」[p][stopse buf=1]
 [mhhide]
 #美波
@@ -853,6 +867,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #美波
 [mw_magao]
 「…それにしても、北極星ってなんだかちょっとパッとしないというか、[r]　ちょっと見つけにくい星ですね。」[p][stopse buf=2]
+#美波
 「それこそ北斗七星がないとすぐ見失って、[r]　どの星だかわかんなくなっちゃいそう。[r]　あっちの星の方が、なんだか明るくて目立つというか…」[p][stopse buf=2]
 [mmhide]
 #高村
@@ -902,6 +917,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #高村
 [s_magao]
 「太陽は東から昇って西に沈んでいくだろう。その道さ。」[p][stopse buf=3]
+#高村
 「もし昼間でも太陽と一緒に星が見えていたとしたら、[r]　太陽と重なって見えるはずの星座。そう思えばいい。」[p][stopse buf=3]
 [mshide]
 #北斗
@@ -911,6 +927,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #高村
 [s_hohoemi]
 「さっきも言ったが、季節によって見える星が変わる。[r]　地球と太陽、そして星座の位置が、[r]　地球の公転によって変わるからだ。」[p][stopse buf=3]
+#高村
 「君たちの誕生日、[r]　夏ごろにはおとめ座やしし座は地球から見て太陽と同じ方向にある。[r]　だから太陽が星座に入る、という言い方をする。」[p][stopse buf=3]
 [mshide]
 #北斗
@@ -940,7 +957,9 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 「一等星と二等星？[r]　…なんか明らかに北極星のほうが劣ってるみたいな言い方だけど。」[p][stopse buf=1]
 #高村
 「一面ではそうだな。星は明るさによって等級付けされている。」[p][stopse buf=3]
+#高村
 「おとめ座の一番明るいアルファ星、スピカは一等星、[r]　対して北極星は少し暗い二等星だ。」[p][stopse buf=3]
+#高村
 「それでも、肉眼で見える限界は六等星までであり、[r]　街中ではせいぜい三等星くらいまでしか見えないから、[r]　星全体では北極星も明るい方だがね。」[p][stopse buf=3]
 #北斗
 [hw/kanasimi]
@@ -1023,6 +1042,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #北斗
 [hw/aseri]
 「…じゃあ、週末だけ。金曜か土曜の夜だけ。[r]　それぐらいならいいだろう？うちの親は何も言わないだろうし。」[p][stopse buf=1]
+#北斗
 「美波もさ、うちの学校天文部ないけど、兼部したと思って。」[p][stopse buf=1]
 #美波
 [mw/magao]

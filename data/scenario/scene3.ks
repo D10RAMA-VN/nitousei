@@ -5,13 +5,13 @@
 [hide time=0]
 [fadeoutbgm time=300]
 [wait time=500]
-;[voconfig sebuf=1 name="hokuto" vostorage="hokuto/{number}.ogg" number=1 ]
-;[voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=1 ]
-;[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=1 ]
-;[voconfig sebuf=4 name="nao" vostorage="kaname/kaname_{number}.ogg" number=1 ]
-;[voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=1 ]
-;[voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=1 ]
-;[vostart]
+[voconfig sebuf=1 name="hokuto" vostorage="hokuto/{number}.ogg" number=162 ]
+[voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=108 ]
+[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=91 ]
+[voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=62 ]
+[voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=28 ]
+[voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=1 ]
+[vostart]
 [mask time=500]
 [bg storage="class.jpg" time="500"]
 [rolebutton]
@@ -217,6 +217,7 @@
 #北斗
 [hs_mu]
 「いや、平日は毎日部活して、毎日日付変わるくらいまで予習して、[r]　週末は昼間部活で夜は爺さんと星見て、また夜は勉強して、[r]　みたいな生活リズムだったし。」[p][stopse buf=1]
+#北斗
 「…正直ずっと寝不足だった」[p][stopse buf=1]
 [mhhide]
 #美波
@@ -225,6 +226,7 @@
 #北斗
 [hs_mu]
 「夜は母さんが作ってくれてるし。」[p][stopse buf=1]
+#北斗
 「でも、朝はともかく昼は簡単にすませてたかも。[r]　コンビニおにぎりとか、プロテインバー1本とか。」[p][stopse buf=1]
 [mhhide]
 #美波
@@ -233,6 +235,7 @@
 #北斗
 [hs_metozi]
 「いや、時間ないからさ、俺も母さんも。弁当なんか作らせるのも悪いし、[r]　コンビニで買うか購買のパン買うか、みたいな感じで。」[p][stopse buf=1]
+#北斗
 「食事代はもらってるけど、流石にそんないいもの買えないし…」[p][stopse buf=1]
 [mhhide]
 #美波
@@ -288,6 +291,7 @@
 [mhhide]
 #美波
 「……昔から、野球とかサッカーとか柔道とか空手とか、[r]　バスケとか生徒会とか、いきなり何か始めたかと思えば、[r]　最初は楽しそうにもみえたけど、途中からそうでもなかったよね。」[p][stopse buf=2]
+#美波
 「行かなきゃ、やらなきゃってイヤイヤ行ってるみたいだった。」[p][stopse buf=2]
 #北斗
 [hs_akire]
@@ -329,6 +333,7 @@
 「……」[p][stopse buf=1]
 #美波
 「…天体観測が、一番意味わかんない。」[p][stopse buf=2]
+#美波
 「なんでそんなにあのお爺さんが気になるの？みえない星を探すってなに？[r]　なんなのよその星って！どこにある、なんて名前の星なの？」[p][stopse buf=2]
 #北斗
 [hs_mu]
@@ -377,7 +382,9 @@
 「…ッ…」[p][stopse buf=2]
 #北斗
 「だから…だから、そういうことを感じなくて済むように、[r]　何かをやってないと、ダメなんだろうな…、[r]　遅くまで、練習だ稽古だって外で身体動かしてないと。」[p][stopse buf=1]
+#北斗
 「…そんで、自分は頑張れてるって思えてないと、ダメなんだろうな…」[p][stopse buf=1]
+#北斗
 「まあ、最近はホントにダメダメだけどな…授業ついてくのもギリギリ[r]　だし、なんでかギター全然うまくならないし…でも、」[p][stopse buf=1]
 #美波
 [ms/naki]
@@ -408,6 +415,7 @@
 #北斗
 [hs/iradati]
 「お前のせいだって、お前たちのせいで親父が死んだんだって、[r]　言えばお前の気が済むの？」[p][stopse buf=1]
+#北斗
 「…美波の罪悪感を、オレに押し付けないでよ…！」[p][stopse buf=1]
 #美波
 [ms/oogoe]

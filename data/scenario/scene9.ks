@@ -5,6 +5,13 @@
 [hide time=0]
 [fadeoutbgm time=300]
 [wait time=500]
+[voconfig sebuf=1 name="hokuto" vostorage="hokuto/{number}.ogg" number=605 ]
+[voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=331 ]
+[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=221 ]
+[voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=74 ]
+[voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=68 ]
+[voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=40 ]
+[vostart]
 [mask time=500]
 [bg storage="black.png" time="500"]
 [rolebutton]
@@ -24,144 +31,143 @@
 [bg storage=okujou.jpg time=500]
 [minami_s_bishou left=840 wait=false][hokuto_s_bishou left=360 wait=false][seizi_h_magao left=-120]
 #高村
-「…」[p]
+「…」[p][stopse buf=3]
 #美波
-「わあ…」[p]
+「わあ…」[p][stopse buf=2]
 #
 屋上に上がると、満天の星が空を覆っていた。[p]
 普段立ち入らない場所に、いつもよりまばゆい星。[r]そして、うっすらと見える天の川。[p]
 いつの間にか、夏に近づいていたことに気づく。[p]
 #北斗
-「…さあ、爺さん、望遠鏡組み立てようぜ。」[p]
+「…さあ、爺さん、望遠鏡組み立てようぜ。」[p][stopse buf=1]
 #高村
 [sh/hohoemi2]
-「……ああ。だが、その必要は、ないかもしれないなあ。」[p]
+「……ああ。だが、その必要は、ないかもしれないなあ。」[p][stopse buf=3]
 #北斗
 [hs/odoroki]
-「え？」[p]
+「え？」[p][stopse buf=1]
 #高村
 [sh/hohoemi]
-「ほら、始まっているよ。」[p]
+「ほら、始まっているよ。」[p][stopse buf=3]
 #
 [hide]
 [bg storage=still.png time=500]
 爺さんがそういってゆっくり夜空を指さすと、一筋の光が流れ落ちた。[p]
 #美波
 [ms_uwame]
-「あ、流れ星…」[p]
+「あ、流れ星…」[p][stopse buf=2]
 [mmhide]
 #
 美波がそういうやいなや、もう一つ。[p]
 #北斗
 [hs_magao]
-「あ、また…」[p]
+「あ、また…」[p][stopse buf=1]
 [mhhide]
 #高村
 [sh_hohoemi2]
-「ペルセウス座流星群だ。[r]　本当はお盆のあたりが一番見ごろなんだが…今日もちゃんと見れたな。」[p]
+「ペルセウス座流星群だ。[r]　本当はお盆のあたりが一番見ごろなんだが…今日もちゃんと見れたな。」[p][stopse buf=3]
 [mshide]
 #北斗
 [hs_odoroki]
-「ペルセウス座流星群？」[p]
+「ペルセウス座流星群？」[p][stopse buf=1]
 [mhhide]
 #高村
 [sh_hohoemi]
-「ああ。毎年夏になると見える、三大流星群の一つだよ。すごいときには[r]　流星雨といって、たばこを一本ふかしている間にもいくつも見える…、[r]　まあ今日はそこまではいかんかもしれんが…」[p]
+「ああ。毎年夏になると見える、三大流星群の一つだよ。すごいときには[r]　流星雨といって、たばこを一本ふかしている間にもいくつも見える…、[r]　まあ今日はそこまではいかんかもしれんが…」[p][stopse buf=3]
 [mshide]
 #北斗
 [hs_egao2]
-「…」[p]
+「…」[p][stopse buf=1]
 #
 [mhhide]
 それでも、とてもきれいだ。[p]
 [bg storage=okujou.jpg time=500]
 [minami_s_bishou left=840 wait=false][hokuto_s_egao2 left=360 wait=false][seizi_h_hohoemi left=-120]
 #高村
-「これを、君たちに見せたかったんだ。せっかく時期も時期でもあるし。[r]　流星群という天体ショーを、君たちに見せてあげたかったんだ。」[p]
+「これを、君たちに見せたかったんだ。せっかく時期も時期でもあるし。[r]　流星群という天体ショーを、君たちに見せてあげたかったんだ。」[p][stopse buf=3]
 #美波
 [ms/odoroki]
-「じゃあ、今日のことは、私たちのために…？」[p]
+「じゃあ、今日のことは、私たちのために…？」[p][stopse buf=2]
 #高村
 [sh/hohoemi2]
-「北斗君、今日はリハーサルだと言ったろう？[r]　本番は、またお盆に見られるといいな」[p]
+「北斗君、今日はリハーサルだと言ったろう？[r]　本番は、またお盆に見られるといいな」[p][stopse buf=3]
 #北斗
 [hs/bishou]
-「ああ、もちろんだよ、爺さん。またやろう。[r]　今度は、またあの河川敷で。」[p]
+「ああ、もちろんだよ、爺さん。またやろう。[r]　今度は、またあの河川敷で。」[p][stopse buf=1]
 #高村
 [sh/hohoemi]
-「…ああ。だが、その時は2人で行くといい。」[p]
+「…ああ。だが、その時は2人で行くといい。」[p][stopse buf=3]
 #北斗
 [hs/odoroki]
-「なんでだよ。一緒に行こうよ」[p]
+「なんでだよ。一緒に行こうよ」[p][stopse buf=1]
 #高村
-「いつまでも爺が若い二人の邪魔をするのはよくないだろう？」[p]
+「いつまでも爺が若い二人の邪魔をするのはよくないだろう？」[p][stopse buf=3]
 #美波
 [ms/tere]
-「な？！」[p]
+「な？！」[p][stopse buf=2]
 #北斗
 [hs/dere]
-「…からかわないでよ」[p]
+「…からかわないでよ」[p][stopse buf=1]
 #
 [hide]
 [seizi_h_kuti]
 #高村
-「ははは、それにな、私は今日で十分だ。もう”くいのこり”はないよ。」[p]
+「ははは、それにな、私は今日で十分だ。もう”くいのこり”はないよ。」[p][stopse buf=3]
 #北斗
 [hs_magao]
-「…爺さん…」[p]
+「…爺さん…」[p][stopse buf=1]
 #
 [mhhide]
 …そんな言葉で茶化されても、困る。[p]
 #高村
 [sh/hohoemi]
-「今日で、というより、今日までで、かな。[r]　春先に君たちが来てからのこの数か月、実ににぎやかで、楽しかった。」[p]
+「今日で、というより、今日までで、かな。[r]　春先に君たちが来てからのこの数か月、実ににぎやかで、楽しかった。」[p][stopse buf=3]
 #美波
 [ms_kanasimi]
-「そんな、私達は何も…」[p]
+「そんな、私達は何も…」[p][stopse buf=2]
 [mmhide]
 #北斗
 [hs_iradati]
-「そうだよ、やめてよ爺さん」[p]
+「そうだよ、やめてよ爺さん」[p][stopse buf=1]
 [mhhide]
 #高村
-「いやいや、ホントだよ。[r]　裕子を失って以来、こんなに満ち足りたのは初めてだった。」[p]
+「いやいや、ホントだよ。[r]　裕子を失って以来、こんなに満ち足りたのは初めてだった。」[p][stopse buf=3]
 #
 そういうと、爺さんはゆっくりと目を閉じた。[p]
 どこか苦しそうに、でもどこか満ち足りたように。[p]
 #高村
 [sh/hohoemi2]
-「…ああ、裕子…」[p]
+「…ああ、裕子…」[p][stopse buf=3]
 #美波
 [ms_odoroki]
-「……！」[p]
+「……！」[p][stopse buf=2]
 [mmhide]
 #北斗
 [hs_kanasimi]
-「…爺さん…」[p]
+「…爺さん…」[p][stopse buf=1]
 [mhhide]
 #
 …爺さんの目には、見えているようだ。[p]
 オレ達には、みえない二等星が。[p]
 [hide]
-[hokuto_s_kanasimi left=680px wait=false]
-[seizi_h_metozi left=15px]
+[hokuto_s_kanasimi left=680 wait=false][seizi_h_metozi left=15]
 #高村
-「…なあ、北斗君。」[p]
+「…なあ、北斗君。」[p][stopse buf=3]
 #北斗
-「なんだよ、爺さん。」[p]
+「なんだよ、爺さん。」[p][stopse buf=1]
 #高村
-「…あの曲を、弾いてくれないか。」[p]
+「…あの曲を、弾いてくれないか。」[p][stopse buf=3]
 #北斗
 [hs/hutyou]
-「爺さん…」[p]
+「爺さん…」[p][stopse buf=1]
 #
 爺さんがどの曲のことを言っているのか、聞くまでもない。[p]
 #高村
 [sh/hohoemi2]
-「キミがどれだけいいギターを弾くようになったか、聞かせてくれ。」[p]
+「キミがどれだけいいギターを弾くようになったか、聞かせてくれ。」[p][stopse buf=3]
 #北斗
 [hs/bishou]
-「…ああ、わかったよ、爺さん」[p]
+「…ああ、わかったよ、爺さん」[p][stopse buf=1]
 #
 [hide]
 爺さんの前にしゃがみ、ギターを構えて。最初のコードに指を合わせる。[p]
@@ -171,9 +177,9 @@
 [bg storage=still.png time=500]
 
 #北斗
-「……どうだった、爺さん」[p]
+「……どうだった、爺さん」[p][stopse buf=1]
 #高村
-「……」[p]
+「……」[p][stopse buf=3]
 #
 演奏が終わったというのに、歓声も批評もなく。[p]
 爺さんはほほえみをたたえているだけ。[p]
@@ -181,7 +187,7 @@
 [bg storage=still.png time=500]
 オレが一つため息をつき天を仰ぐと、星空では流星の中、[r]　二つの二等星が目立たなくも、しかし確かにまたたいていた。[p]
 #北斗
-「……おい、拍手はいいから、感想くらいくれよ、爺さん」[p]
+「……おい、拍手はいいから、感想くらいくれよ、爺さん」[p][stopse buf=1]
 #
 そんな悪態をつくしか、未熟な自分にはできなかった。[p]
 

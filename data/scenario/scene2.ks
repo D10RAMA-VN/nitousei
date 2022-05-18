@@ -5,13 +5,13 @@
 [hide time=0]
 [fadeoutbgm time=300]
 [wait time=500]
-;[voconfig sebuf=1 name="hokuto" vostorage="hokuto/{number}.ogg" number=1 ]
-;[voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=1 ]
-;[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=1 ]
-;[voconfig sebuf=4 name="nao" vostorage="kaname/kaname_{number}.ogg" number=1 ]
-;[voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=1 ]
-;[voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=1 ]
-;[vostart]
+[voconfig sebuf=1 name="hokuto" vostorage="hokuto/{number}.ogg" number=136 ]
+[voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=99 ]
+[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=63 ]
+[voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=58 ]
+[voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=26 ]
+[voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=35 ]
+[vostart]
 [mask time=500]
 [bg storage="kawa_n.jpg" time="500"]
 [rolebutton]
@@ -132,10 +132,9 @@
 [hw/magao]
 「…わかりました」[p][stopse buf=1]
 #
-そうして、オレは「二等星になって」を弾きはじめた。[p]
+そうして、オレは「二等星になって」を弾きはじめた。[p][vostop]
 #高村
-「……！」[p][stopse buf=3]
-
+「……！」[p][vostart]
 
 [mask time=500]
 [s/kanasimi time=0][hw/aozame2 time=0][mw/kanasimi]
@@ -237,6 +236,7 @@ USB充電式の小型アンプとシールド（コードって言いたくな�
 #高村
 [s/magao]
 「ふむ。さっきのを見た限り北斗君は指を動かすことに[r]　意識を持っていかれすぎだ。」[p][stopse buf=3]
+#高村
 「音が固い。もっと自由に、力を抜いたほうがいい。」[p][stopse buf=3]
 #北斗
 [hw/mu]
@@ -249,6 +249,7 @@ USB充電式の小型アンプとシールド（コードって言いたくな�
 「まあ…部室でやれる時はともかく、家でやるときは。[r]　家でやるってなると、深夜になっちゃうし…」[p][stopse buf=1]
 #高村
 「原因の一つはそこだろう。[r]　アンプを使わないからほとんど音が鳴らない、」[p][stopse buf=3]
+#高村
 「しかしちゃんと音が鳴らないと上手く弾けているかわからないから、[r]　音が出るようにやや強めにピッキングしてしまっているのでは[r]　ないかな？」[p][stopse buf=3]
 #北斗
 [hw/aseri]
@@ -259,6 +260,7 @@ USB充電式の小型アンプとシールド（コードって言いたくな�
 #高村
 [s/metozi]
 「ヘッドホンをつけるなり、深夜でも音を出さずに練習する方法は[r]　いくらでもあるだろう。そうしないと、悪い癖がつくぞ。」[p][stopse buf=3]
+#高村
 [s/magao]
 「まあ、まずはTAB譜通りに運指を指に覚えさせることだ。[r]　いくつかまちがいもあったようだし。」[p][stopse buf=3]
 #北斗

@@ -5,13 +5,13 @@
 [fadeoutbgm time=300]
 [hide time=0]
 [wait time=500]
-;[voconfig sebuf=1 name="hokuto" vostorage="hokuto/{number}.ogg" number=1 ]
-;[voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=1 ]
-;[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=1 ]
-;[voconfig sebuf=4 name="nao" vostorage="kaname/kaname_{number}.ogg" number=1 ]
-;[voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=1 ]
-;[voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=1 ]
-;[vostart]
+[voconfig sebuf=1 name="hokuto" vostorage="hokuto/{number}.ogg" number=281 ]
+[voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=149 ]
+[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=138 ]
+[voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=63 ]
+[voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=28 ]
+[voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=36 ]
+[vostart]
 [mask time=500]
 [bg storage="michi.jpg" time="500"]
 [rolebutton]
@@ -135,20 +135,20 @@
 その日の昼休み。珍しい来客があった。[p]
 [reito_tukomi]
 #令人
-「北斗、その…昼、部室で一緒に食べないか？」[p]][stopse buf=5]
+「北斗、その…昼、部室で一緒に食べないか？」[p][stopse buf=5]
 #北斗
 [hokuto_s_odoroki]
 「え？いや、オレはいいですけど、…いいんですか？」[p][stopse buf=1]
 #令人
 [r/bishou]
-「部室のカギは取ってきたから、さあ」[p]][stopse buf=5]
+「部室のカギは取ってきたから、さあ」[p][stopse buf=5]
 #
 そんなわけで、今日の昼は令人先輩と一緒に部室で食べることになった。[p]
 
 [mask time=500]
 [bg storage="ongaku.jpg" time="500"]
 [hs/metozi time=0][r/magao time=0]
-[mask time=500]
+[mask_off time=500]
 #北斗
 「（そういえば、令人先輩と2人で話すのほぼ初だな…）」[p][stopse buf=1]
 #
@@ -157,31 +157,31 @@
 [hs/mu2]
 「あの、なんで…」[p][stopse buf=1]
 #令人
-「…最近、思いつめてるみたいだから。」[p]][stopse buf=5]
+「…最近、思いつめてるみたいだから。」[p][stopse buf=5]
 #北斗
 [hs/mu]
 「はあ…」[p][stopse buf=1]
 #令人
 [r/magao]
-「…俺も、入部してから何回も、…全然思うようにいかなくて、[r]　悩んだことがあったんだ。」[p]][stopse buf=5]
+「…俺も、入部してから何回も、…全然思うようにいかなくて、[r]　悩んだことがあったんだ。」[p][stopse buf=5]
 #北斗
 [hs/odoroki]
 「そうなんですか？」[p][stopse buf=1]
 #令人
 [r/kanasimi]
-「うん。…そういう時、決まって卒業した先輩たちとか、[r]　奏女さんとか、…七音さんが、[r]　こうして一緒にご飯を食べながら話を聞いてくれたんだ。」[p]][stopse buf=5]
+「うん。…そういう時、決まって卒業した先輩たちとか、[r]　奏女さんとか、…七音さんが、[r]　こうして一緒にご飯を食べながら話を聞いてくれたんだ。」[p][stopse buf=5]
 #北斗
 [hs/mu2]
 「…」[p][stopse buf=1]
 #令人
 [r/bishou]
-「…だから、[r]　今度は俺が北斗にそうしてあげたいって思ったんだ…迷惑だったか？」[p]][stopse buf=5]
+「…だから、[r]　今度は俺が北斗にそうしてあげたいって思ったんだ…迷惑だったか？」[p][stopse buf=5]
 #北斗
 [hs/metozi]
 「いや、そんな…すいません、心配かけて。」[p][stopse buf=1]
 #令人
 [r/bishou]
-「いや、いい。さ、とりあえず、メシにしよう。」[p]][stopse buf=5]
+「いや、いい。さ、とりあえず、メシにしよう。」[p][stopse buf=5]
 #北斗
 [hs/mu]
 「…はい。」[p][stopse buf=1]
@@ -208,7 +208,7 @@
 少なくとも焼き物を焦がしたりは…[p]
 [reito_tukomi]
 #令人
-「どうした？」[p]][stopse buf=5]
+「どうした？」[p][stopse buf=5]
 #北斗
 [hs/hutyou]
 「…いや、なんでもないです。いただきます。」[p][stopse buf=1]
@@ -262,7 +262,7 @@
 そっちがその気なら。オレも全力でその気持ちに甘えさせてもらおう。[p]
 #令人
 [r/tukomi]
-「北斗？箸が止まってるみたいだけど、…まだ具合悪いのか？」[p]][stopse buf=5]
+「北斗？箸が止まってるみたいだけど、…まだ具合悪いのか？」[p][stopse buf=5]
 #北斗
 [hs/odoroki]
 「いや、大丈夫です、大丈夫ですから！」[p][stopse buf=1]
@@ -276,28 +276,28 @@
 その嘘つきお手製の弁当を、味わいながらもかきこんでいった。[p]
 
 [mask time=0]
-[hide][reito_kanasimi left=40px time=0][hokuto_s_bishou left=680px time=0]
+[hide][reito_kanasimi left=40 time=0][hokuto_s_bishou left=680 time=0]
 [mask_off time=0]
 
 #令人
-「北斗…？本当に大丈夫か？」[p]][stopse buf=5]
+「北斗…？本当に大丈夫か？」[p][stopse buf=5]
 #北斗
 「…ハァ、ごちそうさまでした。…令人先輩は、食べ終わりましたか？」[p][stopse buf=1]
 #令人
 [r/komari]
-「え？あ、ああ…」[p]][stopse buf=5]
+「え？あ、ああ…」[p][stopse buf=5]
 #北斗
 [hs/magao]
 「その、急で申し訳ないんですけど…[r]　ちょっとセッションしてくれませんか？」[p][stopse buf=1]
 #令人
 [r/tukomi]
-「…何かつかめたのか？」[p]][stopse buf=5]
+「…何かつかめたのか？」[p][stopse buf=5]
 #北斗
 [hs/egao2]
 「はい。」[p][stopse buf=1]
 #令人
 [r/magao]
-「…わかった。」[p]][stopse buf=5]
+「…わかった。」[p][stopse buf=5]
 
 ;[演奏]
 #北斗
@@ -305,74 +305,80 @@
 「（…！テンポがずれた…）」[p][stopse buf=1]
 #令人
 [r/magao]
-「……」[p]][stopse buf=5]
+「……」[p][stopse buf=5]
 #北斗
 「（……続けてくれている…焦らず、合わせて…）」[p][stopse buf=1]
 #令人
-「……」[p]][stopse buf=5]
+「……」[p][stopse buf=5]
 #北斗
 [hs/metozi]
 「(TAB譜や曲のテンポよりも、先輩のリズムに合わせて、[r]　そしてこの音の流れの中で、自分の居場所を見つけるように、[r]　しっかりと先輩のリズムを聞いて…)[p][stopse buf=1]
 #令人
 [r/bishou]
-「…」(微笑み)[p]][stopse buf=5]
+「…」(微笑み)[p][stopse buf=5]
 
 [mask time=500]
 [mask_off time=500]
-
-「…どうだった？」[p]
+#令人
+「…どうだった？」[p][stopse buf=5]
 #北斗
 [hs/egao2]
 「…サイッコーでした！」[p][stopse buf=1]
 #令人
-「そうだな、俺も良かったと思う」[p]][stopse buf=5]
+「そうだな、俺も良かったと思う」[p][stopse buf=5]
 #北斗
 [hs/kanasimi]
 「すいません、いきなりで…」[p][stopse buf=1]
 #令人
 [r/magao]
-「いいよ、…それで、わかった？」[p]][stopse buf=5]
+「いいよ、…それで、わかった？」[p][stopse buf=5]
 #北斗
 [hs/magao]
 「はい。…オレ、今まで自分のパート追うのに精一杯で、[r]　先輩たちとリズムを合わせること、すっかり忘れてました。」[p][stopse buf=1]
 #令人
-「そう。だから、一度ミスってずれると、曲が終わるまでずれ続ける。」[p]][stopse buf=5]
+「そう。だから、一度ミスってずれると、曲が終わるまでずれ続ける。」[p][stopse buf=5]
 #北斗
 [hs/aozame2]
 「…わかっちゃえば、[r]　びっくりするくらい基礎の基礎のところでつまずいてたんですね…」[p][stopse buf=1]
 #令人
-「それだけなら、いい。」[p]][stopse buf=5]
-「北斗がよくなかったのは、なんか違和感があることに気づいても、[r]　焦って自力でどうにかしようとして、[r]　周りの音をちゃんと聞いてなかったんだ。」[p]][stopse buf=5]
+「それだけなら、いい。」[p][stopse buf=5]
+#令人
+「北斗がよくなかったのは、なんか違和感があることに気づいても、[r]　焦って自力でどうにかしようとして、[r]　周りの音をちゃんと聞いてなかったんだ。」[p][stopse buf=5]
 #北斗
 [hs/magao]
 「もとのリズムに戻ろうとしても、焦っちゃいけない…」[p][stopse buf=1]
 #令人
 [r/bishou]
-「そう、一度ミスをしたら、一度周りに意識を向けること。」[p]][stopse buf=5]
-「そして、今全体としてどんなテンポで、フレーズのどのあたりなのか、[r]　しっかり見極める。」[p]][stopse buf=5]
-「一度周りの音をきけば、案外簡単に戻ってこれるものだから。」[p]][stopse buf=5]
+「そう、一度ミスをしたら、一度周りに意識を向けること。」[p][stopse buf=5]
+#令人
+「そして、今全体としてどんなテンポで、フレーズのどのあたりなのか、[r]　しっかり見極める。」[p][stopse buf=5]
+#令人
+「一度周りの音をきけば、案外簡単に戻ってこれるものだから。」[p][stopse buf=5]
 #北斗
 [hs/bishou]
 「…オレ、最近色々考えてたんですけど、そのことに気づいたんです。」[p][stopse buf=1]
+#北斗
 「自分がむきになったり焦っても仕方ない。[r]　いっそ、誰かに思い切って寄りかかってみることが大事なんじゃないかって。」[p][stopse buf=1]
+#北斗
 「それを意識して、令人先輩のリズムに思いっきりのっかってみたんです。」[p][stopse buf=1]
 #
 爺さんのアドバイスのおかげで、ピッキングに無理に力を入れないように[r]した分、周りの音に集中力を割くことができるようになっていた。[p]
 もっとも、周りに甘えてみるという発想が出てきたのは、[r]誰かさんのおせっかいのおかげなのだけども。[p]
 #令人
-「それでいいんだ。[r]　いまはドラムだけだったけど、楽器が増えたって同じだ。[r]　…もっとも、七音さんとかアドリブでテンポ急に変えたりするけど。」[p]][stopse buf=5]
+「それでいいんだ。[r]　いまはドラムだけだったけど、楽器が増えたって同じだ。[r]　…もっとも、七音さんとかアドリブでテンポ急に変えたりするけど。」[p][stopse buf=5]
 #北斗
 [hs/odoroki]
 「え？そうだったんです？」[p][stopse buf=1]
 #令人
 [r/komari]
-「流石に、最近は抑えめにしてたけど。[r]　北斗が良くなってきたら、またやり始めるんじゃないかなあ…」[p]][stopse buf=5]
+「流石に、最近は抑えめにしてたけど。[r]　北斗が良くなってきたら、またやり始めるんじゃないかなあ…」[p][stopse buf=5]
 #北斗
 [hs/kanasimi]
 「うわぁ、ついていけるかな…」[p][stopse buf=1]
 #令人
 [r/niko]
-「大丈夫、俺が速攻で合わせに行くから、[r]　北斗は俺に合わせるようにすればいい。」[p]][stopse buf=5]
+「大丈夫、俺が速攻で合わせに行くから、[r]　北斗は俺に合わせるようにすればいい。」[p][stopse buf=5]
+#令人
 [r/bishou]
 「だてに1年あの人と一緒にやってきたわけじゃない。[r]　それぐらいできないとな。」[p]
 #北斗
@@ -380,19 +386,19 @@
 「先輩…」[p][stopse buf=1]
 #令人
 [r/kanasimi]
-「もっとも、これでも全然追いつかないんだが…」[p]][stopse buf=5]
+「もっとも、これでも全然追いつかないんだが…」[p][stopse buf=5]
 #北斗
 [hs/odoroki]
 「え？」[p][stopse buf=1]
 #令人
 [r/bishou]
-「いや、何でもない。」[p]][stopse buf=5]
+「いや、何でもない。」[p][stopse buf=5]
 #北斗
 [hs/egao2]
 「…令人先輩、つかんだカンを忘れないために、もう一度お願いします！」[p][stopse buf=1]
 #令人
 [r/niko]
-「いいよ、とことんまでやろう。」[p]][stopse buf=5]
+「いいよ、とことんまでやろう。」[p][stopse buf=5]
 #
 そうして、昼休みが終わるまでの短い間、令人先輩と、[r]念願のまともなセッションを楽しんだ。[p]
 
@@ -456,6 +462,7 @@
 #美波
 [ms/magao2]
 「だって、結局ちゃんと指が動くようになるまでは、[r]　言っても身体がついてこないから。」[p][stopse buf=2]
+#美波
 「まあ、最近は部長に本人が気づくまで待て、なんて言われてたけど。」[p][stopse buf=2]
 #北斗
 [hs/metozi]
@@ -469,6 +476,7 @@
 #北斗
 [hs/egao2]
 「やっぱり自分の基礎がしっかりしてないと合わせようがないしな。」[p][stopse buf=1]
+#北斗
 「それに…やっとまともに音楽が楽しいって思えたから、[r]　…なんかうれしくて、つい。」[p][stopse buf=1]
 #美波
 [ms/tun2]
@@ -494,6 +502,7 @@
 #北斗
 [hs/metozi]
 「まあ、色々考えたんだけど…まずなんで軽音部に入りたい、[r]　なんて思ったか。」[p][stopse buf=1]
+#北斗
 「…まあ、端的に言っちゃえば、ぶっちゃけそこまで深く考えてなかった。[r]　美波が興味あるなら、オレもやるか、みたいな。そんな感じで。」[p][stopse buf=1]
 #美波
 [ms/magao]
@@ -519,6 +528,7 @@
 #北斗
 [hs/egao2]
 「へへ、でも、本当にそう。今めっちゃこの言葉実感してる。[r]　でも、それ以上に…」[p][stopse buf=1]
+#北斗
 [hs/bishou]
 「美波まで、オレの心配ばっかで、楽しくいられないとか、[r]　一番堪えられないし。」[p][stopse buf=1]
 #美波
@@ -546,6 +556,7 @@
 #北斗
 [hs/magao]
 「…美波、オレさ、親父が死んだとき、お前とおじさんに、[r]　嘘つきだなんてひどいこと言っちゃったって後悔してるんだよ。」[p][stopse buf=1]
+#北斗
 「またお前に、嘘つきだなんて、言わせないでくれ。」[p][stopse buf=1]
 #美波
 [ms/dere]
@@ -580,6 +591,7 @@
 #美波
 [ms/kanasimi]
 「…その。」[p][stopse buf=2]
+#美波
 「…その、実は…」[p][stopse buf=2]
 [ms/magao2]
 「…先週の金曜、ちょっと話したの。…高村さんと。」[p]
@@ -627,10 +639,12 @@
 #美波
 [ms/dere2]
 「……北斗が、[r]　最近あんまりちゃんとしたお昼ご飯食べてないっていうから。」[p][stopse buf=2]
+#美波
 「…ちゃんとしたご飯、食べてほしいなって、つい、[r]　思っちゃったのよ。」[p][stopse buf=2]
 #北斗
 [hs/odoroki]
 「！」[p][stopse buf=1]
+#北斗
 [hs/akire]
 「（美波…考えたあげくに出てくるのがそれとか…ホント、[r]　本当にもう…）」[p][stopse buf=1]
 #
@@ -638,6 +652,7 @@
 #美波
 [ms/naki]
 「それで、その、最初はホントにお母さんにお願いしたんだけど、なんか、[r]　自分で作ってみたら？とか言われちゃって。」[p][stopse buf=2]
+#美波
 「それで一応、昨日練習したんだけど、[r]　やっぱりそんなすぐにはうまくいかなくて、[r]　でも今日せっかくできたから食べてみてほしくて、でも、でも…」[p][stopse buf=2]
 #北斗
 [hs/bishou]
@@ -654,8 +669,10 @@
 #北斗
 [hs/bishou]
 「…それに。美波が作ったんだってわかって、何か…うれしかった。」[p][stopse buf=1]
+#北斗
 [hs/egao2]
 「なんでなんだろうとは思ったけど。」[p][stopse buf=1]
+#北斗
 「美波なりに仲直りしたいって思ったのかなとか、[r]　結局わかんなかったけど…でも、美波の気持ちがこもってるなって、[r]　それだけはわかったから。」[p][stopse buf=1]
 #美波
 [ms/uwame]
@@ -667,10 +684,14 @@
 #北斗
 [hs_bishou]
 「部則のさ、『マジメさと楽しさは両立させるべし！』ってアレ…[r]　自分で提案しといて、すっかり忘れてた。」[p][stopse buf=1]
+#北斗
 「いっそ、『おもしろくあれ』だけだったほうが、良かったかもしれない。[r]　ほんと、あの人たちみたいに楽しまないと始まらないなって。」[p][stopse buf=1]
+#北斗
 [chara_mod name=hokuto storage=hokuto_sum/metozi.png time=700]
 「それから、もう一つ。[r]　「いつでも、みんな仲良く！」仲良くっていうけど、[r]　具体的にどうっていうと、ぶっちゃけよくわかってなかった。」[p][stopse buf=1]
+#北斗
 「でも、今はちょっとわかる。」[p][stopse buf=1]
+#北斗
 [chara_mod name=hokuto storage=hokuto_sum/hohoemi.png time=700]
 「時には、人の厚意には思いっきり甘えて、寄りかかることも大切で、[r]　それにちゃんと感謝することが、何より大事なんじゃないかって。」[p][stopse buf=1]
 [mhhide]
@@ -684,6 +705,7 @@
 そして、改めて美波に向き合う。[p]
 #北斗
 「それで、マジでよかったらでいいんだけど…」[p][stopse buf=1]
+#北斗
 [hs/bishou]
 「明日からも、オレの弁当作ってくれないか？」[p][stopse buf=1]
 #美波
@@ -692,6 +714,7 @@
 #北斗
 [hs/tere]
 「図々しいかもしれないけど、でも、ぜえっったい残さず食べるから。[r]　今日とか、あのときの調理実習みたいに。」[p][stopse buf=1]
+#北斗
 「…だから、その。たまにでいいから…」[p][stopse buf=1]
 #美波
 [ms/tere]
@@ -738,6 +761,7 @@
 #令人
 [r/magao]
 「そりゃ、まあ…」[p][stopse buf=5]
+#令人
 [hide][reito_bishou]
 「（しかし、美波の弁当一つであんなに…北斗…お前、[r]　心から美波のこと…）」[p]][stopse buf=5]
 #
@@ -759,8 +783,9 @@
 「（どうしようどうしようどうしよう…）」[p][stopse buf=2]
 #北斗
 「（それにしても爺さん、マジでオレたち２人におんなじこと[r]　言ったんだな…あのノリ、2回目だったのかよ…やられたな、これは。[r]　本当に、亀の甲より何とやらだ…）」[p][stopse buf=1]
+#北斗
 [hs/metozi]
-「（…やられっぱなしは悔しいからな…そろそろ、[r]　あれを確かめさせてもらおう）」[p]
+「（…やられっぱなしは悔しいからな…そろそろ、[r]　あれを確かめさせてもらおう）」[p][stopse buf=1]
 #
 オレは、一綴りのTAB譜を手に取った。[p]
 #美波
