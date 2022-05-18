@@ -5,7 +5,7 @@
 [hide time=0]
 [fadeoutbgm time=300]
 [wait time=500]
-[voconfig sebuf=1 name="hokuto" vostorage="hokuto/{number}.ogg" number=401 ]
+[voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=401 ]
 [voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=213 ]
 [voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=138 ]
 [voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=66 ]
@@ -129,8 +129,9 @@
 #北斗
 [hs/kanasimi]
 「それだけじゃない。この曲…最近、[r]　部活でこの曲弾くことになったんですけど、[r]　ずっとひっかかってて。」[p][stopse buf=1]
-;#北斗
-;「でもなんか懐かしさみたいなものを感じたんだ。[r]　それが何だったのか、ずっと思い出せなかったんだけど…」[p][stopse buf=1]
+[vostop][playse storage=hokuto/hokuto_416_1.ogg loop=false buf=1]
+#北斗
+「でもなんか懐かしさみたいなものを感じたんだ。[r]　それが何だったのか、ずっと思い出せなかったんだけど…」[p][stopse buf=1][vostart]
 #北斗
 [hs/bishou]
 「…昔ガキのころ、[r]　親父と病院のロビーでTV見てたらさ、歌番組やってたんだよ。[r]　一昔前、団塊ジュニア向けに７０～８０年代歌謡曲特集とか多くてさ。」[p][stopse buf=1]
@@ -176,9 +177,10 @@
 「…！」[p][vostart]
 #北斗
 「北野夕子が都内の病院に入院するなんて、[r]　すぐマスコミにすっぱ抜かれちゃうからな。[r]　だから、北野夕子は亡くなるまで田舎の病院に入院してた。」[p][stopse buf=1]
-;#北斗
-;[hs/metozi]
-;「その田舎の病院の名前は、来瀬診療所…昔この町で美波のじいちゃんが[r]　やってた、まだ小さかった頃の病院だ。」[p][stopse buf=1]
+[vostop][playse storage=hokuto/hokuto_425_3.ogg loop=false buf=1]
+#北斗
+[hs/metozi]
+「その田舎の病院の名前は、来瀬診療所…昔この町で美波のじいちゃんが[r]　やってた、まだ小さかった頃の病院だ。」[p][stopse buf=1][vostart]
 #高村
 [s/kanasimi]
 「…美波君。」[p][stopse buf=3]

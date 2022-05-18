@@ -5,11 +5,11 @@
 [hide time=0]
 [fadeoutbgm time=300]
 [wait time=500]
-[voconfig sebuf=1 name="hokuto" vostorage="hokuto/{number}.ogg" number=1 ]
+[voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=1 ]
 [voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=1 ]
 [voconfig sebuf=3 name="rouzin" vostorage="seizi/takamura_{number}.ogg" number=1 ]
 [voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=22 ]
-[voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=1 ]
+[voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=2 ]
 [voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=1 ]
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=1 ]
 [vostart]
@@ -26,20 +26,26 @@
 *prologue
 *1
 #？？？
+[playse storage=seizi/takamura_first.ogg loop=false buf=3]
 「星というのは、一つの星、一つの星座が見つかれば、[r]　ほかの星座も続けて見つかることが多い。[r]　特に、北斗七星やおとめ座なんて大物はな。」[p][stopse buf=3]
 *2
 #？？？
+[playse storage=hokuto/hokuto_272.ogg loop=false buf=1]
 「…」[p][stopse buf=1]
 *3
 #？？？
+[playse storage=seizi/takamura_129.ogg loop=false buf=3]
 「とはいえ、星は一つではただの光る点だ。[r]　どの星かなんて一つだけ見てもわからん。[r]　星座として夜空に映るからわかる。」[p][stopse buf=3]
 #？？？
+[playse storage=seizi/takamura_130.ogg loop=false buf=3]
 「北斗七星の先にあるから、ただの2等星が北極星だとわかるし、[r]　明るいだけの星もあの形の中にあるから[r]　しし座やおとめ座だとわかるのさ。」[p][stopse buf=3]
 *4
 #？？？
+[playse storage=hokuto/hokuto_273.ogg loop=false buf=1]
 「…人間も同じようなもの、ってことでしょ？」[p][stopse buf=1]
 *5
 #？？？
+[playse storage=seizi/takamura_131.ogg loop=false buf=3]
 「ああ。なんでもそうだよ。」[p][stopse buf=3]
 
 #
@@ -145,7 +151,7 @@
 #
 [chara_hide_all time=500]
 [bg storage="ongaku.jpg" time="1000"]
-[nao_niko2]
+[nao_niko2][playse storage=nao/nao_1.ogg loop=false buf=4]
 #？？？
 「ようこそ鹿北軽音部へ！[r]　新歓ライブでも言ったかもだけど、改めて自己紹介するね。」[p][stopse buf=4]
 #美波
@@ -195,7 +201,7 @@
 MCというか、部活説明は全て部長と副部長の２人でやっていたから、[r]この男性はどんな人なんだろうと思ったが、[r]目つきも鋭く寡黙な印象を受ける。[p]
 …ちょっと怖い人なのかな。[p]
 #奏女
-[free_filter layer=base page=back]
+[bg storage="ongaku.jpg" page=back time=0][free_filter layer=base page=back]
 [trans layer=base time=1000]
 [kaname_niyake]
 「わー令人君、ハチャメチャに緊張してる～」[p][stopse buf=6]
@@ -347,6 +353,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #美波
 [mw_akire]
 「…あれは北斗がやれっていうから。」[p][stopse buf=2]
+[vostop][voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=24 ][vostart]
 #北斗
 [hw_akire]
 「いや、あれは最初2人で庶務で入って。[r]　2年の秋に誰か会長出すってなって、[r]　美波の方が向いてると思ったからだし。」[p][stopse buf=1]
@@ -411,7 +418,6 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [bg storage="ongaku.jpg" time=0]
 [filter brightness=50 layer=base page=back]
 [trans layer=base time=1000]
-[wt]
 #令人
 「……」[p][stopse buf=5]
 [rhide wait=false]
@@ -454,6 +460,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #奏女
 [kaname_bishou left=-120]
 「まあ、しばらくは新歓期間だから、ひとまず仮入部ってことで。[r]　他の部を見に行ってもいいし、[r]　もしよかったら練習に混ざってくれてもいいし。」[p][stopse buf=6]
+#奏女
 「といっても、次のライブの曲もまだ決まってないんだけど。」[p][stopse buf=6]
 #七音
 [n/bishou]
@@ -578,7 +585,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 「河川敷？…ああ、あの望遠鏡のおじいさん？」[p][stopse buf=2]
 #北斗
 [hw/odoroki]
-「知り合いか？」[p][stopse buf=1]
+「知り合い？」[p][stopse buf=1]
 #美波
 [mw/bishou]
 「ううん。でも近所では有名よ？[r]　いつも河川敷で天体観測してるおじいさん。」[p][stopse buf=2]
@@ -979,13 +986,14 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [hw/mu]
 「…それなら、まあ、いっか。」[p][stopse buf=1]
 #高村
-「…それにな、明るさだけが星の全てじゃない。[r]　色や瞬き、星座の形…魅力はそれぞれだ。」[p]
-「北斗七星なんて、星座の一部でありながらここまで有名で、[r]　わかりやすい形で、他の星探しに役立つ星なんだ。[r]　立派な星だと思うよ、私もね。」[p]
+「…それにな、明るさだけが星の全てじゃない。[r]　色や瞬き、星座の形…魅力はそれぞれだ。」[p][stopse buf=3]
+#高村
+「北斗七星なんて、星座の一部でありながらここまで有名で、[r]　わかりやすい形で、他の星探しに役立つ星なんだ。[r]　立派な星だと思うよ、私もね。」[p][stopse buf=3]
 #北斗
 [hw/akire]
 「…なんかフォローさせちゃってすいません。」[p][stopse buf=1]
 #高村
-「いやいや。しかし、せっかくなら美波君にちなんで、[r]　南にかかわる星も見てみたいところだが。[r]　南とつく星座と言えば南十字星だけれどもなあ。」[p]
+「いやいや。しかし、せっかくなら美波君にちなんで、[r]　南にかかわる星も見てみたいところだが。[r]　南とつく星座と言えば南十字星だけれどもなあ。」[p][stopse buf=3]
 #
 [chara_move name="hokuto" time=700 left=360 wait=false anim=true][chara_move name="seizi" time=700 left=-120 wait=false anim=true][minami_w_bishou left=840]
 #美波
@@ -995,7 +1003,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 「あ、なんか聞いたことある。」[p][stopse buf=1]
 #高村
 [s/metozi]
-「南十字星は、南半球、[r]　せめて沖縄くらいでないと見えない星座でなあ…」[p]
+「南十字星は、南半球、[r]　せめて沖縄くらいでないと見えない星座でなあ…」[p][stopse buf=3]
 #北斗
 「沖縄って、この北国で見えるわけないですね…」[p][stopse buf=1]
 #
@@ -1007,7 +1015,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [hw/akire]
 「いや別に？」[p][stopse buf=1]
 #高村
-「こらこら、つまらんことで喧嘩するんじゃない…」[p]
+「こらこら、つまらんことで喧嘩するんじゃない…」[p][stopse buf=3]
 [mask time=500]
 [bg storage="kawa_n.jpg" time="500"]
 [s/mu time=0][hw/metozi time=0]
@@ -1017,12 +1025,12 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [mw_iradati]
 「ああ、もうこんな時間に…」[p][stopse buf=2]
 #高村
-「流石にこれ以上は遅くなるな。早く帰りなさい。」[p]
+「流石にこれ以上は遅くなるな。早く帰りなさい。」[p][stopse buf=3]
 #北斗
 「…って、[r]　結局普通に天体観測しただけで爺さんの目当ての星探さなかったな…」[p][stopse buf=1]
 #高村
 [s/hohoemi]
-「なに、いいんだよ。」[p]
+「なに、いいんだよ。」[p][stopse buf=3]
 #
 そう言う爺さんの様子を見て感じる。[p]
 …まるで、とりあえず時間つぶしができてよかったと言っているようだ。[p]
@@ -1035,7 +1043,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 「ちょっと、何言ってるの。[r]　それに、またこんな遅くまで外出するなんて…」[p][stopse buf=2]
 #高村
 [s/mu]
-「…まあ、私は構わんが。その制服、君たちは高校生なんだろう。[r]　学業にも支障が出るんじゃないのか？」[p]
+「…まあ、私は構わんが。その制服、君たちは高校生なんだろう。[r]　学業にも支障が出るんじゃないのか？」[p][stopse buf=3]
 #美波
 [mw/magao2]
 「そうよ。それに、これから部活で忙しくなるのに…[r]　それに、お父さんたちもなんていうか…」[p][stopse buf=2]
@@ -1066,7 +1074,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 「ほっといても北斗一人で来るんだろうけど、[r]　それは色々心配だから。お爺さん、いいですか？」[p][stopse buf=2]
 #高村
 [s/hohoemi]
-「ああ、私は構わんよ。」[p]
+「ああ、私は構わんよ。」[p][stopse buf=3]
 #北斗
 [hw/egao2]
 「よし、決まりだな。爺さん、また来るよ。」[p][stopse buf=1]

@@ -5,7 +5,7 @@
 [hide time=0]
 [fadeoutbgm time=300]
 [wait time=500]
-[voconfig sebuf=1 name="hokuto" vostorage="hokuto/{number}.ogg" number=99 ]
+[voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=99 ]
 [voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=82 ]
 [voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=63 ]
 [voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=22 ]
@@ -64,8 +64,8 @@
 [n/niko]
 「さて、今年度のメンバーも決まったところで、[r]　今年度初の部会を開催したいと思います！」[p][stopse buf=4]
 #一同
-[hw_egao2][playse storage=hokuto/hokuto_oh2.ogg loop=false buf=1]
-「おー（パチパチ）」[p]
+[hw_egao2][playse storage=hokuto/hokuto_oh2.ogg loop=false buf=1][playse storage=minami/minami_oh.ogg loop=false buf=2]
+「おー（パチパチ）」[p][stopse buf=1][stopse buf=2]
 #
 [mhhide]
 #七音
@@ -109,11 +109,13 @@
 #
 [k/magao wait=false][n/magao wait=false][r/magao]
 #三人
-「「「おもしろくあれ」」」[p]
+[playse storage=nao/nao_omo.ogg loop=false buf=4][playse storage=reito/reito_omo.ogg loop=false buf=5][playse storage=kaname/kaname_omo.ogg loop=false buf=6]
+「「「おもしろくあれ」」」[p][stopse buf=4][stopse buf=5][stopse buf=6]
 #
 [hide][minami_w_tun left=40 wait=false][hokuto_w_aseri left=640]
 #二人
-「「…はい？」」[p]
+[playse storage=hokuto/hokuto_hai.ogg loop=false buf=1][playse storage=minami/minami_hai.ogg loop=false buf=2]
+「「…はい？」」[p][stopse buf=1][stopse buf=2]
 #
 [hide]
 [kaname_kanasimi left=-80 wait=false][nao_kanasimi left=460 wait=false][reito_kanasimi left=850]

@@ -5,7 +5,7 @@
 [hide time=0]
 [fadeoutbgm time=300]
 [wait time=500]
-[voconfig sebuf=1 name="hokuto" vostorage="hokuto/{number}.ogg" number=621 ]
+[voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=621 ]
 [voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=337 ]
 [voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=1 ]
 [voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=74 ]

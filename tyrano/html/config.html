@@ -196,7 +196,7 @@ $(function () {
 			if(typeof tyrano.plugin.kag.variable.sf.vo3_vol!="undefined"){tyrano.plugin.kag.variable.tf.vo3_vol=tyrano.plugin.kag.variable.sf.vo3_vol}else{tyrano.plugin.kag.variable.tf.vo3_vol=100}
 			$('#vo3_volume').val(tyrano.plugin.kag.variable.tf.vo3_vol); //スライダー初期位置
 			$('#vo3_volume').on('input change', function() {
-				tyrano.plugin.kag.variable.tf.vo3_vol=Math.ceil(Number($('#vo_volume').val())*Number($(this).val())/100);
+				tyrano.plugin.kag.variable.tf.vo3_vol=Math.ceil(Number($('#vo_volume').val())*Number($(this).val())/110);
 				tyrano.plugin.kag.variable.sf.vo3_vol=tyrano.plugin.kag.variable.tf.vo3_vol;
 				tyrano.plugin.kag.ftag.startTag("seopt",{volume:tyrano.plugin.kag.variable.tf.vo3_vol,buf:3});
 			});

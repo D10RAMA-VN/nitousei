@@ -5,7 +5,7 @@
 [hide time=0]
 [fadeoutbgm time=300]
 [wait time=500]
-[voconfig sebuf=1 name="hokuto" vostorage="hokuto/{number}.ogg" number=563 ]
+[voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=563 ]
 [voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=322 ]
 [voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=194 ]
 [voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=74 ]
@@ -231,6 +231,7 @@
 [mask_off time=500]
 #北斗
 「……爺さん、今日の調子はどう？」[p][stopse buf=1]
+[vostop][voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=209 ][vostart]
 #高村
 「…あまりよくはないな…最近は食事も喉を通らん。」[p][stopse buf=3]
 #北斗
