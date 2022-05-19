@@ -13,11 +13,11 @@
 
 @font-face {
 	font-family:"Noto";
-	src:url("../../data/others/Noto_Sans_JP/NotoSansJP-Medium.otf") format("opentype"),
-	src:url("../../data/others/Noto_Sans_JP/NotoSansJP-Light.otf") format("opentype"),
 	src:url("../../data/others/Noto_Sans_JP/NotoSansJP-Regular.otf") format("opentype");
-	font-weight:normal;font-style:normal;
+	font-weight:lighter;font-style:lighter;
+}
 
+@font-face {
 	font-family:"NotoBlack";
 	src:url("../../data/others/Noto_Sans_JP/NotoSansJP-Bold.otf") format("opentype");
 	font-weight:bold;font-style:normal;

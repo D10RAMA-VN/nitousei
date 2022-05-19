@@ -228,6 +228,7 @@ abbr,acronym{
 	font-family:Noto;
 	font-size:26pt;
 	color:white;
+	font-weight:lighter;
 }
 
 input[type="range"]{
@@ -377,29 +378,6 @@ input[type="range"]::-webkit-slider-thumb:hover {
 }
 input[type=radio]:checked + .checkbox:after {
     opacity: 1;
-}
-
-.config_back:before {
- 	content: '';
-    /*絶対配置で位置を指定*/
- 	position: absolute;
- 	top: 12px;
- 	left: -20px;
- 	z-index: -1;
-    /*色や形状*/
-    background-image: url('images/system/back_hover.png');
-    background-size:  auto;
- 	width: 118px;
-	height: 20px;
-    /*アニメーション*/
- 	transition: transform .3s cubic-bezier(0.8, 0, 0.2, 1) 0s;
- 	transform: scale(0, 1);
-	transform-origin: left top;
-}
-
-.config_back:hover:before{
-	transform-origin:left top;
-	transform:scale(1, 1);
 }
 
 .config_voice_name{

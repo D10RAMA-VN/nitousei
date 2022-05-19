@@ -13,11 +13,11 @@
    <div class='content1'>
 	<div class="config_body">
 			<div class="range">
-				<p><span style="display:inline-block;margin-top:60px;margin-left:-200px;width:300px;text-align:right;">BGM音量</span></p>
+				<p><span style="display:inline-block;margin-top:60px;margin-left:-200px;width:300px;text-align:right;">BGM 音量</span></p>
 				<input type="range" id="bgm_volume" min="0" max="100" step="1" value="50" style="left:145px;top:81px;position:absolute;">
 			</div>
 			<div class="range">
-				<span style="display:inline-block;margin-top:30px;margin-left:-200px;width:300px;text-align:right;">SE音量</span>
+				<span style="display:inline-block;margin-top:30px;margin-left:-200px;width:300px;text-align:right;">SE 音量</span>
 				<input type="range" id="se_volume" min="0" max="100" value="20" step="1" style="left:145px;top:163px;position:absolute;">
 			</div>
 			<div class="range"> 
@@ -110,6 +110,12 @@
 	
 <script>
 $(function () {
+			var baseVolume1 = Math.ceil(tyrano.plugin.kag.variable.sf.vo1_vol*100/tyrano.plugin.kag.variable.sf.current_vo_vol);
+			var baseVolume2 = Math.ceil(tyrano.plugin.kag.variable.sf.vo2_vol*100/tyrano.plugin.kag.variable.sf.current_vo_vol);
+			var baseVolume3 = Math.ceil(tyrano.plugin.kag.variable.sf.vo3_vol*100/tyrano.plugin.kag.variable.sf.current_vo_vol);
+			var baseVolume4 = Math.ceil(tyrano.plugin.kag.variable.sf.vo4_vol*100/tyrano.plugin.kag.variable.sf.current_vo_vol);
+			var baseVolume5 = Math.ceil(tyrano.plugin.kag.variable.sf.vo5_vol*100/tyrano.plugin.kag.variable.sf.current_vo_vol);
+			var baseVolume6 = Math.ceil(tyrano.plugin.kag.variable.sf.vo6_vol*100/tyrano.plugin.kag.variable.sf.current_vo_vol);
 			//BGM
 			var current_bgm_vol=parseInt(tyrano.plugin.kag.config.defaultBgmVolume); //システム値取得
 			$('#bgm_volume').val(current_bgm_vol); //スライダー初期位置
@@ -178,7 +184,7 @@ $(function () {
 			});
 			//ボイス北斗
 			if(typeof tyrano.plugin.kag.variable.sf.vo1_vol!="undefined"){tyrano.plugin.kag.variable.tf.vo1_vol=tyrano.plugin.kag.variable.sf.vo1_vol}else{tyrano.plugin.kag.variable.tf.vo1_vol=100}
-			$('#vo1_volume').val(tyrano.plugin.kag.variable.tf.vo1_vol); //スライダー初期位置
+			$('#vo1_volume').val(baseVolume1); //スライダー初期位置
 			$('#vo1_volume').on('input change', function() {
 				tyrano.plugin.kag.variable.tf.vo1_vol=Math.ceil(Number($('#vo_volume').val())*Number($(this).val())/100);
 				tyrano.plugin.kag.variable.sf.vo1_vol=tyrano.plugin.kag.variable.tf.vo1_vol;
@@ -186,7 +192,7 @@ $(function () {
 			});
 			//ボイス美波
 			if(typeof tyrano.plugin.kag.variable.sf.vo2_vol!="undefined"){tyrano.plugin.kag.variable.tf.vo2_vol=tyrano.plugin.kag.variable.sf.vo2_vol}else{tyrano.plugin.kag.variable.tf.vo2_vol=100}
-			$('#vo2_volume').val(tyrano.plugin.kag.variable.tf.vo2_vol); //スライダー初期位置
+			$('#vo2_volume').val(baseVolume2); //スライダー初期位置
 			$('#vo2_volume').on('input change', function() {
 				tyrano.plugin.kag.variable.tf.vo2_vol=Math.ceil(Number($('#vo_volume').val())*Number($(this).val())/100);
 				tyrano.plugin.kag.variable.sf.vo2_vol=tyrano.plugin.kag.variable.tf.vo2_vol;
@@ -194,7 +200,7 @@ $(function () {
 			});
 			//ボイス清二
 			if(typeof tyrano.plugin.kag.variable.sf.vo3_vol!="undefined"){tyrano.plugin.kag.variable.tf.vo3_vol=tyrano.plugin.kag.variable.sf.vo3_vol}else{tyrano.plugin.kag.variable.tf.vo3_vol=100}
-			$('#vo3_volume').val(tyrano.plugin.kag.variable.tf.vo3_vol); //スライダー初期位置
+			$('#vo3_volume').val(baseVolume3); //スライダー初期位置
 			$('#vo3_volume').on('input change', function() {
 				tyrano.plugin.kag.variable.tf.vo3_vol=Math.ceil(Number($('#vo_volume').val())*Number($(this).val())/110);
 				tyrano.plugin.kag.variable.sf.vo3_vol=tyrano.plugin.kag.variable.tf.vo3_vol;
@@ -202,7 +208,7 @@ $(function () {
 			});
 			//ボイス七音
 			if(typeof tyrano.plugin.kag.variable.sf.vo4_vol!="undefined"){tyrano.plugin.kag.variable.tf.vo4_vol=tyrano.plugin.kag.variable.sf.vo4_vol}else{tyrano.plugin.kag.variable.tf.vo4_vol=100}
-			$('#vo4_volume').val(tyrano.plugin.kag.variable.tf.vo4_vol); //スライダー初期位置
+			$('#vo4_volume').val(baseVolume4); //スライダー初期位置
 			$('#vo4_volume').on('input change', function() {
 				tyrano.plugin.kag.variable.tf.vo4_vol=Math.ceil(Number($('#vo_volume').val())*Number($(this).val())/100);
 				tyrano.plugin.kag.variable.sf.vo4_vol=tyrano.plugin.kag.variable.tf.vo4_vol;
@@ -210,7 +216,7 @@ $(function () {
 			});
 			//ボイス奏女
 			if(typeof tyrano.plugin.kag.variable.sf.vo5_vol!="undefined"){tyrano.plugin.kag.variable.tf.vo5_vol=tyrano.plugin.kag.variable.sf.vo5_vol}else{tyrano.plugin.kag.variable.tf.vo5_vol=100}
-			$('#vo5_volume').val(tyrano.plugin.kag.variable.tf.vo5_vol); //スライダー初期位置
+			$('#vo5_volume').val(baseVolume5); //スライダー初期位置
 			$('#vo5_volume').on('input change', function() {
 				tyrano.plugin.kag.variable.tf.vo5_vol=Math.ceil(Number($('#vo_volume').val())*Number($(this).val())/100);
 				tyrano.plugin.kag.variable.sf.vo5_vol=tyrano.plugin.kag.variable.tf.vo5_vol;
@@ -218,7 +224,7 @@ $(function () {
 			});
 			//ボイス怜人
 			if(typeof tyrano.plugin.kag.variable.sf.vo6_vol!="undefined"){tyrano.plugin.kag.variable.tf.vo6_vol=tyrano.plugin.kag.variable.sf.vo6_vol}else{tyrano.plugin.kag.variable.tf.vo6_vol=100}
-			$('#vo6_volume').val(tyrano.plugin.kag.variable.tf.vo6_vol); //スライダー初期位置
+			$('#vo6_volume').val(baseVolume6); //スライダー初期位置
 			$('#vo6_volume').on('input change', function() {
 				tyrano.plugin.kag.variable.tf.vo6_vol=Math.ceil(Number($('#vo_volume').val())*Number($(this).val())/100);
 				tyrano.plugin.kag.variable.sf.vo6_vol=tyrano.plugin.kag.variable.tf.vo6_vol;
