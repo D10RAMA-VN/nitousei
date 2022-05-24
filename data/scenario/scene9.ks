@@ -13,7 +13,7 @@
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=40 ]
 [vostart]
 [mask time=500]
-[bg storage="black.png" time="500"]
+[bg2 storage="black.png" time="500"]
 [rolebutton]
 [M0]
 @layopt layer=message0 visible=true
@@ -28,7 +28,7 @@
 そうしたら、一日だけ、夜の間屋上を貸してくれることになった。[p]
 そして、その約束の日。[p]
 美波は爺さんの乗った車いすを押し、[r]オレはギターと爺さんの望遠鏡をしょって、屋上に上がった。[p]
-[bg storage=okujou.jpg time=500]
+[bg2 storage=okujou.jpg time=500]
 [minami_s_bishou left=840 wait=false][hokuto_s_bishou left=360 wait=false][seizi_h_magao left=-120]
 #高村
 「…」[p][stopse buf=3]
@@ -51,7 +51,7 @@
 「ほら、始まっているよ。」[p][stopse buf=3]
 #
 [hide]
-[bg storage=still.png time=500]
+[bg2 storage=still.png time=500]
 爺さんがそういってゆっくり夜空を指さすと、一筋の光が流れ落ちた。[p]
 #美波
 [ms_uwame]
@@ -81,7 +81,7 @@
 #
 [mhhide]
 それでも、とてもきれいだ。[p]
-[bg storage=okujou.jpg time=500]
+[bg2 storage=okujou.jpg time=500]
 [minami_s_bishou left=840 wait=false][hokuto_s_egao2 left=360 wait=false][seizi_h_hohoemi left=-120]
 #高村
 「これを、君たちに見せたかったんだ。せっかく時期も時期でもあるし。[r]　流星群という天体ショーを、君たちに見せてあげたかったんだ。」[p][stopse buf=3]
@@ -174,7 +174,7 @@
 ひとつ息をすって、ストロークを始める。[p]
 
 ;（エンドロール（二等星になって）[p]
-[bg storage=still.png time=500]
+[bg2 storage=still_kirakirabosi.png time=500]
 
 #北斗
 「……どうだった、爺さん」[p][stopse buf=1]
@@ -184,7 +184,7 @@
 演奏が終わったというのに、歓声も批評もなく。[p]
 爺さんはほほえみをたたえているだけ。[p]
 あまりにもきれいなその顔に、美波は声を押しつぶし泣き始めた。[p]
-[bg storage=still.png time=500]
+[bg2 storage=still.png time=500]
 オレが一つため息をつき天を仰ぐと、星空では流星の中、[r]　二つの二等星が目立たなくも、しかし確かにまたたいていた。[p]
 #北斗
 「……おい、拍手はいいから、感想くらいくれよ、爺さん」[p][stopse buf=1]
@@ -192,7 +192,7 @@
 そんな悪態をつくしか、未熟な自分にはできなかった。[p]
 
 [mask time=500]
-[bg storage=ongaku.jpg time=500]
+[bg2 storage=ongaku.jpg time=500]
 [minami_s_bishou left=40 time=0][hokuto_s_kanasimi left=640 time=0]
 [mask_off time=500]
 

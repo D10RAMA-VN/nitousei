@@ -13,7 +13,7 @@
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=35 ]
 [vostart]
 [mask time=500]
-[bg storage="kawa_n.jpg" time="500"]
+[bg2 storage="kawa_n.jpg" time="500"]
 [rolebutton]
 [M0]
 @layopt layer=message0 visible=true
@@ -34,7 +34,7 @@
 [mask time=500]
 [hide time=0]
 [kaname_kanasimi left=-80 time=0][nao_kanasimi left=460 time=0][reito_magao left=850 time=0][hw_hutyou time=0]
-[bg storage="ongaku.jpg" time="500"]
+[bg2 storage="ongaku.jpg" time="500"]
 [mask_off time=500]
 ;（ギター音）
 #北斗
@@ -85,7 +85,7 @@
 
 [mask time=500]
 #
-[bg storage="rouka_s.jpg" time="500"]
+[bg2 storage="rouka_s.jpg" time="500"]
 [hide time=0][hokuto_w_kanasimi time=0]
 [mask_off time=500]
 あっという間に4月が過ぎ、[r]ゴールデンウイークもとっくに終わってしまった。[p]
@@ -101,10 +101,9 @@
 なぜうまくなれないのか。[p]
 もやもやが晴れないまま、時間ばかり過ぎて行く。[p]
 
-;（河川敷）
 [mask time=500]
 [hide time=0][seizi_magao left=-145 time=0][hokuto_w_magao left=360 time=0][minami_w_magao left=840 time=0]
-[bg storage="kawa_n.jpg" time="500"]
+[bg2 storage="kawa_n.jpg" time="500"]
 [mask_off time=500]
 #高村
 「それで、わざわざギターまで持ってきたのか。」[p][stopse buf=3]
@@ -200,7 +199,7 @@ USB充電式の小型アンプとシールド（コードって言いたくな�
 と思う間に、爺さんは慣れた手つきでギターを構え、演奏を始めた。[p]
 ;（二等星になってギターソロ）
 [hide]
-[bg storage=still_seizi.png time=500]
+[bg2 storage=still_seizi.png time=500]
 
 #北斗
 「すげえ…」[p][stopse buf=1]
@@ -214,7 +213,7 @@ USB充電式の小型アンプとシールド（コードって言いたくな�
 部長が提案してきたときにも思ったが、[r]本当にこの曲は懐かしい響きがする。[p]
 自分はいったいどこでこの曲を聞いたのだったか。…[p]
 ;（BGMOFF）
-[bg storage=kawa_n.jpg time=500]
+[bg2 storage=kawa_n.jpg time=500]
 [seizi_metozi left=-145 time=0][hokuto_w_odoroki left=360 time=0][minami_w_odoroki left=840 time=0]
 #高村
 「…ふう。昔取った杵柄というが、中々、気恥ずかしいものだな…[r]　それに、昔もエレキはほとんど触っていなかった。」[p][stopse buf=3]
@@ -313,12 +312,12 @@ USB充電式の小型アンプとシールド（コードって言いたくな�
 [s/kuti]
 「まあ、気分転換も必要だろうし、[r]　今度は星空でも眺めてみようじゃないか。」[p][stopse buf=3]
 #
-;[bg storage="night.png" time="500"]
+;[bg2 storage="night.png" time="500"]
 そうして、爺さんはその日の天体観測を始めた。[r]でも自分は、ギターのことと不安で頭がいっぱいだった。[p]
 
 [mask time=500]
 [hide time=0]
-[bg storage="class.jpg" time="500"]
+[bg2 storage="class.jpg" time="500"]
 [mask_off time=500]
 
 @jump storage="scene3.ks" target="*chapter3"

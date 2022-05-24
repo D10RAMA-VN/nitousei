@@ -231,6 +231,7 @@ abbr,acronym{
 	font-weight:lighter;
 }
 
+
 input[type="range"]{
     -webkit-appearance: none; /* 🚩これ無しだとスタイルがほぼ全く反映されないので注意 */
     appearance: none;
@@ -239,10 +240,8 @@ input[type="range"]{
     height: 4px; 
     width: 600px; 
     margin-left: 50px;
-    background: #fff; /* バーの背景色 */
     border-radius: 10px; /* バーの両端の丸み */
 }
-
 
 input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none; /*  🚩デフォルトのつまみのスタイルを解除 */
@@ -435,7 +434,7 @@ input[type=radio]:checked + .checkbox:after {
 	flex-wrap: wrap;
 	width: 1400px;
 	height: 650px;
-	margin: 250px 0px 0px 50px;
+	margin: 250px 0px 0px 100px;
 	overflow-y: hidden;
 	-webkit-overflow-scrolling: touch;
 	-webkit-transform: translateZ(0);
@@ -685,15 +684,25 @@ body{
 
 .message_inner{
 	text-shadow:
-            1px 1px 1px #4A24E0, -1px -1px 1px #4A24E0,
-           -1px 1px 1px #4A24E0,  1px -1px 1px #4A24E0;
+            1px 1px 1px #1B1464, -1px -1px 1px #1B1464,
+           -1px 1px 1px #1B1464,  1px -1px 1px #1B1464;
   font-weight: 600;
 }
 
 .chara_name_area{
   text-shadow:
-            2px 2px 2px #4A24E0, -2px -2px 2px #4A24E0,
-           -2px 2px 2px #4A24E0,  2px -2px 2px #4A24E0;
+            2px 2px 2px #1B1464, -2px -2px 2px #1B1464,
+           -2px 2px 2px #1B1464,  2px -2px 2px #1B1464;
+}
+
+.chara_name_area text:before{
+  background-image: url("../data/image/name_bar.png");
+  content: '';
+ 	position: absolute;
+ 	top: 60px;
+ 	left: -30px;
+	width:152px;
+	height:9px;
 }
 
 .tyrano_base{

@@ -13,7 +13,7 @@
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=40 ]
 [vostart]
 [mask time=500]
-[bg storage="ongaku.jpg" time="500"]
+[bg2 storage="ongaku.jpg" time="500"]
 [rolebutton]
 [M0]
 @layopt layer=message0 visible=true
@@ -217,7 +217,7 @@
 #
 美波、お前も2回目なんだから慣れろよ…というか、[r]今後オレたちはこの方面でいじられ続けるだろうから、[r]慣れないと多分もたなそうだし…[p]
 [hide]
-[bg storage=still.png time=500]
+[bg2 storage=still.png time=500]
 #七音
 「さて、最大の懸念点だった北斗君と美波ちゃんの恋路も[r]　無事ゴールインしたということで！みんなわすれてない？[r]　ライブまであと1か月よ！」[p][stopse buf=4]
 #北斗

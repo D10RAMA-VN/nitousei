@@ -13,7 +13,7 @@
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=1 ]
 [vostart]
 [mask time=500]
-[bg storage="class.jpg" time="500"]
+[bg2 storage="class.jpg" time="500"]
 [rolebutton]
 [M0]
 @layopt layer=message0 visible=true
@@ -29,7 +29,7 @@
 #教師
 「まだ1年だからって手を抜いたりするんじゃないぞ！[r]　基礎が一番重要なんだから。みんなが予習に追われるのもわかるが、[r]　もっと重要なのは復習なんだからな！」[p]
 #
-[bg storage="ongaku.jpg" time="500"]
+[bg2 storage="ongaku.jpg" time="500"]
 授業が終わったら部活でくたくたになるまで練習した。[r]成長の実感はないが、時間は待ってはくれない。[p]
 とにかくやるしかない。[p]
 [nao_magao]
@@ -46,13 +46,13 @@
 #
 [mask time=500]
 [hide time=0]
-[bg storage="kawa_n.jpg" time="500"]
+[bg2 storage="kawa_n.jpg" time="500"]
 [mask_off time=500]
 週末の夜には爺さんと遅くなるぎりぎりまで夜空を見上げていた。[p]
 そんな生活を続けていた。[p]
 勉強も部活も休むわけにはいかない。[p]
 それに、自分から言い出した手前、[r]爺さんとの天体観測に行かないわけにもいかない。[p]
-[bg storage=black.png time=500]
+[bg2 storage=black.png time=500]
 [hokuto_w_aozame2]
 #北斗
 「ハァ…ハァ…」[p][stopse buf=1]
@@ -62,7 +62,7 @@
 #教師
 「おい、起きろ、加賀谷！」[p]
 #
-[bg storage="class.jpg" time="500"]
+[bg2 storage="class.jpg" time="500"]
 #北斗
 [hw/aozame]
 「ぇ…」[p][stopse buf=1]
@@ -94,7 +94,7 @@
 ;（保健室）目を開ける,ベッドアップ、北斗はテキスト横
 ;（チャイムの音）[p]
 [mask time=500]
-[bg storage="hoken.jpg" time="500"]
+[bg2 storage="hoken.jpg" time="500"]
 [mask_off time=500]
 #
 チャイムの音で目が覚めた。[r]気が付けば自分は保健室のベッドに寝かされていた。[p]
@@ -161,9 +161,9 @@
 「え？」[p][stopse buf=1]
 #
 急に近づいて小声で何をいうかと思えば、[r]先生がドアのほうに目線を送った。[p]
-[hide][bg storage=rouka_s.jpg time=500][minami_s_ikari]
+[hide][bg2 storage=rouka_s.jpg time=500][minami_s_ikari]
 先生の目線の先に自分も目をやると、[r]廊下から美波がこちらをのぞいていた。[p]
-[hide][bg storage=hoken.jpg time=500][hokuto_s_odoroki]
+[hide][bg2 storage=hoken.jpg time=500][hokuto_s_odoroki]
 #養護
 「あの子、休み時間になるたびに様子見に来てたわよ。[r]　お礼、言っといた方がいいんじゃない？」[p]
 #北斗
@@ -265,7 +265,7 @@
 [hs_aseri]
 「…！」[p][stopse buf=1]
 #
-[hide wait=false][mhhide][bg storage=still_cry.png time=500]
+[hide wait=false][mhhide][bg2 storage=still_cry.png time=500]
 見れば、美波が目に涙を浮かべている。[p]
 #北斗
 [hs_mu]
@@ -354,7 +354,7 @@
 #美波
 「……」[p][stopse buf=2]
 #
-[bg storage=hoken.jpg time=500]
+[bg2 storage=hoken.jpg time=500]
 ゆっくりと起き上がって、ただ、口にする。
 #北斗
 [hokuto_s_kanasimi]
@@ -449,7 +449,7 @@
 
 [mask time=0]
 [hide time=0]
-[bg storage=heya.jpg time=500]
+[bg2 storage=heya.jpg time=500]
 [mask_off time=0]
 
 @jump storage="scene4.ks" target=*chapter4

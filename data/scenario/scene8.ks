@@ -13,7 +13,7 @@
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=40 ]
 [vostart]
 [mask time=500]
-[bg storage="black.png" time="500"]
+[bg2 storage="black.png" time="500"]
 [rolebutton]
 [M0]
 @layopt layer=message0 visible=true
@@ -30,7 +30,7 @@
 
 [mask time=500]
 [minami_s_magao left=840 time=0][hokuto_s_magao left=360 time=0]
-[bg storage=byouin.jpg time=500]
+[bg2 storage=byouin.jpg time=500]
 [mask_off time=500]
 
 #北斗
@@ -185,13 +185,13 @@
 こうして、爺さんの治療、リハビリが始まった。[p]
 
 [mask time=500]
-[hide time=0][bg storage=black.png time=500]
+[hide time=0][bg2 storage=black.png time=500]
 [mask_off time=500]
 オレや美波は、部活終わりや休みを見つけて、何度も見舞いに行ったし、[r]美波のお袋さんと一緒にリハビリプログラムを手伝ったりした。[p]
 でも、そんなオレたちの努力とは裏腹に。[p]
 爺さんの体力は、加速度的に落ちていった。[p]
 
-[bg storage=byouin.jpg time=500]
+[bg2 storage=byouin.jpg time=500]
 [hokuto_s_iradati]
 
 7月の頭、美波の親父さんと話をした。[p]
@@ -227,7 +227,7 @@
 
 [mask time=500]
 [hide time=0][seizi_h_kanasimi left=15 time=0][hokuto_s_magao left=680 time=0]
-[bg storage=byousitu.jpg time=500]
+[bg2 storage=byousitu.jpg time=500]
 [mask_off time=500]
 #北斗
 「……爺さん、今日の調子はどう？」[p][stopse buf=1]
@@ -303,13 +303,13 @@
 
 [mask time=500]
 [hide time=0][hokuto_s_naki2 time=0]
-[bg storage=byouin.jpg time=500]
+[bg2 storage=byouin.jpg time=500]
 [mask_off time=500]
 #北斗
 「爺さん…嘘が下手だって自分で言ってるのに、そういう言い方すんなよ…[r]　ばれるような嘘、つかないでくれよ…」[p][stopse buf=1]
 
 [mask time=500]
-[hide time=0][bg storage=black.png time=500]
+[hide time=0][bg2 storage=black.png time=500]
 [mask_off time=500]
 
 @jump storage="scene9.ks" target=*chapter9

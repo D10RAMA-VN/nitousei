@@ -13,7 +13,7 @@
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=38 ]
 [vostart]
 [mask time=500]
-[bg storage="class.jpg" time="500"]
+[bg2 storage="class.jpg" time="500"]
 [rolebutton]
 [M0]
 @layopt layer=message0 visible=true
@@ -27,7 +27,7 @@
 いつも通り美波とともに河川敷に向かう。[p]
 今日は、なんとしても、爺さんに聞かなければならないことがある。[p]
 [mask time=500]
-[bg storage="kawa_n.jpg" time="500"]
+[bg2 storage="kawa_n.jpg" time="500"]
 [minami_s_bishou left=840 time=0][hokuto_s_magao time=0 left=360][seizi_hohoemi left=-120 time=0]
 [mask_off time=500]
 #北斗
@@ -98,7 +98,7 @@
 #北斗
 [hs/magao]
 「こういうことですよ。」[p][stopse buf=1]
-;（BGM二等星になって　北斗歌入り）[p]
+;（bg2M二等星になって　北斗歌入り）[p]
 
 #北斗
 「前に爺さんが弾いてた曲。これが答えでしょう？」[p][stopse buf=1][vostop]
@@ -177,7 +177,7 @@
 「…！」[p][vostart]
 #北斗
 「北野夕子が都内の病院に入院するなんて、[r]　すぐマスコミにすっぱ抜かれちゃうからな。[r]　だから、北野夕子は亡くなるまで田舎の病院に入院してた。」[p][stopse buf=1]
-[vostop][playse storage=hokuto/hokuto_425_3.ogg loop=false buf=1]
+[vostop][playse storage=hokuto/hokuto_425_2.ogg loop=false buf=1]
 #北斗
 [hs/metozi]
 「その田舎の病院の名前は、来瀬診療所…昔この町で美波のじいちゃんが[r]　やってた、まだ小さかった頃の病院だ。」[p][stopse buf=1][vostart]
@@ -257,7 +257,7 @@
 「…！」[p][stopse buf=1]
 #
 [hide]
-[bg storage=byousitu.jpg time=500]
+[bg2 storage=byousitu.jpg time=500]
 [yuko]
 [s_hohoemi]
 #高村
@@ -276,7 +276,7 @@
 「…」[p][stopse buf=2]
 "
 [mmhide wait=false][hide]
-[bg storage=kawa_n.jpg time=500]
+[bg2 storage=kawa_n.jpg time=500]
 [seizi_mu]
 #高村
 「…私は一人残され、裕子はお星さまになってしまったよ。」[p][stopse buf=3]
@@ -491,7 +491,7 @@
 
 [mask time=500]
 [hide time=0]
-[bg storage=class.jpg time=500]
+[bg2 storage=class.jpg time=500]
 [mask_off time=500]
 
 @jump storage="scene7.ks" target=*chapter7

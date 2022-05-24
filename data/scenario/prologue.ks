@@ -14,42 +14,42 @@
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=1 ]
 [vostart]
 [mask time=500]
-[bg storage="sky.png" time="500"]
+[bg2 storage="sky.png" time="500"]
 [rolebutton]
 [M0]
 @layopt layer=message0 visible=true
-[ptext name="chara_name_area" layer="message0" color="white" size=50 bold=true x=350 y=750 face="NotoBlack"]
+[ptext name="chara_name_area" layer="message0" color="white" size=44 bold=true x=350 y=755 face="Noto"]
 #
 [wait time=500]
 [mask_off time=1000]
 
 *prologue
 *1
-#？？？
+#? ? ?
 [playse storage=seizi/takamura_first.ogg loop=false buf=3]
 「星というのは、一つの星、一つの星座が見つかれば、[r]　ほかの星座も続けて見つかることが多い。[r]　特に、北斗七星やおとめ座なんて大物はな。」[p][stopse buf=3]
 *2
-#？？？
+#? ? ?
 [playse storage=hokuto/hokuto_272.ogg loop=false buf=1]
 「…」[p][stopse buf=1]
 *3
-#？？？
+#? ? ?
 [playse storage=seizi/takamura_129.ogg loop=false buf=3]
 「とはいえ、星は一つではただの光る点だ。[r]　どの星かなんて一つだけ見てもわからん。[r]　星座として夜空に映るからわかる。」[p][stopse buf=3]
-#？？？
+#? ? ?
 [playse storage=seizi/takamura_130.ogg loop=false buf=3]
 「北斗七星の先にあるから、ただの2等星が北極星だとわかるし、[r]　明るいだけの星もあの形の中にあるから[r]　しし座やおとめ座だとわかるのさ。」[p][stopse buf=3]
 *4
-#？？？
+#? ? ?
 [playse storage=hokuto/hokuto_273.ogg loop=false buf=1]
 「…人間も同じようなもの、ってことでしょ？」[p][stopse buf=1]
 *5
-#？？？
+#? ? ?
 [playse storage=seizi/takamura_131.ogg loop=false buf=3]
 「ああ。なんでもそうだよ。」[p][stopse buf=3]
 
 #
-[bg storage="black.png" time="500"]
+[bg2 storage="black.png" time="500"]
 思えば小さいころから色んなことをやってきた。[p]
 野球にサッカー、バスケに柔道剣道。[p]
 中学では生徒会も掛け持ちして。[p]
@@ -60,7 +60,7 @@
 生徒会は流石に任期が終わるまで在籍していたものの、[r]自分から何かすることができたとは言えない。[p]
 だから、高校に上がっても、ただ勉強がしんどくなると思うだけで、[r]何をやるという気もあまりなかった。[p]
 
-[bg storage="rouka_s.jpg" time="1000"]
+[bg2 storage="rouka_s.jpg" time="1000"]
 [minami_w_magao2]
 #美波
 「あ、北斗。」[p][stopse buf=2]
@@ -112,13 +112,13 @@
 「軽音部か…」[p][stopse buf=1]
 #
 [chara_hide_all time=500]
-[bg storage="stage.jpg" time="1000"]
+[bg2 storage="stage.jpg" time="1000"]
 先ほどの説明会を思い出す。[p]
 広い講堂のステージ上にいたのは、たった３人。[p]
 ギターボーカルと、ベースと、ドラムだけのバンドだった。[p]
 音楽には明るくないが、ああいうのはスリーピースというんだったか。[p]
 ただ、圧倒的にボーカルの女性が上手くて、高校生とは思えないほどだった。[p]
-[bg storage="rouka_s.jpg" time="1000"]
+[bg2 storage="rouka_s.jpg" time="1000"]
 [hokuto_w_magao left="40" wait=false][minami_w_magao left="640"]
 #北斗
 「音楽系なら他の部も色々あったけど？」[p][stopse buf=1]
@@ -150,7 +150,7 @@
 「あ、ちょっと引っ張らないで～！」[p][stopse buf=2]
 #
 [chara_hide_all time=500]
-[bg storage="ongaku.jpg" time="1000"]
+[bg2 storage="ongaku.jpg" time="1000"]
 [nao_niko2][playse storage=nao/nao_1.ogg loop=false buf=4]
 #？？？
 「ようこそ鹿北軽音部へ！[r]　新歓ライブでも言ったかもだけど、改めて自己紹介するね。」[p][stopse buf=4]
@@ -166,7 +166,7 @@
 「ワタシが部長で3年生の[ruby text="ホシ"]保[ruby text="ナ"]科[ruby text="ナ"]七[ruby text="オ"]音。[r]　バンドではボーカルとギターやってます。」[p][stopse buf=4]
 #
 [backlay layer=base]
-[bg storage="ongaku.jpg" time=0]
+[bg2 storage="ongaku.jpg" time=0]
 [filter brightness=50 layer=base page=back]
 [trans layer=base time=1000]
 [wt]
@@ -180,7 +180,7 @@
 「同じく副部長で3年の[ruby text="アマ"]天[ruby text="ミヤ"]宮[ruby text="カナ"]奏[ruby text="メ"]女です。ベースやってます。」[p][stopse buf=6]
 #
 [backlay layer=base]
-[bg storage="ongaku.jpg" time=0]
+[bg2 storage="ongaku.jpg" time=0]
 [filter brightness=50 layer=base page=back]
 [trans layer=base time=1000]
 [wt]
@@ -193,7 +193,7 @@
 「…2年の[ruby text="ソウ"]草[ruby text="マ"]間[ruby text="レイ"]令[ruby text="ト"]人。ドラムとか、やってる。」[p][stopse buf=5]
 #
 [backlay layer=base]
-[bg storage="ongaku.jpg" time=0]
+[bg2 storage="ongaku.jpg" time=0]
 [filter brightness=50 layer=base page=back]
 [trans layer=base time=1000]
 [wt]
@@ -201,7 +201,7 @@
 MCというか、部活説明は全て部長と副部長の２人でやっていたから、[r]この男性はどんな人なんだろうと思ったが、[r]目つきも鋭く寡黙な印象を受ける。[p]
 …ちょっと怖い人なのかな。[p]
 #奏女
-[bg storage="ongaku.jpg" page=back time=0][free_filter layer=base page=back]
+[bg2 storage="ongaku.jpg" page=back time=0][free_filter layer=base page=back]
 [trans layer=base time=1000]
 [kaname_niyake]
 「わー令人君、ハチャメチャに緊張してる～」[p][stopse buf=6]
@@ -415,14 +415,14 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [hide]
 [reito_kanasimi wait=false]
 [backlay layer=base]
-[bg storage="ongaku.jpg" time=0]
+[bg2 storage="ongaku.jpg" time=0]
 [filter brightness=50 layer=base page=back]
 [trans layer=base time=1000]
 #令人
 「……」[p][stopse buf=5]
 [rhide wait=false]
 [backlay layer=base]
-[bg storage="ongaku.jpg" time=0]
+[bg2 storage="ongaku.jpg" time=0]
 [free_filter layer=base page=back]
 [trans layer=base time=1000]
 [nao_niko2 wait=false left=730][kaname_kanasimi left=140]
@@ -475,7 +475,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 
 [mask time=500]
 [hide time=0]
-[bg storage="michi_n.jpg" time="500"]
+[bg2 storage="michi_n.jpg" time="500"]
 [mask_off time=500]
 
 #北斗
@@ -569,12 +569,12 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #
 [hide]
 ;視線移動のエフェクト
-[bg storage="still.png" time="1000"]
+[bg2 storage="still.png" time="1000"]
 ふてくされてそっぽを向いた視線の先に、人影が見えた。[p]
 いや、本当は最初に目を奪われたのはその大きな望遠鏡だった。[p]
 遥かな天空へ向けられたそれを、老人が必死に覗き込んでいる。[p]
 
-[bg storage="michi_n.jpg" time="1000"]
+[bg2 storage="michi_n.jpg" time="1000"]
 [minami_w_magao2 left=40 wait=false][hokuto_w_mu2 left=640]
 #美波
 「ん、どしたの？」[p][stopse buf=2]
@@ -620,7 +620,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 「ふ～ン……」[p][stopse buf=1]
 #
 [hide]
-[bg storage="still.png" time="1000"]
+[bg2 storage="still.png" time="1000"]
 
 その時、なぜ自分がそうしたのかはわからないけど、[r]気づけば河川敷を駆け下りて爺さんに近づいていた。[p]
 #美波
@@ -661,7 +661,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #北斗
 「…それなら、一緒に探してもいいですか？[r]　何の役にも立たないかもしれないけど。」[p][stopse buf=1]
 #
-[bg storage="kawa_n.jpg" time=1000]
+[bg2 storage="kawa_n.jpg" time=1000]
 [hokuto_w_egao2][seizi_magao]
 #老人
 「…ほう。」[p][stopse buf=3]
@@ -696,7 +696,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [hide]
 そうして、その晩は9時過ぎまで星を3人で眺めることになった。[p]
 美波は終始ひやひやしていたが、[r]美波のご両親が夜勤で夜遊びがばれる心配もないのは把握していたので、[r]俺は気にせずひたすら爺さんに教えてもらいながら星をみた。[p]
-[bg storage="still_kansoku.png" time=1000]
+[bg2 storage="still_kansoku.png" time=1000]
 #老人
 「さて、いきなりどこにあるのかもわからない星を見るよりは、[r]　有名な星を見るところから始めた方がよかろう。」[p][stopse buf=3]
 #老人
@@ -744,7 +744,8 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #
 そういうと高村と名乗った爺さんは望遠鏡の倍率を下げるためなのか、[r]望遠鏡をいじり、そして方向を変えた。[p]
 
-[bg storage="dipper.png" time="1000"]
+[bg2 storage="seiza/419dipper.png" width=2279 height=1909 time=500 left=-700 top=-350 wait=false]
+[image layer=1 storage=lens.png time=500 visible=true]
 
 #高村
 [s_mu]
@@ -782,6 +783,8 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #
 [mshide]
 そういうと、爺さんは夜空にむかって北斗七星を指さした。[p]
+[bg2 storage="seiza/419dipperName.png" width=2279 height=1909 time=700 left=-300 top=-400 wait=false]
+[freeimage layer=1 time=700]
 #高村
 [s_magao]
 「北斗七星をひしゃくとして見たときに、[r]　水を組む部分の先にあたる２つの星があるだろう。[r]　アルファ星のデューベとベータ星のメラクというが…」[p][stopse buf=3]
@@ -797,7 +800,9 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #北斗
 [hw_mu]
 「5倍…？なんかあるけど、あの星がなんなの？」[p][stopse buf=1]
+#
 [mhhide]
+[bg2 storage="seiza/419dipperHName.png" width=2279 height=1909 time=500 left=-300 top=-400]
 #美波
 [mw_magao]
 「北極星、ですよね。」[p][stopse buf=2]
@@ -855,7 +860,9 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #高村
 [s_magao]
 「そうさ。あのアルファベットのWに似た5つの星があるだろう。[r]　Wに見立てた上側に、やはり5文字分伸ばしていくと…」[p][stopse buf=3]
+#
 [mshide]
+[bg2 storage="seiza/419dipperK.png" width=2279 height=1909 time=500 left=0 top=-800]
 #北斗
 [hw_kanasimi]
 「…北斗七星側からやってみても同じだし。[r]　やっぱりあれ北極星だ…なんか代わりがあるっていうと、[r]　なんでか知らないけどショックだな…」[p][stopse buf=1]
@@ -876,7 +883,9 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 「…それにしても、北極星ってなんだかちょっとパッとしないというか、[r]　ちょっと見つけにくい星ですね。」[p][stopse buf=2]
 #美波
 「それこそ北斗七星がないとすぐ見失って、[r]　どの星だかわかんなくなっちゃいそう。[r]　あっちの星の方が、なんだか明るくて目立つというか…」[p][stopse buf=2]
+#
 [mmhide]
+[bg2 storage="seiza/420virgo.png" width=2150 height=1280 time=500 left=0 top=-200]
 #高村
 [s_magao]
 「ん？…ああ、おとめ座のスピカか。」[p][stopse buf=3]
@@ -920,7 +929,9 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #北斗
 [hw_mu]
 「太陽の道…？」[p][stopse buf=1]
+#
 [mhhide]
+[bg2 storage="seiza/ecliptic.png" width=1920 height=1280 time=500 left=0 top=0]
 #高村
 [s_magao]
 「太陽は東から昇って西に沈んでいくだろう。その道さ。」[p][stopse buf=3]
@@ -953,7 +964,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 そういうことか。[p]
 星座の見える時期と星占いの時期、それぞれのどっちかさえ覚えれば、[r]あとはそれを半年ずらせばもう片方の時期もわかると。[p]
 …いや、どのみちどっちかは全部暗記しないといけないことに[r]変わりはないだろう。すごいな爺さん。[p]
-[bg storage="kawa_n.jpg" time=1000]
+[bg2 storage="kawa_n.jpg" time=1000]
 [hokuto_w_mu2 left=680 wait=false][seizi_mu left=15]
 #北斗
 「あれ、なんの話だっけ…あ、そう、[r]　おとめ座の星が北極星ならわかりやすいのに、みたいな話だっけ。」[p][stopse buf=1]
@@ -1017,7 +1028,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #高村
 「こらこら、つまらんことで喧嘩するんじゃない…」[p][stopse buf=3]
 [mask time=500]
-[bg storage="kawa_n.jpg" time="500"]
+[bg2 storage="kawa_n.jpg" time="500"]
 [s/mu time=0][hw/metozi time=0]
 [mask_off time=500]
 
@@ -1088,7 +1099,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 
 [mask time=500]
 [hide time=0][kaname_bishou2 time=0]
-[bg storage="ongaku.jpg" time="500"]
+[bg2 storage="ongaku.jpg" time="500"]
 [mask_off time=500]
 
 @jump storage="scene1.ks" target=*chapter1

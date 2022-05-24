@@ -13,7 +13,7 @@
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=18 ]
 [vostart]
 [mask time=500]
-[bg storage="ongaku.jpg" time="500"]
+[bg2 storage="ongaku.jpg" time="500"]
 [kaname_bishou2 time=0]
 [rolebutton]
 [M0]
@@ -90,7 +90,7 @@
 「メンバーも新しくなったんだし、ルールも新しくしなきゃだよね」[p][stopse buf=6]
 #北斗
 [hw_mu]
-「え、そんなもんですか？[r]　今までのがあるならそのままでもいいんじゃないですか？[r]　僕らもちゃんと守りますよ。」[p][stopse buf=1]
+「え、そんなもんですか？[r]　今までのがあるならそのままでもいいんじゃないですか？[r]　俺らもちゃんと守りますよ。」[p][stopse buf=1]
 [mhhide]
 #令人
 [r/magao]
@@ -352,7 +352,7 @@
 #
 [hide]
 そういうと、部長はスマホで動画サイトを開き、ある動画を再生した。[p]
-;（BGM　IN　二等星になって　夕子ボーカル)[p]
+;（bgM　IN　二等星になって　夕子ボーカル)[p]
 [kaname_magao left=-80 wait=false][nao_niko3 left=460 wait=false][reito_magao left=850]
 #令人
 「…昭和歌謡ですか？」[p][stopse buf=5]
@@ -396,13 +396,13 @@
 何か、懐かしさを覚える。[p]
 曲調が懐メロ特有のものだから、というわけではない。[p]
 動画の概要欄に書いてある「北野夕子」という歌手の名前も、[r]確かにどっかで見たような気はするが、それでもない。[p]
-[bg storage=byousitu.jpg time=500]
+[bg2 storage=byousitu.jpg time=500]
 何か、脳裏に浮かび上がってくるようなものがある。[p]
 白い壁と、広い場所。そんな曖昧なイメージ。[p]
 …だめだ、これ以上は思い出せない。[p]
 でも、この曲がいい曲であることはよくわかる。[p]
 切ない別れの曲だ。[p]
-[bg storage=ongaku.jpg time=500]
+[bg2 storage=ongaku.jpg time=500]
 [kaname_magao left=-80 wait=false][nao_bishou left=460 wait=false][reito_magao left=850]
 #七音
 「なんか、ちょっと恥ずかしいけどね。」[p]
@@ -440,7 +440,7 @@
 
 [mask time=500]
 [hide]
-[bg storage="genkan.jpg" time="500"]
+[bg2 storage="genkan.jpg" time="500"]
 [mask_off time=500]
 
 #
@@ -450,7 +450,7 @@
 「ただいま」[p][stopse buf=1]
 #
 ……当然、返事はない。[p]
-[bg storage="ima.jpg" time="500"]
+[bg2 storage="ima.jpg" time="500"]
 #北斗
 「…さてと。」[p][stopse buf=1]
 #
@@ -488,7 +488,7 @@ PM１９：００。今日はいつもより少し遅い夕食。[p]
 #北斗
 「…さて、予習するか」[p][stopse buf=1]
 #
-[bg storage="heya.jpg" time="500"]
+[bg2 storage="heya.jpg" time="500"]
 PM20：00。明日は主要3教科がそろっているので相当予習がきつい。[p]
 まずは数学Ⅰから手を付ける。[p]
 中学時代は一番苦手だったはずの数学が、なぜか今は一番楽に感じる。[p]
@@ -514,7 +514,7 @@ PM20：00。明日は主要3教科がそろっているので相当予習がき�
 こうして、今日も一人、静かな夜が過ぎていく。[p]
 
 [mask time=500]
-[bg storage="byousitu.jpg" time="500"]
+[bg2 storage="byousitu.jpg" time="500"]
 [mask_off time=500]
 
 #？？
@@ -539,7 +539,7 @@ PM20：00。明日は主要3教科がそろっているので相当予習がき�
 少年が、泣きべそをかいている。[p]
 
 [mask time=500]
-[bg storage="heya.jpg" time="500"]
+[bg2 storage="heya.jpg" time="500"]
 [mask_off time=500]
 ;（北斗の自室　アラーム）
 #北斗
@@ -554,7 +554,7 @@ PM20：00。明日は主要3教科がそろっているので相当予習がき�
 
 [mask time=500]
 [seizi_mu left=-145 time=0][hokuto_w_kanasimi left=360 time=0][minami_w_kanasimi left=840 time=0]
-[bg storage="kawa_n.jpg" time="500"]
+[bg2 storage="kawa_n.jpg" time="500"]
 [mask_off time=500]
 
 @jump storage="scene2.ks" target=*chapter2

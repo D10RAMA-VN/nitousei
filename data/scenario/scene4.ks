@@ -13,7 +13,7 @@
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=36 ]
 [vostart]
 [mask time=500]
-[bg storage="heya.jpg" time="500"]
+[bg2 storage="heya.jpg" time="500"]
 [rolebutton]
 [M0]
 @layopt layer=message0 visible=true
@@ -41,7 +41,7 @@
 「…行こう。」[p][stopse buf=1]
 
 [mask time=500]
-[bg storage="kawa_n.jpg" time="500"]
+[bg2 storage="kawa_n.jpg" time="500"]
 [seizi_hohoemi time=0]
 [mask_off time=500]
 
@@ -260,7 +260,7 @@
 #
 [hide]
 そういって、爺さんは天に向かって指をさした。[p]
-[bg storage="dipper.png" time="500"]
+[bg2 storage="seiza/419dipper.png" width=2279 height=1909 time=500 left=-300 top=-350]
 その指先にあるのは、北斗七星。[p]
 #高村
 [s_hohoemi]
@@ -273,7 +273,9 @@
 #高村
 [s_hohoemi2]
 「そうだ。[r]　じゃあ、今度は柄の方をあの弓なりの形に沿って伸ばしてごらん。」[p][stopse buf=3]
+#
 [mshide]
+[bg2 storage="seiza/usikai.png" width=1951 height=1635 time=500 left=0 top=-500]
 #北斗
 [hs_akire]
 「え…？あ、なんか明るい星が…」[p][stopse buf=1]
@@ -289,9 +291,11 @@
 「えーっと…また明るい星が…ってあれ？」[p][stopse buf=1]
 [mhhide]
 #高村
-[s/hohoemi2]
+[s_hohoemi2]
 「見覚えがあるだろう？」[p][stopse buf=3]
+#
 [mshide]
+[bg2 storage="seiza/usikai_virgo.png" width=1951 height=1635 time=500 left=0 top=-500]
 #北斗
 [hs_mu]
 「…おとめ座…」[p][stopse buf=1]
@@ -309,7 +313,9 @@
 #高村
 [s_kuti]
 「そしてな？アルクトュールスとスピカの中点から、[r]　今度は垂直に伸ばしていくと…」[p][stopse buf=3]
+#
 [mshide]
+[bg2 storage="seiza/Stryangle.png" width=1951 height=1635 time=500 left=0 top=-50]
 #北斗
 [hs_odoroki]
 「…しし座だ。」[p][stopse buf=1]
@@ -330,7 +336,7 @@
 #
 [mshide]
 爺さんの意図することが、なんとなく読めた。…とはいえ。[p]
-[bg storage=kawa_n.jpg time=500]
+[bg2 storage=kawa_n.jpg time=500]
 [hokuto_s_akire left=680 wait=false][seizi_hohoemi left=15]
 #北斗
 「…爺さん、言いたいことはわかるけど、クサすぎだよ…」[p][stopse buf=1]
@@ -380,7 +386,7 @@
 それは、あんまりにも蛇足に過ぎるだろうと思われる言葉で。[p]
 だからオレは、逆に聞き返してやった。[p]
 #北斗
-[hs/bishuo]
+[hs/bishou]
 「…爺さんは、一人は見つかったの？」[p][stopse buf=1]
 #高村
 [s/hohoemi]
@@ -398,7 +404,7 @@
 
 [mask time=500]
 [hide time=0]
-[bg storage=michi.jpg time=500]
+[bg2 storage=michi.jpg time=500]
 [mask_off time=500]
 
 @jump storage="scene5.ks" target=*chapter5

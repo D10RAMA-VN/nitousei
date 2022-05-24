@@ -13,7 +13,7 @@
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=38 ]
 [vostart]
 [mask time=500]
-[bg storage="class.jpg" time="500"]
+[bg2 storage="class.jpg" time="500"]
 [rolebutton]
 [M0]
 @layopt layer=message0 visible=true
@@ -42,7 +42,7 @@
 [hide]
 そんなに変なこと言ったか…？[p]
 ちなみにそのあと廊下ですれ違った部長には、[p]
-[bg storage=rouka_s.jpg time=500]
+[bg2 storage=rouka_s.jpg time=500]
 [nao_niko]
 #七音
 「北斗君はすぐそういうこと言う～」[p]
@@ -59,7 +59,7 @@
 やっとの思いで英語、現代社会、生物、数学を乗り切った。[p]
 長雨の合間の少し晴れた日、帰り道で美波と一緒になった。[p]
 
-[bg storage="michi.jpg" time="500"]
+[bg2 storage="michi.jpg" time="500"]
 [hokuto_s_bishou left=640 wait=false][minami_s_bishou left=40]
 
 #北斗
@@ -139,7 +139,7 @@
 #
 [mask time=500]
 [hide time=0][hokuto_s_bishou time=0 left=640][minami_s_tere left=40 time=0]
-[bg storage="cafe.jpg" time="500"]
+[bg2 storage="cafe.jpg" time="500"]
 [mask_off time=500]
 #店員
 「いらっしゃいませ。…あら北斗君！」[p]
@@ -219,7 +219,7 @@
 「ああ。昔からずっと。」[p][stopse buf=1]
 #
 [hide]
-[bg storage=still.png time=500]
+[bg2 storage=still.png time=500]
 #北斗
 「オレ、親父が死んでからしばらくさ、ふさぎこんでただろ？[r]　学校も行きたくなかったし、行っても誰とも口きかなかったし。[r]　家にいてもずっとうずくまって泣いてたりとかさ。」[p][stopse buf=1]
 #美波
@@ -246,7 +246,7 @@
 「北斗…」[p][stopse buf=2]
 
 #
-[bg storage="cafe.jpg" time="500"]
+[bg2 storage="cafe.jpg" time="500"]
 [hokuto_s_kanasimi wait=false left=640][minami_s_magao2 left=40]
 
 #北斗
@@ -312,7 +312,7 @@
 美波の目が点になっている。目の前の光景が信じられないという目だ。[p]
 しかし一方で、喜びや期待が隠せていない。[p]
 [hide]
-[bg storage=still.png time=500]
+[bg2 storage=still.png time=500]
 仕方ない。目の前にはびわやスモモといった初夏のフルーツを基調に、[r]生クリームにアイス、スポンジにヨーグルトが、[r]これでもかという高さで盛りに盛られている。[p]
 これぞ「猫のしっぽ」名物。（主にサイズが）スペシャルパフェ。[r]とにかくデカい。そしてちゃんと美味そう。[p]
 パフェの向こう側では、[r]美波がもう見事なまでにパフェにご執心になられている。[p]
@@ -365,7 +365,7 @@
 「…じゃあ、いただきます。」[p][stopse buf=2]
 #
 [mmhide]
-[bg storage=cafe.jpg time=500]
+[bg2 storage=cafe.jpg time=500]
 [minami_s_mogu]
 スプーンを手に取り、[r]遠慮がちにパフェのアイスの部分をすくって口に運んで行った。[p]
 次の瞬間。[p]
@@ -472,7 +472,7 @@
 
 [mask time=500]
 [ms/uwame time=0][hs/metozi time=0]
-[bg storage=michi_e.jpg time=500]
+[bg2 storage=michi_e.jpg time=500]
 [mask_off time=500]
 
 #美波
@@ -585,7 +585,7 @@
 「……楽しみにしてる。じゃあ、」[p][stopse buf=1]
 #
 [hide]
-[bg storage=still_kokuhaku.png time=500]
+[bg2 storage=still_kokuhaku.png time=500]
 #美波
 「…北斗。」[p][stopse buf=2]
 #北斗
@@ -603,7 +603,7 @@
 #美波
 「…そういう、ことだから。…それじゃ。」[p][stopse buf=2]
 #
-[bg storage=michi_e.jpg time=500]
+[bg2 storage=michi_e.jpg time=500]
 そういって、美波は自分の家路についた。[p]
 [hokuto_s_dere]
 #北斗
@@ -617,7 +617,7 @@
 
 [mask time=500]
 [hs/iradati time=0]
-[bg storage=ongaku.jpg time=500]
+[bg2 storage=ongaku.jpg time=500]
 [mask_off time=500]
 
 #北斗
@@ -776,7 +776,7 @@
 
 [mask time=500]
 [hide time=0]
-[bg storage=black.png time=500]
+[bg2 storage=black.png time=500]
 [mask_off time=500]
 
 @jump storage="scene8.ks" target=*chapter8

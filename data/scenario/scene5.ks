@@ -13,7 +13,7 @@
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=36 ]
 [vostart]
 [mask time=500]
-[bg storage="michi.jpg" time="500"]
+[bg2 storage="michi.jpg" time="500"]
 [rolebutton]
 [M0]
 @layopt layer=message0 visible=true
@@ -129,7 +129,7 @@
 結局答えが出ないまま、すぐに学校についてしまった。[p]
 [mask time=500]
 [hide time=0]
-[bg storage="class.jpg" time="500"]
+[bg2 storage="class.jpg" time="500"]
 [mask_off time=500]
 #
 その日の昼休み。珍しい来客があった。[p]
@@ -146,7 +146,7 @@
 そんなわけで、今日の昼は令人先輩と一緒に部室で食べることになった。[p]
 
 [mask time=500]
-[bg storage="ongaku.jpg" time="500"]
+[bg2 storage="ongaku.jpg" time="500"]
 [hs/metozi time=0][r/magao time=0]
 [mask_off time=500]
 #北斗
@@ -224,7 +224,7 @@
 
 [mask time=500]
 [hide time=0]
-[bg storage="kateika.jpg" time="500"]
+[bg2 storage="kateika.jpg" time="500"]
 [mask_off time=500]
 
 #北斗
@@ -241,7 +241,7 @@
 「大丈夫。オレ、濃い味好きだから！」[p][stopse buf=1]
 
 [mask time=500]
-[bg storage="ongaku.jpg" time="500"]
+[bg2 storage="ongaku.jpg" time="500"]
 [hs/odoroki time=0]
 [mask_off time=500]
 
@@ -404,8 +404,12 @@
 
 [mask tim=500]
 [hide time=0]
-[bg storage=rouka_s.jpg time=500]
+[bg2 storage=rouka_s.jpg time=500]
 [mask_off time=500]
+
+[image storage=minami_view.png layer=1 visible=true width=483 height=211 time=700]
+[wait time=500]
+[freeimage layer=1 time=700]
 
 #
 4限の授業が終わり、部室へ向かう。[p]
@@ -433,7 +437,7 @@
 
 [mask tim=500]
 [hokuto_s_egao2 time=0]
-[bg storage=ongaku.jpg time=500]
+[bg2 storage=ongaku.jpg time=500]
 [mask_off time=500]
 #北斗
 「お、おはよう美波」[p][stopse buf=1]
@@ -680,7 +684,7 @@
 #
 そしてオレは、部屋の中に置いてある、ホワイトボードに目をやる。[p]
 [hide]
-[bg storage=still.png time=500]
+[bg2 storage=still.png time=500]
 #北斗
 [hs_bishou]
 「部則のさ、『マジメさと楽しさは両立させるべし！』ってアレ…[r]　自分で提案しといて、すっかり忘れてた。」[p][stopse buf=1]
@@ -700,7 +704,7 @@
 「北斗…」[p][stopse buf=2]
 #
 [mmhide]
-[bg storage=ongaku.jpg time=500]
+[bg2 storage=ongaku.jpg time=500]
 [hokuto_s_metozi left=640 wait=false][minami_s_uwame]
 そして、改めて美波に向き合う。[p]
 #北斗
@@ -747,7 +751,7 @@
 
 [mask time=500]
 [hide time=0][kaname_niyake left=-80 wait=false][nao_niko left=460 wait=false][reito_komari left=850]
-[bg storage="rouka_s.jpg" time="500"]
+[bg2 storage="rouka_s.jpg" time="500"]
 [mask_off time=500]
 #奏女
 「…ですって聞きました奥さん？」[p][stopse buf=6]
@@ -777,7 +781,7 @@
 
 [mask time=500]
 [hide time=0][minami_s_dere left=40 time=0][hokuto_s_magao left=640 time=0]
-[bg storage=ongaku.jpg time=500]
+[bg2 storage=ongaku.jpg time=500]
 [mask_off time=500]
 #美波
 「（どうしようどうしようどうしよう…）」[p][stopse buf=2]
@@ -813,7 +817,7 @@
 
 [mask time=500]
 [hide time=0]
-[bg storage=michi.jpg time=500]
+[bg2 storage=michi.jpg time=500]
 [mask_off time=500]
 
 @jump storage="scene6.ks" target=*chapter6
