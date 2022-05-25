@@ -18,7 +18,7 @@
 [rolebutton]
 [M0]
 @layopt layer=message0 visible=true
-[ptext name="chara_name_area" layer="message0" color="white" size=44 bold=true x=350 y=755 face="Noto"]
+[ptext name="chara_name_area" layer="message0" color="white" size=44 bold=true x=350 y=755 face="NotoInitial"]
 #
 [wait time=500]
 [mask_off time=1000]
@@ -931,7 +931,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 「太陽の道…？」[p][stopse buf=1]
 #
 [mhhide]
-[bg2 storage="seiza/ecliptic.png" width=1920 height=1280 time=500 left=0 top=0]
+[bg2 storage="seiza/ecliptic.png" width=1920 height=1080 time=500 left=0 top=0]
 #高村
 [s_magao]
 「太陽は東から昇って西に沈んでいくだろう。その道さ。」[p][stopse buf=3]

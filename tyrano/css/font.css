@@ -18,6 +18,12 @@
 }
 
 @font-face {
+	font-family:"NotoInitial";
+	src:url("../../data/others/Noto_Sans_JP/NotoSansJP-Light.otf") format("opentype");
+	font-weight:initial;font-style:initial;
+}
+
+@font-face {
 	font-family:"NotoBlack";
 	src:url("../../data/others/Noto_Sans_JP/NotoSansJP-Bold.otf") format("opentype");
 	font-weight:bold;font-style:bold;
