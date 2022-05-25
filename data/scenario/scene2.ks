@@ -34,7 +34,7 @@
 [mask time=500]
 [hide time=0]
 [kaname_kanasimi left=-80 time=0][nao_kanasimi left=460 time=0][reito_magao left=850 time=0][hw_hutyou time=0]
-[bg2 storage="ongaku.jpg" time="500"]
+[bg2 storage="ongaku.jpg" height=1554 top="-200" time="500"]
 [mask_off time=500]
 ;（ギター音）
 #北斗

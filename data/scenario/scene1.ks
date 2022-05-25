@@ -13,7 +13,7 @@
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=18 ]
 [vostart]
 [mask time=500]
-[bg2 storage="ongaku.jpg" time="500"]
+[bg2 storage="ongaku.jpg" height=1554 top="-200" time="500"]
 [kaname_bishou2 time=0]
 [rolebutton]
 [M0]
@@ -402,7 +402,7 @@
 …だめだ、これ以上は思い出せない。[p]
 でも、この曲がいい曲であることはよくわかる。[p]
 切ない別れの曲だ。[p]
-[bg2 storage=ongaku.jpg time=500]
+[bg2 storage=ongaku.jpg height=1554 top="-200" time=500]
 [kaname_magao left=-80 wait=false][nao_bishou left=460 wait=false][reito_magao left=850]
 #七音
 「なんか、ちょっと恥ずかしいけどね。」[p]

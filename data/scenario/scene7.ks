@@ -617,7 +617,7 @@
 
 [mask time=500]
 [hs/iradati time=0]
-[bg2 storage=ongaku.jpg time=500]
+[bg2 storage=ongaku.jpg height=1554 top="-200" time=500]
 [mask_off time=500]
 
 #北斗

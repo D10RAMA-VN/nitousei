@@ -13,7 +13,7 @@
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=40 ]
 [vostart]
 [mask time=500]
-[bg2 storage="ongaku.jpg" time="500"]
+[bg2 storage="ongaku.jpg" height=1554 top="-200" time="500"]
 [rolebutton]
 [M0]
 @layopt layer=message0 visible=true

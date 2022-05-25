@@ -14,13 +14,14 @@
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=1 ]
 [vostart]
 [mask time=500]
-[bg2 storage="sky.png" time="500"]
+[bg2 storage="seiza/520dipper.png" width=3200 height=2682 time=500 top=-600]
 [rolebutton]
 [M0]
 @layopt layer=message0 visible=true
 [ptext name="chara_name_area" layer="message0" color="white" size=44 bold=true x=350 y=755 face="NotoInitial"]
 #
 [wait time=500]
+@camera y=-1600 time=330000 wait=false
 [mask_off time=1000]
 
 *prologue
@@ -49,7 +50,10 @@
 「ああ。なんでもそうだよ。」[p][stopse buf=3]
 
 #
-[bg2 storage="black.png" time="500"]
+[mask time=500]
+[bg2 storage="black.png" time=500]
+[reset_camera time=0]
+[mask_off time=500]
 思えば小さいころから色んなことをやってきた。[p]
 野球にサッカー、バスケに柔道剣道。[p]
 中学では生徒会も掛け持ちして。[p]
@@ -150,7 +154,7 @@
 「あ、ちょっと引っ張らないで～！」[p][stopse buf=2]
 #
 [chara_hide_all time=500]
-[bg2 storage="ongaku.jpg" time="1000"]
+[bg2 storage="ongaku.jpg" height=1554 top="-200" time="1000"]
 [nao_niko2][playse storage=nao/nao_1.ogg loop=false buf=4]
 #？？？
 「ようこそ鹿北軽音部へ！[r]　新歓ライブでも言ったかもだけど、改めて自己紹介するね。」[p][stopse buf=4]
@@ -166,7 +170,7 @@
 「ワタシが部長で3年生の[ruby text="ホシ"]保[ruby text="ナ"]科[ruby text="ナ"]七[ruby text="オ"]音。[r]　バンドではボーカルとギターやってます。」[p][stopse buf=4]
 #
 [backlay layer=base]
-[bg2 storage="ongaku.jpg" time=0]
+[bg2 storage="ongaku.jpg" height=1554 top="-200" time=0]
 [filter brightness=50 layer=base page=back]
 [trans layer=base time=1000]
 [wt]
@@ -180,7 +184,7 @@
 「同じく副部長で3年の[ruby text="アマ"]天[ruby text="ミヤ"]宮[ruby text="カナ"]奏[ruby text="メ"]女です。ベースやってます。」[p][stopse buf=6]
 #
 [backlay layer=base]
-[bg2 storage="ongaku.jpg" time=0]
+[bg2 storage="ongaku.jpg" height=1554 top="-200" time=0]
 [filter brightness=50 layer=base page=back]
 [trans layer=base time=1000]
 [wt]
@@ -193,7 +197,7 @@
 「…2年の[ruby text="ソウ"]草[ruby text="マ"]間[ruby text="レイ"]令[ruby text="ト"]人。ドラムとか、やってる。」[p][stopse buf=5]
 #
 [backlay layer=base]
-[bg2 storage="ongaku.jpg" time=0]
+[bg2 storage="ongaku.jpg" height=1554 top="-200" time=0]
 [filter brightness=50 layer=base page=back]
 [trans layer=base time=1000]
 [wt]
@@ -201,7 +205,7 @@
 MCというか、部活説明は全て部長と副部長の２人でやっていたから、[r]この男性はどんな人なんだろうと思ったが、[r]目つきも鋭く寡黙な印象を受ける。[p]
 …ちょっと怖い人なのかな。[p]
 #奏女
-[bg2 storage="ongaku.jpg" page=back time=0][free_filter layer=base page=back]
+[bg2 storage="ongaku.jpg" height=1554 top="-200" page=back time=0][free_filter layer=base page=back]
 [trans layer=base time=1000]
 [kaname_niyake]
 「わー令人君、ハチャメチャに緊張してる～」[p][stopse buf=6]
@@ -415,14 +419,14 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [hide]
 [reito_kanasimi wait=false]
 [backlay layer=base]
-[bg2 storage="ongaku.jpg" time=0]
+[bg2 storage="ongaku.jpg" height=1554 top="-200" time=0]
 [filter brightness=50 layer=base page=back]
 [trans layer=base time=1000]
 #令人
 「……」[p][stopse buf=5]
 [rhide wait=false]
 [backlay layer=base]
-[bg2 storage="ongaku.jpg" time=0]
+[bg2 storage="ongaku.jpg" height=1554 top="-200" time=0]
 [free_filter layer=base page=back]
 [trans layer=base time=1000]
 [nao_niko2 wait=false left=730][kaname_kanasimi left=140]
@@ -1099,7 +1103,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 
 [mask time=500]
 [hide time=0][kaname_bishou2 time=0]
-[bg2 storage="ongaku.jpg" time="500"]
+[bg2 storage="ongaku.jpg" height=1554 top="-200" time="500"]
 [mask_off time=500]
 
 @jump storage="scene1.ks" target=*chapter1

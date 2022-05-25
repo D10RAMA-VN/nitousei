@@ -146,7 +146,7 @@
 そんなわけで、今日の昼は令人先輩と一緒に部室で食べることになった。[p]
 
 [mask time=500]
-[bg2 storage="ongaku.jpg" time="500"]
+[bg2 storage="ongaku.jpg" height=1554 top="-200" time="500"]
 [hs/metozi time=0][r/magao time=0]
 [mask_off time=500]
 #北斗
@@ -241,7 +241,7 @@
 「大丈夫。オレ、濃い味好きだから！」[p][stopse buf=1]
 
 [mask time=500]
-[bg2 storage="ongaku.jpg" time="500"]
+[bg2 storage="ongaku.jpg" height=1554 top="-200" time="500"]
 [hs/odoroki time=0]
 [mask_off time=500]
 
@@ -437,7 +437,7 @@
 
 [mask tim=500]
 [hokuto_s_egao2 time=0]
-[bg2 storage=ongaku.jpg time=500]
+[bg2 storage=ongaku.jpg height=1554 top="-200" time=500]
 [mask_off time=500]
 #北斗
 「お、おはよう美波」[p][stopse buf=1]
@@ -704,7 +704,7 @@
 「北斗…」[p][stopse buf=2]
 #
 [mmhide]
-[bg2 storage=ongaku.jpg time=500]
+[bg2 storage=ongaku.jpg height=1554 top="-200" time=500]
 [hokuto_s_metozi left=640 wait=false][minami_s_uwame]
 そして、改めて美波に向き合う。[p]
 #北斗
@@ -781,7 +781,7 @@
 
 [mask time=500]
 [hide time=0][minami_s_dere left=40 time=0][hokuto_s_magao left=640 time=0]
-[bg2 storage=ongaku.jpg time=500]
+[bg2 storage=ongaku.jpg height=1554 top="-200" time=500]
 [mask_off time=500]
 #美波
 「（どうしようどうしようどうしよう…）」[p][stopse buf=2]

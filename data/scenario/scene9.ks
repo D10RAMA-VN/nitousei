@@ -192,7 +192,7 @@
 そんな悪態をつくしか、未熟な自分にはできなかった。[p]
 
 [mask time=500]
-[bg2 storage=ongaku.jpg time=500]
+[bg2 storage=ongaku.jpg height=1554 top="-200" time=500]
 [minami_s_bishou left=40 time=0][hokuto_s_kanasimi left=640 time=0]
 [mask_off time=500]
 
