@@ -3,9 +3,9 @@
 
 <div class='tabs'>
   <div class='tab-buttons'>
-    <span class='content1' style="width:220px;height:39.5px;margin:-10px 0 0 100px;padding:10px 0;transition:.3s;">チャプター</span>
-    <span class='content2' style="width:220px;height:39.5px;margin:-10px 0 0 0;padding:10px 0;transition: .3s;">イベントＣＧ</span>
-    <span class='content3' style="width:220px;height:39.5px;margin:-10px 0 0 0;padding:10px 0;transition:.3s;">音楽</span>
+    <span class='content1' id="tab_button3" style="width:220px;height:39.5px;margin:-10px 0 0 100px;padding:10px 0;">チャプター</span>
+    <span class='content2' id="tab_button4" style="width:245px;height:39.5px;margin:-10px 0 0 0;padding:10px 0;color:#606589;">イベントＣＧ</span>
+    <span class='content3' id="tab_button5" style="width:145px;height:39.5px;margin:-10px 0 0 0;padding:10px 0;color:#606589;">音楽</span>
   </div>
   <div class='tab-content'>
     
@@ -35,7 +35,7 @@
     </div>
     
     <div class='content2'>
-      <div style="float:left;position:absolute;top:-10px;left:40px;">
+      <div style="float:left;position:absolute;top:20px;left:40px;">
         <img src="data/bgimage/still.png" class="cg" id="tonari">
       </div>
     </div>
@@ -67,11 +67,17 @@
     
   </div>
   <div id="cgbig"></div>
-  <div id="cgvideo"><video src="" autoplay id="vcg"></video></div>
-  <div id="gb1" class="gallery_border" style="left:100px;width:220px;border-top:solid .5px #606589;border-left:solid .5px #606589;"></div>
-  <div id="gb2" class="gallery_border" style="left:320px;width:220px;border-top:solid .5px #606589;"></div>
-  <div id="gb3" class="gallery_border" style="left:540px;width:220px;border-top:solid .5px #606589;"></div>
-  <div id="gb4" class="gallery_border" style="left:760px;width:690px;border-top:solid .5px #606589;border-right:solid .5px #606589;"></div>
+  <div id="cgvideo"><video src="" autoplay id="vcg"></video></div>  
+  <div id="gb1" class="gallery_border" style="left:100px;width:220px;border-left:solid #606589;"></div>
+  <div id="gb2" class="gallery_border" style="left:710px;width:740px;border-top:solid #606589;border-right:solid #606589;"></div>  
+  <div id="gb3" class="gallery_border" style="left:320px;width:440px;border-top:solid #606589;"></div>  
+  <div id="gb4" class="gallery_border" style="left:100px;width:220px;border-top:solid #606589;display:none;"></div>
+  <div id="gb5" class="gallery_border" style="left:565px;width:145px;border-top:solid #606589;display:none;"></div>  
+  <div id="gb6" class="gallery_border" style="left:100px;width:465px;border-top:solid #606589;display:none;"></div>
+  
+  <div id="gb7" class="gallery_border" style="left:100px;top:-15px;width:218px;height:64px;border-top:solid white;border-right:solid #606589;border-left:solid #606589;"></div>
+  <div id="gb8" class="gallery_border" style="left:320px;top:-15px;width:243px;height:64px;border-top:solid white;border-right:solid #606589;border-left:solid #606589;display:none;"></div> 
+  <div id="gb9" class="gallery_border" style="left:565px;top:-15px;width:143px;height:64px;border-top:solid white;border-right:solid #606589;border-left:solid #606589;display:none;"></div>
 </div>
 </div>
 
@@ -85,6 +91,25 @@
 
 
 <script>
+$('.content1').on('click',function(){
+	$('#gb4, #gb5, #gb6, #gb8, #gb9').hide();
+	$('#gb3, #gb7').show();
+	$('#tab_button3').css("color","white");
+	$('#tab_button4, #tab_button5').css('color','#606589');
+});
+$('.content2').on('click',function(){
+	$('#gb3, #gb6, #gb7, #gb9').hide();
+	$('#gb4, #gb5, #gb8').show();
+	$('#tab_button4').css("color","white");
+	$('#tab_button5, #tab_button3').css('color','#606589');
+});
+$('.content3').on('click',function(){
+	$('#gb3, #gb4, #gb5, #gb7, #gb8').hide();
+	$('#gb6, #gb9').show();
+	$('#tab_button5').css("color","white");
+	$('#tab_button3, #tab_button4').css('color','#606589');
+});
+
 $('.cg_back').click(function(){tyrano.plugin.kag.ftag.startTag("jump", {target:"backtitle"})});
 
 $('.tab-content>div').hide();

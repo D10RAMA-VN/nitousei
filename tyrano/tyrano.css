@@ -906,10 +906,10 @@ audio {
 #cgbig,#cgvideo{
   visibility:hidden;
   position:absolute;
-  top:-120px;
-  left:-320px;
-  width:1280px;
-  height:720px;
+  top:-200px;
+  left:-200px;
+  width:1920px;
+  height:1080px;
   z-index:15;
   background-size:contain;
   transition:.5s;

@@ -250,18 +250,14 @@ $(function () {
 });
 
 $('.content1').on('click',function(){
-	$('.border3').hide();
-	$('.border4').show();
-	$('.border6').hide();
-	$('.border5').show();
+	$('.border3, .border6').hide();
+	$('.border4, .border5').show();
 	$('#tab_button1').css("color","white");
 	$('#tab_button2').css('color','#606589');
 });
 $('.content2').on('click',function(){
-	$('.border4').hide();
-	$('.border3').show();
-	$('.border5').hide();
-	$('.border6').show();
+	$('.border4, .border5').hide();
+	$('.border3, .border6').show();
 	$('#tab_button2').css("color","white");
 	$('#tab_button1').css('color','#606589');
 });
