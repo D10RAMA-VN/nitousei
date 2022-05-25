@@ -115,33 +115,6 @@ abbr,acronym{
 	z-index: 2;
 }
 
-.menu_close .non{
-	z-index: 2;
-}
-
-.menu_item:before {
- 	content: '';
-    /*絶対配置で位置を指定*/
- 	position: absolute;
- 	top: 12px;
- 	left: -15px;
- 	z-index: -1;
-    /*色や形状*/
-    background-image: url("../tyrano/images/system/hover.png");
-    background-size:  auto;
- 	width: 173px;
-	height: 29px;
-    /*アニメーション*/
- 	transition: transform .3s cubic-bezier(0.8, 0, 0.2, 1) 0s;
- 	transform: scale(0, 1);
-	transform-origin: left top;
-}
-
-.menu_item:hover:before{
-	transform-origin:left top;
-	transform:scale(1, 1);
-}
-
 /* バックログ画面
 --------------------------------------*/
 .log_body {
@@ -196,8 +169,8 @@ abbr,acronym{
 .backlog_button:hover:before{
 	width: 260px;
 	left: -90px;
-	border-bottom: 3px solid #007882;
- 	border-left: 4.5px solid #007882;
+	border-bottom: 3px solid #606589;
+ 	border-left: 4.5px solid #606589;
 }
 
 .backlog_chara_name{
@@ -602,8 +575,8 @@ input[type=radio]:checked + .checkbox:after {
 .save_close:hover:before{
 	width: 260px;
 	left: -90px;
-	border-bottom: 3px solid #007882;
- 	border-left: 4.5px solid #007882;
+	border-bottom: 3px solid #606589;
+ 	border-left: 4.5px solid #606589;
 }
 
 .layer_event_click{
