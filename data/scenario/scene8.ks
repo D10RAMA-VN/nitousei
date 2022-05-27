@@ -301,6 +301,7 @@
 #高村
 「ああ。」[p][stopse buf=3]
 
+[playse  storage="se/doorslide.ogg"]
 [mask time=500]
 [hide time=0][hokuto_s_naki2 time=0]
 [bg2 storage=byouin.jpg time=500]
@@ -308,8 +309,8 @@
 #北斗
 「爺さん…嘘が下手だって自分で言ってるのに、そういう言い方すんなよ…[r]　ばれるような嘘、つかないでくれよ…」[p][stopse buf=1]
 
-[mask time=500]
-[hide time=0][bg2 storage=black.png time=500]
+[mask graphic="cut/cutin_hokuto.png" time=500]
+[wait time=500][hide time=0][bg2 storage=black.png time=4000]
 [mask_off time=500]
 
 @jump storage="scene9.ks" target=*chapter9

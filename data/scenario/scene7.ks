@@ -774,9 +774,10 @@
 [hs/magao]
 「はい。ありがとうございます。」[p][stopse buf=1]
 
-[mask time=500]
+[mask graphic="cut/cutin_hokuto.png" time=500]
+[wait time=500]
 [hide time=0]
-[bg2 storage=black.png time=500]
+[bg2 storage=black.png time=4000]
 [mask_off time=500]
 
 @jump storage="scene8.ks" target=*chapter8

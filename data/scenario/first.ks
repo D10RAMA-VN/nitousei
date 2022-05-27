@@ -3,6 +3,7 @@
 [stop_keyconfig]
 [hidemenubutton]
 [call storage="novecole.ks"]
+[plugin name=bg_rule]
 [plugin name="backlog"]	
 @call storage="backlog.ks"
 

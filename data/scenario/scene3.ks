@@ -433,6 +433,7 @@
 [ms/ikarinaki]
 「……」[p][stopse buf=2]
 #
+[playse  storage="se/step.ogg"]
 [hide]
 オレがそういうと、美波は飛び出すように保健室を出ていった。[p]
 #養護
@@ -447,9 +448,10 @@
 泣かせていいわけじゃないってことは、だるい頭でもわかっているのに。[p]
 こんなどうでもいい言葉と布団の中に逃げてしまう自分が、情けなくて仕方ない。[p]
 
-[mask time=0]
+[mask graphic="cut/cutin_hokuto.png" time=500]
+[wait time=500]
 [hide time=0]
-[bg2 storage=heya.jpg time=500]
+[bg2 storage=heya.jpg time=4000]
 [mask_off time=0]
 
 @jump storage="scene4.ks" target=*chapter4

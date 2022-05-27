@@ -315,9 +315,10 @@ USB充電式の小型アンプとシールド（コードって言いたくな�
 ;[bg2 storage="night.png" time="500"]
 そうして、爺さんはその日の天体観測を始めた。[r]でも自分は、ギターのことと不安で頭がいっぱいだった。[p]
 
-[mask time=500]
+[mask graphic="cut/cutin_hokuto.png" time=500]
+[wait time=500]
 [hide time=0]
-[bg2 storage="class.jpg" time="500"]
+[bg2 storage="class.jpg" time="4000"]
 [mask_off time=500]
 
 @jump storage="scene3.ks" target="*chapter3"

@@ -340,7 +340,7 @@ TYRANO.kag.tmp.backlog.functions.setScrollbar = function () {
     });
     j.css({
       width: d.width + "px",
-      "background-color": "rgba(0,0,0,0)",
+      "background-color": "rgba(0,0,0,1)",
       background: "url('" + TYRANO.kag.tmp.backlog.image_path + d.tab_img + "') no-repeat",
       left: "0px",
       "border-radius": "0px"

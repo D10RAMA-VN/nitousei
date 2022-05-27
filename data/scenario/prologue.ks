@@ -6,7 +6,7 @@
 [fadeoutbgm time=300]
 [wait time=500]
 [voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=1 ]
-[voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=1 ]
+[voconfig sebuf=2 name="minami" vostorage="minami2/minami_{number}.ogg" number=1 ]
 [voconfig sebuf=3 name="rouzin" vostorage="seizi/takamura_{number}.ogg" number=1 ]
 [voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=22 ]
 [voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=2 ]
@@ -14,17 +14,16 @@
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=1 ]
 [vostart]
 [mask time=500]
-[bg2 storage="seiza/520dipper.png" width=3200 height=2682 time=500 top=-600]
+[bg2 storage="seiza/520dipper.png" width=3500 height=2934 time=500 top=-600]
 [rolebutton]
 [M0]
 @layopt layer=message0 visible=true
 [ptext name="chara_name_area" layer="message0" color="white" size=44 bold=true x=350 y=755 face="NotoInitial"]
 #
 [wait time=500]
-@camera y=-1600 time=330000 wait=false
+[anim layer=base top="-=1000" time=120000]
 [mask_off time=1000]
 
-*prologue
 *1
 #? ? ?
 [playse storage=seizi/takamura_first.ogg loop=false buf=3]
@@ -52,7 +51,6 @@
 #
 [mask time=500]
 [bg2 storage="black.png" time=500]
-[reset_camera time=0]
 [mask_off time=500]
 思えば小さいころから色んなことをやってきた。[p]
 野球にサッカー、バスケに柔道剣道。[p]
@@ -65,6 +63,7 @@
 だから、高校に上がっても、ただ勉強がしんどくなると思うだけで、[r]何をやるという気もあまりなかった。[p]
 
 [bg2 storage="rouka_s.jpg" time="1000"]
+[playse  storage="bg/school.ogg" loop=true buf=8]
 [minami_w_magao2]
 #美波
 「あ、北斗。」[p][stopse buf=2]
@@ -78,8 +77,14 @@
 とはいえどこへ行ったものかとぶらついていたところ、[r]氷のように透き通る姿と声をした少女に呼び止められた。[p]
 …春の陽気にでもあてられたか。こんな表現をするのはばからしい。[r]何せ昔から見知った間柄だ。[p]
 [minami_w_magao]
+[backlay layer=base]
+[filter brightness=50 layer=base page=back]
+[trans layer=base time=1000]
+[wt]
 [ruby text="クル"]来[ruby text="セ"]瀬[ruby text="ミ"]美[ruby text="ナミ"]波。[p]
 保育園からずっと一緒で、街一番の大きな病院の院長令嬢（おじいさんが院長先生なので正しくは孫娘だが、お父さんも同じ病院の医師なので自分は茶化し半分にそう呼んでいる）でもある。[p]
+[free_filter layer=base page=back]
+[trans layer=base time=1000]
 #美波
 [mw/tun]
 「北斗はなにするの？今度は。」[p][stopse buf=2]
@@ -149,12 +154,15 @@
 #北斗
 [hw/egao2]
 「オレ、そういえば音楽はやったことないからさ。[r]　興味わいた。ほら行くぞ。」[p][stopse buf=1]
+[anim layer=0 left="-=100" effect=easeInQuad opacity=0 time=500]
 #美波
-[mw/dere2]
 「あ、ちょっと引っ張らないで～！」[p][stopse buf=2]
+[chara_hide_all time=0]
+
 #
-[chara_hide_all time=500]
-[bg2 storage="ongaku.jpg" height=1554 top="-200" time="1000"]
+[stopse buf=8]
+[bg2 storage="black.png" time="1000" method=fadeInLeft]
+[bg2 storage="ongaku.jpg" height=1554 top="-200" time="1000" method=fadeInLeft]
 [nao_niko2][playse storage=nao/nao_1.ogg loop=false buf=4]
 #？？？
 「ようこそ鹿北軽音部へ！[r]　新歓ライブでも言ったかもだけど、改めて自己紹介するね。」[p][stopse buf=4]
@@ -417,6 +425,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 「その辺に関しては令人君と一緒に部を存続させてって欲しいっていう[r]　老婆心が混じってるけど、なによりみんな楽しまないと。[r]　そこは保証するよ。」[p][stopse buf=4]
 #
 [hide]
+[vostop]
 [reito_kanasimi wait=false]
 [backlay layer=base]
 [bg2 storage="ongaku.jpg" height=1554 top="-200" time=0]
@@ -429,6 +438,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [bg2 storage="ongaku.jpg" height=1554 top="-200" time=0]
 [free_filter layer=base page=back]
 [trans layer=base time=1000]
+[voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=8 ][vostart]
 [nao_niko2 wait=false left=730][kaname_kanasimi left=140]
 #奏女
 「というところで、説明は多分以上なんだけど…」[p][stopse buf=6]
@@ -444,9 +454,17 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #北斗
 [hw/bishou]
 「大丈夫。ここやっぱり面白そうだし。」[p][stopse buf=1]
+#
+先輩たちは良い人たちみたいで安心だし。[p]
+なにより、こういうおもしろそうなものを見つけた時は、[r]迷わず飛び込むことにしている。[p]
 #美波
 [mw/akire]
-「そう…よし、すいません、私も入れてください。」[p][stopse buf=2]
+「そう…」[p]
+#
+そういって呆れたような目をしたかと思うと、[r]次の瞬間には美波も覚悟を決めたようだった。
+#美波
+「よし、すいません、私も入れてください。」[p][stopse buf=2]
+[voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=30 ]
 [hide]
 #七音
 [nao_niko]
@@ -469,6 +487,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #七音
 [n/bishou]
 「そしたら、今日はとりあえず楽器触ってみようか。」[p][stopse buf=4]
+#
 [hide]
 [hokuto_w_egao2 left=640 wait=false][minami_w_egao2 left=40]
 #二人
@@ -625,7 +644,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #
 [hide]
 [bg2 storage="still.png" time="1000"]
-
+[playse  storage="se/step_grass.ogg" ]
 その時、なぜ自分がそうしたのかはわからないけど、[r]気づけば河川敷を駆け下りて爺さんに近づいていた。[p]
 #美波
 「ちょっと！？」[p][stopse buf=2]
@@ -866,7 +885,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 「そうさ。あのアルファベットのWに似た5つの星があるだろう。[r]　Wに見立てた上側に、やはり5文字分伸ばしていくと…」[p][stopse buf=3]
 #
 [mshide]
-[bg2 storage="seiza/419dipperK.png" width=2279 height=1909 time=500 left=0 top=-800]
+[bg2 storage="seiza/419dipperK.png" width=2800 height=2346 time=500 left=0 top=-1250]
 #北斗
 [hw_kanasimi]
 「…北斗七星側からやってみても同じだし。[r]　やっぱりあれ北極星だ…なんか代わりがあるっていうと、[r]　なんでか知らないけどショックだな…」[p][stopse buf=1]
@@ -1101,9 +1120,11 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 美波の両親を説得するのは流石に骨が折れたけど、[r]成績を絶対に落とさないことを条件に許してもらった。[p]
 こうして毎週毎週、[r]週末の夜になると河川敷に集まって望遠鏡を眺めることになったんだ。[p]
 
-[mask time=500]
+[mask graphic="cut/cutin_hokuto.png" time=500]
+[wait time=500]
+[playse storage=eyecatch.ogg buf=0]
 [hide time=0][kaname_bishou2 time=0]
-[bg2 storage="ongaku.jpg" height=1554 top="-200" time="500"]
+[bg2 storage="ongaku.jpg" height=1554 top="-200" time="4000"]
 [mask_off time=500]
 
 @jump storage="scene1.ks" target=*chapter1
