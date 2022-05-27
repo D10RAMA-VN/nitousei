@@ -27,7 +27,7 @@ caption,th{
 }
 h1,h2,h3,h4,h5,h6{
     font-weight:normal;
-    font-size:100%;
+    font-size:19px;
 }
 q:before,q:after{
     content:'';
@@ -665,14 +665,16 @@ body{
             2px 2px 3px #1B1464, -2px -2px 3px #1B1464, -2px 2px 3px #1B1464, 2px -2px 3px #1B1464;
 }
 
-.chara_name_area text:before{
-  background-image: url("../data/image/name_bar.png");
+.chara_name_area::before{
   content: '';
- 	position: absolute;
- 	top: 60px;
- 	left: -30px;
-	width:152px;
-	height:9px;
+  position: absolute;
+  left: -15%;
+  bottom: 3px;
+  width: 120%;
+  height: 10px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #0C008A, #007882);
+  z-index: -1;
 }
 
 .tyrano_base{

@@ -59,7 +59,7 @@
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   
-  font-family: applimincho;
+  font-family: Noto;
   color: #fff;
   background: #1A1A24;
   border-radius:100vh;
@@ -92,6 +92,18 @@
 .remodal,
 .remodal-wrapper:after {
   vertical-align: middle;
+}
+
+.remodal:before{
+  content: "";
+  position: absolute;
+  height: 600%;
+  width: 500%;
+  left: -500px;
+  top: -300px;
+  background: #1A1A24;
+  opacity: .8;
+  z-index: -1;
 }
 
 /* Close button */
@@ -153,7 +165,7 @@
 
   min-width: 60px;
   margin: 0;
-  padding: 6px 0;
+  padding: 0;
 
   cursor: pointer;
   -webkit-transition: background 0.2s;
@@ -168,9 +180,9 @@
 
 .remodal-confirm {
   color: #fff;
-  font-size: 16px;
+  font-size: 18px;
   font-weight:500;
-  font-family:Yu Gothic;
+  font-family:Noto;
   background: #1A1A24;
   position: relative;
   margin-right: 10px;
@@ -211,9 +223,9 @@
 
 .remodal-cancel {
   color: #fff;
-  font-size: 16px;
+  font-size: 18px;
   font-weight:500;
-  font-family:Yu Gothic;
+  font-family:Noto;
   background: #1A1A24;
   position: relative;
   margin-left: 10px;
@@ -350,8 +362,8 @@
 
 @media only screen and (min-width: 641px) {
   .remodal {
-    max-width: 330px;
-    max-height: 130px;
+    max-width: 380px;
+    max-height: 180px;
   }
 }
 
