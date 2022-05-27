@@ -543,7 +543,7 @@ PM20：00。明日は主要3教科がそろっているので相当予習がき�
 [mask time=500]
 [bg2 storage="heya.jpg" time="500"]
 [mask_off time=500]
-[playse  storage="alarm.ogg"]
+[playse  storage="se/alarm.ogg"]
 #北斗
 「……」[p][stopse buf=1]
 ;ここまで背景黒、目を開ける感じで背景部屋に
