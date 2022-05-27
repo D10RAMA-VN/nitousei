@@ -445,7 +445,7 @@
 
 #
 ようやくセットリストを決め、部活が終わってすぐに家路についた。[p]
-[playse  storage="door.ogg"]
+[playse  storage="se/door.ogg"]
 玄関のドアを開け、一言。[p]
 #北斗
 「ただいま」[p][stopse buf=1]

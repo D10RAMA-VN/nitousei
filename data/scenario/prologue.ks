@@ -163,9 +163,10 @@
 [anim layer=0 left="-=100" effect=easeInQuad opacity=0 time=500]
 #美波
 「あ、ちょっと引っ張らないで～！」[p][stopse buf=2]
+#
 [chara_hide_all time=0]
 [fadeoutse time=1000 buf=8]
-[wait time=1000]
+[wait time=500]
 #
 [bg2 storage="ongaku.jpg" height=1554 top="-200" time="1500" method=fadeInLeft]
 [nao_niko2][playse storage=nao/nao_1.ogg loop=false buf=4]
@@ -466,7 +467,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [mw/akire]
 「そう…」[p]
 #
-そういって呆れたような目をしたかと思うと、[r]次の瞬間には美波も覚悟を決めたようだった。
+そういって呆れたような目をしたかと思うと、[r]次の瞬間には美波も覚悟を決めたようだった。[p]
 #美波
 「よし、すいません、私も入れてください。」[p][stopse buf=2]
 [voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=30 ]
