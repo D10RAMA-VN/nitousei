@@ -15,6 +15,9 @@
 [chara_new  name="reito" storage="reito/magao.png" width=900 jname="令人" color=#0ACC62]
 [chara_new  name="yuko" storage="yuko/hohoemi.png" width=900 jname="優子" color=#0ACC62]
 [chara_new  name="rouzin" storage="seizi/mu.png" width=900 jname="老人" color=#E11D48]
+[chara_new  name="hutari" storage="hokuto_win/mu.png" width=900 jname="二人" color=#EA580C]
+[chara_new  name="itidou" storage="hokuto_win/mu.png" width=900 jname="一同" color=#EA580C]
+[chara_new  name="sannin" storage="hokuto_win/mu.png" width=900 jname="三人" color=#EA580C]
 
 [glyph fix=true left=1750 top=880]
 

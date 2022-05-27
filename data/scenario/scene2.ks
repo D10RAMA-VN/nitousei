@@ -5,37 +5,24 @@
 [hide time=0]
 [fadeoutbgm time=300]
 [wait time=500]
-[voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=136 ]
-[voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=99 ]
-[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=63 ]
+[voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=137 ]
+[voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=100 ]
+[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=64 ]
 [voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=58 ]
 [voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=26 ]
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=35 ]
 [vostart]
 [mask time=500]
-[bg2 storage="kawa_n.jpg" time="500"]
 [rolebutton]
 [M0]
 @layopt layer=message0 visible=true
 [ptext name="chara_name_area" layer="message0" color="white" size=44 bold=true x=350 y=755 face="NotoInitial"]
-[seizi_mu left=-145 time=0][hokuto_w_kanasimi left=360 time=0][minami_w_kanasimi left=840 time=0]
+[kaname_kanasimi left=-80 time=0][nao_kanasimi left=460 time=0][reito_magao left=850 time=0][hw_hutyou time=0]
+[bg2 storage="ongaku.jpg" height=1554 top="-200" time="500"]
 #
-[wait time=500]
 [mask_off time=1000]
 
 *chapter2
-#高村
-「そうか、君たちは軽音部をやっているのか。」[p][stopse buf=3]
-#北斗
-「ええ、まあ、はじめたばっかで全然ダメなんですけど…」[p][stopse buf=1]
-#美波
-「…」[p][stopse buf=2]
-#
-[mask time=500]
-[hide time=0]
-[kaname_kanasimi left=-80 time=0][nao_kanasimi left=460 time=0][reito_magao left=850 time=0][hw_hutyou time=0]
-[bg2 storage="ongaku.jpg" height=1554 top="-200" time="500"]
-[mask_off time=500]
 ;（ギター音）
 #北斗
 「……」[p][stopse buf=1]
@@ -110,7 +97,10 @@
 #北斗
 「ええ、結局望遠鏡は爺さんの一つしかないから、[r]　美波や爺さんが星見てる間に練習しようかなと思って」[p][stopse buf=1]
 #
-部にも備品のアコースティックギターが１台あるのだが、[r]部長のギターは私物だと言うし、今後のことも考えて、[r]ケースやら諸々込みで２万弱ほど小遣いはたいてエレキギターを買った。[p]
+恒例になってきた爺さんとの天体観測に、[r]オレは私物のギターを持ち込んだ。[p]
+高校で軽音部をやっていること、[r]最近ギターを始めたことなどは前々から爺さんに言っていたのだが、[r]今日はあまりに切羽詰まった気がして持ってきてしまった。[p]
+ちなみに、持ってきたギターはケースやら諸々込みで[r]２万弱ほど小遣いはたいて買ったエレキギターだ。[p]
+部にも備品のアコースティックギターが１台あるのだが、[r]部長のギターは私物だと言うし、今後のことも考えて用意した。[p]
 おかげで懐が中々ピンチである。まだへそくりはあるけれども。[p]
 #美波
 [mw/magao2]

@@ -11,6 +11,9 @@
 [voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=22 ]
 [voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=9 ]
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=18 ]
+[voconfig sebuf=1 name="hutari" vostorage="mix/hai{number}.ogg" number=2 ]
+[voconfig sebuf=1 name="itidou" vostorage="mix/oh{number}.ogg" number=1 ]
+[voconfig sebuf=4 name="sannin" vostorage="mix/omo{number}.ogg" number=1 ]
 [vostart]
 [mask time=500]
 [bg2 storage="ongaku.jpg" height=1554 top="-200" time="500"]
@@ -64,8 +67,8 @@
 [n/niko]
 「さて、今年度のメンバーも決まったところで、[r]　今年度初の部会を開催したいと思います！」[p][stopse buf=4]
 #一同
-[hw_egao2][playse storage=hokuto/hokuto_oh2.ogg loop=false buf=1][playse storage=minami/minami_oh.ogg loop=false buf=2]
-「おー（パチパチ）」[p][stopse buf=1][stopse buf=2]
+[hw_egao2]
+「おー（パチパチ）」[p][stopse buf=1]
 #
 [mhhide]
 #七音
@@ -109,13 +112,11 @@
 #
 [k/magao wait=false][n/magao wait=false][r/magao]
 #三人
-[playse storage=nao/nao_omo.ogg loop=false buf=4][playse storage=reito/reito_omo.ogg loop=false buf=5][playse storage=kaname/kaname_omo.ogg loop=false buf=6]
-「「「おもしろくあれ」」」[p][stopse buf=4][stopse buf=5][stopse buf=6]
+「「「おもしろくあれ」」」[p][stopse buf=4]
 #
 [hide][minami_w_tun left=40 wait=false][hokuto_w_aseri left=640]
 #二人
-[playse storage=hokuto/hokuto_hai.ogg loop=false buf=1][playse storage=minami/minami_hai.ogg loop=false buf=2]
-「「…はい？」」[p][stopse buf=1][stopse buf=2]
+「「…はい？」」[p][stopse buf=1]
 #
 [hide]
 [kaname_kanasimi left=-80 wait=false][nao_kanasimi left=460 wait=false][reito_kanasimi left=850]
@@ -398,7 +399,7 @@
 動画の概要欄に書いてある「北野夕子」という歌手の名前も、[r]確かにどっかで見たような気はするが、それでもない。[p]
 [bg2 storage=byousitu.jpg time=500]
 何か、脳裏に浮かび上がってくるようなものがある。[p]
-白い壁と、広い場所。そんな曖昧なイメージ。[p]
+白い壁と、狭い場所。そんな曖昧なイメージ。[p]
 …だめだ、これ以上は思い出せない。[p]
 でも、この曲がいい曲であることはよくわかる。[p]
 切ない別れの曲だ。[p]
@@ -406,6 +407,7 @@
 [kaname_magao left=-80 wait=false][nao_bishou left=460 wait=false][reito_magao left=850]
 #七音
 「なんか、ちょっと恥ずかしいけどね。」[p]
+#七音
 「でも、私にとって、私と奏女にとっては最後のライブだから、[r]　ちゃんとお別れをするって曲も入れたくて。」[p][stopse buf=4]
 #令人
 [r/komari]
@@ -554,10 +556,15 @@ PM20：00。明日は主要3教科がそろっているので相当予習がき�
 #
 この日常世界では、過去を思い出して泣くような時間は与えられない。[p]
 
-[mask graphic="cut/cutin_hokuto.png" time=500]
+[mask graphic="cut/cutin_takamura.png" time=500]
+[vostop]
 [wait time=500]
-[seizi_mu left=-145 time=0][hokuto_w_kanasimi left=360 time=0][minami_w_kanasimi left=840 time=0]
-[bg2 storage="kawa_n.jpg" time="4000"]
+[voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=137 ]
+[voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=100 ]
+[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=64 ]
+[vostart]
+[kaname_kanasimi left=-80 time=0][nao_kanasimi left=460 time=0][reito_magao left=850 time=0][hw_hutyou time=0]
+[bg2 storage="ongaku.jpg" height=1554 top="-200" time="4000"]
 [mask_off time=500]
 
 @jump storage="scene2.ks" target=*chapter2

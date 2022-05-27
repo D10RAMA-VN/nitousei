@@ -12,6 +12,9 @@
 [voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=2 ]
 [voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=1 ]
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=1 ]
+[voconfig sebuf=1 name="hutari" vostorage="mix/hai{number}.ogg" number=1 ]
+[voconfig sebuf=1 name="itidou" vostorage="mix/oh{number}.ogg" number=1 ]
+[voconfig sebuf=4 name="sannin" vostorage="mix/omo{number}.ogg" number=1 ]
 [vostart]
 [mask time=500]
 [bg2 storage="seiza/520dipper.png" width=3500 height=2934 time=500 top=-600]
@@ -63,7 +66,7 @@
 だから、高校に上がっても、ただ勉強がしんどくなると思うだけで、[r]何をやるという気もあまりなかった。[p]
 
 [bg2 storage="rouka_s.jpg" time="1000"]
-[fadeinse  storage="bg/school.ogg" loop=true buf=8 time=1000]
+[fadeinbgm  storage="bg/school.ogg" time=1000]
 [minami_w_magao2]
 #美波
 「あ、北斗。」[p][stopse buf=2]
@@ -120,7 +123,7 @@
 [hw/aseri]
 「軽音部か…」[p][stopse buf=1]
 #
-[fadeoutse time=1000 buf=8]
+[fadeoutbgm time=1000]
 [chara_hide_all time=500]
 [bg2 storage="stage.jpg" time="1000"]
 先ほどの説明会を思い出す。
@@ -132,7 +135,7 @@
 …正直、圧倒されたといっていい。[r]それぐらい、たしかにすごい演奏だった。[p]
 でも何より、ボーカルとベースの女性の表情が[r]とても生き生きとしていたのが印象的だった。[p]
 楽しくて、仕方がないという顔だった。[p]
-[fadeinse  storage="bg/school.ogg" loop=true buf=8 time=1000]
+[fadeinbgm  storage="bg/school.ogg" time=1000]
 [bg2 storage="rouka_s.jpg" time="1000"]
 [hokuto_w_magao left="40" wait=false][minami_w_magao left="640"]
 #北斗
@@ -165,7 +168,7 @@
 「あ、ちょっと引っ張らないで～！」[p][stopse buf=2]
 #
 [chara_hide_all time=0]
-[fadeoutse time=1000 buf=8]
+[fadeoutbgm time=1000]
 [wait time=500]
 #
 [bg2 storage="ongaku.jpg" height=1554 top="-200" time="1500" method=fadeInLeft]
@@ -432,18 +435,10 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #
 [hide]
 [vostop]
-[reito_kanasimi wait=false]
-[backlay layer=base]
-[bg2 storage="ongaku.jpg" height=1554 top="-200" time=0]
-[filter brightness=50 layer=base page=back]
-[trans layer=base time=1000]
+[reito_kanasimi]
 #令人
 「……」[p][stopse buf=5]
-[rhide wait=false]
-[backlay layer=base]
-[bg2 storage="ongaku.jpg" height=1554 top="-200" time=0]
-[free_filter layer=base page=back]
-[trans layer=base time=1000]
+[rhide]
 [voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=8 ][vostart]
 [nao_niko2 wait=false left=730][kaname_kanasimi left=140]
 #奏女
@@ -455,8 +450,9 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [hokuto_w_egao2]
 「入部します！」[p][stopse buf=1]
 #美波
-[minami_w_odoroki]
+[font size=30][minami_w_odoroki]
 「即答！？もうちょっと考えない？」[p][stopse buf=2]
+[resetfont]
 #北斗
 [hw/bishou]
 「大丈夫。ここやっぱり面白そうだし。」[p][stopse buf=1]
@@ -497,7 +493,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [hide]
 [hokuto_w_egao2 left=640 wait=false][minami_w_egao2 left=40]
 #二人
-「はい！」[p]
+「はい！」[p][stopse buf=1]
 
 #
 こうして、俺たちの軽音部生活が始まった。[p]
@@ -505,6 +501,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [mask time=500]
 [hide time=0]
 [bg2 storage="michi_n.jpg" time="500"]
+[fadeinbgm  storage="bg/river.ogg" time=1000]
 [mask_off time=500]
 
 #北斗
@@ -547,19 +544,20 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [hw/iradati]
 「なんだよオレのせいかよ。[r]　美波だって別の部に行きたいなんて言わなかったじゃないか。」[p][stopse buf=1]
 #美波
-[mw/uwame]
+[mw/uwame][font size=30]
 「…まあ、北斗が誘ってきたから。」[p][stopse buf=2]
+[resetfont]
 #北斗
 [hw/magao]
 「ん、なんだって？」[p][stopse buf=1]
 #美波
-[mw/tere]
+[mw/tun]
 「な、なんでもない！」[p][stopse buf=2]
 #北斗
 [hw/aozame]
 「まあでも、まさかギターの弾き方覚えるのがここまでむずいとは…」[p][stopse buf=1]
 #美波
-[mw/tun]
+[mw/magao]
 「…ふん、ホントあんたって無計画よね。[r]　早くきらきら星から卒業したら？」[p][stopse buf=2]
 #北斗
 [hw/iradati2]
@@ -725,6 +723,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [hide]
 そうして、その晩は9時過ぎまで星を3人で眺めることになった。[p]
 美波は終始ひやひやしていたが、[r]美波のご両親が夜勤で夜遊びがばれる心配もないのは把握していたので、[r]俺は気にせずひたすら爺さんに教えてもらいながら星をみた。[p]
+[fadeoutbgm time=1000]
 [bg2 storage="still_kansoku.png" time=1000]
 #老人
 「さて、いきなりどこにあるのかもわからない星を見るよりは、[r]　有名な星を見るところから始めた方がよかろう。」[p][stopse buf=3]
@@ -949,7 +948,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 …まさかこの爺さん、星占いの誕生日全部暗記してるんじゃ…[p]
 #美波
 [mw_odoroki]
-「はい。…でも、まだ4月おとめ座が見えるって…？」[p][stopse buf=2]
+「はい。でも、まだ4月…おとめ座が見えるって…」[p][stopse buf=2]
 [mmhide]
 #高村
 [s_magao]
@@ -1059,6 +1058,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [mask time=500]
 [bg2 storage="kawa_n.jpg" time="500"]
 [s/mu time=0][hw/metozi time=0]
+[fadeinbgm  storage="bg/river.ogg" time=1000]
 [mask_off time=500]
 
 #美波
@@ -1125,6 +1125,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 それから、俺たちと爺さんのお星さまを探す日々が始まった。[p]
 美波の両親を説得するのは流石に骨が折れたけど、[r]成績を絶対に落とさないことを条件に許してもらった。[p]
 こうして毎週毎週、[r]週末の夜になると河川敷に集まって望遠鏡を眺めることになったんだ。[p]
+[fadeoutbgm time=500]
 
 [mask graphic="cut/cutin_hokuto.png" time=500]
 [wait time=500]
