@@ -50,7 +50,7 @@
 
 #
 [mask time=500]
-[bg2 storage="black.png" time=500]
+[bg2 storage="black.jpg" time=500]
 [mask_off time=500]
 思えば小さいころから色んなことをやってきた。[p]
 野球にサッカー、バスケに柔道剣道。[p]
@@ -63,7 +63,7 @@
 だから、高校に上がっても、ただ勉強がしんどくなると思うだけで、[r]何をやるという気もあまりなかった。[p]
 
 [bg2 storage="rouka_s.jpg" time="1000"]
-[playse  storage="bg/school.ogg" loop=true buf=8]
+[fadeinse  storage="bg/school.ogg" loop=true buf=8 time=1000]
 [minami_w_magao2]
 #美波
 「あ、北斗。」[p][stopse buf=2]
@@ -120,13 +120,19 @@
 [hw/aseri]
 「軽音部か…」[p][stopse buf=1]
 #
+[fadeoutse time=1000 buf=8]
 [chara_hide_all time=500]
 [bg2 storage="stage.jpg" time="1000"]
-先ほどの説明会を思い出す。[p]
+先ほどの説明会を思い出す。
 広い講堂のステージ上にいたのは、たった３人。[p]
 ギターボーカルと、ベースと、ドラムだけのバンドだった。[p]
 音楽には明るくないが、ああいうのはスリーピースというんだったか。[p]
 ただ、圧倒的にボーカルの女性が上手くて、高校生とは思えないほどだった。[p]
+それに、脇を固める二人もとてもかっこよかった。[p]
+…正直、圧倒されたといっていい。[r]それぐらい、たしかにすごい演奏だった。[p]
+でも何より、ボーカルとベースの女性の表情が[r]とても生き生きとしていたのが印象的だった。[p]
+楽しくて、仕方がないという顔だった。[p]
+[fadeinse  storage="bg/school.ogg" loop=true buf=8 time=1000]
 [bg2 storage="rouka_s.jpg" time="1000"]
 [hokuto_w_magao left="40" wait=false][minami_w_magao left="640"]
 #北斗
@@ -158,11 +164,10 @@
 #美波
 「あ、ちょっと引っ張らないで～！」[p][stopse buf=2]
 [chara_hide_all time=0]
-
+[fadeoutse time=1000 buf=8]
+[wait time=1000]
 #
-[stopse buf=8]
-[bg2 storage="black.png" time="1000" method=fadeInLeft]
-[bg2 storage="ongaku.jpg" height=1554 top="-200" time="1000" method=fadeInLeft]
+[bg2 storage="ongaku.jpg" height=1554 top="-200" time="1500" method=fadeInLeft]
 [nao_niko2][playse storage=nao/nao_1.ogg loop=false buf=4]
 #？？？
 「ようこそ鹿北軽音部へ！[r]　新歓ライブでも言ったかもだけど、改めて自己紹介するね。」[p][stopse buf=4]
