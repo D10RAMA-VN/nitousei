@@ -22,7 +22,8 @@
 [mask_off time=1000]
 
 *chapter4
-
+[fadeinbgm storage=bg/room.ogg time=1000]
+[fadeinse storage="bg/clock.ogg" loop=true buf=9 time=1000]
 #
 翌日。[p]
 流石に一日学校は休みにした。[p]
@@ -40,9 +41,11 @@
 #北斗
 「…行こう。」[p][stopse buf=1]
 
+[fadeoutbgm time=500][fadeoutse buf=9 time=500]
 [mask time=500]
-[bg2 storage="kawa_n.jpg" time="500"]
+[bg2 storage="kawa_n.jpg" time="1000"]
 [seizi_hohoemi time=0]
+[fadeinbgm  storage="bg/river.ogg" time=1000]
 [mask_off time=500]
 
 #高村
@@ -220,7 +223,7 @@
 [hs/kanasimi2]
 「……」[p][stopse buf=1]
 #
-[hide]
+[fadeoutbgm time=500][hide]
 美波にオレはどうして欲しいのか。[p]
 あまり気を使わないでほしい。構わないでほしい。[p]
 …本当にそうなのか？[p]
@@ -404,6 +407,7 @@
 
 [mask graphic="cut/cutin_hokuto.png" time=500]
 [wait time=500]
+[playse storage=eyecatch.ogg buf=8]
 [hide time=0]
 [bg2 storage=michi.jpg time=4000]
 [mask_off time=500]

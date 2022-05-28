@@ -397,14 +397,25 @@
 何か、懐かしさを覚える。[p]
 曲調が懐メロ特有のものだから、というわけではない。[p]
 動画の概要欄に書いてある「北野夕子」という歌手の名前も、[r]確かにどっかで見たような気はするが、それでもない。[p]
-[bg2 storage=byousitu.jpg time=500]
+[mask time=500]
+[bg2 storage=byousitu.jpg time=200]
+[backlay layer=base]
+[filter blur=50 layer=base page=back]
+[trans layer=base time=100]
+[wait time=100]
+[mask_off time=500]
 何か、脳裏に浮かび上がってくるようなものがある。[p]
 白い壁と、狭い場所。そんな曖昧なイメージ。[p]
 …だめだ、これ以上は思い出せない。[p]
 でも、この曲がいい曲であることはよくわかる。[p]
 切ない別れの曲だ。[p]
-[bg2 storage=ongaku.jpg height=1554 top="-200" time=500]
-[kaname_magao left=-80 wait=false][nao_bishou left=460 wait=false][reito_magao left=850]
+[mask time=500]
+[free_filter layer=base page=back]
+[trans layer=base time=0]
+[kaname_magao left=-80 time=0][nao_bishou left=460 time=0][reito_magao left=850 time=0]
+[wait time=100]
+[bg2 storage=ongaku.jpg height=1554 top="-200" time=200]
+[mask_off time=500]
 #七音
 「なんか、ちょっと恥ずかしいけどね。」[p]
 #七音
@@ -443,21 +454,19 @@
 [mask time=500]
 [hide]
 [bg2 storage="genkan.jpg" time="500"]
+[fadeinbgm storage=bg/room.ogg time=1000]
 [mask_off time=500]
-
-#
-ようやくセットリストを決め、部活が終わってすぐに家路についた。[p]
-[playse  storage="se/door.ogg"]
-玄関のドアを開け、一言。[p]
+[playse  storage="se/door.ogg" buf=8]
 #北斗
 「ただいま」[p][stopse buf=1]
 #
 ……当然、返事はない。[p]
+[fadeinse storage="bg/clock.ogg" loop=true buf=9 time=1000]
 [bg2 storage="ima.jpg" time="500"]
 #北斗
 「…さてと。」[p][stopse buf=1]
 #
-[playse  storage="se/fridge.ogg"]
+[playse  storage="se/fridge.ogg" buf=8]
 冷蔵庫から母の作り置きを取り出す。今日はチャーハンらしい。[p]
 #北斗
 「ちょっと今日手抜きだろ…母さん」[p][stopse buf=1]
@@ -516,9 +525,10 @@ PM20：00。明日は主要3教科がそろっているので相当予習がき�
 「…やべ、とっとと寝よ。」[p][stopse buf=1]
 #
 こうして、今日も一人、静かな夜が過ぎていく。[p]
+[fadeoutbgm time=500][fadeoutse buf=9 time=500]
 
 [mask time=500]
-[bg2 storage="byousitu.jpg" time="500"]
+[bg2 storage="byousitu.jpg" time="1000"]
 [mask_off time=500]
 
 #？？
@@ -545,7 +555,7 @@ PM20：00。明日は主要3教科がそろっているので相当予習がき�
 [mask time=500]
 [bg2 storage="heya.jpg" time="500"]
 [mask_off time=500]
-[playse  storage="se/alarm.ogg"]
+[playse storage="se/alarm.ogg" buf=8][playse  storage="se/futon.ogg" buf=9]
 #北斗
 「……」[p][stopse buf=1]
 ;ここまで背景黒、目を開ける感じで背景部屋に
@@ -559,6 +569,7 @@ PM20：00。明日は主要3教科がそろっているので相当予習がき�
 [mask graphic="cut/cutin_takamura.png" time=500]
 [vostop]
 [wait time=500]
+[playse storage=eyecatch.ogg buf=8]
 [voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=137 ]
 [voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=100 ]
 [voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=64 ]

@@ -91,10 +91,10 @@
 [hide]
 クラスメイトに肩を貸されて席を立ったあたりから、[r]自分の意識がどんどん薄れていった。[p]
 
-;（保健室）目を開ける,ベッドアップ、北斗はテキスト横
-;（チャイムの音）[p]
 [mask time=500]
-[bg2 storage="hoken.jpg" time="500"]
+[bg2 storage="hoken.jpg" time="1000"]
+[playse storage=se/chime.ogg buf=8]
+[wait time=1000]
 [mask_off time=500]
 #
 チャイムの音で目が覚めた。[r]気が付けば自分は保健室のベッドに寝かされていた。[p]
@@ -103,6 +103,7 @@
 「あれ、今何時限目だろう…？」[p][stopse buf=1]
 #
 だるい身体を起こしてみるが、時計が見当たらない。[p]
+[fadeoutse buf=8 time=1000]
 #北斗
 [hs/mu2]
 「…あ、」[p][stopse buf=1]
@@ -355,7 +356,7 @@
 「……」[p][stopse buf=2]
 #
 [bg2 storage=hoken.jpg time=500]
-ゆっくりと起き上がって、ただ、口にする。
+ゆっくりと起き上がって、ただ、口にする。[p]
 #北斗
 [hokuto_s_kanasimi]
 「……俺さ。」[p][stopse buf=1]
@@ -433,7 +434,7 @@
 [ms/ikarinaki]
 「……」[p][stopse buf=2]
 #
-[playse  storage="se/step.ogg"]
+[playse storage="se/step_fast.ogg" buf=8 sprite_time=0-2000]
 [hide]
 オレがそういうと、美波は飛び出すように保健室を出ていった。[p]
 #養護
@@ -448,8 +449,9 @@
 泣かせていいわけじゃないってことは、だるい頭でもわかっているのに。[p]
 こんなどうでもいい言葉と布団の中に逃げてしまう自分が、情けなくて仕方ない。[p]
 
-[mask graphic="cut/cutin_hokuto.png" time=500]
+[mask graphic="cut/cutin_minami.png" time=500]
 [wait time=500]
+[playse storage=eyecatch.ogg buf=8]
 [hide time=0]
 [bg2 storage=heya.jpg time=4000]
 [mask_off time=0]

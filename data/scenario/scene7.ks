@@ -9,7 +9,7 @@
 [voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=234 ]
 [voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=194 ]
 [voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=66 ]
-[voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=64 ]
+[voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=63 ]
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=38 ]
 [vostart]
 [mask time=500]
@@ -22,6 +22,7 @@
 [mask_off time=1000]
 
 *chapter7
+[fadeinbgm storage=bg/school.ogg time=1000]
 #
 そうして、例年よりも、少し早い梅雨入り。[p]
 ６月の中旬。高校生にとっては苦痛でしかない、[r]中間考査の時期が来てしまった。[p]
@@ -55,10 +56,12 @@
 #
 [hide]
 となんか褒められたのかけなされたのかよくわからん評価をされた。[p]
+[fadeoutbgm time=500]
 そんなこんながあって、ついに3日間のテスト期間に突入。[p]
 やっとの思いで英語、現代社会、生物、数学を乗り切った。[p]
 長雨の合間の少し晴れた日、帰り道で美波と一緒になった。[p]
 
+[fadeinbgm storage=bg/river.ogg time=1000]
 [bg2 storage="michi.jpg" time="500"]
 [hokuto_s_bishou left=640 wait=false][minami_s_bishou left=40]
 
@@ -136,11 +139,14 @@
 [hhide wait=false][move name=minami left=360]
 #美波
 「え、ちょっと待って、どういうこと～！？」[p][stopse buf=2]
+[fadeoutbgm time=500]
 #
 [mask time=500]
 [hide time=0][hokuto_s_bishou time=0 left=640][minami_s_tere left=40 time=0]
 [bg2 storage="cafe.jpg" time="500"]
+[playse storage=se/nyuten.ogg buf=8]
 [mask_off time=500]
+[fadeinbgm storage=bg/cafe.ogg time=1000]
 #店員
 「いらっしゃいませ。…あら北斗君！」[p]
 #北斗
@@ -217,6 +223,7 @@
 #北斗
 [hs/egao2]
 「ああ。昔からずっと。」[p][stopse buf=1]
+[fadeoutbgm time=500]
 #
 [hide]
 [bg2 storage=still.png time=500]
@@ -246,6 +253,7 @@
 「北斗…」[p][stopse buf=2]
 
 #
+[fadeinbgm storage=bg/cafe.ogg time=1000]
 [bg2 storage="cafe.jpg" time="500"]
 [hokuto_s_kanasimi wait=false left=640][minami_s_magao2 left=40]
 
@@ -469,10 +477,11 @@
 #
 小遣いを多めに持ってきてよかったと心から思った。[r]お金は使いどころが大事だ。うん。[p]
 こうして、パフェをシェアして食べるのももはや恥ずかしかったけども、[r]何とか二人でスペシャルパフェを食べきった。[p]
-
+[fadeoutbgm time=500]
 [mask time=500]
 [ms/uwame time=0][hs/metozi time=0]
 [bg2 storage=michi_e.jpg time=500]
+[fadeinbgm storage=bg/river.ogg time=1000]
 [mask_off time=500]
 
 #美波
@@ -522,6 +531,7 @@
 #北斗
 [hs/egao2]
 「あそうだ、今度は先輩たちとか、爺さんとかも誘って行くか。[r]　そういえば爺さんと、梅雨明けに何かしようって約束してるし。」[p][stopse buf=1]
+[fadeoutbgm time=500]
 #美波
 [ms/bishou]
 「……」[p][stopse buf=2]
@@ -736,6 +746,7 @@
 [hs/odoroki]
 「なる、ほど？…ああ、ありがとうございます。」[p][stopse buf=1]
 #
+[playse storage=se/paper.ogg buf=8]
 動機息切れを抑えながら、何の気なく封筒を受け取り、[r]裏の差出人を確認する。[p]
 『高村清二』[p]
 #北斗
@@ -776,6 +787,7 @@
 
 [mask graphic="cut/cutin_hokuto.png" time=500]
 [wait time=500]
+[playse storage=eyecatch.ogg buf=8]
 [hide time=0]
 [bg2 storage=black.png time=4000]
 [mask_off time=500]

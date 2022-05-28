@@ -31,10 +31,11 @@
 [mask time=500]
 [minami_s_magao left=840 time=0][hokuto_s_magao left=360 time=0]
 [bg2 storage=byouin.jpg time=500]
+[playse storage=se/doorslide.ogg buf=8]
 [mask_off time=500]
-
 #北斗
 「…よお、爺さん」[p][stopse buf=1]
+[playse storage=se/doorslide.ogg buf=8]
 #美波
 「こんにちは…」[p][stopse buf=2]
 #高村
@@ -301,7 +302,7 @@
 #高村
 「ああ。」[p][stopse buf=3]
 
-[playse  storage="se/doorslide.ogg"]
+[playse storage="se/doorslide.ogg" buf=8]
 [mask time=500]
 [hide time=0][hokuto_s_naki2 time=0]
 [bg2 storage=byouin.jpg time=500]
@@ -310,7 +311,7 @@
 「爺さん…嘘が下手だって自分で言ってるのに、そういう言い方すんなよ…[r]　ばれるような嘘、つかないでくれよ…」[p][stopse buf=1]
 
 [mask graphic="cut/cutin_hokuto.png" time=500]
-[wait time=500][hide time=0][bg2 storage=black.png time=4000]
+[wait time=500][playse storage=eyecatch.ogg buf=8][hide time=0][bg2 storage=black.png time=4000]
 [mask_off time=500]
 
 @jump storage="scene9.ks" target=*chapter9

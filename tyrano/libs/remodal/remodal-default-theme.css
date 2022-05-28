@@ -46,6 +46,7 @@
 
 .remodal-wrapper {
   padding: 10px 10px 0;
+  overflow: hidden;
 }
 
 /* Default theme styles of the modal dialog */
@@ -97,10 +98,10 @@
 .remodal:before{
   content: "";
   position: absolute;
-  height: 600%;
-  width: 500%;
-  left: -500px;
-  top: -300px;
+  height: 2000px;
+  width: 3000px;
+  left: -2000px;
+  top: -500px;
   background: #1A1A24;
   opacity: .8;
   z-index: -1;

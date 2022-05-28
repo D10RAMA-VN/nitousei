@@ -22,6 +22,7 @@
 [mask_off time=1000]
 
 *chapter6
+[fadeinbgm storage=bg/river.ogg time=1000]
 #
 そして、美波が5日連続で弁当を作ってくれて、[r]美波の本気さにびっくりしながら、あっという間に土曜日の夜。[p]
 いつも通り美波とともに河川敷に向かう。[p]
@@ -98,6 +99,7 @@
 #北斗
 [hs/magao]
 「こういうことですよ。」[p][stopse buf=1]
+[stopbgm]
 ;（bg2M二等星になって　北斗歌入り）[p]
 
 #北斗
@@ -491,6 +493,7 @@
 
 [mask graphic="cut/cutin_hokuto.png" time=500]
 [wait time=500]
+[playse storage=eyecatch.ogg buf=8]
 [hide time=0]
 [bg2 storage=class.jpg time=4000]
 [mask_off time=500]

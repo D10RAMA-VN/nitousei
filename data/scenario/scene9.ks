@@ -29,6 +29,7 @@
 そして、その約束の日。[p]
 美波は爺さんの乗った車いすを押し、[r]オレはギターと爺さんの望遠鏡をしょって、屋上に上がった。[p]
 [bg2 storage=okujou.jpg time=500]
+[fadeinbgm storage=bg/wind.ogg time=1000]
 [minami_s_bishou left=840 wait=false][hokuto_s_bishou left=360 wait=false][seizi_h_magao left=-120]
 #高村
 「…」[p][stopse buf=3]
@@ -172,6 +173,7 @@
 [hide]
 爺さんの前にしゃがみ、ギターを構えて。最初のコードに指を合わせる。[p]
 ひとつ息をすって、ストロークを始める。[p]
+[fadeoutbgm time=500]
 
 ;（エンドロール（二等星になって）[p]
 [bg2 storage=still_kirakirabosi.png time=500]
@@ -193,6 +195,7 @@
 
 [mask graphic="cut/cutin_hokuto.png" time=500]
 [wait time=500]
+[playse storage=eyecatch.ogg buf=8]
 [bg2 storage=ongaku.jpg height=1554 top="-200" time=4000]
 [minami_s_bishou left=40 time=0][hokuto_s_kanasimi left=640 time=0]
 [mask_off time=500]

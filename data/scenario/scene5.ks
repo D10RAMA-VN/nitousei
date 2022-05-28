@@ -22,6 +22,7 @@
 [mask_off time=1000]
 #
 *chapter5
+[fadeinbgm storage="bg/river.ogg" time=1000]
 [hokuto_s_magao]
 #北斗
 「…おはよ」[p][stopse buf=1]
@@ -127,9 +128,11 @@
 「（…そりゃあ、美波もよくわからなくもなるか…）」[p][stopse buf=1]
 #
 結局答えが出ないまま、すぐに学校についてしまった。[p]
+[fadeoutbgm time=500]
 [mask time=500]
 [hide time=0]
-[bg2 storage="class.jpg" time="500"]
+[bg2 storage="class.jpg" time="1000"]
+[fadeinbgm storage="bg/school.ogg" time=1000]
 [mask_off time=500]
 #
 その日の昼休み。珍しい来客があった。[p]
@@ -144,9 +147,9 @@
 「部室のカギは取ってきたから、さあ」[p][stopse buf=5]
 #
 そんなわけで、今日の昼は令人先輩と一緒に部室で食べることになった。[p]
-
+[fadeoutbgm time=500]
 [mask time=500]
-[bg2 storage="ongaku.jpg" height=1554 top="-200" time="500"]
+[bg2 storage="ongaku.jpg" height=1554 top="-200" time="1000"]
 [hs/metozi time=0][r/magao time=0]
 [mask_off time=500]
 #北斗
@@ -193,6 +196,7 @@
 …今日の弁当は少し粗末な出来だと言っていた。[p]
 しかし料理上手なおばさんのことだ。[r]少々おかずのグレードが低い程度のものだろう。[p]
 そう思いながら弁当箱を開けてみる。[p]
+[playse storage=se/cap.ogg buf=8]
 [hokuto_s_magao]
 #北斗
 「…」[p][stopse buf=1]
@@ -358,11 +362,11 @@
 [hs/bishou]
 「…オレ、最近色々考えてたんですけど、そのことに気づいたんです。」[p][stopse buf=1]
 #北斗
-「自分がむきになったり焦っても仕方ない。[r]　いっそ、誰かに思い切って寄りかかってみることが大事なんじゃないかって。」[p][stopse buf=1]
+「自分がむきになったり焦っても仕方ない。[r]　いっそ、誰かに思い切って寄りかかってみることが[r]大事なんじゃないかって。」[p][stopse buf=1]
 #北斗
 「それを意識して、令人先輩のリズムに思いっきりのっかってみたんです。」[p][stopse buf=1]
 #
-爺さんのアドバイスのおかげで、ピッキングに無理に力を入れないように[r]した分、周りの音に集中力を割くことができるようになっていた。[p]
+爺さんのアドバイスのおかげで、[r]ピッキングに無理に力を入れないようにした分、[r]周りの音に集中力を割くことができるようになっていた。[p]
 もっとも、周りに甘えてみるという発想が出てきたのは、[r]誰かさんのおせっかいのおかげなのだけども。[p]
 #令人
 「それでいいんだ。[r]　いまはドラムだけだったけど、楽器が増えたって同じだ。[r]　…もっとも、七音さんとかアドリブでテンポ急に変えたりするけど。」[p][stopse buf=5]
@@ -383,10 +387,10 @@
 「だてに1年あの人と一緒にやってきたわけじゃない。[r]　それぐらいできないとな。」[p]
 #北斗
 [hs/bishou]
-「先輩…」[p][stopse buf=1]
+「先輩…」[p][stopse buf=1][font size=30]
 #令人
 [r/kanasimi]
-「もっとも、これでも全然追いつかないんだが…」[p][stopse buf=5]
+「もっとも、これでも全然追いつかないんだが…」[p][stopse buf=5][resetfont]
 #北斗
 [hs/odoroki]
 「え？」[p][stopse buf=1]
@@ -405,6 +409,7 @@
 [mask tim=500]
 [hide time=0]
 [bg2 storage=rouka_s.jpg time=500]
+[fadeinbgm storage=bg/school.ogg time=1000]
 [mask_off time=500]
 
 [image storage=minami_view.png layer=1 visible=true width=483 height=211 time=700]
@@ -423,6 +428,7 @@
 そうだ、母からそんなメールが来たとか、適当な嘘をつけばいい。[p]
 そうやって、今日のことなんかなかったことのように、[r]明日からまた今までと変わらないように過ごしていければいいんだ。[p]
 そう意を決して、部室のドアに手をかけた。[p]
+[stopbgm]
 ;（二等星になって　ギターソロ）[p]
 #美波
 「…？！」[p][stopse buf=2]
@@ -597,6 +603,7 @@
 「…その。」[p][stopse buf=2]
 #美波
 「…その、実は…」[p][stopse buf=2]
+#美波
 [ms/magao2]
 「…先週の金曜、ちょっと話したの。…高村さんと。」[p]
 #北斗
@@ -648,6 +655,7 @@
 #北斗
 [hs/odoroki]
 「！」[p][stopse buf=1]
+[voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=378 ]
 #北斗
 [hs/akire]
 「（美波…考えたあげくに出てくるのがそれとか…ホント、[r]　本当にもう…）」[p][stopse buf=1]
@@ -756,7 +764,7 @@
 #奏女
 「…ですって聞きました奥さん？」[p][stopse buf=6]
 #七音
-「やばい。尊すぎて溶けそう。[r]　『洗って返した方が良かったか？』とかいう生活感マジ無理。[r]　夫婦か。教会が来い。というか令人君、今からでも神父になろう。」[p]][stopse buf=4]
+「やばい。尊すぎて溶けそう。[r]　『洗って返した方が良かったか？』とかいう生活感マジ無理。[r]　夫婦か。教会が来い。というか令人君、今からでも神父になろう。」[p][stopse buf=4]
 #令人
 「七音さんが限界オタクみたいな語彙力に…」[p][stopse buf=5]
 #七音
@@ -765,16 +773,16 @@
 #令人
 [r/magao]
 「そりゃ、まあ…」[p][stopse buf=5]
-#令人
 [hide][reito_bishou]
-「（しかし、美波の弁当一つであんなに…北斗…お前、[r]　心から美波のこと…）」[p]][stopse buf=5]
+#令人
+「（しかし、美波の弁当一つであんなに…北斗…お前、[r]　心から美波のこと…）」[p][stopse buf=5]
 #
 [hide][nao_niko]
 #七音
 「奥さん、令人君がなにかかっこいいモノローグ言ってるかのような[r]　ほほえみをたたえてるんですけど。」[p][stopse buf=4]
 #令人
 [reito_komari left=850]
-「ちょ？！」[p]][stopse buf=5]
+「ちょ？！」[p][stopse buf=5]
 #奏女
 [kaname_bishou left=-80]
 「シ～！2人にばれちゃうでしょ？」[p][stopse buf=6]
@@ -817,6 +825,7 @@
 
 [mask graphic="cut/cutin_hokuto.png" time=500]
 [wait time=500]
+[playse storage=eyecatch.ogg buf=8]
 [hide time=0]
 [bg2 storage=michi.jpg time=4000]
 [mask_off time=500]
