@@ -150,46 +150,53 @@
 [fadeoutbgm time=500]
 [mask time=500]
 [bg2 storage="ongaku.jpg" height=1554 top="-200" time="1000"]
-[hs/metozi time=0][r/magao time=0]
+[chara_hide name=hokuto time=0]
+[r/magao time=0][hs_metozi time=0]
 [mask_off time=500]
 #北斗
 「（そういえば、令人先輩と2人で話すのほぼ初だな…）」[p][stopse buf=1]
+[mhhide]
 #
 入部から２か月ちょっと。唯一の同性だというのに、[r]今まであまり話したことがなかった。[p]
 #北斗
-[hs/mu2]
+[hs_mu2]
 「あの、なんで…」[p][stopse buf=1]
+[mhhide]
 #令人
 「…最近、思いつめてるみたいだから。」[p][stopse buf=5]
 #北斗
-[hs/mu]
+[hs_mu]
 「はあ…」[p][stopse buf=1]
+[mhhide]
 #令人
 [r/magao]
 「…俺も、入部してから何回も、…全然思うようにいかなくて、[r]　悩んだことがあったんだ。」[p][stopse buf=5]
 #北斗
-[hs/odoroki]
+[hs_odoroki]
 「そうなんですか？」[p][stopse buf=1]
+[mhhide]
 #令人
 [r/kanasimi]
 「うん。…そういう時、決まって卒業した先輩たちとか、[r]　奏女さんとか、…七音さんが、[r]　こうして一緒にご飯を食べながら話を聞いてくれたんだ。」[p][stopse buf=5]
 #北斗
-[hs/mu2]
+[hs_mu2]
 「…」[p][stopse buf=1]
+[mhhide]
 #令人
 [r/bishou]
 「…だから、[r]　今度は俺が北斗にそうしてあげたいって思ったんだ…迷惑だったか？」[p][stopse buf=5]
 #北斗
-[hs/metozi]
+[hs_metozi]
 「いや、そんな…すいません、心配かけて。」[p][stopse buf=1]
+[mhhide]
 #令人
 [r/bishou]
 「いや、いい。さ、とりあえず、メシにしよう。」[p][stopse buf=5]
 #北斗
-[hs/mu]
+[hs_mu]
 「…はい。」[p][stopse buf=1]
 #
-[hide]
+[hide wait=false][mhhide]
 令人先輩が、気遣ってくれている。この現状が、ありがたくも情けない。[p]
 しかし、とにかく腹を満たすことから始めるしかない。腹の虫は正直だ。[p]
 今朝美波から渡された弁当の包みを開いてみる。[p]
@@ -219,8 +226,9 @@
 #
 卵焼きを一口かじってみる。[p]
 流石にまっ黒焦げというほど焦げてはいないが、固焼き。味もなんだか、[r]塩か醤油が多いのか、火が通り過ぎて甘味が飛んでしまったのか、[r]なんだかしょっぱい感じがする。[p]
+[hide]
 #北斗
-[hs/akire]
+[hokuto_s_akire]
 「…なんだこれ。」[p][stopse buf=1]
 #
 何かの時におばさんに食べさせてもらっただし巻き卵は、[r]もっと砂糖たっぷりでふんわり甘い感じだったような。[p]

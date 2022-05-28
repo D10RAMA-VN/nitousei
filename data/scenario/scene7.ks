@@ -626,7 +626,7 @@
 
 [mask time=500]
 [hs/iradati time=0]
-[bg2 storage=ongaku.jpg height=1554 top="-200" time=500]
+[bg2 storage=class.jpg time=500]
 [mask_off time=500]
 
 #北斗
@@ -641,7 +641,10 @@
 おまけに、美波の弁当がいつもより明らかに手が込んでて、[r]でも動揺があったのかなんかハンバーグの形が歪で。[r]もうなんか、美波の気恥ずかしさが伝わってくるようだった。[p]
 いや、ようだったというか、もう、なんかこっちが照れる。[p]
 しかし、[r]なんとか3日間の長きにわたるテストを乗り超えたと思った放課後。[p]
-[hokuto_s_dere left=640 wait=false][minami_s_dere left=40]
+[mask time=500]
+[bg2 storage=ongaku.jpg height=1554 top="-200" time=500]
+[hokuto_s_dere left=640 time=0][minami_s_dere left=40 time=0]
+[mask_off tim=500]
 #北斗
 「……」[p][stopse buf=1]
 #美波
@@ -788,7 +791,7 @@
 [wait time=500]
 [playse storage=eyecatch.ogg buf=8]
 [hide time=0]
-[bg2 storage=black.png time=4000]
+[bg2 storage="byouin.jpg" time="4000"]
 [mask_off time=500]
 
 @jump storage="scene8.ks" target=*chapter8
