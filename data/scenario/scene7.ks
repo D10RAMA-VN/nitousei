@@ -6,10 +6,10 @@
 [fadeoutbgm time=300]
 [wait time=500]
 [voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=466 ]
-[voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=234 ]
+[voconfig sebuf=2 name="minami" vostorage="minami2/minami_ha{number}.ogg" number=1 ]
 [voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=194 ]
 [voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=66 ]
-[voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=63 ]
+[voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=64 ]
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=38 ]
 [vostart]
 [mask time=500]
@@ -36,9 +36,8 @@
 「このままじゃ美波、いいお嫁さんになるな。」[p][stopse buf=1]
 #
 [minami_s_tere]
-[vostop][playse storage=minami/minami_233.ogg loop=false buf=2]
 #美波
-「は？！」[p][stopse buf=2][vostart]
+「は？！」[p][stopse buf=2][voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=234 ]
 #
 [hide]
 そんなに変なこと言ったか…？[p]

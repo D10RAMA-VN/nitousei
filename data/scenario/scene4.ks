@@ -405,11 +405,11 @@
 #
 そうして、オレは家路についた。[p]
 
-[mask graphic="cut/cutin_hokuto.png" time=500]
+[mask graphic="cut/cutin_reito.png" time=500]
 [wait time=500]
-[playse storage=eyecatch.ogg buf=8]
+[playse storage=eyecatch2.ogg buf=8]
 [hide time=0]
-[bg2 storage=michi.jpg time=4000]
+[bg2 storage=michi.jpg time=6000]
 [mask_off time=500]
 
 @jump storage="scene5.ks" target=*chapter5

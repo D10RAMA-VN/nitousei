@@ -259,13 +259,13 @@
 …いや、思い当たることは、いくつもある。[p]
 それは、あまりにも都合がよすぎて、うぬぼれにも近いこと。[p]
 でも、目の前にある弁当は現実で。そうでなければ説明がつかなかった。[p]
+[hokuto_s_naki2]
 #北斗
-[hs/naki2]
 「…やってくれるなあ、まったく。」[p][stopse buf=1]
 #
 そっちがその気なら。オレも全力でその気持ちに甘えさせてもらおう。[p]
+[reito_tukomi]
 #令人
-[r/tukomi]
 「北斗？箸が止まってるみたいだけど、…まだ具合悪いのか？」[p][stopse buf=5]
 #北斗
 [hs/odoroki]
@@ -279,9 +279,9 @@
 #
 その嘘つきお手製の弁当を、味わいながらもかきこんでいった。[p]
 
-[mask time=0]
+[mask time=500]
 [hide][reito_kanasimi left=40 time=0][hokuto_s_bishou left=680 time=0]
-[mask_off time=0]
+[mask_off time=500]
 
 #令人
 「北斗…？本当に大丈夫か？」[p][stopse buf=5]
@@ -823,11 +823,11 @@
 #
 こうして、季節と一緒に少しずつ何かが変わっていきながら、[r]　５月最後の週が始まっていった。[p]
 
-[mask graphic="cut/cutin_hokuto.png" time=500]
+[mask graphic="cut/cutin_nao.png" time=500]
 [wait time=500]
 [playse storage=eyecatch.ogg buf=8]
 [hide time=0]
-[bg2 storage=michi.jpg time=4000]
+[bg2 storage=michi_n.jpg time=4000]
 [mask_off time=500]
 
 @jump storage="scene6.ks" target=*chapter6

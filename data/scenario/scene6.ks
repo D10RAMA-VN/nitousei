@@ -13,7 +13,7 @@
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=38 ]
 [vostart]
 [mask time=500]
-[bg2 storage="class.jpg" time="500"]
+[bg2 storage="michi_n.jpg" time="500"]
 [rolebutton]
 [M0]
 @layopt layer=message0 visible=true
@@ -491,11 +491,12 @@
 #
 爺さんの態度にどこか違和感を感じたものの、[r]その日はとりあえず一区切りということで、[r]少し星を眺めたあと、解散という流れになった。[p]
 
-[mask graphic="cut/cutin_hokuto.png" time=500]
+[mask graphic="cut/cutin_kaname.png" time=500]
 [wait time=500]
-[playse storage=eyecatch.ogg buf=8]
+[playse storage=eyecatch2.ogg buf=8]
 [hide time=0]
-[bg2 storage=class.jpg time=4000]
+[voconfig sebuf=2 name="minami" vostorage="minami2/minami_ha{number}.ogg" number=1 ]
+[bg2 storage=class.jpg time=6000]
 [mask_off time=500]
 
 @jump storage="scene7.ks" target=*chapter7
