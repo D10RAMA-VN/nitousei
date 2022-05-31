@@ -28,26 +28,26 @@
 [mask_off time=1000]
 
 *1
-#? ? ?
+#？？？
 [playse storage=seizi/takamura_first.ogg loop=false buf=3]
 「星というのは、一つの星、一つの星座が見つかれば、[r]　ほかの星座も続けて見つかることが多い。[r]　特に、北斗七星やおとめ座なんて大物はな。」[p][stopse buf=3]
 *2
-#? ? ?
+#？？？
 [playse storage=hokuto/hokuto_272.ogg loop=false buf=1]
 「…」[p][stopse buf=1]
 *3
-#? ? ?
+#？？？
 [playse storage=seizi/takamura_129.ogg loop=false buf=3]
 「とはいえ、星は一つではただの光る点だ。[r]　どの星かなんて一つだけ見てもわからん。[r]　星座として夜空に映るからわかる。」[p][stopse buf=3]
-#? ? ?
+#？？？
 [playse storage=seizi/takamura_130.ogg loop=false buf=3]
 「北斗七星の先にあるから、ただの2等星が北極星だとわかるし、[r]　明るいだけの星もあの形の中にあるから[r]　しし座やおとめ座だとわかるのさ。」[p][stopse buf=3]
 *4
-#? ? ?
+#？？？
 [playse storage=hokuto/hokuto_273.ogg loop=false buf=1]
 「…人間も同じようなもの、ってことでしょ？」[p][stopse buf=1]
 *5
-#? ? ?
+#？？？
 [playse storage=seizi/takamura_131.ogg loop=false buf=3]
 「ああ。なんでもそうだよ。」[p][stopse buf=3]
 
@@ -612,7 +612,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 「河川敷？…ああ、あの望遠鏡のおじいさん？」[p][stopse buf=2]
 #北斗
 [hw/odoroki]
-「知り合い？」[p][stopse buf=1]
+「知り合いか？」[p][stopse buf=1]
 #美波
 [mw/bishou]
 「ううん。でも近所では有名よ？[r]　いつも河川敷で天体観測してるおじいさん。」[p][stopse buf=2]
@@ -1006,7 +1006,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #高村
 「おとめ座の一番明るいアルファ星、スピカは一等星、[r]　対して北極星は少し暗い二等星だ。」[p][stopse buf=3]
 #高村
-「それでも、肉眼で見える限界は六等星までであり、[r]　街中ではせいぜい三等星くらいまでしか見えないから、[r]　星全体では北極星も明るい方だがね。」[p][stopse buf=3]
+「それでも、肉眼で見える限界は六等星まであり、[r]　街中ではせいぜい三等星くらいまでしか見えないから、[r]　星全体では北極星も明るい方だがね。」[p][stopse buf=3]
 #北斗
 [hw/kanasimi]
 「とはいってもな、ちょっと地味ってのは何か…」[p][stopse buf=1]
