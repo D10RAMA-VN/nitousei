@@ -68,6 +68,7 @@
 #令人
 「七音さん、多分彼は…」[p][stopse buf=5]
 #七音
+[kanim name="nao" keyframe="nod" time="500"]
 「うん、わかってるよ令人君。でも、もうすこし様子をみましょうか。」[p][stopse buf=4]
 
 [mask time=500]
@@ -91,6 +92,7 @@
 [mask time=500]
 [hide time=0][seizi_magao left=-145 time=0][hokuto_w_magao left=360 time=0][minami_w_magao left=840 time=0]
 [bg2 storage="kawa_n.jpg" time="500"]
+[fadeinbgm  storage="bg/river.ogg" time=1000]
 [mask_off time=500]
 #高村
 「それで、わざわざギターまで持ってきたのか。」[p][stopse buf=3]
@@ -124,7 +126,7 @@
 そうして、オレは「二等星になって」を弾きはじめた。[p][vostop]
 #高村
 「……！」[p][vostart]
-
+[fadeoutbgm time=400]
 [mask time=500]
 [s/kanasimi time=0][hw/aozame2 time=0][mw/kanasimi]
 [mask_off time=500]
@@ -205,6 +207,7 @@ USB充電式の小型アンプとシールド（コードって言いたくな�
 ;（BGMOFF）
 [bg2 storage=kawa_n.jpg time=500]
 [seizi_metozi left=-145 time=0][hokuto_w_odoroki left=360 time=0][minami_w_odoroki left=840 time=0]
+[fadeinbgm storage=bg/river.ogg time=1000]
 #高村
 「…ふう。昔取った杵柄というが、中々、気恥ずかしいものだな…[r]　それに、昔もエレキはほとんど触っていなかった。」[p][stopse buf=3]
 #北斗
@@ -306,7 +309,7 @@ USB充電式の小型アンプとシールド（コードって言いたくな�
 「まあ、気分転換も必要だろうし、[r]　今度は星空でも眺めてみようじゃないか。」[p][stopse buf=3]
 #
 そうして、爺さんはその日の天体観測を始めた。[r]でも自分は、ギターのことと不安で頭がいっぱいだった。[p]
-
+[fadeoutbgm time=500]
 [mask graphic="cut/cutin_hokuto2.png" time=500]
 [wait time=500]
 [playse storage=eyecatch.ogg buf=8]

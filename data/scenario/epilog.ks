@@ -29,6 +29,14 @@
 #北斗
 「…ああ。」[p][stopse buf=1]
 #
+[mask time=500]
+[hide time=0]
+[kaisou]
+[bg2 storage=byousitu.jpg time=200]
+[backlay layer=base]
+[filter sepia=50]
+[wait time=100]
+[mask_off time=500]
 …爺さんが亡くなったあと。[r]病室の掃除中に、１通の封筒が引き出しのなかから見つかったという。[p]
 その裏には、震えながらも達筆な字で「北斗君、美波君江」とあり、[r]看護師さんたちからオレたちに手渡された。[p]
 [playse storage=se/paper.ogg buf=8]
@@ -41,10 +49,15 @@
 題名の欄は空白で、歌詞もついていなかった。[p]
 ただメモ書きで、[r]「題名と歌詞は、君たちの好きなように。君たちのための曲だから」と。[p]
 …もう奥さんのためにしか、曲が書けないとか言ってたくせに。[p]
-
-#
 本当に、最後まであの人は嘘つきだった。[p]
 いや、意地で本当を嘘にしてみせた、というべきなんだろうか。[p]
+[mask time=500]
+[fkaisou]
+[free_filter]
+[minami_s_bishou left=40 time=0][hokuto_s_kanasimi left=640 time=0]
+[wait time=100]
+[bg2 storage=ongaku.jpg height=1554 top="-200" time=200]
+[mask_off time=500]
 
 #美波
 [ms/uwame]
@@ -205,10 +218,11 @@
 終わった。もう自分にできることは頭を抱えることだけだ。[p]
 #令人
 [r/niko]
-「北斗…その、なんだ、告白とかは、場所とか時間とか気をつけた方が…」[p][stopse buf=5]
+「北斗…その、なんだ、告白とかは、場所とか時間とか気をつけた方が…」[p][stopse buf=5][vostop]
 #北斗
 [hs_magao]
 「……」[p][stopse buf=1]
+[voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=647 ][vostart]
 #
 [mhhide]
 令人先輩、気を使ってる風ですけど、[r]2人を止めてくれなかった時点で同罪です。[p]
@@ -218,7 +232,7 @@
 #
 美波、お前も2回目なんだから慣れろよ…というか、[r]今後オレたちはこの方面でいじられ続けるだろうから、[r]慣れないと多分もたなそうだし…[p]
 [hide]
-[bg2 storage=still.png time=500]
+[bg2 storage=still_epilogue.png time=500]
 #七音
 「さて、最大の懸念点だった北斗君と美波ちゃんの恋路も[r]　無事ゴールインしたということで！みんなわすれてない？[r]　ライブまであと1か月よ！」[p][stopse buf=4]
 #北斗
@@ -232,4 +246,14 @@
 #
 騒がしいまま、楽器を手にして。今日も練習が始まっていく。[p]
 爺さん、ここが、オレたちの星座（いばしょ）らしい。[p]
-;ＥＮＤ
+
+[mask time=1000]
+[bg2 storage=black.png time=1000]
+[fadeoutbgm time=10][fadeoutse time=10][skipstop]
+[stop_keyconfig]
+@layopt layer=message0 visible=false
+[free name=chara_name_area layer = message0]
+@clearfix
+[mask_off time=1000]
+@jump storage="title.ks" target=*start
+[s]

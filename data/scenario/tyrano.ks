@@ -75,7 +75,7 @@ tf.savetext = "<span style='font-size:10px'>"+tf.save_date+"</span><br />"+tf.ti
 [endmacro]
 
 
-[macro name="kaisou"][layopt layer=1 visible=true][image layer="1" storage="vignette.png" name="kaisou"][endmacro]
+[macro name="kaisou"][layopt layer=1 visible=true][image layer="1" storage="vignette.png" name="kaisou" width=1920 height=1080][endmacro]
 [macro name="fkaisou"][free name="kaisou" layer=1][endmacro]
 ;機能
 [chara_config ptext="chara_name_area" pos_mode=true memory=true effect=easeOutQuad]

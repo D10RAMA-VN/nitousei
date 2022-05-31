@@ -310,8 +310,11 @@
 #北斗
 「爺さん…嘘が下手だって自分で言ってるのに、そういう言い方すんなよ…[r]　ばれるような嘘、つかないでくれよ…」[p][stopse buf=1]
 
-[mask graphic="cut/cutin_hokuto.png" time=500]
-[wait time=500][playse storage=eyecatch.ogg buf=8][hide time=0][bg2 storage=black.png time=4000]
+[mask graphic="cut/cutin_takamura.png" time=500]
+#
+[voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=331 ]
+[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=221 ]
+[wait time=500][playse storage=eyecatch2.ogg buf=8][hide time=0][bg2 storage=black.png time=6000]
 [mask_off time=500]
 
 @jump storage="scene9.ks" target=*chapter9

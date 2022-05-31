@@ -276,7 +276,6 @@
 #美波
 [ms_kanasimi]
 「…」[p][stopse buf=2]
-"
 [mmhide wait=false][hide]
 [bg2 storage=kawa_n.jpg time=500]
 [seizi_mu]

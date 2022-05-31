@@ -23,6 +23,7 @@
 @layopt layer=message0 visible=true
 [ptext name="chara_name_area" layer="message0" color="white" size=44 bold=true x=350 y=755 face="NotoInitial"]
 #
+[fadeinbgm time=1000 storage=seiji.ogg]
 [wait time=500]
 [anim layer=base top="-=1000" time=120000]
 [mask_off time=1000]
@@ -64,10 +65,12 @@
 だから、何一つ極めることができずにやめて、他に行ってしまった。[p]
 生徒会は流石に任期が終わるまで在籍していたものの、[r]自分から何かすることができたとは言えない。[p]
 だから、高校に上がっても、ただ勉強がしんどくなると思うだけで、[r]何をやるという気もあまりなかった。[p]
-
+[fadeoutbgm time=500]
+[mask time=1000]
 [bg2 storage="rouka_s.jpg" time="1000"]
 [fadeinbgm  storage="bg/school.ogg" time=1000]
 [minami_w_magao2]
+[mask_off time=500]
 #美波
 「あ、北斗。」[p][stopse buf=2]
 #北斗
@@ -497,7 +500,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 
 #
 こうして、俺たちの軽音部生活が始まった。[p]
-
+*river
 [mask time=500]
 [hide time=0]
 [bg2 storage="michi_n.jpg" time="500"]
@@ -594,6 +597,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 「なんだと？くそ～、いまに見てろよ…ん？」[p][stopse buf=1]
 
 #
+[fadeinbgm time=1000 storage=seiji.ogg]
 [hide]
 ;視線移動のエフェクト
 [bg2 storage="still.png" time="1000"]
@@ -645,6 +649,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #北斗
 [hw/metozi]
 「ふ～ン……」[p][stopse buf=1]
+*seiji
 #
 [hide]
 [bg2 storage="still.png" time="1000"]
@@ -692,6 +697,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [hokuto_w_egao2][seizi_magao]
 #老人
 「…ほう。」[p][stopse buf=3]
+[fadeoutbgm time=500]
 #
 その時初めて、爺さんはこっちを向いてくれた。[p]
 [chara_move name="hokuto" time=700 left=360 anim=true wait=false][chara_move name="seizi" time=700 left=-120 anim=true wait=false][minami_w_odoroki left=840]
@@ -709,12 +715,14 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 「こっちに来なさい。望遠鏡の使い方を教えてやろう。」[p][stopse buf=3]
 #北斗
 「はい！」[p][stopse buf=1]
+#
+[hide][minami_w_aozame]
 #美波
 「ちょ、ちょっと…」[p][stopse buf=2]
 #老人
+[s_magao]
 「お嬢さん、キミもだ。早くこっちへ。二度手間は嫌いなんだ。」[p][stopse buf=3]
-#
-[hide wati=false][chara_move name=minami left=360 time=500 anim=true anim=true]
+[mshide]
 #美波
 [mw/oogoe]
 「え、ええ？何この状況～！」[p][stopse buf=2]
@@ -1096,7 +1104,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [mw/magao]
 「…そんなに気に入ったの？天体観測。」[p][stopse buf=2]
 #北斗
-[hw/egao2]
+[hw/egao2][kanim name="hokuto" keyframe="nod" time="500"]
 「ああ。」[p][stopse buf=1]
 #美波
 [mw/magao2]
@@ -1127,7 +1135,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 こうして毎週毎週、[r]週末の夜になると河川敷に集まって望遠鏡を眺めることになったんだ。[p]
 [fadeoutbgm time=500]
 
-[mask graphic="cut/cutin_hokuto.png" time=500]
+[mask graphic="cut/cutin_hokuto.png" time=1500]
 [wait time=500]
 [playse storage=eyecatch.ogg buf=8]
 [hide time=0][kaname_bishou2 time=0]

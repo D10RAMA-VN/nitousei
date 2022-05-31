@@ -40,6 +40,7 @@
 #
 [move name=kaname left=140][nao_niko left=730]
 #七音
+[kanim name="nao" keyframe="nod" time="500"]
 「…よし。これで今年度のメンバーは確定！[r]　5人でがんばっていきましょー！」[p][stopse buf=4]
 #
 [move name=nao left=460][move name=kaname left=-80 wait=true][reito_komari left=850]
@@ -67,8 +68,8 @@
 [n/niko]
 「さて、今年度のメンバーも決まったところで、[r]　今年度初の部会を開催したいと思います！」[p][stopse buf=4]
 #一同
-[hw_egao2]
-「おー（パチパチ）」[p][stopse buf=1]
+[hw_egao2][playse storage=se/clap.ogg buf=8]
+「おー（パチパチ）」[p][stopse buf=1][stopse buf=8]
 #
 [mhhide]
 #七音
@@ -144,9 +145,9 @@
 #七音
 [n/magao]
 「…という訳で。忌まわしい記憶を断ち切るためにも、[r]　新入生の２人も交えてちゃんとした部則を作りたいと思います！」[p][stopse buf=4]
-#みんな
-[hw_egao2]
-「おー（拍手）」[p]
+#一同
+[hw_egao2][playse storage=se/clap.ogg buf=8]
+「おー（拍手）」[p][stopse buf=1][stopse buf=8]
 [mhhide]
 #七音
 [n/bishou]
@@ -158,7 +159,7 @@
 [mask time=500]
 [n/magao]
 [mask_off time=500]
-
+[fadeinbgm storage=minami.ogg time=1000]
 #七音
 「さて、早速だけど、何かアイデアある人？」[p][stopse buf=4]
 #令人
@@ -295,13 +296,13 @@
 [k/bishou2]
 「じゃあ、これも付け足しとくねー。」[p][stopse buf=6]
 #七音
-[n/niko3]
+[n/niko3][kanim name="nao" keyframe="nod" time="500"]
 「うんうん、良くなってきた。去年のより明らかに良いよー！」[p][stopse buf=4]
 
 [mask time=500]
 [wait time=700]
 [mask_off time=500]
-
+[fadeoutbgm time=500]
 #七音
 [n/bishou]
 「よし。部則についてはこんなところで。[r]　じゃあ次は、ライブについてだね。」[p][stopse buf=4]
@@ -358,7 +359,7 @@
 #令人
 「…昭和歌謡ですか？」[p][stopse buf=5]
 #七音
-[n/bishou]
+[n/bishou][kanim name="nao" keyframe="nod" time="500"]
 「うん。あ、バンドアレンジの譜面も検索済みだから安心して。」[p][stopse buf=4]
 #奏女
 [k/bishou2]
@@ -370,7 +371,7 @@
 [k/bishou]
 「ううん、それでこそ七音だし。でも大分優しい曲調だね。」[p][stopse buf=6]
 #七音
-[n/bishou]
+[n/bishou][kanim name="nao" keyframe="nod" time="500"]
 「うん。だから後半かな、やるとしたら。」[p][stopse buf=4]
 #北斗
 [hw_mu]
@@ -458,8 +459,10 @@
 [mask_off time=500]
 [playse  storage="se/door.ogg" buf=8]
 #北斗
+[hw_magao]
 「ただいま」[p][stopse buf=1]
 #
+[mhhide]
 ……当然、返事はない。[p]
 [fadeinse storage="bg/clock.ogg" loop=true buf=9 time=1000]
 [bg2 storage="ima.jpg" time="500"]
@@ -528,6 +531,7 @@ PM20：00。明日は主要3教科がそろっているので相当予習がき�
 [fadeoutbgm time=500][fadeoutse buf=9 time=500]
 
 [mask time=500]
+[kaisou]
 [bg2 storage="byousitu.jpg" time="1000"]
 [mask_off time=500]
 
@@ -553,6 +557,7 @@ PM20：00。明日は主要3教科がそろっているので相当予習がき�
 少年が、泣きべそをかいている。[p]
 
 [mask time=500]
+[fkaisou]
 [bg2 storage="heya.jpg" time="500"]
 [mask_off time=500]
 [playse storage="se/alarm.ogg" buf=8][playse  storage="se/futon.ogg" buf=9]

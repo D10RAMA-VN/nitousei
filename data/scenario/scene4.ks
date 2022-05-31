@@ -120,15 +120,15 @@
 「…そうなのか。」[p][stopse buf=3]
 #北斗
 [hs/mu2]
-「まあ、ありきたりな病気してて。治療とか手術とかしたけどダメで。[r]　それで…」[p][stopse b[vostop]
+「まあ、ありきたりな病気してて。治療とか手術とかしたけどダメで。[r]　それで…」[p][stopse buf=1][vostop]
 #高村
 「……」[p][vostart]
 #北斗
 [hs/mu]
-「…うちの親父の主治医が、美波の親父さんだったんです。」[p][stopse buf=1][vostop]
+「…うちの親父の主治医が、美波の親父さんだったんです。」[p][stopse buf=1]
 #高村
 [s/magao]
-「……！」[p][vostart]
+「……！」[p][stopse buf=3]
 #北斗
 [hs/akire]
 「元々ご近所さんだったし、知り合いの主治医って、こういう時に気まずく[r]　なったりするから引き受けないのが普通らしいんですけど…」[p][stopse buf=1]
@@ -168,6 +168,8 @@
 #北斗
 [hs/odoroki]
 「え、普通に、その、ひどいこと言ってごめんって…」[p][stopse buf=1]
+[voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=254 ]
+[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=104 ]
 #高村
 [s/metozi]
 「…それなら、[r]　私のところに来るより先に謝ってきたら良かったのではないか？」[p][stopse buf=3]
@@ -285,7 +287,7 @@
 [mhhide]
 #高村
 [s_hohoemi]
-「それはうしかい座のアルクトュルスだ。[r]　さらに、そのカーブのままのばしてみなさい。」[p][stopse buf=3]
+「それはうしかい座のアークトュルスだ。[r]　さらに、そのカーブのままのばしてみなさい。」[p][stopse buf=3]
 #
 [mshide]
 言われるがままに指を動かしていく。[p]
@@ -315,7 +317,7 @@
 美波の守護星座。なんだってこんなタイミングでこれを見せるのか。[p]
 #高村
 [s_kuti]
-「そしてな？アルクトュールスとスピカの中点から、[r]　今度は垂直に伸ばしていくと…」[p][stopse buf=3]
+「そしてな？アークトュルスとスピカの中点から、[r]　今度は垂直に伸ばしていくと…」[p][stopse buf=3]
 #
 [mshide]
 [bg2 storage="seiza/Stryangle.png" width=1951 height=1635 time=500 left=0 top=-50]
