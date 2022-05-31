@@ -25,6 +25,7 @@
 #
 [wait time=500]
 [anim layer=base top="-=1000" time=120000]
+[fadeinbgm storage=seiji.ogg time=1000]
 [mask_off time=1000]
 
 *1
@@ -64,10 +65,13 @@
 だから、何一つ極めることができずにやめて、他に行ってしまった。[p]
 生徒会は流石に任期が終わるまで在籍していたものの、[r]自分から何かすることができたとは言えない。[p]
 だから、高校に上がっても、ただ勉強がしんどくなると思うだけで、[r]何をやるという気もあまりなかった。[p]
+[fadeoutbgm time=1000]
 
+[mask time=1000]
 [bg2 storage="rouka_s.jpg" time="1000"]
 [fadeinbgm  storage="bg/school.ogg" time=1000]
 [minami_w_magao2]
+[mask_off time=500]
 #美波
 「あ、北斗。」[p][stopse buf=2]
 #北斗
@@ -596,6 +600,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #
 [hide]
 ;視線移動のエフェクト
+[fadeinbgm storage=seiji.ogg time=1000]
 [bg2 storage="still.png" time="1000"]
 ふてくされてそっぽを向いた視線の先に、人影が見えた。[p]
 いや、本当は最初に目を奪われたのはその大きな望遠鏡だった。[p]
@@ -692,6 +697,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [hokuto_w_egao2][seizi_magao]
 #老人
 「…ほう。」[p][stopse buf=3]
+[fadeoutbgm time=500]
 #
 その時初めて、爺さんはこっちを向いてくれた。[p]
 [chara_move name="hokuto" time=700 left=360 anim=true wait=false][chara_move name="seizi" time=700 left=-120 anim=true wait=false][minami_w_odoroki left=840]
@@ -1127,11 +1133,11 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 こうして毎週毎週、[r]週末の夜になると河川敷に集まって望遠鏡を眺めることになったんだ。[p]
 [fadeoutbgm time=500]
 
-[mask graphic="cut/cutin_hokuto.png" time=500]
+[mask graphic="cut/cutin_hokuto.png" time=1000]
 [wait time=500]
 [playse storage=eyecatch.ogg buf=8]
 [hide time=0][kaname_bishou2 time=0]
 [bg2 storage="ongaku.jpg" height=1554 top="-200" time="4000"]
-[mask_off time=500]
+[mask_off time=1000]
 
 @jump storage="scene1.ks" target=*chapter1
