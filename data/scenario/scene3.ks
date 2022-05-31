@@ -358,91 +358,78 @@
 [bg2 storage=hoken.jpg time=500]
 ゆっくりと起き上がって、ただ、口にする。[p]
 #北斗
-[hs_kanasimi]
+[hokuto_s_kanasimi]
 「……俺さ。」[p][stopse buf=1]
-[mhhide]
 #美波
 [minami_s_naki2]
 「うん……」[p][stopse buf=2]
 #北斗
-[hs_kanasimi]
+[hs/kanasimi]
 「……俺さ、夜に、家で一人でいるの、いやなんだよ。」[p][stopse buf=1]
-[mhhide]
 #美波
 [ms/naki]
 「…！」[p][stopse buf=2]
 #北斗
-[hs_kanasimi2]
+[hs/kanasimi2]
 「……なんかさ、家で一人でいるとさ、無性に寂しく感じるときあんだよ。[r]　誰もいないから、何の音もしないし。」[p][stopse buf=1]
-[mhhide]
 #美波
 [ms/naki2]
 「……」[p][stopse buf=2]
 #北斗
-[hs_kanasimi]
+[hs/kanasimi]
 「でも、ふと仏壇の親父の遺影とか目にするとさ、なんか、見られている[r]　ような、そんで、何かをやらなきゃいけないような感じがしてさ…」[p][stopse buf=1]
-[mhhide]
 #美波
 [ms/ikarinaki]
 「…ッ…」[p][stopse buf=2]
 #北斗
-[hs_kanasimi]
 「だから…だから、そういうことを感じなくて済むように、[r]　何かをやってないと、ダメなんだろうな…、[r]　遅くまで、練習だ稽古だって外で身体動かしてないと。」[p][stopse buf=1]
 #北斗
 「…そんで、自分は頑張れてるって思えてないと、ダメなんだろうな…」[p][stopse buf=1]
 #北斗
 「まあ、最近はホントにダメダメだけどな…授業ついてくのもギリギリ[r]　だし、なんでかギター全然うまくならないし…でも、」[p][stopse buf=1]
-[mhhide]
 #美波
 [ms/naki]
 「…ごめん」[p][stopse buf=2]
 #北斗
-[hs_odoroki]
+[hs/odoroki]
 「…美波？」[p][stopse buf=1]
-[mhhide]
 #美波
 [ms/naki2]
 「やっぱり…、やっぱりお父さんのことが…お父さんが、[r]　いないから…ごめん、北斗…ごめん…」[p][stopse buf=2]
 #北斗
-[hs_mu]
+[hs/mu]
 「…だから、それはもういいって。美波が悪いわけでもないし。[r]　そんなに気にしてないから。」[p][stopse buf=1]
-[mhhide]
 #美波
 [ms/ikarinaki]
 「気にしてるでしょ！寂しいって、言ってるでしょ…」[p][stopse buf=2]
 #北斗
-[hs_iradati2]
+[hs/iradati2]
 「…なんでお前がそんなこというんだよ。」[p][stopse buf=1]
-[mhhide]
 #美波
 [ms/oogoe]
 「だって、だって私の…」[p][stopse buf=2]
 #北斗
-[hs_iradati]
+[hs/iradati]
 「いい加減しつこい…！」[p][stopse buf=1]
-[mhhide]
 #美波
 「…！」[p][stopse buf=2]
 #北斗
-[hs_iradati]
+[hs/iradati]
 「お前のせいだって、お前たちのせいで親父が死んだんだって、[r]　言えばお前の気が済むの？」[p][stopse buf=1]
 #北斗
 「…美波の罪悪感を、オレに押し付けないでよ…！」[p][stopse buf=1]
-[mhhide]
 #美波
 [ms/oogoe]
 「……！違う、私は、私は……」[p][stopse buf=2]
 #北斗
-[hs_aozame2]
+[hs/aozame2]
 「…ハァ、ハァ……」[p][stopse buf=1]
-[mhhide]
 #美波
 [ms/naki2]
 「…北斗。」[p][stopse buf=2]
 #北斗
-[hs_aozame]
+[hs/aozame]
 「…出てって、熱が上がる。」[p][stopse buf=1]
-[mhhide]
 #美波
 [ms/ikarinaki]
 「……」[p][stopse buf=2]
@@ -453,15 +440,11 @@
 #養護
 「…加賀谷君？その、お母さんと連絡がついたけど…」[p]
 #北斗
-[hs_aozame]
 「……」[p][stopse buf=1]
-[mhhide]
 #養護
 「…加賀谷君、病人だからって、[r]　彼女を泣かせていいなんてことはないのよ？」[p]
 #北斗
-[hs_aozame]
 「…彼女じゃないです。」[p][stopse buf=1]
-[mhhide]
 #
 泣かせていいわけじゃないってことは、だるい頭でもわかっているのに。[p]
 こんなどうでもいい言葉と布団の中に逃げてしまう自分が、情けなくて仕方ない。[p]
