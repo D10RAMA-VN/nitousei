@@ -274,28 +274,31 @@
 #七音
 [n/magao]
 「美波ちゃん、なにか浮かんだ？」[p][stopse buf=4]
+#
+[hide][minami_w_magao2]
 #美波
-[mw_magao2]
 「真面目にやるときはその分楽しんで打ち込み、[r]　やり過ぎたときはちゃんと休む。」[p][stopse buf=2]
 #美波
 「そしてもしちょっと遊びすぎちゃったりして気が抜けちゃったあとは[r]　その分真面目にやって取り返す、メリハリをつける、[r]　っていうのはどうでしょうか。」[p][stopse buf=2]
 [mmhide]
 #奏女
-[k/bishou2]
+[k_bishou2]
 「それいいかも！」[p][stopse buf=6]
+[hide wait=false][mkhide]
 #北斗
-[hw_magao]
+[hokuto_w_magao]
 「でも、メリハリをつける、だけだと味気ないですよね、[r]　そうだな…よし、こんなのはどうですか？」[p][stopse buf=1]
 #北斗
 [chara_mod name=hokuto storage=hokuto_win/egao2.png time=700]
 「『マジメさと楽しさは両立させるべし！』」[p][stopse buf=1]
-[mhhide]
+[hide]
 #七音
-[n/niko]
+[nao_niko]
 「いいね、なんかその『させるべし！』っていかにも部則っぽい！」[p][stopse buf=4]
 #奏女
-[k/bishou2]
+[k_bishou2]
 「じゃあ、これも付け足しとくねー。」[p][stopse buf=6]
+[mkhide]
 #七音
 [n/niko3][kanim name="nao" keyframe="nod" time="500"]
 「うんうん、良くなってきた。去年のより明らかに良いよー！」[p][stopse buf=4]
@@ -414,7 +417,7 @@
 [mask time=500]
 [free_filter layer=base page=back]
 [trans layer=base time=0]
-[kaname_magao left=-80 time=0][nao_bishou left=460 time=0][reito_magao left=850 time=0]
+[n_bishoutime=0]
 [wait time=100]
 [bg2 storage=ongaku.jpg height=1554 top="-200" time=200]
 [mask_off time=500]
@@ -423,13 +426,15 @@
 #七音
 「でも、私にとって、私と奏女にとっては最後のライブだから、[r]　ちゃんとお別れをするって曲も入れたくて。」[p][stopse buf=4]
 #令人
-[r/komari]
+[r_komari]
 「…そんな寂しいこと言わないでくださいよ」[p][stopse buf=5]
+[mrhide]
 #奏女
-[k/bishou]
+[k_bishou]
 「…そうだね。この曲はいいかも。」[p][stopse buf=6]
+[mkhide]
 #
-[hide][minami_w_bishou]
+[minami_w_bishou]
 #美波
 「私も。…北斗は、どう？」[p][stopse buf=2]
 #
