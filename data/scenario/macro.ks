@@ -409,12 +409,12 @@
 [macro name="rhide"][chara_hide name="reito" time="%time|500" wait="%wait|true"][endmacro]
 [macro name="yhide"][chara_hide name="yuko" time="%time|500" wait="%wait|true"][endmacro]
 ;メッセージ横を消す
-[macro name="mhhide"][chara_hide name="hokuto" time="%time|200" layer="message0" wait="%wait|true"][endmacro]
-[macro name="mmhide"][chara_hide name="minami" time="%time|200" layer="message0" wait="%wait|true"][endmacro]
-[macro name="mnhide"][chara_hide name="nao" time="%time|200" layer="message0" wait="%wait|true"][endmacro]
-[macro name="mkhide"][chara_hide name="kaname" time="%time|200" layer="message0" wait="%wait|true"][endmacro]
-[macro name="mrhide"][chara_hide name="reito" time="%time|200" layer="message0" wait="%wait|true"][endmacro]
-[macro name="mshide"][chara_hide name="seizi" time="%time|200" layer="message0" wait="%wait|true"][endmacro]
+[macro name="mhhide"][chara_hide name="hokuto" time="%time|00" layer="message0" wait="%wait|true"][endmacro]
+[macro name="mmhide"][chara_hide name="minami" time="%time|00" layer="message0" wait="%wait|true"][endmacro]
+[macro name="mnhide"][chara_hide name="nao" time="%time|00" layer="message0" wait="%wait|true"][endmacro]
+[macro name="mkhide"][chara_hide name="kaname" time="%time|00" layer="message0" wait="%wait|true"][endmacro]
+[macro name="mrhide"][chara_hide name="reito" time="%time|00" layer="message0" wait="%wait|true"][endmacro]
+[macro name="mshide"][chara_hide name="seizi" time="%time|00" layer="message0" wait="%wait|true"][endmacro]
 ;全消し
 [macro name="hide"][chara_hide_all time="%time|400"][endmacro]
 
