@@ -90,7 +90,7 @@
 もやもやが晴れないまま、時間ばかり過ぎて行く。[p]
 
 [mask time=500]
-[hide time=0][seizi_magao left=-145 time=0][hokuto_w_magao left=360 time=0][minami_w_magao left=840 time=0]
+[hide time=0][hokuto_w_magao time=0][seizi_magao time=0]
 [bg2 storage="kawa_n.jpg" time="500"]
 [fadeinbgm  storage="bg/river.ogg" time=1000]
 [mask_off time=500]
@@ -99,36 +99,42 @@
 #北斗
 「ええ、結局望遠鏡は爺さんの一つしかないから、[r]　美波や爺さんが星見てる間に練習しようかなと思って」[p][stopse buf=1]
 #
+[hide]
 恒例になってきた爺さんとの天体観測に、[r]オレは私物のギターを持ち込んだ。[p]
 高校で軽音部をやっていること、[r]最近ギターを始めたことなどは前々から爺さんに言っていたのだが、[r]今日はあまりに切羽詰まった気がして持ってきてしまった。[p]
 ちなみに、持ってきたギターはケースやら諸々込みで[r]２万弱ほど小遣いはたいて買ったエレキギターだ。[p]
 部にも備品のアコースティックギターが１台あるのだが、[r]部長のギターは私物だと言うし、今後のことも考えて用意した。[p]
 おかげで懐が中々ピンチである。まだへそくりはあるけれども。[p]
+[minami_w_magao2]
 #美波
-[mw/magao2]
 「近所迷惑よ、やめといたら？」[p][stopse buf=2]
+#
+[hokuto_w_metozi]
 #北斗
-[hw/metozi]
 「大丈夫だろ、アンプつけずにやればほとんど音出ないし」[p][stopse buf=1]
+#
+[hide][seizi_mu]
 #高村
-[s/mu]
 「……そうか。どれ、一つ聞かせてくれないか。」[p][stopse buf=3]
 #美波
-[mw/odoroki]
+[mw_odoroki]
 「え？いやそんな、北斗はまだ聞かせられるレベルじゃないっていうか…」[p][stopse buf=2]
+[mmhide]
 #高村
 [s/magao]
 「いいんだ。さあ、北斗君」[p][stopse buf=3]
+#
+[hide][hokuto_w_magao]
 #北斗
-[hw/magao]
 「…わかりました」[p][stopse buf=1]
 #
 そうして、オレは「二等星になって」を弾きはじめた。[p][vostop]
 #高村
+[s_magao]
 「……！」[p][vostart]
 [fadeoutbgm time=400]
 [mask time=500]
-[s/kanasimi time=0][hw/aozame2 time=0][mw/kanasimi]
+[mshide time=0][seizi_kanasimi time=0][hw/aozame2 time=0]
 [mask_off time=500]
 
 #高村
@@ -206,8 +212,8 @@ USB充電式の小型アンプとシールド（コードって言いたくな�
 自分はいったいどこでこの曲を聞いたのだったか。…[p]
 ;（BGMOFF）
 [bg2 storage=kawa_n.jpg time=500]
-[seizi_metozi left=-145 time=0][hokuto_w_odoroki left=360 time=0][minami_w_odoroki left=840 time=0]
 [fadeinbgm storage=bg/river.ogg time=1000]
+[seizi_metozi left=-145 wait=false][hokuto_w_odoroki left=360 wait=false][minami_w_odoroki left=840]
 #高村
 「…ふう。昔取った杵柄というが、中々、気恥ずかしいものだな…[r]　それに、昔もエレキはほとんど触っていなかった。」[p][stopse buf=3]
 #北斗
@@ -273,11 +279,11 @@ USB充電式の小型アンプとシールド（コードって言いたくな�
 複数の楽譜を全部覚えて、それをさらに指に覚えさせる。[p]
 そんなことを実現させるためには、一体どれほどの時間がかかるのだろう。[r]本当に３か月ちょっとで、上手くいくのだろうか。[p]
 …正直、コードもまだおぼつかないところがあったりするのに。[p]
-[minami_w_odoroki left=840]
+[hide][minami_w_odoroki]
 #美波
 「…それにしても、高村さんがギター弾けるなんて…」[p][stopse buf=2]
 #
-[seizi_mu left=-145]
+[seizi_mu]
 #高村
 [s/mu]
 「…昔少しばかり音楽をたしなんでいてね。お手本を見せようなんて、[r]　偉そうなことを言いたかったわけではないんだが…」[p][stopse buf=3]
@@ -289,11 +295,12 @@ USB充電式の小型アンプとシールド（コードって言いたくな�
 「ああ。昔都会で少し、な。もっとも、すぐにやめてしまったが。」[p][stopse buf=3]
 #
 そういう高村さんの顔があまりにも悲しそうで、[r]なんだかとても申し訳なくなった。[p]
+[hide][hokuto_w_kanasimi]
 #北斗
-[hw/kanasimi]
 「…ほんと、こんな下手なのに人に聞かせようなんて、すいません…」[p][stopse buf=1]
+#
+[seizi_mu]
 #高村
-[s/mu]
 「北斗君が気にすることはないといっただろう。」[p][stopse buf=3]
 #北斗
 [hw/mu]

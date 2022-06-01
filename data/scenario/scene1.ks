@@ -305,6 +305,7 @@
 
 [mask time=500]
 [wait time=700]
+[nao_magao left=460 time=0][reito_magao time=0 left=850][kaname_magao left=-80 time=0]
 [mask_off time=500]
 [fadeoutbgm time=500]
 #七音
