@@ -388,7 +388,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [mask time=500]
 [hide time=0][mnhide time=0]
 [mask_off time=500]
-…[p]
+……[p]
 [nao_bishou]
 #七音
 「というわけで、とりあえず当面の目標は、[r]　8月頭の卒業ライブになるわ。」[p][stopse buf=4]
@@ -509,7 +509,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 
 #北斗
 [hokuto_w_mu2]
-「もう真っ暗だな・・・」[p][stopse buf=1]
+「もう真っ暗だな……」[p][stopse buf=1]
 #美波
 [minami_w_magao]
 「ホント。早く帰りましょ。」[p][stopse buf=2]
