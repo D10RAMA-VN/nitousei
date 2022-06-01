@@ -231,6 +231,7 @@
 [hokuto_s_akire]
 「…なんだこれ。」[p][stopse buf=1]
 #
+[fadeinbgm storage=kaisou.ogg time=1000]
 何かの時におばさんに食べさせてもらっただし巻き卵は、[r]もっと砂糖たっぷりでふんわり甘い感じだったような。[p]
 というか、こういう味のひどい料理、どっかで食べたような…？[p]
 
@@ -251,7 +252,7 @@
 「北斗…？」[p][stopse buf=2]
 #北斗
 「大丈夫。オレ、濃い味好きだから！」[p][stopse buf=1]
-
+[fadeoutbgm time=500]
 [mask time=500]
 [bg2 storage="ongaku.jpg" height=1554 top="-200" time="500"]
 [hs/odoroki time=0]
@@ -311,6 +312,9 @@
 [r/magao]
 「…わかった。」[p][stopse buf=5]
 
+[mask time=500]
+[wait time=500]
+[mask_off time=500]
 ;[演奏]
 #北斗
 [hs/aseri]
@@ -370,7 +374,7 @@
 [hs/bishou]
 「…オレ、最近色々考えてたんですけど、そのことに気づいたんです。」[p][stopse buf=1]
 #北斗
-「自分がむきになったり焦っても仕方ない。[r]　いっそ、誰かに思い切って寄りかかってみることが[r]大事なんじゃないかって。」[p][stopse buf=1]
+「自分がむきになったり焦っても仕方ない。[r]　いっそ、誰かに思い切って寄りかかってみることが[r]　大事なんじゃないかって。」[p][stopse buf=1]
 #北斗
 「それを意識して、令人先輩のリズムに思いっきりのっかってみたんです。」[p][stopse buf=1]
 #
@@ -807,6 +811,7 @@
 [hs/metozi]
 「（…やられっぱなしは悔しいからな…そろそろ、[r]　あれを確かめさせてもらおう）」[p][stopse buf=1]
 #
+[playse storage=se/paper.ogg buf=8]
 オレは、一綴りのTAB譜を手に取った。[p]
 #美波
 [ms/magao2]
@@ -831,11 +836,11 @@
 #
 こうして、季節と一緒に少しずつ何かが変わっていきながら、[r]　５月最後の週が始まっていった。[p]
 
-[mask graphic="cut/cutin_nao.png" time=500]
+[mask graphic="cut/cutin_nao.png" time=1500]
 [wait time=500]
-[playse storage=eyecatch.ogg buf=8]
+[playbgm storage=eyecatch.ogg]
 [hide time=0]
-[bg2 storage=michi_n.jpg time=4000]
+[bg2 storage=michi_n.jpg time=4000][stopbgm]
 [mask_off time=500]
 
 @jump storage="scene6.ks" target=*chapter6

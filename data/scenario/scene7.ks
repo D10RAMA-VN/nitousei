@@ -788,11 +788,11 @@
 [hs/magao]
 「はい。ありがとうございます。」[p][stopse buf=1]
 
-[mask graphic="cut/cutin_hokuto.png" time=500]
+[mask graphic="cut/cutin_hokuto.png" time=1500]
 [wait time=500]
-[playse storage=eyecatch.ogg buf=8]
+[playbgm storage=eyecatch.ogg]
 [hide time=0]
-[bg2 storage="byouin.jpg" time="4000"]
+[bg2 storage="byouin.jpg" time="4000"][stopbgm]
 [mask_off time=500]
 
 @jump storage="scene8.ks" target=*chapter8

@@ -7,7 +7,7 @@
 [wait time=500]
 [voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=605 ]
 [voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=331 ]
-[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=221 ]
+[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=222 ]
 [voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=74 ]
 [voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=68 ]
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=40 ]
@@ -28,11 +28,12 @@
 そうしたら、一日だけ、夜の間屋上を貸してくれることになった。[p]
 そして、その約束の日。[p]
 美波は爺さんの乗った車いすを押し、[r]オレはギターと爺さんの望遠鏡をしょって、屋上に上がった。[p]
+[vostop]
 [bg2 storage=okujou.jpg time=500]
 [fadeinbgm storage=bg/wind.ogg time=1000]
 [minami_s_bishou left=840 wait=false][hokuto_s_bishou left=360 wait=false][seizi_h_magao left=-120]
 #高村
-「…」[p][stopse buf=3]
+「…」[p][vostart]
 #美波
 「わあ…」[p][stopse buf=2]
 #
@@ -193,10 +194,10 @@
 #
 そんな悪態をつくしか、未熟な自分にはできなかった。[p]
 
-[mask graphic="cut/cutin_hokuto.png" time=500]
+[mask graphic="cut/cutin_hokuto.png" time=1500]
 [wait time=500]
-[playse storage=eyecatch.ogg buf=8]
-[bg2 storage=ongaku.jpg height=1554 top="-200" time=4000]
+[playbgm storage=eyecatch.ogg]
+[bg2 storage=ongaku.jpg height=1554 top="-200" time=4000][stopbgm]
 [minami_s_bishou left=40 time=0][hokuto_s_kanasimi left=640 time=0]
 [mask_off time=500]
 

@@ -468,11 +468,11 @@
 泣かせていいわけじゃないってことは、だるい頭でもわかっているのに。[p]
 こんなどうでもいい言葉と布団の中に逃げてしまう自分が、情けなくて仕方ない。[p]
 
-[mask graphic="cut/cutin_minami.png" time=500]
+[mask graphic="cut/cutin_minami.png" time=1500]
 [wait time=500]
-[playse storage=eyecatch.ogg buf=8]
+[playbgm storage=eyecatch.ogg]
 [hide time=0]
-[bg2 storage=heya.jpg time=4000]
+[bg2 storage=heya.jpg time=4000][stopbgm]
 [mask_off time=0]
 
 @jump storage="scene4.ks" target=*chapter4

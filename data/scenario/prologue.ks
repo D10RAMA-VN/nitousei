@@ -1137,9 +1137,9 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 
 [mask graphic="cut/cutin_hokuto.png" time=1500]
 [wait time=500]
-[playse storage=eyecatch.ogg buf=8]
+[playbgm storage=eyecatch.ogg]
 [hide time=0][kaname_bishou2 time=0]
-[bg2 storage="ongaku.jpg" height=1554 top="-200" time="4000"]
+[bg2 storage="ongaku.jpg" height=1554 top="-200" time="4000"][stopbgm]
 [mask_off time=500]
 
 @jump storage="scene1.ks" target=*chapter1

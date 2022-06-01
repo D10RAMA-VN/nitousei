@@ -490,12 +490,12 @@
 #
 爺さんの態度にどこか違和感を感じたものの、[r]その日はとりあえず一区切りということで、[r]少し星を眺めたあと、解散という流れになった。[p]
 
-[mask graphic="cut/cutin_kaname.png" time=500]
+[mask graphic="cut/cutin_kaname.png" time=1500]
 [wait time=500]
-[playse storage=eyecatch2.ogg buf=8]
+[playbgm storage=eyecatch2.ogg]
 [hide time=0]
 [voconfig sebuf=2 name="minami" vostorage="minami2/minami_ha{number}.ogg" number=1 ]
-[bg2 storage=class.jpg time=6000]
+[bg2 storage=class.jpg time=6000][stopbgm]
 [mask_off time=500]
 
 @jump storage="scene7.ks" target=*chapter7

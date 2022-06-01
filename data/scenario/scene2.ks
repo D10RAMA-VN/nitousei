@@ -310,11 +310,11 @@ USB充電式の小型アンプとシールド（コードって言いたくな�
 #
 そうして、爺さんはその日の天体観測を始めた。[r]でも自分は、ギターのことと不安で頭がいっぱいだった。[p]
 [fadeoutbgm time=500]
-[mask graphic="cut/cutin_hokuto2.png" time=500]
+[mask graphic="cut/cutin_hokuto2.png" time=1500]
 [wait time=500]
-[playse storage=eyecatch.ogg buf=8]
+[playbgm storage=eyecatch.ogg]
 [hide time=0]
-[bg2 storage="class.jpg" time="4000"]
+[bg2 storage="class.jpg" time="4000"][stopbgm]
 [mask_off time=500]
 
 @jump storage="scene3.ks" target="*chapter3"

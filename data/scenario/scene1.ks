@@ -38,19 +38,18 @@
 「…」[p][stopse buf=1]
 [mhhide][vostart]
 #
-[move name=kaname left=140][nao_niko left=730]
+[hide][nao_niko left=140 wait=false][reito_komari left=680]
 #七音
 [kanim name="nao" keyframe="nod" time="500"]
 「…よし。これで今年度のメンバーは確定！[r]　5人でがんばっていきましょー！」[p][stopse buf=4]
-#
-[move name=nao left=460][move name=kaname left=-80 wait=true][reito_komari left=850]
 #令人
 「結局、新入生は初日に来てくれた2人だけでしたね…」[p][stopse buf=5]
 #七音
 [n/niko2]
 「上々よ上々。私たちも元々一学年1人2人しかいないんだし。」[p][stopse buf=4]
+#
+[hide][kaname_niko]
 #奏女
-[k/niko]
 「2人とも毎日通ってくれてありがとう。[r]　これからは正式に部員として、どうぞよろしくね」[p][stopse buf=6]
 #北斗
 [hw_egao2]
@@ -60,12 +59,11 @@
 [mw_bishou]
 「よろしくお願いします。」[p][stopse buf=2]
 [mask time=500]
-[mmhide time=0][r/magao time=0]
+[mmhide time=0][hide time=0][nao_niko]
 #
 [mask_off time=500]
 
 #七音
-[n/niko]
 「さて、今年度のメンバーも決まったところで、[r]　今年度初の部会を開催したいと思います！」[p][stopse buf=4]
 #一同
 [hw_egao2][playse storage=se/clap.ogg buf=8]
@@ -86,11 +84,12 @@
 #七音
 [n/magao]
 「それはね、…部則改定よ！」[p][stopse buf=4]
+#
+[hide][reito_komari]
 #令人
-[r/komari]
 「あー…」[p][stopse buf=5]
 #奏女
-[k/bishou]
+[kaname_bishou]
 「メンバーも新しくなったんだし、ルールも新しくしなきゃだよね」[p][stopse buf=6]
 #北斗
 [hw_mu]
@@ -99,8 +98,9 @@
 #令人
 [r/magao]
 「いや、それが今までの部則がひどくて…俺もこの機会に変えたいです、[r]　七音さん」[p][stopse buf=5]
+#
+[hide][nao_niko]
 #七音
-[n/niko]
 「だよねえ…」[p][stopse buf=4]
 #美波
 [mw_magao2]
@@ -111,7 +111,7 @@
 「それはね…」[p][stopse buf=4]
 
 #
-[k/magao wait=false][n/magao wait=false][r/magao]
+[hide][kaname_magao left=-80 wait=false][nao_magao left=460 wait=false][reito_magao left=850]
 #三人
 「「「おもしろくあれ」」」[p][stopse buf=4]
 #
@@ -119,14 +119,14 @@
 #二人
 「「…はい？」」[p][stopse buf=1]
 #
-[hide]
-[kaname_kanasimi left=-80 wait=false][nao_kanasimi left=460 wait=false][reito_kanasimi left=850]
+[hide][nao_kanasimi]
 #七音
 「いやほんとに。この7文字だけなのよ。『おもしろくあれ』」[p][stopse buf=4]
 #北斗
 [hw_kanasimi]
 「…なんか軽音部の部則っていうより芸能事務所の社訓っぽいですね」[p][stopse buf=1]
 [mhhide]
+[reito_kanasimi]
 #令人
 「ホントだよな。去年の先輩達が悪ノリで作ったんだけどさ」[p][stopse buf=5]
 #美波
@@ -153,11 +153,12 @@
 [n/bishou]
 「というわけで、早速会議よ。奏女、メモお願い。」[p][stopse buf=4]
 #奏女
-[k/bishou]
+[k_bishou]
 「はーい。ホワイトボード取ってくるねー。」[p][stopse buf=6]
 
 [mask time=500]
-[n/magao]
+[mkhide time=0][hide]
+[nao_magao left=460 time=0][reito_magao time=0 left=850][kaname_magao left=-80 time=0]
 [mask_off time=500]
 [fadeinbgm storage=minami.ogg time=1000]
 #七音
@@ -454,7 +455,7 @@
 
 [mask time=500]
 [hide]
-[bg2 storage="genkan.jpg" time="500"]
+[bg2 storage="genkan.jpg" time="1000"]
 [fadeinbgm storage=bg/room.ogg time=1000]
 [mask_off time=500]
 [playse  storage="se/door.ogg" buf=8]
@@ -567,20 +568,20 @@ PM20：00。明日は主要3教科がそろっているので相当予習がき�
 #
 携帯のアラームが鳴っている。液晶には6：45の文字。[p]
 #北斗
-「……起きなきゃか」[p][stopse buf=1]
+「……起きなきゃか」[p][stopse buf=1][stopse buf=8]
 #
 この日常世界では、過去を思い出して泣くような時間は与えられない。[p]
 
-[mask graphic="cut/cutin_takamura.png" time=500]
+[mask graphic="cut/cutin_takamura.png" time=1500]
 [vostop]
 [wait time=500]
-[playse storage=eyecatch.ogg buf=8]
+[playbgm storage=eyecatch.ogg]
 [voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=137 ]
 [voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=100 ]
 [voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=64 ]
 [vostart]
 [kaname_kanasimi left=-80 time=0][nao_kanasimi left=460 time=0][reito_magao left=850 time=0][hw_hutyou time=0]
-[bg2 storage="ongaku.jpg" height=1554 top="-200" time="4000"]
+[bg2 storage="ongaku.jpg" height=1554 top="-200" time="4000"][stopbgm]
 [mask_off time=500]
 
 @jump storage="scene2.ks" target=*chapter2
