@@ -162,13 +162,7 @@
 #北斗
 [hs/mu]
 「別に、ひどいこと言いたかったわけでもないですし、[r]　謝りたいです。」[p][stopse buf=1]
-#高村
-[s/magao]
-「なんて言って謝る？」[p][stopse buf=3]
-#北斗
-[hs/odoroki]
-「え、普通に、その、ひどいこと言ってごめんって…」[p][stopse buf=1]
-[voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=254 ]
+[voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=253 ]
 [voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=104 ]
 #高村
 [s/metozi]

@@ -418,7 +418,7 @@
 [mask time=500]
 [free_filter layer=base page=back]
 [trans layer=base time=0]
-[n_bishou time=0]
+[nao_bishou time=0]
 [wait time=100]
 [bg2 storage=ongaku.jpg height=1554 top="-200" time=200]
 [mask_off time=500]
@@ -426,16 +426,16 @@
 「なんか、ちょっと恥ずかしいけどね。」[p]
 #七音
 「でも、私にとって、私と奏女にとっては最後のライブだから、[r]　ちゃんとお別れをするって曲も入れたくて。」[p][stopse buf=4]
-#令人
-[r_komari]
-「…そんな寂しいこと言わないでくださいよ」[p][stopse buf=5]
-[mrhide]
-#奏女
-[k_bishou]
-「…そうだね。この曲はいいかも。」[p][stopse buf=6]
-[mkhide]
 #
-[minami_w_bishou]
+[hide][reito_komari]
+#令人
+「…そんな寂しいこと言わないでくださいよ」[p][stopse buf=5]
+#
+[kaname_bishou]
+#奏女
+「…そうだね。この曲はいいかも。」[p][stopse buf=6]
+#
+[hide][minami_w_bishou]
 #美波
 「私も。…北斗は、どう？」[p][stopse buf=2]
 #
