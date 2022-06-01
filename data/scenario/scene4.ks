@@ -85,16 +85,16 @@
 「違うとは？」[p][stopse buf=3]
 #北斗
 [hs/kanasimi]
-「昔、ちょっと色々あって・・・」[p][stopse buf=1][vostop]
+「昔、ちょっと色々あって……」[p][stopse buf=1][vostop]
 #高村
-「・・・」[p][vostart]
+「……」[p][vostart]
 #北斗
-「・・・」[p][stopse buf=1][vostop]
+「……」[p][stopse buf=1][vostop]
 #高村
-「・・・」[p][vostart]
+「……」[p][vostart]
 #北斗
 [hs/mu2]
-「・・・聞いてくれますか？」[p][stopse buf=1]
+「……聞いてくれますか？」[p][stopse buf=1]
 #高村
 [s/mu]
 「話してくれるなら。嫌なら話してくれなくてもいい。」[p][stopse buf=3]
@@ -103,7 +103,7 @@
 だからこそ、なんとしても話さなければならない。[p]
 #北斗
 [hs/kanasimi2]
-「・・・ちょっとアレな話なんです。」[p][stopse buf=1]
+「……ちょっとアレな話なんです。」[p][stopse buf=1]
 #高村
 [s/magao]
 「アレとは？」[p][stopse buf=3]
@@ -137,7 +137,7 @@
 「…親父が病気なんだって美波に言ったら、[r]　うちのパパはお医者さんだからって、[r]　親父さんにかけあってくれたらしくて。」[p][stopse buf=1]
 #北斗
 [hs/kanasimi]
-「それで美波の親父さんが治療してくれたけど、[r]　まあさっき言った通りダメで。それで・・・」[p][stopse buf=1]
+「それで美波の親父さんが治療してくれたけど、[r]　まあさっき言った通りダメで。それで……」[p][stopse buf=1]
 #北斗
 [hs/mu2]
 「あいつ、無駄に責任感じてるらしいんですよね、色々と。」[p][stopse buf=1][vostop]
