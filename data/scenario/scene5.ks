@@ -323,23 +323,30 @@
 [mask_off time=500]
 ;[演奏]
 #北斗
-;[hs/aseri]
+[hs_aseri]
 「（…！テンポがずれた…）」[p][stopse buf=1]
+[mhhide]
 #令人
-;[r/magao]
+[r_magao]
 「……」[p][stopse buf=5]
+[mrhide]
 #北斗
+[hs_aseri]
 「（……続けてくれている…焦らず、合わせて…）」[p][stopse buf=1]
+[mhhide]
 #令人
+[r_magao]
 「……」[p][stopse buf=5]
+[mrhide]
 #北斗
-;[hs/metozi]
+[hs_metozi]
 「(TAB譜や曲のテンポよりも、先輩のリズムに合わせて、[r]　そしてこの音の流れの中で、自分の居場所を見つけるように、[r]　しっかりと先輩のリズムを聞いて…)[p][stopse buf=1]
+[mhhide]
 #令人
-;[r/bishou]
+[r_bishou]
 「…」[p][stopse buf=5]
-
 [mask time=500]
+[mrhide]
 [bg2 storage="ongaku.jpg" height=1554 top="-200" time="0"]
 [reito_bishou left=40 time=0][hokuto_s_bishou left=680]
 [mask_off time=500]

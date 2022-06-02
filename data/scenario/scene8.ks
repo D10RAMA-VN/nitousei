@@ -29,8 +29,8 @@
 …こういうと運命的にも聞こえるかもしれないが、[r]元々病院とは場所柄としてそういったことになりがちな場所である。[p]
 
 [mask time=500]
-[minami_s_magao left=840 time=0][hokuto_s_magao left=360 time=0]
-[bg2 storage=byousitu.jpg time=500]
+[hokuto_s_magao time=0][minami_s_magao time=0]
+[bg2 storage=byousitu.jpg time=1000]
 [playse storage=se/doorslide.ogg buf=8]
 [mask_off time=500]
 #北斗
@@ -38,11 +38,15 @@
 [playse storage=se/doorslide.ogg buf=8]
 #美波
 「こんにちは…」[p][stopse buf=2]
+#
+[hide]
+[bg2 storage=byousitu.jpg width=2300 height=1293 left=-180 top=-180 time=500][seizi_h_hohoemi2]
 #高村
-[seizi_h_hohoemi2 left=-195]
 「…おや、来てくれたのか」[p][stopse buf=3]
 #美波の父
 「来たのか、2人とも。」[p]
+#
+[hide][hokuto_s_magao left=640 wait=false][minami_s_magao left=40]
 #北斗
 「おじさん、久しぶりです。」[p][stopse buf=1]
 #美波の父
@@ -56,7 +60,7 @@
 [ms/kanasimi]
 「糖尿病…」[p][stopse buf=2]
 #高村
-[sh/hohoemi]
+[seizi_h_hohoemi]
 「いやあ、中々レミーがやめられなくてなあ。」[p][stopse buf=3]
 #北斗
 [hs/odoroki]
@@ -106,30 +110,36 @@
 #美波
 [ms/kanasimi]
 「…」[p][stopse buf=2]
+#
+[hide][hokuto_s_iradati]
 #北斗
-[hs/iradati]
 「…でも、退院はできるんでしょう？[r]　そしたら爺さん、とっとと良くなって、また外で遊びに行こうよ。」[p][stopse buf=1]
 #北斗
 「夜に出歩くのが負担なら昼間でもいい。[r]　夜建物の中から星を見るのでもいいから。」[p][stopse buf=1]
 #美波
-[ms/kanasimi]
+[ms_kanasimi]
 「北斗…」[p][stopse buf=2]
+[mmhide]
 #北斗
 [hs/iradati2]
 「…そうだよ、オレたち、8月に初めてライブするって言ったじゃん。[r]　爺さん、来てくれるって言ってたじゃないか。」[p][stopse buf=1]
 #北斗
 「だから、まず8月までに退院できるよう、頑張ろうよ。[r]　オレ、見舞いにも来るようにするし、[r]　応援できることならなんでもするからさ。」[p][stopse buf=1]
 #高村
-[sh/metozi]
+[sh_metozi]
 「…そうだなあ、そうできたらいいなあ。」[p][stopse buf=3]
+[mshide]
 #北斗
 [hs/iradati]
 「なんでそんな弱気なんだよ。約束だろ？」[p][stopse buf=1]
+#
+[hide][seizi_h_kanasimi]
 #高村
-[sh/kanasimi]
 「だがなあ北斗君。私にはわかるんだよ。[r]　自分の身体のことだから一番よくわかる。[r]　これは治らん。よくはならないだろう。」[p][stopse buf=3]
 #高村
 「それにな、私ももう、疲れたよ。[r]　家内が亡くなって40年ばかり、1人で生きてきた。[r]　そろそろ、家内のところに行ってもいいのではないか、とね…」[p][stopse buf=3]
+#
+[hide][minami_s_kanasimi]
 #美波
 「…」[p][stopse buf=2]
 #
@@ -138,7 +148,7 @@
 #北斗
 「…ふざけんなよ。」[p][stopse buf=1]
 #高村
-[seizi_h_magao left=-195]
+[seizi_h_magao]
 「…北斗君？」[p][stopse buf=3]
 #北斗
 [hs/iradati]
@@ -170,8 +180,9 @@
 #北斗
 [hs/naki2]
 「爺さん…」[p][stopse buf=1]
+#
+[hide][seizi_h_kanasimi]
 #高村
-[sh/kanasimi]
 「…先生、夫婦そろって、2世代、いや3世代、[r]　お宅にご迷惑をおかけしますが…」[p][stopse buf=3]
 #美波の父
 「…これからは、指示にちゃんと従ってくださいね。[r]　…できる限りのことはしますから。」[p]
@@ -179,10 +190,10 @@
 [sh/hohoemi2]
 「美波君。キミにも、世話になっていいかな？」[p][stopse buf=3]
 #美波
-[minami_s_bishou left=840]
+[ms_bishou]
 「はい、もちろんです。」[p][stopse buf=2]
-
 #
+[mmhide]
 こうして、爺さんの治療、リハビリが始まった。[p]
 
 [mask time=500]
@@ -228,7 +239,7 @@
 
 [mask time=500]
 [hide time=0][seizi_h_kanasimi left=15 time=0][hokuto_s_magao left=680 time=0]
-[bg2 storage=byousitu.jpg time=500]
+[bg2 storage=byousitu.jpg width=2300 height=1293 left=-180 top=-180 time=500]
 [mask_off time=500]
 #北斗
 「……爺さん、今日の調子はどう？」[p][stopse buf=1]

@@ -1,15 +1,4 @@
-<script>
- $('#bgm_volume').on("inview", function () {
-    var val = ($(this).val() - $(this).attr('min')) / ($(this).attr('max') - $(this).attr('min'));
 
-    $(this).css('background-image',
-                '-webkit-gradient(linear, left top, right top, '
-                + 'color-stop(' + val + ', #fff), '
-                + 'color-stop(' + val + ', #606589)'
-                + ')'
-                );
-});
-</script>
 <div>
 
 	<div style='clear:both'></div>
@@ -51,6 +40,7 @@
                 <input type="radio" name="unread_skip" id="unreadoff">
                 <label for="unreadoff">OFF</label>
             </div>
+            
             <div class=min_max style="left:133px;top:67px;">min</div><div class=min_max style="left:810px;top:68px;">MAX</div>
             <div class=min_max style="left:133px;top:147px;">min</div><div class=min_max style="left:810px;top:148px;">MAX</div>
             <div class=min_max style="left:133px;top:230px;">min</div><div class=min_max style="left:810px;top:231px;">MAX</div>
@@ -316,6 +306,7 @@ $('.config_quit').click(function(){tyrano.plugin.kag.ftag.startTag("close")});
 				}
 			});
 	   });
+	   
 	</script>
 
 </div>

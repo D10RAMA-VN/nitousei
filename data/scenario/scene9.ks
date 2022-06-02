@@ -53,35 +53,35 @@
 「ほら、始まっているよ。」[p][stopse buf=3]
 #
 [hide]
-[bg2 storage=still.png time=500]
+[bg2 storage=still_perseus.png time=500]
 爺さんがそういってゆっくり夜空を指さすと、一筋の光が流れ落ちた。[p]
 #美波
-[ms_uwame]
+;[ms_uwame]
 「あ、流れ星…」[p][stopse buf=2]
-[mmhide]
+;[mmhide]
 #
 美波がそういうやいなや、もう一つ。[p]
 #北斗
-[hs_magao]
+;[hs_magao]
 「あ、また…」[p][stopse buf=1]
-[mhhide]
+;[mhhide]
 #高村
-[sh_hohoemi2]
+;[sh_hohoemi2]
 「ペルセウス座流星群だ。[r]　本当はお盆のあたりが一番見ごろなんだが…今日もちゃんと見れたな。」[p][stopse buf=3]
-[mshide]
+;[mshide]
 #北斗
-[hs_odoroki]
+;[hs_odoroki]
 「ペルセウス座流星群？」[p][stopse buf=1]
-[mhhide]
+;[mhhide]
 #高村
-[sh_hohoemi]
+;[sh_hohoemi]
 「ああ。毎年夏になると見える、三大流星群の一つだよ。すごいときには[r]　流星雨といって、たばこを一本ふかしている間にもいくつも見える…、[r]　まあ今日はそこまではいかんかもしれんが…」[p][stopse buf=3]
-[mshide]
+;[mshide]
 #北斗
-[hs_egao2]
+;[hs_egao2]
 「…」[p][stopse buf=1]
 #
-[mhhide]
+;[mhhide]
 それでも、とてもきれいだ。[p]
 [bg2 storage=okujou.jpg time=500]
 [minami_s_bishou left=840 wait=false][hokuto_s_egao2 left=360 wait=false][seizi_h_hohoemi left=-195]
@@ -187,8 +187,9 @@
 演奏が終わったというのに、歓声も批評もなく。[p]
 爺さんはほほえみをたたえているだけ。[p]
 あまりにもきれいなその顔に、美波は声を押しつぶし泣き始めた。[p]
-[bg2 storage=still.png time=500]
-オレが一つため息をつき天を仰ぐと、星空では流星の中、[r]　二つの二等星が目立たなくも、しかし確かにまたたいていた。[p]
+[bg2 storage=still_perseus.png width=3200 height=1800 left=-600 time=1500 method=fadeInDown]
+オレはため息を一つつき、天を仰いだ。[p]
+視線の先には、満天の星空の中で二つの二等星が目立たなくも、[r]しかし確かにまたたいていた。[p]
 #北斗
 「……おい、拍手はいいから、感想くらいくれよ、爺さん」[p][stopse buf=1]
 #

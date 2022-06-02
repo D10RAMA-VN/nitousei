@@ -78,7 +78,7 @@
 #
 爺さんが言い切る前に、ネコは鉄橋の方へかけていった。[p]
 [bg2 storage="kawa_n.jpg" time="500"]
-[minami_s_bishou left=840 wait=false][hokuto_s_magao wait=false left=360][seizi_hohoemi left=-195]
+[hokuto_s_magao left=680 wait=false][seizi_hohoemi left=-35]
 #高村
 「さて、今日はどのあたりを眺めようか。」[p][stopse buf=3]
 #北斗
@@ -143,57 +143,81 @@
 [voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_416_{number}.ogg" number=1 ]
 #北斗
 「でもなんか懐かしさみたいなものを感じたんだ。[r]　それが何だったのか、ずっと思い出せなかったんだけど…」[p][stopse buf=1][voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=417 ]
+[mask time=500]
+[hide time=0]
+[kaisou]
+[bg2 storage=byousitu.jpg time=200]
+[backlay layer=base]
+[filter sepia=50]
+[wait time=100]
+[mask_off time=500]
 #北斗
-[hs/bishou]
+[hs_bishou]
 「…昔ガキのころ、[r]　親父と病院のロビーでTV見てたらさ、歌番組やってたんだよ。[r]　一昔前、団塊ジュニア向けに７０～８０年代歌謡曲特集とか多くてさ。」[p][stopse buf=1]
+[mhhide]
 #美波
-[ms/kanasimi]
+[ms_kanasimi]
 「……」[p][stopse buf=2]
+[mmhide]
 #北斗
-[hs/magao]
+[hs_magao]
 「それで、この曲が流れてたんだ。なんか解説もついてたよ。[r]　北野夕子、人気絶頂の中突然活動休止、[r]　その数年後病気で亡くなった伝説のシンガー、とかなんとか。」[p][stopse buf=1]
 #北斗
 「調べたらこの曲は、その北野夕子の最後の楽曲なんでしょう？」[p][stopse buf=1][vostop]
+[mhhide]
 #高村
-[s/magao]
+[s_magao]
 「……」[p][vostart]
+[mshide]
 #北斗
-[hs/kanasimi]
+[hs_kanasimi]
 「この曲、自分が死んでも、北極星みたいな二等星の星になって[r]　愛する人を見守っていたいって曲だろ？」[p][stopse buf=1]
 #北斗
 「オレの親父も病気で死にかけてたからさ、泣きながら聴いてたよ。[r]　…ここ最近まで、ずっと忘れてたけど。でも、やっと思い出したんだ。」[p][stopse buf=1]
+[mhhide]
 #美波
-[ms/magao]
+[ms_magao]
 「…北斗。」[p][stopse buf=2]
+[mmhide]
+[mask time=500]
+[fkaisou]
+[free_filter]
+[hokuto_s_magao time=0]
+[wait time=100]
+[bg2 storage="kawa_n.jpg" time="200"]
+[mask_off time=500]
 #北斗
-[hs/magao]
 「…なあ爺さん、奥さんがいるって言ってたよな。[r]　あんたが探してる星ってのは、その奥さん…病死した歌手、[r]　北野夕子その人じゃないのか？」[p][stopse buf=1]
+#
+[hide][seizi_hohoemi2]
 #高村
-[s/hohoemi2]
 「…なかなかロマンティックな推理だが、馬鹿げているな。[r]　なんの証拠もない。」[p][stopse buf=3]
 #
 …ここまでの反応は概ね想定通り。[p]
 だから、爺さんにはもう一手を受けてもらう。[r]…自分でも、卑怯だと思う一手を。[p]
+[hide][hokuto_s_metozi]
 #北斗
-[hs/metozi]
 「証拠か。じゃあ、もう一つくらい証拠を示せば、[r]　本当のこと教えてくれる？」[p][stopse buf=1]
 #高村
-[s/magao]
+[s_magao]
 「…なに？」[p][stopse buf=3]
+[mshide]
 #北斗
 [hs/magao]
 「…北野夕子が、息を引き取った病院。」[p][stopse buf=1][vostop]
 #高村
-[s/mu]
+[s_mu]
 「…！」[p][vostart]
+[mshide]
 #北斗
 「北野夕子が都内の病院に入院するなんて、[r]　すぐマスコミにすっぱ抜かれちゃうからな。[r]　だから、北野夕子は亡くなるまで田舎の病院に入院してた。」[p][stopse buf=1]
 [vostop][playse storage=hokuto/hokuto_425_2.ogg loop=false buf=1]
 #北斗
 [hs/metozi]
 「その田舎の病院の名前は、来瀬診療所…昔この町で美波のじいちゃんが[r]　やってた、まだ小さかった頃の病院だ。」[p][stopse buf=1][vostart]
+#
+[hide][minami_s_kanasimi left=680 wait=false][seizi_kanasimi left=-35]
 #高村
-[s/kanasimi]
 「…美波君。」[p][stopse buf=3]
 #美波
 [ms/oogoe]
@@ -202,15 +226,16 @@
 「それで、世間に知られないように、[r]　働いてる看護婦さんやほかの患者さんたちにも絶対口外しないように[r]　お願いして回って大変だったって。」[p][stopse buf=2]
 #美波
 「…その歌手が誰か、っていうのは、教えてくれなかったんですけど。」[p][stopse buf=2]
+#
+[hide][hokuto_s_magao]
 #北斗
-[hs/magao]
 「その歌手の人はペアを組んでた作曲家と結婚してて、[r]　旦那さんの必死な献身ぶりを見てなんとか治してやりたかったけど、[r]　設備も時間も何もかも足りなくて、」[p][stopse buf=1]
 #北斗
 「3年ちょっと生きながらえさせるのが精一杯だったってとこまでは[r]　美波のじいちゃんが教えてくれてた…。」[p][stopse buf=1]
 #北斗
 「ここまでの証拠から、オレはあんたがあの曲の作曲家で、[r]　北野夕子の旦那さんだって思ったんだけど、…違う？」[p][stopse buf=1][vostop]
 #高村
-[s/metozi]
+[seizi_metozi]
 「……」[p][vostart]
 #北斗
 [hs/kanasimi]
@@ -233,19 +258,21 @@
 「…やっぱり。」[p][stopse buf=1]
 #高村
 [s/metozi]
-「北野夕子。本名は高村裕子。キミの調べた通り、彼女の曲を私が[r]　書いて、彼女が歌う…そんなことをやっていた。…もう４０年近く前の話か。」[p][stopse buf=3]
+「北野夕子。本名は高村裕子。キミの調べた通り、[r]　彼女の曲を私が書いて、彼女が歌う…そんなことをやっていた。[r]　…もう４０年近く前の話か。」[p][stopse buf=3]
 #高村
 [s/kanasimi]
 「あいつは乳がんでな…少しご縁があったから、[r]　来瀬先生にお願いしてあの診療所に置いてもらったんだ。[r]　摘出手術なり色々来瀬先生にやってもらった」[p][stopse buf=3]
 #美波
-[ms/magao]
+[ms_magao]
 「…」[p][stopse buf=2]
+[mmhide]
 #高村
 [s/hohoemi2]
 「…初めて君たちに会った時には、気づかなかったがね。[r]　…君たちの父親たちの話を聞いて、驚いたよ。[r]　まさか、美波君はあの来瀬先生の孫娘だとはね。」[p][stopse buf=3]
 #美波
-[ms/kanasimi]
+[ms_kanasimi]
 「…その、祖父が申し訳ありません…」[p][stopse buf=2]
+[mmhide]
 #高村
 [s/hohoemi]
 「いや、キミが気に病むことはない。それに、先生も言っていた。[r]　こんな地方の小さな診療所でいいのかと。[r]　もっと設備が良い、都会の病院の方がいいんじゃないかとね。」[p][stopse buf=3]
@@ -267,10 +294,15 @@
 [hs/odoroki]
 「…！」[p][stopse buf=1]
 #
-[hide]
-[bg2 storage=byousitu.jpg time=500]
-[yuko]
-[s_hohoemi]
+
+[mask time=500]
+[hide time=0]
+[kaisou]
+[bg2 storage=byousitu.jpg time=200]
+[s_hohoemi time=100]
+[filter sepia=50]
+[mask_off time=500]
+
 #高村
 「裕子がな、ここがいいと言ったんだ。[r]　どうせ療養するなら、病室からきれいな星が見える病院がいいと。[r]　…実際、あいつは夜になると窓からよく星を見ていたよ。」[p][stopse buf=3]
 [mshide]
@@ -285,9 +317,14 @@
 #美波
 [ms_kanasimi]
 「…」[p][stopse buf=2]
-[mmhide wait=false][hide]
-[bg2 storage=kawa_n.jpg time=500]
-[seizi_mu]
+[mask time=500]
+[mmhide wait=false][hide time=0]
+[fkaisou]
+[free_filter]
+[seizi_mu time=0]
+[wait time=100]
+[bg2 storage=kawa_n.jpg time=200]
+[mask_off time=500]
 #高村
 「…私は一人残され、裕子はお星さまになってしまったよ。」[p][stopse buf=3]
 #北斗
@@ -298,7 +335,7 @@
 [s/metozi]
 「一人になり、また曲を書き始めようかと思ったが、[r]　どうしても思いつかん。仕事をしなければとわかっていても、[r]　裕子ではない誰かが歌うと思うと、どうしても書けなかった。」[p][stopse buf=3]
 #北斗
-[hs/kanasimi]
+[hs_kanasimi]
 「…奥さんのためじゃないと、書けない…」[p][stopse buf=1]
 [mhhide]
 #高村
