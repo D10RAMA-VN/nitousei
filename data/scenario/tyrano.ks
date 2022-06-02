@@ -154,7 +154,7 @@ tf.savetext = "<span style='font-size:10px'>"+tf.save_date+"</span><br />"+tf.ti
 
 [keyframe name="up2"]
 [frame p="0%" y="0"]
-[frame p="100%" y="--40"]
+[frame p="100%" y="-40"]
 [endkeyframe]
 
 [keyframe name="no"]
@@ -164,10 +164,14 @@ tf.savetext = "<span style='font-size:10px'>"+tf.save_date+"</span><br />"+tf.ti
 [frame p="100%" x=" 0"]
 [endkeyframe]
 
-[keyframe name="left"]
+[keyframe name="bentou"]
 [frame p="0%" x="0"]
-[frame p="50%" x="-40"]
-[frame p="100%" x="0"]
+[frame p="100%" x="+90"]
+[endkeyframe]
+
+[keyframe name="bentou2"]
+[frame p="0%" x="0"]
+[frame p="100%" x="-90"]
 [endkeyframe]
 
 

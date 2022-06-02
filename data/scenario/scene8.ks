@@ -39,7 +39,7 @@
 #美波
 「こんにちは…」[p][stopse buf=2]
 #高村
-[seizi_h_hohoemi2 left=-120]
+[seizi_h_hohoemi2 left=-195]
 「…おや、来てくれたのか」[p][stopse buf=3]
 #美波の父
 「来たのか、2人とも。」[p]
@@ -138,7 +138,7 @@
 #北斗
 「…ふざけんなよ。」[p][stopse buf=1]
 #高村
-[seizi_h_magao left=-120]
+[seizi_h_magao left=-195]
 「…北斗君？」[p][stopse buf=3]
 #北斗
 [hs/iradati]

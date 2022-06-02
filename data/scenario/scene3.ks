@@ -62,7 +62,7 @@
 #教師
 「おい、起きろ、加賀谷！」[p]
 #
-[bg2 storage="class.jpg" time="500"]
+[bg2 storage="class.jpg" width=2500 height=1406 top=-300 left=-290 time="500"]
 #北斗
 [hw/aozame]
 「ぇ…」[p][stopse buf=1]
@@ -88,25 +88,27 @@
 [hw/aozame2]
 「…」[p][stopse buf=1]
 #
-[hide]
+[hide][bg2 storage="class.jpg" time="1000"]
 クラスメイトに肩を貸されて席を立ったあたりから、[r]自分の意識がどんどん薄れていった。[p]
 
 [mask time=500]
-[bg2 storage="hoken.jpg" time="1000"]
+[bg2 storage="hoken.jpg" width=3000 height=1687 left=-700 top=-100 time="1000"]
 [playse storage=se/chime.ogg buf=8]
 [wait time=1000]
 [mask_off time=500]
 #
 チャイムの音で目が覚めた。[r]気が付けば自分は保健室のベッドに寝かされていた。[p]
-[hokuto_s_hutyou]
+[hs_hutyou]
 #北斗
 「あれ、今何時限目だろう…？」[p][stopse buf=1]
+[mhhide]
 #
 だるい身体を起こしてみるが、時計が見当たらない。[p]
 [fadeoutse buf=8 time=1000]
 #北斗
-[hs/mu2]
+[hs_mu2]
 「…あ、」[p][stopse buf=1]
+[mhhide]
 #
 自分が腕時計をしていることを思い出した。大分頭がボーっとしている。[p]
 ちらっと見てみると、１６時を回っている。[p]
@@ -114,13 +116,14 @@
 ぼやけた頭が少しずつだが鮮明になってくる。[p]
 確か２限の数学で倒れたはずだから…[p]
 #北斗
-[hs/kanasimi]
+[hs_kanasimi]
 「…一日寝過ごしたのか、オレ…」[p][stopse buf=1]
+[mhhide]
 #養護
 「あ、起きた？加賀谷君」[p]
-;北斗立ち絵、背景全体
+#
+[bg2 storage="hoken.jpg" time="500"][hokuto_s_mu]
 #北斗
-[hs/mu]
 「あ、先生。」[p][stopse buf=1]
 #養護
 「大丈夫？」[p]
@@ -176,11 +179,10 @@
 [hide]
 自分がうなずくと、先生は出ていった。[p]
 廊下で何か話していたかと思うと、[r]入れ替わりで少し赤い顔をした美波が入ってきた。[p]
-[minami_s_uwame]
+[minami_s_uwame left=40 wait=false][hokuto_s_bishou left=640]
 #美波
 「…北斗、大丈夫？」[p][stopse buf=2]
 #北斗
-[move name=minami left=40][hokuto_s_bishou left=640]
 「うん、とりあえず。」[p][stopse buf=1]
 #美波
 [ms/dere]
@@ -199,7 +201,7 @@
 [hs/hutyou]
 「…悪い。」[p][stopse buf=1]
 #
-[hide]
+[hide][bg2 storage="hoken.jpg" width=3000 height=1687 left=-700 top=-100 time="1000"]
 正直まだ少しだるいので、この気遣いがとてもありがたい。[p]
 #北斗
 [hs_mu]
@@ -356,7 +358,7 @@
 #美波
 「……」[p][stopse buf=2]
 #
-[bg2 storage=hoken.jpg time=500]
+[bg2 storage="hoken.jpg" width=3000 height=1687 left=-700 top=-100 time="500"]
 ゆっくりと起き上がって、ただ、口にする。[p]
 [fadeoutbgm time=500]
 #北斗
@@ -450,7 +452,7 @@
 「……」[p][stopse buf=2]
 #
 [playse storage="se/step_fast.ogg" buf=8 sprite_time=0-2000]
-[hide]
+[hide time=100]
 オレがそういうと、美波は飛び出すように保健室を出ていった。[p]
 #養護
 「…加賀谷君？その、お母さんと連絡がついたけど…」[p]

@@ -27,7 +27,7 @@
 [wait time=500]
 [anim layer=base top="-=1000" time=120000]
 [mask_off time=1000]
-
+[minami_s_magao][hokuto_s_magao][seizi_mu]
 *1
 #？？？
 [playse storage=seizi/takamura_first.ogg loop=false buf=3]
@@ -700,7 +700,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [fadeoutbgm time=500]
 #
 その時初めて、爺さんはこっちを向いてくれた。[p]
-[chara_move name="hokuto" time=700 left=360 anim=true wait=false][chara_move name="seizi" time=700 left=-120 anim=true wait=false][minami_w_odoroki left=840]
+[chara_move name="hokuto" time=700 left=360 anim=true wait=false][chara_move name="seizi" time=700 left=-195 anim=true wait=false][minami_w_odoroki left=840]
 #美波
 「ちょっと、何勝手に言ってるのよ。…すいませんホントに。」[p][stopse buf=2]
 #老人
@@ -1042,7 +1042,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #高村
 「いやいや。しかし、せっかくなら美波君にちなんで、[r]　南にかかわる星も見てみたいところだが。[r]　南とつく星座と言えば南十字星だけれどもなあ。」[p][stopse buf=3]
 #
-[chara_move name="hokuto" time=700 left=360 wait=false anim=true][chara_move name="seizi" time=700 left=-120 wait=false anim=true][minami_w_bishou left=840]
+[chara_move name="hokuto" time=700 left=360 wait=false anim=true][chara_move name="seizi" time=700 left=-195 wait=false anim=true][minami_w_bishou left=840]
 #美波
 「南十字星、サザンクロス、ですか？」[p][stopse buf=2]
 #北斗

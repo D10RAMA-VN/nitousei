@@ -29,7 +29,7 @@
 今日は、なんとしても、爺さんに聞かなければならないことがある。[p]
 [mask time=500]
 [bg2 storage="kawa_n.jpg" time="500"]
-[minami_s_bishou left=840 time=0][hokuto_s_magao time=0 left=360][seizi_hohoemi left=-120 time=0]
+[minami_s_bishou left=840 time=0][hokuto_s_magao time=0 left=360][seizi_hohoemi left=-195 time=0]
 [mask_off time=500]
 #北斗
 「…爺さん」[p][stopse buf=1]
@@ -49,6 +49,7 @@
 [s/hohoemi]
 「なに、野良猫にちょいとかつぶしなどやっていたところだ。」[p][stopse buf=3]
 #
+[hide][bg2 storage="kawa_n.jpg" width=2300 height=1294 left=-170 top=-220 time="500"]
 見れば、[r]白い野良猫がかがんだ爺さんの手から鰹節や煮干しをほおばっていた。[p]
 #北斗
 [hs/odoroki]
@@ -70,6 +71,7 @@
 「…おお、あとは巣に持ち帰るのか？落とすなよ」[p][stopse buf=3]
 #
 爺さんが言い切る前に、ネコは鉄橋の方へかけていった。[p]
+[bg2 storage="kawa_n.jpg" time="500"]
 #高村
 「さて、今日はどのあたりを眺めようか。」[p][stopse buf=3]
 #北斗
@@ -131,9 +133,9 @@
 #北斗
 [hs/kanasimi]
 「それだけじゃない。この曲…最近、[r]　部活でこの曲弾くことになったんですけど、[r]　ずっとひっかかってて。」[p][stopse buf=1]
-[vostop][playse storage=hokuto/hokuto_416_1.ogg loop=false buf=1]
+[voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_416_{number}.ogg" number=1 ]
 #北斗
-「でもなんか懐かしさみたいなものを感じたんだ。[r]　それが何だったのか、ずっと思い出せなかったんだけど…」[p][stopse buf=1][vostart]
+「でもなんか懐かしさみたいなものを感じたんだ。[r]　それが何だったのか、ずっと思い出せなかったんだけど…」[p][stopse buf=1][voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=417 ]
 #北斗
 [hs/bishou]
 「…昔ガキのころ、[r]　親父と病院のロビーでTV見てたらさ、歌番組やってたんだよ。[r]　一昔前、団塊ジュニア向けに７０～８０年代歌謡曲特集とか多くてさ。」[p][stopse buf=1]
@@ -326,7 +328,7 @@
 #高村
 「だが…そうでもしなければ、私は生きていられなかったんだ。」[p][stopse buf=3]
 #
-[move name=seizi left=-120 wait=true][hokuto_s_magao left=360]
+[move name=seizi left=-195 wait=true][hokuto_s_magao left=360]
 #北斗
 「…ちょっとわかるよ、爺さんの気持ち。[r]　というか、これも爺さんに教えられたようなもんだけど。」[p][stopse buf=1]
 #北斗

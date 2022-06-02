@@ -23,7 +23,7 @@
 #
 *chapter5
 [fadeinbgm storage="bg/river.ogg" time=1000]
-[hokuto_s_magao]
+[hokuto_s_magao left=710 wait=false][minami_s_tun left=10]
 #北斗
 「…おはよ」[p][stopse buf=1]
 #美波
@@ -71,7 +71,7 @@
 わかっていたのに、どうしようもない。[p]
 だが、この沈黙を破ったのは、意外にも美波の方だった。[p]
 #美波
-[ms/uwame]
+[ms/uwame][anim name=minami left=+90 time=500]
 「…はい、これ。」[p][stopse buf=2]
 #北斗
 [hs/odoroki]
@@ -101,12 +101,12 @@
 …流石に、ここまでくれば受け取らない方が失礼だろう。[p]
 #北斗
 [hs/bishou]
-「…そっか。じゃあ、ありがたく。」[p][stopse buf=1]
+「…そっか。じゃあ、ありがたく。」[p][stopse buf=1][anim name=hokuto left=630 time=500]
 #美波
 [ms/tere]
 「…でも。」[p][stopse buf=2]
 #北斗
-[hs/magao]
+[hs/magao][stopse buf=1]
 「ん？」[p][stopse buf=1]
 #美波
 [ms/dere2]
@@ -117,14 +117,17 @@
 #美波
 [ms/dere]
 「…うん。」[p][stopse buf=2]
+#
+[mhide]
 #北斗
 [hs/mu]
 「…？」[p][stopse buf=1]
 #
+[hide]
 美波がこちらに顔を向けようとしない。[p]
 美波本人は自分のことを許していないのに、[r]おばさんが、自分の世話を焼くものだから、色々と複雑なのだろうか？[p]
 #北斗
-[hs/metozi]
+[hokuto_s_metozi]
 「（…そりゃあ、美波もよくわからなくもなるか…）」[p][stopse buf=1]
 #
 結局答えが出ないまま、すぐに学校についてしまった。[p]
@@ -225,7 +228,8 @@
 「…いや、なんでもないです。いただきます。」[p][stopse buf=1]
 #
 卵焼きを一口かじってみる。[p]
-流石にまっ黒焦げというほど焦げてはいないが、固焼き。味もなんだか、[r]塩か醤油が多いのか、火が通り過ぎて甘味が飛んでしまったのか、[r]なんだかしょっぱい感じがする。[p]
+流石にまっ黒焦げというほど焦げてはいないが、固焼き。[p]
+味もなんだか、塩か醤油が多いのか、[r]火が通り過ぎて甘味が飛んでしまったのか、[r]なんだかしょっぱい感じがする。[p]
 [hide]
 #北斗
 [hokuto_s_akire]
@@ -237,7 +241,8 @@
 
 [mask time=500]
 [hide time=0]
-[bg2 storage="kateika.jpg" time="500"]
+;[bg2 storage="kateika.jpg" time="500"]
+[bg2 storage="white.jpg" time="500"]
 [mask_off time=500]
 
 #北斗
@@ -252,7 +257,7 @@
 「北斗…？」[p][stopse buf=2]
 #北斗
 「大丈夫。オレ、濃い味好きだから！」[p][stopse buf=1]
-[fadeoutbgm time=500]
+;[fadeoutbgm time=500]
 [mask time=500]
 [bg2 storage="ongaku.jpg" height=1554 top="-200" time="500"]
 [hs/odoroki time=0]
@@ -287,7 +292,7 @@
 「…どこが少しだ、めちゃめちゃ粗末だぞ…あの嘘つき。」[p][stopse buf=1]
 #
 その嘘つきお手製の弁当を、味わいながらもかきこんでいった。[p]
-
+[fadeoutbgm time=500]
 [mask time=500]
 [hide][reito_kanasimi left=40 time=0][hokuto_s_bishou left=680 time=0]
 [mask_off time=500]
@@ -313,27 +318,30 @@
 「…わかった。」[p][stopse buf=5]
 
 [mask time=500]
-[wait time=500]
+[hide time=500]
+[bg2 storage="ongaku.jpg" width=2250 height=1750 top="-300" left=-165 time=0]
 [mask_off time=500]
 ;[演奏]
 #北斗
-[hs/aseri]
+;[hs/aseri]
 「（…！テンポがずれた…）」[p][stopse buf=1]
 #令人
-[r/magao]
+;[r/magao]
 「……」[p][stopse buf=5]
 #北斗
 「（……続けてくれている…焦らず、合わせて…）」[p][stopse buf=1]
 #令人
 「……」[p][stopse buf=5]
 #北斗
-[hs/metozi]
+;[hs/metozi]
 「(TAB譜や曲のテンポよりも、先輩のリズムに合わせて、[r]　そしてこの音の流れの中で、自分の居場所を見つけるように、[r]　しっかりと先輩のリズムを聞いて…)[p][stopse buf=1]
 #令人
-[r/bishou]
-「…」(微笑み)[p][stopse buf=5]
+;[r/bishou]
+「…」[p][stopse buf=5]
 
 [mask time=500]
+[bg2 storage="ongaku.jpg" height=1554 top="-200" time="0"]
+[reito_bishou left=40 time=0][hokuto_s_bishou left=680]
 [mask_off time=500]
 #令人
 「…どうだった？」[p][stopse buf=5]
@@ -454,10 +462,15 @@
 私は曲が終わるまで、ドアの前で立ちながら、[r]ただその音に耳をすませていた。[p]
 
 [mask tim=500]
-[hokuto_s_egao2 time=0]
 [bg2 storage=ongaku.jpg height=1554 top="-200" time=500]
 [mask_off time=500]
+
+[image storage=hokuto_view.png layer=1 visible=true width=483 height=211 time=700]
+[wait time=500]
+[freeimage layer=1 time=700]
+
 #北斗
+[hokuto_s_egao2]
 「お、おはよう美波」[p][stopse buf=1]
 #美波
 [minami_s_tun2]
