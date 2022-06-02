@@ -27,7 +27,7 @@
 [wait time=500]
 [anim layer=base top="-=1000" time=120000]
 [mask_off time=1000]
-[minami_s_magao][hokuto_s_magao][seizi_mu]
+
 *1
 #？？？
 [playse storage=seizi/takamura_first.ogg loop=false buf=3]

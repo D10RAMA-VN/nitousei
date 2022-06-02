@@ -52,26 +52,33 @@
 [hide][bg2 storage="kawa_n.jpg" width=2300 height=1294 left=-170 top=-220 time="500"]
 見れば、[r]白い野良猫がかがんだ爺さんの手から鰹節や煮干しをほおばっていた。[p]
 #北斗
-[hs/odoroki]
+[hs_odoroki]
 「ちょ、ダメじゃないですか、野良猫に餌なんかあげちゃ。」[p][stopse buf=1]
+[mhhide]
 #高村
-[s/kuti]
+[s_kuti]
 「はは、まあそうなんだがな。こいつ、あの鉄橋の下を住処にしてるのか、[r]　時折出てくるんだよ。…こんな器量のいいやつが、な。」[p][stopse buf=3]
+[mshide]
 #美波
-[ms/kanasimi]
+[ms_kanasimi]
 「…ホント、かわいいですね。それに、なんだか外国産の品種みたい。」[p][stopse buf=2]
+[mmhide]
 #高村
-[s/kanasimi]
+[s_kanasimi]
 「こんなのが元々ノラのわけがない。大方人に捨てられたんだろう。[r]　そんなやつが、まともにエサ取りなどできないだろうと思ってな。」[p][stopse buf=3]
+[mshide]
 #北斗
-[hs/magao]
+[hs_magao]
 「…」[p][stopse buf=1]
+[mhhide]
 #高村
-[s/hohoemi]
+[s_hohoemi]
 「…おお、あとは巣に持ち帰るのか？落とすなよ」[p][stopse buf=3]
+[mshide]
 #
 爺さんが言い切る前に、ネコは鉄橋の方へかけていった。[p]
 [bg2 storage="kawa_n.jpg" time="500"]
+[minami_s_bishou left=840 wait=false][hokuto_s_magao wait=false left=360][seizi_hohoemi left=-195]
 #高村
 「さて、今日はどのあたりを眺めようか。」[p][stopse buf=3]
 #北斗
