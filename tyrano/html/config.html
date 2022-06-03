@@ -14,38 +14,46 @@
    <div class='content1'>
 	<div class="config_body">
 			<div class="range">
-				<p><span style="display:inline-block;margin-top:60px;margin-left:-200px;width:300px;text-align:right;">BGM 音量</span></p>
-				<input type="range" id="bgm_volume" min="0" max="100" step="1" value="50" style="left:145px;top:81px;position:absolute;">
+				<p><span style="display:inline-block;margin-top:40px;margin-left:-200px;width:300px;text-align:right;">BGM 音量</span></p>
+				<input type="range" id="bgm_volume" min="0" max="100" step="1" value="50" style="left:145px;top:61px;position:absolute;">
 			</div>
 			<div class="range">
 				<span style="display:inline-block;margin-top:30px;margin-left:-200px;width:300px;text-align:right;">SE 音量</span>
-				<input type="range" id="se_volume" min="0" max="100" value="20" step="1" style="left:145px;top:163px;position:absolute;">
+				<input type="range" id="se_volume" min="0" max="100" value="20" step="1" style="left:145px;top:143px;position:absolute;">
 			</div>
 			<div class="range"> 
 				<p><span style="display:inline-block;margin-top:30px;margin-left:-200px;width:300px;text-align:right;">ボイス音量</span></p>
-				<input type="range" id="vo_volume" min="0" max="100" step="1" value="50" style="left:145px;top:246px;position:absolute;">
+				<input type="range" id="vo_volume" min="0" max="100" step="1" value="50" style="left:145px;top:226px;position:absolute;">
 			</div>
 			<div class="range">
 				<span style="display:inline-block;margin-top:65px;margin-left:-200px;width:300px;text-align:right;">テキスト速度</span>
-				<input type="range" id="text_speed" min="-100" max="0" value="-30" step="1" style="left:145px;top:363px;position:absolute;">
+				<input type="range" id="text_speed" min="-100" max="0" value="-30" step="1" style="left:145px;top:343px;position:absolute;">
 			</div>
 			<div class="range">
 				<span style="display:inline-block;margin-top:30px;margin-left:-200px;width:300px;text-align:right;">オートモード速度</span>
-				<input type="range" id="auto_speed" min="-5000" max="-500" value="-1300" step="100" style="left:145px;top:446px;position:absolute;">
+				<input type="range" id="auto_speed" min="-5000" max="-500" value="-1300" step="100" style="left:145px;top:426px;position:absolute;">
 			</div>
 			<span style="display:inline-block;margin-top:30px;margin-left:-200px;width:300px;text-align:right;">未読スキップ</span>
-            <div class="unread_area" id="unread_check" style="left:60px;top:494px;position:absolute;font-family:ubuntu-italic;">
+            <div class="unread_area" id="unread_check" style="left:60px;top:474px;position:absolute;font-family:ubuntu-italic;">
                 <input type="radio" name="unread_skip" id="unreadon">
                 <label for="unreadon">ON</label>
                 <input type="radio" name="unread_skip" id="unreadoff">
                 <label for="unreadoff">OFF</label>
             </div>
             
-            <div class=min_max style="left:133px;top:67px;">min</div><div class=min_max style="left:810px;top:68px;">MAX</div>
-            <div class=min_max style="left:133px;top:147px;">min</div><div class=min_max style="left:810px;top:148px;">MAX</div>
-            <div class=min_max style="left:133px;top:230px;">min</div><div class=min_max style="left:810px;top:231px;">MAX</div>
-            <div class=min_max style="left:133px;top:345px;">min</div><div class=min_max style="left:810px;top:346px;">MAX</div>
-            <div class=min_max style="left:133px;top:429px;">min</div><div class=min_max style="left:810px;top:430px;">MAX</div>
+            <span style="display:inline-block;margin-top:30px;margin-left:-200px;width:300px;text-align:right;">フルスクリーン</span>
+            <div class="screen_area" id="screen_check" style="left:60px;top:556px;position:absolute;font-family:ubuntu-italic;">
+                <input type="radio" name="fullscreen" id="fullscreenOn">
+                <label for="fullscreenOn">ON</label>
+                <input type="radio" name="fullscreen" id="fullscreenOff">
+                <label for="fullscreenOff">OFF</label>
+            </div>
+            
+            <div class=min_max style="left:133px;top:47px;">min</div><div class=min_max style="left:810px;top:48px;">MAX</div>
+            <div class=min_max style="left:133px;top:127px;">min</div><div class=min_max style="left:810px;top:128px;">MAX</div>
+            <div class=min_max style="left:133px;top:210px;">min</div><div class=min_max style="left:810px;top:211px;">MAX</div>
+            <div class=min_max style="left:133px;top:325px;">min</div><div class=min_max style="left:810px;top:326px;">MAX</div>
+            <div class=min_max style="left:133px;top:409px;">min</div><div class=min_max style="left:810px;top:410px;">MAX</div>
 	</div>
    </div>
    <div class='content2'>
@@ -303,6 +311,41 @@ $('.config_quit').click(function(){tyrano.plugin.kag.ftag.startTag("close")});
 				}else{
 					text_skip ="ON";
 					tyrano.plugin.kag.ftag.startTag("config_record_label",{skip: "true"});
+				}
+			});
+	   });
+	   
+	   $(function(){
+	   	   var fullscreen ="Off";
+	       if ((document.fullscreenElement !== undefined && document.fullscreenElement !== null) || // HTML5 標準
+              (document.mozFullScreenElement !== undefined && document.mozFullScreenElement !== null) || // Firefox
+              (document.webkitFullscreenElement !== undefined && document.webkitFullscreenElement !== null) || // Chrome・Safari
+              (document.webkitCurrentFullScreenElement !== undefined && document.webkitCurrentFullScreenElement !== null) || // Chrome・Safari (old)
+              (document.msFullscreenElement !== undefined && document.msFullscreenElement !== null)){ // IE・Edge Legacy
+                   fullscreen=="ON";
+           } else {
+                   fullscreen=="OFF";
+           };
+           
+           if(fullscreen=="ON"){
+				$('#fullscreenOn').prop('checked', true);$('#fullscreenOff').prop('checked', false);
+			}else{
+				$('#fullscreenOn').prop('checked', false);$('#fullscreenOff').prop('checked', true);
+			};
+			$('#fullscreenOn').change(function(){
+				if( $(this).prop('checked') ){
+					fullscreen ="ON";
+					tyrano.plugin.kag.menu.screenFull();
+				}else{
+					fullscreen ="OFF";
+				}
+			});
+			$('#fullscreenOff').change(function(){
+				if( $(this).prop('checked') ){
+					fullscreen ="OFF";
+					tyrano.plugin.kag.menu.screenFull();
+				}else{
+					fullscreen ="ON";
 				}
 			});
 	   });

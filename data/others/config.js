@@ -115,3 +115,39 @@ $(function(){
 		}
 	});
 });
+
+
+	   $(function(){
+	   	   var fullscreen ="Off";
+	       if ((document.fullscreenElement !== undefined && document.fullscreenElement !== null) || // HTML5 標準
+              (document.mozFullScreenElement !== undefined && document.mozFullScreenElement !== null) || // Firefox
+              (document.webkitFullscreenElement !== undefined && document.webkitFullscreenElement !== null) || // Chrome・Safari
+              (document.webkitCurrentFullScreenElement !== undefined && document.webkitCurrentFullScreenElement !== null) || // Chrome・Safari (old)
+              (document.msFullscreenElement !== undefined && document.msFullscreenElement !== null)){ // IE・Edge Legacy
+                   fullscreen=="ON";
+           } else {
+                   fullscreen=="OFF";
+           };
+           
+           if(fullscreen=="ON"){
+				$('#fullscreenOn').prop('checked', true);$('#fullscreenOff').prop('checked', false);
+			}else{
+				$('#fullscreenOn').prop('checked', false);$('#fullscreenOff').prop('checked', true);
+			};
+			$('#fullscreenOn').change(function(){
+				if( $(this).prop('checked') ){
+					fullscreen ="ON";
+					tyrano.plugin.kag.menu.screenFull();
+				}else{
+					fullscreen ="OFF";
+				}
+			});
+			$('#fullscreenOff').change(function(){
+				if( $(this).prop('checked') ){
+					fullscreen ="OFF";
+					tyrano.plugin.kag.menu.screenFull();
+				}else{
+					fullscreen ="ON";
+				}
+			});
+	   });

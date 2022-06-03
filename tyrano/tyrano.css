@@ -227,8 +227,9 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 input[type="range"]::-webkit-slider-thumb:hover {
-    width: 32px; 
-    height: 32px; 
+    width: 32px;
+    height: 32px;
+    background: #fff;
 }
 
 
@@ -282,6 +283,58 @@ input[type="range"]::-webkit-slider-thumb:hover {
     color: #fff;
     opacity:1;
 }
+
+ /* === ボタンを表示するエリア ============================== */
+.screen_area {
+  position       : relative;            /* 親要素が基点       */
+  margin         : auto;                /* 中央寄せ           */
+  width          : 400px;               /* ボタンの横幅       */
+  height         : 60px;                /* ボタンの高さ       */
+}
+ 
+ /* === ラジオボタン ======================================== */
+.screen_area input[type="radio"] {
+  display        : none;            /* チェックボックス非表示 */
+}
+ 
+ /* === ラジオボタンのラベル（標準） ======================== */
+.screen_area label {
+  top            : 0;                   /* 標準表示位置(上)   */
+  bottom         : 0;                   /* 標準表示位置(下)   */
+  left           : 0;                   /* 標準表示位置(左)   */
+  right          : 0;                   /* 標準表示位置(右)   */
+  text-align     : center;              /* 文字位置は中央     */
+  line-height    : 60px;                /* 1行の高さ(中央寄せ)*/
+  font-size      : 28pt;                /* 文字サイズ         */
+  font-weight    : bold;                /* 太字               */
+  cursor		 : pointer;
+}
+
+ /* === ON側のラジオボタンのラベル（標準） ================== */
+.screen_area #fullscreenOn + label {
+  color:#606589;
+  opacity:0.7;
+}
+ 
+ /* === ON側のラジオボタンのラベル（ONのとき） ============== */
+.screen_area #fullscreenOn:checked +label {
+  color: #fff;
+  opacity:1;
+}
+ 
+ /* === OFF側のラジオボタンのラベル（標準） ================ */
+.screen_area #fullscreenOff + label {
+  margin-left:50px;
+  color:#606589;
+  opacity:0.7;
+}
+ 
+ /* === OFF側のラジオボタンのラベル（OFFのとき） ============= */
+.screen_area #fullscreenOff:checked +label {
+    color: #fff;
+    opacity:1;
+}
+
 
 .c1:hover:after{
   opacity:0.6;
@@ -825,16 +878,36 @@ body{
 audio {
   display: none
 }
+.act{
+	width:100%;
+	height:100%;
+}
 #play{
   position:absolute;
-  top:320px;
-  left:650px;
+  top:490px;
+  left:790px;
+  width:38px;
+  height:51px;
   cursor:pointer;
-  transition:.3s;
 }
-#play:hover,#bmusic:hover,#nmusic:hover{
-  opacity: 0.7;
+
+
+.img_container img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 100%;
+	display: block;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
+.img_container:hover img:nth-of-type(2) {
+	opacity: 0;
+}
+
+
 #time {
   margin: 0 1em;
 }
@@ -845,21 +918,25 @@ audio {
 
 #seekbar {
   width: 300px;
-  height: 7px;
+  height: 5px;
   margin: 1em;
-  background: linear-gradient(#000, #000) no-repeat #eee;
+  background: linear-gradient(#606589, #606589) no-repeat #fff;
 }
 
 .m_title{
   padding-left:5px; 
   font-size:24px;
-  font-family:applimincho;
+  font-family:Noto;
+  color:#606589;
   margin-bottom:19px;
   border-left: 4px solid rgba(0,0,0,0);
   cursor:pointer;
   transition: .3s;
 }
 
+.m_title:hover{
+  color:#fff;
+}
 
 #bgm1{
   border-left: 4px solid rgba(0,0,0,1);
