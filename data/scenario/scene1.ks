@@ -590,7 +590,7 @@ PM20:00。明日は主要3教科がそろっているので相当予習がきつ
 [mask graphic="cut/cutin_takamura.png" time=1500]
 [vostop]
 [wait time=500]
-[playbgm storage=eyecatch.ogg]
+[playbgm storage=eyecatch.ogg loop="false"]
 [voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=137 ]
 [voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=100 ]
 [voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=64 ]

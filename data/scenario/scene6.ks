@@ -554,7 +554,7 @@
 
 [mask graphic="cut/cutin_kaname.png" time=1500]
 [wait time=500]
-[playbgm storage=eyecatch2.ogg]
+[playbgm storage=eyecatch2.ogg  loop="false"]
 [hide time=0]
 [voconfig sebuf=2 name="minami" vostorage="minami2/minami_ha{number}.ogg" number=1 ]
 [bg2 storage=class.jpg time=6000][stopbgm]

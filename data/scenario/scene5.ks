@@ -860,7 +860,7 @@
 
 [mask graphic="cut/cutin_nao.png" time=1500]
 [wait time=500]
-[playbgm storage=eyecatch.ogg]
+[playbgm storage=eyecatch.ogg  loop="false"]
 [hide time=0]
 [bg2 storage=michi_n.jpg time=4000][stopbgm]
 [mask_off time=500]

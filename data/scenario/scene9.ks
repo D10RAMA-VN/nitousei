@@ -197,7 +197,7 @@
 
 [mask graphic="cut/cutin_hokuto.png" time=1500]
 [wait time=500]
-[playbgm storage=endofkyoku2.ogg]
+[playbgm storage=eyecatch2.ogg loop="false"]
 [bg2 storage=ongaku.jpg height=1554 top="-200" time=8000][stopbgm]
 [minami_s_bishou left=40 time=0][hokuto_s_kanasimi left=640 time=0]
 [mask_off time=1500]
