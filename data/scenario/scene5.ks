@@ -235,14 +235,14 @@
 [hokuto_s_akire]
 「…なんだこれ。」[p][stopse buf=1]
 #
-[fadeinbgm storage=kaisou.ogg time=1000]
 何かの時におばさんに食べさせてもらっただし巻き卵は、[r]もっと砂糖たっぷりでふんわり甘い感じだったような。[p]
 というか、こういう味のひどい料理、どっかで食べたような…？[p]
 
 [mask time=500]
 [hide time=0]
 ;[bg2 storage="kateika.jpg" time="500"]
-[bg2 storage="white.jpg" time="500"]
+[bg2 storage="white.jpg" time="1000"]
+[fadeinbgm storage=kaisou.ogg time=1000]
 [mask_off time=500]
 
 #北斗
@@ -456,7 +456,7 @@
 そうやって、今日のことなんかなかったことのように、[r]明日からまた今までと変わらないように過ごしていければいいんだ。[p]
 そう意を決して、部室のドアに手をかけた。[p]
 [stopbgm]
-;（二等星になって　ギターソロ）[p]
+[fadeinbgm time=1000 storage=nitousei_wall.ogg]
 #美波
 「…？！」[p][stopse buf=2]
 #
@@ -467,9 +467,9 @@
 でも、明らかに違う。テンポが違う。音の伸びが違う。[p]
 ずっと聞いていたくなるような、でもどこか切なくなるような、[r]引き込まれるようなギターの音。[p]
 私は曲が終わるまで、ドアの前で立ちながら、[r]ただその音に耳をすませていた。[p]
-
+[fadeoutbgm time=1000]
 [mask tim=500]
-[bg2 storage=ongaku.jpg height=1554 top="-200" time=500]
+[bg2 storage=ongaku.jpg height=1554 top="-200" time=1500]
 [mask_off time=500]
 
 [image storage=hokuto_view.png layer=1 visible=true width=483 height=211 time=700]
@@ -635,6 +635,7 @@
 「…その。」[p][stopse buf=2]
 #美波
 「…その、実は…」[p][stopse buf=2]
+[fadeinbgm storage=kaisou.ogg time=1000]
 #美波
 [ms/magao2]
 「…先週の金曜、ちょっと話したの。…高村さんと。」[p]
@@ -788,11 +789,12 @@
 #美波
 [ms/dere]
 「…ん。」[p][stopse buf=2]
-
+[fadeoutbgm time=1000]
 [mask time=500]
 [hide time=0][kaname_niyake left=-80 wait=false][nao_niko left=460 wait=false][reito_komari left=850]
-[bg2 storage="rouka_s.jpg" time="500"]
+[bg2 storage="rouka_s.jpg" time="1500"]
 [mask_off time=500]
+[fadeinbgm time=1000 storage=nichijo.ogg]
 #奏女
 「…ですって聞きました奥さん？」[p][stopse buf=6]
 #七音
@@ -818,10 +820,10 @@
 #奏女
 [kaname_bishou left=-80]
 「シ～！2人にばれちゃうでしょ？」[p][stopse buf=6]
-
+[fadeoutbgm time=1000]
 [mask time=500]
 [hide time=0][minami_s_dere left=40 time=0][hokuto_s_magao left=640 time=0]
-[bg2 storage=ongaku.jpg height=1554 top="-200" time=500]
+[bg2 storage=ongaku.jpg height=1554 top="-200" time=1500]
 [mask_off time=500]
 #美波
 「（どうしようどうしようどうしよう…）」[p][stopse buf=2]

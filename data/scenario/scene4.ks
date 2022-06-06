@@ -257,7 +257,7 @@
 [s/hohoemi2]
 「思えば、最初にこれを教えておけばよかったかな。」[p][stopse buf=3]
 #
-[hide]
+[hide][fadeinbgm storage=seiji.ogg time=1000]
 そういって、爺さんは天に向かって指をさした。[p]
 [bg2 storage="seiza/419dipper.png" width=2279 height=1909 time=500 left=-300 top=-350]
 その指先にあるのは、北斗七星。[p]
@@ -335,7 +335,7 @@
 #
 [mshide]
 爺さんの意図することが、なんとなく読めた。…とはいえ。[p]
-[bg2 storage=kawa_n.jpg time=500]
+[bg2 storage=kawa_n.jpg time=500][fadeoutbgm time=1000]
 [hokuto_s_akire left=680 wait=false][seizi_hohoemi left=15]
 #北斗
 「…爺さん、言いたいことはわかるけど、クサすぎだよ…」[p][stopse buf=1]

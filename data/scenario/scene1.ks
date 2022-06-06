@@ -26,6 +26,7 @@
 [mask_off time=1000]
 #
 *chapter1
+[fadeinbgm time=1000 storage=hokuto_A.ogg]
 #奏女
 「それじゃ、名簿のここにサインして…」[p][stopse buf=6]
 #美波
@@ -113,11 +114,11 @@
 #
 [hide][kaname_magao left=-80 wait=false][nao_magao left=460 wait=false][reito_magao left=850]
 #三人
-「「「おもしろくあれ」」」[p][stopse buf=4]
+「「「おもしろくあれ」」」[p][stopse buf=4][stopbgm]
 #
 [hide][minami_w_tun left=40 wait=false][hokuto_w_aseri left=640]
 #二人
-「「…はい？」」[p][stopse buf=1]
+「「…はい？」」[p][stopse buf=1][fadeinbgm storage=hokuto_A.ogg time=1000]
 #
 [hide][nao_kanasimi]
 #七音
@@ -302,12 +303,19 @@
 #七音
 [n/niko3][kanim name="nao" keyframe="nod" time="500"]
 「うんうん、良くなってきた。去年のより明らかに良いよー！」[p][stopse buf=4]
-
+#
+[hide]
+[bg2 storage=still_busoku.png time=500]
+軽音部部則[p]
+一、いつでもみんな仲良く！[p]
+二、マジメさと面白さは両立させるべし！[p]
+みんなで守ろうね！　カナメ[p]
+[fadeoutbgm time=1000]
 [mask time=500]
-[wait time=700]
+[wait time=1500]
 [nao_magao left=460 time=0][reito_magao time=0 left=850][kaname_magao left=-80 time=0]
+[bg2 storage="ongaku.jpg" height=1554 top="-200" time="0"]
 [mask_off time=500]
-[fadeoutbgm time=500]
 #七音
 [n/bishou]
 「よし。部則についてはこんなところで。[r]　じゃあ次は、ライブについてだね。」[p][stopse buf=4]
@@ -540,6 +548,7 @@ PM20:00。明日は主要3教科がそろっているので相当予習がきつ
 [mask time=500]
 [kaisou]
 [bg2 storage="byousitu.jpg" time="1000"]
+[fadeinbgm storage=BGM4.ogg time=1000]
 [mask_off time=500]
 
 #？？？
@@ -562,10 +571,10 @@ PM20:00。明日は主要3教科がそろっているので相当予習がきつ
 「嘘つき…美波もおじさんもうそつき！」[p][stopse buf=1]
 #
 少年が、泣きべそをかいている。[p]
-
+[fadeoutbgm time=1000]
 [mask time=500]
 [fkaisou]
-[bg2 storage="heya.jpg" time="500"]
+[bg2 storage="heya.jpg" time="1500"]
 [mask_off time=500]
 [playse storage="se/alarm.ogg" buf=8][playse  storage="se/futon.ogg" buf=9]
 #北斗

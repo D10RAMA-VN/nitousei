@@ -269,6 +269,7 @@
 #北斗
 [hs/kanasimi]
 「…やっぱり。」[p][stopse buf=1]
+[fadeinbgm storage=seiji.ogg time=1000]
 #高村
 [s/metozi]
 「北野夕子。本名は高村裕子。キミの調べた通り、[r]　彼女の曲を私が書いて、彼女が歌う…そんなことをやっていた。[r]　…もう４０年近く前の話か。」[p][stopse buf=3]
@@ -384,6 +385,7 @@
 「馬鹿げていると思っているだろう、美波君。…私にだってわかっている。[r]　不毛な真似をしているとな。」[p][stopse buf=3]
 #高村
 「だが…そうでもしなければ、私は生きていられなかったんだ。」[p][stopse buf=3]
+[fadeoutbgm time=1000]
 #
 [move name=seizi left=-195 wait=true][hokuto_s_magao left=360]
 #北斗
@@ -422,6 +424,7 @@
 #美波
 [ms/magao2]
 「…なんの話？」[p][stopse buf=2]
+[fadeinbgm storage=bg/river.ogg time=1000]
 #北斗
 [hs/magao]
 「なんでもない。[r]　…さて、爺さん、あんまり根ほり葉ほり聞いて悪かった。」[p][stopse buf=1]
@@ -542,7 +545,7 @@
 「それはそうね。ぜひ来てください」[p][stopse buf=2]
 #高村
 [s/hohoemi2]
-「…うん、楽しみにさせてもらおうかな。…行ければの話だが」[p][stopse buf=3]
+「…うん、楽しみにさせてもらおうかな。…行ければの話だが」[p][stopse buf=3][fadeoutbgm time=1000]
 #北斗
 [hs/magao]
 「（…？）」[p][stopse buf=1]

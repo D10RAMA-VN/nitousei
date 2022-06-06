@@ -222,11 +222,12 @@
 #北斗
 [hs/egao2]
 「ああ。昔からずっと。」[p][stopse buf=1]
-[fadeoutbgm time=500]
+[fadeoutbgm time=1000]
 #
 [mask time=500]
 [hide]
-[bg2 storage=still_hokuto.png time=500]
+[bg2 storage=still_hokuto.png time=1500]
+[fadeinbgm storage=kaisou.ogg time=1000]
 [mask_off time=500]
 #北斗
 「オレ、親父が死んでからしばらくさ、ふさぎこんでただろ？[r]　学校も行きたくなかったし、行っても誰とも口きかなかったし。[r]　家にいてもずっとうずくまって泣いてたりとかさ。」[p][stopse buf=1]
@@ -259,7 +260,6 @@
 #
 [mask time=500]
 [reset_camera]
-[fadeinbgm storage=bg/cafe.ogg time=1000]
 [bg2 storage="cafe.jpg" time="500"]
 [hokuto_s_kanasimi time=0 left=640][minami_s_magao2 left=40 time=0]
 [mask_off time=500]
@@ -312,14 +312,14 @@
 「でも、あれ以降もずっと、むしろもっと色んなことしてくれてるだろ。[r]　…なんでなんだ。義務感とか責任感からじゃないとしたら、何で…」[p]
 #美波
 [ms/magao2]
-「それは…」[p][stopse buf=2]
+「それは…」[p][stopse buf=2][fadeoutbgm time=1000]
 #店員
 「はい、お待たせしました。ブレンドコーヒーに、アールグレイの紅茶、[r]　そして特製スペシャルパフェになります。」[p]
 #北斗
 [hs/bishou]
 「…ああ、どうも。」[p][stopse buf=1]
 #
-…何て間の悪い。…って。[p]
+…何て間の悪い。…って。[p][fadeinbgm storage=minami.ogg time=1000]
 #美波
 [ms/kira]
 「…ほぇ？」[p][stopse buf=2]
@@ -419,7 +419,7 @@
 「あー、ん？」[p][stopse buf=2]
 #
 スプーンをほおばり、クリームのついたスモモを味わう。[p]
-あまりにお互いに自然だったために、理解が追いつくのに時間がかかった。[p]
+あまりにお互いに自然だったために、理解が追いつくのに時間がかかった。[p][fadeoutbgm time=1000]
 #美波
 [ms/tere]
 「……え？」[p][stopse buf=2]
@@ -432,6 +432,7 @@
 美波が。スプーンを。差し出してきて。オレが。そのまま。食べた。[p]
 あーんて。あーんて。[p]
 ……やっちまった。[p]
+[fadeinbgm storage=bg/cafe.ogg time=1000]
 周囲の目が、マジでヤバイ。痛い。というか、熱い。[p]
 おい、店員のおばさん。[p]
 いかにもあらあらまあまあというセリフ付きの吹き出しが[r]ついてそうな感じで手を口元にやらないでくれ。二度と来ないぞ。[p]
@@ -484,10 +485,10 @@
 #
 小遣いを多めに持ってきてよかったと心から思った。[r]お金は使いどころが大事だ。うん。[p]
 こうして、パフェをシェアして食べるのももはや恥ずかしかったけども、[r]何とか二人でスペシャルパフェを食べきった。[p]
-[fadeoutbgm time=500]
+[fadeoutbgm time=1000]
 [mask time=500]
 [ms/uwame time=0][hs/metozi time=0]
-[bg2 storage=michi_e.jpg time=500]
+[bg2 storage=michi_e.jpg time=1500]
 [fadeinbgm storage=bg/river.ogg time=1000]
 [mask_off time=500]
 
@@ -601,14 +602,16 @@
 [hs/magao]
 「……楽しみにしてる。じゃあ、」[p][stopse buf=1]
 #
+[fadeoutbgm time=1000]
 [hide]
-[bg2 storage=still_kokuhaku.png time=500]
+[bg2 storage=still_kokuhaku.png time=1000]
 #美波
 「…北斗。」[p][stopse buf=2]
 #北斗
 「…何？」[p][stopse buf=1]
 #美波
 「私が北斗を構う理由…ううん、私が北斗と一緒にいたい理由。それは…」[p][stopse buf=2]
+[fadeinbgm time=1000 storage=OP.ogg]
 #美波
 「好きなこと、好きな人にひたむきで、がんばる北斗のことが、[r]　好きだから。」[p][stopse buf=2]
 #北斗
@@ -631,10 +634,11 @@
 「…それは、反則だろ…」[p][stopse buf=1]
 #
 あそこまでのまっすぐな愛の告白を受けて、勉強だのなんだのに頭が[r]切り替えらえるほど、オレも人間ができてはいないことを痛感した。[p]
+[fadeoutbgm time=1000]
 
 [mask time=500]
 [hs/iradati time=0]
-[bg2 storage=class.jpg time=500]
+[bg2 storage=class.jpg time=1500]
 [mask_off time=500]
 
 #北斗
@@ -737,9 +741,9 @@
 #七音
 [n_bishou]
 「あ、おーい、北斗君に美波ちゃん」[p][stopse buf=4]
-[mnhide]
+#
+[mnhide][hs/iradati2][ms/odoroki]
 #北斗
-[hs/iradati2]
 「…部長、どうしたんですか？」[p][stopse buf=1]
 #七音
 [n_magao]
