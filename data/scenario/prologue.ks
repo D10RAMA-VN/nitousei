@@ -386,8 +386,9 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [n_bishou]
 「あー、なんとなくわかったわ。それじゃとりあえず、[r]　私たちの活動日とか今後の予定とかなんだけど…」[p][stopse buf=4]
 #
+[fadeoutbgm time=1000]
 [mask time=500]
-[hide time=0][mnhide time=0]
+[hide time=1000][mnhide time=0]
 [mask_off time=500]
 ……[p]
 [nao_bishou]

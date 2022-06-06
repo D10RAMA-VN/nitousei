@@ -60,7 +60,7 @@
 なんで自分はこんなことをしているのだろう。[p]
 わからない。わからないが、止まってはならないという義務感がある。[p]
 #教師
-「おい、起きろ、加賀谷！」[p]
+「おい、起きろ、加賀谷！」[p][playse storage=se/punch.ogg buf=8]
 #
 [bg2 storage="class.jpg" width=2500 height=1406 top=-300 left=-290 time="500"]
 #北斗

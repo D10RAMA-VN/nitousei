@@ -119,7 +119,7 @@
 #美波
 [ms/odoroki]
 「…！」[p][stopse buf=2]
-[fadeinbgm storage=kaisou.ogg time=1000]
+[fadeinbgm storage=hokuto_B.ogg time=1000]
 #北斗
 [hs/bishou]
 「…その。考えたんだけど。俺が、この先もこの部にいて、[r]　色んな曲を弾いて、そんで卒業して、大人になって…[r]　そんな中で、いっぱい幸せなことや、楽しいことに出会えて。」[p][stopse buf=1]

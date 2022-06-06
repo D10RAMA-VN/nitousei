@@ -26,7 +26,6 @@
 [mask_off time=1000]
 #
 *chapter1
-[fadeinbgm time=1000 storage=hokuto_A.ogg]
 #奏女
 「それじゃ、名簿のここにサインして…」[p][stopse buf=6]
 #美波
@@ -39,7 +38,7 @@
 「…」[p][stopse buf=1]
 [mhhide][vostart]
 #
-[hide][nao_niko left=140 wait=false][reito_komari left=680]
+[hide][fadeinbgm time=1000 storage=nichijo.ogg][nao_niko left=140 wait=false][reito_komari left=680]
 #七音
 [kanim name="nao" keyframe="nod" time="500"]
 「…よし。これで今年度のメンバーは確定！[r]　5人でがんばっていきましょー！」[p][stopse buf=4]
@@ -112,9 +111,10 @@
 「それはね…」[p][stopse buf=4]
 
 #
+[fadeoutbgm time=1000]
 [hide][kaname_magao left=-80 wait=false][nao_magao left=460 wait=false][reito_magao left=850]
 #三人
-「「「おもしろくあれ」」」[p][stopse buf=4][stopbgm]
+「「「おもしろくあれ」」」[p][stopse buf=4]
 #
 [hide][minami_w_tun left=40 wait=false][hokuto_w_aseri left=640]
 #二人
@@ -367,7 +367,7 @@
 #
 [hide]
 そういうと、部長はスマホで動画サイトを開き、ある動画を再生した。[p]
-;（bgM　IN　二等星になって　夕子ボーカル)[p]
+[fadeinbgm time=1000 storage=ED.ogg]
 [kaname_magao left=-80 wait=false][nao_niko3 left=460 wait=false][reito_magao left=850]
 #令人
 「…昭和歌謡ですか？」[p][stopse buf=5]
@@ -423,12 +423,12 @@
 …だめだ、これ以上は思い出せない。[p]
 でも、この曲がいい曲であることはよくわかる。[p]
 切ない別れの曲だ。[p]
+[fadeoutbgm time=1000]
 [mask time=500]
 [free_filter layer=base page=back]
 [trans layer=base time=0]
 [nao_bishou time=0]
-[wait time=100]
-[bg2 storage=ongaku.jpg height=1554 top="-200" time=200]
+[bg2 storage=ongaku.jpg height=1554 top="-200" time=1500]
 [mask_off time=500]
 #七音
 「なんか、ちょっと恥ずかしいけどね。」[p]

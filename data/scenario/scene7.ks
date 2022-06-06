@@ -256,12 +256,13 @@
 「親父がいなくなった寂しさ、忘れられたんだ。[r]　ホント、お前がいなかったらどうなってたか。」[p][stopse buf=1]
 #美波
 「北斗…」[p][stopse buf=2]
-
+[fadeoutbgm time=1000]
 #
 [mask time=500]
 [reset_camera]
-[bg2 storage="cafe.jpg" time="500"]
+[bg2 storage="cafe.jpg" time="1500"]
 [hokuto_s_kanasimi time=0 left=640][minami_s_magao2 left=40 time=0]
+[fadeinbgm time=1000 storage=hokuto_A.ogg]
 [mask_off time=500]
 
 #北斗
