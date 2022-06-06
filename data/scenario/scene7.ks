@@ -108,7 +108,7 @@
 [ms/odoroki]
 「え、そうだけど、知ってるの？」[p][stopse buf=2]
 #北斗
-[hs/magao]
+[hs/magao][kanim name="hokuto" keyframe="nod" time="500"]
 「うん、そうか、あそこか…」[p][stopse buf=1]
 #美波
 [ms/magao]
@@ -211,7 +211,7 @@
 [hs/odoroki]
 「そうか？」[p][stopse buf=1]
 #美波
-[ms/bishou]
+[ms/bishou][kanim name="minami" keyframe="nod" time="500"]
 「うん、ちょっと雰囲気変わったし。[r]　まあ、何かと急に巻き込まれたりするのは、昔からだけど。」[p][stopse buf=2]
 #北斗
 [hs/bishou]
@@ -272,7 +272,7 @@
 #美波
 「あれは、北斗がしんどそうだったから代わっただけのことで…」[p][stopse buf=2]
 #北斗
-[hs/bishou]
+[hs/bishou][kanim name="hokuto" keyframe="nod" time="500"]
 「うん。でも色々あって、美波に山ほど迷惑かけたけど…今は、ものすごく[r]　充実してる。先輩たちや、高村の爺さんと出会ったってのもあるけど…」[p][stopse buf=1]
 #北斗
 [hs/egao]
@@ -402,7 +402,7 @@
 #北斗
 「そんだけ喜んでもらえるなら、連れてきたかいがあるってもんだ。」[p][stopse buf=1]
 #美波
-[ms/uwame]
+[ms/uwame][kanim name="minami" keyframe="nod" time="500"]
 「うん、本当にありがとう…って北斗は食べないの？」[p][stopse buf=2]
 #北斗
 [hs/magao]
@@ -501,7 +501,7 @@
 #北斗
 「その…色々あったけど、…喜んでは、もらえた？」[p][stopse buf=1]
 #美波
-[ms/bishou]
+[ms/bishou][kanim name="minami" keyframe="nod" time="500"]
 「うん、パフェはおいしかった。」[p][stopse buf=2]
 #北斗
 [hs/bishou]
@@ -535,7 +535,7 @@
 [hs/bishou]
 「…まあ、ここらで一番いい喫茶店って言ったらあそこらしいし。[r]　じゃあ、また行くか。」[p][stopse buf=1]
 #美波
-[ms/dere]
+[ms/dere][kanim name="minami" keyframe="nod" time="500"]
 「うん。」[p][stopse buf=2]
 #北斗
 [hs/egao2]
@@ -645,7 +645,7 @@
 #北斗
 「な、何とかなった…」[p][stopse buf=1]
 #
-[hide]
+[hide][bg2 storage=black.jpg time=1000]
 テスト3日目。…美波の告白を受けて、[r]やはり昨晩はほとんど勉強が手につかず。[p]
 それどころか普通に眠れず。…緊張とか心理状態で眠れなくなるのって、[r]ホントなんだと初めて知った。[p]
 だから、少しだけうつらうつらしたあと、[r]未明からひたすら詰め込んだ。[p]

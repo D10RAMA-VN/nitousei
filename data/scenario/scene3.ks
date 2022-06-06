@@ -269,7 +269,7 @@
 「…！」[p][stopse buf=1]
 #
 [fadeinbgm storage=seiji.ogg time=1000]
-[hide wait=false][mhhide][bg2 storage=still_cry.png time=500]
+[mhhide][ms/naki]
 見れば、美波が目に涙を浮かべている。[p]
 #北斗
 [hs_mu]
@@ -282,18 +282,21 @@
 「……そういうやつも、いるとは思うけど。」[p][stopse buf=1]
 [mhhide]
 #美波
+[ms/naki2]
 「じゃあさ、北斗はなんでそんなに頑張るの？」[p][stopse buf=2]
 #北斗
 [hs_mu]
 「…そりゃあ、勉強はしなきゃいけないし、部活だって、[r]　下手なままじゃ迷惑かけるから…」[p][stopse buf=1]
 [mhhide]
 #美波
+[ms/kanasimi]
 「そんな状態で来られたほうが迷惑だよ…」[p][stopse buf=2]
 #北斗
 [hs_kanasimi]
 「……」[p][stopse buf=1]
 [mhhide]
 #美波
+[ms/ikari]
 「……昔から、野球とかサッカーとか柔道とか空手とか、[r]　バスケとか生徒会とか、いきなり何か始めたかと思えば、[r]　最初は楽しそうにもみえたけど、途中からそうでもなかったよね。」[p][stopse buf=2]
 #美波
 「行かなきゃ、やらなきゃってイヤイヤ行ってるみたいだった。」[p][stopse buf=2]
@@ -302,12 +305,14 @@
 「それは…スポーツはさ、しょうがない時もあるだろ。[r]　きつい練習はあるし。生徒会なんか、面倒な仕事も多かったし。」[p][stopse buf=1]
 [mhhide]
 #美波
+[ms/kanasimi]
 「…でも、北斗のは、なんかそういうのだけじゃなかった。[r]　ううん、違う。別物だったよ、きっと。」[p][stopse buf=2]
 #北斗
 [hs_kanasimi]
 「違う…？」[p][stopse buf=1]
 [mhhide]
 #美波
+[ms/ikarinaki]
 「だって、休みたいなんて、今と同じで言ってなかったし、[r]　それに、大体うまくやってたし。」[p][stopse buf=2]
 #北斗
 [hs_mu2]
@@ -320,18 +325,21 @@
 「それは…」[p][stopse buf=1]
 [mhhide]
 #美波
+[ms/ikari]
 「勉強なんか特にそう。勉強嫌だっていう割に、めっちゃ頑張るでしょ？[r]　中学のころから私より成績いいじゃない。」[p][stopse buf=2]
 #北斗
 [hs_metozi]
 「成績はだって、落としたらさ…」[p][stopse buf=1]
 [mhhide]
 #美波
+[ms/iradati]
 「…お母さんが心配する？あの人、そんなに気にしなさそうだけど。」[p][stopse buf=2]
 #北斗
 [hs_mu]
 「…まあ、本人もそう言ってるけど…」[p][stopse buf=1]
 [mhhide]
 #美波
+[ms/ikari]
 「……」[p][stopse buf=2]
 #北斗
 「……」[p][stopse buf=1]
@@ -344,21 +352,23 @@
 「…知らない。」[p][stopse buf=1]
 [mhhide]
 #美波
+[ms/ikarinaki]
 「そんなの、見つかるわけないじゃん！[r]　ていうか、何を探してるの？あのお爺さん…」[p][stopse buf=2]
 #北斗
 [hs_metozi]
 「…オレにもわかんないよ、そんなの。」[p][stopse buf=1]
 [mhhide]
 #美波
+[ms/oogoe]
 「だったら…！だったらなんであんなことしてるの？[r]　あんなに遅くまで、寝不足にまでなって！何があるのよ！」[p][stopse buf=2]
 #北斗
 [hs_mu]
 「…わからない。わからないけど…」[p][stopse buf=1]
 [mhhide]
 #美波
+[ms/naki2]
 「……」[p][stopse buf=2]
 #
-[bg2 storage="hoken.jpg" width=3000 height=1687 left=-700 top=-100 time="500"]
 ゆっくりと起き上がって、ただ、口にする。[p]
 [fadeoutbgm time=500]
 #北斗
@@ -366,7 +376,6 @@
 「……俺さ。」[p][stopse buf=1]
 [mhhide]
 #美波
-[minami_s_naki2]
 「うん……」[p][stopse buf=2]
 #北斗
 [hs_kanasimi]
@@ -403,28 +412,28 @@
 #北斗
 [hs_odoroki]
 「…美波？」[p][stopse buf=1]
-[mhhide]
+#
+[mhhide][hide]
+[bg2 storage=still_cry.png time=1000]
 #美波
-[ms/naki2]
 「やっぱり…、やっぱりお父さんのことが…お父さんが、[r]　いないから…ごめん、北斗…ごめん…」[p][stopse buf=2]
 #北斗
 [hs_mu]
 「…だから、それはもういいって。美波が悪いわけでもないし。[r]　そんなに気にしてないから。」[p][stopse buf=1]
 [mhhide]
 #美波
-[ms/ikarinaki]
 「気にしてるでしょ！寂しいって、言ってるでしょ…」[p][stopse buf=2]
 #北斗
 [hs_iradati2]
 「…なんでお前がそんなこというんだよ。」[p][stopse buf=1]
 [mhhide]
 #美波
-[ms/oogoe]
 「だって、だって私の…」[p][stopse buf=2]
 #北斗
 [hs_iradati]
 「いい加減しつこい…！」[p][stopse buf=1]
 [mhhide]
+[bg2 storage="hoken.jpg" width=3000 height=1687 left=-700 top=-100 time="500"][minami_s_odoroki]
 #美波
 「…！」[p][stopse buf=2]
 #北斗

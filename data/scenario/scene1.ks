@@ -362,7 +362,7 @@
 [k/bishou2]
 「七音は何かあるんでしょう？」[p][stopse buf=6]
 #七音
-[n/niko3]
+[n/niko3][kanim name="nao" keyframe="nod" time="500"]
 「あ、うん。ちょっと古い曲なんだけどね。いい曲があって…」[p][stopse buf=4]
 #
 [hide]

@@ -115,10 +115,8 @@
 [hs/bishou]
 「そっか。いや、でも作ってもらえるだけありがたいよ。」[p][stopse buf=1]
 #美波
-[ms/dere]
+[ms/dere][kanim name="minami" keyframe="nod" time="500"]
 「…うん。」[p][stopse buf=2]
-#
-[mhide]
 #北斗
 [hs/mu]
 「…？」[p][stopse buf=1]
@@ -179,7 +177,7 @@
 「そうなんですか？」[p][stopse buf=1]
 [mhhide]
 #令人
-[r/kanasimi]
+[r/kanasimi][kanim name="reito" keyframe="nod" time="500"]
 「うん。…そういう時、決まって卒業した先輩たちとか、[r]　奏女さんとか、…七音さんが、[r]　こうして一緒にご飯を食べながら話を聞いてくれたんだ。」[p][stopse buf=5]
 #北斗
 [hs_mu2]
@@ -300,6 +298,7 @@
 #令人
 「北斗…？本当に大丈夫か？」[p][stopse buf=5]
 #北斗
+[kanim name="hokuto" keyframe="nod" time="500"]
 「…ハァ、ごちそうさまでした。…令人先輩は、食べ終わりましたか？」[p][stopse buf=1]
 #令人
 [r/komari]
@@ -428,7 +427,7 @@
 [hs/egao2]
 「…令人先輩、つかんだカンを忘れないために、もう一度お願いします！」[p][stopse buf=1]
 #令人
-[r/niko]
+[r/niko][kanim name="reito" keyframe="nod" time="500"]
 「いいよ、とことんまでやろう。」[p][stopse buf=5]
 #
 そうして、昼休みが終わるまでの短い間、令人先輩と、[r]念願のまともなセッションを楽しんだ。[p]
@@ -485,6 +484,7 @@
 #
 誰かが部室に入ってくるときはおはようございますと言う、[r]軽音部特有のルールのため、今日２回目のおはようを交わす。[p]
 #美波
+[ms/tun]
 「北斗、さっきのは…」[p][stopse buf=2]
 #北斗
 [hs/tere]
@@ -769,7 +769,7 @@
 [hs/bishou]
 「…甘えて、いい？」[p][stopse buf=1]
 #美波
-[ms/egao]
+[ms/egao][kanim name="minami" keyframe="nod" time="500"]
 「…しょうがないなあ、もう」[p][stopse buf=2]
 #
 そういって困ったような、しかし確かな笑顔をして、[r]美波はオレの差し出した弁当箱を受け取った。[p]
@@ -854,8 +854,8 @@
 #北斗
 [hs/magao]
 「前にさ…」[p][stopse buf=1]
-
 #
+[hide]
 こうして、季節と一緒に少しずつ何かが変わっていきながら、[r]　５月最後の週が始まっていった。[p]
 
 [mask graphic="cut/cutin_nao.png" time=1500]

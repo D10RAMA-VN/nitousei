@@ -73,8 +73,8 @@
 
 [mask time=500]
 #
-[bg2 storage="rouka_s.jpg" time="500"]
-[hide time=0][hokuto_w_kanasimi time=0]
+[bg2 storage="black.jpg" time="1500"]
+[hide time=0]
 [mask_off time=500]
 あっという間に4月が過ぎ、[r]ゴールデンウイークもとっくに終わってしまった。[p]
 一か月もすれば上達するだろうと内心高をくくっていたギターは、[r]なぜかちっともうまくならないままだった。[p]
@@ -315,11 +315,12 @@ USB充電式の小型アンプとシールド（コードって言いたくな�
 [s/kuti]
 「まあ、気分転換も必要だろうし、[r]　今度は星空でも眺めてみようじゃないか。」[p][stopse buf=3]
 #
+[hide]
 そうして、爺さんはその日の天体観測を始めた。[r]でも自分は、ギターのことと不安で頭がいっぱいだった。[p]
 [fadeoutbgm time=500]
 [mask graphic="cut/cutin_hokuto2.png" time=1500]
 [wait time=500]
-[playbgm storage=eyecatch.ogg]
+[playbgm storage=eyecatch.ogg loop=false]
 [hide time=0]
 [bg2 storage="class.jpg" time="4000"][stopbgm]
 [mask_off time=500]

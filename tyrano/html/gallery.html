@@ -42,13 +42,24 @@ input[type="range"]::-webkit-slider-thumb {
     </div>
     
     <div class='content2'>
-      <div style="float:left;position:absolute;top:20px;left:40px;">
-        <img src="data/bgimage/still.png" class="cg" id="tonari">
+      <div style="float:left;position:absolute;top:50px;">
+        <img src="data/bgimage/still_takamura.png" class="cg" id="takamura">
+        <img src="data/bgimage/still_busoku.png" class="cg" id="busoku">
+        <img src="data/bgimage/still_seizi.png" class="cg" id="seizi">
+        <img src="data/bgimage/still_cry.png" class="cg" id="cry">
+        <img src="data/bgimage/still_pafe.png" class="cg" id="pafe">
+        <img src="data/bgimage/still_hokuto.png" class="cg" id="hokuto">
+        <img src="data/bgimage/gl_minami.png" class="cg" id="minami">
+        <img src="data/bgimage/still_kokuhaku.png" class="cg" id="kokuhaku">
+        <img src="data/bgimage/still_perseus.png" class="cg" id="perseus">
+        <img src="data/bgimage/still_kirakirabosi.png" class="cg" id="kirakirabosi">
+        <img src="data/bgimage/still_epilogue.png" class="cg" id="epilogue">
+        
       </div>
     </div>
     
     <div class='content3'>
-      <audio src="data/bgm/main.ogg" id="audiotag"></audio>
+      <audio src="data/bgm/kaisou.ogg" id="audiotag"></audio>
       <div style="position:absolute;left:150px;top:80px;">
         <div id="bgm1" class="m_title">曲1</div>
         <div id="bgm2" class="m_title">曲2</div>
@@ -68,8 +79,8 @@ input[type="range"]::-webkit-slider-thumb {
 		<span id="duration" style="position:absolute;top:440px;left:1135px;font-weight:bold;font-size:20px;color:#606589;font-family:applimincho;">00:00</span>
 	  </div>
 	  <div id="seekbar" style="position:absolute;top:434px;left:787px;"></div>
-	  <img src="data/image/gl/sound_gray.png"  style="position:absolute;left:945px;top:500px;">
-	  <input type="range" id="volume" style="position:absolute;top:512px;left:940px;width:200px;height:4px;background-color:#606589;" value="30" min="0" max="99">
+	  <img src="data/image/gl/sound_gray.png"  style="position:absolute;left:945px;top:493px;">
+	  <input type="range" id="volume" style="position:absolute;top:505px;left:940px;width:200px;height:4px;background-color:#606589;" value="30" min="0" max="99">
 	  
 	  <div id="bmusic" class="img_container" style="position:absolute;left:720px;top:497px;cursor:pointer;width:37px;height:34px;">
 	  	<img src="data/image/gl/pre_white.png" width="100%" height="100%">
@@ -294,3 +305,4 @@ $('img').on('click', function(){
     $(this).addClass('selected');
 });
 </script>
+<script src="tyrano/html/cg.js"></script>

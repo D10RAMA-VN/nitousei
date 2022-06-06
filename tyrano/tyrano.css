@@ -946,7 +946,7 @@ audio {
 .cg{
 	cursor: pointer;
 	margin-left:20px;
-	margin-bottom:11px;
+	margin-bottom:50px;
 	width: 240px;
 	transition:0.3s;
 }
@@ -958,7 +958,7 @@ audio {
 #cgbig,#cgvideo{
   visibility:hidden;
   position:absolute;
-  top:-200px;
+  top:-250px;
   left:-200px;
   width:1920px;
   height:1080px;

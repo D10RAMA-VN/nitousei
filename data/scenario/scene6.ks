@@ -76,6 +76,7 @@
 「…おお、あとは巣に持ち帰るのか？落とすなよ」[p][stopse buf=3]
 [mshide]
 #
+[playse storage=se/cat.ogg buf=8]
 爺さんが言い切る前に、ネコは鉄橋の方へかけていった。[p]
 [bg2 storage="kawa_n.jpg" time="500"]
 [hokuto_s_magao left=680 wait=false][seizi_hohoemi left=-35]

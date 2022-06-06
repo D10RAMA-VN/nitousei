@@ -370,7 +370,7 @@
 [s/kuti]
 「はは、まあ、とにかく今日は早く帰りなさい。」[p][stopse buf=3]
 #北斗
-[hs/egao2]
+[hs/egao2][kanim name="hokuto" keyframe="nod" time="500"]
 「うん、ありがとう爺さん。それじゃ。」[p][stopse buf=1]
 #高村
 [s/mu]
