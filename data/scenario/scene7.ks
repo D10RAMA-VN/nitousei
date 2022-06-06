@@ -802,7 +802,7 @@
 
 [mask graphic="cut/cutin_hokuto.png" time=1500]
 [wait time=500]
-[playbgm storage=eyecatch.ogg]
+[playbgm storage=eyecatch.ogg  loop="false"]
 [hide time=0]
 [bg2 storage="byouin.jpg" time="4000"][stopbgm]
 [mask_off time=500]

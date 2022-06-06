@@ -403,7 +403,7 @@
 
 [mask graphic="cut/cutin_reito.png" time=1500]
 [wait time=500]
-[playbgm storage=eyecatch2.ogg]
+[playbgm storage=eyecatch2.ogg  loop="false"]
 [hide time=0]
 [bg2 storage=michi.jpg time=6000][stopbgm]
 [mask_off time=500]
