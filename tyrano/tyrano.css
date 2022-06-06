@@ -1069,10 +1069,10 @@ audio {
   transition: 0.5s;
 }
 .chap:hover{
-  transform: scale(1.5);
+  transform: scale(2);
 }
 .chap.selected{
-  transform: scale(1.5);
+  transform: scale(2);
 }
 
 .chapbar{
