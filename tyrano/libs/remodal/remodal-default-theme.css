@@ -47,14 +47,19 @@
 .remodal-wrapper {
   padding: 10px 10px 0;
   overflow: hidden;
+  /* position: relative; */
 }
 
 /* Default theme styles of the modal dialog */
 
 .remodal {
+  position: absolute;
+  left: calc(50% - 380px/2);
+  top: calc(50% - 150px/2);
   box-sizing: border-box;
-  width: 100%;
-  margin-bottom: 10px;
+  height: 150px;
+  width: 380px;
+  /* margin-bottom: 10px; */
   padding: 30px;
 
   -webkit-transform: translate3d(0, 0, 0);
@@ -63,7 +68,7 @@
   font-family: Noto;
   color: #fff;
   background: #1A1A24;
-  border-radius:100vh;
+  border-radius:100px;
 }
 
 .remodal_title{
@@ -98,10 +103,10 @@
 .remodal:before{
   content: "";
   position: absolute;
-  height: 2000px;
-  width: 3000px;
-  left: -2000px;
-  top: -500px;
+  height: 100vh;
+  width: 100vw;
+  left: calc(-50vw + 380px/2);
+  top: calc(-50vh + 150px/2);
   background: #1A1A24;
   opacity: .8;
   z-index: -1;
