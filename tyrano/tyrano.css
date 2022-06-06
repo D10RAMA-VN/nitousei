@@ -55,7 +55,7 @@ abbr,acronym{
 .layer_menu {
     display:none;
     font-size:1.3em;
-    font-weight:bold;
+    /* font-weight:bold; */
     position:absolute;
     width:100%;
     height:100%;
@@ -1013,21 +1013,26 @@ audio {
 
 #chaptertitle{
 	font-size: 50px;
-	margin: 20px 0 0 50px;
+	margin: 30px 0 0 50px;
 }
 
 #summary{
 	position: absolute;
+  letter-spacing: 0.1em;
 	top: 120px;
 	left: 590px;
 	font-size: 20px;
 	font-family: Noto;
 	width: 620px;
 	text-align:left;
+  color: #606589;
 }
 
 #chapterbutton{
 	position:absolute;
+  /* float: right; */
+  letter-spacing: 0.1em;
+  font-family: Noto;
 	top:280px;
 	left:960px;
 	background:#606589;
@@ -1037,25 +1042,37 @@ audio {
 	width:250px;
 	height:40px;
 	cursor:pointer;
+  transition: background-color 0.5s;
+}
+#chapterbutton:hover{
+  /* opacity: 0.75; */
+  background:#262a38;
 }
 
 .chapterchoice{
 	position:absolute;
-	top:385px;
-	left:40px;
+	top:404px;
+	left:55px;
 }
 
 .chapterchoice2{
 	position:absolute;
-	top:510px;
-	left:164.5px;
+	top:524px;
+	left:180.5px;
 }
 
 .chap{
 	position:absolute;
-	width:60px;
+	width:30px;
 	z-index:1;
 	cursor:pointer;
+  transition: 0.5s;
+}
+.chap:hover{
+  transform: scale(1.5);
+}
+.chap.selected{
+  transform: scale(1.5);
 }
 
 .chapbar{

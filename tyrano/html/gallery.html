@@ -19,10 +19,10 @@ input[type="range"]::-webkit-slider-thumb {
     <div class='content1' style="display:flex;">
       <img src="data/bgimage/still_kansoku.png" style="width:500px;margin:25px 0 0 30px;" id="chapbg">
       <div id="chaptertitle" style="font-family:ubuntu;">Prologue</div>
-      <div id="summary">今まで打ち込めるものがなかった北斗。高校に進学した北斗は、幼馴染の美波とともに軽音部に興味を持つ。軽音部の七音、奏女、令人と話し、新歓期間開始早々に入部を決めた。そんなある日の帰り道、河川敷で天体観測をしている老人、高村を見かける。高村は、みえない星を探しているのだという。よくわからないままに、北斗と美波は天体観測に混ざることになり…。</div>
+      <div id="summary">今まで打ち込めるものがなかった北斗。高校に進学した北斗と幼馴染の美波は、軽音部に入部を決めた。そんなある日の帰り道、河川敷で天体観測をしている老人、高村を見かける。高村は、みえない星を探しているのだという。よくわからないままに、北斗と美波は天体観測に混ざることになり…。</div>
       <div id="chapterbutton" class="prologue">チャプターへ移動</div>
       <div class="chapterchoice">
-        <img src="tyrano/html/star.png" id="prologue" class="chap">
+        <img src="tyrano/html/star.png" id="prologue" class="chap" >
         <img src="tyrano/html/star.png" id="chapter2" class="chap" style="left:245px;">
         <img src="tyrano/html/star.png" id="chapter4" class="chap" style="left:485px;">
         <img src="tyrano/html/star.png" id="chapter6" class="chap" style="left:725px;">
@@ -146,7 +146,7 @@ $('.tab-content>div').first().slideDown();
 $('#prologue').click(
   function(){
     $('#chaptertitle').text('Prologue');
-    $('#summary').text('今まで打ち込めるものがなかった北斗。高校に進学した北斗は、幼馴染の美波とともに軽音部に興味を持つ。軽音部の七音、奏女、令人と話し、新歓期間開始早々に入部を決めた。そんなある日の帰り道、河川敷で天体観測をしている老人、高村を見かける。高村は、みえない星を探しているのだという。よくわからないままに、北斗と美波は天体観測に混ざることになり…。');
+    $('#summary').text('今まで打ち込めるものがなかった北斗。高校に進学した北斗と幼馴染の美波は、軽音部に入部を決めた。そんなある日の帰り道、河川敷で天体観測をしている老人、高村を見かける。高村は、みえない星を探しているのだという。よくわからないままに、北斗と美波は天体観測に混ざることになり…。');
     $('#chapbg').attr('src','data/bgimage/still_kansoku.png');
     $('#chapterbutton').removeClass().addClass('prologue');
   });
@@ -167,7 +167,7 @@ $('#chapter2').click(
 $('#chapter3').click(
   function(){
     $('#chaptertitle').text('Chapter 3');
-    $('#summary').text('日々の生活と焦燥感に押しつぶされる北斗。ついに体力の限界を迎え倒れてしまう。保健室に付き添いに来た美波に、北斗は少しずつ漏らし始める。なぜ物事に打ち込めないのにも関わらず頑張ろうとするのか、高村との天体観測に混ざろうとするのか。北斗が秘めていた内心は、本人以上に美波には堪えられないものだった。しかし、');
+    $('#summary').text('日々の生活と焦燥感に押しつぶされる北斗。ついに体力の限界を迎え倒れてしまう。保健室に付き添いに来た美波に、北斗は少しずつ漏らし始める。なぜ物事に打ち込めないのにも関わらず頑張ろうとするのか、高村との天体観測に混ざろうとするのか。北斗が秘めていた内心は、本人以上に美波には堪えられないものだった。');
     $('#chapbg').attr('src','data/bgimage/still_kansoku.png');
     $('#chapterbutton').removeClass().addClass('chapter3');
   });
@@ -288,4 +288,9 @@ $('.content1').on('click','.epilog',function(){
        })
 });
 $('.content1').show();
+
+$('img').on('click', function(){
+    $('img').removeClass('selected');
+    $(this).addClass('selected');
+});
 </script>
