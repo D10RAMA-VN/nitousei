@@ -33,7 +33,7 @@ if(typeof tyrano.plugin.kag.variable.sf.vo6_vol!="undefined"){tyrano.plugin.kag.
 [eval exp="sf.current_bgm_vol=20"]
 
 
-;[playbgm storage="main_loop.ogg"]
+[playbgm storage="kaisou.ogg"]
 *title
 @clearfix
 [cm]

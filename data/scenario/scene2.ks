@@ -195,9 +195,9 @@ USB充電式の小型アンプとシールド（コードって言いたくな�
 とか言いながら爺さんが近所迷惑にならないよう音量調節したり、[r]チューニングしたりとてきぱきと準備を済ませている。[p]
 …爺さん、ギター弾けるのか。[p]
 と思う間に、爺さんは慣れた手つきでギターを構え、演奏を始めた。[p]
-;（二等星になってギターソロ）
 [hide]
-[bg2 storage=still_seizi.png time=500]
+[fadeinbgm time=1000 storage=nitousei.ogg]
+[bg2 storage=still_seizi.png time=1000]
 
 #北斗
 「すげえ…」[p][stopse buf=1]
@@ -210,8 +210,8 @@ USB充電式の小型アンプとシールド（コードって言いたくな�
 何か優しくも悲しくなるようなこの切ないメロディー。[p]
 部長が提案してきたときにも思ったが、[r]本当にこの曲は懐かしい響きがする。[p]
 自分はいったいどこでこの曲を聞いたのだったか。…[p]
-;（BGMOFF）
-[bg2 storage=kawa_n.jpg time=500]
+[fadeoutbgm time=1000]
+[bg2 storage=kawa_n.jpg time=1000]
 [fadeinbgm storage=bg/river.ogg time=1000]
 [seizi_metozi left=-145 wait=false][hokuto_w_odoroki left=360 wait=false][minami_w_odoroki left=840]
 #高村

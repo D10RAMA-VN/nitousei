@@ -175,6 +175,7 @@
 [wait time=500]
 #
 [bg2 storage="ongaku.jpg" height=1554 top="-200" time="1500" method=fadeInLeft]
+[fadeinbgm storage=nichijo.ogg time=1000]
 [nao_niko2][playse storage=nao/nao_1.ogg loop=false buf=4]
 #？？？
 「ようこそ鹿北軽音部へ！[r]　新歓ライブでも言ったかもだけど、改めて自己紹介するね。」[p][stopse buf=4]
@@ -500,10 +501,10 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 
 #
 こうして、俺たちの軽音部生活が始まった。[p]
-*river
+[fadeoutbgm time=1000]
 [mask time=500]
 [hide time=0]
-[bg2 storage="michi_n.jpg" time="500"]
+[bg2 storage="michi_n.jpg" time="1500"]
 [fadeinbgm  storage="bg/river.ogg" time=1000]
 [mask_off time=500]
 
@@ -689,6 +690,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 ただ、こんな話をしながらも、決して望遠鏡から顔を外そうとしない。[p]
 その姿には、なぜかひきつけられるようなものがあって。[p]
 つい、いつものように言ってしまった。[p]
+[fadeoutbgm time=1000]
 #北斗
 「…それなら、一緒に探してもいいですか？[r]　何の役にも立たないかもしれないけど。」[p][stopse buf=1]
 #
@@ -696,7 +698,6 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [hokuto_w_egao2][seizi_magao]
 #老人
 「…ほう。」[p][stopse buf=3]
-[fadeoutbgm time=500]
 #
 その時初めて、爺さんはこっちを向いてくれた。[p]
 [chara_move name="hokuto" time=700 left=360 anim=true wait=false][chara_move name="seizi" time=700 left=-195 anim=true wait=false][minami_w_odoroki left=840]
@@ -778,7 +779,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 「なるほど。ちょうど北斗七星は春によく見える星だ。[r]　次は北斗七星を見てみるか。」[p][stopse buf=3]
 #
 そういうと高村と名乗った爺さんは望遠鏡の倍率を下げるためなのか、[r]望遠鏡をいじり、そして方向を変えた。[p]
-
+[fadeinbgm storage=kaisou.ogg time=500]
 [bg2 storage="seiza/419dipper.png" width=2279 height=1909 time=500 left=-700 top=-350 wait=false]
 [image layer=1 storage=lens.png time=500 visible=true]
 
@@ -1062,8 +1063,9 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 「いや別に？」[p][stopse buf=1]
 #高村
 「こらこら、つまらんことで喧嘩するんじゃない…」[p][stopse buf=3]
+[fadeoutbgm time=1000]
 [mask time=500]
-[bg2 storage="kawa_n.jpg" time="500"]
+[bg2 storage="kawa_n.jpg" time="1500"]
 [s/mu time=0][hw/metozi time=0]
 [fadeinbgm  storage="bg/river.ogg" time=1000]
 [mask_off time=500]
@@ -1139,6 +1141,6 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [playbgm storage=eyecatch.ogg]
 [hide time=0][kaname_bishou2 time=0]
 [bg2 storage="ongaku.jpg" height=1554 top="-200" time="4000"][stopbgm]
-[mask_off time=500]
+[mask_off time=1000]
 
 @jump storage="scene1.ks" target=*chapter1

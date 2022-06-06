@@ -52,7 +52,7 @@
 [sh/hohoemi]
 「ほら、始まっているよ。」[p][stopse buf=3]
 #
-[hide]
+[hide][fadeinbgm time=1000 storage=seiji.ogg]
 [bg2 storage=still_perseus.png time=500]
 爺さんがそういってゆっくり夜空を指さすと、一筋の光が流れ落ちた。[p]
 #美波
@@ -180,9 +180,9 @@
 [bg2 storage=still_kirakirabosi.png time=500]
 
 #北斗
-「……どうだった、爺さん」[p][stopse buf=1]
+「……どうだった、爺さん」[p][stopse buf=1][vostop]
 #高村
-「……」[p][stopse buf=3]
+「……」[p][vostart]
 #
 演奏が終わったというのに、歓声も批評もなく。[p]
 爺さんはほほえみをたたえているだけ。[p]
@@ -197,9 +197,9 @@
 
 [mask graphic="cut/cutin_hokuto.png" time=1500]
 [wait time=500]
-[playbgm storage=eyecatch.ogg]
-[bg2 storage=ongaku.jpg height=1554 top="-200" time=4000][stopbgm]
+[playbgm storage=endofkyoku2.ogg]
+[bg2 storage=ongaku.jpg height=1554 top="-200" time=8000][stopbgm]
 [minami_s_bishou left=40 time=0][hokuto_s_kanasimi left=640 time=0]
-[mask_off time=500]
+[mask_off time=1500]
 
 @jump storage="epilog.ks" target=*epilog

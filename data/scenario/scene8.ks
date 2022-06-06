@@ -291,8 +291,7 @@
 #北斗
 [hs/magao]
 「…なに？」[p][stopse buf=1]
-#高村
-「大人は…万が一に備えて、前もって色々とやっておくものだ。[r]　だから、な…」[p][stopse buf=3]
+[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=218 ]
 #高村
 「今よりも悪くなってしまわぬ前に、[r]　もう一度だけ、君たちと星を眺めたい…[r]　そして、キミのギターがもう一度、聞いてみたいよ。」[p][stopse buf=3]
 #北斗

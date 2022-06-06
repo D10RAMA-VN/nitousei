@@ -119,6 +119,7 @@
 #美波
 [ms/odoroki]
 「…！」[p][stopse buf=2]
+[fadeinbgm storage=kaisou.ogg time=1000]
 #北斗
 [hs/bishou]
 「…その。考えたんだけど。俺が、この先もこの部にいて、[r]　色んな曲を弾いて、そんで卒業して、大人になって…[r]　そんな中で、いっぱい幸せなことや、楽しいことに出会えて。」[p][stopse buf=1]
@@ -183,6 +184,7 @@
 [ms/tun2]
 「いや、いや、だって、付き合ってくださいとか、そんなのはなかったし。[r]　一応こっちから告ったから、よろしくお願いしますも違うし…」[p][stopse buf=2]
 #
+[fadeoutbgm time=500]
 [hide]
 [nao_niko2 left=460]
 #七音
@@ -238,6 +240,7 @@
 #
 美波、お前も2回目なんだから慣れろよ…というか、[r]今後オレたちはこの方面でいじられ続けるだろうから、[r]慣れないと多分もたなそうだし…[p]
 [hide]
+[fadeinbgm storage=OP.ogg time=1000]
 [bg2 storage=still_epilogue.png time=500]
 #七音
 「さて、最大の懸念点だった北斗君と美波ちゃんの恋路も[r]　無事ゴールインしたということで！みんなわすれてない？[r]　ライブまであと1か月よ！」[p][stopse buf=4]
@@ -255,9 +258,9 @@
 貴方からもらった曲の歌詞もタイトルも、[r]すぐには思いつきそうもないから、[r]まずはここを巣立っていく先輩たちを送り出す曲を一生懸命弾くよ。[p]
 オレと美波の歌はそれからでもいいだろ？[p]
 遠くかがやく夜空の星に、はるかに届くくらいの歌にしてみせるからさ。[p]
-
+[fadeoutbgm time=1000]
 [mask time=1000]
-[bg2 storage=black.png time=1000]
+[bg2 storage=black.png time=2000]
 [fadeoutbgm time=10][fadeoutse time=10][skipstop]
 [stop_keyconfig]
 @layopt layer=message0 visible=false
