@@ -224,12 +224,17 @@
 「ああ。昔からずっと。」[p][stopse buf=1]
 [fadeoutbgm time=500]
 #
+[mask time=500]
 [hide]
-[bg2 storage=still.png time=500]
+[bg2 storage=still_hokuto.png time=500]
+[mask_off time=500]
 #北斗
 「オレ、親父が死んでからしばらくさ、ふさぎこんでただろ？[r]　学校も行きたくなかったし、行っても誰とも口きかなかったし。[r]　家にいてもずっとうずくまって泣いてたりとかさ。」[p][stopse buf=1]
 #美波
 「…うん。そうだったね。」[p][stopse buf=2]
+#
+[bg2 storage=still_minami.png time=500 width=1920 height=1972 top=-800]
+[camera time=90000 y=+800 layer=base wait=false]
 #北斗
 「そしたらさ、美波お前、学校はおろか、オレんちまで来て、[r]　校庭やら公園やら、とにかく外に連れ出そうとしてたろ。」[p][stopse buf=1]
 #美波
@@ -252,9 +257,12 @@
 「北斗…」[p][stopse buf=2]
 
 #
+[mask time=500]
+[reset_camera]
 [fadeinbgm storage=bg/cafe.ogg time=1000]
 [bg2 storage="cafe.jpg" time="500"]
-[hokuto_s_kanasimi wait=false left=640][minami_s_magao2 left=40]
+[hokuto_s_kanasimi time=0 left=640][minami_s_magao2 left=40 time=0]
+[mask_off time=500]
 
 #北斗
 「そんで、オレなりにいろいろクラブとか習い事とか部活とか[r]　やってみるようになった…でも結局、自分は寂しくなんかない、[r]　ちゃんとやってるっていう証明がほしかっただけで。」[p][stopse buf=1]
@@ -319,7 +327,7 @@
 美波の目が点になっている。目の前の光景が信じられないという目だ。[p]
 しかし一方で、喜びや期待が隠せていない。[p]
 [hide]
-[bg2 storage=still.png time=500]
+[bg2 storage=still_pafe.png time=500]
 仕方ない。目の前にはびわやスモモといった初夏のフルーツを基調に、[r]生クリームにアイス、スポンジにヨーグルトが、[r]これでもかという高さで盛りに盛られている。[p]
 これぞ「猫のしっぽ」名物。（主にサイズが）スペシャルパフェ。[r]とにかくデカい。そしてちゃんと美味そう。[p]
 パフェの向こう側では、[r]美波がもう見事なまでにパフェにご執心になられている。[p]

@@ -600,7 +600,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [fadeinbgm time=1000 storage=seiji.ogg]
 [hide]
 ;視線移動のエフェクト
-[bg2 storage="still.png" time="1000"]
+[bg2 storage="still_takamura.png" time="1000"]
 ふてくされてそっぽを向いた視線の先に、人影が見えた。[p]
 いや、本当は最初に目を奪われたのはその大きな望遠鏡だった。[p]
 遥かな天空へ向けられたそれを、老人が必死に覗き込んでいる。[p]
@@ -649,10 +649,9 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #北斗
 [hw/metozi]
 「ふ～ン……」[p][stopse buf=1]
-*seiji
 #
 [hide]
-[bg2 storage="still.png" time="1000"]
+[bg2 storage="still_takamura.png" time="1000"]
 [playse  storage="se/step_grass.ogg" ]
 その時、なぜ自分がそうしたのかはわからないけど、[r]気づけば河川敷を駆け下りて爺さんに近づいていた。[p]
 #美波

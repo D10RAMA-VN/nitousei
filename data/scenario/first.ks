@@ -19,6 +19,16 @@
 [chara_new  name="itidou" storage="hokuto_win/mu.png" width=900 jname="一同" color=#EA580C]
 [chara_new  name="sannin" storage="hokuto_win/mu.png" width=900 jname="三人" color=#EA580C]
 
+[seopt volume="&sf.current_se_vol" effect=true]
+[seopt buf=1 volume="&sf.vo1_vol" effect=true]
+[seopt buf=2 volume="&sf.vo2_vol" effect=true]
+[seopt buf=3 volume="&sf.vo3_vol" effect=true]
+[seopt buf=4 volume="&sf.vo4_vol" effect=true]
+[seopt buf=5 volume="&sf.vo5_vol" effect=true]
+[seopt buf=6 volume="&sf.vo6_vol" effect=true]
+[seopt buf=8 volume="&sf.current_se_vol" effect=true]
+[seopt buf=9 volume="&sf.current_se_vol" effect=true]
+
 [glyph fix=true left=1750 top=880]
 
 @call storage="tyrano.ks"

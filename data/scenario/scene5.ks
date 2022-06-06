@@ -724,7 +724,7 @@
 #
 そしてオレは、部屋の中に置いてある、ホワイトボードに目をやる。[p]
 [hide]
-[bg2 storage=still.png time=500]
+[bg2 storage=still_busoku.png time=500]
 #北斗
 [hs_bishou]
 「部則のさ、『マジメさと楽しさは両立させるべし！』ってアレ…[r]　自分で提案しといて、すっかり忘れてた。」[p][stopse buf=1]
