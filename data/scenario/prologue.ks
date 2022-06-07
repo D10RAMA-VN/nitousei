@@ -638,7 +638,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [hw/odoroki]
 「そんなにか！？」[p][stopse buf=1]
 #美波
-[mw/magao]
+[mw/magao][kanim name="minami" keyframe="nod" time="500"]
 「うん。でも、どうしてそんなに天体観測に夢中なのか、[r]　だれも知らないんだって。」[p][stopse buf=2]
 #北斗
 [hw/mu2]
@@ -715,6 +715,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [s/mu]
 「こっちに来なさい。望遠鏡の使い方を教えてやろう。」[p][stopse buf=3]
 #北斗
+[kanim name="hokuto" keyframe="nod" time="500"]
 「はい！」[p][stopse buf=1]
 #
 [hide][minami_w_aozame]

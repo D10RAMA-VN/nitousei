@@ -87,18 +87,23 @@
 「…その前に、ちょっと聞きたいことがあるんですけど。」[p][stopse buf=1]
 #高村
 「なにかね。」[p][stopse buf=3]
+#
+[hide][hokuto_s_magao]
 #北斗
-[hs/magao]
 「…爺さんが探してる星の名前、教えてくれませんか。」[p][stopse buf=1]
 [vostop]
+#
+[hide][seizi_magao]
 #高村
-[s/magao]
 「…！」[p]
 [vostart]
+#
+[hide][hokuto_s_magao]
 #北斗
 「そろそろ、教えて欲しいです。爺さんがどんな星を探しているのか。」[p][stopse buf=1]
+#
+[seizi_metozi]
 #高村
-[s/metozi]
 「…星に名前をつけるのは、見つけてからと相場が決まっている」[p][stopse buf=3]
 #北斗
 [hs/iradati]
@@ -271,8 +276,9 @@
 [hs/kanasimi]
 「…やっぱり。」[p][stopse buf=1]
 [fadeinbgm storage=seiji.ogg time=1000]
+#
+[hide][seizi_metozi]
 #高村
-[s/metozi]
 「北野夕子。本名は高村裕子。キミの調べた通り、[r]　彼女の曲を私が書いて、彼女が歌う…そんなことをやっていた。[r]　…もう４０年近く前の話か。」[p][stopse buf=3]
 #高村
 [s/kanasimi]
@@ -294,20 +300,23 @@
 #高村
 「それに無理を言ったのは私たちだ。」[p][stopse buf=3]
 #北斗
-[hs/kanasimi]
+[hs_kanasimi]
 「…そこまでして、隠さないといけなかった。」[p][stopse buf=1]
+[mhhide]
 #高村
 [s/hohoemi2]
 「それもそうだが、それだけでもない。[r]　探偵ごっこにしては詰めが甘いな、北斗君。」[p][stopse buf=3]
 #北斗
-[hs/magao]
+[hs_magao]
 「え？」[p][stopse buf=1]
+[mhhide]
 #高村
 [s/kuti]
 「私は前にキミに言ったはずだがな。この町は星がよく見えると。」[p][stopse buf=3]
 #北斗
-[hs/odoroki]
+[hs_odoroki]
 「…！」[p][stopse buf=1]
+[mhhide]
 #
 
 [mask time=500]

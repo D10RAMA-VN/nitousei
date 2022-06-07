@@ -66,42 +66,47 @@
 [ms/ikari]
 「…」[p][stopse buf=2]
 #
+[hide]]
 結局、爺さんの言う通り。あるいは、自分でもわかっていた通り。[p]
 子供の喧嘩じゃないんだから、口先だけで謝って、[r]許しも得られたとしても、この沈黙はなにも変わらない。[p]
 わかっていたのに、どうしようもない。[p]
 だが、この沈黙を破ったのは、意外にも美波の方だった。[p]
 #美波
-[ms/uwame][anim name=minami left=+90 time=500]
+[minami_s_uwame]
 「…はい、これ。」[p][stopse buf=2]
 #北斗
-[hs/odoroki]
+[hs_odoroki]
 「え？」[p][stopse buf=1]
+[mhhide]
 #
 差し出されたのは、青い袋に入った四角い何か。[p]
 #北斗
-[hs/odoroki]
+[hs_odoroki]
 「…なんだよ。これ」[p][stopse buf=1]
+[mhhide]
 #美波
 [ms/tun2]
 「…お弁当。…その、……お母さんに作ってもらった。」[p][stopse buf=2]
 #北斗
-[hs/aseri]
+[hs_aseri]
 「おばさんに？」[p][stopse buf=1]
+[mhhide]
 #美波
 [ms/tun]
 「…北斗が、いつもコンビニおにぎりとか、[r]　プロテインバーでお昼済ませてるって言ったら、[r]　その、…北斗の分も作ってくれるって。」[p][stopse buf=2]
 #北斗
-[hs/mu2]
+[hs_mu2]
 「そんな。…悪いよ、おばさんだって忙しいのに。」[p][stopse buf=1]
+[mhhide]
 #美波
 [ms/tun]
 「…まあその、1人分も2人分も変わらないとか言ってたし。[r]　それに、今日の分はほら、もう、あるから。[r]　食べないともったいないし。」[p][stopse buf=2]
 #
 変わらず、美波は包みを突き出している。[p]
 …流石に、ここまでくれば受け取らない方が失礼だろう。[p]
+[hide][hokuto_s_bishou left=680 wait=false][minami_s_tun left=40]
 #北斗
-[hs/bishou]
-「…そっか。じゃあ、ありがたく。」[p][stopse buf=1][anim name=hokuto left=630 time=500]
+「…そっか。じゃあ、ありがたく。」[p][stopse buf=1]
 #美波
 [ms/tere]
 「…でも。」[p][stopse buf=2]
@@ -453,12 +458,15 @@
 そして、これは今日限りで終わりになったと、言ってしまえばいい。[p]
 そうだ、母からそんなメールが来たとか、適当な嘘をつけばいい。[p]
 そうやって、今日のことなんかなかったことのように、[r]明日からまた今までと変わらないように過ごしていければいいんだ。[p]
+[minami_s_magao]
 そう意を決して、部室のドアに手をかけた。[p]
 [stopbgm]
 [fadeinbgm time=1000 storage=nitousei_wall.ogg]
 #美波
+[ms/odoroki]
 「…？！」[p][stopse buf=2]
 #
+[hide]
 ドアの向こうから、音が聞こえる。[p]
 いつものように、先に来ていた北斗が１人、練習している。[p]
 でも、明らかに、先週までとは違う旋律。[p]
