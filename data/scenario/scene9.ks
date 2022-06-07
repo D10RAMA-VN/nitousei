@@ -176,8 +176,29 @@
 ひとつ息をすって、ストロークを始める。[p]
 [fadeoutbgm time=500]
 
-;（エンドロール（二等星になって）[p]
-[bg2 storage=still_kirakirabosi.png time=500]
+
+[mask time="1500"]
+[clearfix]
+@layopt layer=message0 visible=false
+[bg2 storage="black.png" time=0]
+[iscript]
+sf.current_bgm_vol = sf._system_config_bgm_volume
+[endscript]
+[wait time="1500"]
+[mask_off time="500"]
+[if exp="sf._system_config_bgm_volume>=1&&sf.SM2!=1"]
+[movie storage="ED.webm" skip=false volume="&sf.current_bgm_vol"]
+[elsif exp="sf._system_config_bgm_volume>=1&&sf.SM2==1"]
+[movie storage="ED.webm" skip=true volume="&sf.current_bgm_vol"]
+[else]
+[movie storage="ED.webm" skip=true volume=0]
+[endif]
+[mask time="700"]
+[eval exp="sf.SM2=1"]
+[rolebutton]
+@layopt layer=message0 visible=true
+[bg2 storage=still_kirakirabosi.png time=1000]
+[mask_off time="1000"]
 
 #北斗
 「……どうだった、爺さん」[p][stopse buf=1][vostop]

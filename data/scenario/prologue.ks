@@ -1136,13 +1136,32 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 それから、俺たちと爺さんのお星さまを探す日々が始まった。[p]
 美波の両親を説得するのは流石に骨が折れたけど、[r]成績を絶対に落とさないことを条件に許してもらった。[p]
 こうして毎週毎週、[r]週末の夜になると河川敷に集まって望遠鏡を眺めることになったんだ。[p]
-[fadeoutbgm time=500]
+[fadeoutbgm time=1000]
 
-[mask graphic="cut/cutin_hokuto.png" time=1500]
-[wait time=500]
-[playbgm storage=eyecatch.ogg loop="false"]
-[hide time=0][kaname_bishou2 time=0]
-[bg2 storage="ongaku.jpg" height=1554 top="-200" time="4000"][stopbgm]
-[mask_off time=1000]
+
+[mask time="1500"]
+[clearfix]
+@layopt layer=message0 visible=false
+[hide time=0]
+[bg2 storage="black.png" time=0]
+[iscript]
+sf.current_bgm_vol = sf._system_config_bgm_volume
+[endscript]
+[wait time="1500"]
+[mask_off time="500"]
+[if exp="sf._system_config_bgm_volume>=1&&sf.SM1!=1"]
+[movie storage="OP.webm" skip=false volume="&sf.current_bgm_vol"]
+[elsif exp="sf._system_config_bgm_volume>=1&&sf.SM1==1"]
+[movie storage="OP.webm" skip=true volume="&sf.current_bgm_vol"]
+[else]
+[movie storage="OP.webm" skip=true volume=0]
+[endif]
+[mask time="700"]
+[eval exp="sf.SM1=1"]
+[rolebutton]
+@layopt layer=message0 visible=true
+[kaname_bishou2 time=0]
+[bg2 storage="ongaku.jpg" height=1554 top="-200" time="1000"]
+[mask_off time="1000"]
 
 @jump storage="scene1.ks" target=*chapter1

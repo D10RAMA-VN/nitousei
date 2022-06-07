@@ -40,14 +40,11 @@ if(typeof tyrano.plugin.kag.variable.sf.vo6_vol!="undefined"){tyrano.plugin.kag.
 
 @clearstack
 
+[bg2 storage=title.jpg width=1920 height=3072 top=-1970 time=500]
+[anim layer=base top=-100 time=2000 effect=easeInOutQuad]
+[wait time=2000]
 
 [html]
-<div id="tl">
-
-<img class="img_title" src="data/bgimage/title.jpg" style="z-index:-1;left:0px;top:0px;width:1920px;position:absolute;">
-
-
-
 <div id="title_start" class="title_item" style="top:420px;">
 	<img src="data/image/title_start.png" alt="" class="non">
 </div>
@@ -63,19 +60,12 @@ if(typeof tyrano.plugin.kag.variable.sf.vo6_vol!="undefined"){tyrano.plugin.kag.
 <div id="title_quit" class="title_item" style="top:900px;">
 	<img src="data/image/title_quit.png" alt="" class="non">
 </div>
-
-;<div id="fullscreen" style="position:absolute;top:350px;">FullScreen</div>
-
 <img src="data/image/title_title.png" style="left:120px;top:600px;position:absolute;">
-
 <img src="data/fgimage/title_d10rama.png" style="width:300px;left:1550px;top:70px;position:absolute;" class="jumpHP">
-</div>
+;<img class="img_title" src="data/bgimage/title.jpg" style="z-index:-1;left:0px;top:-2000px;width:1920px;position:absolute;">
 
-<img class="img_title" src="data/bgimage/title.jpg" style="z-index:-1;left:0px;top:-2000px;width:1920px;position:absolute;">
 
 <script>
-$('#fullscreen').on('click',function(e){tyrano.plugin.kag.menu.screenFull()});
-
 $('#title_start').click(function(){tyrano.plugin.kag.ftag.startTag("jump",{target:"gamestart"})});
 $('#title_load').click(function(){tyrano.plugin.kag.ftag.startTag("showload")});
 $('#title_config').click(function(){tyrano.plugin.kag.ftag.startTag("showconfig")});

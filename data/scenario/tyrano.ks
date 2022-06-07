@@ -90,7 +90,6 @@ tf.savetext = "<span style='font-size:10px'>"+tf.save_date+"</span><br />"+tf.ti
 [button name="role_button" role=backlog graphic="ui/backlog.png" x=1417 y=1040 fix=true]
 [button name="role_button" role=auto graphic="ui/auto.png" x=1565 y=1042 fix=true]
 [button name="role_button" role=skip graphic="ui/skip.png" x=1665 y=1040 fix=true]
-;[button name="role_button" role=config graphic="ui/config.png" x=1753 y=1040 fix=true]
 [button name="role_button" role="sleepgame" fix="true" graphic="ui/config.png" x=1753 y=1040 storage="config.ks" ]
 [button name="role_button" role=window graphic="ui/close.png" x=1876 y=1040 fix=true]
 [button name="role_button2" role=unlock graphic="ui/menu.png" x=1758 y=1035 fix=true]

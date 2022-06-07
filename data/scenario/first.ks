@@ -7,6 +7,7 @@
 [plugin name="backlog"]	
 @call storage="backlog.ks"
 
+[mask graphic="logo.png" time=1500]
 [chara_new  name="hokuto" storage="hokuto_win/mu.png" width=900 jname="北斗" color=#EA580C]
 [chara_new  name="minami" storage="minami_win/magao.png" width=1200 jname="美波" color=#0299E3]
 [chara_new  name="seizi" storage="seizi/mu.png" width=900 jname="高村" color=#E11D48]
@@ -36,13 +37,8 @@
 
 @layopt layer="message" visible=false
 
-;[mask time=1000]
-;[image layer=0 page=fore visible=true storage=logo.png]
-;[mask_off time=1000]
-;[wait time=1000]
-;[mask time=1000]
-;[freeimage layer=0 time=100]
-;[mask_off time=100]
+
+[mask_off time=1000]
 
 
 @jump storage="title.ks"

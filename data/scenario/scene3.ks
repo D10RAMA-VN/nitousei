@@ -88,7 +88,7 @@
 [hw/aozame2]
 「…」[p][stopse buf=1]
 #
-[hide][bg2 storage="class.jpg" time="1000"]
+[hide][playse storage=se/chair.ogg buf=8][bg2 storage="class.jpg" time="1000"]
 クラスメイトに肩を貸されて席を立ったあたりから、[r]自分の意識がどんどん薄れていった。[p]
 
 [mask time=500]
