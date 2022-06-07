@@ -41,8 +41,8 @@ if(typeof tyrano.plugin.kag.variable.sf.vo6_vol!="undefined"){tyrano.plugin.kag.
 @clearstack
 
 [bg2 storage=title.jpg width=1920 height=3072 top=-1970 time=500]
-[anim layer=base top=-100 time=2000 effect=easeInOutCubic]
-[wait time=2000]
+[anim layer=base top=-100 time=2500 effect=easeInOutCubic]
+[wait time=2500]
 
 [html]
 <div id="title_start" class="title_item" style="top:420px;">

@@ -34,21 +34,15 @@ $('#epilogue').click(function(){
 
 
 
-$('#g_op').click(function(){
-  audio.pause()
+$('#opening').click(function(){
   $('#cgvideo').css('visibility','visible');
-  $('#vcg').attr('src','data/video/amehazuOP3.mp4');
+  $('#vcg').attr('src','data/video/OP.webm');
 });
-$('#g_ed1').click(function(){
-  audio.pause()
+$('#ending').click(function(){
   $('#cgvideo').css('visibility','visible');
-  $('#vcg').attr('src','data/video/amehazuED_A.mp4');
+  $('#vcg').attr('src','data/video/ED.webm');
 });
-$('#g_ed2').click(function(){
-  audio.pause()
-  $('#cgvideo').css('visibility','visible');
-  $('#vcg').attr('src','data/video/amehazuED_B2.mp4');
-});
+
 
 $('#cgbig').click(function(){
  
