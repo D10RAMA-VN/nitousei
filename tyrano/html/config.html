@@ -316,18 +316,19 @@ $('.config_quit').click(function(){tyrano.plugin.kag.ftag.startTag("close")});
 	   });
 	   
 	   $(function(){
-	   	   var fullscreen ="Off";
-	       if ((document.fullscreenElement !== undefined && document.fullscreenElement !== null) || // HTML5 標準
+		   var fullscreen = "OFF";
+
+		  if ((document.fullscreenElement !== undefined && document.fullscreenElement !== null) || // HTML5 標準
               (document.mozFullScreenElement !== undefined && document.mozFullScreenElement !== null) || // Firefox
               (document.webkitFullscreenElement !== undefined && document.webkitFullscreenElement !== null) || // Chrome・Safari
               (document.webkitCurrentFullScreenElement !== undefined && document.webkitCurrentFullScreenElement !== null) || // Chrome・Safari (old)
               (document.msFullscreenElement !== undefined && document.msFullscreenElement !== null)){ // IE・Edge Legacy
-                   fullscreen=="ON";
+                   fullscreen = "ON";
            } else {
-                   fullscreen=="OFF";
+                   fullscreen = "OFF";
            };
            
-           if(fullscreen=="ON"){
+           if(fullscreen == "ON"){
 				$('#fullscreenOn').prop('checked', true);$('#fullscreenOff').prop('checked', false);
 			}else{
 				$('#fullscreenOn').prop('checked', false);$('#fullscreenOff').prop('checked', true);
