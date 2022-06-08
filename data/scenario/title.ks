@@ -86,16 +86,16 @@ $('#title_config').click(function(){tyrano.plugin.kag.ftag.startTag("showconfig"
 $('#title_gallery').click(function(){tyrano.plugin.kag.ftag.startTag("showgallery")});
 $('#title_quit').click(function(){tyrano.plugin.kag.ftag.startTag("close")});
 $("#tl").on("inview", function (event, isInView) {
-    if (isInView) {
-　　  $("#tl").css('opacity','1');
-    }
+if (isInView) {
+	$("#tl").css('opacity','1');
+}
   });
 </script>
 [endhtml]
 
 [else]
 [html]
-<div style="position:absolute;top:980px;left:780px;width:1200px;height:70px;display:flex;float:left;">
+<div style="position:absolute;top:980px;left:740px;width:1200px;height:70px;display:flex;float:left;">
 <div id="title_start" class="title_itemC">
 	<img src="data/image/title_start.png" alt="" class="non" style="height:33px;">
 </div>
