@@ -182,16 +182,16 @@
 @layopt layer=message0 visible=false
 [bg2 storage="black.png" time=0]
 [iscript]
-sf.current_bgm_vol = sf._system_config_bgm_volume
+sf.current_bgm_vol = sf._system_config_bgm_volume;
 [endscript]
 [wait time="1500"]
 [mask_off time="500"]
 [if exp="sf._system_config_bgm_volume>=1&&sf.SM2!=1"]
-[movie storage="ED.webm" skip=false volume="&sf.current_bgm_vol"]
+[movie storage="ED_nitousei.webm" skip=false volume="&sf.current_bgm_vol"]
 [elsif exp="sf._system_config_bgm_volume>=1&&sf.SM2==1"]
-[movie storage="ED.webm" skip=true volume="&sf.current_bgm_vol"]
+[movie storage="ED_nitousei.webm" skip=true volume="&sf.current_bgm_vol"]
 [else]
-[movie storage="ED.webm" skip=true volume=0]
+[movie storage="ED_nitousei.webm" skip=true volume=0]
 [endif]
 [mask time="700"]
 [eval exp="sf.SM2=1"]
