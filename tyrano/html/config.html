@@ -317,7 +317,7 @@ $('.config_quit').click(function(){tyrano.plugin.kag.ftag.startTag("close")});
 	   
 	   $(function(){
 		   var fullscreen = "OFF";
-
+		   
 		  if ((document.fullscreenElement !== undefined && document.fullscreenElement !== null) || // HTML5 標準
               (document.mozFullScreenElement !== undefined && document.mozFullScreenElement !== null) || // Firefox
               (document.webkitFullscreenElement !== undefined && document.webkitFullscreenElement !== null) || // Chrome・Safari
@@ -336,7 +336,7 @@ $('.config_quit').click(function(){tyrano.plugin.kag.ftag.startTag("close")});
 			$('#fullscreenOn').change(function(){
 				if( $(this).prop('checked') ){
 					fullscreen ="ON";
-					tyrano.plugin.kag.menu.screenFull();
+					TYRANO.kag.variable.sf.fullscreen = 1;
 				}else{
 					fullscreen ="OFF";
 				}
@@ -344,7 +344,7 @@ $('.config_quit').click(function(){tyrano.plugin.kag.ftag.startTag("close")});
 			$('#fullscreenOff').change(function(){
 				if( $(this).prop('checked') ){
 					fullscreen ="OFF";
-					tyrano.plugin.kag.menu.screenFull();
+					TYRANO.kag.variable.sf.fullscreen = 0;
 				}else{
 					fullscreen ="ON";
 				}

@@ -22,7 +22,7 @@
 [mask_off time=1000]
 
 *chapter4
-[fadeinbgm storage=bg/room.ogg time=1000]
+[fadeinbgm storage="bg/room.ogg" time=1000]
 [fadeinse storage="bg/clock.ogg" loop=true buf=9 time=1000]
 #
 翌日。[p]
@@ -41,7 +41,8 @@
 #北斗
 「…行こう。」[p][stopse buf=1]
 
-[fadeoutbgm time=500][fadeoutse buf=9 time=500]
+[fadeoutse buf=9 time=500]
+[fadeoutbgm time=500]
 [mask time=500]
 [bg2 storage="kawa_n.jpg" time="1000"]
 [seizi_hohoemi time=0]

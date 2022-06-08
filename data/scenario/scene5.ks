@@ -66,7 +66,7 @@
 [ms/ikari]
 「…」[p][stopse buf=2]
 #
-[hide]]
+[hide]
 結局、爺さんの言う通り。あるいは、自分でもわかっていた通り。[p]
 子供の喧嘩じゃないんだから、口先だけで謝って、[r]許しも得られたとしても、この沈黙はなにも変わらない。[p]
 わかっていたのに、どうしようもない。[p]
@@ -766,7 +766,7 @@
 「…！」[p][stopse buf=2]
 #北斗
 [hs/tere]
-「図々しいかもしれないけど、でも、ぜえっったい残さず食べるから。[r]　今日とか、あのときの調理実習みたいに。」[p][stopse buf=1]
+「図々しいかもしれないけど、でも、絶対残さず食べるから。[r]　今日とか、あのときの調理実習みたいに。」[p][stopse buf=1]
 #北斗
 「…だから、その。たまにでいいから…」[p][stopse buf=1]
 #美波
@@ -802,7 +802,7 @@
 [hide time=0][kaname_niyake left=-80 wait=false][nao_niko left=460 wait=false][reito_komari left=850]
 [bg2 storage="rouka_s.jpg" time="1500"]
 [mask_off time=500]
-[fadeinbgm time=1000 storage=nichijo.ogg]
+; [fadeinbgm time=1000 storage=nichijo.ogg]
 #奏女
 「…ですって聞きました奥さん？」[p][stopse buf=6]
 #七音
@@ -828,7 +828,7 @@
 #奏女
 [kaname_bishou left=-80]
 「シ～！2人にばれちゃうでしょ？」[p][stopse buf=6]
-[fadeoutbgm time=1000]
+; [fadeoutbgm time=1000]
 [mask time=500]
 [hide time=0][minami_s_dere left=40 time=0][hokuto_s_magao left=640 time=0]
 [bg2 storage=ongaku.jpg height=1554 top="-200" time=1500]

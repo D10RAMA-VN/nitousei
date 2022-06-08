@@ -396,6 +396,7 @@
 #高村
 「だが…そうでもしなければ、私は生きていられなかったんだ。」[p][stopse buf=3]
 [fadeoutbgm time=1000]
+[fadeinbgm storage=bg/river.ogg time=1000]
 #
 [move name=seizi left=-195 wait=true][hokuto_s_magao left=360]
 #北斗
@@ -434,7 +435,6 @@
 #美波
 [ms/magao2]
 「…なんの話？」[p][stopse buf=2]
-[fadeinbgm storage=bg/river.ogg time=1000]
 #北斗
 [hs/magao]
 「なんでもない。[r]　…さて、爺さん、あんまり根ほり葉ほり聞いて悪かった。」[p][stopse buf=1]
