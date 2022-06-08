@@ -54,7 +54,7 @@ if(typeof tyrano.plugin.kag.variable.sf.vo6_vol!="undefined"){tyrano.plugin.kag.
 @clearstack
 
 [if exp="sf.chapEpi!=1"]
-[bg2 storage=title.jpg width=1920 height=3072 top=-1970 time=500]
+[bg2 storage=title.png width=1920 height=3072 top=-1970 time=500]
 [anim layer=base top=-100 time=2500 effect=easeInOutCubic]
 [wait time=2500]
 

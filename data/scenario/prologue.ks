@@ -339,48 +339,48 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 「バスケか。中学からやってたの？」[p][stopse buf=6]
 [mkhide]
 #北斗
-[hw_bishou]
+[hw/bishou][kanim name="hokuto" keyframe="nod" time="500"]
 「はい。小学校のころは、[r]　少年野球とか、サッカーのクラブチームとか、柔道とか空手とか…」[p][stopse buf=1]
 #奏女
 [k_magao]
 「え、色々やってたんだね。」[p][stopse buf=6]
 [mkhide]
 #北斗
-[hw_mu]
+[hw/mu][kanim name="hokuto" keyframe="nod" time="500"]
 「はい。でも、中々どれも性に合わなかったというか、何というか…」[p][stopse buf=1]
 #美波
-[mw_magao]
+[mw/magao]
 「…」[p][stopse buf=2]
 #奏女
 [k_magao]
 「そうなんだ…美波ちゃんは何してたの？」[p][stopse buf=6]
 [mkhide]
 #美波
-[mw_tun]
+[mw/tun]
 「えっと、美術部だったんですけど…」[p][stopse buf=2]
 #七音
 [n_niko2]
 「美術部か～、いいね。」[p][stopse buf=4]
 #美波
-[mw_kanasimi]
+[mw/kanasimi]
 「…でも、生徒会活動が忙しくて、ほとんどできませんでした。」[p][stopse buf=2]
 #七音
 [n_iradati]
 「生徒会！？」[p][stopse buf=4]
 [mnhide]
 #北斗
-[hw_egao2]
+[hw/egao2]
 「こいつ、生徒会長だったんですよ。で、オレが副会長で。」[p][stopse buf=1]
 #奏女
 [k_iradati]
 「しかも生徒会長！？」[p][stopse buf=6]
 [mkhide]
 #美波
-[mw_akire]
+[mw/akire]
 「…あれは北斗がやれっていうから。」[p][stopse buf=2]
 [vostop][voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=24 ][vostart]
 #北斗
-[hw_akire]
+[hw/akire]
 「いや、あれは最初2人で庶務で入って。[r]　2年の秋に誰か会長出すってなって、[r]　美波の方が向いてると思ったからだし。」[p][stopse buf=1]
 #七音
 [n_bishou]
@@ -470,6 +470,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #
 そういって呆れたような目をしたかと思うと、[r]次の瞬間には美波も覚悟を決めたようだった。[p]
 #美波
+[kanim name="minami" keyframe="nod" time="500"]
 「よし、すいません、私も入れてください。」[p][stopse buf=2]
 [voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=30 ]
 [hide]
@@ -522,7 +523,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [mw/magao2]
 「そんなこと言わないでよ…しょうがないじゃない、[r]　一応進学校なんだもの。」[p][stopse buf=2]
 #北斗
-[hw/mu2]
+[hw/mu2][kanim name="hokuto" keyframe="nod" time="500"]
 「まあな…それにしてもまさか入部二週間で[r]　いきなりこんなハードだとは思わなかった…」[p][stopse buf=1]
 #
 [hide]
@@ -657,35 +658,53 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [playse  storage="se/step_grass.ogg" ]
 その時、なぜ自分がそうしたのかはわからないけど、[r]気づけば河川敷を駆け下りて爺さんに近づいていた。[p]
 #美波
+[mw_aozame]
 「ちょっと！？」[p][stopse buf=2]
+[mmhide]
 #北斗
+[hw_egao2]
 「なあ爺さん、こんばんは。何してるんです？」[p][stopse buf=1]
+[mhhide]
 #老人
 「ん？見てわからないのか。お星さまを探しているんだ。」[p][stopse buf=3]
 #北斗
+[hw_magao]
 「探してる？星ならいくらでも見えるじゃないか。」[p][stopse buf=1]
+[mhhide]
 #老人
 「見えている星じゃない。今は見えないお星さまを探しているんだ。」[p][stopse buf=3]
 #北斗
+[hw_kanasimi]
 「見えない星？」[p][stopse buf=1]
+[mhhide]
 #美波
+[mw_odoroki]
 「ちょっとちょっと。すいません、急に話しかけちゃって。」[p][stopse buf=2]
+[mmhide]
 #老人
 「構わんよ。目の死んだ駐在にしか話しかけられなくて[r]　飽き飽きしていたところだ。」[p][stopse buf=3]
 #北斗
+[hw_magao]
 「それで、見えない星を探してるって、なに？」[p][stopse buf=1]
+[mhhide]
 #老人
 「ああ、何年探しても見つからないお星さまだ。」[p][stopse buf=3]
 #北斗
+[hw_akire]
 「へえ…なんでそんなあるかどうかもわからないものを[r]　何年も探してるんです？」[p][stopse buf=1]
+[mhhide]
 #老人
 「……絶対にあるとわかっているからさ。」[p][stopse buf=3]
 #北斗
+[hw_odoroki]
 「？…なんですか、理論上はあるはずみたいな感じですか。」[p][stopse buf=1]
+[mhhide]
 #老人
 「……そんなようなものだ。」[p][stopse buf=3]
 #北斗
+[hw_magao]
 「へぇ…？」[p][stopse buf=1]
+[mhhide]
 #
 この爺さんは、何を言っているんだろう。よくわからない。[p]
 ただ、こんな話をしながらも、決して望遠鏡から顔を外そうとしない。[p]
@@ -693,7 +712,9 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 つい、いつものように言ってしまった。[p]
 [fadeoutbgm time=1000]
 #北斗
+[hw_egao2]
 「…それなら、一緒に探してもいいですか？[r]　何の役にも立たないかもしれないけど。」[p][stopse buf=1]
+[mhhide]
 #
 [bg2 storage="kawa_n.jpg" time=1000]
 [hokuto_w_egao2][seizi_magao]

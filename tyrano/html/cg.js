@@ -40,12 +40,12 @@ $('#epilogue').click(function(){
 $('#opening').click(function(){
   audio.pause()
   $('#cgvideo').css('visibility','visible');
-  $('#vcg').attr('src','data/video/OP.webm');
+  $('#vcg').attr('src','data/video/OP_nitousei.webm');
 });
 $('#ending').click(function(){
   audio.pause()
   $('#cgvideo').css('visibility','visible');
-  $('#vcg').attr('src','data/video/ED.webm');
+  $('#vcg').attr('src','data/video/ED_nitousei.webm');
 });
 
 

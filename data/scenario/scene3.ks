@@ -263,8 +263,9 @@
 [hs_iradati2]
 「嫌だ。明日も行く。行かなきゃ…」[p][stopse buf=1]
 #美波
-[ms/oogoe]
+[font size=44][ms/oogoe]
 「北斗！！」[p][stopse buf=2]
+[resetfont]
 #北斗
 [hs_aseri]
 「…！」[p][stopse buf=1]

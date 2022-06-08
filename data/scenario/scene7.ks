@@ -230,35 +230,55 @@
 [fadeinbgm storage=kaisou.ogg time=1000]
 [mask_off time=500]
 #北斗
+[hs_bishou]
 「オレ、親父が死んでからしばらくさ、ふさぎこんでただろ？[r]　学校も行きたくなかったし、行っても誰とも口きかなかったし。[r]　家にいてもずっとうずくまって泣いてたりとかさ。」[p][stopse buf=1]
+[mhhide]
 #美波
+[ms_bishou]
 「…うん。そうだったね。」[p][stopse buf=2]
+[mmhide]
 #
 [image storage=still_minami.png layer=0 time=500 width=1920 height=1972 top=-700][eval exp="sf.ST7=1"]
 [camera time=60000 y=+700 layer=0 wait=false]
 #北斗
+[hs_egao2]
 「そしたらさ、美波お前、学校はおろか、オレんちまで来て、[r]　校庭やら公園やら、とにかく外に連れ出そうとしてたろ。」[p][stopse buf=1]
+[mshide]
 #美波
 「ホクト、遊びに、いこ？」[p][stopse buf=2]
 #美波
+[ms_uwame]
 「…」[p][stopse buf=2]
+[mmhide]
 #北斗
+[hs_kanasimi]
 「最初は、うざったかった。一人にしてほしかったんだ。[r]　…でも、お前があんまりにもあきらめないから。」[p][stopse buf=1]
+[mhhide]
 #美波
+[ms_magao]
 「……」[p][stopse buf=2]
+[mmhide]
 #
 [bg2 storage=gl_minami.png time=0]
 [freeimage  layer=0 time=500]
 #北斗
+[hs_egao2]
 「しょうがなくうつむいてた顔上げて、お前のほう向いたら、なんかオレ[r]　以上に美波が泣きそうな顔して、必死に手差し伸べてくるからさ。[r]　オレ、もう手を取るしかなかったよ。」[p]
+[mhhide]
 #美波
+[ms_kanasimi]
 「……ほんと、ごめんね、昔から…」[p][stopse buf=2]
+[mmhide]
 #北斗
+[hs_bishou]
 「でも、そうやって手を取ったら、お前めっちゃ嬉しそうな顔してさ。[r]　それで、暗くなるまで鬼ごっこしたりかくれんぼしたり…[r]　頭ン中空っぽになって。」[p][stopse buf=1]
 #北斗
 「親父がいなくなった寂しさ、忘れられたんだ。[r]　ホント、お前がいなかったらどうなってたか。」[p][stopse buf=1]
+[mhhide]
 #美波
+[ms_uwame]
 「北斗…」[p][stopse buf=2]
+[mmhide]
 [fadeoutbgm time=1000]
 #
 [mask time=500]
@@ -739,16 +759,19 @@
 [ms/tere]
 「……」[p][stopse buf=2]
 #
+[hide]
 瞬間オレは頭を抱え、美波は顔を覆った。[p]
 …まあぶっちゃけ、[r]そんなことだろうと頭の片隅になかったこともないんだけど。[p]
 #北斗
-[hs/akire]
+[hs_akire]
 「…あ～入ってきていいですよー（なげやり）」[p][stopse buf=1]
+[mhhide]
+#
+[nao_bishou]
 #七音
-[n_bishou]
 「あ、おーい、北斗君に美波ちゃん」[p][stopse buf=4]
 #
-[mnhide][hs/iradati2][ms/odoroki]
+[hide][hokuto_s_iradati2 left=640 wait=false][minami_s_odoroki left=40]
 #北斗
 「…部長、どうしたんですか？」[p][stopse buf=1]
 #七音
