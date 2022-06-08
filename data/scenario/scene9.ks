@@ -114,7 +114,7 @@
 [hide]
 [seizi_h_kuti]
 #高村
-「ははは、それにな、私は今日で十分だ。もう”くいのこり”はないよ。」[p][stopse buf=3]
+「ははは、それにな、私は今日で十分だ。もう“くいのこり”はないよ。」[p][stopse buf=3]
 #北斗
 [hs_magao]
 「…爺さん…」[p][stopse buf=1]
@@ -199,7 +199,7 @@ sf.current_bgm_vol = sf._system_config_bgm_volume;
 @layopt layer=message0 visible=true
 [bg2 storage=still_kirakirabosi.png time=1000][eval exp="sf.ST11=1"]
 [mask_off time="1000"]
-
+[fadeinbgm storage=bg/wind.ogg time=1000]
 #北斗
 「……どうだった、爺さん」[p][stopse buf=1][vostop]
 #高村
@@ -215,7 +215,7 @@ sf.current_bgm_vol = sf._system_config_bgm_volume;
 「……おい、拍手はいいから、感想くらいくれよ、爺さん」[p][stopse buf=1]
 #
 そんな悪態をつくしか、未熟な自分にはできなかった。[p]
-
+[fadeoutbgm time=1000]
 [mask graphic="cut/cutin_hokuto.png" time=1500]
 [wait time=500]
 [eval exp="sf.chap9=1"]
