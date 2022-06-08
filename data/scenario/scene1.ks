@@ -118,7 +118,7 @@
 #
 [hide][minami_w_tun left=40 wait=false][hokuto_w_aseri left=640]
 #二人
-「「…はい？」」[p][stopse buf=1][fadeinbgm storage=hokuto_A.ogg time=1000]
+「「…はい？」」[p][stopse buf=1][fadeinbgm storage=nichijo.ogg time=1000]
 #
 [hide][nao_kanasimi]
 #七音
@@ -157,6 +157,7 @@
 [k_bishou]
 「はーい。ホワイトボード取ってくるねー。」[p][stopse buf=6]
 
+[fadeoutbgm time=1000]
 [mask time=500]
 [mkhide time=0][hide]
 [nao_magao left=460 time=0][reito_magao time=0 left=850][kaname_magao left=-80 time=0]
