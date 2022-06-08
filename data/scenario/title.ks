@@ -59,6 +59,7 @@ if(typeof tyrano.plugin.kag.variable.sf.vo6_vol!="undefined"){tyrano.plugin.kag.
 [wait time=2500]
 
 [html]
+<div id="tl" style="opacity:0;transition:1s;">
 <div id="title_start" class="title_item" style="top:420px;">
 	<img src="data/image/title_start.png" alt="" class="non">
 </div>
@@ -76,7 +77,7 @@ if(typeof tyrano.plugin.kag.variable.sf.vo6_vol!="undefined"){tyrano.plugin.kag.
 </div>
 <img src="data/image/title_title.png" style="left:120px;top:600px;position:absolute;">
 <img src="data/fgimage/title_d10rama.png" style="width:300px;left:1550px;top:70px;position:absolute;" class="jumpHP">
-;<img class="img_title" src="data/bgimage/title.jpg" style="z-index:-1;left:0px;top:-2000px;width:1920px;position:absolute;">
+</div>
 
 <script>
 $('#title_start').click(function(){tyrano.plugin.kag.ftag.startTag("jump",{target:"gamestart"})});
@@ -84,6 +85,11 @@ $('#title_load').click(function(){tyrano.plugin.kag.ftag.startTag("showload")});
 $('#title_config').click(function(){tyrano.plugin.kag.ftag.startTag("showconfig")});
 $('#title_gallery').click(function(){tyrano.plugin.kag.ftag.startTag("showgallery")});
 $('#title_quit').click(function(){tyrano.plugin.kag.ftag.startTag("close")});
+$("#tl").on("inview", function (event, isInView) {
+    if (isInView) {
+　　  $("#tl").css('opacity','1');
+    }
+  });
 </script>
 [endhtml]
 
