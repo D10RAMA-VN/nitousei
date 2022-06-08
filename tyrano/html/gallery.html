@@ -1,6 +1,10 @@
 <div id="cgall">
 <div class="fadein">
 
+<script>
+    tyrano.plugin.kag.ftag.startTag("fadeoutbgm",{time:500})
+</script>
+
 <style>
 input[type="range"]::-webkit-slider-thumb {
     background: #606589;
@@ -12,7 +16,7 @@ input[type="range"]::-webkit-slider-thumb {
   <div class='tab-buttons'>
     <span class='content1' id="tab_button3" style="width:220px;height:39.5px;margin:-10px 0 0 100px;padding:10px 0;">チャプター</span>
     <span class='content2' id="tab_button4" style="width:245px;height:39.5px;margin:-10px 0 0 0;padding:10px 0;color:#606589;">イベントＣＧ</span>
-    <span class='content3' id="tab_button5" style="width:145px;height:39.5px;margin:-10px 0 0 0;padding:10px 0;color:#606589;">音楽</span>
+    <span class='content3' id="tab_button5" style="width:145px;height:39.5px;margin:-10px 0 0 0;padding:10px 0;color:#606589;pointer-events: none;">音楽</span>
   </div>
   <div class='tab-content'>
     
@@ -37,13 +41,14 @@ input[type="range"]::-webkit-slider-thumb {
         <img src="tyrano/html/star.png" id="chapter7" class="chap" style="left:721px;">
         <img src="tyrano/html/star.png" id="chapter9" class="chap" style="left:960px;">
       </div>
-      <div class="chapbar" style="transform:rotate(45deg);left:40px;"></div><div class="chapbar" style="transform:rotate(45deg);left:280px;"></div><div class="chapbar" style="transform:rotate(45deg);left:520px;"></div><div class="chapbar" style="transform:rotate(45deg);left:760px;"></div><div class="chapbar" style="transform:rotate(45deg);left:1000px;"></div>
-      <div class="chapbar" style="transform:rotate(-45deg);left:160px;"></div><div class="chapbar" style="transform:rotate(-45deg);left:400px;"></div><div class="chapbar" style="transform:rotate(-45deg);left:640px;"></div><div class="chapbar" style="transform:rotate(-45deg);left:880px;"></div><div class="chapbar" style="transform:rotate(-45deg);left:1120px;"></div>
+      <div class="chapbar bar1" style="transform:rotate(45deg);left:40px;"></div><div class="chapbar bar3" style="transform:rotate(45deg);left:280px;"></div><div class="chapbar bar5" style="transform:rotate(45deg);left:520px;"></div><div class="chapbar bar7" style="transform:rotate(45deg);left:760px;"></div><div class="chapbar bar9" style="transform:rotate(45deg);left:1000px;"></div>
+      <div class="chapbar bar2" style="transform:rotate(-45deg);left:160px;"></div><div class="chapbar bar4" style="transform:rotate(-45deg);left:400px;"></div><div class="chapbar bar6" style="transform:rotate(-45deg);left:640px;"></div><div class="chapbar bar8" style="transform:rotate(-45deg);left:880px;"></div><div class="chapbar bar10" style="transform:rotate(-45deg);left:1120px;"></div>
     </div>
     
     <div class='content2'>
       <div style="float:left;position:absolute;top:50px;">
         <img src="data/bgimage/still_takamura.png" class="cg" id="takamura">
+        <img src="data/bgimage/still_kansoku.png" class="cg" id="kansoku">
         <img src="data/bgimage/still_busoku.png" class="cg" id="busoku">
         <img src="data/bgimage/still_seizi.png" class="cg" id="seizi">
         <img src="data/bgimage/still_cry.png" class="cg" id="cry">
@@ -52,30 +57,31 @@ input[type="range"]::-webkit-slider-thumb {
         <img src="data/bgimage/gl_minami.png" class="cg" id="minami">
         <img src="data/bgimage/still_kokuhaku.png" class="cg" id="kokuhaku">
         <img src="data/bgimage/still_perseus.png" class="cg" id="perseus">
-        <img src="data/bgimage/still_kirakirabosi.png" class="cg" id="kirakirabosi">
-        <img src="data/bgimage/still_epilogue.png" class="cg" id="epilogue" style="float:left;">
-        <img src="data/bgimage/white.jpg" class="cg" id="opening" style="float:left;margin-left:30px;">
-        <div class="try" style="left:370px;top:420px">▶</div>
-        <img src="data/bgimage/white.jpg" class="cg" id="ending" style="float:left;margin-left:30px;">
-        <div class="try" style="left:640px;top:420px;">▶</div>
+        <img src="data/bgimage/still_kirakirabosi.png" class="cg" id="kirakirabosi" style="float:left;">
+        <img src="data/bgimage/still_epilogue.png" class="cg" id="epilogue" style="float:left;margin-left:30px;">
+        <img src="data/bgimage/op_thumb.png" class="cg" id="opening" style="float:left;margin-left:30px;">
+        <div id="try1" class="try" style="left:640px;top:420px">▶</div>
+        <img src="data/bgimage/ed_thumb.png" class="cg" id="ending" style="float:left;margin-left:30px;">
+        <div id="try2" class="try" style="left:910px;top:420px;">▶</div>
       </div>
     </div>
     
     <div class='content3'>
       <audio src="data/bgm/kaisou.ogg" id="audiotag"></audio>
-      <div style="position:absolute;left:150px;top:80px;">
-        <div id="bgm1" class="m_title">曲1</div>
-        <div id="bgm2" class="m_title">曲2</div>
-        <div id="bgm3" class="m_title">曲3</div>
-        <div id="bgm4" class="m_title">曲4</div>
-        <div id="bgm5" class="m_title">曲5</div>
-        <div id="bgm6" class="m_title">曲6</div>
-        <div id="bgm7" class="m_title">曲7</div>
-        <div id="bgm8" class="m_title">曲8</div>
+      <div style="position:absolute;left:150px;top:70px;">
+        <div id="bgm1" class="m_title">1. 北斗のテーマ</div>
+        <div id="bgm2" class="m_title">2. 北斗のテーマ　後期ver</div>
+        <div id="bgm3" class="m_title">3. 美波のテーマ</div>
+        <div id="bgm4" class="m_title">4. 高村のテーマ</div>
+        <div id="bgm5" class="m_title">5. 軽音部集合！</div>
+        <div id="bgm6" class="m_title">6. 標の星</div>
+        <div id="bgm7" class="m_title">7. 二等星になって　ギターソロ</div>
+        <div id="bgm8" class="m_title">8. みえない二等星</div>
+        <div id="bgm9" class="m_title">9. 二等星になって</div>
       </div>
       <div id="play" class="img_container">
-      	<img src="data/image/gl/play_white.png" class="act">
-      	<img src="data/image/gl/play_gray.png" class="act">
+      	<img src="data/image/gl/play_white.png" class="act" id="act1">
+      	<img src="data/image/gl/play_gray.png" class="act" id="act2">
       </div>
 	  <div id="time">
   		<span id="current" style="position:absolute;top:440px;left:715px;font-weight:bold;font-size:20px;color:#606589;font-family:applimincho;">00:00</span>
@@ -83,7 +89,7 @@ input[type="range"]::-webkit-slider-thumb {
 	  </div>
 	  <div id="seekbar" style="position:absolute;top:434px;left:787px;"></div>
 	  <img src="data/image/gl/sound_gray.png"  style="position:absolute;left:945px;top:493px;">
-	  <input type="range" id="volume" style="position:absolute;top:505px;left:940px;width:200px;height:4px;background-color:#606589;" value="30" min="0" max="99">
+	  <input type="range" id="volume" style="position:absolute;top:505px;left:940px;width:200px;height:4px;background-color:#606589;" value="20" min="0" max="99">
 	  
 	  <div id="bmusic" class="img_container" style="position:absolute;left:720px;top:497px;cursor:pointer;width:37px;height:34px;">
 	  	<img src="data/image/gl/pre_white.png" width="100%" height="100%">
@@ -133,12 +139,15 @@ $('.content2').on('click',function(){
 	$('#tab_button4').css("color","white");
 	$('#tab_button5, #tab_button3').css('color','#606589');
 });
+if(tyrano.plugin.kag.variable.sf.chapEpi==1){
+$('.content3').css("pointer-events","auto");
 $('.content3').on('click',function(){
 	$('#gb3, #gb4, #gb5, #gb7, #gb8').hide();
 	$('#gb6, #gb9').show();
 	$('#tab_button5').css("color","white");
 	$('#tab_button3, #tab_button4').css('color','#606589');
 });
+}
 
 $('.cg_back').click(function(){tyrano.plugin.kag.ftag.startTag("jump", {target:"backtitle"})});
 
@@ -156,6 +165,77 @@ $('.tab-content>div').first().slideDown();
       }
     });
   });
+
+if(tyrano.plugin.kag.variable.sf.chapPro!=1){
+	$('#chapter1').css('visibility','hidden');
+	$('.bar1').css('visibility','hidden');
+}else{
+	$('#chapter1').css('visibility','visible');
+	$('.bar1').css('visibility','visible');
+}
+if(tyrano.plugin.kag.variable.sf.chap1!=1){
+	$('#chapter2').css('visibility','hidden');
+	$('.bar2').css('visibility','hidden');
+}else{
+	$('#chapter2').css('visibility','visible');
+	$('.bar2').css('visibility','visible');
+}
+if(tyrano.plugin.kag.variable.sf.chap2!=1){
+	$('#chapter3').css('visibility','hidden');
+	$('.bar3').css('visibility','hidden');
+}else{
+	$('#chapter3').css('visibility','visible');
+	$('.bar3').css('visibility','visible');
+}
+if(tyrano.plugin.kag.variable.sf.chap3!=1){
+	$('#chapter4').css('visibility','hidden');
+	$('.bar4').css('visibility','hidden');
+}else{
+	$('#chapter4').css('visibility','visible');
+	$('.bar4').css('visibility','visible');
+}
+if(tyrano.plugin.kag.variable.sf.chap4!=1){
+	$('#chapter5').css('visibility','hidden');
+	$('.bar5').css('visibility','hidden');
+}else{
+	$('#chapter5').css('visibility','visible');
+	$('.bar5').css('visibility','visible');
+}
+if(tyrano.plugin.kag.variable.sf.chap5!=1){
+	$('#chapter6').css('visibility','hidden');
+	$('.bar6').css('visibility','hidden');
+}else{
+	$('#chapter6').css('visibility','visible');
+	$('.bar6').css('visibility','visible');
+}
+if(tyrano.plugin.kag.variable.sf.chap6!=1){
+	$('#chapter7').css('visibility','hidden');
+	$('.bar7').css('visibility','hidden');
+}else{
+	$('#chapter7').css('visibility','visible');
+	$('.bar7').css('visibility','visible');
+}
+if(tyrano.plugin.kag.variable.sf.chap7!=1){
+	$('#chapter8').css('visibility','hidden');
+	$('.bar8').css('visibility','hidden');
+}else{
+	$('#chapter8').css('visibility','visible');
+	$('.bar8').css('visibility','visible');
+}
+if(tyrano.plugin.kag.variable.sf.chap8!=1){
+	$('#chapter9').css('visibility','hidden');
+	$('.bar9').css('visibility','hidden');
+}else{
+	$('#chapter9').css('visibility','visible');
+	$('.bar9').css('visibility','visible');
+}
+if(tyrano.plugin.kag.variable.sf.chap9!=1){
+	$('#epilog').css('visibility','hidden');
+	$('.bar10').css('visibility','hidden');
+}else{
+	$('#epilog').css('visibility','visible');
+	$('.bar10').css('visibility','visible');
+}
 
 $('#prologue').click(
   function(){
@@ -307,5 +387,10 @@ $('img').on('click', function(){
     $('img').removeClass('selected');
     $(this).addClass('selected');
 });
+
+$('.menu_close').on('click',function(){
+    tyrano.plugin.kag.ftag.startTag("playbgm",{storage:"kaisou.ogg"})
+});
 </script>
 <script src="tyrano/html/cg.js"></script>
+<script src="tyrano/html/music.js"></script>

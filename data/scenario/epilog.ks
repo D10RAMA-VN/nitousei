@@ -241,7 +241,7 @@
 美波、お前も2回目なんだから慣れろよ…というか、[r]今後オレたちはこの方面でいじられ続けるだろうから、[r]慣れないと多分もたなそうだし…[p]
 [hide]
 [fadeinbgm storage=OP.ogg time=1000]
-[bg2 storage=still_epilogue.png time=500]
+[bg2 storage=still_epilogue.png time=500][eval exp="sf.ST12=1"]
 #七音
 「さて、最大の懸念点だった北斗君と美波ちゃんの恋路も[r]　無事ゴールインしたということで！みんなわすれてない？[r]　ライブまであと1か月よ！」[p][stopse buf=4]
 #北斗
@@ -260,6 +260,7 @@
 遠くかがやく夜空の星に、はるかに届くくらいの歌にしてみせるからさ。[p]
 [fadeoutbgm time=1000]
 [mask time=1000]
+[eval exp="sf.chapEpi=1"]
 [bg2 storage=black.png time=2000]
 [fadeoutbgm time=10][fadeoutse time=10][skipstop]
 [stop_keyconfig]

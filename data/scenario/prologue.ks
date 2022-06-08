@@ -602,7 +602,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [fadeinbgm time=1000 storage=seiji.ogg]
 [hide]
 ;視線移動のエフェクト
-[bg2 storage="still_takamura.png" time="1000"]
+[bg2 storage="still_takamura.png" time="1000"][eval exp="sf.ST1=1"]
 ふてくされてそっぽを向いた視線の先に、人影が見えた。[p]
 いや、本当は最初に目を奪われたのはその大きな望遠鏡だった。[p]
 遥かな天空へ向けられたそれを、老人が必死に覗き込んでいる。[p]
@@ -734,7 +734,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 そうして、その晩は9時過ぎまで星を3人で眺めることになった。[p]
 美波は終始ひやひやしていたが、[r]美波のご両親が夜勤で夜遊びがばれる心配もないのは把握していたので、[r]俺は気にせずひたすら爺さんに教えてもらいながら星をみた。[p]
 [fadeoutbgm time=1000]
-[bg2 storage="still_kansoku.png" time=1000]
+[bg2 storage="still_kansoku.png" time=1000][eval exp="sf.ST2=1"]
 #老人
 「さて、いきなりどこにあるのかもわからない星を見るよりは、[r]　有名な星を見るところから始めた方がよかろう。」[p][stopse buf=3]
 #老人
@@ -1044,7 +1044,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #高村
 「いやいや。しかし、せっかくなら美波君にちなんで、[r]　南にかかわる星も見てみたいところだが。[r]　南とつく星座と言えば南十字星だけれどもなあ。」[p][stopse buf=3]
 #
-[chara_move name="hokuto" time=700 left=360 wait=false anim=true][chara_move name="seizi" time=700 left=-195 wait=false anim=true][minami_w_bishou left=840]
+[chara_move name="hokuto" time=700 left=360 wait=false anim=true][chara_move name="seizi" time=700 left=-195 wait=true anim=true][minami_w_bishou left=840]
 #美波
 「南十字星、サザンクロス、ですか？」[p][stopse buf=2]
 #北斗
@@ -1130,8 +1130,6 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [hw/egao2]
 「よし、決まりだな。爺さん、また来るよ。」[p][stopse buf=1]
 
-;夜空かなんかの背景？
-
 #
 それから、俺たちと爺さんのお星さまを探す日々が始まった。[p]
 美波の両親を説得するのは流石に骨が折れたけど、[r]成績を絶対に落とさないことを条件に許してもらった。[p]
@@ -1157,7 +1155,7 @@ sf.current_bgm_vol = sf._system_config_bgm_volume;
 [movie storage="OP_nitousei.webm" skip=true volume=0]
 [endif]
 [mask time="700"]
-[eval exp="sf.SM1=1"]
+[eval exp="sf.SM1=1"][eval exp="sf.chapPro=1"]
 [rolebutton]
 @layopt layer=message0 visible=true
 [kaname_bishou2 time=0]

@@ -183,6 +183,7 @@
 #美波
 「…北斗、大丈夫？」[p][stopse buf=2]
 #北斗
+[kanim name="hokuto" keyframe="nod" time="500"]
 「うん、とりあえず。」[p][stopse buf=1]
 #美波
 [ms/dere]
@@ -414,7 +415,7 @@
 「…美波？」[p][stopse buf=1]
 #
 [mhhide][hide]
-[bg2 storage=still_cry.png time=1000]
+[bg2 storage=still_cry.png time=1000][eval exp="sf.ST5=1"]
 #美波
 「やっぱり…、やっぱりお父さんのことが…お父さんが、[r]　いないから…ごめん、北斗…ごめん…」[p][stopse buf=2]
 #北斗
@@ -483,6 +484,7 @@
 [wait time=500]
 [playbgm storage=eyecatch.ogg loop="false"]
 [hide time=0]
+[eval exp="sf.chap3=1"]
 [bg2 storage=heya.jpg time=4000][stopbgm]
 [mask_off time=0]
 

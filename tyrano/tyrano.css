@@ -920,15 +920,16 @@ audio {
   width: 300px;
   height: 5px;
   margin: 1em;
-  background: linear-gradient(#606589, #606589) no-repeat #fff;
+  background: linear-gradient(#fff, #fff) no-repeat #606589;
 }
 
 .m_title{
   padding-left:5px; 
-  font-size:24px;
+  text-align:left;
+  font-size:25px;
   font-family:Noto;
   color:#606589;
-  margin-bottom:19px;
+  margin-bottom:18px;
   border-left: 4px solid rgba(0,0,0,0);
   cursor:pointer;
   transition: .3s;
@@ -969,13 +970,12 @@ audio {
 
 .try{
   position:absolute;
-  top:325px;
-  font-size:60px;
+  font-size:50px;
   color:#fff;
   background-color:#000;
   opacity:0.8;
-  width:80px;
-  height:80px;
+  width:70px;
+  height:70px;
   border-radius:50%;
   text-align:center;
   pointer-events:none;
@@ -1178,6 +1178,30 @@ audio {
 }
 
 .title_item:hover:before{
+	opacity:1;
+}
+
+.title_itemC{
+	position:relative;
+	margin-right:70px;
+	cursor:pointer;
+}
+
+.title_itemC:before{
+	content: '';
+ 	position: absolute;
+ 	top: -20px;
+ 	left: -45px;
+	transition:.3s;
+	width:23.76px;
+	height:66px;
+	transform:rotate(7deg);
+	opacity:0;
+	background-size: 23.76px 66px;
+	background-image: url('images/system/click.png');
+}
+
+.title_itemC:hover:before{
 	opacity:1;
 }
 

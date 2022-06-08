@@ -52,9 +52,8 @@
 #高村
 「…おや、北斗君。身体を壊していたのではなかったのかい？」[p][stopse buf=3]
 #
-[move name=seizi left=15 wait=true]
+[hide][seizi_hohoemi left=15 wait=false][hokuto_s_magao left=680]
 #北斗
-[hokuto_s_magao left=680]
 「…まあなんとか。やっぱり美波が来てましたか。」[p][stopse buf=1]
 #高村
 「ああ、昨晩な。喧嘩したとも言っていたが。」[p][stopse buf=3]
@@ -80,7 +79,7 @@
 #
 爺さんの視線が鋭くなっていく。[r]まるで、言い訳するなと言っているように。[p]
 でも、…でも。[p]
-[move name=seizi left=15 wait=true][hokuto_s_kanasimi2 left=680]
+[hide][seizi_magao left=15 wait=false][hokuto_s_kanasimi2 left=680]
 #北斗
 「…違うんですよ。美波は。」[p][stopse buf=1]
 #高村
@@ -175,18 +174,21 @@
 [hs/magao]
 「…そうですね、すいません、変な話聞いてもらっちゃって。」[p][stopse buf=1]
 #
+[hide]
 やはり今すぐにでも謝りに行こう。[r]そう思い立ち去ろうとしたとき、爺さんに呼び止められた。[p]
+[seizi_magao]
 #高村
-[s/magao]
 「待て、北斗君。とにかく話を聞いてほしかった、[r]　というのもわかるが…キミは、それだけでもないんじゃないのか？」[p][stopse buf=3]
 #北斗
-[hs/odoroki]
+[hs_odoroki]
 「え…？」[p][stopse buf=1]
+[mhhide]
 #高村
 「とにかく、[r]　自分が悪いようだから謝らなければならないことはわかっていても、[r]　本当のところは何といえばいいのかわからんのだろう。」[p][stopse buf=3]
 #北斗
-[hs/magao]
+[hs_magao]
 「……なんで、そんな風に。」[p][stopse buf=1]
+[mhhide]
 #高村
 [s/hohoemi]
 「キミは見る限り考えるより先に身体が動くタチだろう。」[p][stopse buf=3]
@@ -196,8 +198,8 @@
 「あるいはとりあえず謝ったところで、お互いにしこりが残るんじゃないか、[r]　そう思っている…違うかな？」[p][stopse buf=3]
 #
 …自分でも言語化できていないもやもやを、すべて突きつけられたようだ。[p]
+[hide][seizi_hohoemi left=15 wait=false][hokuto_s_akire left=680]
 #北斗
-[hs/akire]
 「……これが、亀の甲より年の功、ってやつですか。」[p][stopse buf=1]
 #高村
 [s/hohoemi2]
@@ -406,6 +408,7 @@
 
 [mask graphic="cut/cutin_reito.png" time=1500]
 [wait time=500]
+[eval exp="sf.chap4=1"]
 [playbgm storage=eyecatch2.ogg  loop="false"]
 [hide time=0]
 [bg2 storage=michi.jpg time=6000][stopbgm]

@@ -324,7 +324,9 @@
 #
 [voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=331 ]
 [voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=222 ]
-[wait time=500][playbgm storage=eyecatch2.ogg loop="false"][hide time=0][bg2 storage=black.png time=6000][stopbgm]
+[wait time=500]
+[playbgm storage=eyecatch2.ogg loop="false"][hide time=0][bg2 storage=black.png time=6000][stopbgm]
+[eval exp="sf.chap8=1"]
 [mask_off time=500]
 
 @jump storage="scene9.ks" target=*chapter9
