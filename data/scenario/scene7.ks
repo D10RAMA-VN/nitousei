@@ -226,7 +226,7 @@
 #
 [mask time=500]
 [hide]
-[bg2 storage=still_hokuto.png time=1500]
+[bg2 storage=still_hokuto.png time=1500][eval exp="sf.ST6=1"]
 [fadeinbgm storage=kaisou.ogg time=1000]
 [mask_off time=500]
 #北斗
@@ -234,7 +234,7 @@
 #美波
 「…うん。そうだったね。」[p][stopse buf=2]
 #
-[bg2 storage=still_minami.png time=500 width=1920 height=1972 top=-800]
+[bg2 storage=still_minami.png time=500 width=1920 height=1972 top=-800][eval exp="sf.ST7=1"]
 [camera time=90000 y=+800 layer=base wait=false]
 #北斗
 「そしたらさ、美波お前、学校はおろか、オレんちまで来て、[r]　校庭やら公園やら、とにかく外に連れ出そうとしてたろ。」[p][stopse buf=1]
@@ -328,7 +328,7 @@
 美波の目が点になっている。目の前の光景が信じられないという目だ。[p]
 しかし一方で、喜びや期待が隠せていない。[p]
 [hide]
-[bg2 storage=still_pafe.png time=500]
+[bg2 storage=still_pafe.png time=500][eval exp="sf.ST8=1"]
 仕方ない。目の前にはびわやスモモといった初夏のフルーツを基調に、[r]生クリームにアイス、スポンジにヨーグルトが、[r]これでもかという高さで盛りに盛られている。[p]
 これぞ「猫のしっぽ」名物。（主にサイズが）スペシャルパフェ。[r]とにかくデカい。そしてちゃんと美味そう。[p]
 パフェの向こう側では、[r]美波がもう見事なまでにパフェにご執心になられている。[p]
@@ -605,7 +605,7 @@
 #
 [fadeoutbgm time=1000]
 [hide]
-[bg2 storage=still_kokuhaku.png time=1000]
+[bg2 storage=still_kokuhaku.png time=1000][eval exp="sf.ST9=1"]
 #美波
 「…北斗。」[p][stopse buf=2]
 #北斗
@@ -640,10 +640,11 @@
 [mask time=500]
 [hs/iradati time=0]
 [bg2 storage=class.jpg time=1500]
+[playse storage=se/chime.ogg buf=8]
 [mask_off time=500]
 
 #北斗
-「な、何とかなった…」[p][stopse buf=1]
+「な、何とかなった…」[p][stopse buf=1][fadeoutse buf=8 time=500]
 #
 [hide][bg2 storage=black.jpg time=1000]
 テスト3日目。…美波の告白を受けて、[r]やはり昨晩はほとんど勉強が手につかず。[p]
@@ -802,6 +803,7 @@
 
 [mask graphic="cut/cutin_hokuto.png" time=1500]
 [wait time=500]
+[eval exp="sf.chap7=1"]
 [playbgm storage=eyecatch.ogg  loop="false"]
 [hide time=0]
 [bg2 storage="byouin.jpg" time="4000"][stopbgm]

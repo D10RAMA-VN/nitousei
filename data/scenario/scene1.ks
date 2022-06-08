@@ -305,7 +305,7 @@
 「うんうん、良くなってきた。去年のより明らかに良いよー！」[p][stopse buf=4]
 #
 [hide]
-[bg2 storage=still_busoku.png time=500]
+[bg2 storage=still_busoku.png time=500][eval exp="sf.ST3=1"]
 軽音部部則[p]
 一、いつでもみんな仲良く！[p]
 二、マジメさと面白さは両立させるべし！[p]
@@ -595,6 +595,7 @@ PM20:00。明日は主要3教科がそろっているので相当予習がきつ
 [voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=100 ]
 [voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=64 ]
 [vostart]
+[eval exp="sf.chap1=1"]
 [kaname_kanasimi left=-80 time=0][nao_kanasimi left=460 time=0][reito_magao left=850 time=0][hw_hutyou time=0]
 [bg2 storage="ongaku.jpg" height=1554 top="-200" time="4000"][stopbgm]
 [mask_off time=500]

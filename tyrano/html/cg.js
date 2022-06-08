@@ -1,6 +1,9 @@
 $('#takamura').click(function(){
   $('#cgbig').css({'background-image':'url("data/bgimage/still_takamura.png")','visibility':'visible'});
 });
+$('#kansoku').click(function(){
+  $('#cgbig').css({'background-image':'url("data/bgimage/still_kansoku.png")','visibility':'visible'});
+});
 $('#busoku').click(function(){
   $('#cgbig').css({'background-image':'url("data/bgimage/still_busoku.png")','visibility':'visible'});
 });
@@ -35,10 +38,12 @@ $('#epilogue').click(function(){
 
 
 $('#opening').click(function(){
+  audio.pause()
   $('#cgvideo').css('visibility','visible');
   $('#vcg').attr('src','data/video/OP.webm');
 });
 $('#ending').click(function(){
+  audio.pause()
   $('#cgvideo').css('visibility','visible');
   $('#vcg').attr('src','data/video/ED.webm');
 });
@@ -71,4 +76,78 @@ $("#cgbig").bind('contextmenu', function() {
   return false;
 });
 
+if(tyrano.plugin.kag.variable.sf.ST1!=1){
+	$('#takamura').css('visibility','hidden');
+}else{
+	$('#takamura').css('visibility','visible');
+}
+if(tyrano.plugin.kag.variable.sf.ST2!=1){
+	$('#kansoku').css('visibility','hidden');
+}else{
+	$('#kansoku').css('visibility','visible');
+}
+if(tyrano.plugin.kag.variable.sf.ST3!=1){
+	$('#busoku').css('visibility','hidden');
+}else{
+	$('#busoku').css('visibility','visible');
+}
+if(tyrano.plugin.kag.variable.sf.ST4!=1){
+	$('#seizi').css('visibility','hidden');
+}else{
+	$('#seizi').css('visibility','visible');
+}
+if(tyrano.plugin.kag.variable.sf.ST5!=1){
+	$('#cry').css('visibility','hidden');
+}else{
+	$('#cry').css('visibility','visible');
+}
+if(tyrano.plugin.kag.variable.sf.ST6!=1){
+	$('#pafe').css('visibility','hidden');
+}else{
+	$('#pafe').css('visibility','visible');
+}
+if(tyrano.plugin.kag.variable.sf.ST7!=1){
+	$('#hokuto').css('visibility','hidden');
+}else{
+	$('#hokuto').css('visibility','visible');
+}
+if(tyrano.plugin.kag.variable.sf.ST8!=1){
+	$('#minami').css('visibility','hidden');
+}else{
+	$('#minami').css('visibility','visible');
+}
+if(tyrano.plugin.kag.variable.sf.ST9!=1){
+	$('#kokuhaku').css('visibility','hidden');
+}else{
+	$('#kokuhaku').css('visibility','visible');
+}
+if(tyrano.plugin.kag.variable.sf.ST10!=1){
+	$('#perseus').css('visibility','hidden');
+}else{
+	$('#perseus').css('visibility','visible');
+}
+if(tyrano.plugin.kag.variable.sf.ST11!=1){
+	$('#kirakirabosi').css('visibility','hidden');
+}else{
+	$('#kirakirabosi').css('visibility','visible');
+}
+if(tyrano.plugin.kag.variable.sf.ST12!=1){
+	$('#epilogue').css('visibility','hidden');
+}else{
+	$('#epilogue').css('visibility','visible');
+}
+if(tyrano.plugin.kag.variable.sf.SM1!=1){
+	$('#opening').css('visibility','hidden');
+	$('#try1').css('visibility','hidden');
+}else{
+	$('#opening').css('visibility','visible');
+	$('#try1').css('visibility','visible');
+}
+if(tyrano.plugin.kag.variable.sf.SM2!=1){
+	$('#ending').css('visibility','hidden');
+	$('#try2').css('visibility','hidden');
+}else{
+	$('#ending').css('visibility','visible');
+	$('#try2').css('visibility','visible');
+}
 

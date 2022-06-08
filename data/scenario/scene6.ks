@@ -115,9 +115,8 @@
 [hs/magao]
 「こういうことですよ。」[p][stopse buf=1]
 [stopbgm]
-;（bg2M二等星になって　北斗歌入り）[p]
 #
-[hide]
+[hide][fadeinbgm time=1000 storage=nitousei.ogg]
 そういってオレは、持ってきたギターを弾き始めた。[p][vostop]
 [seizi_magao]
 #高村
@@ -126,7 +125,7 @@
 爺さんの視線を感じる。[p]
 爺さんはいきなりギターを弾き始めたオレに驚くでもなく、[r]演奏を聴いている。[p]
 …オレの予想は、間違っていないらしい。[p]
-オレはワンコーラスを弾き終わると、爺さんに問いかけた。[p]
+オレはワンコーラスを弾き終わると、爺さんに問いかけた。[p][fadeoutbgm time=1000]
 [hide][hokuto_s_magao]
 #北斗
 「前に爺さんが弾いてた曲。これが答えでしょう？」[p][stopse buf=1][vostop]
@@ -564,6 +563,7 @@
 
 [mask graphic="cut/cutin_kaname.png" time=1500]
 [wait time=500]
+[eval exp="sf.chap6=1"]
 [playbgm storage=eyecatch2.ogg  loop="false"]
 [hide time=0]
 [voconfig sebuf=2 name="minami" vostorage="minami2/minami_ha{number}.ogg" number=1 ]

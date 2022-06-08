@@ -53,7 +53,7 @@
 「ほら、始まっているよ。」[p][stopse buf=3]
 #
 [hide][fadeinbgm time=1000 storage=seiji.ogg]
-[bg2 storage=still_perseus.png time=500]
+[bg2 storage=still_perseus.png time=500][eval exp="sf.ST10=1"]
 爺さんがそういってゆっくり夜空を指さすと、一筋の光が流れ落ちた。[p]
 #美波
 ;[ms_uwame]
@@ -197,7 +197,7 @@ sf.current_bgm_vol = sf._system_config_bgm_volume
 [eval exp="sf.SM2=1"]
 [rolebutton]
 @layopt layer=message0 visible=true
-[bg2 storage=still_kirakirabosi.png time=1000]
+[bg2 storage=still_kirakirabosi.png time=1000][eval exp="sf.ST11=1"]
 [mask_off time="1000"]
 
 #北斗
@@ -218,6 +218,7 @@ sf.current_bgm_vol = sf._system_config_bgm_volume
 
 [mask graphic="cut/cutin_hokuto.png" time=1500]
 [wait time=500]
+[eval exp="sf.chap9=1"]
 [playbgm storage=eok.ogg loop="false"]
 [bg2 storage=ongaku.jpg height=1554 top="-200" time=8000][stopbgm]
 [minami_s_bishou left=40 time=0][hokuto_s_kanasimi left=640 time=0]

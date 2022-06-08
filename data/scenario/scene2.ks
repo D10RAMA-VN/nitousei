@@ -197,7 +197,7 @@ USB充電式の小型アンプとシールド（コードって言いたくな�
 と思う間に、爺さんは慣れた手つきでギターを構え、演奏を始めた。[p]
 [hide]
 [fadeinbgm time=1000 storage=nitousei.ogg]
-[bg2 storage=still_seizi.png time=1000]
+[bg2 storage=still_seizi.png time=1000][eval exp="sf.ST4=1"]
 
 #北斗
 「すげえ…」[p][stopse buf=1]
@@ -322,6 +322,7 @@ USB充電式の小型アンプとシールド（コードって言いたくな�
 [wait time=500]
 [playbgm storage=eyecatch.ogg loop=false]
 [hide time=0]
+[eval exp="sf.chap2=1"]
 [bg2 storage="class.jpg" time="4000"][stopbgm]
 [mask_off time=500]
 
