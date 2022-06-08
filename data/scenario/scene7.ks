@@ -45,7 +45,7 @@
 [bg2 storage=rouka_s.jpg time=500]
 [nao_niko]
 #七音
-「北斗君はすぐそういうこと言う～」[p]
+「北斗君はすぐそういうこと言う～」[p][stopse buf=4]
 #
 [hide]
 と言われ、令人先輩には[p]
@@ -234,8 +234,8 @@
 #美波
 「…うん。そうだったね。」[p][stopse buf=2]
 #
-[bg2 storage=still_minami.png time=500 width=1920 height=1972 top=-800][eval exp="sf.ST7=1"]
-[camera time=90000 y=+800 layer=base wait=false]
+[image storage=still_minami.png layer=0 time=500 width=1920 height=1972 top=-700][eval exp="sf.ST7=1"]
+[camera time=60000 y=+700 layer=0 wait=false]
 #北斗
 「そしたらさ、美波お前、学校はおろか、オレんちまで来て、[r]　校庭やら公園やら、とにかく外に連れ出そうとしてたろ。」[p][stopse buf=1]
 #美波
@@ -246,6 +246,9 @@
 「最初は、うざったかった。一人にしてほしかったんだ。[r]　…でも、お前があんまりにもあきらめないから。」[p][stopse buf=1]
 #美波
 「……」[p][stopse buf=2]
+#
+[bg2 storage=gl_minami.png time=0]
+[freeimage  layer=0 time=500]
 #北斗
 「しょうがなくうつむいてた顔上げて、お前のほう向いたら、なんかオレ[r]　以上に美波が泣きそうな顔して、必死に手差し伸べてくるからさ。[r]　オレ、もう手を取るしかなかったよ。」[p]
 #美波
@@ -612,7 +615,7 @@
 「…何？」[p][stopse buf=1]
 #美波
 「私が北斗を構う理由…ううん、私が北斗と一緒にいたい理由。それは…」[p][stopse buf=2]
-[fadeinbgm time=1000 storage=OP.ogg]
+[fadeinbgm time=1000 storage=BGM4.ogg]
 #美波
 「好きなこと、好きな人にひたむきで、がんばる北斗のことが、[r]　好きだから。」[p][stopse buf=2]
 #北斗
@@ -703,6 +706,7 @@
 #美波
 [ms/odoroki]
 「…！」[p][stopse buf=2]
+[fadeinbgm time=1000 storage=kaisou.ogg]
 #北斗
 「その、えっと…」[p][stopse buf=1]
 #
@@ -721,7 +725,7 @@
 #美波
 [ms/tere]
 「……！」[p][stopse buf=2]
-
+[stopbgm]
 #七音
 「あれ、2人とも何してるの？」[p][stopse buf=4]
 #奏女
