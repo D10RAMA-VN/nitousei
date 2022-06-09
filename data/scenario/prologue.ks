@@ -15,6 +15,7 @@
 [voconfig sebuf=1 name="hutari" vostorage="mix/hai{number}.ogg" number=1 ]
 [voconfig sebuf=1 name="itidou" vostorage="mix/oh{number}.ogg" number=1 ]
 [voconfig sebuf=4 name="sannin" vostorage="mix/omo{number}.ogg" number=1 ]
+[voconfig sebuf=3 name="hatena" vostorage="seizi/takamura_first{number}.ogg" number=1 ]
 [vostart]
 [mask time=500]
 [bg2 storage="seiza/520dipper.png" width=3500 height=2934 time=500 top=-1200]
@@ -30,26 +31,24 @@
 
 *1
 #？？？
-[playse storage=seizi/takamura_first.ogg loop=false buf=3]
 「星というのは、一つの星、一つの星座が見つかれば、[r]　ほかの星座も続けて見つかることが多い。[r]　特に、北斗七星やおとめ座なんて大物はな。」[p][stopse buf=3]
 *2
+[voconfig sebuf=1 name="hatena" vostorage="hokuto/hokuto_{number}.ogg" number=272 ]
 #？？？
-[playse storage=hokuto/hokuto_272.ogg loop=false buf=1]
 「…」[p][stopse buf=1]
 *3
+[voconfig sebuf=3 name="hatena" vostorage="seizi/takamura_{number}.ogg" number=129 ]
 #？？？
-[playse storage=seizi/takamura_129.ogg loop=false buf=3]
 「とはいえ、星は一つではただの光る点だ。[r]　どの星かなんて一つだけ見てもわからん。[r]　星座として夜空に映るからわかる。」[p][stopse buf=3]
 #？？？
-[playse storage=seizi/takamura_130.ogg loop=false buf=3]
 「北斗七星の先にあるから、ただの2等星が北極星だとわかるし、[r]　明るいだけの星もあの形の中にあるから[r]　しし座やおとめ座だとわかるのさ。」[p][stopse buf=3]
 *4
+[voconfig sebuf=1 name="hatena" vostorage="hokuto/hokuto_{number}.ogg" number=273 ]
 #？？？
-[playse storage=hokuto/hokuto_273.ogg loop=false buf=1]
 「…人間も同じようなもの、ってことでしょ？」[p][stopse buf=1]
 *5
+[voconfig sebuf=3 name="hatena" vostorage="seizi/takamura_{number}.ogg" number=131 ]
 #？？？
-[playse storage=seizi/takamura_131.ogg loop=false buf=3]
 「ああ。なんでもそうだよ。」[p][stopse buf=3]
 
 #

@@ -199,7 +199,7 @@ $(function () {
 				tyrano.plugin.kag.ftag.startTag("autoconfig",{speed: -$(this).val()});
 			});
 			//SE
-			if(typeof tyrano.plugin.kag.variable.sf.current_se_vol!="undefined"){tyrano.plugin.kag.variable.tf.current_se_vol=tyrano.plugin.kag.variable.sf.current_se_vol}else{tyrano.plugin.kag.variable.tf.current_se_vol=50}
+			if(typeof tyrano.plugin.kag.variable.sf.current_se_vol!="undefined"){tyrano.plugin.kag.variable.tf.current_se_vol=tyrano.plugin.kag.variable.sf.current_se_vol}else{tyrano.plugin.kag.variable.tf.current_se_vol=20}
 			$('#se_volume').val(tyrano.plugin.kag.variable.tf.current_se_vol); //スライダー初期位置
 			$('#se_volume').on('input change', function() {
 				tyrano.plugin.kag.variable.tf.current_se_vol=$(this).val();
@@ -208,7 +208,7 @@ $(function () {
 				tyrano.plugin.kag.ftag.startTag("seopt",{volume:current_se_vol,buf:0});
 			});
 			//ボイスマスター
-			if(typeof tyrano.plugin.kag.variable.sf.current_vo_vol!="undefined"){tyrano.plugin.kag.variable.tf.current_vo_vol=tyrano.plugin.kag.variable.sf.current_vo_vol}else{tyrano.plugin.kag.variable.tf.current_vo_vol=50}
+			if(typeof tyrano.plugin.kag.variable.sf.current_vo_vol!="undefined"){tyrano.plugin.kag.variable.tf.current_vo_vol=tyrano.plugin.kag.variable.sf.current_vo_vol}else{tyrano.plugin.kag.variable.tf.current_vo_vol=20}
 			$('#vo_volume').val(tyrano.plugin.kag.variable.tf.current_vo_vol); //スライダー初期位置
 			$('#vo_volume').on('input change', function() {
 				tyrano.plugin.kag.variable.tf.current_vo_vol=$(this).val();

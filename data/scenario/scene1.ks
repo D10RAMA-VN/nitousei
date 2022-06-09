@@ -345,7 +345,7 @@
 [mmhide]
 #七音
 [n/niko]
-「あ、ごめんごめん。先輩が前に反省会で噛んじゃってから[r]　悔いが残ることをくいのこりっていうようになっちゃったの」[p][stopse buf=4]
+「あ、ごめんごめん。先輩が前に反省会に噛んじゃってから[r]　悔いが残ることをくいのこりっていうようになっちゃったの」[p][stopse buf=4]
 #北斗
 [hw_metozi]
 「いや普通に悔いが残らないようにでいいじゃないですか…」[p][stopse buf=1]
@@ -414,9 +414,7 @@
 動画の概要欄に書いてある「北野夕子」という歌手の名前も、[r]確かにどっかで見たような気はするが、それでもない。[p]
 [mask time=500]
 [bg2 storage=byousitu.jpg time=200]
-[backlay layer=base]
-[filter blur=50 layer=base page=back]
-[trans layer=base time=100]
+[filter blur=50 layer=base]
 [wait time=100]
 [mask_off time=500]
 何か、脳裏に浮かび上がってくるようなものがある。[p]
@@ -426,10 +424,9 @@
 切ない別れの曲だ。[p]
 [fadeoutbgm time=1000]
 [mask time=500]
-[free_filter layer=base page=back]
-[trans layer=base time=0]
+[free_filter layer=base]
 [nao_bishou time=0]
-[bg2 storage=ongaku.jpg height=1554 top="-200" time=1500]
+[bg2 storage=ongaku.jpg height=1554 top="-200" time=1300]
 [mask_off time=500]
 #七音
 「なんか、ちょっと恥ずかしいけどね。」[p]

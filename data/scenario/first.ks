@@ -19,6 +19,7 @@
 [chara_new  name="hutari" storage="hokuto_win/mu.png" width=900 jname="二人" color=#EA580C]
 [chara_new  name="itidou" storage="hokuto_win/mu.png" width=900 jname="一同" color=#EA580C]
 [chara_new  name="sannin" storage="hokuto_win/mu.png" width=900 jname="三人" color=#EA580C]
+[chara_new  name="hatena" storage="hokuto_win/mu.png" width=900 jname="？？？" color=#EA580C]
 
 [seopt volume="&sf.current_se_vol" effect=true]
 [seopt buf=1 volume="&sf.vo1_vol" effect=true]

@@ -268,5 +268,6 @@
 [free name=chara_name_area layer = message0]
 @clearfix
 [mask_off time=1000]
+;[give_emblem id="6224" pid="44e469042ca2f74874faf08bd86adb22" ]
 @jump storage="title.ks" target=*start
 [s]
