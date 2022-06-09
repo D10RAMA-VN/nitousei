@@ -5,7 +5,13 @@ var x = 0;
 
 
 playButton.addEventListener('click', () => {
-  if (audio.paused) {
+  if (x==0) {
+    $('#audiotag').attr('src','data/bgm/hokuto_A.ogg');
+    x = 1;
+    $('.m_title').css('color','#606589');
+    $('#bgm1').css('color','#fff');
+    audio.play();
+  }else if (x>0&&audio.paused) {
     audio.play()
   } else {
     audio.pause()
