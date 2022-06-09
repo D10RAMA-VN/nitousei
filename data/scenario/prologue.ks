@@ -16,6 +16,7 @@
 [voconfig sebuf=1 name="itidou" vostorage="mix/oh{number}.ogg" number=1 ]
 [voconfig sebuf=4 name="sannin" vostorage="mix/omo{number}.ogg" number=1 ]
 [voconfig sebuf=3 name="hatena" vostorage="seizi/takamura_first{number}.ogg" number=1 ]
+[voconfig sebuf=4 name="hatena2" vostorage="nao/nao_{number}.ogg" number=1 ]
 [vostart]
 [mask time=500]
 [bg2 storage="seiza/520dipper.png" width=3500 height=2934 time=500 top=-1200]
@@ -175,8 +176,8 @@
 #
 [bg2 storage="ongaku.jpg" height=1554 top="-200" time="1500" method=fadeInLeft]
 [fadeinbgm storage=nichijo.ogg time=1000]
-[nao_niko2][playse storage=nao/nao_1.ogg loop=false buf=4]
-#？？？
+[nao_niko2]
+#？？
 「ようこそ鹿北軽音部へ！[r]　新歓ライブでも言ったかもだけど、改めて自己紹介するね。」[p][stopse buf=4]
 #美波
 [mw_tere]

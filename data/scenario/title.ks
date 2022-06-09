@@ -79,6 +79,10 @@ if(typeof tyrano.plugin.kag.variable.sf.vo6_vol!="undefined"){tyrano.plugin.kag.
 <img src="data/fgimage/title_d10rama.png" style="width:300px;left:1550px;top:70px;position:absolute;" class="jumpHP">
 </div>
 
+<audio id="overSound" preload="auto">
+	<source src="data/sound/se/harmonics.ogg" type="audio/ogg">
+</audio>
+
 <script>
 $('#title_start').click(function(){tyrano.plugin.kag.ftag.startTag("jump",{target:"gamestart"})});
 $('#title_load').click(function(){tyrano.plugin.kag.ftag.startTag("showload")});
@@ -89,7 +93,10 @@ $("#tl").on("inview", function (event, isInView) {
 if (isInView) {
 	$("#tl").css('opacity','1');
 }
-  });
+});
+$('.non').mouseover(function(){
+	tyrano.plugin.kag.ftag.startTag("playse",{storage:"se/harmonics.ogg"})
+});
 </script>
 [endhtml]
 
@@ -115,12 +122,19 @@ if (isInView) {
 <img src="data/fgimage/title_d10rama.png" style="width:300px;left:1550px;top:70px;position:absolute;" class="jumpHP">
 <img class="img_title" src="data/bgimage/title_cleared.png" style="z-index:-1;left:0px;top:0px;width:1920px;height:1080px;position:absolute;">
 
+<audio id="overSound" preload="auto">
+	<source src="data/sound/se/harmonics.ogg" type="audio/ogg">
+</audio>
+
 <script>
 $('#title_start').click(function(){tyrano.plugin.kag.ftag.startTag("jump",{target:"gamestart"})});
 $('#title_load').click(function(){tyrano.plugin.kag.ftag.startTag("showload")});
 $('#title_config').click(function(){tyrano.plugin.kag.ftag.startTag("showconfig")});
 $('#title_gallery').click(function(){tyrano.plugin.kag.ftag.startTag("showgallery")});
 $('#title_quit').click(function(){tyrano.plugin.kag.ftag.startTag("close")});
+$('.non').mouseover(function(){
+	tyrano.plugin.kag.ftag.startTag("playse",{storage:"se/harmonics.ogg"})
+});
 </script>
 [endhtml]
 [endif]
