@@ -8,9 +8,4 @@
   [backlog_button_voice buf="1,2,3,4,5,6" pos="left" img="play.png" img_stop="play.png" marginl="80" marginr="50" margint="6" width="50"]	
   [backlog_button_close img="back_button.png" x="170" y="950"]
   [endbacklog]
-  [iscript]
-  $('.button').mouseover(function(){
-	tyrano.plugin.kag.ftag.startTag("playse",{storage:"se/harmonics.ogg"})
-});
-  [endscript]
   [return]
