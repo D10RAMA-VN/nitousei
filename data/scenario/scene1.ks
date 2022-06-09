@@ -309,7 +309,7 @@
 [bg2 storage=still_busoku.png time=500][eval exp="sf.ST3=1"]
 軽音部部則[p]
 一、いつでもみんな仲良く！[p]
-二、マジメさと面白さは両立させるべし！[p]
+二、マジメさと楽しさは両立させるべし！[p]
 みんなで守ろうね！　カナメ[p]
 [fadeoutbgm time=1000]
 [mask time=500]
