@@ -17,7 +17,7 @@
 [voconfig sebuf=4 name="sannin" vostorage="mix/omo{number}.ogg" number=1 ]
 [vostart]
 [mask time=500]
-[bg2 storage="seiza/520dipper.png" width=3500 height=2934 time=500 top=-600]
+[bg2 storage="seiza/520dipper.png" width=3500 height=2934 time=500 top=-1200]
 [rolebutton]
 [M0]
 @layopt layer=message0 visible=true
@@ -25,7 +25,7 @@
 #
 [fadeinbgm time=1000 storage=seiji.ogg]
 [wait time=500]
-[anim layer=base top="-=1000" time=120000]
+[camera time=100000 y=+600 layer=base wait=false]
 [mask_off time=1000]
 
 *1
@@ -54,7 +54,7 @@
 
 #
 [mask time=500]
-[bg2 storage="black.jpg" time=500]
+[bg2 storage="black.jpg" time=500][reset_camera]
 [mask_off time=500]
 思えば小さいころから色んなことをやってきた。[p]
 野球にサッカー、バスケに柔道剣道。[p]

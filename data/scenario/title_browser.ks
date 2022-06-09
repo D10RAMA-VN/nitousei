@@ -72,9 +72,6 @@ if(typeof tyrano.plugin.kag.variable.sf.vo6_vol!="undefined"){tyrano.plugin.kag.
 <div id="title_gallery" class="title_item menu_gallery" style="top:780px;">
 	<img src="data/image/title_gallery.png" alt="" class="non">
 </div>
-<div id="title_quit" class="title_item" style="top:900px;">
-	<img src="data/image/title_quit.png" alt="" class="non">
-</div>
 <img src="data/image/title_title.png" style="left:120px;top:600px;position:absolute;">
 <img src="data/fgimage/title_d10rama.png" style="width:300px;left:1550px;top:70px;position:absolute;" class="jumpHP">
 </div>
@@ -95,7 +92,7 @@ if (isInView) {
 
 [else]
 [html]
-<div style="position:absolute;top:980px;left:740px;width:1200px;height:70px;display:flex;float:left;">
+<div style="position:absolute;top:980px;left:840px;width:1200px;height:70px;display:flex;float:left;">
 <div id="title_start" class="title_itemC">
 	<img src="data/image/title_start.png" alt="" class="non" style="height:33px;">
 </div>
@@ -107,9 +104,6 @@ if (isInView) {
 </div>
 <div id="title_gallery" class="title_itemC menu_gallery">
 	<img src="data/image/title_gallery.png" alt="" class="non" style="height:39px;">
-</div>
-<div id="title_quit" class="title_itemC">
-	<img src="data/image/title_quit.png" alt="" class="non" style="height:42px;">
 </div>
 </div>
 <img src="data/fgimage/title_d10rama.png" style="width:300px;left:1550px;top:70px;position:absolute;" class="jumpHP">
