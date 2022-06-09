@@ -150,4 +150,7 @@ if(tyrano.plugin.kag.variable.sf.SM2!=1){
 	$('#ending').css('visibility','visible');
 	$('#try2').css('visibility','visible');
 }
+$('#chapterbutton, .non, .chap').mouseover(function(){
+		tyrano.plugin.kag.ftag.startTag("playse",{storage:"se/harmonics.ogg"})
+	   });
 

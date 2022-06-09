@@ -156,13 +156,9 @@
 	<div class="menu_close save_close config_back" style="left:240px;top:950px;position:absolute;cursor:pointer;">
 	  <img src="tyrano/images/system/back_button.png" alt="" class="non">
 	</div>
-	<div class="config_button menu_back_title" style="left:1260px;top:970px;position:absolute;">
+	<div class="config_button menu_back_title" style="left:1530px;top:970px;position:absolute;">
 	   <img src="tyrano/images/system/set_title_gray.png">
 	   <img src="tyrano/images/system/set_title_w.png" class="config_button_hover">
-	</div>
-	<div class="config_button config_quit" style="left:1630px;top:970px;position:absolute;">
-	   <img src="tyrano/images/system/set_quit_gray.png">
-	   <img src="tyrano/images/system/set_quit_w.png" class="config_button_hover">
 	</div>
 [endhtml]
 

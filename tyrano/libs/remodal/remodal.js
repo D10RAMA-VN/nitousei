@@ -783,3 +783,4 @@
     $(window).on('hashchange.' + NAMESPACE, handleHashChangeEvent);
   });
 });
+

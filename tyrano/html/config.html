@@ -167,7 +167,7 @@ $(function () {
 				tyrano.plugin.kag.ftag.startTag("autoconfig",{speed: -$(this).val()});
 			});
 			//SE
-			if(typeof tyrano.plugin.kag.variable.sf.current_se_vol!="undefined"){tyrano.plugin.kag.variable.tf.current_se_vol=tyrano.plugin.kag.variable.sf.current_se_vol}else{tyrano.plugin.kag.variable.tf.current_se_vol=50}
+			if(typeof tyrano.plugin.kag.variable.sf.current_se_vol!="undefined"){tyrano.plugin.kag.variable.tf.current_se_vol=tyrano.plugin.kag.variable.sf.current_se_vol}else{tyrano.plugin.kag.variable.tf.current_se_vol=20}
 			$('#se_volume').val(tyrano.plugin.kag.variable.tf.current_se_vol); //スライダー初期位置
 			$('#se_volume').on('input change', function() {
 				tyrano.plugin.kag.variable.tf.current_se_vol=$(this).val();
@@ -350,7 +350,9 @@ $('.config_quit').click(function(){tyrano.plugin.kag.ftag.startTag("close")});
 				}
 			});
 	   });
-	   
+	   $('.non, .config_button_hover').mouseover(function(){
+		tyrano.plugin.kag.ftag.startTag("playse",{storage:"se/harmonics.ogg"})
+	   });
 	</script>
 
 </div>
