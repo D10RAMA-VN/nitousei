@@ -86,7 +86,7 @@
 [bg2 storage=okujou.jpg time=500]
 [minami_s_bishou left=840 wait=false][hokuto_s_egao2 left=360 wait=false][seizi_h_hohoemi left=-195]
 #高村
-「これを、君たちに見せたかったんだ。せっかく時期も時期でもあるし。[r]　流星群という天体ショーを、君たちに見せてあげたかったんだ。」[p][stopse buf=3]
+「これを、君たちに見せたかったんだ。せっかく時期も時期であるし。[r]　流星群という天体ショーを、君たちに見せてあげたかったんだ。」[p][stopse buf=3]
 #美波
 [ms/odoroki]
 「じゃあ、今日のことは、私たちのために…？」[p][stopse buf=2]
