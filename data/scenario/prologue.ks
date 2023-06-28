@@ -32,7 +32,7 @@
 
 *1
 #？？？
-「星というのは、一つの星、一つの星座が見つかれば、[r]　ほかの星座も続けて見つかることが多い。[r]　特に、北斗七星やおとめ座なんて大物はな。」[p][stopse buf=3]
+「Stars are one of those things where if you find one, or one constellation, you can find other constellations right along with it. Especially big ones like the Big Dipper or Virgo」[p][stopse buf=3]
 *2
 [voconfig sebuf=1 name="hatena" vostorage="hokuto/hokuto_{number}.ogg" number=272 ]
 #？？？
@@ -40,135 +40,135 @@
 *3
 [voconfig sebuf=3 name="hatena" vostorage="seizi/takamura_{number}.ogg" number=129 ]
 #？？？
-「とはいえ、星は一つではただの光る点だ。[r]　どの星かなんて一つだけ見てもわからん。[r]　星座として夜空に映るからわかる。」[p][stopse buf=3]
+「And yet, a single star is just a shining dot. You can't tell which star it is by looking only at one. You can tell because they appear in the night sky as constellations」[p][stopse buf=3]
 #？？？
-「北斗七星の先にあるから、ただの2等星が北極星だとわかるし、[r]　明るいだけの星もあの形の中にあるから[r]　しし座やおとめ座だとわかるのさ。」[p][stopse buf=3]
+「Because it's right in front of the Big Dipper, we know Polaris is a second star. It's the brightness of these stars that lets us know if it's Leo or Virgo」[p][stopse buf=3]
 *4
 [voconfig sebuf=1 name="hatena" vostorage="hokuto/hokuto_{number}.ogg" number=273 ]
 #？？？
-「…人間も同じようなもの、ってことでしょ？」[p][stopse buf=1]
+「…And you're telling me that people are the same?」[p][stopse buf=1]
 *5
 [voconfig sebuf=3 name="hatena" vostorage="seizi/takamura_{number}.ogg" number=131 ]
 #？？？
-「ああ。なんでもそうだよ。」[p][stopse buf=3]
+「Yeah, everything is the same」[p][stopse buf=3]
 
 #
 [mask time=500]
 [bg2 storage="black.jpg" time=500][reset_camera]
 [mask_off time=500]
-思えば小さいころから色んなことをやってきた。[p]
-野球にサッカー、バスケに柔道剣道。[p]
-中学では生徒会も掛け持ちして。[p]
-でも、何一つこれだ、というものがなかった。[p]
-下手だったわけではない。運動神経は悪い方ではないし。[p]
-ただ、ある時急に「もういいかな」と思ってしまう。[p]
-だから、何一つ極めることができずにやめて、他に行ってしまった。[p]
-生徒会は流石に任期が終わるまで在籍していたものの、[r]自分から何かすることができたとは言えない。[p]
-だから、高校に上がっても、ただ勉強がしんどくなると思うだけで、[r]何をやるという気もあまりなかった。[p]
+Looking back, I have done many things since I was a small child.[p]
+Baseball, soccer, basketball, judo and kendo.[p]
+In middle school, I also served on the student council.[p]
+But there was nothing that really told me, "This is it."[p]
+It's not that I was bad at it. I'm not a bad athlete.[p]
+But at some point, I suddenly felt like I was done with it.[p]
+So I never got to master any of them, and then I quit and went elsewhere.[p]
+Although I was a member of the Student Council until the end of the term, I wouldn't say that I was able to do anything on my own.[p]
+So when I got to high school, I just thought it was going to be harder to study, and I didn't have much of a desire to do anything.[p]
 [fadeoutbgm time=500]
 [mask time=1000]
 [bg2 storage="rouka_s.jpg" time="1000"]
-[fadeinbgm  storage="bg/school.ogg" time=1000]
+[fadeinbgm storage="bg/school.ogg" time=1000]
 [minami_w_magao2]
 [mask_off time=500]
-#美波
-「あ、北斗。」[p][stopse buf=2]
-#北斗
+#minami
+「Ah, Hokuto」[p][stopse buf=2]
+#hokuto
 [hokuto_w_egao2]
-「お、美波、お疲れ。」[p][stopse buf=1]
+「Oh, Minami, good work」[p][stopse buf=1]
 #
 [hide]
-高校に入学して数日目の放課後。[r]廊下には新歓の先輩たちとついていく新入生たちであふれかえっている。[p]
-ついさっきの新歓説明会から、部活動への加入が解禁された。[r]いわゆる新歓期間である。[p]
-とはいえどこへ行ったものかとぶらついていたところ、[r]氷のように透き通る姿と声をした少女に呼び止められた。[p]
-…春の陽気にでもあてられたか。こんな表現をするのはばからしい。[r]何せ昔から見知った間柄だ。[p]
+It is after school during the first few days of high school. The hallways are filled with new students following the newly promoted senpais.[p]
+The restriction on joining club activities was lifted just a few moments ago, after the orientation meeting for new students. This is the so-called "Newcomers' Period."[p]
+I was wandering around wondering where to go when I was stopped by a girl with a figure and voice as cold as ice.[p]
+…Did the spring season made me feel like this? That was a weird expression to use. After all, I've known her for a long time.[p]
 [minami_w_magao]
 [backlay layer=base]
 [filter brightness=50 layer=base page=back]
 [trans layer=base time=1000]
 [wt]
-[ruby text="クル"]来[ruby text="セ"]瀬[ruby text="ミ"]美[ruby text="ナミ"]波。[p]
-保育園からずっと一緒で、街一番の大きな病院の院長令嬢（おじいさんが院長先生なので正しくは孫娘だが、お父さんも同じ病院の医師なので自分は茶化し半分にそう呼んでいる）でもある。[p]
+Minami Kuruse.[p]
+She has been with me since preschool. The daughter of the director of the largest hospital in town. (Her grandfather is the director, but her father also works there, so she calls herself that half-jokingly.)[p]
 [free_filter layer=base page=back]
 [trans layer=base time=1000]
-#美波
+#minami
 [mw/tun]
-「北斗はなにするの？今度は。」[p][stopse buf=2]
-#北斗
+「So what are you thinking of doing this time, Hokuto?」[p][stopse buf=2]
+#hokuto
 [hokuto_w_mu2]
-「今度って、まだどこも見学行ってないよ。」[p][stopse buf=1]
-#美波
+「This time? I haven't even checked any clubs yet」[p][stopse buf=1]
+#minami
 [mw/odoroki]
-「あら、てっきりもう部活決めてると思った。[r]　なんならもう練習に混ざってるかと。」[p][stopse buf=2]
-#北斗
+「Wow, I thought you'd already decided on a club. I assumed you'd already started attending practice or something」[p][stopse buf=2]
+#hokuto
 [hw/akire]
-「オレをなんだと思ってるんだよ…」[p][stopse buf=1]
-#美波
+「Who do you think I am…?」[p][stopse buf=1]
+#minami
 [mw/tun]
-「だって北斗ったら、いつも急に新しいこと始めるから。」[p][stopse buf=2]
-#北斗
+「I mean, you always start something new all of a sudden, Hokuto」[p][stopse buf=2]
+#hokuto
 [hw/magao]
-「それはまあ…否定はしないけど。そういう美波はどうするんだよ。[r]　中学の時みたいに美術部か？それともまた生徒会にでも？」[p][stopse buf=1]
-#美波
+「I…can't deny that. If you're going to say that, what are YOU going to do? The art club like in middle school? Or maybe you'll join the student council again?」[p][stopse buf=1]
+#minami
 [mw/iradati]
-「いやよ生徒会なんか。そもそも北斗に巻き込まれて入ったのに、[r]　いつの間にか生徒会長なんてさせられて。」[p][stopse buf=2]
-#北斗
-「それなりにうまくやってたじゃないか。」[p][stopse buf=1]
-#美波
-「仕事しない誰かさんよりはね。でももうこりごり。[r]　それに美術部もね～、あんまり絵得意じゃないし、[r]　雰囲気も合わなかったし。」[p][stopse buf=2]
-#北斗
+「No, anything but the student council. You dragged me in to begin with, and before I knew it, I was forced to become the student council president」[p][stopse buf=2]
+#hokuto
+「You were actually doing quite well at it」[p][stopse buf=1]
+#minami
+「I was doing better than someone who wasn't doing his job. But I'm done. As for the art club, I'm not much of a painter.  I didn't fit in there」[p][stopse buf=2]
+#hokuto
 [hw/akire]
-「じゃあどうするんだよ。」[p][stopse buf=1]
-#美波
+「Then what are you going to do?」[p][stopse buf=1]
+#minami
 [mw/magao]
-「…う～ん、どうしよう。[r]　説明会でいいなと思ったのは軽音部だったけどね…」[p][stopse buf=2]
-#北斗
+「…Hmmm, I don't know.  The one that I liked at the orientation meeting was the light music club…」[p][stopse buf=2]
+#hokuto
 [hw/aseri]
-「軽音部か…」[p][stopse buf=1]
+「The light music club…」[p][stopse buf=1]
 #
 [fadeoutbgm time=1000]
 [chara_hide_all time=500]
 [bg2 storage="stage.jpg" time="1000"]
-先ほどの説明会を思い出す。
-広い講堂のステージ上にいたのは、たった３人。[p]
-ギターボーカルと、ベースと、ドラムだけのバンドだった。[p]
-音楽には明るくないが、ああいうのはスリーピースというんだったか。[p]
-ただ、圧倒的にボーカルの女性が上手くて、高校生とは思えないほどだった。[p]
-それに、脇を固める二人もとてもかっこよかった。[p]
-…正直、圧倒されたといっていい。[r]それぐらい、たしかにすごい演奏だった。[p]
-でも何より、ボーカルとベースの女性の表情が[r]とても生き生きとしていたのが印象的だった。[p]
-楽しくて、仕方がないという顔だった。[p]
-[fadeinbgm  storage="bg/school.ogg" time=1000]
+I try to remember the orientation meeting.
+There were only three people on stage inside the large auditorium.[p]
+The band only had guitar and vocals, bass, and drums.[p]
+I'm not a musician, but I think that was called a three-piece.[p]
+But the female vocalist was so good that it was hard to believe she was a high school student.[p]
+Plus, the other two supporting musicians were also very cool.[p]
+…I can honestly say that I was blown away. It was such a great performance.[p]
+But most of all, I was impressed by how lively the vocalist and the bass player looked.[p]
+They looked like they were having the time of their lives.[p]
+[fadeinbgm storage="bg/school.ogg" time=1000]
 [bg2 storage="rouka_s.jpg" time="1000"]
 [hokuto_w_magao left="40" wait=false][minami_w_magao left="640"]
-#北斗
-「音楽系なら他の部も色々あったけど？」[p][stopse buf=1]
-#美波
+#hokuto
+「But there's a lot of other music clubs, right?」[p][stopse buf=1]
+#minami
 [mw/bishou]
-「なんかね。[r]　人数が少なくても精一杯やってるんだなっていうのが伝わったし、[r]　それに本人たちが一番楽しそうだったかなって…」[p][stopse buf=2]
-#北斗
+「It's just, I could tell that they were doing their best even if there were only three, and I felt they seemed to be having the time of their lives…」[p][stopse buf=2]
+#hokuto
 [hw/metozi]
 「……」[p][stopse buf=1]
-#美波
+#minami
 [mw/uwame]
-「北斗？」[p][stopse buf=2]
-#北斗
+「Hokuto?」[p][stopse buf=2]
+#hokuto
 [hw/egao2]
-「行くか、軽音部。」[p][stopse buf=1]
-#美波
+「Let's go then, to the light music club」[p][stopse buf=1]
+#minami
 [mw/odoroki]
-「えぇ？」[p][stopse buf=2]
-#北斗
+「Eh?」[p][stopse buf=2]
+#hokuto
 [hw/magao]
-「興味あるんだろ？」[p][stopse buf=1]
-#美波
-「いや、そうだけど、北斗も？」[p][stopse buf=2]
-#北斗
+「You're interested, right?」[p][stopse buf=1]
+#minami
+「I mean, yeah, you too?」[p][stopse buf=2]
+#hokuto
 [hw/egao2]
-「オレ、そういえば音楽はやったことないからさ。[r]　興味わいた。ほら行くぞ。」[p][stopse buf=1]
+「I realized I've never tried music before. So I'm interested. Let's go」[p][stopse buf=1]
 [anim layer=0 left="-=100" effect=easeInQuad opacity=0 time=500]
-#美波
-「あ、ちょっと引っ張らないで～！」[p][stopse buf=2]
+#minami
+「Wait! Stop pulling me～～!」[p][stopse buf=2]
 #
 [chara_hide_all time=0]
 [fadeoutbgm time=1000]
@@ -178,213 +178,213 @@
 [fadeinbgm storage=nichijo.ogg time=1000]
 [nao_niko2]
 #？？
-「ようこそ鹿北軽音部へ！[r]　新歓ライブでも言ったかもだけど、改めて自己紹介するね。」[p][stopse buf=4]
-#美波
+「Welcome the the Shikakita light music club! I may have mentioned it at the orientation concert, but I'll introduce myself again」[p][stopse buf=4]
+#minami
 [mw_tere]
-「は、はい。よろしくお願いします。」[p][stopse buf=2]
+「Y-Yeah, please」[p][stopse buf=2]
 #
 [nhide wait=false][mmhide]
-というわけで、美波ともども部室にやってきた。[p]
-他の音楽系の部活は校舎内の教室などでは敷地が足りないのか、[r]校舎の隅に建てられたプレハブ小屋に部室を構えているが、[r]軽音部はちゃんと校舎内に部室がある。[p]
-#七音
+And so, we arrived at the club room.[p]
+While other music clubs have club rooms in prefabricated cabins in the corners of the school building, perhaps because there is not enough space, the light music club has its own room in the school building.[p]
+#nao
 [nao_bishou]
-「ワタシが部長で3年生の[ruby text="ホシ"]保[ruby text="ナ"]科[ruby text="ナ"]七[ruby text="オ"]音。[r]　バンドではボーカルとギターやってます。」[p][stopse buf=4]
+「I'm the president of the club and a third year, Nao Hoshina. I sing and play guitar in the band」[p][stopse buf=4]
 #
 [backlay layer=base]
 [bg2 storage="ongaku.jpg" height=1554 top="-200" time=0]
 [filter brightness=50 layer=base page=back]
 [trans layer=base time=1000]
 [wt]
-部長というこの女性は、腰まである長髪を揺らしながら、[r]元気いっぱいに話している。[p]
-こうしているとどこかあどけなさも感じさせるが、[r]さっきの絶唱では鬼気迫るものがあった。[p]
+This woman, the president of the club, is full of energy, shaking her waist-length hair and speaking cheerfully.[p]
+There is a hint of innocence in her face, but she was very imposing when she was singing earlier.[p]
 [free_filter layer=base page=back]
 [trans layer=base time=1000]
 [nhide]
-#奏女
+#kaname
 [kaname_bishou]
-「同じく副部長で3年の[ruby text="アマ"]天[ruby text="ミヤ"]宮[ruby text="カナ"]奏[ruby text="メ"]女です。ベースやってます。」[p][stopse buf=6]
+「I'm Kaname Amamiya, the vice president and a third year. I play the bass」[p][stopse buf=6]
 #
 [backlay layer=base]
 [bg2 storage="ongaku.jpg" height=1554 top="-200" time=0]
 [filter brightness=50 layer=base page=back]
 [trans layer=base time=1000]
 [wt]
-そういうこの人は部長とは対象的に、[r]ショートヘアに柔和な笑顔をたたえている。[p]
+This person, in contrast to the president of the club, has short hair and a gentle smile on her face.[p]
 [free_filter layer=base page=back]
 [trans layer=base time=1000]
 [khide]
-#令人
+#reito
 [reito_magao left=360]
-「…2年の[ruby text="ソウ"]草[ruby text="マ"]間[ruby text="レイ"]令[ruby text="ト"]人。ドラムとか、やってる。」[p][stopse buf=5]
+「…I'm Reito Souma, a second year. I play the drums」[p][stopse buf=5]
 #
 [backlay layer=base]
 [bg2 storage="ongaku.jpg" height=1554 top="-200" time=0]
 [filter brightness=50 layer=base page=back]
 [trans layer=base time=1000]
 [wt]
-そして、男子の先輩。[p]
-MCというか、部活説明は全て部長と副部長の２人でやっていたから、[r]この男性はどんな人なんだろうと思ったが、[r]目つきも鋭く寡黙な印象を受ける。[p]
-…ちょっと怖い人なのかな。[p]
-#奏女
+And a male second year.[p]
+In the orientation meeting, the ones that talked were the president and the vice president, so I wondered about him. He looked very sharp-eyed and silent…[p]
+…Maybe he's a scary person.[p]
+#kaname
 [bg2 storage="ongaku.jpg" height=1554 top="-200" page=back time=0][free_filter layer=base page=back]
 [trans layer=base time=1000]
 [kaname_niyake]
-「わー令人君、ハチャメチャに緊張してる～」[p][stopse buf=6]
-#令人
+「Wow, Reito-kun, you're so nervous!」[p][stopse buf=6]
+#reito
 [r/komari]
-「や、やめてくださいそういうの…」[p][stopse buf=5]
+「P-Please stop…」[p][stopse buf=5]
 #
 [khide]
-あ、大丈夫そう。[p]
-目つきも「私、困ってます」と言わんばかりに緩みきっている。[p]
-これはあれだ。この人は生粋のいじられキャラだ。[p]
+Ah, nevermind.[p]
+His eyes relax after a while, as if he didn't know how to deal with this.[p]
+This is one of those. The ones that get teased a lot…[p]
 [chara_hide name="reito" time="700"]
-#七音
+#nao
 [nao_niko]
-「えー、というわけで、今うちの部は3年生2人、[r]　2年生１人の計3人で活動してます。」[p][stopse buf=4]
-#美波
+「So, right now our club has two third years and one second year」[p][stopse buf=4]
+#minami
 [mw_magao]
-「…３年生が多いんですね。」[p][stopse buf=2]
+「…That's a lot of third years」[p][stopse buf=2]
 [mmhide]
-#奏女
+#kaname
 [kaname_kanasimi left=-120]
-「そうなの。だから今年の夏には私達引退しちゃって、[r]　部員が1人になっちゃうのが心配で。」[p][stopse buf=6]
-#令人
+「Yeah… We're worried that when we retire this summer, there will be only one person in this club」[p][stopse buf=6]
+#reito
 [reito_tukomi left=840]
-「副部長、いまそこまで言わなくても…」[p][stopse buf=5]
-#七音
+「Vice president, you don't have to say all that right now…」[p][stopse buf=5]
+#nao
 [n/magao]
-「まあでも、令人君が独りぼっちになっちゃうんじゃないかって言うのは[r]　本当のことよ。」[p][stopse buf=4]
-#七音
-「そういうこともあって、[r]　ぜひ2人にはうちの部に入って欲しいんだけど…って、[r]　２人の名前も聞いてなかった。自己紹介してくれる？」[p][stopse buf=4]
+「But it's true that you'll be all alone after we leave, Reito-kun」[p][stopse buf=4]
+#nao
+「Because of that, I would love if you two joined us and——…Wait, I haven't even heard your names. Can you introduce yourselves?」[p][stopse buf=4]
 [hide]
-#北斗
+#hokuto
 [hokuto_w_egao2]
-「はい！」[p][stopse buf=1]
-#北斗
-「オレ、新入生の[ruby text="カ"]加[ruby text="ガ"]賀[ruby text="ヤ"]谷[ruby text="ホク"]北[ruby text="ト"]斗って言います！[r]　新歓ライブにすごく感動しました！」[p][stopse buf=1]
-#北斗
-「で、こっちが幼馴染の来瀬美波です。」[p][stopse buf=1]
-#美波
+「Yes!！」[p][stopse buf=1]
+#hokuto
+「I'm a first year, Kagaya Hokuto. I was really moved by your live show!」[p][stopse buf=1]
+#hokuto
+「And this is my childhood friend Minami Kuruse」[p][stopse buf=1]
+#minami
 [minami_w_iradati]
-「ちょっと、私のことはいいから…」[p][stopse buf=2]
-#奏女
+「Hey, you don't have to introduce me…」[p][stopse buf=2]
+#kaname
 [k_bishou2]
-「わー、幼馴染なんだ。いいなあ…」[p][stopse buf=6]
+「Wow, childhood friends, I like that…」[p][stopse buf=6]
 [mkhide]
-#令人
+#reito
 [r_magao]
-「…ん？来瀬ってどっかで聞いたことあるな。」[p][stopse buf=5]
+「…Hmm? Kuruse? I think I've heard that before…」[p][stopse buf=5]
 [mrhide]
-#七音
+#nao
 [n_iradati]
-「なんだっけ？」[p][stopse buf=4]
+「What was it?」[p][stopse buf=4]
 [mnhide]
-#北斗
-「こいつんち、病院なんですよ。ほら、来瀬総合病院。駅前の。」[p][stopse buf=1]
-#七音
+#hokuto
+「Her family manages the hospital. You know, Kuruse General Hospital, the one in front of the station」[p][stopse buf=1]
+#nao
 [n_niko]
-「ああ、あそこ？いつも前通ってるよ！」[p][stopse buf=4]
+「Oh, that place? I walk right past it all the time!」[p][stopse buf=4]
 [mnhide]
-#美波
+#minami
 [mw/dere2]
-「わ、私の家のことはもういいから…」[p][stopse buf=2]
-#七音
+「W-We don't need to talk about my family…」[p][stopse buf=2]
+#nao
 [n_niko3]
-「そうなんだ。[r]　え、そういえば美波ちゃんはどうしてここに来てくれたの？[r]　聞かせてほしいな～」[p][stopse buf=4]
+「I see. Speaking of which, why did you come here, Minami? I'd like you to tell me～」[p][stopse buf=4]
 [mnhide]
-#美波
+#minami
 [mw/dere]
-「…いやその、なんとなく新歓イベント色々と行ってたら、[r]　突然北斗に軽音部に行こうって引っ張られてきちゃって…」[p][stopse buf=2]
-#奏女
+「…I was going around to different clubs, and suddenly Hokuto pulled me to go to the light music club…」[p][stopse buf=2]
+#kaname
 [k_niko]
-「そうなんだ～、仲良しなんだね。」[p][stopse buf=6]
+「I see. You two are close, huh?」[p][stopse buf=6]
 [mkhide]
-#美波
+#minami
 [mw/tere]
-「な、仲良しだなんて。[r]　私がこいつの面倒見てるようなものっていうか…」[p][stopse buf=2]
-#北斗
+「C-Close? I'm just looking out for him…」[p][stopse buf=2]
+#hokuto
 [hw/iradati]
-「え、どういうことだよ。」[p][stopse buf=1]
-#美波
+「Ah? What do you mean?」[p][stopse buf=1]
+#minami
 [mw/tun2]
-「だってあなたがいつも突飛なことしでかすから[r]　私が見張ってなきゃいけないんじゃない！」[p][stopse buf=2]
-#北斗
+「Because you're always doing crazy stuff, I have to keep an eye on you!」[p][stopse buf=2]
+#hokuto
 [hw/iradati2]
-「なんだって！？」[p][stopse buf=1]
-#奏女
+「What?!」[p][stopse buf=1]
+#kaname
 [k_niyake]
-「おお、これはいわゆる…」[p][stopse buf=6]
+「Ah! This is what we call…」[p][stopse buf=6]
 [mkhide]
-#令人
+#reito
 [r_magao]
 「……」[p][stopse buf=5]
 [mrhide]
-#七音
+#nao
 [n_kanasimi]
-「なるほどね、なんとなくわかったわこの子たちのこと…」[p][stopse buf=4]
+「I see, I kind of figured it out…」[p][stopse buf=4]
 [mnhide]
-#美波
+#minami
 [mw/tun]
-「な、なにがですか。」[p][stopse buf=2]
-#令人
+「W-What do you mean?」[p][stopse buf=2]
+#reito
 [r_bishou]
-「ええと、その、質問ばかりで悪いんだけど、[r]　中学時代の部活は何だった？」[p][stopse buf=5]
+「Uhh, sorry for all the questions, but, what clubs did you join in middle school?」[p][stopse buf=5]
 [mrhide]
-#北斗
+#hokuto
 [hw/egao2]
-「オレ、バスケ部でした！」[p][stopse buf=1]
-#奏女
+「I was in basketball」[p][stopse buf=1]
+#kaname
 [k_bishou]
-「バスケか。中学からやってたの？」[p][stopse buf=6]
+「Basketball? Did you start on middle school?」[p][stopse buf=6]
 [mkhide]
-#北斗
+#hokuto
 [hw/bishou][kanim name="hokuto" keyframe="nod" time="500"]
-「はい。小学校のころは、[r]　少年野球とか、サッカーのクラブチームとか、柔道とか空手とか…」[p][stopse buf=1]
-#奏女
+「Yes. When I was in elementary school, I was in youth baseball, soccer, judo, karate…」[p][stopse buf=1]
+#kaname
 [k_magao]
-「え、色々やってたんだね。」[p][stopse buf=6]
+「Wow, you've done a lot」[p][stopse buf=6]
 [mkhide]
-#北斗
+#hokuto
 [hw/mu][kanim name="hokuto" keyframe="nod" time="500"]
-「はい。でも、中々どれも性に合わなかったというか、何というか…」[p][stopse buf=1]
-#美波
+「Yes. But none of them felt right, or something…」[p][stopse buf=1]
+#minami
 [mw/magao]
 「…」[p][stopse buf=2]
-#奏女
+#kaname
 [k_magao]
-「そうなんだ…美波ちゃんは何してたの？」[p][stopse buf=6]
+「I see… What about you, Minami-chan?」[p][stopse buf=6]
 [mkhide]
-#美波
+#minami
 [mw/tun]
-「えっと、美術部だったんですけど…」[p][stopse buf=2]
-#七音
+「Well, I was in the art club…」[p][stopse buf=2]
+#nao
 [n_niko2]
-「美術部か～、いいね。」[p][stopse buf=4]
-#美波
+「The art club? That's nice!」[p][stopse buf=4]
+#minami
 [mw/kanasimi]
-「…でも、生徒会活動が忙しくて、ほとんどできませんでした。」[p][stopse buf=2]
-#七音
+「…But I was so busy with student council activities that I barely attended」[p][stopse buf=2]
+#nao
 [n_iradati]
-「生徒会！？」[p][stopse buf=4]
+「Student council?!」[p][stopse buf=4]
 [mnhide]
-#北斗
+#hokuto
 [hw/egao2]
-「こいつ、生徒会長だったんですよ。で、オレが副会長で。」[p][stopse buf=1]
-#奏女
+「She was the student council president. And I was vice president」[p][stopse buf=1]
+#kaname
 [k_iradati]
-「しかも生徒会長！？」[p][stopse buf=6]
+「And the president?!」[p][stopse buf=6]
 [mkhide]
-#美波
+#minami
 [mw/akire]
-「…あれは北斗がやれっていうから。」[p][stopse buf=2]
+「…That was because Hokuto told me to do it」[p][stopse buf=2]
 [vostop][voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=24 ][vostart]
-#北斗
+#hokuto
 [hw/akire]
-「いや、あれは最初2人で庶務で入って。[r]　2年の秋に誰か会長出すってなって、[r]　美波の方が向いてると思ったからだし。」[p][stopse buf=1]
-#七音
+「No, we both started out as members of the council. In the fall of our second year, they asked for someone else to be president, and I thought Minami was more suited for the job」[p][stopse buf=1]
+#nao
 [n_bishou]
-「あー、なんとなくわかったわ。それじゃとりあえず、[r]　私たちの活動日とか今後の予定とかなんだけど…」[p][stopse buf=4]
+「Oh, I kind of get it. So anyway, let's talk about our schedule and our future events…」[p][stopse buf=4]
 #
 [fadeoutbgm time=1000]
 [mask time=500]
@@ -392,769 +392,769 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 [mask_off time=500]
 ……[p]
 [nao_bishou]
-#七音
-「というわけで、とりあえず当面の目標は、[r]　8月頭の卒業ライブになるわ。」[p][stopse buf=4]
-#北斗
+#nao
+「So, for now, our main objective is to have a graduation concert at the beginning of August」[p][stopse buf=4]
+#hokuto
 [hw_metozi]
-「入部早々先輩たち卒業の話なんですね…」[p][stopse buf=1]
+「We just joined the club and we are already talking about your graduations…」[p][stopse buf=1]
 [mhhide]
-#美波
+#minami
 [mw_tun]
-「ちょっと北斗、失礼よ。」[p][stopse buf=2]
+「Hey, Hokuto, you're being rude」[p][stopse buf=2]
 [mmhide]
-#七音
+#nao
 [n/niko]
-「いいの、ホントのことだし。これでも部活引退遅らせてもらってるの。[r]　ほかの文化部は6月引退とかもザラなんだから。」[p][stopse buf=4]
-#奏女
+「It's okay, it's the truth. We're luckily allowed to retire later. In other clubs you would usually retire in June」[p][stopse buf=4]
+#kaname
 [kaname_niko]
-「ここは昔の先輩たちが伝統作っててくれたおかげかな～」[p][stopse buf=6]
-#七音
+「I think it's all thanks to our old senpais who created all of these rules」[p][stopse buf=6]
+#nao
 [n/bishou]
-「そうね、それで、もし2人が入部してくれたら、[r]　8月までに楽器とか発声練習とか、[r]　とにかく覚えてもらうことになるわ。」[p][stopse buf=4]
-#北斗
+「So, if you two join the club, you'll have until August to learn to play an instrument, vocal exercises, or anything else you want to do」[p][stopse buf=4]
+#hokuto
 [hw_odoroki]
-「え、早くないです？」[p][stopse buf=1]
+「Eh, isn't that fast?」[p][stopse buf=1]
 [mhhide]
-#奏女
-「大丈夫、意外となんとかなるなる。」[p][stopse buf=6]
-#七音
+#kaname
+「Don't worry, it's surprisingly easy to figure things out」[p][stopse buf=6]
+#nao
 [n/niko]
-「それに、良ければガンガン歌ってもらうから。[r]　こんなに新人使う軽音部ほかになかなかないよ～？」[p][stopse buf=4]
-#美波
+「And if you like, we'll let you sing as much as you want. There aren't many other light music clubs that let rookies do so much, you know?」[p][stopse buf=4]
+#minami
 [mw_magao2]
-「…なんかブラックな求人広告みたいじゃないです？」[p][stopse buf=2]
+「…Sounds like some kind of shady ad for a job, doesn't it?」[p][stopse buf=2]
 [mmhide]
-#奏女
+#kaname
 [k/niyake]
-「お、いいところを突っついてくる。ツッコミのセンスありだね。」[p][stopse buf=6]
-#美波
+「Ah! You can even retort properly. You have a great sense of humor!」[p][stopse buf=6]
+#minami
 [mw_magao2]
-「いや否定してください…」[p][stopse buf=2]
+「At least deny it, please…」[p][stopse buf=2]
 [mmhide]
-#奏女
+#kaname
 [k/niko]
-「大丈夫大丈夫。変にしごいたりとかしないから。楽しく歌うだけ。」[p][stopse buf=6]
-#七音
+「It's okay, it's okay. We're not going to squeeze you or anything like that. We'll just have fun singing!」[p][stopse buf=6]
+#nao
 [n/bishou]
-「その辺に関しては令人君と一緒に部を存続させてって欲しいっていう[r]　老婆心が混じってるけど、なによりみんな楽しまないと。[r]　そこは保証するよ。」[p][stopse buf=4]
+「I'm just asking you to keep the club alive with Reito-kun, but above all, we all must have fun. I can guarantee you that」[p][stopse buf=4]
 #
 [hide]
 [vostop]
 [reito_kanasimi]
-#令人
+#reito
 「……」[p][stopse buf=5]
 [rhide]
 [voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=8 ][vostart]
 [nao_niko2 wait=false left=730][kaname_kanasimi left=140]
-#奏女
-「というところで、説明は多分以上なんだけど…」[p][stopse buf=6]
-#七音
-「…入部してくれないかな？」[p][stopse buf=4]
+#kaname
+「I think that's probably all I have to say…」[p][stopse buf=6]
+#nao
+「…Would you like to join the club?」[p][stopse buf=4]
 [hide]
-#北斗
+#hokuto
 [hokuto_w_egao2]
-「入部します！」[p][stopse buf=1]
-#美波
+「I'll join the club!」[p][stopse buf=1]
+#minami
 [font size=30][minami_w_odoroki]
-「即答！？もうちょっと考えない？」[p][stopse buf=2]
+「Immediately?! Why don't you think about it a little bit more?」[p][stopse buf=2]
 [resetfont]
-#北斗
+#hokuto
 [hw/bishou]
-「大丈夫。ここやっぱり面白そうだし。」[p][stopse buf=1]
+「Don't worry. This place looks interesting」[p][stopse buf=1]
 #
-先輩たちは良い人たちみたいで安心だし。[p]
-なにより、こういうおもしろそうなものを見つけた時は、[r]迷わず飛び込むことにしている。[p]
-#美波
+Everyone seems nice and reliable.[p]
+Above all, when I find something interesting like this, I don't hesitate to jump in.[p]
+#minami
 [mw/akire]
-「そう…」[p]
+「I see…」[p]
 #
-そういって呆れたような目をしたかと思うと、[r]次の瞬間には美波も覚悟を決めたようだった。[p]
-#美波
+After looking at me appalled for a second, in the next moment Minami seems to have taken a decision, as well.[p]
+#minami
 [kanim name="minami" keyframe="nod" time="500"]
-「よし、すいません、私も入れてください。」[p][stopse buf=2]
+「All right, I'm sorry, please let me join as well」[p][stopse buf=2]
 [voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=30 ]
 [hide]
-#七音
+#nao
 [nao_niko]
-「え、いいの？」[p][stopse buf=4]
-#美波
+「Really?」[p][stopse buf=4]
+#minami
 [mw_bishou]
-「はい。それに…実のところ、私も軽音部、元々興味あったので。[r]　やってみたいです。」[p][stopse buf=2]
+「Yes. Besides…to tell you the truth, I was originally interested in the light music club, too. I'd like to give it a try」[p][stopse buf=2]
 [mmhide]
-#七音
+#nao
 [n/niko2]
-「やったー！部員2人ゲット～！」[p][stopse buf=4]
-#令人
+「Great! We caught two fresh ones!」[p][stopse buf=4]
+#reito
 [reito_komari left=840]
-「だから言い方…」[p][stopse buf=5]
-#奏女
+「Don't say it like that…」[p][stopse buf=5]
+#kaname
 [kaname_bishou left=-120]
-「まあ、しばらくは新歓期間だから、ひとまず仮入部ってことで。[r]　他の部を見に行ってもいいし、[r]　もしよかったら練習に混ざってくれてもいいし。」[p][stopse buf=6]
-#奏女
-「といっても、次のライブの曲もまだ決まってないんだけど。」[p][stopse buf=6]
-#七音
+「Well, for the time being, as we are in the Newcomers' Period, for now you'll be provisional members. You can check other clubs, or you can practice with us if you like!」[p][stopse buf=6]
+#kaname
+「However, we haven't even decided on a song for our next concert yet」[p][stopse buf=6]
+#nao
 [n/bishou]
-「そしたら、今日はとりあえず楽器触ってみようか。」[p][stopse buf=4]
+「Then we can just feel the instruments for today」[p][stopse buf=4]
 #
 [hide]
 [hokuto_w_egao2 left=640 wait=false][minami_w_egao2 left=40]
-#二人
-「はい！」[p][stopse buf=1]
+#Both
+「Yes!」[p][stopse buf=1]
 
 #
-こうして、俺たちの軽音部生活が始まった。[p]
+And thus our life in the light music club began.[p]
 [fadeoutbgm time=1000]
 [mask time=500]
 [hide time=0]
 [bg2 storage="michi_n.jpg" time="1500"]
-[fadeinbgm  storage="bg/river.ogg" time=1000]
+[fadeinbgm storage="bg/river.ogg" time=1000]
 [mask_off time=500]
 
-#北斗
+#hokuto
 [hokuto_w_mu2]
-「もう真っ暗だな……」[p][stopse buf=1]
-#美波
+「It's dark already……」[p][stopse buf=1]
+#minami
 [minami_w_magao]
-「ホント。早く帰りましょ。」[p][stopse buf=2]
-#北斗
+「Yeah, let's hurry home」[p][stopse buf=2]
+#hokuto
 [hw/akire]
-「帰ったら帰ったで明日の予習が待ってるけどな…」[p][stopse buf=1]
-#美波
+「I'll have to prepare for tomorrow's lessons when I get home…」[p][stopse buf=1]
+#minami
 [mw/magao2]
-「そんなこと言わないでよ…しょうがないじゃない、[r]　一応進学校なんだもの。」[p][stopse buf=2]
-#北斗
+「Don't remind me of that… But it can't be helped. It's a prep school, after all」[p][stopse buf=2]
+#hokuto
 [hw/mu2][kanim name="hokuto" keyframe="nod" time="500"]
-「まあな…それにしてもまさか入部二週間で[r]　いきなりこんなハードだとは思わなかった…」[p][stopse buf=1]
+「Yeah, but… I didn't think it would suddenly be this hard after only two weeks in the club…」[p][stopse buf=1]
 #
 [hide]
-説明会から二週間が経った。[p]
-まだ新歓期間中で、軽音部にも他の新入生がちょろっと見学に来たりも[r]したけど、入部まで行くやつはいなくて、[r]放課後はほぼほぼオレと美波の講習会と化していた。[p]
+It had been two weeks since the orientation meeting.[p]
+We were still in the Newcomers' Period, so some other students came to check the club, but no one went as far to join the club yet, so after school it was a training session for both me and Minami.[p]
 [minami_w_magao left=40 wait=false][hokuto_w_metozi left=640]
-#美波
-「仕方ないわよ。3年の先輩たちは夏には退部なんだもの。」[p][stopse buf=2]
-#美波
-「早く私たちが一人前にならないと、[r]　まともな演奏できなくなっちゃうから。」[p][stopse buf=2]
-#北斗
+#minami
+「It can't be helped, our third years will be out of the club by the summer」[p][stopse buf=2]
+#minami
+「If we don't become independent soon, we won't be able to play properly」[p][stopse buf=2]
+#hokuto
 [hw/metozi]
-「オレたち2人入れても部員が5人。卒業していく3年生も2人。[r]　改めて考えるとホントギリギリだな…[r]　もうちょっと新入部員入ってくれるといいけど。」[p][stopse buf=1]
-#美波
+「There are five members in the club, including the two of us. There are also two third-year students who are graduating. We're barely there, when you think about it. I hope we can get a few more new members」[p][stopse buf=1]
+#minami
 [mw/magao2]
-「でも、もう新歓期間終わりだし、[r]　あとから来た人たちみんな別の部も考えてるみたいだったし…」[p][stopse buf=2]
-#北斗
+「But the Newcomers' Period is about to end, and everyone who came later seemed to be thinking about joining another club…」[p][stopse buf=2]
+#hokuto
 [hw/akire]
-「ほとんど冷やかしみたいなやつらが多かったな…[r]　マジでオレたち2人だけかも。」[p][stopse buf=1]
-#美波
+「Most of them seemed to be just looking around… Seriously, it might be just the two of us」[p][stopse buf=1]
+#minami
 [mw/akire]
-「まったく、誰かさんのせいで他の部の見学にも行かなかったし。」[p][stopse buf=2]
-#北斗
+「Good grief, I didn't even get a chance to visit the other clubs because of someone」[p][stopse buf=2]
+#hokuto
 [hw/iradati]
-「なんだよオレのせいかよ。[r]　美波だって別の部に行きたいなんて言わなかったじゃないか。」[p][stopse buf=1]
-#美波
-[mw/uwame][font size=30]
-「…まあ、北斗が誘ってきたから。」[p][stopse buf=2]
+「Is my fault now? You didn't say you wanted to go to another club either, Minami」[p][stopse buf=1]
+#minami
+[mw/uwame][font size=20]
+「…Well, it's because you asked me to join you……」[p][stopse buf=2]
 [resetfont]
-#北斗
+#hokuto
 [hw/magao]
-「ん、なんだって？」[p][stopse buf=1]
-#美波
+「Hmm? What?」[p][stopse buf=1]
+#minami
 [mw/tun]
-「な、なんでもない！」[p][stopse buf=2]
-#北斗
+「N-Nothing!」[p][stopse buf=2]
+#hokuto
 [hw/aozame]
-「まあでも、まさかギターの弾き方覚えるのがここまでむずいとは…」[p][stopse buf=1]
-#美波
+「And I didn't think it would be this hard to learn how to play the guitar…」[p][stopse buf=1]
+#minami
 [mw/magao]
-「…ふん、ホントあんたって無計画よね。[r]　早くきらきら星から卒業したら？」[p][stopse buf=2]
-#北斗
+「…You really don't have a plan, do you? Why don't you hurry up and graduate from "Twinkle Twinkle Little Star"?」[p][stopse buf=2]
+#hokuto
 [hw/iradati2]
-「そういうお前はあっさりキーボード覚えやがって。」[p][stopse buf=1]
-#美波
+「And you, you learned the keyboard so easily」[p][stopse buf=1]
+#minami
 [mw/bishou]
-「だって幼稚園からピアノ習ってたもの。[r]　小3くらいで嫌になってやめちゃったけど。意外と指が覚えてたわ。」[p][stopse buf=2]
-#北斗
+「Because I took piano lessons in kindergarten. I got tired of it and quit when I was in the third grade. But my fingers remembered surprisingly well」[p][stopse buf=2]
+#hokuto
 [hw/iradati]
-「そういやそうだったな…」[p][stopse buf=1]
-#美波
+「I thought so…」[p][stopse buf=1]
+#minami
 [mw/akire]
-「まあ、コードとか音づくりとか、新しく覚えることも多いけど。[r]　クラシックとは色々違いすぎて大変だわ。」[p][stopse buf=2]
-#北斗
+「Well, there's a lot of new things to learn, like chords and sound formation and stuff like that. It's so different from classical music that it's hard」[p][stopse buf=2]
+#hokuto
 [hw/kanasimi2]
-「でもオレとはスタートラインが違うだろ…」[p][stopse buf=1]
-#美波
+「But you and I have different starting lines…」[p][stopse buf=1]
+#minami
 [mw/magao2]
-「まあそれは…でも、珍しいわね、[r]　こういうとき、いつもだったらなんだかんだ[r]　北斗のほうがすぐにコツを覚えてこなしちゃうのに。」[p][stopse buf=2]
-#北斗
+「I'm not sure if that's true… But it's unusual, because usually at times like this, Hokuto is the one who learns the ropes and does it right away」[p][stopse buf=2]
+#hokuto
 [hw/kanasimi2]
-「そうなんだよな…スポーツとかなら割と」[p][stopse buf=1]
-#美波
+「You're right… In sports that's what happened」[p][stopse buf=1]
+#minami
 [mw/magao]
 「……」[p][stopse buf=2]
-#北斗
+#hokuto
 [hw_magao]
-「…なんだよ。」[p][stopse buf=1]
-#美波
+「…What?」[p][stopse buf=1]
+#minami
 [mw_tun]
-「…ううん、苦しんでるあんたをみて面白がってるだけよ。」[p][stopse buf=2]
-#北斗
+「…No, I'm just amused to see you struggling」[p][stopse buf=2]
+#hokuto
 [hw/iradati2]
-「なんだと？くそ～、いまに見てろよ…ん？」[p][stopse buf=1]
+「What? Damn, just wait and see. …Hmm?」[p][stopse buf=1]
 
 #
 [fadeinbgm time=1000 storage=seiji.ogg]
 [hide]
 ;視線移動のエフェクト
 [bg2 storage="still_takamura.png" time="1000"][eval exp="sf.ST1=1"]
-ふてくされてそっぽを向いた視線の先に、人影が見えた。[p]
-いや、本当は最初に目を奪われたのはその大きな望遠鏡だった。[p]
-遥かな天空へ向けられたそれを、老人が必死に覗き込んでいる。[p]
+I looked away while sulking and saw a figure in the corner of my eye.[p]
+No, actually, it was that big telescope that caught my attention first.[p]
+An old man looks hard into it, while it is pointed far up into the sky.[p]
 
 [bg2 storage="michi_n.jpg" time="1000"]
 [minami_w_magao2 left=40 wait=false][hokuto_w_mu2 left=640]
-#美波
-「ん、どしたの？」[p][stopse buf=2]
-#北斗
-「いや、あの河川敷に…」[p][stopse buf=1]
-#美波
+#minami
+「Hm? What happened?」[p][stopse buf=2]
+#hokuto
+「No, over there on the riverside…」[p][stopse buf=1]
+#minami
 [mw/magao]
-「河川敷？…ああ、あの望遠鏡のおじいさん？」[p][stopse buf=2]
-#北斗
+「Riverside?… Oh, that old man with the telescope?」[p][stopse buf=2]
+#hokuto
 [hw/odoroki]
-「知り合いか？」[p][stopse buf=1]
-#美波
+「Do you know him?」[p][stopse buf=1]
+#minami
 [mw/bishou]
-「ううん。でも近所では有名よ？[r]　いつも河川敷で天体観測してるおじいさん。」[p][stopse buf=2]
-#北斗
+「No, but he's famous in the neighborhood. "An old man who always goes stargazing on the riverbank."」[p][stopse buf=2]
+#hokuto
 [hw/mu]
-「そうなのか。知らなかった。」[p][stopse buf=1]
-#美波
+「I see. I didn't know」[p][stopse buf=1]
+#minami
 [mw/akire]
-「あなた近所付き合いとかあんましないから…」[p][stopse buf=2]
-#北斗
+「Because you don't really socialize with your neighbors or anything…」[p][stopse buf=2]
+#hokuto
 [hw/akire]
-「うっせ。でもそんなにいつもいるのか。」[p][stopse buf=1]
-#美波
+「Shut up. But is he always here?」[p][stopse buf=1]
+#minami
 [mw/bishou]
-「そうみたい。こんな晴れた夜はいつも。[r]　日が昇るまでやってることもしょっちゅうだって。」[p][stopse buf=2]
-#北斗
+「It seems so. On a clear night like this, he always does it. He frequently stays up until the sun comes up」[p][stopse buf=2]
+#hokuto
 [hw/odoroki]
-「そんなにか！？」[p][stopse buf=1]
-#美波
+「That much?!」[p][stopse buf=1]
+#minami
 [mw/magao][kanim name="minami" keyframe="nod" time="500"]
-「うん。でも、どうしてそんなに天体観測に夢中なのか、[r]　だれも知らないんだって。」[p][stopse buf=2]
-#北斗
+「Yeah, but nobody knows why he's so obsessed with stargazing」[p][stopse buf=2]
+#hokuto
 [hw/mu2]
-「え、有名なんじゃないのか？」[p][stopse buf=1]
-#美波
+「Eh? Even though he's famous for it?」[p][stopse buf=1]
+#minami
 [mw/magao2]
-「いや、みんな見かけてるだけで話しかけたりはしてないらしいし。[r]　昼間はあんまり家から出ないらしいから[r]　近所づきあいもしてないみたいだし…」[p][stopse buf=2]
+「No, they just see him around, but they don't talk to him. He doesn't seem to get out of the house much during the day, so he doesn't seem to socialize with his neighbors…」[p][stopse buf=2]
 #
 [mhide]
-#北斗
+#hokuto
 [hw/metozi]
-「ふ～ン……」[p][stopse buf=1]
+「Hmmm……」[p][stopse buf=1]
 #
 [hide]
 [bg2 storage="still_takamura.png" time="1000"]
-[playse  storage="se/step_grass.ogg" ]
-その時、なぜ自分がそうしたのかはわからないけど、[r]気づけば河川敷を駆け下りて爺さんに近づいていた。[p]
-#美波
+[playse storage="se/step_grass.ogg" ]
+I don't know why I did it then, but I found myself running down the riverside and approaching the old man.[p]
+#minami
 [mw_aozame]
-「ちょっと！？」[p][stopse buf=2]
+「Hey?!」[p][stopse buf=2]
 [mmhide]
-#北斗
+#hokuto
 [hw_egao2]
-「なあ爺さん、こんばんは。何してるんです？」[p][stopse buf=1]
+「Hey, old man, what are you doing here?」[p][stopse buf=1]
 [mhhide]
-#老人
-「ん？見てわからないのか。お星さまを探しているんだ。」[p][stopse buf=3]
-#北斗
+#rouzin
+「Hmm? Can't you see? I'm looking for a star」[p][stopse buf=3]
+#hokuto
 [hw_magao]
-「探してる？星ならいくらでも見えるじゃないか。」[p][stopse buf=1]
+「You're looking for a star? There's hundreds out there」[p][stopse buf=1]
 [mhhide]
-#老人
-「見えている星じゃない。今は見えないお星さまを探しているんだ。」[p][stopse buf=3]
-#北斗
+#rouzin
+「I'm not looking for stars that I can see. I'm looking for an invisible star right now」[p][stopse buf=3]
+#hokuto
 [hw_kanasimi]
-「見えない星？」[p][stopse buf=1]
+「An invisible star?」[p][stopse buf=1]
 [mhhide]
-#美波
+#minami
 [mw_odoroki]
-「ちょっとちょっと。すいません、急に話しかけちゃって。」[p][stopse buf=2]
+「Wait! I'm sorry he just suddenly spoke like that」[p][stopse buf=2]
 [mmhide]
-#老人
-「構わんよ。目の死んだ駐在にしか話しかけられなくて[r]　飽き飽きしていたところだ。」[p][stopse buf=3]
-#北斗
+#rouzin
+「I don't mind. I was just getting tired of only talking to dead-eyed policemen」[p][stopse buf=3]
+#hokuto
 [hw_magao]
-「それで、見えない星を探してるって、なに？」[p][stopse buf=1]
+「So what do you mean you're looking for invisible stars?」[p][stopse buf=1]
 [mhhide]
-#老人
-「ああ、何年探しても見つからないお星さまだ。」[p][stopse buf=3]
-#北斗
+#rouzin
+「Ah, it's a star I've been looking for years and still can't find」[p][stopse buf=3]
+#hokuto
 [hw_akire]
-「へえ…なんでそんなあるかもわからないものを[r]　何年も探してるんです？」[p][stopse buf=1]
+「Wow… Why would you spend years looking for something you don't even know exists?」[p][stopse buf=1]
 [mhhide]
-#老人
-「……絶対にあるとわかっているからさ。」[p][stopse buf=3]
-#北斗
+#rouzin
+「……Because I know it's absolutely there」[p][stopse buf=3]
+#hokuto
 [hw_odoroki]
-「？…なんですか、理論上はあるはずみたいな感じですか。」[p][stopse buf=1]
+「?? …What, like in theory it should be there?」[p][stopse buf=1]
 [mhhide]
-#老人
-「……そんなようなものだ。」[p][stopse buf=3]
-#北斗
+#rouzin
+「……Something like that」[p][stopse buf=3]
+#hokuto
 [hw_magao]
-「へぇ…？」[p][stopse buf=1]
+「Hmm…?」[p][stopse buf=1]
 [mhhide]
 #
-この爺さんは、何を言っているんだろう。よくわからない。[p]
-ただ、こんな話をしながらも、決して望遠鏡から顔を外そうとしない。[p]
-その姿には、なぜかひきつけられるようなものがあって。[p]
-つい、いつものように言ってしまった。[p]
+What is this old man talking about? I don't understand.[p]
+However, he never takes his face away from the telescope while talking.[p]
+There was something about the way he looked that somehow drew me to him.[p]
+So I just said it like I always do.[p]
 [fadeoutbgm time=1000]
-#北斗
+#hokuto
 [hw_egao2]
-「…それなら、一緒に探してもいいですか？[r]　何の役にも立たないかもしれないけど。」[p][stopse buf=1]
+「…In that case, can I help you look for it? I don't know if it'll help you whatsoever」[p][stopse buf=1]
 [mhhide]
 #
 [bg2 storage="kawa_n.jpg" time=1000]
 [hokuto_w_egao2][seizi_magao]
-#老人
-「…ほう。」[p][stopse buf=3]
+#rouzin
+「…Hoh」[p][stopse buf=3]
 #
-その時初めて、爺さんはこっちを向いてくれた。[p]
+It was only then that the old man looked at me.[p]
 [chara_move name="hokuto" time=700 left=360 anim=true wait=false][chara_move name="seizi" time=700 left=-195 anim=true wait=false][minami_w_odoroki left=840]
-#美波
-「ちょっと、何勝手に言ってるのよ。…すいませんホントに。」[p][stopse buf=2]
-#老人
-「…いや、今時面白い若者がいるものだ。[r]　いいだろう。付き合いなさい。」[p][stopse buf=3]
-#美波
+#minami
+「Hey, what are you talking about?… I'm really sorry」[p][stopse buf=2]
+#rouzin
+「…No, there are some interesting young people nowadays. Sure, you can join me」[p][stopse buf=3]
+#minami
 [mw/tere]
-「え？！」[p][stopse buf=2]
-#北斗
-「よっしゃ！」[p][stopse buf=1]
-#老人
+「Eh?!」[p][stopse buf=2]
+#hokuto
+「All right!」[p][stopse buf=1]
+#rouzin
 [s/mu]
-「こっちに来なさい。望遠鏡の使い方を教えてやろう。」[p][stopse buf=3]
-#北斗
+「Come here. I'll show you how to use the telescope」[p][stopse buf=3]
+#hokuto
 [kanim name="hokuto" keyframe="nod" time="500"]
-「はい！」[p][stopse buf=1]
+「Yes!」[p][stopse buf=1]
 #
 [hide][minami_w_aozame]
-#美波
-「ちょ、ちょっと…」[p][stopse buf=2]
-#老人
+#minami
+「W-Wait…」[p][stopse buf=2]
+#rouzin
 [s_magao]
-「お嬢さん、キミもだ。早くこっちへ。二度手間は嫌いなんだ。」[p][stopse buf=3]
+「You, too, miss. Come on, get over here. I don't want to go through this twice」[p][stopse buf=3]
 [mshide]
-#美波
+#minami
 [mw/oogoe]
-「え、ええ？何この状況～！」[p][stopse buf=2]
+「What? What is this situation～?」[p][stopse buf=2]
 
 #
 [hide]
-そうして、その晩は9時過ぎまで星を3人で眺めることになった。[p]
-美波は終始ひやひやしていたが、[r]美波のご両親が夜勤で夜遊びがばれる心配もないのは把握していたので、[r]俺は気にせずひたすら爺さんに教えてもらいながら星をみた。[p]
+And so the three of us stargazed together that night past 9:00 p.m.[p]
+Minami was nervous the whole time, but her parents worked the night shift so I didn't worry whether they would find out about our nightlife. I just stargazed while asking the old man to show me the ropes.[p]
 [fadeoutbgm time=1000]
 [bg2 storage="still_kansoku.png" time=1000][eval exp="sf.ST2=1"]
-#老人
-「さて、いきなりどこにあるのかもわからない星を見るよりは、[r]　有名な星を見るところから始めた方がよかろう。」[p][stopse buf=3]
-#老人
-「そうでないと、[r]　むやみに何もない夜空をただ見回すだけになってしまうからな。」[p][stopse buf=3]
-#北斗
-「はい。」[p][stopse buf=1]
-#老人
-「ファインダーと倍率はもう調整してある。まずは月から見てみるか。」[p][stopse buf=3]
-#北斗
-「月ですか。ウサギの模様とかよく見えたりします？」[p][stopse buf=1]
-#老人
-「今日は三日月だから、そこまでは見えんだろう。[r]　また満月の夜にでも見るといい。」[p][stopse buf=3]
-#老人
-「ただ、月明りが強すぎるとほかの星が見えなくなるから、[r]　満月の日はあまり天体観測には向かないんだがな。」[p][stopse buf=3]
-#北斗
-「なるほど…お、三日月がきれいに見える！」[p][stopse buf=1]
-#美波
-「…月の光でほかの星が見えなくなるなんてことがあるんですか？」[p][stopse buf=2]
-#老人
-「ああ。星にもよるが、基本星の光はあまりに弱い。」[p][stopse buf=3]
-#老人
-「街灯、繁華街の光。[r]　それだけじゃない、携帯電話や懐中電灯の光でさえ、[r]　星の光をさえぎってしまう。」[p][stopse buf=3]
-#老人
-「月も同じ夜空にあるとはいえ、光源には違いないからな。」[p][stopse buf=3]
-#老人
-「…この町も、昔はもっと星がよく見えたんだがなあ。[r]　最近は随分、街になってしまった。」[p][stopse buf=3]
-#美波
-「へえ…」[p][stopse buf=2]
-#北斗
-「なんだ、美波も興味津々じゃん。」[p][stopse buf=1]
-#美波
-「そ、そんなんじゃないわよ。」[p][stopse buf=2]
-#老人
-「キミは美波君というのか。…そういえば名前を聞いていなかったな。」[p][stopse buf=3]
-#美波
-「あ、すいません。来瀬美波といいます。」[p][stopse buf=2]
-#北斗
-「オレは加賀谷北斗です。爺さんの名前は？」[p][stopse buf=1]
-#老人
-「…高村だ。[ruby text="たか"]高[ruby text="むら"]村[ruby text="せい"]清[ruby text="じ"]二。…しかし、キミは北斗君というのか。[r]　星の名前なんだな。」[p][stopse buf=3]
-#北斗
-「ええ、北斗七星からつけたって。」[p][stopse buf=1]
-#高村
-「なるほど。ちょうど北斗七星は春によく見える星だ。[r]　次は北斗七星を見てみるか。」[p][stopse buf=3]
+#rouzin
+「Now, rather than looking at a star you don't even know, it's better to begin by looking at a well-known star」[p][stopse buf=3]
+#rouzin
+「Otherwise, you'll just look around at the empty night sky aimlessly」[p][stopse buf=3]
+#hokuto
+「Yes!」[p][stopse buf=1]
+#rouzin
+「I've already adjusted the viewfinder and magnification. Let's start by looking at the moon」[p][stopse buf=3]
+#hokuto
+「The moon? Can you see the rabbit pattern and all that well?」[p][stopse buf=1]
+#rouzin
+「The moon is crescent today, so you won't be able to see that far. You can see that during a full moon night」[p][stopse buf=3]
+#rouzin
+「But full moon days are not very good for stargazing, because the moonlight is too bright to see the other stars」[p][stopse buf=3]
+#hokuto
+「I see… Oh, the crescent moon looks beautiful!」[p][stopse buf=1]
+#minami
+「…How can the moon's light prevent you from seeing the other stars?」[p][stopse buf=2]
+#rouzin
+「It can, it depends on the star. The light from normal stars is way too weak」[p][stopse buf=3]
+#rouzin
+「Streetlights, the lights from the city. Not only that, even the light from cell phones and flashlights can obscure the light from the stars」[p][stopse buf=3]
+#rouzin
+「Even though the moon is in the same night sky, it's still a source of light」[p][stopse buf=3]
+#rouzin
+「…This town used to have a better view of the stars. These days it's much more of a city」[p][stopse buf=3]
+#minami
+「Eeh…」[p][stopse buf=2]
+#hokuto
+「Hey, Minami's interested, too」[p][stopse buf=1]
+#minami
+「T-That's not it!!」[p][stopse buf=2]
+#rouzin
+「Oh, so you are Minami… Come to think of it, I haven't asked your names」[p][stopse buf=3]
+#minami
+「Oh, excuse me. My name is Minami Kuruse」[p][stopse buf=2]
+#hokuto
+「My name is Hokuto Kagaya. What is your name, old man?」[p][stopse buf=1]
+#rouzin
+「…I'm Takamura. Seiji Takamura… But, you're Hokuto-kun? That's the name of a constellation」[p][stopse buf=3]
+#hokuto
+「Yeah, they named me after the Big Dipper」[p][stopse buf=1]
+#seizi
+「I see. That's perfect. The Big Dipper is a constellation that is visible in spring. Let's look at the Big Dipper next」[p][stopse buf=3]
 #
-そういうと高村と名乗った爺さんは望遠鏡の倍率を下げるためなのか、[r]望遠鏡をいじり、そして方向を変えた。[p]
+Then the old man, who introduced himself as Takamura, fiddled with the telescope, perhaps to reduce its magnification, and then changed its direction.[p]
 [fadeinbgm storage=kaisou.ogg time=500]
 [bg2 storage="seiza/419dipper.png" width=2279 height=1909 time=500 left=-700 top=-350 wait=false]
 [image layer=1 storage=lens.png time=500 visible=true]
 
-#高村
+#seizi
 [s_mu]
-「さあ、見てごらん。」[p][stopse buf=3]
+「All right, take a look!」[p][stopse buf=3]
 [mshide]
-#北斗
+#hokuto
 [hw_mu2]
-「あ、なんか七つの星が見える。」[p][stopse buf=1]
+「Oh, I can see seven stars」[p][stopse buf=1]
 [mhhide]
-#高村
+#seizi
 [s_metozi]
-「正確には、北斗七星という星座があるわけではなく、[r]　おおぐま座の尾の部分なんだがな。」[p][stopse buf=3]
+「There isn't exactly a constellation called the Big Dipper, but rather part of the tail of Ursa Major or the Great Bear」[p][stopse buf=3]
 [mshide]
-#北斗
+#hokuto
 [hw_odoroki]
-「そうなの？」[p][stopse buf=1]
+「Really?」[p][stopse buf=1]
 [mhhide]
-#美波
+#minami
 [mw_magao2]
-「おおぐま座って、どこかで聞いたことがあるような…？」[p][stopse buf=2]
+「Where have I heard of "Ursa Major" before…?」[p][stopse buf=2]
 [mmhide]
-#高村
+#seizi
 [s_mu]
-「古代ギリシャでは、主神ゼウスの子を産んだ女性が、[r]　ゼウスの本妻であるヘラの嫉妬によって熊に変えられてしまった、[r]　という星座さ。」[p][stopse buf=3]
-#高村
-「もっとも、世界の多くではひしゃくに見えるとか[r]　色々言われていたようだがね。」[p][stopse buf=3]
+「In ancient Greece, a woman who had given birth to a child of Zeus was turned into a bear by Hera, Zeus' true wife, because she was jealous… It's that constellation」[p][stopse buf=3]
+#seizi
+「But in most of the world it looks like a big ladle, or so I've heard」[p][stopse buf=3]
 [mshide]
-#北斗
+#hokuto
 [hw_mu]
-「まあ、七つの星以外あんまりよく見えないし、[r]　この7つの星で星座って言われた方が自然にみえる。」[p][stopse buf=1]
+「Well, you can't see much except for the seven stars, it feels more natural to say that these seven stars are the constellation」[p][stopse buf=1]
 [mhhide]
-#高村
+#seizi
 [s_mu]
-「北斗七星がおおぐま座の一部だ、[r]　というイメージがあまりないのは他にも理由があるとは思うよ。[r]　望遠鏡を覗かずに見た方がわかるかな。」[p][stopse buf=3]
+「I'm sure there are other reasons why people don't think of the Big Dipper as being part of Ursa Major. I think it's more obvious if you look at it without looking through the telescope」[p][stopse buf=3]
 #
 [mshide]
-そういうと、爺さんは夜空にむかって北斗七星を指さした。[p]
+With that, the old man pointed toward the night sky and pointed to the Big Dipper.[p]
 [bg2 storage="seiza/419dipperName.png" width=2279 height=1909 time=700 left=-300 top=-400 wait=false]
 [freeimage layer=1 time=700]
-#高村
+#seizi
 [s_magao]
-「北斗七星をひしゃくとして見たときに、[r]　水を組む部分の先にあたる２つの星があるだろう。[r]　アルファ星のデューベとベータ星のメラクというが…」[p][stopse buf=3]
+「If you look at the Big Dipper as a ladle, there will be two stars that are the ends of the section of the ladle that would pick up the water. They are called Dube, the Alpha star, and Merak, the Beta star…」[p][stopse buf=3]
 [mshide]
-#北斗
+#hokuto
 [hw_aozame]
-「アルファ、デューベ…？」[p][stopse buf=1]
+「Alpha, beta…?」[p][stopse buf=1]
 [mhhide]
-#高村
+#seizi
 [s_mu]
-「まあ名前はどうでもよい。その長さを指で測る。[r]　そしてそのままその長さを５倍して伸ばしてみると…[r]　少し明るい星が見えないか？」[p][stopse buf=3]
+「Well, it doesn't matter what they're called. Measure their distance with your finger… And if you stretch its length five times as it is… Can you see a star that's a little brighter?」[p][stopse buf=3]
 [mshide]
-#北斗
+#hokuto
 [hw_mu]
-「5倍…？なんかあるけど、あの星がなんなの？」[p][stopse buf=1]
+「Five times…? There's something there, but what is that star?」[p][stopse buf=1]
 #
 [mhhide]
 [bg2 storage="seiza/419dipperHName.png" width=2279 height=1909 time=500 left=-300 top=-400]
-#美波
+#minami
 [mw_magao]
-「北極星、ですよね。」[p][stopse buf=2]
+「The North Star, right?」[p][stopse buf=2]
 [mmhide]
-#北斗
+#hokuto
 [hw_odoroki]
-「あ、なんか中学の理科でやってたような…」[p][stopse buf=1]
+「Oh, I feel like we did this in middle school…」[p][stopse buf=1]
 [mhhide]
-#高村
+#seizi
 [s_hohoemi]
-「北斗という名前でも、北極星の探し方を知らんか」[p][stopse buf=3]
+「Even though your name comes from the North Star, Polaris, you don't know how to find it?」[p][stopse buf=3]
 [mshide]
-#北斗
+#hokuto
 [hw_odoroki]
-「いや、なんかどっかで聞いたような気は…北極星ってことは、[r]　あっちが北だってことですよね。」[p][stopse buf=1]
+「No, I think I heard something about it somewhere… Polaris means that way is north, right?」[p][stopse buf=1]
 [mhhide]
-#高村
+#seizi
 [s_mu]
-「そう。昔の旅人や船乗りなど、[r]　方位がわからない時には北極星を頼りにした。」[p][stopse buf=3]
-#高村
-「星空は地球の回転の影響で東から西へ、[r]　時間がたつごとに位置が変わっていくが、[r]　北極星だけは位置が変わらない。」[p][stopse buf=3]
-#高村
-「他の星は見つけたところで方位を測るのは難しいが、[r]　北極星は見えている限りそちらが北だとわかるからね。」[p][stopse buf=3]
+「Right. In the old days, travelers, sailors, and others relied on Polaris when they did not know the direction」[p][stopse buf=3]
+#seizi
+「The starry sky changes position from east to west over time due to the Earth's rotation, but only Polaris keeps its position」[p][stopse buf=3]
+#seizi
+「With other stars, it's hard to measure their cardinal directions when you find them, but with Polaris, as long as you see it, you know that way is north」[p][stopse buf=3]
 [mshide]
-#北斗
+#hokuto
 [hw_odoroki]
-「そんな大事な星を見つける手がかりが北斗七星…」[p][stopse buf=1]
+「And the key to finding such an important star is the Big Dipper…」[p][stopse buf=1]
 [mhhide]
-#高村
+#seizi
 [s_mu]
-「そう。北斗七星も常に北極星の方向を向いているから、[r]　いつでも北極星を見つけられる。[r]　もっとも、冬から春にかけての夜に限って、の話だがね。」[p][stopse buf=3]
+「Right. The Big Dipper also always faces the direction of Polaris, so you can always find Polaris. But only on winter and spring nights」[p][stopse buf=3]
 [mshide]
-#美波
+#minami
 [mw_magao]
-「季節によって、見える星は変わりますもんね。」[p][stopse buf=2]
+「So you can see different stars at different times of the year, depending on the season」[p][stopse buf=2]
 [mmhide]
-#北斗
+#hokuto
 [hw_bishou]
-「季節によって…ああ、七夕の夏の大三角とか、そういう。まあでも、[r]　大事な星を探すのに絶対に必要な星座ってのは変わらないし。」[p][stopse buf=1]
-#北斗
-「父さんも名前だけはいいのつけてくれたな。」[p][stopse buf=1]
+「Depending on the season… Ah, like the Summer Triangle at Tanabata. Well, but it doesn't change the fact that the constellations are absolutely essential for finding the important stars」[p][stopse buf=1]
+#hokuto
+「My dad sure gave me a good name, huh?」[p][stopse buf=1]
 [mhhide]
-#美波
+#minami
 [mw_kanasimi]
 「……」[p][stopse buf=2]
 [mmhide]
-#高村
+#seizi
 [s_mu]
-「…ちなみに、北極星はカシオペア座からでも見つけられるんだがね。」[p][stopse buf=3]
+「…By the way, you can find Polaris from Cassiopeia, too」[p][stopse buf=3]
 [mshide]
-#北斗
+#hokuto
 [hw_odoroki]
-「え、そうなの？」[p][stopse buf=1]
+「Eh? Really?」[p][stopse buf=1]
 [mhhide]
-#高村
+#seizi
 [s_magao]
-「そうさ。あのアルファベットのWに似た5つの星があるだろう。[r]　Wに見立てた上側に、やはり5文字分伸ばしていくと…」[p][stopse buf=3]
+「Yes, it does. You see those five stars that resemble the letter W in the alphabet? On the top side of the W, if you stretch it out five times…」[p][stopse buf=3]
 #
 [mshide]
 [bg2 storage="seiza/419dipperK.png" width=2800 height=2346 time=500 left=0 top=-1250]
-#北斗
+#hokuto
 [hw_kanasimi]
-「…北斗七星側からやってみても同じだし。[r]　やっぱりあれ北極星だ…なんか代わりがあるっていうと、[r]　なんでか知らないけどショックだな…」[p][stopse buf=1]
+「…Just like from the side of the Big Dipper. And there's Polaris… I don't know why, but I'm shocked to hear that there's another way to find it…」[p][stopse buf=1]
 [mhhide]
-#高村
+#seizi
 [s_hohoemi]
-「ははは。まあ、星空はずっと昔からほぼ同じ形なんだ。[r]　一つの星を探す方法なんていくつも見つかるさ。」[p][stopse buf=3]
+「Ha ha ha. Well, the starry sky has always looked pretty much the same. You can find many ways to find a single star」[p][stopse buf=3]
 #
 [mshide]
-それはそうか。[r]さっきもギリシャ神話だのおおぐま座だのという話が出てきたところだ。[p]
-ギリシャ神話なんて、成立したのは紀元前のはずだし。[p]
-#北斗
+That's true. We were just talking about Greek mythology and finding Ursa Major.[p]
+Greek mythology is supposed to have been established in BC times.[p]
+#hokuto
 [hw_metozi]
-「（…？その割にはなんか星を探してるって…、[r]　見つけ方が今でもわからないって、一体どんな星なんだ？）」[p][stopse buf=1]
+「(…? If that's the case, what star are you looking for… A star that you don't have a way to find? What kind of star is it?)」[p][stopse buf=1]
 [mhhide]
-#美波
+#minami
 [mw_magao]
-「…それにしても、北極星ってなんだかちょっとパッとしないというか、[r]　ちょっと見つけにくい星ですね。」[p][stopse buf=2]
-#美波
-「それこそ北斗七星がないとすぐ見失って、[r]　どの星だかわかんなくなっちゃいそう。[r]　あっちの星の方が、なんだか明るくて目立つというか…」[p][stopse buf=2]
+「…And yet, Polaris is kind of a bland star, a hard star to find」[p][stopse buf=2]
+#minami
+「Without the Big Dipper, I'd lose track of it and not know which star it is. That star over there is brighter and more noticeable…」[p][stopse buf=2]
 #
 [mmhide]
 [bg2 storage="seiza/420virgo.png" width=2150 height=1280 time=500 left=0 top=-200]
-#高村
+#seizi
 [s_magao]
-「ん？…ああ、おとめ座のスピカか。」[p][stopse buf=3]
+「Hm? …Ah, you mean Spica in the Virgo constellation」[p][stopse buf=3]
 [mshide]
-#美波
+#minami
 [mw_odoroki]
-「あれ、おとめ座なんですか！？」[p][stopse buf=2]
+「Oh, that's Virgo?!」[p][stopse buf=2]
 [mmhide]
-#高村
+#seizi
 [s_hohoemi]
-「おや、初めて食いつきがいいね。もしかして美波君、おとめ座かい？」[p][stopse buf=3]
+「Oh, that caught your attention. Are you by any chance a Virgo, Minami-kun?」[p][stopse buf=3]
 [mshide]
-#美波
+#minami
 [mw_bishou]
-「はい、そうです。」[p][stopse buf=2]
+「Yeah, you're right」[p][stopse buf=2]
 [mmhide]
-#北斗
+#hokuto
 [hw_egao2]
-「ちなみに、オレはしし座。」[p][stopse buf=1]
+「By the way, I am a Leo」[p][stopse buf=1]
 [mhhide]
-#美波
+#minami
 [mw_tun]
-「北斗には聞いてないでしょ。」[p][stopse buf=2]
+「He didn't ask you, Hokuto!」[p][stopse buf=2]
 [mmhide]
-#高村
+#seizi
 [s_kuti]
-「はは、そうかそうか。二人とも夏生まれなんだね。」[p][stopse buf=3]
+「Ha ha, I see. I guess you were both born in summer」[p][stopse buf=3]
 #
 [mshide]
-え？星座聞いただけで季節わかるの？[p]
-オレが８月７日生まれ、美波が９月７日生まれだから、[r]ばっちり合ってるんだよな。[p]
-…まさかこの爺さん、星占いの誕生日全部暗記してるんじゃ…[p]
-#美波
+What? You can tell which season we were born in just by asking our constellations?[p]
+I was born on August 7 and Minami was born on September 7. We were born on the exact same day.[p]
+…Don't tell me this old man has memorized all the birthdays of the horoscope…[p]
+#minami
 [mw_odoroki]
-「はい。でも、まだ4月…おとめ座が見えるって…」[p][stopse buf=2]
+「Yeah. But it's still April… How can we see Virgo?…」[p][stopse buf=2]
 [mmhide]
-#高村
+#seizi
 [s_magao]
-「星占いの十二宮というのは、[r]　太陽の道、黄道上にある星座のことなんだ。」[p][stopse buf=3]
+「The zodiac in astrology refers to the constellations on the path of the sun」[p][stopse buf=3]
 [mshide]
-#北斗
+#hokuto
 [hw_mu]
-「太陽の道…？」[p][stopse buf=1]
+「The path of the sun…?」[p][stopse buf=1]
 #
 [mhhide]
 [bg2 storage="seiza/ecliptic.png" width=1920 height=1080 time=500 left=0 top=0]
-#高村
+#seizi
 [s_magao]
-「太陽は東から昇って西に沈んでいくだろう。その道さ。」[p][stopse buf=3]
-#高村
-「もし昼間でも太陽と一緒に星が見えていたとしたら、[r]　太陽と重なって見えるはずの星座。そう思えばいい。」[p][stopse buf=3]
+「The sun rises in the east and sets in the west. That path」[p][stopse buf=3]
+#seizi
+「If the stars were visible along the sun in daylight, the constellations would overlap the sun, as well. Think of it that way」[p][stopse buf=3]
 [mshide]
-#北斗
+#hokuto
 [hw_magao]
-「なる…ほど？」[p][stopse buf=1]
+「I…see?」[p][stopse buf=1]
 [mhhide]
-#高村
+#seizi
 [s_hohoemi]
-「さっきも言ったが、季節によって見える星が変わる。[r]　地球と太陽、そして星座の位置が、[r]　地球の公転によって変わるからだ。」[p][stopse buf=3]
-#高村
-「君たちの誕生日、[r]　夏ごろにはおとめ座やしし座は地球から見て太陽と同じ方向にある。[r]　だから太陽が星座に入る、という言い方をする。」[p][stopse buf=3]
+「As I said before, the stars we can see change with the seasons. That's because the positions of the earth, the sun, and the constellations change with the earth's orbit」[p][stopse buf=3]
+#seizi
+「On your birthday, around summer, Virgo and Leo are in the same direction as the sun as seen from the earth. That's why we say the sun enters into the constellations」[p][stopse buf=3]
 [mshide]
-#北斗
+#hokuto
 [hw_egao2]
-「ああ、地球のこの面が日本で、太陽と星座のほうを向いているから、[r]　昼間に星が見えれば、みたいな言い方してたのか。」[p][stopse buf=1]
+「Oh, this side of the earth is Japan, facing the sun and the constellations, so if you could see the stars in the daytime」[p][stopse buf=1]
 [mhhide]
-#高村
+#seizi
 [s_hohoemi]
-「そして、今の時期は地球が太陽と星座の間の位置にあるから…」[p][stopse buf=3]
+「And at this time of year, the earth is between the sun and the constellations so…」[p][stopse buf=3]
 [mshide]
-#美波
+#minami
 [mw_bishou]
-「今みたいな春先に、おとめ座やしし座が見える、ですね。」[p][stopse buf=2]
+「You can see Virgo and Leo in early spring, like we're doing right now, right?」[p][stopse buf=2]
 #
 [mmhide]
-そういうことか。[p]
-星座の見える時期と星占いの時期、それぞれのどっちかさえ覚えれば、[r]あとはそれを半年ずらせばもう片方の時期もわかると。[p]
-…いや、どのみちどっちかは全部暗記しないといけないことに[r]変わりはないだろう。すごいな爺さん。[p]
+I see.[p]
+If you can remember when the constellations are visible and the horoscope dates, as long as you can remember both of them, then you can shift them by six months and know when the other is coming up.[p]
+…No, you'll still have to memorize everything one way or the other. That's amazing, old man.[p]
 [bg2 storage="kawa_n.jpg" time=1000]
 [hokuto_w_mu2 left=680 wait=false][seizi_mu left=15]
-#北斗
-「あれ、なんの話だっけ…あ、そう、[r]　おとめ座の星が北極星ならわかりやすいのに、みたいな話だっけ。」[p][stopse buf=1]
-#高村
-「そうだな。おとめ座のスピカは一等星で、北極星は二等星だからね。」[p][stopse buf=3]
-#北斗
+#hokuto
+「What were we talking about… Oh yeah, you said something about how the star in Virgo would be easier to see than Polaris」[p][stopse buf=1]
+#seizi
+「Right. Spica in Virgo is a first-magnitude star, and Polaris is a second-magnitude star, or second star」[p][stopse buf=3]
+#hokuto
 [hw/mu]
-「一等星と二等星？[r]　…なんか明らかに北極星のほうが劣ってるみたいな言い方だけど。」[p][stopse buf=1]
-#高村
-「一面ではそうだな。星は明るさによって等級付けされている。」[p][stopse buf=3]
-#高村
-「おとめ座の一番明るいアルファ星、スピカは一等星、[r]　対して北極星は少し暗い二等星だ。」[p][stopse buf=3]
-#高村
-「それでも、肉眼で見える限界は六等星まであり、[r]　街中ではせいぜい三等星くらいまでしか見えないから、[r]　星全体では北極星も明るい方だがね。」[p][stopse buf=3]
-#北斗
+「First and second stars? …You make it sound like Polaris is obviously inferior」[p][stopse buf=1]
+#seizi
+「In a way, yes. Stars are graded according to their brightness」[p][stopse buf=3]
+#seizi
+「Spica, the brightest alpha star in Virgo, is a first star, versus Polaris, which is a little dimmer second star」[p][stopse buf=3]
+#seizi
+「Still, the limit of visibility with the naked eye is up to magnitude six, and in the big cities you can only see up to magnitude three at most, so Polaris is still one of the brighter stars across the board」[p][stopse buf=3]
+#hokuto
 [hw/kanasimi]
-「とはいってもな、ちょっと地味ってのは何か…」[p][stopse buf=1]
-#高村
+「It's still a little plain, though…」[p][stopse buf=1]
+#seizi
 [s/metozi]
-「…ついでに言うと、北斗七星も二等星と三等星しかないんだな。」[p][stopse buf=3]
-#北斗
+「…By the way, the Big Dipper only has second- and third-magnitude stars, too」[p][stopse buf=3]
+#hokuto
 [hw/aozame]
-「…マジですか。大分ショックなんですけど。」[p][stopse buf=1]
+「…REALLY? That's shocking…」[p][stopse buf=1]
 #
-なんというか、自分自身も今一つパッとしないと言われている気がする。[r]自分自身とは関係ないはずなんだけど。[p]
-#高村
+I feel like he was talking about me for a second, and was surprised, even thought it has nothing to do with me.[p]
+#seizi
 [s/hohoemi]
-「まあ、しし座にはレグルスという一等星があるから。」[p][stopse buf=3]
-#北斗
+「Well, there is a first star in Leo called Regulus」[p][stopse buf=3]
+#hokuto
 [hw/mu]
-「…それなら、まあ、いっか。」[p][stopse buf=1]
-#高村
-「…それにな、明るさだけが星の全てじゃない。[r]　色や瞬き、星座の形…魅力はそれぞれだ。」[p][stopse buf=3]
-#高村
-「北斗七星なんて、星座の一部でありながらここまで有名で、[r]　わかりやすい形で、他の星探しに役立つ星なんだ。[r]　立派な星だと思うよ、私もね。」[p][stopse buf=3]
-#北斗
+「…Well, okay then」[p][stopse buf=1]
+#seizi
+「…And you know, brightness is not all there is to a star. Their colors, their twinkling, the shapes of their constellations… They have their own charms」[p][stopse buf=3]
+#seizi
+「The Big Dipper is just one constellation, and yet it is so well-known, easily recognizable, and useful when looking for other stars. I think it's a magnificent star」[p][stopse buf=3]
+#hokuto
 [hw/akire]
-「…なんかフォローさせちゃってすいません。」[p][stopse buf=1]
-#高村
-「いやいや。しかし、せっかくなら美波君にちなんで、[r]　南にかかわる星も見てみたいところだが。[r]　南とつく星座と言えば南十字星だけれどもなあ。」[p][stopse buf=3]
+「…Sorry to make you follow up with something like that for me」[p][stopse buf=1]
+#seizi
+「No, no, no. But if we are going to go this far, let's take a look at the stars related to the south, in honor of Minami-kun. The Southern Cross is the most common formation from the Southern constellations」[p][stopse buf=3]
 #
 [chara_move name="hokuto" time=700 left=360 wait=false anim=true][chara_move name="seizi" time=700 left=-195 wait=true anim=true][minami_w_bishou left=840]
-#美波
-「南十字星、サザンクロス、ですか？」[p][stopse buf=2]
-#北斗
+#minami
+「Southern Cross, the Crux, right?」[p][stopse buf=2]
+#hokuto
 [hw/bishou]
-「あ、なんか聞いたことある。」[p][stopse buf=1]
-#高村
+「Oh, I've heard about this」[p][stopse buf=1]
+#seizi
 [s/metozi]
-「南十字星は、南半球、[r]　せめて沖縄くらいでないと見えない星座でなあ…」[p][stopse buf=3]
-#北斗
-「沖縄って、この北国で見えるわけないですね…」[p][stopse buf=1]
+「The Southern Cross is a constellation that can only be seen in the southern hemisphere, or at least around Okinawa…」[p][stopse buf=3]
+#hokuto
+「Okinawa… So you wouldn't be able to see it here in the north…」[p][stopse buf=1]
 #
-なんとも言えない優越感を感じる。[p]
-#美波
+I felt an inexplicable sense of superiority.[p]
+#minami
 [mw/tun]
-「…何よその目は。」[p][stopse buf=2]
-#北斗
+「…What are you looking at?」[p][stopse buf=2]
+#hokuto
 [hw/akire]
-「いや別に？」[p][stopse buf=1]
-#高村
-「こらこら、つまらんことで喧嘩するんじゃない…」[p][stopse buf=3]
+「No…nothing…」[p][stopse buf=1]
+#seizi
+「Hey, hey, don't fight over petty things…」[p][stopse buf=3]
 [fadeoutbgm time=1000]
 [mask time=500]
 [bg2 storage="kawa_n.jpg" time="1500"]
 [s/mu time=0][hw/metozi time=0]
-[fadeinbgm  storage="bg/river.ogg" time=1000]
+[fadeinbgm storage="bg/river.ogg" time=1000]
 [mask_off time=500]
 
-#美波
+#minami
 [mw_iradati]
-「ああ、もうこんな時間に…」[p][stopse buf=2]
-#高村
-「流石にこれ以上は遅くなるな。早く帰りなさい。」[p][stopse buf=3]
-#北斗
-「…って、[r]　結局普通に天体観測しただけで爺さんの目当ての星探さなかったな…」[p][stopse buf=1]
-#高村
+「Oh, it's so late…」[p][stopse buf=2]
+#seizi
+「Yeah, it's getting too late. Hurry up and go home」[p][stopse buf=3]
+#hokuto
+「…Ah, I guess we just did some regular stargazing and didn't find the star you were looking for…」[p][stopse buf=1]
+#seizi
 [s/hohoemi]
-「なに、いいんだよ。」[p][stopse buf=3]
+「Don't worry about it」[p][stopse buf=3]
 #
-そう言う爺さんの様子を見て感じる。[p]
-…まるで、とりあえず時間つぶしができてよかったと言っているようだ。[p]
-あるいは、本題に入らずに済んでよかったとでもいうような、そんな感じ。[p]
-#北斗
+I can feel it when I look at him saying that…[p]
+…As if he's saying he's glad he was able to pass the time with us for the time being.[p]
+Or maybe he's just glad we didn't dig any further.[p]
+#hokuto
 [hw/mu]
-「いや、また来ます。今度はちゃんと爺さんに協力するので。」[p][stopse buf=1]
-#美波
+「No, I'll come back. This time I'll properly help you, old man…」[p][stopse buf=1]
+#minami
 [mw/magao2]
-「ちょっと、何言ってるの。[r]　それに、またこんな遅くまで外出するなんて…」[p][stopse buf=2]
-#高村
+「What are you talking about? Besides, I can't believe you're going to be out this late again…」[p][stopse buf=2]
+#seizi
 [s/mu]
-「…まあ、私は構わんが。その制服、君たちは高校生なんだろう。[r]　学業にも支障が出るんじゃないのか？」[p][stopse buf=3]
-#美波
+「…Well, I don't mind, but… From those uniforms, you guys are high school students. Won't that interfere with your studies?」[p][stopse buf=3]
+#minami
 [mw/magao2]
-「そうよ。それに、これから部活で忙しくなるのに…[r]　それに、お父さんたちもなんていうか…」[p][stopse buf=2]
-#北斗
+「That's right. Besides, we're going to be busy with club activities… Also, what should we say to our parents…」[p][stopse buf=2]
+#hokuto
 [hw/aseri]
-「…じゃあ、週末だけ。金曜か土曜の夜だけ。[r]　それぐらいならいいだろう？うちの親は何も言わないだろうし。」[p][stopse buf=1]
-#北斗
-「美波もさ、うちの学校天文部ないけど、兼部したと思って。」[p][stopse buf=1]
-#美波
+「…Then just on weekends. Just Friday and Saturday nights. That's fine, right? My parents won't say anything」[p][stopse buf=1]
+#hokuto
+「Minami, you know, our school doesn't have an astronomy club, but I think we have one now」[p][stopse buf=1]
+#minami
 [mw/magao]
-「…そんなに気に入ったの？天体観測。」[p][stopse buf=2]
-#北斗
+「…You like it that much? Stargazing」[p][stopse buf=2]
+#hokuto
 [hw/egao2][kanim name="hokuto" keyframe="nod" time="500"]
-「ああ。」[p][stopse buf=1]
-#美波
+「Yeah」[p][stopse buf=1]
+#minami
 [mw/magao2]
-「…そう。」[p][stopse buf=2]
+「…I see」[p][stopse buf=2]
 #
-そういうと、美波は大きく肩を揺らし、ため息をついた。[p]
-#美波
+Minami then shook her shoulders widely and sighed.[p]
+#minami
 [mw/akire]
-「ハァ…わかった。私もお父さんたちに頼んでみる。」[p][stopse buf=2]
-#北斗
+「Haaaaa……okay. I'll ask my parents, too」[p][stopse buf=2]
+#hokuto
 [hw/odoroki]
-「ほんとか？」[p][stopse buf=1]
-#美波
+「Really?」[p][stopse buf=1]
+#minami
 [mw/bishou]
-「ほっといても北斗一人で来るんだろうけど、[r]　それは色々心配だから。お爺さん、いいですか？」[p][stopse buf=2]
-#高村
+「I know you'll probably come alone even if I leave you alone, Hokuto, which worries me a lot. Old man, is that okay with you?」[p][stopse buf=2]
+#seizi
 [s/hohoemi]
-「ああ、私は構わんよ。」[p][stopse buf=3]
-#北斗
+「Yeah, I don't mind」[p][stopse buf=3]
+#hokuto
 [hw/egao2]
-「よし、決まりだな。爺さん、また来るよ。」[p][stopse buf=1]
+「All right, it's settled. I'll be back, old man」[p][stopse buf=1]
 
 #
-それから、俺たちと爺さんのお星さまを探す日々が始まった。[p]
-美波の両親を説得するのは流石に骨が折れたけど、[r]成績を絶対に落とさないことを条件に許してもらった。[p]
-こうして毎週毎週、[r]週末の夜になると河川敷に集まって望遠鏡を眺めることになったんだ。[p]
+After that, the days of searching for the star between us and the old man began.[p]
+It took a lot of effort to convince Minami's parents, but they allowed us as long as we didn't ever drop our grades.[p]
+And so every week, every weekend night, we would gather on the riverbank and look through the telescope.[p]
 [fadeoutbgm time=1000]
 
 

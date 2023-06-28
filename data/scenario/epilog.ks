@@ -24,10 +24,10 @@
 
 *epilog
 ;（ギター音1～2小節分）
-#美波
-「…いい曲、だね。」[p][stopse buf=2]
-#北斗
-「…ああ。」[p][stopse buf=1]
+#minami
+「…It's a good song, right?」[p][stopse buf=2]
+#hokuto
+「…Yeah」[p][stopse buf=1]
 #
 [mask time=500]
 [hide time=0]
@@ -37,26 +37,26 @@
 [filter sepia=50]
 [wait time=100]
 [mask_off time=500]
-…爺さんが亡くなったあと。[r]病室の掃除中に、１通の封筒が引き出しのなかから見つかったという。[p]
-その裏には、震えながらも達筆な字で「北斗君、美波君江」とあり、[r]看護師さんたちからオレたちに手渡された。[p]
+…After the old man passed away, when they cleaned out his hospital room, an envelope was found in a drawer.[p]
+On the back of it, in shaky but expert handwriting, was written, "To Hokuto-kun and Minami-kun," and the nurses handed it to us.[p]
 [playse storage=se/paper.ogg buf=8]
-その中には、１枚の便箋と、１綴りの楽譜。[p]
-便箋にはただ、[p]
-「お互いをいたわり、助け合い、[r]　そしてほかのどんな人のことも好きになろうとする気持ちを[r]　失わないでくれ。」[p]
-「たとえ何度その気持ちが、何百回すれちがったとしても。[r]　そうすれば、きっと君たちなら幸せになれる」[p]
-という言葉と、望遠鏡をオレに譲るということだけが書かれていた。[p]
-そして、楽譜には、[r]爺さんが最後の力をふり絞って作った最後の新曲が遺されていた。[p]
-題名の欄は空白で、歌詞もついていなかった。[p]
-ただメモ書きで、[r]「題名と歌詞は、君たちの好きなように。君たちのための曲だから」と。[p]
-…もう奥さんのためにしか、曲が書けないとか言ってたくせに。[p]
-本当に、最後まであの人は嘘つきだった。[p]
-いや、意地で本当を嘘にしてみせた、というべきなんだろうか。[p]
+Inside there was a sheet of writing paper and a sheet of sheet music.[p]
+And on the writing paper,[p]
+「Take care of each other, help each other, and never lose the desire to love people」[p]
+「No matter how many hundreds of times those feelings they may not be reciprocated. If you do that, I'm sure you will be happy together」[p]
+That and it said that he was going to give the telescope to me.[p]
+And on the sheet music, the old man left behind his final new song, which he wrote with the last of his strength.[p]
+The title field was blank, and there were no lyrics attached.[p]
+Just a note, "The title and lyrics are whatever you guys want them to be. It's a song for you both."[p]
+…You said you could only write songs for your wife.[p]
+Truly, that man was a liar to the end.[p]
+Or perhaps I should say that he willfully lied about the truth.[p]
 
-そんな爺さんに敬意を表して、[r]早速歌詞もタイトルもつけてみようと思ったけど、[r]中々うまくいかない。[p]
-作詞なんかしたことないから当然といえば当然なんだけど、[r]そんなのは大した理由じゃない。[p]
-ただ、この曲に詰め込みたい想いが多すぎて、うまく言葉にできないんだ。[p]
-なんて、幸せな悩みだろう。[p]
-だから今はただ、このまっさらな曲を美波と2人で弾いてみている。[p]
+In honor of the old man, I tried to write the lyrics and title of the song as soon as possible, but it didn't go well.[p]
+I've never written lyrics before, so it's no surprise, but that's not the main reason.[p]
+There are just so many feelings I want to pack into this song that I can't really put them into words.[p]
+What a fortunate trouble.[p]
+So now I'm just trying to play this blank piece of music with Minami.[p]
 [mask time=500]
 [fkaisou]
 [free_filter]
@@ -65,199 +65,199 @@
 [bg2 storage=ongaku.jpg height=1554 top="-200" time=200]
 [mask_off time=500]
 
-#美波
+#minami
 [ms/uwame]
-「それにしても北斗、ホントにギターうまくなったね。」[p][stopse buf=2]
-#北斗
+「By the way, Hokuto, you really got good at playing the guitar」[p][stopse buf=2]
+#hokuto
 [hs/egao2]
-「ああ。でもまだまだだ。もっとうまくなりたい。この曲も、[r]　ライブでやる曲も。それだけじゃない。もっと色んな曲が弾きたい」[p][stopse buf=1]
-#美波
-「すごいやる気だね、北斗。」[p][stopse buf=2]
-#北斗
+「Yeah. But I'm not quite there yet. I want to get better. Both for this song and for the songs we perform live. That's not all. I want to play many more songs」[p][stopse buf=1]
+#minami
+「You're very motivated, Hokuto」[p][stopse buf=2]
+#hokuto
 [hs/egao]
-「ああ、こんなに一生懸命になりたいと思ってるのは、[r]　初めてかもしれない。」[p][stopse buf=1]
-#美波
+「Yeah, I don't know if I've ever wanted to work this hard before」[p][stopse buf=1]
+#minami
 [ms/magao]
-「…高村さんのおかげ？」[p][stopse buf=2]
-#北斗
+「…Is it thanks to Takamura-san?」[p][stopse buf=2]
+#hokuto
 [hs/bishou]
-「どうかな…爺さんが、あの時満足してくれたのかどうか、[r]　わからないからっていうのはあるかもしれないけど。」[p][stopse buf=1]
-#美波
+「I don't know… Maybe it's because I don't know if the old man was pleased at that time or not…」[p][stopse buf=1]
+#minami
 [ms/bishou]
-「…きっと満足してくれたよ。くいのこりなく、ね」[p][stopse buf=2]
-#北斗
+「…I'm sure he was satisfied. No knots in his throat, right?」[p][stopse buf=2]
+#hokuto
 [hs/akire]
-「おいおい…ああ、爺さんに変な言葉教えちゃったってのは[r]　それこそくいのこりだなあ…まあでも、今でも空の上で、[r]　オレを見て笑っていそうな気もするよ。」[p][stopse buf=1]
-#美波
-「いいじゃない。高村さんが見守ってくれてるのは。」[p][stopse buf=2]
-#北斗
+「Hey, hey, hey… Yeah, that's exactly the kind of knot in my throat right now… I taught the old man that word… But I have a feeling he is still up there in the sky laughing at me」[p][stopse buf=1]
+#minami
+「That's good. Takamura-san is watching over us」[p][stopse buf=2]
+#hokuto
 [hs/kanasimi2]
-「なんだかな…北斗君、私の言ったこと忘れてるじゃないか、[r]　とか言われてそうだ…」[p][stopse buf=1]
-#美波
+「I feel like he would say… "Hokuto-kun, you forgot what I said," or something like that…」[p][stopse buf=1]
+#minami
 [ms/egao]
-「かもね。」[p][stopse buf=2]
-#北斗
+「Maybe」[p][stopse buf=2]
+#hokuto
 [hs/odoroki]
-「…あ。」[p][stopse buf=1]
-#美波
+「…Ah…」[p][stopse buf=1]
+#minami
 [ms/uwame]
-「どうしたの？」[p][stopse buf=2]
-#北斗
+「What's wrong?」[p][stopse buf=2]
+#hokuto
 [hs/odoroki]
-「早速忘れてた。爺さんのアドバイス。」[p][stopse buf=1]
-#美波
+「I had forgotten. The advice from the old man」[p][stopse buf=1]
+#minami
 [ms/magao]
-「え、何？」[p][stopse buf=2]
-#北斗
+「Eh? What?」[p][stopse buf=2]
+#hokuto
 [hs/magao]
-「…これを美波に教えるには、[r]　その前に言っとかなきゃいけないことがあるんだ。」[p][stopse buf=1]
-#美波
-「え…」[p][stopse buf=2]
-#北斗
+「…I have to tell you something before I can tell you about that」[p][stopse buf=1]
+#minami
+「Eh…」[p][stopse buf=2]
+#hokuto
 [hs/metozi]
-「…その、色々あってうやむやになってたけど、告白の返事、する。」[p][stopse buf=1]
-#美波
+「…Well, I'm going to respond to your confession, even though it's been on the table for a long time」[p][stopse buf=1]
+#minami
 [ms/odoroki]
-「…！」[p][stopse buf=2]
+「…!」[p][stopse buf=2]
 [fadeinbgm storage=hokuto_B.ogg time=1000]
-#北斗
+#hokuto
 [hs/bishou]
-「…その。考えたんだけど。俺が、この先もこの部にいて、[r]　色んな曲を弾いて、そんで卒業して、大人になって…[r]　そんな中で、いっぱい幸せなことや、楽しいことに出会えて。」[p][stopse buf=1]
-#北斗
-「苦しい時も悲しいときも、きっと乗り越えていけるって。[r]　そんな風に思えるのは、…やっぱり、[r]　お前が一緒にいてくれるから、なんだと思う。」[p][stopse buf=1]
-#美波
+「…Well, you know. I've been thinking. I'm going to stay in this club, play various songs, graduate, grow up… And in the process, I'm going to be happy and have a lot of fun…」[p][stopse buf=1]
+#hokuto
+「I'm sure that I'll be able to overcome the hard times and the sad times. And the reason I feel that way is because… You would be with me」[p][stopse buf=1]
+#minami
 [ms/tere]
-「……！」[p][stopse buf=2]
-#北斗
+「……!」[p][stopse buf=2]
+#hokuto
 [hs/kanasimi]
-「…というか、そうじゃない明日なんか、想像できない。[r]　美波がいてくれないと…困る。」[p][stopse buf=1]
-#美波
+「…I mean, I can't imagine a tomorrow without you. Without your presence… I'd be in trouble」[p][stopse buf=1]
+#minami
 [ms/uwame]
-「…何よそれ。もし私がいなくなったらどうするの？」[p][stopse buf=2]
-#北斗
-「そんなの、困るなあ…爺さんみたいに、[r]　望遠鏡で必死にお前を探し回るかも」[p][stopse buf=1]
-#美波
+「…What's that? What if I disappear?」[p][stopse buf=2]
+#hokuto
+「I wouldn't want that… I might be like the old man, frantically searching for you through a telescope」[p][stopse buf=1]
+#minami
 [ms/tun]
-「何よそれ。」[p][stopse buf=2]
-#北斗
+「What are you talking about?」[p][stopse buf=2]
+#hokuto
 [hs/bishou]
-「だって、もうお前の弁当食べれないのは困るよ」[p][stopse buf=1]
-#美波
+「'Cause I would be in trouble if I can't eat your lunch anymore」[p][stopse buf=1]
+#minami
 [ms/akire]
-「え、ご飯の話？」[p][stopse buf=2]
-#北斗
+「Eh? You're talking about food?」[p][stopse buf=2]
+#hokuto
 [hs/egao]
-「…へへ。もちろんそれだけじゃないけど。」[p][stopse buf=1]
-#美波
+「…Hehe. Of course, that's not all」[p][stopse buf=1]
+#minami
 [ms/uwame]
-「…まったくもう。」[p][stopse buf=2]
-#北斗
+「…Good grief…」[p][stopse buf=2]
+#hokuto
 [hs/bishou]
-「それに、爺さんに言われてたんだ…自分のことを[r]　本気で思ってくれる女など、一生で一人出会えるかどうかだって。」[p][stopse buf=1]
-#美波
+「Besides, the old man told me… You will only meet one woman in your whole life who really cares about you」[p][stopse buf=1]
+#minami
 [ms/magao2]
-「それが、言われてたこと…」[p][stopse buf=2]
-#北斗
+「That's what he told you…」[p][stopse buf=2]
+#hokuto
 [hs/tere]
-「そう。それでオレは、その…そういう美波に、[r]　もう出会っちゃってるわけで。」[p][stopse buf=1]
-#美波
+「Yes. So I, uh… You know, I've already met Minami, so…」[p][stopse buf=1]
+#minami
 [ms/tere]
-「！」[p][stopse buf=2]
-#北斗
+「!」[p][stopse buf=2]
+#hokuto
 [hs/bishou]
-「…前置きが長くなった。言うよ。」[p][stopse buf=1]
-#美波
+「…I've been stalling for a while now. I'll say it」[p][stopse buf=1]
+#minami
 [ms/dere]
-「うん…」[p][stopse buf=2]
-#北斗
+「Yeah…」[p][stopse buf=2]
+#hokuto
 [hs/egao2]
-「オレも美波が好きだ。オレは、美波が欲しい。[r]　美波がいないのはいやなんだ。」[p][stopse buf=1]
-#北斗
-「だから…これからも、そばにいてほしい。この先、ずっとだ。」[p][stopse buf=1]
-#美波
+「I like you too, Minami. I want Minami. I don't want to be without you」[p][stopse buf=1]
+#hokuto
+「So… I want you to stay by my side. Always, from this point on」[p][stopse buf=1]
+#minami
 [ms/dere]
-「……うん。わかった。」[p][stopse buf=2]
-#北斗
+「……Yeah, okay」[p][stopse buf=2]
+#hokuto
 [hs/tere]
-「…おい、わかったってなんだよ。」[p][stopse buf=1]
-#美波
+「…Hey, what do you mean, "okay"?」[p][stopse buf=1]
+#minami
 [ms/tun2]
-「いや、いや、だって、付き合ってくださいとか、そんなのはなかったし。[r]　一応こっちから告ったから、よろしくお願いしますも違うし…」[p][stopse buf=2]
+「No, no, because you didn't ask me to go out with you or anything like that. And I was the first one to confess, so "please take care of me" is not right, either…」[p][stopse buf=2]
 #
 [fadeoutbgm time=500]
 [hide]
 [nao_niko2 left=460]
-#七音
-「そうよね、そりゃそうよね」[p][stopse buf=4]
+#nao
+「Yeah, she's right, you know…」[p][stopse buf=4]
 #
 [kaname_niyake left=-80]
-#奏女
-「ていうかさっきの、もはや神父さんの前で愛を誓う的な感じだったしね、[r]　やっぱりもう結婚する？」[p][stopse buf=6]
-#北斗
+#kaname
+「I mean, just now, I felt like you were pledging your love in front of the priest, so are you going to get married already?」[p][stopse buf=6]
+#hokuto
 [hs_aseri]
-「…え？」[p][stopse buf=1]
+「…Eh?」[p][stopse buf=1]
 [mhhide]
-#七音
+#nao
 [n/magao]
-「ん？」[p][stopse buf=4]
-#奏女
+「Hm?」[p][stopse buf=4]
+#kaname
 [k/bishou2]
-「何？続けて続けて」[p][stopse buf=6]
+「What? Go on, go on!」[p][stopse buf=6]
 #
 [reito_komari left=850]
-#令人
+#reito
 「……」[p][stopse buf=5]
 #
-…いつの間にか、部員全員集合していた。[p]
-…もはや、何聞いてるんですかとかは問うまい。[r]　部長たちにデリカシーとか期待するだけ無駄だ。[p]
-なので、被害状況の確認だけ行う。[p]
-#北斗
+…Before I knew it, all the club members had gathered.[p]
+…I no longer even question what they are saying. It's useless to expect delicacy from the president and vice president.[p]
+So let's just check the damage.[p]
+#hokuto
 [hs_hutyou]
-「…スゥ―…あの、どこから聞いてました？」[p][stopse buf=1]
+「…Hmm. …How much did you hear?」[p][stopse buf=1]
 [mhhide]
-#七音
+#nao
 [n/niko2]
-「そうねえ、いい曲だね、のあたり？」[p][stopse buf=4]
-#北斗
+「From, "It's a good song, right?" Around there?」[p][stopse buf=4]
+#hokuto
 [hs_aozame]
-「あー、最初っから全部ですかー…」[p][stopse buf=1]
+「Oh, you mean everything from the very beginning?…」[p][stopse buf=1]
 #
 [mhhide]
-終わった。もう自分にできることは頭を抱えることだけだ。[p]
-#令人
+It's over. All I can do now is hold my head.[p]
+#reito
 [r/niko]
-「北斗…その、なんだ、告白とかは、場所とか時間とか気をつけた方が…」[p][stopse buf=5][vostop]
-#北斗
+「Hokuto… Well, about the confession and such… You should be careful about the place and time…」[p][stopse buf=5][vostop]
+#hokuto
 [hs_magao]
 「……」[p][stopse buf=1]
 [voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=647 ][vostart]
 #
 [mhhide]
-令人先輩、気を使ってる風ですけど、[r]2人を止めてくれなかった時点で同罪です。[p]
+Reito-senpai, you seem concerned, but then why did you not stop those two? You are just as guilty as they are.[p]
 [hide][minami_s_tere]
-#美波
-「あわ、あわわわ…」[p][stopse buf=2]
+#minami
+「Awawawawawawaw…」[p][stopse buf=2]
 #
-美波、お前も2回目なんだから慣れろよ…というか、[r]今後オレたちはこの方面でいじられ続けるだろうから、[r]慣れないと多分もたなそうだし…[p]
+Minami, you should get used to it since it's your second time… I mean, we're going to keep getting teased a lot from this, and if you don't get used to it, you probably won't last…[p]
 [hide]
 [fadeinbgm storage=OP.ogg time=1000]
 [bg2 storage=still_epilogue.png time=500][eval exp="sf.ST12=1"]
-#七音
-「さて、最大の懸念点だった北斗君と美波ちゃんの恋路も[r]　無事ゴールインしたということで！みんなわすれてない？[r]　ライブまであと1か月よ！」[p][stopse buf=4]
-#北斗
-「最大の懸念点だったんですか、オレたち…」[p][stopse buf=1]
-#奏女
-「そうよ。みんなをやきもきさせたツケは、演奏でちゃんと払ってね。」[p][stopse buf=6]
-#美波
-「は、はい…」[p][stopse buf=2]
-#令人
-「ハハ…」[p][stopse buf=5]
+#nao
+「Well, the biggest concern, Hokuto-kun and Minami-chan's love story, has successfully reached its goal! But aren't you all forgetting something? There's only one month left until the live concert!」[p][stopse buf=4]
+#hokuto
+「So your biggest concern was us?…」[p][stopse buf=1]
+#kaname
+「That's right. You should compensate us for making everyone nervous by performing perfectly」[p][stopse buf=6]
+#minami
+「Y-Yes sir…」[p][stopse buf=2]
+#reito
+「Ha ha…」[p][stopse buf=5]
 #
-騒がしいまま、楽器を手にして。今日も練習が始まっていく。[p]
-爺さん、やっぱりここがオレの星座（いばしょ）だ。[p]
-貴方からもらった曲の歌詞もタイトルも、[r]すぐには思いつきそうもないから、[r]まずはここを巣立っていく先輩たちを送り出す曲を一生懸命弾くよ。[p]
-オレと美波の歌はそれからでもいいだろ？[p]
-遠くかがやく夜空の星に、はるかに届くくらいの歌にしてみせるからさ。[p]
+With the noise and our instruments in our hands. Practice begins again today.[p]
+Old man, as I thought, this is my const[ruby text=Place]ellation.[p]
+I can't seem to come up with lyrics or titles for the song you gave me, so first I'll try my best to play a song to send off the senpais that are leaving this place.[p]
+After that, we'll think about the song with Minami.[p]
+I'll create a song that will reach far into the distant stars of the night sky…[p]
 [fadeoutbgm time=1000]
 [mask time=1000]
 [eval exp="sf.chapEpi=1"]

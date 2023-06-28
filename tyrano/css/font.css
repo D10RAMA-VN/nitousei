@@ -58,3 +58,9 @@
 	src:url("../../data/others/Ubuntu/Ubuntu-Medium.ttf") format("truetype");
 	font-weight:bold;font-style:normal;
 }
+
+@font-face {
+	font-family:"erangle";
+	src:url("../../data/others/erangle.otf") format("opentype");
+	font-weight:bold;font-style:normal;
+}

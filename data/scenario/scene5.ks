@@ -24,116 +24,116 @@
 *chapter5
 [fadeinbgm storage="bg/river.ogg" time=1000]
 [hokuto_s_magao left=710 wait=false][minami_s_tun left=10]
-#北斗
-「…おはよ」[p][stopse buf=1]
-#美波
+#hokuto
+「…Good morning」[p][stopse buf=1]
+#minami
 [minami_s_tun]
-「おはよ。」[p][stopse buf=2]
+「Good morning…」[p][stopse buf=2]
 #
-いつもの河川敷で、美波と合流する。[p]
-自分の家からも美波の家からも、[r]学校まで行くにはこの橋をわたるのが一番早い。[p]
-だから通学中、ここで合流することが自然と多い。[p]
-自分は美波にどうしてほしくて、自分はどうしたいのか。[p]
-土日中考えてはいたものの、結局答えが出ない。[p]
-考えれば考えるほど、ほかにも考えるべきことが生まれてくる。[p]
-何がしたいのか。何をしなければならないのか、ではなくだ。[p]
-そんな思考で、今まで何かやったことがあるだろうか…？[p]
-そんなことまで悩みが広がってしまって、[r]美波のこともなにもかも答えが出ない。[p]
-あれやこれや悩むうちに月曜になってしまい、[r]こうして美波と顔を合わせることになってしまった。[p]
-#北斗
+I meet up with Minami at the riverside where we usually meet.[p]
+The fastest way to get to the school, either from my house or Minami's, is to cross this bridge.[p]
+So we naturally meet up here on our way to school.[p]
+What do I want Minami to do and what do I want to do?[p]
+I thought about it all weekend, but in the end I couldn't find an answer.[p]
+The more I think about it, the more other things come to mind that I need to think about.[p]
+What do I want to do? It's not about what I have to do.[p]
+What have I ever done with that kind of mindset…?[p]
+I've had my worries extend even to those things, and I don't have an answer about Minami or anything else.[p]
+While I was worrying about these things, Monday arrived, and here I am, face-to-face with Minami.[p]
+#hokuto
 [hs/kanasimi2]
 「……」[p][stopse buf=1]
-#美波
+#minami
 [ms/ikari]
 「……」[p][stopse buf=2]
 #
-気まずい。とにかく、何か言わなければ。[p]
-#北斗
+This is awkward. Anyway, I have to say something.[p]
+#hokuto
 [hs/mu]
-「あのさ。」[p][stopse buf=1]
-#美波
+「Listen」[p][stopse buf=1]
+#minami
 [ms/magao]
-「…うん。」[p][stopse buf=2]
-#北斗
+「…Yeah」[p][stopse buf=2]
+#hokuto
 [hs/kanasimi]
-「…木曜は、ひどいこと言った。ごめん。」[p][stopse buf=1]
-#美波
-「…うん。いいよ。」[p][stopse buf=2]
-#北斗
+「…What I said Thursday was horrible. I'm sorry」[p][stopse buf=1]
+#minami
+「…Yeah, it's fine」[p][stopse buf=2]
+#hokuto
 [hs/kanasimi2]
 「…」[p][stopse buf=1]
-#美波
+#minami
 [ms/ikari]
 「…」[p][stopse buf=2]
 #
 [hide]
-結局、爺さんの言う通り。あるいは、自分でもわかっていた通り。[p]
-子供の喧嘩じゃないんだから、口先だけで謝って、[r]許しも得られたとしても、この沈黙はなにも変わらない。[p]
-わかっていたのに、どうしようもない。[p]
-だが、この沈黙を破ったのは、意外にも美波の方だった。[p]
-#美波
+After all, the old man was right. Or more specifically, as I knew it would be.[p]
+This wasn't a little argument, so just saying sorry and moving on won't really do anything about this dead silence.[p]
+I knew it, but I couldn't do anything about it.[p]
+However, it was Minami who unexpectedly broke this silence.[p]
+#minami
 [minami_s_uwame]
-「…はい、これ。」[p][stopse buf=2]
-#北斗
+「…Here」[p][stopse buf=2]
+#hokuto
 [hs_odoroki]
-「え？」[p][stopse buf=1]
+「Eh?」[p][stopse buf=1]
 [mhhide]
 #
-差し出されたのは、青い袋に入った四角い何か。[p]
-#北斗
+She offered me a blue bag with a square object in it.[p]
+#hokuto
 [hs_odoroki]
-「…なんだよ。これ」[p][stopse buf=1]
+「…What is this?」[p][stopse buf=1]
 [mhhide]
-#美波
+#minami
 [ms/tun2]
-「…お弁当。…その、……お母さんに作ってもらった。」[p][stopse buf=2]
-#北斗
+「…A lunch box… Well…… My mom made it for you」[p][stopse buf=2]
+#hokuto
 [hs_aseri]
-「おばさんに？」[p][stopse buf=1]
+「Your mom?」[p][stopse buf=1]
 [mhhide]
-#美波
+#minami
 [ms/tun]
-「…北斗が、いつもコンビニおにぎりとか、[r]　プロテインバーでお昼済ませてるって言ったら、[r]　その、…北斗の分も作ってくれるって。」[p][stopse buf=2]
-#北斗
+「…When I told her that you always eat convenience store onigiris and protein bars for lunch, well… She said she'd make one for you, too」[p][stopse buf=2]
+#hokuto
 [hs_mu2]
-「そんな。…悪いよ、おばさんだって忙しいのに。」[p][stopse buf=1]
+「Oh, no. …I'm sorry, I know your mom's busy, too」[p][stopse buf=1]
 [mhhide]
-#美波
+#minami
 [ms/tun]
-「…まあその、1人分も2人分も変わらないとか言ってたし。[r]　それに、今日の分はほら、もう、あるから。[r]　食べないともったいないし。」[p][stopse buf=2]
+「…Well, you know, she said there's no difference if she makes food for one or for two people. Besides, look, she already did it today. It would be a waste if you don't eat it」[p][stopse buf=2]
 #
-変わらず、美波は包みを突き出している。[p]
-…流石に、ここまでくれば受け取らない方が失礼だろう。[p]
+As usual, Minami holds out the bag.[p]
+…It would be rude not to take it at after she said all that.[p]
 [hide][hokuto_s_bishou left=680 wait=false][minami_s_tun left=40]
-#北斗
-「…そっか。じゃあ、ありがたく。」[p][stopse buf=1]
-#美波
+#hokuto
+「…I see. Well, thanks」[p][stopse buf=1]
+#minami
 [ms/tere]
-「…でも。」[p][stopse buf=2]
-#北斗
+「…But」[p][stopse buf=2]
+#hokuto
 [hs/magao][stopse buf=1]
-「ん？」[p][stopse buf=1]
-#美波
+「Hm?」[p][stopse buf=1]
+#minami
 [ms/dere2]
-「…今日は、時間がなかったから、ちょっと、粗末な感じかもって、[r]　…言ってた。」[p][stopse buf=2]
-#北斗
+「…She said …She didn't have a lot of time today, so it might be a little rough…」[p][stopse buf=2]
+#hokuto
 [hs/bishou]
-「そっか。いや、でも作ってもらえるだけありがたいよ。」[p][stopse buf=1]
-#美波
+「I see. Well, I'm just grateful that she made it for me」[p][stopse buf=1]
+#minami
 [ms/dere][kanim name="minami" keyframe="nod" time="500"]
-「…うん。」[p][stopse buf=2]
-#北斗
+「…Yeah」[p][stopse buf=2]
+#hokuto
 [hs/mu]
-「…？」[p][stopse buf=1]
+「…?」[p][stopse buf=1]
 #
 [hide]
-美波がこちらに顔を向けようとしない。[p]
-美波本人は自分のことを許していないのに、[r]おばさんが、自分の世話を焼くものだから、色々と複雑なのだろうか？[p]
-#北斗
+Minami refuses to look at me.[p]
+Is Minami herself not forgiving me, but her mother is taking care of me, which makes things more complicated or something?[p]
+#hokuto
 [hokuto_s_metozi]
-「（…そりゃあ、美波もよくわからなくもなるか…）」[p][stopse buf=1]
+「(…Well, I guess Minami doesn't really understand it either…)」[p][stopse buf=1]
 #
-結局答えが出ないまま、すぐに学校についてしまった。[p]
+I ended up not getting an answer, and soon we were on our way to school.[p]
 [fadeoutbgm time=500]
 [mask time=500]
 [hide time=0]
@@ -141,105 +141,105 @@
 [fadeinbgm storage="bg/school.ogg" time=1000]
 [mask_off time=500]
 #
-その日の昼休み。珍しい来客があった。[p]
+Lunch break. I had an unusual visitor.[p]
 [reito_tukomi]
-#令人
-「北斗、その…昼、部室で一緒に食べないか？」[p][stopse buf=5]
-#北斗
+#reito
+「Hokuto, um… Would you like to have lunch with me in the clubroom?」[p][stopse buf=5]
+#hokuto
 [hokuto_s_odoroki]
-「え？いや、オレはいいですけど、…いいんですか？」[p][stopse buf=1]
-#令人
+「What? Well, yeah of course, but… Is that ok?」[p][stopse buf=1]
+#reito
 [r/bishou]
-「部室のカギは取ってきたから、さあ」[p][stopse buf=5]
+「I got the key to the clubroom. Come on」[p][stopse buf=5]
 #
-そんなわけで、今日の昼は令人先輩と一緒に部室で食べることになった。[p]
+So, I had lunch today with Reito-senpai in the clubroom.[p]
 [fadeoutbgm time=500]
 [mask time=500]
 [bg2 storage="ongaku.jpg" height=1554 top="-200" time="1000"]
 [chara_hide name=hokuto time=0]
 [r/magao time=0][hs_metozi time=0]
 [mask_off time=500]
-#北斗
-「（そういえば、令人先輩と2人で話すのはほぼ初だな…）」[p][stopse buf=1]
+#hokuto
+「(Come to think of it, this is pretty much the first time I'm talking to Reito-senpai by myself…)」[p][stopse buf=1]
 [mhhide]
 #
-入部から２か月ちょっと。唯一の同性だというのに、[r]今まであまり話したことがなかった。[p]
-#北斗
+It's been a little over two months since I joined the club. Even though we are the only two guys in the club, we have never really talked much.[p]
+#hokuto
 [hs_mu2]
-「あの、なんで…」[p][stopse buf=1]
+「Um, why?…」[p][stopse buf=1]
 [mhhide]
-#令人
-「…最近、思いつめてるみたいだから。」[p][stopse buf=5]
-#北斗
+#reito
+「…Because you seem to have a lot on your mind these days」[p][stopse buf=5]
+#hokuto
 [hs_mu]
-「はあ…」[p][stopse buf=1]
+「Huh…」[p][stopse buf=1]
 [mhhide]
-#令人
+#reito
 [r/magao]
-「…俺も、入部してから何回も、…全然思うようにいかなくて、[r]　悩んだことがあったんだ。」[p][stopse buf=5]
-#北斗
+「…I've also been there a few times since I joined the club… When things didn't go my way at all」[p][stopse buf=5]
+#hokuto
 [hs_odoroki]
-「そうなんですか？」[p][stopse buf=1]
+「Really?」[p][stopse buf=1]
 [mhhide]
-#令人
+#reito
 [r/kanasimi][kanim name="reito" keyframe="nod" time="500"]
-「うん。…そういう時、決まって卒業した先輩たちとか、[r]　奏女さんとか、…七音さんが、[r]　こうして一緒にご飯を食べながら話を聞いてくれたんだ。」[p][stopse buf=5]
-#北斗
+「Yes, I did. …At times like that, the people that graduated, or Kaname-san, or…Nao-san, would listen to me while we ate dinner together like this」[p][stopse buf=5]
+#hokuto
 [hs_mu2]
 「…」[p][stopse buf=1]
 [mhhide]
-#令人
+#reito
 [r/bishou]
-「…だから、[r]　今度は俺が北斗にそうしてあげたいって思ったんだ…迷惑だったか？」[p][stopse buf=5]
-#北斗
+「……So now I wanted to do that for you… Did I bother you?」[p][stopse buf=5]
+#hokuto
 [hs_metozi]
-「いや、そんな…すいません、心配かけて。」[p][stopse buf=1]
+「No, not at all… I'm sorry to worry you」[p][stopse buf=1]
 [mhhide]
-#令人
+#reito
 [r/bishou]
-「いや、いい。さ、とりあえず、メシにしよう。」[p][stopse buf=5]
-#北斗
+「No, it's okay. Let's just eat lunch for now」[p][stopse buf=5]
+#hokuto
 [hs_mu]
-「…はい。」[p][stopse buf=1]
+「…Yeah」[p][stopse buf=1]
 #
 [hide wait=false][mhhide]
-令人先輩が、気遣ってくれている。この現状が、ありがたくも情けない。[p]
-しかし、とにかく腹を満たすことから始めるしかない。腹の虫は正直だ。[p]
-今朝美波から渡された弁当の包みを開いてみる。[p]
-…今日の弁当は少し粗末な出来だと言っていた。[p]
-しかし料理上手なおばさんのことだ。[r]少々おかずのグレードが低い程度のものだろう。[p]
-そう思いながら弁当箱を開けてみる。[p]
+Reito-senpai is concerned about me. I am thankful and ashamed about this situation.[p]
+But anyway, let's just start by filling our bellies. My stomach is rumbling.[p]
+I open the lunch box that Minami gave me this morning.[p]
+…She said that today's lunch was a bit rough.[p]
+But Minami's mom is a really good cook. It'll probably just be a little below delicious.[p]
+With that in mind, I open my lunch box.[p]
 [playse storage=se/cap.ogg buf=8]
 [hokuto_s_magao]
-#北斗
+#hokuto
 「…」[p][stopse buf=1]
 #
-中には、すこしべちゃっとしたごはんの上に鰹節とのり。[p]
-それと焦げかけの卵焼きとたこさんウィンナー、[r]それと唯一普通のミニトマトが居心地悪そうに佇んでいた。[p]
-#北斗
+Inside, on a bed of slightly sticky rice, are dried bonito flakes and nori.[p]
+There is also a burnt egg roll, an octopus sausage, and one ordinary small tomato sitting awkwardly there.[p]
+#hokuto
 [hs/aseri]
-「……！？」[p][stopse buf=1]
+「……?!」[p][stopse buf=1]
 #
-…決して、食べられなさそうではない。[p]
-でも、美波んちのおばさんは、[r]そもそも時間がない程度のハンデはものともしないはず。[p]
-少なくとも焼き物を焦がしたりは…[p]
+…It doesn't look inedible…[p]
+But Minami's mom surely wouldn't do something like this even if she didn't have time to do it in the first place.[p]
+Or at the very least, she wouldn't burn things…[p]
 [reito_tukomi]
-#令人
-「どうした？」[p][stopse buf=5]
-#北斗
+#reito
+「What's wrong?」[p][stopse buf=5]
+#hokuto
 [hs/hutyou]
-「…いや、なんでもないです。いただきます。」[p][stopse buf=1]
+「…No, it's nothing. Let's eat」[p][stopse buf=1]
 #
-卵焼きを一口かじってみる。[p]
-流石にまっ黒焦げというほど焦げてはいないが、固焼き。[p]
-味もなんだか、塩か醤油が多いのか、[r]火が通り過ぎて甘味が飛んでしまったのか、[r]なんだかしょっぱい感じがする。[p]
+I take a bite of the egg roll.[p]
+It's not completely burnt, just a little hard.[p]
+The taste is also kind of bland, maybe too much salt or soy sauce, or maybe it's overcooked and the sweetness is gone.[p]
 [hide]
-#北斗
+#hokuto
 [hokuto_s_akire]
-「…なんだこれ。」[p][stopse buf=1]
+「…What's this?」[p][stopse buf=1]
 #
-何かの時におばさんに食べさせてもらっただし巻き卵は、[r]もっと砂糖たっぷりでふんわり甘い感じだったような。[p]
-というか、こういう味のひどい料理、どっかで食べたような…？[p]
+The egg rolls that her mom gave me at some point, I think, were more fluffy and sweet.[p]
+But I've eaten something like this before, right…?[p]
 
 [mask time=500]
 [hide time=0]
@@ -248,105 +248,105 @@
 [fadeinbgm storage=kaisou.ogg time=1000]
 [mask_off time=500]
 
-#北斗
+#hokuto
 「……」[p][stopse buf=1]
-#美波
-「みんな、ごめん、ハンバーグ焦がして、[r]　味噌汁も沸騰してしょっぱくなっちゃった…ゴメンなさい…」[p][stopse buf=2]
-#クラスメイト
+#minami
+「Sorry, everyone, I burned the hamburgers and the miso soup got all soggy after boiling it… Sorry…」[p][stopse buf=2]
+#Classmates
 「……」[p]
-#北斗
-「みんな、自分の皿によそった分は、ちゃんと食べよう。[r]　鍋に残った分は、オレがおかわりする。」[p][stopse buf=1]
-#美波
-「北斗…？」[p][stopse buf=2]
-#北斗
-「大丈夫。オレ、濃い味好きだから！」[p][stopse buf=1]
+#hokuto
+「Everyone has to eat what they have on their plate. I'll get a second plate of what's left in the pot」[p][stopse buf=1]
+#minami
+「Hokuto…?」[p][stopse buf=2]
+#hokuto
+「I'm fine. I like strong flavors!」[p][stopse buf=1]
 ;[fadeoutbgm time=500]
 [mask time=500]
 [bg2 storage="ongaku.jpg" height=1554 top="-200" time="500"]
 [hs/odoroki time=0]
 [mask_off time=500]
 
-#北斗
-「……！」[p][stopse buf=1]
+#hokuto
+「……!」[p][stopse buf=1]
 #
-一瞬、フラッシュバックする光景があった。[p]
-…そういう、ことか。[p]
-いやまさか。[r]しかし、この味を出せるようなやつを自分は一人しか知らない。[p]
-しかし、そうだとして、どんな動機でこんな真似をしたというのか。[p]
-…いや、思い当たることは、いくつもある。[p]
-それは、あまりにも都合がよすぎて、うぬぼれにも近いこと。[p]
-でも、目の前にある弁当は現実で。そうでなければ説明がつかなかった。[p]
+For a moment, a flashback came to me.[p]
+…I see.[p]
+No way. But I only know one person who can create this food.[p]
+But if so, what motive would have led her to try to imitate her mom?[p]
+…No, I can think of a number of things.[p]
+And that is too convenient, bordering on vanity.[p]
+But the lunch box in front of me was real. I couldn't find an explanation for it otherwise.[p]
 [hokuto_s_naki2]
-#北斗
-「…やってくれるなあ、まったく。」[p][stopse buf=1]
+#hokuto
+「…You really did it, huh?」[p][stopse buf=1]
 #
-そっちがその気なら。オレも全力でその気持ちに甘えさせてもらおう。[p]
+If that's what you want. I'll do my best to reciprocate your feelings.[p]
 [reito_tukomi]
-#令人
-「北斗？箸が止まってるみたいだけど、…まだ具合悪いのか？」[p][stopse buf=5]
-#北斗
+#reito
+「Hokuto? It looks like your chopsticks stopped… Are you still sick?」[p][stopse buf=5]
+#hokuto
 [hs/odoroki]
-「いや、大丈夫です、大丈夫ですから！」[p][stopse buf=1]
+「No, I'm fine. I'm totally fine!」[p][stopse buf=1]
 #
-怪訝そうな様子の令人先輩の注意をそらして。[p]
-もう一度だけ、手元の弁当に向かってつぶやく。[p]
+I deflected the attention of a dubious-looking Reito-senpai.[p]
+One more time, I mumble to the lunch box in my hand.[p]
 [hide][hokuto_s_bishou]
-#北斗
-「…どこが少しだ、めちゃめちゃ粗末だぞ…あの嘘つき。」[p][stopse buf=1]
+#hokuto
+「…What do you mean a little? This is super rough! You liar…」[p][stopse buf=1]
 #
-その嘘つきお手製の弁当を、味わいながらもかきこんでいった。[p]
+I savored and chomped down on that liar's homemade lunch box.[p]
 [fadeoutbgm time=500]
 [mask time=500]
 [hide][reito_kanasimi left=40 time=0][hokuto_s_bishou left=680 time=0]
 [mask_off time=500]
 
-#令人
-「北斗…？本当に大丈夫か？」[p][stopse buf=5]
-#北斗
+#reito
+「Hokuto…? Are you sure you're okay?」[p][stopse buf=5]
+#hokuto
 [kanim name="hokuto" keyframe="nod" time="500"]
-「…ハァ、ごちそうさまでした。…令人先輩は、食べ終わりましたか？」[p][stopse buf=1]
-#令人
+「…Haa… Thanks for the food. …Have you finished eating, Reito-senpai?」[p][stopse buf=1]
+#reito
 [r/komari]
-「え？あ、ああ…」[p][stopse buf=5]
-#北斗
+「Eh? Ah, yeah…」[p][stopse buf=5]
+#hokuto
 [hs/magao]
-「その、急で申し訳ないんですけど…[r]　ちょっとセッションしてくれませんか？」[p][stopse buf=1]
-#令人
+「Well, I'm sorry to ask so suddenly, but… Can we have a little session?」[p][stopse buf=1]
+#reito
 [r/tukomi]
-「…何かつかめたのか？」[p][stopse buf=5]
-#北斗
+「…Did you figure something out?」[p][stopse buf=5]
+#hokuto
 [hs/egao2]
-「はい。」[p][stopse buf=1]
-#令人
+「Yes」[p][stopse buf=1]
+#reito
 [r/magao]
-「…わかった。」[p][stopse buf=5]
+「…All right」[p][stopse buf=5]
 
 [mask time=500]
 [hide time=500]
 [bg2 storage="ongaku.jpg" width=2250 height=1750 top="-300" left=-165 time=0]
 [mask_off time=500]
 ;[演奏]
-#北斗
+#hokuto
 [hs_aseri]
-「（…！テンポがずれた…）」[p][stopse buf=1]
+「(…! The tempo is off…)」[p][stopse buf=1]
 [mhhide]
-#令人
+#reito
 [r_magao]
 「……」[p][stopse buf=5]
 [mrhide]
-#北斗
+#hokuto
 [hs_aseri]
-「（……続けてくれている…焦らず、合わせて…）」[p][stopse buf=1]
+「(……Keep going… don't panic, just adjust…)」[p][stopse buf=1]
 [mhhide]
-#令人
+#reito
 [r_magao]
 「……」[p][stopse buf=5]
 [mrhide]
-#北斗
+#hokuto
 [hs_metozi]
-「(TAB譜や曲のテンポよりも、先輩のリズムに合わせて、[r]　そしてこの音の流れの中で、自分の居場所を見つけるように、[r]　しっかりと先輩のリズムを聞いて…)[p][stopse buf=1]
+「(Rather than the notation or the tempo of the song, match the rhythm of my senpais and listen to it firmly so that I can find my place in this flow of sound…)」[p][stopse buf=1]
 [mhhide]
-#令人
+#reito
 [r_bishou]
 「…」[p][stopse buf=5]
 [mask time=500]
@@ -354,88 +354,88 @@
 [bg2 storage="ongaku.jpg" height=1554 top="-200" time="0"]
 [reito_bishou left=40 time=0][hokuto_s_bishou left=680]
 [mask_off time=500]
-#令人
-「…どうだった？」[p][stopse buf=5]
-#北斗
+#reito
+「…How was it?」[p][stopse buf=5]
+#hokuto
 [hs/egao2]
-「…サイッコーでした！」[p][stopse buf=1]
-#令人
-「そうだな、俺も良かったと思う」[p][stopse buf=5]
-#北斗
+「…It was amazing!」[p][stopse buf=1]
+#reito
+「Yeah, I think it was good, too」[p][stopse buf=5]
+#hokuto
 [hs/kanasimi]
-「すいません、いきなりで…」[p][stopse buf=1]
-#令人
+「I'm sorry, that came out of nowhere…」[p][stopse buf=1]
+#reito
 [r/magao]
-「いいよ、…それで、わかった？」[p][stopse buf=5]
-#北斗
+「Don't worry. …So, did you get it?」[p][stopse buf=5]
+#hokuto
 [hs/magao]
-「はい。…オレ、今まで自分のパート追うのに精一杯で、[r]　先輩たちとリズムを合わせること、すっかり忘れてました。」[p][stopse buf=1]
-#令人
-「そう。だから、一度ミスってずれると、曲が終わるまでずれ続ける。」[p][stopse buf=5]
-#北斗
+「Yes, I'm sorry. …I've been so busy playing my own part that I've forgotten about matching the pace of everyone else」[p][stopse buf=1]
+#reito
+「Yes. So, when you make a mistake and slip up, you continue to slip up until the end of the song」[p][stopse buf=5]
+#hokuto
 [hs/aozame2]
-「…わかっちゃえば、[r]　びっくりするくらい基礎の基礎のところでつまずいてたんですね…」[p][stopse buf=1]
-#令人
-「それだけなら、いい。」[p][stopse buf=5]
-#令人
-「北斗がよくなかったのは、なんか違和感があることに気づいても、[r]　焦って自力でどうにかしようとして、[r]　周りの音をちゃんと聞いてなかったんだ。」[p][stopse buf=5]
-#北斗
+「…Once I figured it out, I was surprised to find that I had missed the basics of the basics…」[p][stopse buf=1]
+#reito
+「If that's all, it's fine」[p][stopse buf=5]
+#reito
+「The problem was that you were in such a hurry to do something about it on your own that you didn't listen to everything that was going on around you」[p][stopse buf=5]
+#hokuto
 [hs/magao]
-「もとのリズムに戻ろうとしても、焦っちゃいけない…」[p][stopse buf=1]
-#令人
+「When trying to get back to my rhythm, I shouldn't panic…」[p][stopse buf=1]
+#reito
 [r/bishou]
-「そう、一度ミスをしたら、一度周りに意識を向けること。」[p][stopse buf=5]
-#令人
-「そして、今全体としてどんなテンポで、フレーズのどのあたりなのか、[r]　しっかり見極める。」[p][stopse buf=5]
-#令人
-「一度周りの音をきけば、案外簡単に戻ってこれるものだから。」[p][stopse buf=5]
-#北斗
+「Yes, once you make a mistake, be aware of your surroundings」[p][stopse buf=5]
+#reito
+「Then carefully identify what tempo and where in the phrase the whole song is」[p][stopse buf=5]
+#reito
+「Once you hear the sounds around you, it's easier than you think to get back in」[p][stopse buf=5]
+#hokuto
 [hs/bishou]
-「…オレ、最近色々考えてたんですけど、そのことに気づいたんです。」[p][stopse buf=1]
-#北斗
-「自分がむきになったり焦っても仕方ない。[r]　いっそ、誰かに思い切って寄りかかってみることが[r]　大事なんじゃないかって。」[p][stopse buf=1]
-#北斗
-「それを意識して、令人先輩のリズムに思いっきりのっかってみたんです。」[p][stopse buf=1]
+「…I've been thinking a lot about it lately, and I've just realized that」[p][stopse buf=1]
+#hokuto
+「There is no point in being impatient or irritated. I think it's important to lean on someone else」[p][stopse buf=1]
+#hokuto
+「With that in mind, I tried to follow the rhythm of Reito-senpai with all my might」[p][stopse buf=1]
 #
-爺さんのアドバイスのおかげで、[r]ピッキングに無理に力を入れないようにした分、[r]周りの音に集中力を割くことができるようになっていた。[p]
-もっとも、周りに甘えてみるという発想が出てきたのは、[r]誰かさんのおせっかいのおかげなのだけども。[p]
-#令人
-「それでいいんだ。[r]　いまはドラムだけだったけど、楽器が増えたって同じだ。[r]　…もっとも、七音さんとかアドリブでテンポ急に変えたりするけど。」[p][stopse buf=5]
-#北斗
+Thanks to the old man's advice, I was able to devote more concentration to the sounds around me because I wasn't pushing myself too hard in my picking.[p]
+However, it was thanks to someone's meddling that I got the idea to try to be spoiled by the people around me.[p]
+#reito
+「That's all right. Just drums now, but it would be the same if there were more instruments. …Although Nao-san changes the tempo abruptly when she improvises」[p][stopse buf=5]
+#hokuto
 [hs/odoroki]
-「え？そうだったんですか？」[p][stopse buf=1]
-#令人
+「Eh? She does that?」[p][stopse buf=1]
+#reito
 [r/komari]
-「流石に、最近は抑えめにしてたけど。[r]　北斗が良くなってきたら、またやり始めるんじゃないかなあ…」[p][stopse buf=5]
-#北斗
+「Although she's been keeping it down lately. As soon as you get better, I'm sure she'll start doing it again…」[p][stopse buf=5]
+#hokuto
 [hs/kanasimi]
-「うわぁ、ついていけるかな…」[p][stopse buf=1]
-#令人
+「Wow, I wonder if I could keep up…」[p][stopse buf=1]
+#reito
 [r/niko]
-「大丈夫、俺が速攻で合わせに行くから、[r]　北斗は俺に合わせるようにすればいい。」[p][stopse buf=5]
-#令人
+「Don't worry, I'll match as fast as I can, and you can just try to match me, Hokuto」[p][stopse buf=5]
+#reito
 [r/bishou]
-「だてに1年あの人と一緒にやってきたわけじゃない。[r]　それぐらいできないとな。」[p]
-#北斗
+「It's not like you've been with her for a year. You won't be able to get that far」[p]
+#hokuto
 [hs/bishou]
-「先輩…」[p][stopse buf=1][font size=30]
-#令人
+「Senpai…」[p][stopse buf=1][font size=30]
+#reito
 [r/kanasimi]
-「もっとも、これでも全然追いつかないんだが…」[p][stopse buf=5][resetfont]
-#北斗
+「But even with all this, I still can't quite keep up…」[p][stopse buf=5][resetfont]
+#hokuto
 [hs/odoroki]
-「え？」[p][stopse buf=1]
-#令人
+「Eh?」[p][stopse buf=1]
+#reito
 [r/bishou]
-「いや、何でもない。」[p][stopse buf=5]
-#北斗
+「No, don't worry」[p][stopse buf=5]
+#hokuto
 [hs/egao2]
-「…令人先輩、つかんだカンを忘れないために、もう一度お願いします！」[p][stopse buf=1]
-#令人
+「…Reito-senpai, can we please do it again so I don't forget this instinct I've grasped?」[p][stopse buf=1]
+#reito
 [r/niko][kanim name="reito" keyframe="nod" time="500"]
-「いいよ、とことんまでやろう。」[p][stopse buf=5]
+「Okay, let's play all the way through」[p][stopse buf=5]
 #
-そうして、昼休みが終わるまでの短い間、令人先輩と、[r]念願のまともなセッションを楽しんだ。[p]
+And so, for a short time until the end of the lunch break, I enjoyed a long-desired, proper session with Reito-senpai.[p]
 
 [mask tim=500]
 [hide time=0]
@@ -448,32 +448,32 @@
 [freeimage layer=1 time=700]
 
 #
-4限の授業が終わり、部室へ向かう。[p]
-月曜は、1年生だけ4限で終わりなので、[r]いつも先輩たちよりも先に部室で待つことになっている。[p]
-こんな日に限って、[r]北斗と2人きりの小一時間を過ごさなければならない。[p]
-どうしよう。つい、あんなものを渡してしまった。[r]感想とか、聞かなければならないんだろうか。[p]
-自分で昼に食べてみて、あまりの拙さに涙が出てきたばかりだというのに。[p]
-…ホント、ばかみたい。[p]
-なにも聞かず、さっさと弁当箱を返してもらおう。[p]
-そして、これは今日限りで終わりになったと、言ってしまえばいい。[p]
-そうだ、母からそんなメールが来たとか、適当な嘘をつけばいい。[p]
-そうやって、今日のことなんかなかったことのように、[r]明日からまた今までと変わらないように過ごしていければいいんだ。[p]
+After fourth period class, I head to the clubroom.[p]
+On Mondays, only first-year students are done after fourth period, so we always have to wait in the clubroom for everyone else.[p]
+On days like this, I have to spend an hour alone with Hokuto. [p]
+I don't know what to do. I just gave him that thing. Do I even have to ask him what he thought of it or something?[p]
+I just ate it for lunch and cried because it was so poorly prepared.[p]
+…I'm so stupid.[p]
+Let's not ask any questions and just get the lunch box back quickly.[p]
+And let's just say that today was the only day that this would happen.[p]
+Yes, I could tell a reasonable lie, like I got a message from my mother saying that.[p]
+Then we can just go on with our lives as if today never happened, and tomorrow will be just the same as before.[p]
 [minami_s_magao]
-そう意を決して、部室のドアに手をかけた。[p]
+With that in mind, I put my hand on the door of the clubroom.[p]
 [stopbgm]
 [fadeinbgm time=1000 storage=nitousei_wall.ogg]
-#美波
+#minami
 [ms/odoroki]
-「…？！」[p][stopse buf=2]
+「…?!」[p][stopse buf=2]
 #
 [hide]
-ドアの向こうから、音が聞こえる。[p]
-いつものように、先に来ていた北斗が１人、練習している。[p]
-でも、明らかに、先週までとは違う旋律。[p]
-いや、その表現は正しくない。奏でている曲自体は、何も変わっていない。[p]
-でも、明らかに違う。テンポが違う。音の伸びが違う。[p]
-ずっと聞いていたくなるような、でもどこか切なくなるような、[r]引き込まれるようなギターの音。[p]
-私は曲が終わるまで、ドアの前で立ちながら、[r]ただその音に耳をすませていた。[p]
+From behind the door, I hear a sound.[p]
+As usual, Hokuto, who arrived earlier, is alone practicing.[p]
+But clearly the melody is very different from last week's.[p]
+No, those words are not correct. The music itself has not changed in any way.[p]
+But it's clearly different. The tempo is different. The sound is different.[p]
+A guitar sound that draws you in, that makes you want to listen to it all the time, but also makes you somewhat nostalgic.[p]
+I stood at the door and just listened to it until the song ended.[p]
 [fadeoutbgm time=1000]
 [mask tim=500]
 [bg2 storage=ongaku.jpg height=1554 top="-200" time=1500]
@@ -483,388 +483,388 @@
 [wait time=500]
 [freeimage layer=1 time=700]
 
-#北斗
+#hokuto
 [hokuto_s_egao2]
-「お、おはよう美波」[p][stopse buf=1]
-#美波
+「Good morning, Minami」[p][stopse buf=1]
+#minami
 [minami_s_tun2]
-「…おはよう」[p][stopse buf=2]
+「…Good morning」[p][stopse buf=2]
 #
-誰かが部室に入ってくるときはおはようございますと言う、[r]軽音部特有のルールのため、今日２回目のおはようを交わす。[p]
-#美波
+Someone comes into the club room. We greet each other with a good morning for the second time today because it is a unique rule of the light music club.[p]
+#minami
 [ms/tun]
-「北斗、さっきのは…」[p][stopse buf=2]
-#北斗
+「Hokuto, that was…」[p][stopse buf=2]
+#hokuto
 [hs/tere]
-「あ、聞いてたのか。そうなるとなんかはずいな…」[p][stopse buf=1]
-#美波
+「Oh, you were listening. Well, that's a little embarrassing…」[p][stopse buf=1]
+#minami
 [ms/uwame]
-「どうしたの？」[p][stopse buf=2]
-#北斗
+「What happened?」[p][stopse buf=2]
+#hokuto
 [hs/magao]
-「いや…、ちょっと、色々あってさ。[r]　…オレ、周りの音を聞いてなかったから、[r]　自然と周りとずれちゃってても、気づかなかったんだ。」[p][stopse buf=1]
-#美波
+「Well… Things happened. I wasn't listening to the sounds around me, so I didn't notice that I was out of sync with my surroundings」[p][stopse buf=1]
+#minami
 [ms/magao]
-「…そう。気づいたんだ。」[p][stopse buf=2]
-#北斗
+「…Yes. I noticed」[p][stopse buf=2]
+#hokuto
 [hs/akire]
-「やっぱ、美波もわかってたのかよ。言えよ。」[p][stopse buf=1]
-#美波
+「I knew it. Minami knew it, too. You need to tell me」[p][stopse buf=1]
+#minami
 [ms/magao2]
-「だって、結局ちゃんと指が動くようになるまでは、[r]　言っても身体がついてこないから。」[p][stopse buf=2]
-#美波
-「まあ、最近は部長に本人が気づくまで待て、なんて言われてたけど。」[p][stopse buf=2]
-#北斗
+「Because until you learn to move your fingers properly, your body will not follow even if you tell it to」[p][stopse buf=2]
+#minami
+「Well, recently the president told me to wait until you found out on your own」[p][stopse buf=2]
+#hokuto
 [hs/metozi]
-「…なるほど。それで、令人先輩も割と回りくどかったわけか…」[p][stopse buf=1]
+「…I see. So, Reito-senpai was also trying to make me understand…」[p][stopse buf=1]
 #
-習うより慣れよというか、[r]自分で気づけっていう部長の方針だったわけか。[p]
-でも、部長にそう言われてたのに一緒にメシを食おうとか言って、[r]オレを何とかしようとしてくれたのは、[r]やっぱり令人先輩の優しさなんだろう。[p]
-#美波
+It was the president's policy to encourage people to be aware of things on their own, rather than teaching them.[p]
+But I guess it was kind of Reito-senpai to try to help me out by asking me to have lunch with him even though the president told him that.[p]
+#minami
 [ms/uwame]
-「…それで、一人で練習してたわけ？」[p][stopse buf=2]
-#北斗
+「…So you were practicing alone?」[p][stopse buf=2]
+#hokuto
 [hs/egao2]
-「やっぱり自分の基礎がしっかりしてないと合わせようがないしな。」[p][stopse buf=1]
-#北斗
-「それに…やっとまともに音楽が楽しいって思えたから、[r]　…なんかうれしくて、つい。」[p][stopse buf=1]
-#美波
+「Well, there's no way to match them if I don't have a solid foundation of my own」[p][stopse buf=1]
+#hokuto
+「And… I'm finally having some real fun with music, so… I'm kind of happy about it」[p][stopse buf=1]
+#minami
 [ms/tun2]
-「……バッカじゃないの」[p][stopse buf=2]
-#北斗
+「……You're just dumb」[p][stopse buf=2]
+#hokuto
 [hs/tere]
-「ひどいな、いいだろ、別に…」[p][stopse buf=1]
-#美波
+「That's terrible. It's fine. Let me be…」[p][stopse buf=1]
+#minami
 [ms/bishou]
 「…」[p][stopse buf=2]
-#北斗
+#hokuto
 [hs/akire]
-「…なんだよ。」[p][stopse buf=1]
-#美波
+「…What?」[p][stopse buf=1]
+#minami
 [ms/bishou]
-「…何かやってて、楽しいっていう北斗、ここ最近見てなかったから。」[p][stopse buf=2]
-#北斗
+「…I haven't seen you say that you enjoy doing something recently, Hokuto」[p][stopse buf=2]
+#hokuto
 [hs/magao]
-「…そうかもな。オレ、この土日中、ずっと考えてたんだ。[r]　本当は、オレは何をしたいのかって。」[p][stopse buf=1]
-#美波
+「…Maybe. I've been thinking about it all weekend. What do I really want to do?」[p][stopse buf=1]
+#minami
 [ms/odoroki]
-「…！」[p][stopse buf=2]
-#北斗
+「…!」[p][stopse buf=2]
+#hokuto
 [hs/metozi]
-「まあ、色々考えたんだけど…まずなんで軽音部に入りたい、[r]　なんて思ったか。」[p][stopse buf=1]
-#北斗
-「…まあ、端的に言っちゃえば、ぶっちゃけそこまで深く考えてなかった。[r]　美波が興味あるなら、オレもやるか、みたいな。そんな感じで。」[p][stopse buf=1]
-#美波
+「Well, I thought about it a lot… First of all, why did I want to join the light music club?」[p][stopse buf=1]
+#hokuto
+「…Well, to put it simply, I wasn't thinking that deeply about it. If Minami is interested, I'll do it, too. Just like that」[p][stopse buf=1]
+#minami
 [ms/magao]
 「…」[p][stopse buf=2]
-#北斗
+#hokuto
 [hs/kanasimi]
-「で、いざやってみたら、なんかうまくいかないし。かといって、[r]　できないままでいたら、迷惑かけるから、めっちゃ焦ったし。」[p][stopse buf=1]
-#美波
+「And when I tried to do it, I couldn't get it right. But I was very impatient because I would bother everyone if I couldn't do it」[p][stopse buf=1]
+#minami
 [ms/kanasimi]
-「北斗…」[p][stopse buf=2]
-#北斗
+「Hokuto…」[p][stopse buf=2]
+#hokuto
 [hs/magao]
-「でも、軽音部の先輩たち３人とも、音楽とか、この空間とか時間とか、[r]　思いっきり楽しんでるっていうか、自由な人たちじゃん。」[p][stopse buf=1]
-#美波
+「But everyone in the light music club enjoys music and the space and the time, enjoying it to the fullest」[p][stopse buf=1]
+#minami
 [ms/magao]
 「…」[p][stopse buf=2]
-#北斗
+#hokuto
 [hs/bishou]
-「こんな中で、オレだけ何もできずにみじめに終わるなんて、[r]　くいのこりだと思うからさ。」[p][stopse buf=1]
-#美波
+「It would be a shame for me in here, to end up in this situation, full of knots in my throat」[p][stopse buf=1]
+#minami
 [ms/uwame]
-「ちょ、くいのこりって、もう…」[p][stopse buf=2]
-#北斗
+「Wait, "knots" in…」[p][stopse buf=2]
+#hokuto
 [hs/egao2]
-「へへ、でも、本当にそう。今めっちゃこの言葉実感してる。[r]　でも、それ以上に…」[p][stopse buf=1]
-#北斗
+「Hehe, but it's true. I'm really feeling that word right now. But it's more than that…」[p][stopse buf=1]
+#hokuto
 [hs/bishou]
-「美波まで、オレの心配ばっかで、楽しくいられないとか、[r]　一番堪えられないし。」[p][stopse buf=1]
-#美波
+「Most of all, I can't stand that Minami is always worrying about me and can't have fun」[p][stopse buf=1]
+#minami
 [ms/tere]
-「…！」[p][stopse buf=2]
-#北斗
+「…!」[p][stopse buf=2]
+#hokuto
 [hs/metozi]
-「それでさ…」[p][stopse buf=1]
+「So, you know…」[p][stopse buf=1]
 #
-そういって、カバンの中から目当てのものを取り出し、美波に差し出す。[p]
-#北斗
+With that, I took out what I was looking for from my bag and held it out to Minami.[p]
+#hokuto
 [hs/bishou]
-「…これ、ごちそうさま。」[p][stopse buf=1]
-#美波
+「…Here, thanks for the food」[p][stopse buf=1]
+#minami
 [ms/odoroki]
-「…え、お弁当？」[p][stopse buf=2]
-#北斗
+「…Eh? The lunch box?」[p][stopse buf=2]
+#hokuto
 [hs/bishou]
-「これ、美波が作ったんだろ？」[p][stopse buf=1]
-#美波
+「You made this one, didn't you, Minami?」[p][stopse buf=1]
+#minami
 [ms/tere]
-「え、いや、それ作ったのはお母さんだから…」[p][stopse buf=2]
+「Eh, no, my mom made that…」[p][stopse buf=2]
 #
-あくまでしらを切る美波に、詰め寄る。[p]
-#北斗
+As Minami is trying to play it cool, I approach her.[p]
+#hokuto
 [hs/magao]
-「…美波、オレさ、親父が死んだとき、お前とおじさんに、[r]　嘘つきだなんてひどいこと言っちゃったって後悔してるんだよ。」[p][stopse buf=1]
-#北斗
-「またお前に、嘘つきだなんて、言わせないでくれ。」[p][stopse buf=1]
-#美波
+「…Minami, I feel terrible that I said such horrible things about you and your dad, that you were liars when my father died」[p][stopse buf=1]
+#hokuto
+「Please don't make me call you a liar again」[p][stopse buf=1]
+#minami
 [ms/dere]
-「……ここでそういう話持ってくるのは、ずるくない？」[p][stopse buf=2]
-#北斗
+「……Isn't it unfair to bring those things here?」[p][stopse buf=2]
+#hokuto
 [hs/iradati]
-「ずるいのはどっちだよ。お母さんが作った、なんて、[r]　お手製のお弁当作ってきて。卵焼きかじって一瞬でわかったよ。[r]　めちゃめちゃしょっぱいから。」[p][stopse buf=1]
-#美波
+「Which one of us is unfair? "Mom made it," and you made a homemade lunch box for me. I knew in an instant when I bit into the omelet. It was so salty」[p][stopse buf=1]
+#minami
 [ms/tun]
-「…しょっぱいとなんで私が作ったことになるのよ。」[p][stopse buf=2]
-#北斗
+「…If it's salty, why does it mean I made it?」[p][stopse buf=2]
+#hokuto
 [hs/akire]
-「…小5の家庭科、調理実習。」[p][stopse buf=1]
-#美波
+「…Home economics in fifth grade, a cooking class」[p][stopse buf=1]
+#minami
 [ms/tun2]
-「う。」[p][stopse buf=2]
-#北斗
+「Uh…」[p][stopse buf=2]
+#hokuto
 [hs/akire]
-「クソしょっぱい卵焼きと、煮詰めちゃってこれまたしょっぱい[r]　なめこの味噌汁こしらえたのはどこの誰だったでしょうか。」[p][stopse buf=1]
-#美波
+「Who was the one who prepared the miso soup with the soggy egg omelet and the mushy mushrooms that were boiled down to a paste?」[p][stopse buf=1]
+#minami
 [ms/tun2]
-「…よく覚えてるわね」[p][stopse buf=2]
-#北斗
+「…You remember it well」[p][stopse buf=2]
+#hokuto
 [hs/bishou]
-「あれを食べきったのはオレだからな。」[p][stopse buf=1]
-#美波
+「I'm the one who ate that, after all」[p][stopse buf=1]
+#minami
 [ms/dere]
 「……」[p][stopse buf=2]
-#北斗
+#hokuto
 [hs/magao]
-「…なんでこんなことしてくれたんだ？」[p][stopse buf=1]
-#美波
+「…Why did you do this?」[p][stopse buf=1]
+#minami
 [ms/kanasimi]
-「…その。」[p][stopse buf=2]
-#美波
-「…その、実は…」[p][stopse buf=2]
+「…That…」[p][stopse buf=2]
+#minami
+「…That, actually…」[p][stopse buf=2]
 [fadeinbgm storage=kaisou.ogg time=1000]
-#美波
+#minami
 [ms/magao2]
-「…先週の金曜、ちょっと話したの。…高村さんと。」[p]
-#北斗
+「…Last Friday, I had a quick chat……with Takamura-san」[p]
+#hokuto
 [hs/odoroki]
-「！爺さんと？」[p][stopse buf=1]
-#美波
+「! With Takamura-san?」[p][stopse buf=1]
+#minami
 [ms/magao]
-「うん、ホントは、北斗は来ないっていうことをいうだけのつもりで[r]　行ったんだけど、…なんか、結局色々話し込んじゃって。」[p][stopse buf=2]
-#北斗
+「I was really just going to tell him that Hokuto wasn't coming, but… We ended up talking about a lot of things」[p][stopse buf=2]
+#hokuto
 [hs/odoroki]
-「…色々？」[p][stopse buf=1]
-#美波
+「…A lot of things?」[p][stopse buf=1]
+#minami
 [ms/uwame]
-「…だって、北斗と喧嘩になっちゃったからつい…」[p][stopse buf=2]
-#北斗
+「…Because I got into a fight with you, so I just, you know…」[p][stopse buf=2]
+#hokuto
 [hs/magao]
-「（美波も、同じように爺さんと話したのか…）」[p][stopse buf=1]
-#美波
+「(Minami talked to the old man just like I did?…)」[p][stopse buf=1]
+#minami
 [ms/magao]
-「それで、言われたの。…北斗にどうしたいのか、[r]　どうしてほしいのかって。」[p][stopse buf=2]
-#北斗
+「And then he told me… What do I want to do for Hokuto… And what I want him to do for me」[p][stopse buf=2]
+#hokuto
 [hs/odoroki]
 「…」[p][stopse buf=1]
-#美波
+#minami
 [ms/dere]
-「それでね、まあ、自分が謝るべきかなとか、謝って欲しいとか、[r]　思ったりもしたんだけど…」[p][stopse buf=2]
-#北斗
+「I thought, well, maybe I should apologize, or maybe I wanted him to apologize, but…」[p][stopse buf=2]
+#hokuto
 [hs/metozi]
-「ホントごめん。」[p][stopse buf=1]
+「I'm really sorry」[p][stopse buf=1]
 #
-マジで今回はオレが悪いので、平謝りするばかりである。[p]
-#美波
+Seriously, this time it was my fault, so I just apologize flat out.[p]
+#minami
 [ms/tun]
-「もう。…そういう風に、[r]　ちゃんと北斗は謝ってくれるだろうなって思ったの。」[p][stopse buf=2]
-#北斗
+「God. …I thought that Hokuto would apologize to me like that」[p][stopse buf=2]
+#hokuto
 [hs/dere]
-「…おう。」[p][stopse buf=1]
-#美波
+「…Right」[p][stopse buf=1]
+#minami
 [ms/dere]
-「それでね、そのあとのことを考えた時に…その、えっと。」[p][stopse buf=2]
-#北斗
+「So, you know, when I thought about what came after… You know, uh…」[p][stopse buf=2]
+#hokuto
 [hs/akire]
-「…なんだよ。」[p][stopse buf=1]
-#美波
+「…What?」[p][stopse buf=1]
+#minami
 [ms/dere2]
-「……北斗が、[r]　最近あんまりちゃんとしたお昼ご飯食べてないっていうから。」[p][stopse buf=2]
-#美波
-「…ちゃんとしたご飯、食べてほしいなって、つい、[r]　思っちゃったのよ。」[p][stopse buf=2]
-#北斗
+「……You said that you haven't been eating lunch well lately, Hokuto」[p][stopse buf=2]
+#minami
+「…I just wanted to make sure you had a proper meal」[p][stopse buf=2]
+#hokuto
 [hs/odoroki]
-「！」[p][stopse buf=1]
+「!」[p][stopse buf=1]
 [voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=378 ]
-#北斗
+#hokuto
 [hs/akire]
-「（美波…考えたあげくに出てくるのがそれとか…ホント、[r]　本当にもう…）」[p][stopse buf=1]
+「(Minami… after thinking about it, that's what you come up with… Really, you're really…)」[p][stopse buf=1]
 #
-オレもいくつか美波の動機を考えていたものの、美波の持っていた理由は、オレの予想よりも遥かに、素朴で、純粋だった。[p]
-#美波
+Although I had considered several of Minami's motives, the reason she gave was far more simple and pure than I had expected.[p]
+#minami
 [ms/naki]
-「それで、その、最初はホントにお母さんにお願いしたんだけど、なんか、[r]　自分で作ってみたら？とか言われちゃって。」[p][stopse buf=2]
-#美波
-「それで一応、昨日練習したんだけど、[r]　やっぱりそんなすぐにはうまくいかなくて、[r]　でも今日せっかくできたから食べてみてほしくて、でも、でも…」[p][stopse buf=2]
-#北斗
+「So, you know, I really asked my mom at first, but she said, "Why don't you make it yourself?"」[p][stopse buf=2]
+#minami
+「So I practiced yesterday, but I still couldn't get it right the first time, but I made it today, and I wanted you to try it, but, but…」[p][stopse buf=2]
+#hokuto
 [hs/bishou]
 「……」[p][stopse buf=1]
-#美波
+#minami
 [ms/naki2]
-「…ごめん、おいしくなかったでしょ、…」[p][stopse buf=2]
-#北斗
+「…Sorry, it didn't taste good, right?…」[p][stopse buf=2]
+#hokuto
 [hs/magao]
-「美波。オレは別にまずかったとは言ってないよ。」[p][stopse buf=1]
-#美波
+「Minami. I never said it was bad」[p][stopse buf=1]
+#minami
 [ms/odoroki]
-「…！」[p][stopse buf=2]
-#北斗
+「…!」[p][stopse buf=2]
+#hokuto
 [hs/bishou]
-「…それに。美波が作ってくれたんだってわかって、何か…うれしかった。」[p][stopse buf=1]
-#北斗
+「…And besides. I was kind of…happy to know that you made it for me」[p][stopse buf=1]
+#hokuto
 [hs/egao2]
-「なんでなんだろうとは思ったけど。」[p][stopse buf=1]
-#北斗
-「美波なりに仲直りしたいって思ったのかなとか、[r]　結局わかんなかったけど…でも、美波の気持ちがこもってるなって、[r]　それだけはわかったから。」[p][stopse buf=1]
-#美波
+「I wondered why, though」[p][stopse buf=1]
+#hokuto
+「I didn't know if Minami wanted to make up with me in her own way or not… But I knew that her feelings were in it, and that's all I knew」[p][stopse buf=1]
+#minami
 [ms/uwame]
-「……北斗。」[p][stopse buf=2]
+「……Hokuto」[p][stopse buf=2]
 #
-そしてオレは、部屋の中に置いてある、ホワイトボードに目をやる。[p]
+Then I look at the whiteboard, the one in the clubroom.[p]
 [hide]
 [bg2 storage=still_busoku.png time=500]
-#北斗
+#hokuto
 [hs_bishou]
-「部則のさ、『マジメさと楽しさは両立させるべし！』ってアレ…[r]　自分で提案しといて、すっかり忘れてた。」[p][stopse buf=1]
-#北斗
-「いっそ、『おもしろくあれ』だけだったほうが、良かったかもしれない。[r]　ほんと、あの人たちみたいに楽しまないと始まらないなって。」[p][stopse buf=1]
-#北斗
+「You know, the club rule, "Seriousness and fun should go hand in hand!" I proposed it myself and completely forgot about it」[p][stopse buf=1]
+#hokuto
+「It might have been better if it was just "be interesting." I really felt that if I didn't have fun like those people, nothing would start」[p][stopse buf=1]
+#hokuto
 [chara_mod name=hokuto storage=hokuto_sum/metozi.png time=700]
-「それから、もう一つ。[r]　「いつでも、みんな仲良く！」仲良くっていうけど、[r]　具体的にどうっていうと、ぶっちゃけよくわかってなかった。」[p][stopse buf=1]
-#北斗
-「でも、今はちょっとわかる。」[p][stopse buf=1]
-#北斗
+「And then there's the other rule. "Always get along with everyone!" "Get along," but to be honest, I didn't really know exactly what that meant」[p][stopse buf=1]
+#hokuto
+「But I kinda get it now」[p][stopse buf=1]
+#hokuto
 [chara_mod name=hokuto storage=hokuto_sum/hohoemi.png time=700]
-「時には、人の厚意には思いっきり甘えて、寄りかかることも大切で、[r]　それにちゃんと感謝することが、何より大事なんじゃないかって。」[p][stopse buf=1]
+「Sometimes it's important to lean on the generosity of others, and more importantly, to be grateful for it」[p][stopse buf=1]
 [mhhide]
-#美波
+#minami
 [ms_uwame]
-「北斗…」[p][stopse buf=2]
+「Hokuto…」[p][stopse buf=2]
 #
 [mmhide]
 [bg2 storage=ongaku.jpg height=1554 top="-200" time=500]
 [hokuto_s_metozi left=640 wait=false][minami_s_uwame]
-そして、改めて美波に向き合う。[p]
-#北斗
-「それで、マジでよかったらでいいんだけど…」[p][stopse buf=1]
-#北斗
+And then, I face Minami once again.[p]
+#hokuto
+「So, only if you want to…」[p][stopse buf=1]
+#hokuto
 [hs/bishou]
-「明日からも、オレの弁当作ってくれないか？」[p][stopse buf=1]
-#美波
+「Can you make my lunch tomorrow, too?」[p][stopse buf=1]
+#minami
 [ms/odoroki]
-「…！」[p][stopse buf=2]
-#北斗
+「…!」[p][stopse buf=2]
+#hokuto
 [hs/tere]
-「図々しいかもしれないけど、でも、絶対残さず食べるから。[r]　今日とか、あのときの調理実習みたいに。」[p][stopse buf=1]
-#北斗
-「…だから、その。たまにでいいから…」[p][stopse buf=1]
-#美波
+「I may be presumptuous, but I'll make sure I never leave any leftovers. Just like today and that other cooking lesson」[p][stopse buf=1]
+#hokuto
+「…So, you know. Maybe just once in a while…」[p][stopse buf=1]
+#minami
 [ms/tere]
 「……」[p][stopse buf=2]
 
-#北斗
+#hokuto
 [hs/bishou]
-「…甘えて、いい？」[p][stopse buf=1]
-#美波
+「…Spoil me, okay?」[p][stopse buf=1]
+#minami
 [ms/egao][kanim name="minami" keyframe="nod" time="500"]
-「…しょうがないなあ、もう」[p][stopse buf=2]
+「…Oh, well, I guess I'll just have to do it now」[p][stopse buf=2]
 #
-そういって困ったような、しかし確かな笑顔をして、[r]美波はオレの差し出した弁当箱を受け取った。[p]
+With that, Minami accepted the lunch box I offered her with a troubled but firm smile on her face.[p]
 
-#北斗
+#hokuto
 [hs/odoroki]
-「あ、弁当箱、洗って返した方がよかったか？」[p][stopse buf=1]
-#美波
+「Oh, should I have washed it before returning it?」[p][stopse buf=1]
+#minami
 [ms/tun]
-「…いいわよ、どうせ明日もそれ使うだろうから。」[p][stopse buf=2]
+「…That's okay, I'll probably use it again tomorrow anyway」[p][stopse buf=2]
 #
-明日もって、やる気満々だな。たまにでいいって言ったのに。[p]
-まったく、美波というやつは、本当に。[p]
-#北斗
+You're ready to make it again tomorrow. I told you just once in a while.[p]
+I really don't get Minami.[p]
+#hokuto
 [hs/egao]
-「…そっか。じゃあ、お言葉に甘えて」[p][stopse buf=1]
-#美波
+「…I see. Well, then I'll take your word for it」[p][stopse buf=1]
+#minami
 [ms/dere]
-「…ん。」[p][stopse buf=2]
+「…Yeah」[p][stopse buf=2]
 [fadeoutbgm time=1000]
 [mask time=500]
 [hide time=0][kaname_niyake left=-80 wait=false][nao_niko left=460 wait=false][reito_komari left=850]
 [bg2 storage="rouka_s.jpg" time="1500"]
 [mask_off time=500]
 ; [fadeinbgm time=1000 storage=nichijo.ogg]
-#奏女
-「…ですって聞きました奥さん？」[p][stopse buf=6]
-#七音
-「やばい。尊すぎて溶けそう。[r]　『洗って返した方が良かったか？』とかいう生活感マジ無理。[r]　夫婦か。教会が来い。というか令人君、今からでも神父になろう。」[p][stopse buf=4]
-#令人
-「七音さんが限界オタクみたいな語彙力に…」[p][stopse buf=5]
-#七音
+#kaname
+「…Did you hear them?」[p][stopse buf=6]
+#nao
+「Oh no. I think I'm going to melt. "Should I have washed it before returning it?" I can't take this. Just like a married couple. We need to go to a church. Reito-kun, become a father for a little bit」[p][stopse buf=4]
+#reito
+「Nao-san, your vocabulary is just like an otaku's…」[p][stopse buf=5]
+#nao
 [n/niko3]
-「だって～、あれはずるいでしょ。今時愛妻弁当作ってくる高校生いる？[r]　美波ちゃん、絶滅危惧種だわ。保護しなきゃ」[p][stopse buf=4]
-#令人
+「I mean, that's not fair. Are there high school students who make lunch boxes for their beloved husbands nowadays? Minami-chan, you are an endangered species. We have to protect her」[p][stopse buf=4]
+#reito
 [r/magao]
-「そりゃ、まあ…」[p][stopse buf=5]
+「Well, yeah…」[p][stopse buf=5]
 [hide][reito_bishou]
-#令人
-「（しかし、美波の弁当一つであんなに…北斗…お前、[r]　心から美波のこと…）」[p][stopse buf=5]
+#reito
+「(But Minami's lunch box was enough to make you… Hokuto… you… you really lo——…)」[p][stopse buf=5]
 #
 [hide][nao_niko]
-#七音
-「奥さん、令人君がなにかかっこいいモノローグ言ってるかのような[r]　ほほえみをたたえてるんですけど。」[p][stopse buf=4]
-#令人
+#nao
+「Miss, Reito-kun is smiling as if he is saying some kind of cool monologue」[p][stopse buf=4]
+#reito
 [reito_komari left=850]
-「ちょ？！」[p][stopse buf=5]
-#奏女
+「Wha?!」[p][stopse buf=5]
+#kaname
 [kaname_bishou left=-80]
-「シ～！2人にばれちゃうでしょ？」[p][stopse buf=6]
+「Shhh! They're going to find out!」[p][stopse buf=6]
 ; [fadeoutbgm time=1000]
 [mask time=500]
 [hide time=0][minami_s_dere left=40 time=0][hokuto_s_magao left=640 time=0]
 [bg2 storage=ongaku.jpg height=1554 top="-200" time=1500]
 [mask_off time=500]
-#美波
-「（どうしようどうしようどうしよう…）」[p][stopse buf=2]
-#北斗
-「（それにしても爺さん、マジでオレたち２人におんなじこと[r]　言ったんだな…あのノリ、2回目だったのかよ…やられたな、これは。[r]　本当に、亀の甲より何とやらだ…）」[p][stopse buf=1]
-#北斗
+#minami
+「(What to do, what to do, what to do…)」[p][stopse buf=2]
+#hokuto
+「(But the old man really said the same thing to both of us… He said that twice… That really was "the older the wiser," wasn't it?…)」[p][stopse buf=1]
+#hokuto
 [hs/metozi]
-「（…やられっぱなしは悔しいからな…そろそろ、[r]　あれを確かめさせてもらおう）」[p][stopse buf=1]
+「(…It's frustrating to keep losing to him… So it's time to check that out.)」[p][stopse buf=1]
 #
 [playse storage=se/paper.ogg buf=8]
-オレは、一綴りのTAB譜を手に取った。[p]
-#美波
+I picked up a single music sheet.[p]
+#minami
 [ms/magao2]
-「…あれ、北斗、それは…？」[p][stopse buf=2]
-#北斗
+「…Hmm? Hokuto, that's…」[p][stopse buf=2]
+#hokuto
 [hs/magao]
-「ああ、ちょっとこの曲、[r]　急いで弾けるようにならないといけなくなったみたいだから。」[p][stopse buf=1]
-#美波
+「Yeah, it's just that I feel like I need to hurry up and learn this song」[p][stopse buf=1]
+#minami
 [ms/magao]
-「？」[p][stopse buf=2]
+「?」[p][stopse buf=2]
 #
-不思議そうな美波を横目に、ギターを構える。[p]
-#北斗
+With a curious Minami at my side, I hold up my guitar.[p]
+#hokuto
 [hs/odoroki]
-「あ、そうだ。美波に聞きたいことがあるんだ。」[p][stopse buf=1]
-#美波
-「なに？」[p][stopse buf=2]
-#北斗
+「Ah, right. I have a question for you, Minami」[p][stopse buf=1]
+#minami
+「What?」[p][stopse buf=2]
+#hokuto
 [hs/magao]
-「前にさ…」[p][stopse buf=1]
+「Before…」[p][stopse buf=1]
 #
 [hide]
-こうして、季節と一緒に少しずつ何かが変わっていきながら、[r]　５月最後の週が始まっていった。[p]
+Thus began the last week of May, with things changing little by little along with the seasons.[p]
 
 [mask graphic="cut/cutin_nao.png" time=1500]
 [wait time=500]

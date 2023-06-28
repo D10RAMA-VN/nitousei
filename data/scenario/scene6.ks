@@ -24,143 +24,143 @@
 *chapter6
 [fadeinbgm storage=bg/river.ogg time=1000]
 #
-そして、美波が5日連続で弁当を作ってくれて、[r]美波の本気さにびっくりしながら、あっという間に土曜日の夜。[p]
-いつも通り美波とともに河川敷に向かう。[p]
-今日は、なんとしても、爺さんに聞かなければならないことがある。[p]
+Then Minami, surprising me with her seriousness, made me a lunch box for the fifth day in a row, and before I knew it, it was Saturday night.[p]
+As usual, along with Minami, I headed to the riverside.[p]
+Today, no matter what, I have to ask the old man something.[p]
 [mask time=500]
 [bg2 storage="kawa_n.jpg" time="500"]
 [minami_s_bishou left=840 time=0][hokuto_s_magao time=0 left=360][seizi_hohoemi left=-195 time=0]
 [mask_off time=500]
-#北斗
-「…爺さん」[p][stopse buf=1]
-#高村
-「ああ、また来たのか。今夜は二人そろっているな」[p][stopse buf=3]
-#美波
-「ええ…」[p][stopse buf=2]
-#高村
+#hokuto
+「…Old man」[p][stopse buf=1]
+#seizi
+「Ah, there you are. I see you're both here tonight」[p][stopse buf=3]
+#minami
+「Yeah…」[p][stopse buf=2]
+#seizi
 [s/hohoemi2]
-「仲直りできたようで、何よりだよ。」[p][stopse buf=3]
-#北斗
-「それに関しては感謝するよ、爺さん。」[p][stopse buf=1]
-#美波
+「I'm glad you were able to reconcile」[p][stopse buf=3]
+#hokuto
+「Thanks for your help on that, old man」[p][stopse buf=1]
+#minami
 [ms/magao2]
-「それで、何してるんですか？」[p][stopse buf=2]
-#高村
+「So, what are you doing?」[p][stopse buf=2]
+#seizi
 [s/hohoemi]
-「なに、野良猫にちょいとかつぶしなどやっていたところだ。」[p][stopse buf=3]
+「I was just giving a stray cat a bit of food」[p][stopse buf=3]
 #
 [hide][bg2 storage="kawa_n.jpg" width=2300 height=1294 left=-170 top=-220 time="500"]
-見れば、[r]白い野良猫がかがんだ爺さんの手から鰹節や煮干しをほおばっていた。[p]
-#北斗
+I saw a white stray cat scarfing down dried bonito flakes out of the old man's hand as he crouched down.[p]
+#hokuto
 [hs_odoroki]
-「ちょ、ダメじゃないですか、野良猫に餌なんかあげちゃ。」[p][stopse buf=1]
+「Hey, you can't feed stray cats, can you?」[p][stopse buf=1]
 [mhhide]
-#高村
+#seizi
 [s_kuti]
-「はは、まあそうなんだがな。こいつ、あの鉄橋の下を住処にしてるのか、[r]　時折出てくるんだよ。…こんな器量のいいやつが、な。」[p][stopse buf=3]
+「Ha, well, that's true. This fellow lives under that railroad bridge. He comes out from time to time. …Such a good-looking cat」[p][stopse buf=3]
 [mshide]
-#美波
+#minami
 [ms_kanasimi]
-「…ホント、かわいいですね。それに、なんだか外国産の品種みたい。」[p][stopse buf=2]
+「…It's really cute. Also, it looks kind of like a foreign breed」[p][stopse buf=2]
 [mmhide]
-#高村
+#seizi
 [s_kanasimi]
-「こんなのが元々ノラのわけがない。大方人に捨てられたんだろう。[r]　そんなやつが、まともにエサ取りなどできないだろうと思ってな。」[p][stopse buf=3]
+「There is no way that it was originally a stray. It must have been abandoned by someone. I thought it would be impossible for a cat like that to feed itself properly」[p][stopse buf=3]
 [mshide]
-#北斗
+#hokuto
 [hs_magao]
 「…」[p][stopse buf=1]
 [mhhide]
-#高村
+#seizi
 [s_hohoemi]
-「…おお、あとは巣に持ち帰るのか？落とすなよ」[p][stopse buf=3]
+「…Oh, you want to take the rest back to your den? Don't drop it!」[p][stopse buf=3]
 [mshide]
 #
 [playse storage=se/cat.ogg buf=8]
-爺さんが言い切る前に、ネコは鉄橋の方へかけていった。[p]
+Before the old man could finish, the cat took off toward the railroad bridge.[p]
 [bg2 storage="kawa_n.jpg" time="500"]
 [hokuto_s_magao left=680 wait=false][seizi_hohoemi left=-35]
-#高村
-「さて、今日はどのあたりを眺めようか。」[p][stopse buf=3]
-#北斗
+#seizi
+「Now, let's look around today」[p][stopse buf=3]
+#hokuto
 [hs/metozi]
-「…その前に、ちょっと聞きたいことがあるんですけど。」[p][stopse buf=1]
-#高村
-「なにかね。」[p][stopse buf=3]
+「…Before we get to that, I just have a couple of questions」[p][stopse buf=1]
+#seizi
+「What do you want to know?」[p][stopse buf=3]
 #
 [hide][hokuto_s_magao]
-#北斗
-「…爺さんが探してる星の名前、教えてくれませんか。」[p][stopse buf=1]
+#hokuto
+「…Can you tell me the name of the star you are looking for, old man?」[p][stopse buf=1]
 [vostop]
 #
 [hide][seizi_magao]
-#高村
-「…！」[p]
+#seizi
+「…!」[p]
 [vostart]
 #
 [hide][hokuto_s_magao]
-#北斗
-「そろそろ、教えて欲しいです。爺さんがどんな星を探しているのか。」[p][stopse buf=1]
+#hokuto
+「It's time for you to tell us. What kind of star are you looking for, old man?」[p][stopse buf=1]
 #
 [seizi_metozi]
-#高村
-「…星に名前をつけるのは、見つけてからと相場が決まっている」[p][stopse buf=3]
-#北斗
+#seizi
+「…We name the stars after we find them. That's how it works in this community」[p][stopse buf=3]
+#hokuto
 [hs/iradati]
-「じゃあ質問を変えます。[r]　…その星は、二等星で、爺さんにしか見えない星なんじゃないですか？」[p][stopse buf=1]
-#高村
+「Then I'll change the question. …That star is a second star that only you can see, isn't it?」[p][stopse buf=1]
+#seizi
 [s/mu]
-「…なぜそう思うのかね。」[p][stopse buf=3]
-#北斗
+「…Why do you think that?」[p][stopse buf=3]
+#hokuto
 [hs/magao]
-「こういうことですよ。」[p][stopse buf=1]
+「Because of this」[p][stopse buf=1]
 [stopbgm]
 #
 [hide][fadeinbgm time=1000 storage=nitousei.ogg]
-そういってオレは、持ってきたギターを弾き始めた。[p][vostop]
+With that, I started playing the guitar I had brought with me.[p][vostop]
 [seizi_magao]
-#高村
+#seizi
 「…」[p][vostart]
 #
-爺さんの視線を感じる。[p]
-爺さんはいきなりギターを弾き始めたオレに驚くでもなく、[r]演奏を聴いている。[p]
-…オレの予想は、間違っていないらしい。[p]
-オレはワンコーラスを弾き終わると、爺さんに問いかけた。[p][fadeoutbgm time=1000]
+I can feel the old man's eyes on me.[p]
+The old man is listening to the performance, not surprised that I suddenly started playing the guitar.[p]
+…I guess I was right.[p]
+After I finished playing the first chorus, I questioned the old man…[p][fadeoutbgm time=1000]
 [hide][hokuto_s_magao]
-#北斗
-「前に爺さんが弾いてた曲。これが答えでしょう？」[p][stopse buf=1][vostop]
-#高村
+#hokuto
+「The song the old man was playing before. That's the answer, right?」[p][stopse buf=1][vostop]
+#seizi
 [s_magao]
 「……」[p][vostart]
 [mshide]
-#北斗
+#hokuto
 [hs/bishou]
-「1980年リリース、「二等星になって」。[r]　作詞、歌、北野夕子。作曲、高村星司。」[p][stopse buf=1]
-#北斗
-「…爺さん、この曲あんたが作った曲なんでしょう？」[p][stopse buf=1]
-#高村
+「Released in 1980, "Becoming a Second Star."　Lyrics and song by Yuko Kitano. Composed by S[ruby text=星]eij[ruby text=司]i Takamura」[p][stopse buf=1]
+#hokuto
+「…Old man, you composed this song, didn't you?」[p][stopse buf=1]
+#seizi
 [seizi_metozi]
-「…まさか、単なる偶然の一致だよ。[r]　似たような名前のやつが書いた曲だとは知っていたけどね。」[p][stopse buf=3]
-#北斗
+「…No way, just a coincidence. I knew the song was written by a guy who had a similar name」[p][stopse buf=3]
+#hokuto
 [hs/akire]
-「ペンネームが本名の下の名前の漢字いじっただけとか、[r]　ごまかせると本当に思ってる？」[p][stopse buf=1]
-#高村
+「Do you really think you can fool us with a pen name that simply changes the kanjis of your first name?」[p][stopse buf=1]
+#seizi
 [s/hohoemi]
-「いやいや。…しかし、なんでそのように思ったのかな？」[p][stopse buf=3]
-#北斗
+「No, no. …But why did you assume that?」[p][stopse buf=3]
+#hokuto
 [hs/magao]
-「この前に爺さんがお手本でこの曲弾いてくれてた時、[r]　爺さんがすごく手慣れてたから。」[p][stopse buf=1]
-#北斗
-「それに、昔は都会で仕事してたって言ってたでしょ？[r]　それって、作曲家として活動してたからじゃないの？」[p][stopse buf=1]
-#高村
+「When you were playing this song for me as a demonstration the other day, you were very good at it」[p][stopse buf=1]
+#hokuto
+「Besides, you said you used to work in the city. Isn't that because you were working as a composer?」[p][stopse buf=1]
+#seizi
 [s/hohoemi2]
-「…まさか。」[p][stopse buf=3]
-#北斗
+「…Of course not」[p][stopse buf=3]
+#hokuto
 [hs/kanasimi]
-「それだけじゃない。この曲…最近、[r]　部活でこの曲弾くことになったんですけど、[r]　ずっとひっかかってて。」[p][stopse buf=1]
+「That's not all. This song… We have been playing this song in our club recently, and it's been stuck with me」[p][stopse buf=1]
 [voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_416_{number}.ogg" number=1 ]
-#北斗
-「でもなんか懐かしさみたいなものを感じたんだ。[r]　それが何だったのか、ずっと思い出せなかったんだけど…」[p][stopse buf=1][voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=417 ]
+#hokuto
+「But I felt some kind of nostalgia. I couldn't remember what it was for the longest time…」[p][stopse buf=1][voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=417 ]
 [mask time=500]
 [hide time=0]
 [kaisou]
@@ -169,33 +169,33 @@
 [filter sepia=50]
 [wait time=100]
 [mask_off time=500]
-#北斗
+#hokuto
 [hs_bishou]
-「…昔ガキのころ、[r]　親父と病院のロビーでTV見てたらさ、歌番組やってたんだよ。[r]　一昔前、団塊ジュニア向けに７０～８０年代歌謡曲特集とか多くてさ。」[p][stopse buf=1]
+「…When I was a kid, my father and I were watching TV in the hospital and there was this show. A long time ago, there were a lot of specials on songs from the '70s and '80s for second-generation baby boomers」[p][stopse buf=1]
 [mhhide]
-#美波
+#minami
 [ms_kanasimi]
 「……」[p][stopse buf=2]
 [mmhide]
-#北斗
+#hokuto
 [hs_magao]
-「それで、この曲が流れてたんだ。なんか解説もついてたよ。[r]　北野夕子、人気絶頂の中突然活動休止、[r]　その数年後病気で亡くなった伝説のシンガー、とかなんとか。」[p][stopse buf=1]
-#北斗
-「調べたらこの曲は、その北野夕子の最後の楽曲なんでしょう？」[p][stopse buf=1][vostop]
+「And this song was playing. And they explained. Yuko Kitano, a legendary singer who suddenly went on hiatus at the height of her popularity, died of an illness a few years later, or something like that」[p][stopse buf=1]
+#hokuto
+「I looked it up and found that this is the last song by Yuko Kitano, right?」[p][stopse buf=1][vostop]
 [mhhide]
-#高村
+#seizi
 [s_magao]
 「……」[p][vostart]
 [mshide]
-#北斗
+#hokuto
 [hs_kanasimi]
-「この曲、自分が死んでも、北極星みたいな二等星の星になって[r]　愛する人を見守っていたいって曲だろ？」[p][stopse buf=1]
-#北斗
-「オレの親父も病気で死にかけてたからさ、泣きながら聴いてたよ。[r]　…ここ最近まで、ずっと忘れてたけど。でも、やっと思い出したんだ。」[p][stopse buf=1]
+「This song is about becoming a second star like Polaris and watching over your loved ones even after you die, right?」[p][stopse buf=1]
+#hokuto
+「My dad was sick and dying, too, so I listened to it while I cried. I forgot about it until recently. But I finally remembered…」[p][stopse buf=1]
 [mhhide]
-#美波
+#minami
 [ms_magao]
-「…北斗。」[p][stopse buf=2]
+「…Hokuto」[p][stopse buf=2]
 [mmhide]
 [mask time=500]
 [fkaisou]
@@ -204,117 +204,117 @@
 [wait time=100]
 [bg2 storage="kawa_n.jpg" time="200"]
 [mask_off time=500]
-#北斗
-「…なあ爺さん、奥さんがいるって言ってたよな。[r]　あんたが探してる星ってのは、その奥さん…病死した歌手、[r]　北野夕子その人じゃないのか？」[p][stopse buf=1]
+#hokuto
+「…Hey, old man, you said you had a wife. Isn't the star you're looking for that wife of yours, the singer who died from an illness, Yuko Kitano?」[p][stopse buf=1]
 #
 [hide][seizi_hohoemi2]
-#高村
-「…なかなかロマンティックな推理だが、馬鹿げているな。[r]　なんの証拠もない。」[p][stopse buf=3]
+#seizi
+「…It's quite a romantic theory, but it's ridiculous. You have no proof」[p][stopse buf=3]
 #
-…ここまでの反応は概ね想定通り。[p]
-だから、爺さんにはもう一手を受けてもらう。[r]…自分でも、卑怯だと思う一手を。[p]
+…The reaction so far has mostly been what I expected.[p]
+So, I'll give the old man one more thing. …A move that I, myself, think is unfair.[p]
 [hide][hokuto_s_metozi]
-#北斗
-「証拠か。じゃあ、もう一つくらい証拠を示せば、[r]　本当のこと教えてくれる？」[p][stopse buf=1]
-#高村
+#hokuto
+「Proof, huh? So, if I show you one more piece of evidence, will you tell me the truth?」[p][stopse buf=1]
+#seizi
 [s_magao]
-「…なに？」[p][stopse buf=3]
+「…What?」[p][stopse buf=3]
 [mshide]
-#北斗
+#hokuto
 [hs/magao]
-「…北野夕子が、息を引き取った病院。」[p][stopse buf=1][vostop]
-#高村
+「…The hospital where Yuko Kitano drew her last breath」[p][stopse buf=1][vostop]
+#seizi
 [s_mu]
-「…！」[p][vostart]
+「…!」[p][vostart]
 [mshide]
-#北斗
-「北野夕子が都内の病院に入院するなんて、[r]　すぐマスコミにすっぱ抜かれちゃうからな。[r]　だから、北野夕子は亡くなるまで田舎の病院に入院してた。」[p][stopse buf=1]
+#hokuto
+「It would be easily exposed by the media if Yuko Kitano was hospitalized in a hospital in Tokyo. That's why Yuko Kitano was hospitalized in a rural hospital until she passed away」[p][stopse buf=1]
 [vostop][playse storage=hokuto/hokuto_425_2.ogg loop=false buf=1]
-#北斗
+#hokuto
 [hs/metozi]
-「その田舎の病院の名前は、来瀬診療所…昔この町で美波のじいちゃんが[r]　やってた、まだ小さかった頃の病院だ。」[p][stopse buf=1][vostart]
+「The name of that rural hospital is the Kuruse General Hospital… A hospital that Minami's grandfather ran in this town a long time ago, when it was still small」[p][stopse buf=1][vostart]
 #
 [hide][minami_s_kanasimi left=680 wait=false][seizi_kanasimi left=-35]
-#高村
-「…美波君。」[p][stopse buf=3]
-#美波
+#seizi
+「…Minami-kun」[p][stopse buf=3]
+#minami
 [ms/oogoe]
-「ごめんなさい！こんなことして…でも、昔祖父から聞いたことがあって。[r]　まだ小さい診療所だったころ、[r]　TVに出るような歌手が入院してきたことがあったって。」[p][stopse buf=2]
-#美波
-「それで、世間に知られないように、[r]　働いてる看護婦さんやほかの患者さんたちにも絶対口外しないように[r]　お願いして回って大変だったって。」[p][stopse buf=2]
-#美波
-「…その歌手が誰か、っていうのは、教えてくれなかったんですけど。」[p][stopse buf=2]
+「I'm sorry! I didn't mean to do this… But my grandfather once told me something. When it was still a small clinic, a famous TV singer was once admitted to the hospital」[p][stopse buf=2]
+#minami
+「He had to go around asking the nurses and other patients to keep it a secret so that the world would not know」[p][stopse buf=2]
+#minami
+「…He didn't tell me who the singer was」[p][stopse buf=2]
 #
 [hide][hokuto_s_magao]
-#北斗
-「その歌手の人はペアを組んでた作曲家と結婚してて、[r]　旦那さんの必死な献身ぶりを見てなんとか治してやりたかったけど、[r]　設備も時間も何もかも足りなくて、」[p][stopse buf=1]
-#北斗
-「3年ちょっと生きながらえさせるのが精一杯だったってとこまでは[r]　美波のじいちゃんが教えてくれてた…。」[p][stopse buf=1]
-#北斗
-「ここまでの証拠から、オレはあんたがあの曲の作曲家で、[r]　北野夕子の旦那さんだって思ったんだけど、…違う？」[p][stopse buf=1][vostop]
-#高村
+#hokuto
+「The singer was married to the composer with whom she was paired, and she wanted to do something to fix her husband's desperate devotion, but she didn't have enough equipment, time, or anything else」[p][stopse buf=1]
+#hokuto
+「Minami's grandfather told her that he only managed to keep her alive for a little over three years…」[p][stopse buf=1]
+#hokuto
+「From the evidence so far, I concluded that you were the composer of that song and Yuko Kitano's husband… Am I wrong?」[p][stopse buf=1][vostop]
+#seizi
 [seizi_metozi]
 「……」[p][vostart]
-#北斗
+#hokuto
 [hs/kanasimi]
-「…追い打ちをするようで申し訳ないけど、もう一つだけ。」[p][stopse buf=1]
-#北斗
-「当時の雑誌の取材で、趣味は何かと聞かれたとき、[r]　北野夕子は星を眺めるのが好きで、[r]　休みには天体観測や天文台に遊びに行くと答えていた…」[p][stopse buf=1]
-#高村
+「…Sorry to keep on pushing you, but I just have one more thing」[p][stopse buf=1]
+#hokuto
+「When asked in a magazine interview at the time what her hobbies were, Yuko Kitano replied that she loved stargazing and would go on vacation to look at stars and visit observatories…」[p][stopse buf=1]
+#seizi
 [s/magao]
-「…よくそんなことまで調べたものだな。」[p][stopse buf=3]
-#北斗
+「…I'm surprised you even looked into that」[p][stopse buf=3]
+#hokuto
 [hs/magao]
-「今時ネットで調べればこの程度の情報はすぐわかるよ。」[p][stopse buf=1]
-#北斗
-「…爺さん。ぶっちゃけ、[r]　オレが今まで言ってきたことは全部状況証拠に過ぎないんだけど…」[p][stopse buf=1]
-#高村
+「You can easily find this kind of information on the internet nowadays」[p][stopse buf=1]
+#hokuto
+「…Old man. To be honest, everything I've said so far is just circumstantial evidence…」[p][stopse buf=1]
+#seizi
 [s/kanasimi]
-「…ああ、北斗君、キミの言うとおりだ。あの曲を書いたのは私だ。[r]　そして、北野夕子は、私の家内だ。」[p][stopse buf=3]
-#北斗
+「…Yes, Hokuto-kun, you're right. I wrote that song. And Yuko Kitano was my wife」[p][stopse buf=3]
+#hokuto
 [hs/kanasimi]
-「…やっぱり。」[p][stopse buf=1]
+「…I knew it」[p][stopse buf=1]
 [fadeinbgm storage=seiji.ogg time=1000]
 #
 [hide][seizi_metozi]
-#高村
-「北野夕子。本名は高村裕子。キミの調べた通り、[r]　彼女の曲を私が書いて、彼女が歌う…そんなことをやっていた。[r]　…もう４０年近く前の話か。」[p][stopse buf=3]
-#高村
+#seizi
+「Yuko Kitano. Her real name was Yuko Takamura. As you have researched, I wrote her songs and she sang them… That's what we did. …That was almost 40 years ago」[p][stopse buf=3]
+#seizi
 [s/kanasimi]
-「あいつは乳がんでな…少しご縁があったから、[r]　来瀬先生にお願いしてあの診療所に置いてもらったんだ。[r]　摘出手術なり色々来瀬先生にやってもらった」[p][stopse buf=3]
-#美波
+「She had breast cancer… I had some connections, so I asked Dr. Kuruse to put her in that clinic. Dr. Kuruse helped me with the surgery and all that」[p][stopse buf=3]
+#minami
 [ms_magao]
 「…」[p][stopse buf=2]
 [mmhide]
-#高村
+#seizi
 [s/hohoemi2]
-「…初めて君たちに会った時には、気づかなかったがね。[r]　…君たちの父親たちの話を聞いて、驚いたよ。[r]　まさか、美波君はあの来瀬先生の孫娘だとはね。」[p][stopse buf=3]
-#美波
+「…I didn't realize it when I first met you guys, though. …I was surprised when I heard about your fathers. I never would have guessed that Minami-kun is the granddaughter of that Dr. Kuruse」[p][stopse buf=3]
+#minami
 [ms_kanasimi]
-「…その、祖父が申し訳ありません…」[p][stopse buf=2]
+「…Well, apologies about my grandfather…」[p][stopse buf=2]
 [mmhide]
-#高村
+#seizi
 [s/hohoemi]
-「いや、キミが気に病むことはない。それに、先生も言っていた。[r]　こんな地方の小さな診療所でいいのかと。[r]　もっと設備が良い、都会の病院の方がいいんじゃないかとね。」[p][stopse buf=3]
-#高村
-「それに無理を言ったのは私たちだ。」[p][stopse buf=3]
-#北斗
+「No, you don't have to worry about it. Besides, the doctor said, "I don't think a small clinic in a rural area like this is a good idea." "I think a hospital in the city with better facilities would be better."」[p][stopse buf=3]
+#seizi
+「And we were the ones who pushed for it」[p][stopse buf=3]
+#hokuto
 [hs_kanasimi]
-「…そこまでして、隠さないといけなかった。」[p][stopse buf=1]
+「…You had to go that far just to hide」[p][stopse buf=1]
 [mhhide]
-#高村
+#seizi
 [s/hohoemi2]
-「それもそうだが、それだけでもない。[r]　探偵ごっこにしては詰めが甘いな、北斗君。」[p][stopse buf=3]
-#北斗
+「You're right, but that's not all. You're still young to be playing detective, Hokuto-kun」[p][stopse buf=3]
+#hokuto
 [hs_magao]
-「え？」[p][stopse buf=1]
+「Eh?」[p][stopse buf=1]
 [mhhide]
-#高村
+#seizi
 [s/kuti]
-「私は前にキミに言ったはずだがな。この町は星がよく見えると。」[p][stopse buf=3]
-#北斗
+「I told you before. You can easily see the stars in this town」[p][stopse buf=3]
+#hokuto
 [hs_odoroki]
-「…！」[p][stopse buf=1]
+「…!」[p][stopse buf=1]
 [mhhide]
 #
 
@@ -326,18 +326,18 @@
 [filter sepia=50]
 [mask_off time=500]
 
-#高村
-「裕子がな、ここがいいと言ったんだ。[r]　どうせ療養するなら、病室からきれいな星が見える病院がいいと。[r]　…実際、あいつは夜になると窓からよく星を見ていたよ。」[p][stopse buf=3]
+#seizi
+「Yuko told me that this was the place for her. "If I am going to stay here, I would like to stay in a hospital where I can see beautiful stars." And she used to look at the stars from her window at night」[p][stopse buf=3]
 [mshide]
-#北斗
+#hokuto
 [hs_magao]
 「……」[p][stopse buf=1]
 [mhhide]
-#高村
+#seizi
 [s_kanasimi]
-「だが、2年半して肺に転移してしまって、[r]　それから一気に体力を落としていってな…」[p][stopse buf=3]
+「But after two and a half years, the cancer metastasized to her lungs, and then she lost a lot of her strength…」[p][stopse buf=3]
 [mshide]
-#美波
+#minami
 [ms_kanasimi]
 「…」[p][stopse buf=2]
 [mask time=500]
@@ -348,223 +348,223 @@
 [wait time=100]
 [bg2 storage=kawa_n.jpg time=200]
 [mask_off time=500]
-#高村
-「…私は一人残され、裕子はお星さまになってしまったよ。」[p][stopse buf=3]
-#北斗
+#seizi
+「…I was left alone, and Yuko became a star…」[p][stopse buf=3]
+#hokuto
 [hs_magao]
 「…」[p][stopse buf=1]
 [mhhide]
-#高村
+#seizi
 [s/metozi]
-「一人になり、また曲を書き始めようかと思ったが、[r]　どうしても思いつかん。仕事をしなければとわかっていても、[r]　裕子ではない誰かが歌うと思うと、どうしても書けなかった。」[p][stopse buf=3]
-#北斗
+「I was alone and thought about starting to write songs again, but I just couldn't think of anything. Even though I knew I had to work, I just couldn't write thinking someone else would be singing not Yuko」[p][stopse buf=3]
+#hokuto
 [hs_kanasimi]
-「…奥さんのためじゃないと、書けない…」[p][stopse buf=1]
+「…You can't write if it's not for your wife…」[p][stopse buf=1]
 [mhhide]
-#高村
+#seizi
 [s/mu]
-「ああ。裕子のことを思う曲なら書けるかと思ったが、[r]　…考えれば考えるほど、喪失感に苛まれるばかりだった。」[p][stopse buf=3]
-#高村
-「私は何もできなくなった。仕事も、なにもかも、[r]　一人でいるのが辛かった。」[p][stopse buf=3]
-#高村
-「だから、一度は裕子の後を追い、自殺することも考えた。だが…」[p][stopse buf=3]
-#高村
+「Yeah. I thought I could write a song about Yuko, but… The more I thought about it, the more I felt lost」[p][stopse buf=3]
+#seizi
+「I couldn't do anything. Work or anything else, it was hard for me to be alone」[p][stopse buf=3]
+#seizi
+「So at one point I thought about following Yuko and killing myself. But…」[p][stopse buf=3]
+#seizi
 [s/magao]
-「ナイフを手首に向けたとき。…その刃先に、星の光が映ったんだ。」[p][stopse buf=3]
-#北斗
+「When I pointed the knife at my wrist. …I saw a reflection of starlight on the knife's edge」[p][stopse buf=3]
+#hokuto
 [hs_magao]
-「星の光？」[p][stopse buf=1]
+「Starlight?」[p][stopse buf=1]
 [mhhide]
-#高村
+#seizi
 [s/metozi]
-「ああ、冷静に考えれば、夜空の星のような弱い光がナイフの刃に反射して[r]　みえるはずがない。ただナイフが適当な光を反射しただけか、[r]　あるいはただの幻覚だったのかもしれない。」[p][stopse buf=3]
-#高村
-「だが、その時の私には確かに一点の、淡くも優しい、[r]　ちょうど二等星ほどの光が見えた。」[p][stopse buf=3]
-#高村
+「Yeah, if you think about, a light as weak as a star in sky couldn't reflect on the blade of a knife. It could be that the knife just reflected on some random light, or just a simple hallucination」[p][stopse buf=3]
+#seizi
+「But at that moment, I did indeed see a single point of light, faint but soft, as bright as a second star」[p][stopse buf=3]
+#seizi
 [s/kanasimi]
-「その光が、まるで星になった裕子がやめろと言っているように感じてな…[r]　それからだ。夜になるたび、こうして星空を眺めるようになったのは。」[p][stopse buf=3]
-#高村
-「この夜空のどこかに、確かに裕子がいるはずだと、[r]　ついつい探し求めてしまうのだよ。」[p][stopse buf=3]
-#美波
+「That light felt as if it was Yuko, who had become a star, telling me to stop… That's when I started. Every night, I began to look at the starry sky like this」[p][stopse buf=3]
+#seizi
+「Somewhere in this night sky, I am sure that Yuko is there, and I am always looking for her」[p][stopse buf=3]
+#minami
 [ms_kanasimi]
-「高村さん…」[p][stopse buf=2]
+「Takamura-san…」[p][stopse buf=2]
 [mmhide]
-#高村
+#seizi
 [s/metozi]
-「馬鹿げていると思っているだろう、美波君。…私にだってわかっている。[r]　不毛な真似をしているとな。」[p][stopse buf=3]
-#高村
-「だが…そうでもしなければ、私は生きていられなかったんだ。」[p][stopse buf=3]
+「You must think I'm an idiot, Minami-kun. …I know it, too. I know I'm doing a stupid thing」[p][stopse buf=3]
+#seizi
+「But… If I didn't, I wouldn't be alive」[p][stopse buf=3]
 [fadeoutbgm time=1000]
 [fadeinbgm storage=bg/river.ogg time=1000]
 #
 [move name=seizi left=-195 wait=true][hokuto_s_magao left=360]
-#北斗
-「…ちょっとわかるよ、爺さんの気持ち。[r]　というか、これも爺さんに教えられたようなもんだけど。」[p][stopse buf=1]
-#北斗
-「…絶対に手放したくない人、[r]　そばにいてくれないと困ってしまうような人って、いるんだよな。」[p][stopse buf=1]
-#北斗
-「そんな人が、本当に手が届かないところに行ってしまったら…[r]　オレだってどうなっちゃうか、わからない」[p][stopse buf=1]
-#美波
+#hokuto
+「…I kinda understand how you feel, old man. I mean, that's kind of what you told me」[p][stopse buf=1]
+#hokuto
+「…There are people that you never want to let go of, people that need to be there for you or you'll be in trouble」[p][stopse buf=1]
+#hokuto
+「If someone like that really left me completely… I don't know what I would do」[p][stopse buf=1]
+#minami
 [minami_s_magao2 left=840]
-「北斗…？」[p][stopse buf=2]
-#北斗
+「Hokuto…?」[p][stopse buf=2]
+#hokuto
 [hs/kanasimi]
-「…オレ、何で初めて爺さんを見つけた時、[r]　声をかけずにはいられなかったのか、わかったよ。」[p][stopse buf=1]
-#北斗
-「…あの時の爺さん、本気で何か探そうと、求めようとしてた。[r]　自分に必要なもの、かけがえのないものを。」[p][stopse buf=1]
-#北斗
-「…オレにはその時、そういうものがなかったから。[r]　だから、爺さんに惹かれたんだと思う。」[p][stopse buf=1]
-#高村
+「…I now know the reason why I couldn't resist talking to you the first time I saw you」[p][stopse buf=1]
+#hokuto
+「…At that time, you were really trying to find something, looking for something. Something that you needed, something irreplaceable」[p][stopse buf=1]
+#hokuto
+「…I think I was drawn to you because I didn't have anything like that at the time」[p][stopse buf=1]
+#seizi
 [s/mu]
-「…キミには、見つかったのか？」[p][stopse buf=3]
-#北斗
+「…Did you find it?」[p][stopse buf=3]
+#hokuto
 [hs/akire]
-「爺さん、それ愚問だってわかってるだろ。」[p][stopse buf=1]
+「Old man, you know you're asking a silly thing」[p][stopse buf=1]
 #
-まるで、先週の問答の立場が逆転したように思えて、[r]オレは少し茶化した。[p]
-…もっとも、何を見つけたかって言われると、[r]まだうまく言葉にできないのをごまかしたのもあるけど。[p]
-#高村
+I was a bit embarrassed, because it seemed as if our positions were reversed from our last meeting.[p]
+…But if you ask me what I found, I have to admit that I can't quite put it into words yet, so I had to lie a little bit.[p]
+#seizi
 [s/hohoemi2]
-「…そうだな。」[p][stopse buf=3]
+「…Yeah」[p][stopse buf=3]
 #
-この問答をおかしく思ったのか、オレの内心に気づいたのか、[r]爺さんは少し笑ってくれた。[p]
-#北斗
+I don't know if he thought this response was funny, or if he noticed my inner thoughts, but he laughed a little.[p]
+#hokuto
 [hs/bishou]
-「ま、爺さんのそういうとこ、嫌いじゃないけど。」[p][stopse buf=1]
-#美波
+「Well, I don't hate that part of you, old man」[p][stopse buf=1]
+#minami
 [ms/magao2]
-「…なんの話？」[p][stopse buf=2]
-#北斗
+「…What are you talking about?」[p][stopse buf=2]
+#hokuto
 [hs/magao]
-「なんでもない。[r]　…さて、爺さん、あんまり根ほり葉ほり聞いて悪かった。」[p][stopse buf=1]
-#高村
+「Nothing. Well, old man, I'm sorry for asking so many questions」[p][stopse buf=1]
+#seizi
 [s/magao]
-「全くだ。随分人のプライベートに踏み込んできおって。」[p][stopse buf=3]
-#北斗
+「That's for sure. You're really getting into my private life」[p][stopse buf=3]
+#hokuto
 [hs/bishou]
-「お詫びといっちゃなんだけど…最後まで付き合うよ、お星さま探し。」[p][stopse buf=1]
-#高村
+「Let me apologize… I'll stay with you until the end, looking for that star」[p][stopse buf=1]
+#seizi
 [s/mu]
-「…何？」[p][stopse buf=3]
-#美波
+「…What?」[p][stopse buf=3]
+#minami
 [ms/kanasimi]
-「北斗？だって、その、探す星って…」[p][stopse buf=2]
-#北斗
-「うん。奥さんのこと。でもそれは流石に見つけられないから、[r]　代わりに、俺たちも見つけられるかもしれないもの。」[p][stopse buf=1]
-#高村
+「Hokuto? But, you know, the star we're looking for…」[p][stopse buf=2]
+#hokuto
+「Yup. His wife. But since he can't find it, maybe we can find it something for him」[p][stopse buf=1]
+#seizi
 [s/kanasimi]
-「代わりに見つけられるもの…？」[p][stopse buf=3]
-#北斗
+「Something we can find…?」[p][stopse buf=3]
+#hokuto
 [hs/metozi]
-「まあ、あんまりにも大それたものかもしれないけど…[r]　爺さんが楽しいと思うこととか、好きなこととか、元気になることとか、[r]　なんでも。だから、つまり…」[p][stopse buf=1]
-#高村
+「Well, maybe not something too grandiose… Something he enjoys, something he likes, something that cheers him up… Anything. So, you know, I mean…」[p][stopse buf=1]
+#seizi
 [s/magao]
-「…北斗君、それは…」[p][stopse buf=3]
-#北斗
+「…Hokuto-kun that's…」[p][stopse buf=3]
+#hokuto
 [hs/egao]
-「…へへ。」[p][stopse buf=1]
+「…Hehe」[p][stopse buf=1]
 #
-…人が生きていくために、きっと必要なもの。[p]
-ちょっと前までのオレも爺さんも、見失っていたもの。[p]
-生きていくための、星（めあて）。[p]
-あるいは、生きがいと呼ばれるもの。[p]
-それは本来、押し売りするようなものじゃない。だから。[p]
-#高村
+…Something that people will surely need in order to live.[p]
+Something both me and the old man had lost sight of just a while ago.[p]
+A star to live by, a guide.[p]
+Or perhaps something we call a purpose in life.[p]
+That is not inherently intrusive. So…[p]
+#seizi
 [s/metozi]
-「…北斗君、本当にキミは傲慢だな。」[p][stopse buf=3]
+「…Hokuto-kun, you really are arrogant」[p][stopse buf=3]
 #
-少々厳しい言葉をいただいた。それでも。[p]
-#北斗
+I got a few harsh words. But even so…[p]
+#hokuto
 [hs/egao2]
-「へへ、すいません。でも、あんまりにも色んな事聞きすぎたから[r]　お詫びもしたいし、お礼もしたいし。」[p][stopse buf=1]
-#北斗
-「とにかく何かしたいんだよ。このままじゃオレ、くいのこりだ。」[p][stopse buf=1]
-#高村
+「Hehe, I'm sorry. But I asked too many things, so I want to apologize and express my gratitude」[p][stopse buf=1]
+#hokuto
+「I just want to do something. If I don't do something, I'm going to end up with knots in my throat」[p][stopse buf=1]
+#seizi
 [s/mu]
-「くいのこり…？」[p][stopse buf=3]
-#美波
+「Knots in your throat…?」[p][stopse buf=3]
+#minami
 [ms/odoroki]
-「ああ、悔いが残るってことです。」[p][stopse buf=2]
-#高村
+「Yeah, it means he'll have regrets」[p][stopse buf=2]
+#seizi
 [s/magao]
-「ああ、いわゆる若者言葉か」[p][stopse buf=3]
+「Ah, the so-called youth lingo」[p][stopse buf=3]
 ;美波呆れから真顔
-#美波
+#minami
 [ms/magao]
-「いやちょっと違うんですけど…でも、私も高村さんのために、[r]　なにかしたいです。何ができるかはわからないけど…」[p][stopse buf=2]
-#高村
+「It's a little different… But I want to do something for Takamura-san. I just don't know what I could do…」[p][stopse buf=2]
+#seizi
 [s/hohoemi2]
-「君たち…」[p][stopse buf=3]
-#北斗
+「You guys…」[p][stopse buf=3]
+#hokuto
 [hs/magao]
-「何ができるかは、まだ何も思いついてないんだけど…とにかく、来週も、[r]　ここで、星を見たり、ギター弾いたり…何か一緒に食べるのもいいな。[r]　そうだ、美波、弁当作ってこいよ。」[p][stopse buf=1]
-#美波
+「I have no idea what we could do… But I'll be here again next week, stargazing, playing the guitar… Maybe we could have something to eat together. Oh yeah, Minami, make us something to eat」[p][stopse buf=1]
+#minami
 [ms/magao2]
-「え～、まだ料理は自信ないけど、頑張ってみる…」[p][stopse buf=2]
-#高村
+「Eh… I'm still not confident in my cooking, but I'll try my best…」[p][stopse buf=2]
+#seizi
 [s/hohoemi]
-「…気持ちはうれしいが、それは、無理な相談だな。[r]　それにしばらくこの集まりもお休みだ。」[p][stopse buf=3]
-#北斗
+「…I'm glad you feel that way, but that's an unreasonable request. Besides, we're taking a break from this gathering for a while」[p][stopse buf=3]
+#hokuto
 [hs/aseri]
-「え、なんでだよ。」[p][stopse buf=1]
-#高村
+「Eh? Why?」[p][stopse buf=1]
+#seizi
 [s/magao]
-「北斗君、天気予報は見ていないのか？」[p][stopse buf=3]
-#北斗
+「Hokuto-kun, have you not seen the weather forecast?」[p][stopse buf=3]
+#hokuto
 [hs/akire]
-「天気？」[p][stopse buf=1]
-#美波
+「Weather?」[p][stopse buf=1]
+#minami
 [ms/odoroki]
-「あ、来週の週末から雨マークが…」[p][stopse buf=2]
-#北斗
+「Oh, there's a rain mark from next weekend…」[p][stopse buf=2]
+#hokuto
 [hs/odoroki]
-「え、そうなのか？」[p][stopse buf=1]
-#高村
+「Really?」[p][stopse buf=1]
+#seizi
 [s/hohoemi2]
-「ああ。それに、じきに梅雨入りだ。[r]　天体観測などとてもできはしないさ。」[p][stopse buf=3]
-#北斗
+「Yeah, that's right. The rainy season will soon be upon us. It's not going to be a very good time for stargazing」[p][stopse buf=3]
+#hokuto
 [hs/hutyou]
-「そっか…じゃあ、何か別のことでも…」[p][stopse buf=1]
-#高村
+「I see… Well,we can do something else, then…」[p][stopse buf=1]
+#seizi
 [s/mu]
-「…それに、私はしばらく予定があってな。」[p][stopse buf=3]
-#北斗
+「…Besides, I have other plans for a while」[p][stopse buf=3]
+#hokuto
 [hs/magao]
-「予定？なにかあるんですか？」[p][stopse buf=1]
-#高村
+「Plans? What is it?」[p][stopse buf=1]
+#seizi
 [s/hohoemi2]
-「まあ、野暮用がな。[r]　それに、君たちも高校生ならそろそろ中間考査の時期ではないのか？」[p][stopse buf=3]
-#北斗
+「Well, just a couple of errands. Besides, if you guys are in high school, isn't it time for mid-term exams?」[p][stopse buf=3]
+#hokuto
 [hs/akire]
-「…それは…あんまり考えないようにしてたのに…」[p][stopse buf=1]
-#美波
+「That's…that's something I've been trying not to think about too much…」[p][stopse buf=1]
+#minami
 [ms/kanasimi]
-「確かに、そうです…」[p][stopse buf=2]
-#高村
+「But he's right…」[p][stopse buf=2]
+#seizi
 [s/magao]
-「だろう。だから、しばらくはお休みだと言ったんだ。」[p][stopse buf=3]
-#北斗
+「Yes. That's why I said we're taking a break for a while」[p][stopse buf=3]
+#hokuto
 [hs/magao]
-「なるほど…じゃあ、せめて梅雨の間はどんなことするか、[r]　考える時間にしよう…。」[p][stopse buf=1]
-#北斗
+「I see… Well, let's at least spend some time thinking about what to do during the rainy season…」[p][stopse buf=1]
+#hokuto
 [hs/bishou]
-「あ、そうだ、8月にはオレたち、部活でライブがあるんだ。[r]　音楽家の爺さんを納得させられるくらいに仕上げるから、[r]　それは絶対来てよ」[p][stopse buf=1]
-#美波
+「Oh, yeah, we're going to have a live concert in August. We'll put on a good enough show to satisfy you, the musician. So be sure to come!」[p][stopse buf=1]
+#minami
 [ms/egao2]
-「それはそうね。ぜひ来てください」[p][stopse buf=2]
-#高村
+「That's true. Please come」[p][stopse buf=2]
+#seizi
 [s/hohoemi2]
-「…うん、楽しみにさせてもらおうかな。…行ければの話だが」[p][stopse buf=3][fadeoutbgm time=1000]
-#北斗
+「…Yeah, I'll be looking forward to it. …If I can make it」[p][stopse buf=3][fadeoutbgm time=1000]
+#hokuto
 [hs/magao]
-「（…？）」[p][stopse buf=1]
+「(…?)」[p][stopse buf=1]
 #
-爺さんの態度にどこか違和感を感じたものの、[r]その日はとりあえず一区切りということで、[r]少し星を眺めたあと、解散という流れになった。[p]
+Although I felt somewhat uncomfortable with the old man's attitude, we decided to call it a day for now, and after a little stargazing, we parted ways.[p]
 
 [mask graphic="cut/cutin_kaname.png" time=1500]
 [wait time=500]
 [eval exp="sf.chap6=1"]
-[playbgm storage=eyecatch2.ogg  loop="false"]
+[playbgm storage=eyecatch2.ogg loop="false"]
 [hide time=0]
 [voconfig sebuf=2 name="minami" vostorage="minami2/minami_ha{number}.ogg" number=1 ]
 [bg2 storage=class.jpg time=6000][stopbgm]

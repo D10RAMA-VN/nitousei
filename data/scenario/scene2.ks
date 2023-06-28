@@ -24,299 +24,299 @@
 
 *chapter2
 ;（ギター音）
-#北斗
+#hokuto
 「……」[p][stopse buf=1]
 [mhhide]
-#七音
-「……う～んと、」[p][stopse buf=4]
-#北斗
+#nao
+「……Hmmm, wait」[p][stopse buf=4]
+#hokuto
 [hw_kanasimi]
-「……はい。」[p][stopse buf=1]
+「……Yeah」[p][stopse buf=1]
 [mhhide]
-#七音
-「……え～と、TAB譜はちゃんと読めてるとは思うんだけど、[r]　リズムがずれてるというか、なんというか…」[p][stopse buf=4]
-#北斗
+#nao
+「……Well, I think you're reading the notes correctly, but the rhythm is a bit off or something…」[p][stopse buf=4]
+#hokuto
 [hw_kanasimi2]
-「……すいません。」[p][stopse buf=1]
+「……I'm sorry」[p][stopse buf=1]
 [mhhide]
-#奏女
+#kaname
 [k/bishou]
-「でもほら、楽譜通りに弾けるようにはなってきたし、進歩進歩。」[p][stopse buf=6]
-#北斗
+「But look, you're getting better at following sheet music. It's progress, progress」[p][stopse buf=6]
+#hokuto
 [hw_kanasimi]
-「いや、このままじゃみんなの邪魔になっちゃいます。すいません…」[p][stopse buf=1]
+「No, I'm just getting in everyone's way if I keep going like this. Sorry…」[p][stopse buf=1]
 [mhhide]
-#一同
+#minami
 [k/kanasimi wait=false][r/kanasimi wait=false][mw_kanasimi]
 「……」[p]
 [mmhide]
-#七音
+#nao
 [n/niko3]
-「…今日は、ここまでにしようか、ね？」[p][stopse buf=4]
-#令人
+「…Let's just call it a day, shall we?」[p][stopse buf=4]
+#reito
 [r/magao]
-「そうですね、時間も時間ですし…」[p][stopse buf=5]
-#北斗
+「Yes, it is time already…」[p][stopse buf=5]
+#hokuto
 [hw_kanasimi]
-「……はい。すいません、…お先に失礼します」[p][stopse buf=1]
+「……Yeah. I'm sorry …I'll leave, then」[p][stopse buf=1]
 [hide wait=false][mhhide]
-#美波
+#minami
 [minami_w_kanasimi]
 「……」[p][stopse buf=2]
 #
 [hide][reito_komari left=680 wait=false][nao_bishou left=140]
-#令人
-「七音さん、多分彼は…」[p][stopse buf=5]
-#七音
+#reito
+「Nao-san, he's probably…」[p][stopse buf=5]
+#nao
 [kanim name="nao" keyframe="nod" time="500"]
-「うん、わかってるよ令人君。でも、もうすこし様子をみましょうか。」[p][stopse buf=4]
+「Yes, I know, Reito-kun. But let's see how things develop a little more, shall we?」[p][stopse buf=4]
 
 [mask time=500]
 #
 [bg2 storage="black.jpg" time="1500"]
 [hide time=0]
 [mask_off time=500]
-あっという間に4月が過ぎ、[r]ゴールデンウイークもとっくに終わってしまった。[p]
-一か月もすれば上達するだろうと内心高をくくっていたギターは、[r]なぜかちっともうまくならないままだった。[p]
-いや、副部長が言ってくれた通り進歩はあるのだ。[p]
-コード譜もTAB譜もなんとか読めるようになって、[r]ちゃんとした音自体は出せるようになった。[p]
-音作りも部長に習ったりネットで勉強してみたりしている。[p]
-しかし、なんともうまくいかない。[p]
-きらきら星みたいな簡単な曲でさえ、なにか違和感がある。[p]
-みんなでライブでやろうと練習している曲など、もう指がついていかない。[p]
-一人で練習してみて、なんとか弾けるようになれたかとみんなと一緒に[r]合奏してみたら、さっきのような有様になってしまうのだった。[p]
-なぜだ。部活中、あんなに一生懸命集中して練習しているのに。[p]
-なぜうまくなれないのか。[p]
-もやもやが晴れないまま、時間ばかり過ぎて行く。[p]
+April passed in the blink of an eye, and the Golden Week is long gone.[p]
+I was confident that I would improve in a month, but somehow I just can't seem to get any better at playing the guitar.[p]
+No, like the vice president said, I'm making progress.[p]
+I managed to read both the chords and the notation, and I managed to produce the sounds properly.[p]
+I'm also trying to learn sound formation from the president and from the internet.[p]
+But it doesn't quite work out.[p]
+Even a simple song like "Twinkle Twinkle Little Star," I feel something strange about it.[p]
+My fingers can no longer keep up with the songs, like the ones we are all practicing to perform live.[p]
+I tried practicing alone, and when I thought I had managed to play it, I joined the others but it ended up like before.[p]
+Why? I'm practicing so hard and concentrating so much.[p]
+Why can't I get better?[p]
+Time just goes on and on and I'm not feeling any better.[p]
 
 [mask time=500]
 [hide time=0][hokuto_w_magao time=0][seizi_magao time=0]
 [bg2 storage="kawa_n.jpg" time="500"]
-[fadeinbgm  storage="bg/river.ogg" time=1000]
+[fadeinbgm storage="bg/river.ogg" time=1000]
 [mask_off time=500]
-#高村
-「それで、わざわざギターまで持ってきたのか。」[p][stopse buf=3]
-#北斗
-「ええ、結局望遠鏡は爺さんの一つしかないから、[r]　美波や爺さんが星見てる間に練習しようかなと思って」[p][stopse buf=1]
+#seizi
+「So you went to the trouble of even bringing your guitar」[p][stopse buf=3]
+#hokuto
+「Yes, after all, we only have one telescope, so I thought I'd practice while you and Minami are looking at the stars」[p][stopse buf=1]
 #
 [hide]
-恒例になってきた爺さんとの天体観測に、[r]オレは私物のギターを持ち込んだ。[p]
-高校で軽音部をやっていること、[r]最近ギターを始めたことなどは前々から爺さんに言っていたのだが、[r]今日はあまりに切羽詰まった気がして持ってきてしまった。[p]
-ちなみに、持ってきたギターはケースやら諸々込みで[r]２万弱ほど小遣いはたいて買ったエレキギターだ。[p]
-部にも備品のアコースティックギターが１台あるのだが、[r]部長のギターは私物だと言うし、今後のことも考えて用意した。[p]
-おかげで懐が中々ピンチである。まだへそくりはあるけれども。[p]
+I brought my personal guitar to the regular stargazing session with the old man.[p]
+I had told the old man for some time that I played in the light music club in high school and that I had recently started playing guitar, but today I felt too impatient and brought my guitar with me.[p]
+By the way, the guitar I brought is an electric guitar that I bought using my allowance of about 20,000 yen, including the case and other things.[p]
+The club also has one acoustic guitar that is equipment, but the president says her guitar is her personal one, and she has it for the future.[p]
+Thanks to this, my pockets are in a bit of a pinch. But I still have some money saved up.[p]
 [minami_w_magao2]
-#美波
-「近所迷惑よ、やめといたら？」[p][stopse buf=2]
+#minami
+「You're going to be a nuisance for the neighbors. You shouldn't do it」[p][stopse buf=2]
 #
 [hokuto_w_metozi]
-#北斗
-「大丈夫だろ、アンプつけずにやればほとんど音出ないし」[p][stopse buf=1]
+#hokuto
+「If I do it without the amp, it'll barely make a sound」[p][stopse buf=1]
 #
 [hide][seizi_mu]
-#高村
-「……そうか。どれ、一つ聞かせてくれないか。」[p][stopse buf=3]
-#美波
+#seizi
+「……Right. Come on, let me listen to you」[p][stopse buf=3]
+#minami
 [mw_odoroki]
-「え？いやそんな、北斗はまだ聞かせられるレベルじゃないっていうか…」[p][stopse buf=2]
+「Eh? No, impossible. Hokuto is not at a level where you would want to hear him…」[p][stopse buf=2]
 [mmhide]
-#高村
+#seizi
 [s/magao]
-「いいんだ。さあ、北斗君」[p][stopse buf=3]
+「It's okay. Come on, Hokuto-kun」[p][stopse buf=3]
 #
 [hide][hokuto_w_magao]
-#北斗
-「…わかりました」[p][stopse buf=1]
+#hokuto
+「…Okay」[p][stopse buf=1]
 #
-そうして、オレは「二等星になって」を弾きはじめた。[p][vostop]
-#高村
+Then I began to play "Becoming a Second Star."[p][vostop]
+#seizi
 [s_magao]
-「……！」[p][vostart]
+「……!」[p][vostart]
 [fadeoutbgm time=400]
 [mask time=500]
 [mshide time=0][seizi_kanasimi time=0][hw/aozame2 time=0]
 [mask_off time=500]
 
-#高村
-「……北斗君、その…だな、」[p][stopse buf=3]
-#北斗
-「……すいません、へたくそで。[r]　…こんなんだから、ちょっとでも練習したくて。」[p][stopse buf=1]
-#高村
+#seizi
+「……Hokuto-kun, well… You know…」[p][stopse buf=3]
+#hokuto
+「……I'm sorry, I'm terrible at it… That's why I wanted to practice a little bit」[p][stopse buf=1]
+#seizi
 [s/metozi]
-「…いや、謝ることじゃあない。[r]　最初は誰でも、何かと躓いたりするものだ。」[p][stopse buf=3]
-#北斗
+「…No, it's nothing to apologize for. We all struggle with things at first」[p][stopse buf=3]
+#hokuto
 [hw/kanasimi]
 「……」[p][stopse buf=1]
 #
-爺さんはああ言ってくれるが、結果はやっぱり、[r]自分でもわかるくらい下手だった。[p]
-リズムに乗れていないというか、どうもしっくりとこない。[p]
-なぜだ。何がおかしい。なぜこんなにも自分にリズム感がないのか。[r]なんでなんだ…[p]
+The old man says that, but I knew I was so bad and I could tell.[p]
+I can't get the rhythm or it doesn't feel right.[p]
+Why? Why is there something wrong with me? Why do I have such a poor sense of rhythm? Why is it that…[p]
 
-#高村
+#seizi
 [s/mu]
-「…それにしても、まさかこの曲とはな…」[p][stopse buf=3]
-#北斗
+「…And I didn't expect this song…」[p][stopse buf=3]
+#hokuto
 [hw/mu2]
-「え？」[p][stopse buf=1]
-#高村
+「Eh?」[p][stopse buf=1]
+#seizi
 [s/metozi]
-「……ふむ。」[p][stopse buf=3]
+「……Hmm」[p][stopse buf=3]
 #
 [hide][seizi_magao]
-#高村
-「……そのギター、少し貸してくれないか。」[p][stopse buf=3]
-#北斗
+#seizi
+「……Can I borrow that guitar for a minute?」[p][stopse buf=3]
+#hokuto
 [hw_odoroki]
-「え？」[p][stopse buf=1]
+「Eh?」[p][stopse buf=1]
 [mhhide]
-#美波
+#minami
 [mw_odoroki]
-「高村さん…？」[p][stopse buf=2]
+「Takamura-san…?」[p][stopse buf=2]
 [mmhide]
-#高村
-「……いいかな？」[p][stopse buf=3]
-#北斗
+#seizi
+「……Can I?」[p][stopse buf=3]
+#hokuto
 [hw_mu2]
-「……いいですけど。」[p][stopse buf=1]
+「……Sure, but…」[p][stopse buf=1]
 [mhhide]
-#高村
+#seizi
 [s/mu]
-「それと、今日はアンプとシールドは持ってきていないかい？」[p][stopse buf=3]
-#北斗
+「And did you bring your amp and shielded cable with you today?」[p][stopse buf=3]
+#hokuto
 [hw_mu]
-「一応、まあ」[p][stopse buf=1]
+「Yeah, I did」[p][stopse buf=1]
 #
 [mhhide]
-USB充電式の小型アンプとシールド（コードって言いたくなるけど、[r]ギターとアンプとを接続するケーブルはなぜかシールドと呼ぶ）[r]を取り出し、爺さんに差し出す。[p]
+I take out a small USB rechargeable amp and a shielded cable (I'm tempted to say cord, but for some reason the cable that connects the guitar to the amp is a shielded cable) and give them to the old man.[p]
 ;ギター音
-#高村
-「…今時のアンプはこんなに小さくてもここまでちゃんと出るのか…」[p][stopse buf=3]
+#seizi
+「…I didn't realize that today's amplifiers could be so tiny and yet produce a decent sound…」[p][stopse buf=3]
 #
-とか言いながら爺さんが近所迷惑にならないよう音量調節したり、[r]チューニングしたりとてきぱきと準備を済ませている。[p]
-…爺さん、ギター弾けるのか。[p]
-と思う間に、爺さんは慣れた手つきでギターを構え、演奏を始めた。[p]
+And then the old man quickly finished his preparations, adjusting the volume and tuning so he wouldn't disturb the neighbors.[p]
+…You can play the guitar, old man?[p]
+While I was thinking, the old man set up the guitar and began to play with a skilled hand.[p]
 [hide]
 [fadeinbgm time=1000 storage=nitousei.ogg]
 [bg2 storage=still_seizi.png time=1000][eval exp="sf.ST4=1"]
 
-#北斗
-「すげえ…」[p][stopse buf=1]
+#hokuto
+「Amazing…」[p][stopse buf=1]
 #
-自分とは比べ物にならないほど、美しい演奏。[p]
-決して派手ではないが、一音一音というよりも曲全体が物語として[r]訴えかけてくるような、そんな演奏だった。[p]
-#美波
-「きれい…」[p][stopse buf=2]
+A beautiful performance beyond all comparison to my own.[p]
+Although not flashy by any means, the performance seemed to appeal to the audience as if the entire song was a story.[p]
+#minami
+「Beautiful…」[p][stopse buf=2]
 #
-何か優しくも悲しくなるようなこの切ないメロディー。[p]
-部長が提案してきたときにも思ったが、[r]本当にこの曲は懐かしい響きがする。[p]
-自分はいったいどこでこの曲を聞いたのだったか。…[p]
+There is something gentle yet sad about this sorrowful melody.[p]
+As I thought when the president suggested it, this song really sounds nostalgic.[p]
+Where on earth did I hear this song?…[p]
 [fadeoutbgm time=1000]
 [bg2 storage=kawa_n.jpg time=1000]
 [fadeinbgm storage=bg/river.ogg time=1000]
 [seizi_metozi left=-145 wait=false][hokuto_w_odoroki left=360 wait=false][minami_w_odoroki left=840]
-#高村
-「…ふう。昔取った杵柄というが、中々、気恥ずかしいものだな…[r]　それに、昔もエレキはほとんど触っていなかった。」[p][stopse buf=3]
-#北斗
-「それでこれなんですか？！」[p][stopse buf=1]
-#高村
+#seizi
+「…Phew. Call me old-fashioned, but it's kind of embarrassing… Besides, I almost didn't touch an electric guitar back in the day」[p][stopse buf=3]
+#hokuto
+「And you're this good?!」[p][stopse buf=1]
+#seizi
 [s/mu]
-「ああ、フォークギターやピアノは多く弾いていたがね。」[p][stopse buf=3]
+「Yeah, although I played a lot of folk guitar and piano」[p][stopse buf=3]
 #
-それでクランチやリバーブなどはあまり利かせていなかったのか。[r]弾き方がアコギでできるものだけで弾いていたわけだ。[p]
-#高村
+So you didn't play much crunch, reverb, or anything like that. So the way he played it was just what you could do on an acoustic guitar.[p]
+#seizi
 [s/metozi]
-「流石に、エレキだと音に深みが足りなかったな…」[p][stopse buf=3]
-#美波
-「そんな、すごいです。」[p][stopse buf=2]
-#北斗
+「With an electric guitar, the sound lacked depth…」[p][stopse buf=3]
+#minami
+「It was still amazing」[p][stopse buf=2]
+#hokuto
 [hw/mu2]
-「ほんと、オレとは大違いだ…」[p][stopse buf=1]
-#高村
+「Really, I'm nothing like you…」[p][stopse buf=1]
+#seizi
 [s/magao]
-「ふむ。さっきのを見た限り北斗君は指を動かすことに[r]　意識を持っていかれすぎだ。」[p][stopse buf=3]
-#高村
-「音が固い。もっと自由に、力を抜いたほうがいい。」[p][stopse buf=3]
-#北斗
+「Hmmm. From what I saw earlier, Hokuto-kun, you're too focused on moving your fingers」[p][stopse buf=3]
+#seizi
+「Your sound is too stiff. You should be more free and relaxed」[p][stopse buf=3]
+#hokuto
 [hw/mu]
-「そうは言っても…」[p][stopse buf=1]
-#高村
+「Even if you say that…」[p][stopse buf=1]
+#seizi
 [s/magao]
-「練習するときは、いつもアンプをつけていないのか？」[p][stopse buf=3]
-#北斗
+「Are you practicing without your amp all the time?」[p][stopse buf=3]
+#hokuto
 [hw/magao]
-「まあ…部室でやれる時はともかく、家でやるときは。[r]　家でやるってなると、深夜になっちゃうし…」[p][stopse buf=1]
-#高村
-「原因の一つはそこだろう。[r]　アンプを使わないからほとんど音が鳴らない、」[p][stopse buf=3]
-#高村
-「しかしちゃんと音が鳴らないと上手く弾けているかわからないから、[r]　音が出るようにやや強めにピッキングしてしまっているのでは[r]　ないかな？」[p][stopse buf=3]
-#北斗
+「Well… I use the amp on the club room for the most part, but in my house, I normally practice late at night, so…」[p][stopse buf=1]
+#seizi
+「That's probably one of the reasons. If you don't use an amp, you will hardly hear any sound,」[p][stopse buf=3]
+#seizi
+「And you can't tell if you're playing it well or if it doesn't sound right, so I think you've been playing it a little too hard to get the proper sound out of it, no?」[p][stopse buf=3]
+#hokuto
 [hw/aseri]
-「それは、そうかも…」[p][stopse buf=1]
+「That…might be true…」[p][stopse buf=1]
 #
-確かに、部室で練習するときよりも家で練習するときのほうが[r]少し強めに弾いていた気がする。[p]
-それが、リズムの狂いを産んでいた可能性は高い。[p]
-#高村
+I do think I play a little harder when I practice at home than when I practice in the club room.[p]
+It is very likely that this was what was producing the deviation in rhythm. [p]
+#seizi
 [s/metozi]
-「ヘッドホンをつけるなり、深夜でも音を出さずに練習する方法は[r]　いくらでもあるだろう。そうしないと、悪い癖がつくぞ。」[p][stopse buf=3]
-#高村
+「There are plenty of ways to practice without making noise, like putting on headphones, even late at night. If you don't, you'll develop bad habits」[p][stopse buf=3]
+#seizi
 [s/magao]
-「まあ、まずはTAB譜通りに運指を指に覚えさせることだ。[r]　いくつかまちがいもあったようだし。」[p][stopse buf=3]
-#北斗
+「Well, the first thing is to let your fingers learn the fingering as shown in the notation. You had some mistakes」[p][stopse buf=3]
+#hokuto
 [hw/kanasimi2]
-「…そうですね」[p][stopse buf=1]
+「You're right…」[p][stopse buf=1]
 #
 [hide][seizi_hohoemi]
-#高村
-「まあ、それはちゃんと時間をかければ解決することだ。[r]　そんなに気にすることじゃない。」[p][stopse buf=3]
+#seizi
+「Well, that's something that can be worked out if you take the time to do it right. It's not something to worry about」[p][stopse buf=3]
 #
-そういって、爺さんがギターを差し出してきた。[p]
-オレはそれを、ゆっくりと受け取る。[p]
+The old man then returned my guitar.[p]
+I accept it slowly.[p]
 [hide][hokuto_w_mu2]
-#北斗
+#hokuto
 「…」[p][stopse buf=1]
 #
-時間をかければ、か。[p]
-複数の楽譜を全部覚えて、それをさらに指に覚えさせる。[p]
-そんなことを実現させるためには、一体どれほどの時間がかかるのだろう。[r]本当に３か月ちょっとで、上手くいくのだろうか。[p]
-…正直、コードもまだおぼつかないところがあったりするのに。[p]
+If I take the time, huh?[p]
+Memorize all the multiple scores and then let your fingers memorize them even more.[p]
+How long will I take to achieve that? Can I really make it work in a little over three months?[p]
+…To be honest, there are still some chords that I am not quite sure how to do.[p]
 [hide][minami_w_odoroki]
-#美波
-「…それにしても、高村さんがギター弾けるなんて…」[p][stopse buf=2]
+#minami
+「…Then again, I can't believe Takamura-san can play the guitar…」[p][stopse buf=2]
 #
 [seizi_mu]
-#高村
+#seizi
 [s/mu]
-「…昔少しばかり音楽をたしなんでいてね。お手本を見せようなんて、[r]　偉そうなことを言いたかったわけではないんだが…」[p][stopse buf=3]
-#美波
+「…I used to be a musician for a little while. I didn't mean to sound arrogant about giving you an example…」[p][stopse buf=3]
+#minami
 [mw/magao]
-「音楽、ですか？」[p][stopse buf=2]
-#高村
+「Musician?」[p][stopse buf=2]
+#seizi
 [s/kanasimi]
-「ああ。昔都会で少し、な。もっとも、すぐにやめてしまったが。」[p][stopse buf=3]
+「Yeah. I worked in the city for a bit. I quit after a while, though」[p][stopse buf=3]
 #
-そういう高村さんの顔があまりにも悲しそうで、[r]なんだかとても申し訳なくなった。[p]
+For some reason, Takamura-san's face was full of sadness. It made me feel bad for him.[p]
 [hide][hokuto_w_kanasimi]
-#北斗
-「…ほんと、こんな下手なのに人に聞かせようなんて、すいません…」[p][stopse buf=1]
+#hokuto
+「…I'm really sorry, even though I'm this bad, I made you listen to me… I'm sorry…」[p][stopse buf=1]
 #
 [seizi_mu]
-#高村
-「北斗君が気にすることはないといっただろう。」[p][stopse buf=3]
-#北斗
+#seizi
+「I told you that you don't have to worry about it」[p][stopse buf=3]
+#hokuto
 [hw/mu]
-「でも、爺さん…」[p][stopse buf=1]
-#高村
+「But you…」[p][stopse buf=1]
+#seizi
 [s/hohoemi]
-「なに、少しばかり、昔を思い出しただけだ。ほんの気まぐれだよ。[r]　キミはきっとすぐ上手くなるさ」[p][stopse buf=3]
-#北斗
+「I'm just reminiscing a little bit about the old days. It's just a whim. You'll get good at it」[p][stopse buf=3]
+#hokuto
 [hw/mu2]
-「そうですかね…」[p][stopse buf=1]
-#高村
+「Is that so?…」[p][stopse buf=1]
+#seizi
 [s/kuti]
-「まあ、気分転換も必要だろうし、[r]　今度は星空でも眺めてみようじゃないか。」[p][stopse buf=3]
+「Well, maybe you need a change of scenery, so why don't we go look at the stars together this time?」[p][stopse buf=3]
 #
 [hide]
-そうして、爺さんはその日の天体観測を始めた。[r]でも自分は、ギターのことと不安で頭がいっぱいだった。[p]
+And so the old man began to stargaze for the day. And I was preoccupied with my guitar and my anxiety.[p]
 [fadeoutbgm time=500]
 [mask graphic="cut/cutin_hokuto2.png" time=1500]
 [wait time=500]

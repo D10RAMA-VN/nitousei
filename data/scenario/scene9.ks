@@ -23,157 +23,157 @@
 
 *chapter9
 #
-それから次の週末。[p]
-オレは美波の両親に頭を下げまくり、どうにか病院の敷地内でギターを[r]弾いたり、星をみたりさせてはくれないかと頼んだ。[p]
-そうしたら、一日だけ、夜の間屋上を貸してくれることになった。[p]
-そして、その約束の日。[p]
-美波は爺さんの乗った車いすを押し、[r]オレはギターと爺さんの望遠鏡をしょって、屋上に上がった。[p]
+The following weekend.[p]
+I bowed down to Minami's parents and asked them if they would somehow allow me to play guitar and look at the stars on the hospital grounds.[p]
+Then they agreed to let me use their rooftop for the night, just for one day.[p]
+And then, the promised day.[p]
+Minami pushed the wheelchair with the old man in it while I carried my guitar and the old man's telescope up to the rooftop.[p]
 [vostop]
 [bg2 storage=okujou.jpg time=500]
 [fadeinbgm storage=bg/wind.ogg time=1000]
 [minami_s_bishou left=840 wait=false][hokuto_s_bishou left=360 wait=false][seizi_h_magao left=-195]
-#高村
+#seizi
 「…」[p][vostart]
-#美波
-「わあ…」[p][stopse buf=2]
+#minami
+「Wow…」[p][stopse buf=2]
 #
-屋上に上がると、満天の星が空を覆っていた。[p]
-普段立ち入らない場所に、いつもよりまばゆい星。[r]そして、うっすらと見える天の川。[p]
-いつの間にか、夏に近づいていたことに気づく。[p]
-#北斗
-「…さあ、爺さん、望遠鏡組み立てようぜ。」[p][stopse buf=1]
-#高村
+When we reached the rooftop, the sky was covered with stars.[p]
+The stars are more dazzling than usual in a place like this that is usually inaccessible. And the Milky Way is faintly visible.[p]
+I realize that before I knew it, we were approaching summer.[p]
+#hokuto
+「…Come on, old man. Let's set up the telescope」[p][stopse buf=1]
+#seizi
 [sh/hohoemi2]
-「……ああ。だが、その必要は、ないかもしれないなあ。」[p][stopse buf=3]
-#北斗
+「……Yeah, I know, but maybe it won't be necessary」[p][stopse buf=3]
+#hokuto
 [hs/odoroki]
-「え？」[p][stopse buf=1]
-#高村
+「Eh?」[p][stopse buf=1]
+#seizi
 [sh/hohoemi]
-「ほら、始まっているよ。」[p][stopse buf=3]
+「Look, it's starting」[p][stopse buf=3]
 #
 [hide][fadeinbgm time=1000 storage=seiji.ogg]
 [bg2 storage=still_perseus.png time=500][eval exp="sf.ST10=1"]
-爺さんがそういってゆっくり夜空を指さすと、一筋の光が流れ落ちた。[p]
-#美波
+The old man said this and slowly pointed to the night sky as a ray of light streamed down.[p]
+#minami
 ;[ms_uwame]
-「あ、流れ星…」[p][stopse buf=2]
+「Ah, shooting stars…」[p][stopse buf=2]
 ;[mmhide]
 #
-美波がそういうやいなや、もう一つ。[p]
-#北斗
+As soon as Minami said that, another one.[p]
+#hokuto
 ;[hs_magao]
-「あ、また…」[p][stopse buf=1]
+「Oh, again…」[p][stopse buf=1]
 ;[mhhide]
-#高村
+#seizi
 ;[sh_hohoemi2]
-「ペルセウス座流星群だ。[r]　本当はお盆のあたりが一番見ごろなんだが…今日もちゃんと見れたな。」[p][stopse buf=3]
+「It's the Perseid meteor shower. Actually, the best time to see them is around the time of the Obon festival, but… We were able to see them today, as well」[p][stopse buf=3]
 ;[mshide]
-#北斗
+#hokuto
 ;[hs_odoroki]
-「ペルセウス座流星群？」[p][stopse buf=1]
+「Perseid meteor shower?」[p][stopse buf=1]
 ;[mhhide]
-#高村
+#seizi
 ;[sh_hohoemi]
-「ああ。毎年夏になると見える、三大流星群の一つだよ。すごいときには[r]　流星雨といって、たばこを一本ふかしている間にもいくつも見える…、[r]　まあ今日はそこまではいかんかもしれんが…」[p][stopse buf=3]
+「Yeah. One of the three major meteor showers every summer. When it's big, it's called a meteor rain, and you can see several while puffing on a cigarette… I'm not sure I'll be able to do that today…」[p][stopse buf=3]
 ;[mshide]
-#北斗
+#hokuto
 ;[hs_egao2]
 「…」[p][stopse buf=1]
 #
 ;[mhhide]
-それでも、とてもきれいだ。[p]
+Yet, so beautiful.[p]
 [bg2 storage=okujou.jpg time=500]
 [minami_s_bishou left=840 wait=false][hokuto_s_egao2 left=360 wait=false][seizi_h_hohoemi left=-195]
-#高村
-「これを、君たちに見せたかったんだ。せっかく時期も時期であるし。[r]　流星群という天体ショーを、君たちに見せてあげたかったんだ。」[p][stopse buf=3]
-#美波
+#seizi
+「I wanted to show this to you guys. It's the right time of the year. I wanted to show you a meteor shower, a celestial show」[p][stopse buf=3]
+#minami
 [ms/odoroki]
-「じゃあ、今日のことは、私たちのために…？」[p][stopse buf=2]
-#高村
+「So this is also for us…?」[p][stopse buf=2]
+#seizi
 [sh/hohoemi2]
-「北斗君、今日はリハーサルだと言ったろう？[r]　本番は、またお盆に見られるといいな」[p][stopse buf=3]
-#北斗
+「Hokuto-kun, I told you today is a rehearsal. I hope we can see the real show again on Obon」[p][stopse buf=3]
+#hokuto
 [hs/bishou]
-「ああ、もちろんだよ、爺さん。またやろう。[r]　今度は、またあの河川敷で。」[p][stopse buf=1]
-#高村
+「Yeah, sure, old man. Let's do it again. Next time, we'll do it again, on that riverside」[p][stopse buf=1]
+#seizi
 [sh/hohoemi]
-「…ああ。だが、その時は2人で行くといい。」[p][stopse buf=3]
-#北斗
+「…Yeah. But maybe you two should go alone when you do」[p][stopse buf=3]
+#hokuto
 [hs/odoroki]
-「なんでだよ。一緒に行こうよ」[p][stopse buf=1]
-#高村
-「いつまでも爺が若い二人の邪魔をするのはよくないだろう？」[p][stopse buf=3]
-#美波
+「Why? Let's go together」[p][stopse buf=1]
+#seizi
+「It's not good for an old man to stand in the way of two young people forever, right?」[p][stopse buf=3]
+#minami
 [ms/tere]
-「な？！」[p][stopse buf=2]
-#北斗
+「Wh—?!」[p][stopse buf=2]
+#hokuto
 [hs/dere]
-「…からかわないでよ」[p][stopse buf=1]
+「…Don't make fun of us」[p][stopse buf=1]
 #
 [hide]
 [seizi_h_kuti]
-#高村
-「ははは、それにな、私は今日で十分だ。もう“くいのこり”はないよ。」[p][stopse buf=3]
-#北斗
+#seizi
+「Ha ha ha, and you know what, I've had enough for today. No more "knots in my throat" for me」[p][stopse buf=3]
+#hokuto
 [hs_magao]
-「…爺さん…」[p][stopse buf=1]
+「…Old man…」[p][stopse buf=1]
 #
 [mhhide]
-…そんな言葉で茶化されても、困る。[p]
-#高村
+…Don't do that. Don't make fun of me using those words.[p]
+#seizi
 [sh/hohoemi]
-「今日で、というより、今日までで、かな。[r]　春先に君たちが来てからのこの数か月、実ににぎやかで、楽しかった。」[p][stopse buf=3]
-#美波
+「Today, or rather, until today. The past few months since your visit at the beginning of spring have been very lively and enjoyable」[p][stopse buf=3]
+#minami
 [ms_kanasimi]
-「そんな、私達は何も…」[p][stopse buf=2]
+「No, we didn't…」[p][stopse buf=2]
 [mmhide]
-#北斗
+#hokuto
 [hs_iradati]
-「そうだよ、やめてよ爺さん」[p][stopse buf=1]
+「Yes, stop it, old man」[p][stopse buf=1]
 [mhhide]
-#高村
-「いやいや、ホントだよ。[r]　裕子を失って以来、こんなに満ち足りたのは初めてだった。」[p][stopse buf=3]
+#seizi
+「No, no, no, really. I haven't felt this full since I lost Yuko」[p][stopse buf=3]
 #
-そういうと、爺さんはゆっくりと目を閉じた。[p]
-どこか苦しそうに、でもどこか満ち足りたように。[p]
-#高村
+Then the old man slowly closed his eyes.[p]
+Somewhat pained, yet somehow fulfilled.[p]
+#seizi
 [sh/hohoemi2]
-「…ああ、裕子…」[p][stopse buf=3]
-#美波
+「…Ah, Yuko…」[p][stopse buf=3]
+#minami
 [ms_odoroki]
-「……！」[p][stopse buf=2]
+「……!」[p][stopse buf=2]
 [mmhide]
-#北斗
+#hokuto
 [hs_kanasimi]
-「…爺さん…」[p][stopse buf=1]
+「…Old…man…」[p][stopse buf=1]
 [mhhide]
 #
-…爺さんの目には、見えているようだ。[p]
-オレ達には、みえない二等星が。[p]
+…I guess the old man can see it in his own eyes.[p]
+The invisible second star, the one we can't see.[p]
 [hide]
 [hokuto_s_kanasimi left=680 wait=false][seizi_h_metozi left=15]
-#高村
-「…なあ、北斗君。」[p][stopse buf=3]
-#北斗
-「なんだよ、爺さん。」[p][stopse buf=1]
-#高村
-「…あの曲を、弾いてくれないか。」[p][stopse buf=3]
-#北斗
+#seizi
+「…Hey, Hokuto-kun」[p][stopse buf=3]
+#hokuto
+「What… Old man」[p][stopse buf=1]
+#seizi
+「…Can you play that song for me?」[p][stopse buf=3]
+#hokuto
 [hs/hutyou]
-「爺さん…」[p][stopse buf=1]
+「Old man…」[p][stopse buf=1]
 #
-爺さんがどの曲のことを言っているのか、聞くまでもない。[p]
-#高村
+I don't need to ask which song the old man is talking about.[p]
+#seizi
 [sh/hohoemi2]
-「キミがどれだけいいギターを弾くようになったか、聞かせてくれ。」[p][stopse buf=3]
-#北斗
+「Let me hear how good you've become at playing the guitar」[p][stopse buf=3]
+#hokuto
 [hs/bishou]
-「…ああ、わかったよ、爺さん」[p][stopse buf=1]
+「…Yeah, of course, old man」[p][stopse buf=1]
 #
 [hide]
-爺さんの前にしゃがみ、ギターを構えて。最初のコードに指を合わせる。[p]
-ひとつ息をすって、ストロークを始める。[p]
+I crouch down in front of the old man, guitar at the ready, and my fingers meet on the first chord.[p]
+I take a single breath and begin to play…[p]
 [fadeoutbgm time=500]
 
 
@@ -200,21 +200,21 @@ sf.current_bgm_vol = sf._system_config_bgm_volume;
 [bg2 storage=still_kirakirabosi.png time=1000][eval exp="sf.ST11=1"]
 [mask_off time="1000"]
 [fadeinbgm storage=bg/wind.ogg time=1000]
-#北斗
-「……どうだった、爺さん」[p][stopse buf=1][vostop]
-#高村
+#hokuto
+「……How was it, old man?」[p][stopse buf=1][vostop]
+#seizi
 「……」[p][vostart]
 #
-演奏が終わったというのに、歓声も批評もなく。[p]
-爺さんはほほえみをたたえているだけ。[p]
-あまりにもきれいなその顔に、美波は声を押しつぶし泣き始めた。[p]
+The performance was over, but I didn't hear any cheers or criticism.[p]
+The old man is just smiling.[p]
+Minami's voice was choked up and she began to cry at the sight of that beautiful smile.[p]
 [bg2 storage=still_perseus.png width=3200 height=1800 left=-600 time=1500 method=fadeInDown]
-オレはため息を一つつき、天を仰いだ。[p]
-視線の先には、満天の星空の中で二つの二等星が目立たなくも、[r]しかし確かにまたたいていた。[p]
-#北斗
-「……おい、拍手はいいから、感想くらいくれよ、爺さん」[p][stopse buf=1]
+I sighed and looked up to the heavens.[p]
+In front of me, two second stars were twinkling discreetly, but I could see them clearly in the star-filled sky.[p]
+#hokuto
+「……Hey, don't clap, but at least give me some feedback, old man」[p][stopse buf=1]
 #
-そんな悪態をつくしか、未熟な自分にはできなかった。[p]
+The only thing I could do was to say those remarks, in my immaturity.[p]
 [fadeoutbgm time=1000]
 [mask graphic="cut/cutin_hokuto.png" time=1500]
 [wait time=500]
