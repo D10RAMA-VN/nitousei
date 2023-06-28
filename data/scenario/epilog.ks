@@ -25,9 +25,9 @@
 *epilog
 ;（ギター音1～2小節分）
 #minami
-「…It's a good song, right?」[p][stopse buf=2]
+「…Es una buena canción, no?」[p][stopse buf=2]
 #hokuto
-「…Yeah」[p][stopse buf=1]
+「…Sí」[p][stopse buf=1]
 #
 [mask time=500]
 [hide time=0]
@@ -37,26 +37,26 @@
 [filter sepia=50]
 [wait time=100]
 [mask_off time=500]
-…After the old man passed away, when they cleaned out his hospital room, an envelope was found in a drawer.[p]
-On the back of it, in shaky but expert handwriting, was written, "To Hokuto-kun and Minami-kun," and the nurses handed it to us.[p]
+…Después de que el viejo falleciera. Mientras limpiaban su habitación del hospital, encontraron un sobre en un cajón.[p]
+En el reverso, con letra temblorosa pero experta, se leía "Para Hokuto-kun y Minami-kun" y las enfermeras nos la entregaron.[p]
 [playse storage=se/paper.ogg buf=8]
-Inside there was a sheet of writing paper and a sheet of sheet music.[p]
-And on the writing paper,[p]
-「Take care of each other, help each other, and never lose the desire to love people」[p]
-「No matter how many hundreds of times those feelings they may not be reciprocated. If you do that, I'm sure you will be happy together」[p]
-That and it said that he was going to give the telescope to me.[p]
-And on the sheet music, the old man left behind his final new song, which he wrote with the last of his strength.[p]
-The title field was blank, and there were no lyrics attached.[p]
-Just a note, "The title and lyrics are whatever you guys want them to be. It's a song for you both."[p]
-…You said you could only write songs for your wife.[p]
-Truly, that man was a liar to the end.[p]
-Or perhaps I should say that he willfully lied about the truth.[p]
+En su interior había una hoja de papel para escribir y una partitura.[p]
+Y en el papel de escribir,[p]
+「Cuídense los unos a los otros, ayúdense mutuamente y no pierdan nunca el deseo de amar a la gente」[p]
+「No importa cuántos cientos de veces esos sentimientos no sean correspondidos. Si haces eso, seguro que serán felices juntos」[p]
+Decia eso y que me iba a regalar su telescopio.[p]
+Y en la partitura, el viejo nos dejó su última canción, que escribió con las pocas fuerzas que le quedaban.[p]
+El título estaba en blanco y no tenía letra.[p]
+Sólo una nota: "El título y la letra son lo que ustedes quieran que sean. Es una canción para los dos"[p]
+…Dijiste que sólo podías escribir canciones para tu mujer…[p]
+Sin duda, ese hombre fue un mentiroso hasta el final.[p]
+O tal vez debería decir que mintió a propósito sobre la verdad.[p]
 
-In honor of the old man, I tried to write the lyrics and title of the song as soon as possible, but it didn't go well.[p]
-I've never written lyrics before, so it's no surprise, but that's not the main reason.[p]
-There are just so many feelings I want to pack into this song that I can't really put them into words.[p]
-What a fortunate trouble.[p]
-So now I'm just trying to play this blank piece of music with Minami.[p]
+En honor al viejo, intenté escribir cuanto antes la letra y el título de la canción, pero no me fue muy bien.[p]
+Nunca había escrito letras de canciones, así que no me sorprende, pero esa no fue la razón principal.[p]
+Hay tantos sentimientos que quiero expresar en esta canción que no puedo expresarlos con palabras aún.[p]
+Qué problema tan dichoso.[p]
+Así que por ahora sólo intento tocar esta pieza musical en blanco con Minami.[p]
 [mask time=500]
 [fkaisou]
 [free_filter]
@@ -67,197 +67,197 @@ So now I'm just trying to play this blank piece of music with Minami.[p]
 
 #minami
 [ms/uwame]
-「By the way, Hokuto, you really got good at playing the guitar」[p][stopse buf=2]
+「Por cierto, Hokuto, te has vuelto muy bueno tocando la guitarra」[p][stopse buf=2]
 #hokuto
 [hs/egao2]
-「Yeah. But I'm not quite there yet. I want to get better. Both for this song and for the songs we perform live. That's not all. I want to play many more songs」[p][stopse buf=1]
+「Sí. Pero aún no llego a la meta. Quiero mejorar. Tanto para esta canción como para las que interpretamos en el concierto. Y eso no es todo. Quiero tocar muchas más canciones」[p][stopse buf=1]
 #minami
-「You're very motivated, Hokuto」[p][stopse buf=2]
+「Estás muy motivado, Hokuto」[p][stopse buf=2]
 #hokuto
 [hs/egao]
-「Yeah, I don't know if I've ever wanted to work this hard before」[p][stopse buf=1]
+「Sí, no sé si alguna vez he querido trabajar tan duro antes」[p][stopse buf=1]
 #minami
 [ms/magao]
-「…Is it thanks to Takamura-san?」[p][stopse buf=2]
+「…¿Es gracias a Takamura-san?」[p][stopse buf=2]
 #hokuto
 [hs/bishou]
-「I don't know… Maybe it's because I don't know if the old man was pleased at that time or not…」[p][stopse buf=1]
+「No sé… quizás es porque no sé si el viejo estaba contento en ese momento o no…」[p][stopse buf=1]
 #minami
 [ms/bishou]
-「…I'm sure he was satisfied. No knots in his throat, right?」[p][stopse buf=2]
+「…Estoy seguro de que estaba satisfecho. Sin nudos en la garganta, ¿verdad?」[p][stopse buf=2]
 #hokuto
 [hs/akire]
-「Hey, hey, hey… Yeah, that's exactly the kind of knot in my throat right now… I taught the old man that word… But I have a feeling he is still up there in the sky laughing at me」[p][stopse buf=1]
+「Oye, oye, oye… Sí, ese es exactamente el nudo que tengo… Que le enseñé al viejo esa palabra… Pero, tengo la sensación de que todavía está ahí arriba en el cielo riéndose de mí」[p][stopse buf=1]
 #minami
-「That's good. Takamura-san is watching over us」[p][stopse buf=2]
+「Eso está bien. Takamura-san nos está cuidando」[p][stopse buf=2]
 #hokuto
 [hs/kanasimi2]
-「I feel like he would say… "Hokuto-kun, you forgot what I said," or something like that…」[p][stopse buf=1]
+「Siento que me diría… "Hokuto-kun, olvidaste lo que te dije", o algo así…」[p][stopse buf=1]
 #minami
 [ms/egao]
-「Maybe」[p][stopse buf=2]
+「Tal vez」[p][stopse buf=2]
 #hokuto
 [hs/odoroki]
 「…Ah…」[p][stopse buf=1]
 #minami
 [ms/uwame]
-「What's wrong?」[p][stopse buf=2]
+「¿Que pasa?」[p][stopse buf=2]
 #hokuto
 [hs/odoroki]
-「I had forgotten. The advice from the old man」[p][stopse buf=1]
+「Se me había olvidado. El consejo del viejo」[p][stopse buf=1]
 #minami
 [ms/magao]
-「Eh? What?」[p][stopse buf=2]
+「¿Eh? ¿A que te refieres?」[p][stopse buf=2]
 #hokuto
 [hs/magao]
-「…I have to tell you something before I can tell you about that」[p][stopse buf=1]
+「Tengo que decirte algo antes de hablar de eso…」[p][stopse buf=1]
 #minami
-「Eh…」[p][stopse buf=2]
+「¿Eh…?」[p][stopse buf=2]
 #hokuto
 [hs/metozi]
-「…Well, I'm going to respond to your confession, even though it's been on the table for a long time」[p][stopse buf=1]
+「Bueno, voy a responder a tu confesión, aunque hace tiempo que está en el aire」[p][stopse buf=1]
 #minami
 [ms/odoroki]
 「…!」[p][stopse buf=2]
 [fadeinbgm storage=hokuto_B.ogg time=1000]
 #hokuto
 [hs/bishou]
-「…Well, you know. I've been thinking. I'm going to stay in this club, play various songs, graduate, grow up… And in the process, I'm going to be happy and have a lot of fun…」[p][stopse buf=1]
+「Pues, tú sabes. He estado pensando. Voy a seguir en este club, tocar varias canciones, graduarme, crecer… y en el proceso, voy a ser feliz y divertirme mucho…」[p][stopse buf=1]
 #hokuto
-「I'm sure that I'll be able to overcome the hard times and the sad times. And the reason I feel that way is because… You would be with me」[p][stopse buf=1]
+「Estoy seguro de que podré superar los momentos difíciles y los tristes.　Y la razón por la que me siento así es porque… tú estarías conmigo」[p][stopse buf=1]
 #minami
 [ms/tere]
 「……!」[p][stopse buf=2]
 #hokuto
 [hs/kanasimi]
-「…I mean, I can't imagine a tomorrow without you. Without your presence… I'd be in trouble」[p][stopse buf=1]
+「O sea, no puedo imaginar un mañana sin ti. Sin ti… estaría en problemas…」[p][stopse buf=1]
 #minami
 [ms/uwame]
-「…What's that? What if I disappear?」[p][stopse buf=2]
+「…¿Qué quieres decir? ¿Y si desaparezco?」[p][stopse buf=2]
 #hokuto
-「I wouldn't want that… I might be like the old man, frantically searching for you through a telescope」[p][stopse buf=1]
+「No me lo imagino… Podría ser como el viejo, buscándote frenéticamente a través de un telescopio…」[p][stopse buf=1]
 #minami
 [ms/tun]
-「What are you talking about?」[p][stopse buf=2]
+「¿De qué estás hablando?」[p][stopse buf=2]
 #hokuto
 [hs/bishou]
-「'Cause I would be in trouble if I can't eat your lunch anymore」[p][stopse buf=1]
+「Porque sería un problema si ya no puedo comer tu almuerzo」[p][stopse buf=1]
 #minami
 [ms/akire]
-「Eh? You're talking about food?」[p][stopse buf=2]
+「¿Eh? ¿Estas hablando de la comida?」[p][stopse buf=2]
 #hokuto
 [hs/egao]
-「…Hehe. Of course, that's not all」[p][stopse buf=1]
+「…Jeje. Por supuesto, eso no es todo」[p][stopse buf=1]
 #minami
 [ms/uwame]
-「…Good grief…」[p][stopse buf=2]
+「…Santo cielo…」[p][stopse buf=2]
 #hokuto
 [hs/bishou]
-「Besides, the old man told me… You will only meet one woman in your whole life who really cares about you」[p][stopse buf=1]
+「Además, el viejo me dijo… sólo conocerás a una mujer en toda tu vida que realmente se preocupe por ti」[p][stopse buf=1]
 #minami
 [ms/magao2]
-「That's what he told you…」[p][stopse buf=2]
+「Eso fue lo que te dijo…」[p][stopse buf=2]
 #hokuto
 [hs/tere]
-「Yes. So I, uh… You know, I've already met Minami, so…」[p][stopse buf=1]
+「Sí. Y yo, eh… ya sabes, ya conocí a Minami, así que…」[p][stopse buf=1]
 #minami
 [ms/tere]
 「!」[p][stopse buf=2]
 #hokuto
 [hs/bishou]
-「…I've been stalling for a while now. I'll say it」[p][stopse buf=1]
+「Hace rato que lo estoy postergando… Voy a decirlo」[p][stopse buf=1]
 #minami
 [ms/dere]
-「Yeah…」[p][stopse buf=2]
+「Sí…」[p][stopse buf=2]
 #hokuto
 [hs/egao2]
-「I like you too, Minami. I want Minami. I don't want to be without you」[p][stopse buf=1]
+「Tú también me gustas, Minami. Quiero a Minami. No quiero estar sin ti」[p][stopse buf=1]
 #hokuto
-「So… I want you to stay by my side. Always, from this point on」[p][stopse buf=1]
+「Así que… quiero que te quedes a mi lado. Siempre, a partir de ahora」[p][stopse buf=1]
 #minami
 [ms/dere]
-「……Yeah, okay」[p][stopse buf=2]
+「…Sí, esta bien」[p][stopse buf=2]
 #hokuto
 [hs/tere]
-「…Hey, what do you mean, "okay"?」[p][stopse buf=1]
+「…Oye, ¿qué quieres decir con que "Está bien"?」[p][stopse buf=1]
 #minami
 [ms/tun2]
-「No, no, because you didn't ask me to go out with you or anything like that. And I was the first one to confess, so "please take care of me" is not right, either…」[p][stopse buf=2]
+「No, no, porque no me pediste que saliera contigo ni nada por el estilo.  Y yo fui la primera que confesó, así que "por favor, cuida de mí" tampoco está bien…」[p][stopse buf=2]
 #
 [fadeoutbgm time=500]
 [hide]
 [nao_niko2 left=460]
 #nao
-「Yeah, she's right, you know…」[p][stopse buf=4]
+「Sí, ella tiene razón…」[p][stopse buf=4]
 #
 [kaname_niyake left=-80]
 #kaname
-「I mean, just now, I felt like you were pledging your love in front of the priest, so are you going to get married already?」[p][stopse buf=6]
+「Digo, justo ahora, sentí que estaban jurando su amor frente al padre, ¿así que ya se casarán?」[p][stopse buf=6]
 #hokuto
 [hs_aseri]
-「…Eh?」[p][stopse buf=1]
+「¿…Eh?」[p][stopse buf=1]
 [mhhide]
 #nao
 [n/magao]
-「Hm?」[p][stopse buf=4]
+「¿Hmm?」[p][stopse buf=4]
 #kaname
 [k/bishou2]
-「What? Go on, go on!」[p][stopse buf=6]
+「¿Qué? Sigan, sigan」[p][stopse buf=6]
 #
 [reito_komari left=850]
 #reito
 「……」[p][stopse buf=5]
 #
-…Before I knew it, all the club members had gathered.[p]
-…I no longer even question what they are saying. It's useless to expect delicacy from the president and vice president.[p]
-So let's just check the damage.[p]
+…Antes de darme cuenta, todos los miembros del club estaban con nosotros.[p]
+Ya ni siquiera cuestiono lo que dicen. Es inútil esperar delicadeza de la presidenta y la vicepresidenta…[p]
+Así que comprobemos el daño.[p]
 #hokuto
 [hs_hutyou]
-「…Hmm. …How much did you hear?」[p][stopse buf=1]
+「…Hmm …¿Cuánto escucharon?」[p][stopse buf=1]
 [mhhide]
 #nao
 [n/niko2]
-「From, "It's a good song, right?" Around there?」[p][stopse buf=4]
+「Desde "Es una buena canción, ¿no?", ¿por ahi?」[p][stopse buf=4]
 #hokuto
 [hs_aozame]
-「Oh, you mean everything from the very beginning?…」[p][stopse buf=1]
+「Oh, ¿te refieres a todo desde el principio?…」[p][stopse buf=1]
 #
 [mhhide]
-It's over. All I can do now is hold my head.[p]
+Se acabó. Todo lo que puedo hacer ahora es sostener mi cabeza.[p]
 #reito
 [r/niko]
-「Hokuto… Well, about the confession and such… You should be careful about the place and time…」[p][stopse buf=5][vostop]
+「Hokuto… bueno, sobre la confesión y eso… deberías tener cuidado con el lugar y la hora…」[p][stopse buf=5][vostop]
 #hokuto
 [hs_magao]
 「……」[p][stopse buf=1]
 [voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=647 ][vostart]
 #
 [mhhide]
-Reito-senpai, you seem concerned, but then why did you not stop those two? You are just as guilty as they are.[p]
+Reito-senpai, pareces preocupado, pero entonces porque no detuviste a esas dos, eres tan culpable como ellas.[p]
 [hide][minami_s_tere]
 #minami
 「Awawawawawawaw…」[p][stopse buf=2]
 #
-Minami, you should get used to it since it's your second time… I mean, we're going to keep getting teased a lot from this, and if you don't get used to it, you probably won't last…[p]
+Minami, deberías acostumbrarte ya es la segunda vez… Y, nos van a seguir molestando con esto, asi que si no te acostumbras, probablemente no dures…[p]
 [hide]
 [fadeinbgm storage=OP.ogg time=1000]
 [bg2 storage=still_epilogue.png time=500][eval exp="sf.ST12=1"]
 #nao
-「Well, the biggest concern, Hokuto-kun and Minami-chan's love story, has successfully reached its goal! But aren't you all forgetting something? There's only one month left until the live concert!」[p][stopse buf=4]
+「Bueno, nuestra mayor preocupación, la historia de amor de Hokuto-kun y Minami-chan, ha logrado su objetivo. ¿Pero no se están olvidando de algo? ¡Sólo queda un mes para el concierto!」[p][stopse buf=4]
 #hokuto
-「So your biggest concern was us?…」[p][stopse buf=1]
+「¿Así que su mayor preocupación éramos… nosotros?」[p][stopse buf=1]
 #kaname
-「That's right. You should compensate us for making everyone nervous by performing perfectly」[p][stopse buf=6]
+「Así es. Deberías pagarnos por ponernos nerviosos con una interpretación impecable」[p][stopse buf=6]
 #minami
-「Y-Yes sir…」[p][stopse buf=2]
-#reito
-「Ha ha…」[p][stopse buf=5]
+「Sí, señora…」[p][stopse buf=2]
+#reito 
+「Ha Ha…」[p][stopse buf=5]
 #
-With the noise and our instruments in our hands. Practice begins again today.[p]
-Old man, as I thought, this is my const[ruby text=Place]ellation.[p]
-I can't seem to come up with lyrics or titles for the song you gave me, so first I'll try my best to play a song to send off the senpais that are leaving this place.[p]
-After that, we'll think about the song with Minami.[p]
-I'll create a song that will reach far into the distant stars of the night sky…[p]
+Con el ruido y nuestros instrumentos en las manos. Hoy empieza de nuevo la práctica.[p]
+Viejo, como esperaba, esta es mi const[ruby text=Lugar]elación.[p]
+Parece que no se me ocurren ni letras ni título para la canción que me diste, así que, primero haré lo posible por tocar un tema para despedir a los senpais que se van de este lugar.[p]
+Después, pensaremos en la canción con Minami.[p]
+Crearé una canción que se extenderá hasta las lejanas estrellas del cielo nocturno…[p]
 [fadeoutbgm time=1000]
 [mask time=1000]
 [eval exp="sf.chapEpi=1"]

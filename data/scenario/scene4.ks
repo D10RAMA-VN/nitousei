@@ -25,21 +25,21 @@
 [fadeinbgm storage="bg/room.ogg" time=1000]
 [fadeinse storage="bg/clock.ogg" loop=true buf=9 time=1000]
 #
-The next day.[p]
-I had to take a day off school.[p]
-By evening, my fever was long gone and I was feeling reasonably well.[p]
-Mom took yesterday off work to take care of me, but she couldn't miss work again, so she left for work as usual around evening.[p]
-When I opened my phone for the first time all day, I received a message saying that club activities were canceled until next Monday.[p]
-…This is definitely my fault.[p]
-I braced myself for a second, expecting something from Minami, but there was nothing from her.[p]
-There's a part of me that can't help but feel sorry for hurting her, and there's a part of me that's glad I didn't get anything from her.[p]
-…I ate a decent amount of the porridge my mom made for me.[p]
-Spending time under the covers was getting boring.[p]
-…I wonder if the old man is still on the riverside today.[p]
-Minami told me not to go, and I think she told the old man, as well.[p]
-But I'm at my limit for spending my time agonizing like this.[p]
+El día siguiente.[p]
+Tuve que ausentarme un día de la escuela.[p]
+Por la noche, mi fiebre había desaparecido y ya me sentía bastante bien.[p]
+Mamá se tomó ayer el día para cuidarme, pero no podía volver a faltar al trabajo, así que al anochecer se fue a trabajar como de costumbre.[p]
+Cuando mire mi teléfono por primera vez en todo el día, vi un mensaje que decía que las actividades del club se cancelaban hasta el próximo lunes.[p]
+La culpa es definitivamente mía.[p]
+Me preparé por un segundo, esperando algo de Minami, pero no había ningún mensaje de ella[p]
+Hay una parte de mí que no puede evitar sentirse mal por hacerle daño, y hay una parte de mí que se alegra de que no me hubiera enviado nada.[p]
+Me comí un montón de avena que mi mamá me preparó.[p]
+Pasar tiempo bajo las sábanas comenzaba a aburrirme.[p]
+Me pregunto si el viejo sigue hoy en la orilla del río…[p]
+Minami me dijo que no fuera, y pienso que se lo dijo al viejo también.[p]
+Pero ya no puedo pasar mi tiempo agonizando así.[p]
 #hokuto
-「…Let's go」[p][stopse buf=1]
+「…Vamos」[p][stopse buf=1]
 
 [fadeoutse buf=9 time=500]
 [fadeoutbgm time=500]
@@ -50,43 +50,43 @@ But I'm at my limit for spending my time agonizing like this.[p]
 [mask_off time=500]
 
 #seizi
-「…Oh, Hokuto-kun. I thought you were taking care of your health?」[p][stopse buf=3]
+「Oh, Hokuto-kun. ¿Pensé que estabas cuidando de tu salud?」[p][stopse buf=3]
 #
 [hide][seizi_hohoemi left=15 wait=false][hokuto_s_magao left=680]
 #hokuto
-「…Well, a little. So Minami did tell you, huh?」[p][stopse buf=1]
+「Bueno, un poco. Así que Minami te contó, ¿eh?…」[p][stopse buf=1]
 #seizi
-「Yeah, last night. She also said you guys got into a fight」[p][stopse buf=3]
+「Sí, anoche. También dijo que ustedes se pelearon」[p][stopse buf=3]
 #hokuto
 [hs/akire]
-「Minami, she really told you everything…」[p][stopse buf=1]
+「Minami, realmente te lo contó todo…」[p][stopse buf=1]
 #seizi
 [s/kanasimi]
-「Don't say that. She's been pretty preoccupied」[p][stopse buf=3]
+「No digas eso. Ha estado bastante preocupada」[p][stopse buf=3]
 #hokuto
 [hs/magao]
 「…」[p][stopse buf=1]
 #seizi
 [s/metozi]
-「I've heard a little bit about it. It's not nice to disrespect people's concern for you…」[p][stopse buf=3]
+「Escuché un poco sobre eso. No es bonito irrespetar a la gente que se preocupa por ti…」[p][stopse buf=3]
 #hokuto
 [hs/kanasimi]
-「…I know that, but…」[p][stopse buf=1][vostop]
+「Claro, lo se, pero…」[p][stopse buf=1][vostop]
 #
 [hide][seizi_magao]
 #seizi
 「……」[p][vostart]
 #
-The old man's gaze becomes sharper. It's as if he's telling me not to make excuses.[p]
-But… But.[p]
+La mirada del viejo se vuelve más penetrante. Como si me estuviera diciendo que no invente excusas.[p]
+Pero… Pero…[p]
 [hide][seizi_magao left=15 wait=false][hokuto_s_kanasimi2 left=680]
 #hokuto
-「…She's wrong. Minami is wrong」[p][stopse buf=1]
+「Está equivocada. Minami se equivoca…」[p][stopse buf=1]
 #seizi
-「Wrong?」[p][stopse buf=3]
+「¿Equivocada?」[p][stopse buf=3]
 #hokuto
 [hs/kanasimi]
-「There were some things that happened a long time ago……」[p][stopse buf=1][vostop]
+「Algunas cosas ocurrieron hace mucho tiempo…」[p][stopse buf=1][vostop]
 #seizi
 「……」[p][vostart]
 #hokuto
@@ -95,39 +95,39 @@ But… But.[p]
 「……」[p][vostart]
 #hokuto
 [hs/mu2]
-「……Can you listen to me?」[p][stopse buf=1]
+「¿Me escucharías por unos minutos?…」[p][stopse buf=1]
 #seizi
 [s/mu]
-「If you want to talk about it, I'm all ears. If you don't want to, you don't have to」[p][stopse buf=3]
+「Si quieres hablar de ello, soy todo oídos. Si no quieres, no es necesario」[p][stopse buf=3]
 #
-Even when talking in such a rude manner, the old man still gives me a way out.[p]
-Maybe that's why I want to talk with him…[p]
+Incluso cuando habla de una manera brusca, el viejo aún me ofrece una salida.[p]
+Tal vez por eso quiero hablar con él…[p]
 #hokuto
 [hs/kanasimi2]
-「……It's a story about that」[p][stopse buf=1]
+「Es acerca de eso…」[p][stopse buf=1]
 #seizi
 [s/magao]
-「That?」[p][stopse buf=3]
+「¿Eso?」[p][stopse buf=3]
 #hokuto
 [hs/kanasimi]
-「…A story about my father」[p][stopse buf=1]
+「Una historia sobre mi padre」[p][stopse buf=1]
 #seizi
 「Hmm」[p][stopse buf=3]
 #hokuto
 [hs/mu]
-「…He passed away… A long time ago」[p][stopse buf=1]
+「Falleció… Hace mucho tiempo」[p][stopse buf=1]
 #seizi
 [s/kanasimi]
-「…I see」[p][stopse buf=3]
+「Ya veo」[p][stopse buf=3]
 #hokuto
 [hs/mu2]
-「Well, he had a run-of-the-mill disease. They tried treatments and surgeries and stuff, but nothing worked, so…」[p][stopse buf=1][vostop]
+「Pues, tenía una enfermedad común y corriente. Probaron tratamientos, cirugías y demás, pero nada funcionó, así que…」[p][stopse buf=1][vostop]
 #seizi
 「……」[p][vostart]
 #
 [hide][hokuto_s_mu]
 #hokuto
-「…My dad's doctor was Minami's dad」[p][stopse buf=1]
+「el médico de mi padre era el padre de Minami」[p][stopse buf=1]
 #
 [hide][seizi_magao]
 #seizi
@@ -135,174 +135,174 @@ Maybe that's why I want to talk with him…[p]
 #
 [hide][hokuto_s_akire]
 #hokuto
-「They were neighbors to begin with, and I've heard it's common for doctors to not take on a case like this because of the awkwardness it can cause…」[p][stopse buf=1]
+「Para empezar eran vecinos, y he oído que es habitual que los médicos no acepten un caso así por lo incómodo que puede resultar…」[p][stopse buf=1]
 #hokuto
 [hs/bishou]
-「…I told Minami that my father was sick, and she said, "My daddy is a doctor," and she went and asked him to help me」[p][stopse buf=1]
+「Pero cuando le dije a Minami que mi padre estaba enfermo, ella me dijo "mi papi es médico" y fue a pedirle que me ayudara…」[p][stopse buf=1]
 #hokuto
 [hs/kanasimi]
-「Minami's father tried to treat him, but, well, as I said before, it didn't work out. So……」[p][stopse buf=1]
+「El padre de Minami intentó curarlo, pero, bueno, como he dicho antes, no funcionó. Así que…」[p][stopse buf=1]
 #hokuto
 [hs/mu2]
-「She seems to feel responsible for a lot of things for no good reason」[p][stopse buf=1][vostop]
+「Parece sentirse responsable de muchas cosas sin ningún motivo」[p][stopse buf=1][vostop]
 #seizi
 [s_magao]
 「……」[p][vostart]
 [mshide]
 #hokuto
 [hs/mu]
-「It's not like her father did something wrong, and I don't mind…」[p][stopse buf=1]
+「No es como si su padre hubiera hecho algo mal, y a mí no me molesta…」[p][stopse buf=1]
 #hokuto
 [hs/kanasimi]
-「That's why she started caring about me in all kinds of ways…」[p][stopse buf=1]
+「Por eso empezó a preocuparse por mí de todo tipo de formas…」[p][stopse buf=1]
 #hokuto
-「So I told Minami yesterday. I told her, "Don't push your guilt on me"…」[p][stopse buf=1]
+「…Así que le dije ayer, le dije a Minami "¡No me eches tu culpa encima!"」[p][stopse buf=1]
 #
 [seizi_magao]
 #seizi
-「Well…that's…quite a thing to say」[p][stopse buf=3]
+「Bueno… eso sí… que es bastante」[p][stopse buf=3]
 #hokuto
 [hs/metozi]
-「Yeah…」[p][stopse buf=1]
+「Sí…」[p][stopse buf=1]
 #seizi
 [s/mu]
-「Hmm… So what do you want Minami to do? What do you want to do?」[p][stopse buf=3]
+「Hmm… pero entonces, ¿Qué quieres que haga Minami? ¿Qué quieres hacer tú?」[p][stopse buf=3]
 #hokuto
 [hs/mu]
-「I didn't mean to say anything awful, and I want to apologize」[p][stopse buf=1]
+「No quería decir nada malo, y quiero disculparme」[p][stopse buf=1]
 [voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=253 ]
 [voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=104 ]
 #seizi
 [s/metozi]
-「…Then you should have apologized before visiting me, right?」[p][stopse buf=3]
+「Entonces deberías haberte disculpado antes de visitarme, ¿no?…」[p][stopse buf=3]
 #
-…I couldn't say anything.[p]
+No pude decir nada…[p]
 #hokuto
 [hs/magao]
-「…Well, yes, sorry, I know this is a bit weird for you to hear」[p][stopse buf=1]
+「Bueno, sí, lo siento, sé que esto es un poco raro de escuchar」[p][stopse buf=1]
 #
 [hide]
-I knew I should go apologize to her right away. When I was about to leave thinking that, I was stopped by the old man.[p]
+Sabía que debía ir a pedirle disculpas de inmediato. Cuando estaba a punto de irme pensando eso, el viejo me detuvo.[p]
 [seizi_magao]
 #seizi
-「Wait, Hokuto-kun. I know you wanted me to listen to you anyway, but… That's not the only reason you're here, right?」[p][stopse buf=3]
+「Espera, Hokuto-kun. Sé que querías que te escuchara de todos modos, pero… esa no es la única razón por la que estás aquí, ¿verdad?」[p][stopse buf=3]
 #hokuto
 [hs_odoroki]
-「Eh…?」[p][stopse buf=1]
+「¿Eh…?」[p][stopse buf=1]
 [mhhide]
 #seizi
-「Anyway, you know you should apologize because you feel bad, but you don't really know what to say」[p][stopse buf=3]
+「En fin, sabes que deberías disculparte porque te sientes mal, pero no sabes muy bien qué decir」[p][stopse buf=3]
 #hokuto
 [hs_magao]
-「……Why do you know?」[p][stopse buf=1]
+「……¿Como lo sabes?」[p][stopse buf=1]
 [mhhide]
 #seizi
 [s/hohoemi]
-「You're the kind of guy who moves before he thinks, as far as I can tell」[p][stopse buf=3]
+「Eres de los que se mueven antes de pensar, por lo que veo」[p][stopse buf=3]
 #seizi
-「And yet, the fact that you came to me and not to Minami-kun means that you want some kind of answer, or else you wouldn't be able to talk to Minami-kun」[p][stopse buf=3]
+「Y sin embargo, que hayas acudido a mí y no a Minami-kun significa que quieres algún tipo de respuesta, o de lo contrario no serías capaz de hablar con Minami-kun」[p][stopse buf=3]
 #seizi
-「Or maybe you think that even if you apologize now, there will still be some kind of conflict… Right?」[p][stopse buf=3]
+「O quizás pienses que aunque te disculpes ahora, seguirá habiendo algún tipo de conflicto… ¿no?」[p][stopse buf=3]
 #
-…I seem to have been confronted with all the fuzziness that I haven't been able to articulate myself.[p]
+Parece que me encontré con toda la confusión que no había sido capaz de articular por mí mismo.[p]
 [hide][seizi_hohoemi left=15 wait=false][hokuto_s_akire left=680]
 #hokuto
-「……Is this what they talk about? "The older the wiser"?」[p][stopse buf=1]
+「¿Es esto, de lo que hablan? ¿"Cuanto más viejo más sabio"?…」[p][stopse buf=1]
 #seizi
 [s/hohoemi2]
-「It's not that big of a deal. …I used to fight with my wife a lot, but in the end I often didn't know what she was upset about, that's all」[p][stopse buf=3]
+「No es para tanto. …Yo solía pelearme mucho con mi mujer, pero al final muchas veces no sabía por qué estaba enfadada, eso es todo」[p][stopse buf=3]
 #hokuto
 [hs/odoroki]
-「…Wife? Old man, do you have a wife?」[p][stopse buf=1]
+「¿Mujer?  Viejo, ¿tienes esposa?」[p][stopse buf=1]
 #
-…A surprising word. I thought he was  single, since he is always alone.[p]
+Una palabra sorpresiva. Pensé que era soltero, ya que siempre está solo.[p]
 #seizi
 [s/magao]
-「Yeah. …Well, let's not talk about us. Now it's about you guys. I'm gonna ask you again」[p][stopse buf=3]
+「Sí. …bueno, no hablemos de nosotros. Ahora se trata de ustedes. Voy a preguntarte otra vez」[p][stopse buf=3]
 #seizi
-「What do you want Minami-kun to do? What do you want to do?」[p][stopse buf=3]
+「¿Qué quieres que haga Minami-kun? ¿Qué quieres hacer tú?」[p][stopse buf=3]
 #hokuto
 [hs/kanasimi]
-「I…」[p][stopse buf=1]
+「Yo…」[p][stopse buf=1]
 #seizi
-「If you don't understand that, nothing will change」[p][stopse buf=3]
+「Si no entiendes eso, nada cambiará」[p][stopse buf=3]
 #hokuto
 [hs/kanasimi2]
 「……」[p][stopse buf=1]
 #
 [fadeoutbgm time=500][hide]
-What do I want Minami to do for me?[p]
-I don't want her to care too much. I don't want her to worry so much.[p]
-…Do I really want that?[p]
-And what do I want to do for Minami?[p]
-What do I want to say to her?[p]
-It's fine, don't worry, I'll be fine.[p]
-I've always said those words.[p]
-It was a rejection that kept Minami from entering the deepest part of my heart.[p]
-Was I really annoyed with Minami?[p]
+¿Qué quiero que Minami haga por mí?[p]
+No quiero que se preocupe demasiado. No quiero que se angustie tanto.[p]
+¿En serio quiero eso?…[p]
+¿Y qué quiero hacer por Minami?[p]
+¿Qué quiero decirle?[p]
+No pasa nada, no te preocupes, estaré bien.[p]
+Siempre he dicho lo mismo.[p]
+Fue un rechazo que evitó que Minami entrara en lo más profundo de mi corazón.[p]
+¿Realmente estaba molesto con Minami?[p]
 [seizi_magao left=15 wait=false][hokuto_s_kanasimi left=680]
 #hokuto
-「There's no way…」[p][stopse buf=1]
+「Imposible…」[p][stopse buf=1]
 #seizi
 [s/mu]
-「Hm?」[p][stopse buf=3]
+「¿Hm?」[p][stopse buf=3]
 #hokuto
 [hs/kanasimi2]
-「…Sorry, I'm not sure…」[p][stopse buf=1]
+「Perdón, no estoy seguro…」[p][stopse buf=1]
 #seizi
 [s/hohoemi]
-「…I see. Well, take your time and think about it. But don't take too long or things will get complicated」[p][stopse buf=3]
+「Ya veo. Bueno, tómate tu tiempo y piénsalo. Pero no tardes demasiado o las cosas se complicarán」[p][stopse buf=3]
 #seizi
-「Let's do a little stargazing, just a little, since you say you're sick」[p][stopse buf=3]
+「Miremos un poco las estrellas, sólo un poco, ya que dices que estás enfermo」[p][stopse buf=3]
 #hokuto
 [hs/bishou]
-「Yeah… Let me」[p][stopse buf=1]
+「Si… déjame」[p][stopse buf=1]
 #
-Then I tried to put my hand on the old man's telescope.[p]
+Entonces intenté poner mi mano en el telescopio del viejo.[p]
 #seizi
-「Well, let's not use that today. Let's just look at the whole starry sky, shall we?」[p][stopse buf=3]
+「Bueno, no usemos esto hoy. Simplemente miremos todo el cielo estelar, ¿de acuerdo?」[p][stopse buf=3]
 #hokuto
 [hs/odoroki]
-「Eh…?」[p][stopse buf=1]
+「¿Eh…?」[p][stopse buf=1]
 #seizi
 [s/hohoemi2]
-「Looking back, maybe I should have taught you this first」[p][stopse buf=3]
+「Pensándolo bien, tal vez debí haberte enseñado esto primero」[p][stopse buf=3]
 #
 [hide][fadeinbgm storage=seiji.ogg time=1000]
-With that, the old man pointed toward the sky.[p]
+Con eso, el viejo señaló hacia el cielo.[p]
 [bg2 storage="seiza/419dipper.png" width=2279 height=1909 time=500 left=-300 top=-350]
-At his fingertips was the Big Dipper.[p]
+En la punta de sus dedos estaba el Cucharón.[p]
 #seizi
 [s_hohoemi]
-「The Big Dipper, your star. You remember it now, don't you?」[p][stopse buf=3]
+「El Cucharón, tu astro. La recuerdas bien, ¿verdad?」[p][stopse buf=3]
 [mshide]
 #hokuto
 [hs_magao]
-「Yeah… you said that if you stretch the scooping part, you'll reach Polaris…」[p][stopse buf=1]
+「Sí… dijiste que si estiras la parte de la cuchara, llegarás a la estrella polar…」[p][stopse buf=1]
 [mhhide]
 #seizi
 [s_hohoemi2]
-「That's right. Now stretch the handle along that bow shape」[p][stopse buf=3]
+「Así es.　Ahora estira el mango a lo largo de esa forma de arco」[p][stopse buf=3]
 #
 [mshide]
 [bg2 storage="seiza/usikai.png" width=1951 height=1635 time=500 left=0 top=-500]
 #hokuto
 [hs_akire]
-「Eh…? That bright star is…」[p][stopse buf=1]
+「¿Eh...? Esa estrella brillante es…」[p][stopse buf=1]
 [mhhide]
 #seizi
 [s_hohoemi]
-「It's Arcturus of Boötes. Now, stretch it out on its curve」[p][stopse buf=3]
+「Es Arcturus de Bootes. Ahora, sigue su curva」[p][stopse buf=3]
 #
 [mshide]
-I move my fingers as I am told.[p]
+Muevo los dedos como me indica.[p]
 #hokuto
 [hs_odoroki]
-「So that's… Another bright star… Wait, what?」[p][stopse buf=1]
+「Así que esa es… Otra estrella brillante… espera, ¿qué?」[p][stopse buf=1]
 [mhhide]
 #seizi
 [s_hohoemi2]
-「Looks familiar, right?」[p][stopse buf=3]
+「Te resulta familiar, ¿verdad?」[p][stopse buf=3]
 #
 [mshide]
 [bg2 storage="seiza/usikai_virgo.png" width=1951 height=1635 time=500 left=0 top=-500]
@@ -312,17 +312,17 @@ I move my fingers as I am told.[p]
 [mhhide]
 #seizi
 [s_hohoemi]
-「Yes. Virgo. Its first star, Spica. This line of stars is called the Great Curve of Spring」[p][stopse buf=3]
+「Sí. Virgo. Su primera estrella, Spica. Esta línea de estrellas se llama la Gran Curva de Primavera」[p][stopse buf=3]
 [mshide]
 #hokuto
 [hs_mu]
-「…Virgo, really?」[p][stopse buf=1]
+「…Virgo, ¿En serio?」[p][stopse buf=1]
 #
 [mhhide]
-Minami's constellation. Why are you showing me this at a time like this?[p]
+La constelación de Minami. ¿Por qué me muestras esto justo ahora?[p]
 #seizi
 [s_kuti]
-「And you know what? From the midpoint of Arcturus and Spica, but this time extending vertically…」[p][stopse buf=3]
+「¿Y sabes qué? Desde el punto medio de Arcturus y Spica, pero si lo extendemos verticalmente…」[p][stopse buf=3]
 #
 [mshide]
 [bg2 storage="seiza/Stryangle.png" width=1951 height=1635 time=500 left=0 top=-50]
@@ -331,87 +331,87 @@ Minami's constellation. Why are you showing me this at a time like this?[p]
 「…Leo」[p][stopse buf=1]
 #
 [mhhide]
-Now we've reached my constellation.[p]
+Ahora llegamos a mi constelación.[p]
 [bg2 storage="seiza/Stryangle.png" width=2050 height=1718 time=500 left=-130 top=-550]
 #seizi
 [s_hohoemi]
-「Yes, Denebola in Leo. These three stars are called the Great Triangle of Spring」[p][stopse buf=3]
+「Sí, Denebola en Leo. A estas tres estrellas se les conoce como el Gran Triángulo de Primavera」[p][stopse buf=3]
 [mshide]
 #hokuto
 [hs_mu]
-「The Great Triangle of Spring… Something to do with the Big Dipper, Leo, and Virgo」[p][stopse buf=1]
+「El Gran Triángulo de la Primavera… algo relacionado con el Cucharón, Leo y Virgo」[p][stopse buf=1]
 [mhhide]
 #seizi
 [s_hohoemi]
 「Yeah」[p][stopse buf=3]
 #
 [mshide]
-I could sort of guess what the old man was trying to do, but…[p]
+Podía imaginar lo que el viejo estaba tratando de hacer… pero…[p]
 [bg2 storage=kawa_n.jpg time=500][fadeoutbgm time=1000]
 [hokuto_s_akire left=680 wait=false][seizi_hohoemi left=15]
 #hokuto
-「…Old man, I know what you mean, but you suck at it too much…」[p][stopse buf=1]
+Viejo, sé lo que quieres decir, pero lo haces muy mal…」[p][stopse buf=1]
 #seizi
-「Really? Well, anyway, stars are one of those things where if you find one, or one constellation, you can find other constellations right along with it」[p][stopse buf=3]
+「En serio? Bueno, en fin, Las estrellas tienen la particularidad de que si encuentras una, o una constelación, puedes encontrar otras constelaciones a su alrededor,」[p][stopse buf=3]
 #seizi
-「Especially big ones like the Big Dipper or Virgo」[p][stopse buf=3]
+「especialmente en las grandes, como el Cucharón o Virgo」[p][stopse buf=3]
 #hokuto
 [hs/mu]
 「…」[p]
 #seizi
 [s/magao]
-「And yet, a single star is just a shining dot. You can't tell which star it is by looking only at one. You can tell because they appear in the night sky as constellations」[p][stopse buf=3]
+「Y, sin embargo, una estrella sólo es un punto brillante. Es imposible saber qué estrella es observando sólo una. Se reconocen porque aparecen en el cielo nocturno en forma de constelaciones」[p][stopse buf=3]
 #seizi
-「Because it's right in front of the Big Dipper, we know Polaris is a second star. It's the brightness of these stars that lets us know if is Leo or Virgo」[p][stopse buf=3]
+「Porque esta justo delante del Cucharón, sabemos que la estrella del norte es una segunda estrella, es su brillo lo que nos permite saber si estamos en Leo o Virgo」[p][stopse buf=3]
 #hokuto
 [hs/bishou]
-「…And you're telling me that people are the same?」[p][stopse buf=1]
+「…¿Y me estás diciendo que la personas son iguales?」[p][stopse buf=1]
 #seizi
 [s/hohoemi2]
-「Yeah, everything is the same」[p][stopse buf=3]
+「Sí, todo funciona de la misma manera」[p][stopse buf=3]
 #hokuto
 [hs/metozi]
 「……」[p][stopse buf=1]
 #seizi
 [s/hohoemi]
-「…Well, that's it for today. I feel weird talking about something I'm not used to」[p][stopse buf=3]
+「Bueno, esto es todo por hoy. Me siento raro hablando de algo a lo que no estoy acostumbrado…」[p][stopse buf=3]
 #hokuto
 [hs/akire]
-「…I knew it. You were trying to look cool」[p][stopse buf=1]
+「lo sabía. Intentabas sonar genial…」[p][stopse buf=1]
 #seizi
 [s/kuti]
-「Haha, well, anyway, go home now!」[p][stopse buf=3]
+「Jaja, bueno, como sea, ¡vete a casa ahora!」[p][stopse buf=3]
 #hokuto
 [hs/egao2][kanim name="hokuto" keyframe="nod" time="500"]
-「Thank you, old man. See ya」[p][stopse buf=1]
+「Gracias, viejo. Nos vemos」[p][stopse buf=1]
 #seizi
 [s/mu]
-「…Hokuto-kun, I still have one more thing to say」[p][stopse buf=3]
+「Hokuto-kun, todavía me queda una cosa por decir…」[p][stopse buf=3]
 #hokuto
 [hs/odoroki]
-「Eh?」[p][stopse buf=1]
+「¿Eh?」[p][stopse buf=1]
 #seizi
 [s/magao]
-「…You'll only meet one woman in your life who really cares about you」[p][stopse buf=3]
+「sólo conocerás a una mujer en tu vida que realmente se preocupe por ti…」[p][stopse buf=3]
 #
-He was trying to be too redundant with his words…[p]
-So I asked back.[p]
+Trataba de ser redundante con sus palabras…[p]
+Por eso le pregunté.[p]
 #hokuto
 [hs/bishou]
-「…Did you find her, old man?」[p][stopse buf=1]
+「¿la encontraste, viejo?」[p][stopse buf=1]
 #seizi
 [s/hohoemi]
-「Yeah, only one…」[p][stopse buf=3]
+「Sí, solo una…」[p][stopse buf=3]
 #hokuto
 [hs/magao]
-「Even though you've lived for as long as you have, you only found one, huh?」[p]
+「Aunque has vivido tanto, sólo has encontrado una, ¿eh?」[p]
 #seizi
-「Yeah, exactly」[p][stopse buf=3]
+「Exactamente」[p][stopse buf=3]
 #hokuto
 [hs/magao]
-「I see… All right, I'll keep that in mind」[p][stopse buf=1]
+「Ya veo… Está bien, lo tendré en cuenta」[p][stopse buf=1]
 #
-And with that, I headed home.[p]
+Y así, me fui a casa.[p]
 
 [mask graphic="cut/cutin_reito.png" time=1500]
 [wait time=500]

@@ -28,37 +28,37 @@
 「……」[p][stopse buf=1]
 [mhhide]
 #nao
-「……Hmmm, wait」[p][stopse buf=4]
+「……Hmmm, espera」[p][stopse buf=4]
 #hokuto
 [hw_kanasimi]
-「……Yeah」[p][stopse buf=1]
+「……Si」[p][stopse buf=1]
 [mhhide]
 #nao
-「……Well, I think you're reading the notes correctly, but the rhythm is a bit off or something…」[p][stopse buf=4]
+「……Bueno, creo que estás leyendo bien las notas, pero tu ritmo está un poco desfasado o algo así…」[p][stopse buf=4]
 #hokuto
 [hw_kanasimi2]
-「……I'm sorry」[p][stopse buf=1]
+「……Lo siento」[p][stopse buf=1]
 [mhhide]
 #kaname
 [k/bishou]
-「But look, you're getting better at following sheet music. It's progress, progress」[p][stopse buf=6]
+「Pero bueno, estás mejorando a la hora de seguir partituras, es progreso, progreso」[p][stopse buf=6]
 #hokuto
 [hw_kanasimi]
-「No, I'm just getting in everyone's way if I keep going like this. Sorry…」[p][stopse buf=1]
+「No, si sigo así solo estoy estorbando a todo el mundo. Lo siento…」[p][stopse buf=1]
 [mhhide]
-#minami
+#一同
 [k/kanasimi wait=false][r/kanasimi wait=false][mw_kanasimi]
 「……」[p]
 [mmhide]
 #nao
 [n/niko3]
-「…Let's just call it a day, shall we?」[p][stopse buf=4]
+「…Terminemos por hoy, ¿sí?」[p][stopse buf=4]
 #reito
 [r/magao]
-「Yes, it is time already…」[p][stopse buf=5]
+「Sí, ya es hora…」[p][stopse buf=5]
 #hokuto
 [hw_kanasimi]
-「……Yeah. I'm sorry …I'll leave, then」[p][stopse buf=1]
+「……Sí. Lo siento… Me voy entonces」[p][stopse buf=1]
 [hide wait=false][mhhide]
 #minami
 [minami_w_kanasimi]
@@ -66,69 +66,69 @@
 #
 [hide][reito_komari left=680 wait=false][nao_bishou left=140]
 #reito
-「Nao-san, he's probably…」[p][stopse buf=5]
+「Nao-san, probablemente el…」[p][stopse buf=5]
 #nao
 [kanim name="nao" keyframe="nod" time="500"]
-「Yes, I know, Reito-kun. But let's see how things develop a little more, shall we?」[p][stopse buf=4]
+「Sí, lo sé, Reito-kun. Pero veamos cómo avanzan las cosas un poco más, ¿de acuerdo?」[p][stopse buf=4]
 
 [mask time=500]
 #
 [bg2 storage="black.jpg" time="1500"]
 [hide time=0]
 [mask_off time=500]
-April passed in the blink of an eye, and the Golden Week is long gone.[p]
-I was confident that I would improve in a month, but somehow I just can't seem to get any better at playing the guitar.[p]
-No, like the vice president said, I'm making progress.[p]
-I managed to read both the chords and the notation, and I managed to produce the sounds properly.[p]
-I'm also trying to learn sound formation from the president and from the internet.[p]
-But it doesn't quite work out.[p]
-Even a simple song like "Twinkle Twinkle Little Star," I feel something strange about it.[p]
-My fingers can no longer keep up with the songs, like the ones we are all practicing to perform live.[p]
-I tried practicing alone, and when I thought I had managed to play it, I joined the others but it ended up like before.[p]
-Why? I'm practicing so hard and concentrating so much.[p]
-Why can't I get better?[p]
-Time just goes on and on and I'm not feeling any better.[p]
+Abril pasó en un abrir y cerrar de ojos, y la Golden Week ya hace tiempo que pasó.[p]
+Estaba seguro de que mejoraría en un mes, pero por alguna razón no puedo mejorar con la guitarra.[p]
+No, como dijo la vicepresidente, estoy progresando.[p]
+Conseguí interpretar los acordes y la partitura, y puedo generar los sonidos correctamente.[p]
+También estoy intentando aprender sobre formación de sonido con la presidenta e internet.[p]
+Pero no funciona del todo bien.[p]
+Incluso una canción sencilla como Estrellita donde estas , se siente extraña.[p]
+Mis dedos ya no pueden seguir el ritmo de las canciones, por ejemplo las que estamos ensayando para interpretar en el concierto.[p]
+Intenté practicar solo, y cuando pensaba que había dominado el tema, me unía a los demás, pero al final acababa igual que antes.[p]
+¿Por qué? Estoy practicando muchísimo y concentrándome bastante.[p]
+¿Por qué no puedo mejorar?[p]
+El tiempo pasa y pasa y no siento que mejore.[p]
 
 [mask time=500]
 [hide time=0][hokuto_w_magao time=0][seizi_magao time=0]
 [bg2 storage="kawa_n.jpg" time="500"]
-[fadeinbgm storage="bg/river.ogg" time=1000]
+[fadeinbgm  storage="bg/river.ogg" time=1000]
 [mask_off time=500]
 #seizi
-「So you went to the trouble of even bringing your guitar」[p][stopse buf=3]
+「¿Y por eso te tomaste la molestia de traer tu guitarra?」[p][stopse buf=3]
 #hokuto
-「Yes, after all, we only have one telescope, so I thought I'd practice while you and Minami are looking at the stars」[p][stopse buf=1]
+「Sí, sólo tenemos un telescopio, así que pensaba practicar mientras ustedes miran las estrellas」[p][stopse buf=1]
 #
 [hide]
-I brought my personal guitar to the regular stargazing session with the old man.[p]
-I had told the old man for some time that I played in the light music club in high school and that I had recently started playing guitar, but today I felt too impatient and brought my guitar with me.[p]
-By the way, the guitar I brought is an electric guitar that I bought using my allowance of about 20,000 yen, including the case and other things.[p]
-The club also has one acoustic guitar that is equipment, but the president says her guitar is her personal one, and she has it for the future.[p]
-Thanks to this, my pockets are in a bit of a pinch. But I still have some money saved up.[p]
+Llevé mi guitarra personal a la sesión habitual para mirar las estrellas con el viejo.[p]
+Hacía tiempo que le había dicho al viejo que tocaba en el club de música ligera en la escuela y que hacía poco había empezado a tocar la guitarra, pero hoy me sentía muy impaciente y traje mi guitarra.[p]
+Por cierto, la guitarra que traje es una guitarra eléctrica que compré con mi mesada de unos 20.000 yenes, incluyendo el estuche y otras cosas.[p]
+El club también tiene una guitarra acústica que es del club, pero la presidenta dice que su guitarra es personal y que la tiene para el futuro.[p]
+Gracias a esto, mis bolsillos están un poco vacios. Pero todavía tengo algo de dinero ahorrado.[p]
 [minami_w_magao2]
 #minami
-「You're going to be a nuisance for the neighbors. You shouldn't do it」[p][stopse buf=2]
+「Vas a molestar a los vecinos, no deberías hacerlo」[p][stopse buf=2]
 #
 [hokuto_w_metozi]
 #hokuto
-「If I do it without the amp, it'll barely make a sound」[p][stopse buf=1]
+「Si toco sin el amplificador, casi no hace ruido」[p][stopse buf=1]
 #
 [hide][seizi_mu]
 #seizi
-「……Right. Come on, let me listen to you」[p][stopse buf=3]
+「……Bien. Ahora, déjame escucharte」[p][stopse buf=3]
 #minami
 [mw_odoroki]
-「Eh? No, impossible. Hokuto is not at a level where you would want to hear him…」[p][stopse buf=2]
+「¿Eh? No, imposible, Hokuto no está a un nivel donde querrías escucharlo…」[p][stopse buf=2]
 [mmhide]
 #seizi
 [s/magao]
-「It's okay. Come on, Hokuto-kun」[p][stopse buf=3]
+「No pasa nada. Vamos, Hokuto-kun」[p][stopse buf=3]
 #
 [hide][hokuto_w_magao]
 #hokuto
-「…Okay」[p][stopse buf=1]
+「…Esta bien」[p][stopse buf=1]
 #
-Then I began to play "Becoming a Second Star."[p][vostop]
+Entonces empecé a tocar "Convirtiéndose en una segunda estrella".[p][vostop]
 #seizi
 [s_magao]
 「……!」[p][vostart]
@@ -138,185 +138,185 @@ Then I began to play "Becoming a Second Star."[p][vostop]
 [mask_off time=500]
 
 #seizi
-「……Hokuto-kun, well… You know…」[p][stopse buf=3]
+「Hokuto-kun, bueno… ya sabes…」[p][stopse buf=3]
 #hokuto
-「……I'm sorry, I'm terrible at it… That's why I wanted to practice a little bit」[p][stopse buf=1]
+「Lo siento, soy terrible en esto… Por eso quería practicar un poco」[p][stopse buf=1]
 #seizi
 [s/metozi]
-「…No, it's nothing to apologize for. We all struggle with things at first」[p][stopse buf=3]
+「…No, no hay nada por lo que disculparse.  Todos sufrimos al principio」[p][stopse buf=3]
 #hokuto
 [hw/kanasimi]
 「……」[p][stopse buf=1]
 #
-The old man says that, but I knew I was so bad and I could tell.[p]
-I can't get the rhythm or it doesn't feel right.[p]
-Why? Why is there something wrong with me? Why do I have such a poor sense of rhythm? Why is it that…[p]
+El viejo dice eso, pero yo sabía que era malo y me di cuenta.[p]
+No puedo entender el ritmo o no se siente bien.[p]
+¿Por qué? ¿Por qué me falla algo? ¿Por qué tengo tan poco sentido del ritmo? ¿Por qué?…[p]
 
 #seizi
 [s/mu]
-「…And I didn't expect this song…」[p][stopse buf=3]
+「Y no me esperaba esta canción…」[p][stopse buf=3]
 #hokuto
 [hw/mu2]
-「Eh?」[p][stopse buf=1]
+「¿Eh?」[p][stopse buf=1]
 #seizi
 [s/metozi]
 「……Hmm」[p][stopse buf=3]
 #
 [hide][seizi_magao]
 #seizi
-「……Can I borrow that guitar for a minute?」[p][stopse buf=3]
+「……¿Me prestas la guitarra un momento?」[p][stopse buf=3]
 #hokuto
 [hw_odoroki]
-「Eh?」[p][stopse buf=1]
+「¿Eh?」[p][stopse buf=1]
 [mhhide]
 #minami
 [mw_odoroki]
-「Takamura-san…?」[p][stopse buf=2]
+「¿Takamura-san…?」[p][stopse buf=2]
 [mmhide]
 #seizi
-「……Can I?」[p][stopse buf=3]
+「……¿Puedo?」[p][stopse buf=3]
 #hokuto
 [hw_mu2]
-「……Sure, but…」[p][stopse buf=1]
+「……Claro, pero…」[p][stopse buf=1]
 [mhhide]
 #seizi
 [s/mu]
-「And did you bring your amp and shielded cable with you today?」[p][stopse buf=3]
+「¿Trajiste hoy contigo el amplificador y el cable blindado?」[p][stopse buf=3]
 #hokuto
 [hw_mu]
-「Yeah, I did」[p][stopse buf=1]
+「Si, aqui estan」[p][stopse buf=1]
 #
 [mhhide]
-I take out a small USB rechargeable amp and a shielded cable (I'm tempted to say cord, but for some reason the cable that connects the guitar to the amp is a shielded cable) and give them to the old man.[p]
+Saco un pequeño amplificador USB recargable y un cable blindado (estoy tentado de decir cable, pero por alguna razón el cable que conecta la guitarra al amplificador se llama cable blindado) y se los doy al viejo..[p]
 ;ギター音
 #seizi
-「…I didn't realize that today's amplifiers could be so tiny and yet produce a decent sound…」[p][stopse buf=3]
+「No sabía que los amplificadores actuales pudieran ser tan pequeños y producir un sonido tan decente…」[p][stopse buf=3]
 #
-And then the old man quickly finished his preparations, adjusting the volume and tuning so he wouldn't disturb the neighbors.[p]
-…You can play the guitar, old man?[p]
-While I was thinking, the old man set up the guitar and began to play with a skilled hand.[p]
+Y entonces el viejo terminó de prepararse rápidamente, ajustando el volumen y la afinación para no molestar a los vecinos.[p]
+…¿Sabes tocar la guitarra, viejo?[p]
+Mientras pensaba, el viejo se puso la guitarra y empezó a tocar, hábilmente.[p]
 [hide]
 [fadeinbgm time=1000 storage=nitousei.ogg]
 [bg2 storage=still_seizi.png time=1000][eval exp="sf.ST4=1"]
 
 #hokuto
-「Amazing…」[p][stopse buf=1]
+「Increible…」[p][stopse buf=1]
 #
-A beautiful performance beyond all comparison to my own.[p]
-Although not flashy by any means, the performance seemed to appeal to the audience as if the entire song was a story.[p]
+Una hermosa interpretación incomparable con la mía.[p]
+Aunque no fue llamativa en absoluto, la interpretación pareció atraer al público como si la canción fuera una historia.[p]
 #minami
-「Beautiful…」[p][stopse buf=2]
+「Hermoso…」[p][stopse buf=2]
 #
-There is something gentle yet sad about this sorrowful melody.[p]
-As I thought when the president suggested it, this song really sounds nostalgic.[p]
-Where on earth did I hear this song?…[p]
+Hay algo dulce y triste en esta triste melodía.[p]
+Tal y como me pareció cuando la propuso la presidenta, esta canción sí que me suena nostálgica.[p]
+¿Dónde he oído esta canción?…[p]
 [fadeoutbgm time=1000]
 [bg2 storage=kawa_n.jpg time=1000]
 [fadeinbgm storage=bg/river.ogg time=1000]
 [seizi_metozi left=-145 wait=false][hokuto_w_odoroki left=360 wait=false][minami_w_odoroki left=840]
 #seizi
-「…Phew. Call me old-fashioned, but it's kind of embarrassing… Besides, I almost didn't touch an electric guitar back in the day」[p][stopse buf=3]
+「…Uf. Llámenme anticuado, pero es un poco vergonzoso… Además, en mi época casi no tocaba la guitarra eléctrica」[p][stopse buf=3]
 #hokuto
-「And you're this good?!」[p][stopse buf=1]
+「¡¿Y eres así de bueno?!」[p][stopse buf=1]
 #seizi
 [s/mu]
-「Yeah, although I played a lot of folk guitar and piano」[p][stopse buf=3]
+「Sí, aunque tocaba mucho la guitarra folclórica y el piano」[p][stopse buf=3]
 #
-So you didn't play much crunch, reverb, or anything like that. So the way he played it was just what you could do on an acoustic guitar.[p]
+Así que no tocabas con mucho sonido crunch, ni reverb, ni nada de eso. Así que la manera en que lo tocó fue simplemente lo que podías hacer en una guitarra acústica.[p]
 #seizi
 [s/metozi]
-「With an electric guitar, the sound lacked depth…」[p][stopse buf=3]
+「Con una guitarra eléctrica, el sonido no tenia profundidad…」[p][stopse buf=3]
 #minami
-「It was still amazing」[p][stopse buf=2]
+「Aún así fue increíble」[p][stopse buf=2]
 #hokuto
 [hw/mu2]
-「Really, I'm nothing like you…」[p][stopse buf=1]
+「De verdad, no me comparo en nada a ti…」[p][stopse buf=1]
 #seizi
 [s/magao]
-「Hmmm. From what I saw earlier, Hokuto-kun, you're too focused on moving your fingers」[p][stopse buf=3]
+「Hmmm. Por lo que vi antes, Hokuto-kun, estás demasiado concentrado en mover tus dedos」[p][stopse buf=3]
 #seizi
-「Your sound is too stiff. You should be more free and relaxed」[p][stopse buf=3]
+「Tu sonido es demasiado tieso. Deberías ser más suelto y relajado」[p][stopse buf=3]
 #hokuto
 [hw/mu]
-「Even if you say that…」[p][stopse buf=1]
+「Aunque digas eso…」[p][stopse buf=1]
 #seizi
 [s/magao]
-「Are you practicing without your amp all the time?」[p][stopse buf=3]
+「¿Practicas siempre sin amplificador?」[p][stopse buf=3]
 #hokuto
 [hw/magao]
-「Well… I use the amp on the club room for the most part, but in my house, I normally practice late at night, so…」[p][stopse buf=1]
+「Pues… uso el amplificador en el club la mayor parte del tiempo, pero en mi casa suelo ensayar a altas horas de la noche, así que…」[p][stopse buf=1]
 #seizi
-「That's probably one of the reasons. If you don't use an amp, you will hardly hear any sound,」[p][stopse buf=3]
+「Esa es probablemente una de las razones. Si no utilizas un amplificador, apenas escucharás,」[p][stopse buf=3]
 #seizi
-「And you can't tell if you're playing it well or if it doesn't sound right, so I think you've been playing it a little too hard to get the proper sound out of it, no?」[p][stopse buf=3]
+「Y no sabes si estás tocando bien o si no suena bien, así que supongo que has estado tocando con demasiada fuerza para poder escuchar, ¿no?」[p][stopse buf=3]
 #hokuto
 [hw/aseri]
-「That…might be true…」[p][stopse buf=1]
+「Eso… puede que sea verdad…」[p][stopse buf=1]
 #
-I do think I play a little harder when I practice at home than when I practice in the club room.[p]
-It is very likely that this was what was producing the deviation in rhythm. [p]
+Creo que toco un poco más fuerte cuando practico en casa que cuando lo hago en el club.[p]
+Es muy probable que esto fuera lo que estaba produciendo la alteración en el ritmo.[p]
 #seizi
 [s/metozi]
-「There are plenty of ways to practice without making noise, like putting on headphones, even late at night. If you don't, you'll develop bad habits」[p][stopse buf=3]
+「Hay muchas formas de practicar sin hacer ruido, como ponerse audífonos, aunque sea de noche. Si no lo haces, desarrollarás malos hábitos」[p][stopse buf=3]
 #seizi
 [s/magao]
-「Well, the first thing is to let your fingers learn the fingering as shown in the notation. You had some mistakes」[p][stopse buf=3]
+「Bueno, lo primero es dejar que tus dedos memoricen la digitación tal y como se muestra en la partitura. tuviste algunos errores ahí」[p][stopse buf=3]
 #hokuto
 [hw/kanasimi2]
-「You're right…」[p][stopse buf=1]
+「Tienes razón…」[p][stopse buf=1]
 #
 [hide][seizi_hohoemi]
 #seizi
-「Well, that's something that can be worked out if you take the time to do it right. It's not something to worry about」[p][stopse buf=3]
+「Bueno, eso es algo que se puede solucionar si le dedicas tiempo a hacerlo bien. No es algo por lo que preocuparse」[p][stopse buf=3]
 #
-The old man then returned my guitar.[p]
-I accept it slowly.[p]
+El viejo me devuelve mi guitarra.[p]
+La acepto lentamente.[p]
 [hide][hokuto_w_mu2]
 #hokuto
 「…」[p][stopse buf=1]
 #
-If I take the time, huh?[p]
-Memorize all the multiple scores and then let your fingers memorize them even more.[p]
-How long will I take to achieve that? Can I really make it work in a little over three months?[p]
-…To be honest, there are still some chords that I am not quite sure how to do.[p]
+Si le dedico tiempo, ¿eh?[p]
+Memorizar todas las partituras y luego dejar que mis dedos las memoricen todavía más.[p]
+¿Cuánto tiempo necesitaré para conseguirlo? ¿De verdad puedo hacerlo en poco más de tres meses?[p]
+Para ser sincero, todavía hay algunos acordes que no sé muy bien cómo hacer.[p]
 [hide][minami_w_odoroki]
 #minami
-「…Then again, I can't believe Takamura-san can play the guitar…」[p][stopse buf=2]
+「Por otra parte, no puedo creer que puedas tocar la guitarra, Takamura-san…」[p][stopse buf=2]
 #
 [seizi_mu]
 #seizi
 [s/mu]
-「…I used to be a musician for a little while. I didn't mean to sound arrogant about giving you an example…」[p][stopse buf=3]
+「Fui músico durante un tiempo. No quería parecer arrogante al darte un ejemplo…」[p][stopse buf=3]
 #minami
 [mw/magao]
-「Musician?」[p][stopse buf=2]
+「¿Musico?」[p][stopse buf=2]
 #seizi
 [s/kanasimi]
-「Yeah. I worked in the city for a bit. I quit after a while, though」[p][stopse buf=3]
+「Sí. Trabajé en la ciudad un tiempo, pero lo dejé después de un tiempo.」[p][stopse buf=3]
 #
-For some reason, Takamura-san's face was full of sadness. It made me feel bad for him.[p]
+Por alguna razón, la cara de Takamura-san se veía llena de tristeza, eso me hizo sentirme mal por él.[p]
 [hide][hokuto_w_kanasimi]
 #hokuto
-「…I'm really sorry, even though I'm this bad, I made you listen to me… I'm sorry…」[p][stopse buf=1]
+「Lo siento mucho, a pesar de ser así de malo, te hice escucharme… Perdón…」[p][stopse buf=1]
 #
 [seizi_mu]
 #seizi
-「I told you that you don't have to worry about it」[p][stopse buf=3]
+「Ya te he dicho que no te preocupes」[p][stopse buf=3]
 #hokuto
 [hw/mu]
-「But you…」[p][stopse buf=1]
+「Pero, tu…」[p][stopse buf=1]
 #seizi
 [s/hohoemi]
-「I'm just reminiscing a little bit about the old days. It's just a whim. You'll get good at it」[p][stopse buf=3]
+「Sólo estaba recordando un poco los viejos tiempos. Fue sólo un capricho. Te volverás bueno」[p][stopse buf=3]
 #hokuto
 [hw/mu2]
-「Is that so?…」[p][stopse buf=1]
+「¿En serio?…」[p][stopse buf=1]
 #seizi
 [s/kuti]
-「Well, maybe you need a change of scenery, so why don't we go look at the stars together this time?」[p][stopse buf=3]
+「Bueno, tal vez necesites un cambio de paisaje, así que ¿por qué no miramos las estrellas?」[p][stopse buf=3]
 #
 [hide]
-And so the old man began to stargaze for the day. And I was preoccupied with my guitar and my anxiety.[p]
+Y así el viejo empezó a mirar las estrellas. Mientras yo, me preocupaba por mi guitarra y mi angustia.[p]
 [fadeoutbgm time=500]
 [mask graphic="cut/cutin_hokuto2.png" time=1500]
 [wait time=500]

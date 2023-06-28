@@ -24,120 +24,120 @@
 *chapter7
 [fadeinbgm storage=bg/school.ogg time=1000]
 #
-And so the rainy season began a little earlier than usual.[p]
-Mid-June. The time for midterm exams, which are nothing but a pain for high school students, has arrived.[p]
-The third-year students, who were supposed to be taking exams, seemed the most relaxed, but we, the lower classmen, took it very seriously and were splendidly exhausted.[p]
-I haven't touched the guitar for a long time now, as club activities are suspended one week before the exams. …The fear that I'm going back to being a crappy guitarist comes over me.[p]
-But even in this situation, Minami made my lunch every day, and her cooking skills improved as if the first few days were a lie.[p]
-And to be honest, she has come to cook better meals than my mom.[p]
-I didn't expect Minami to have this much spirit, so when I gave her honest praise, she went all red.[p]
+Y así, la temporada de lluvias comenzó un poco antes de lo habitual.[p]
+Mediados de junio. Llega la época de los exámenes parciales, que no son más que un sufrimiento para los estudiantes de preparatoria.[p]
+Los de tercero, que se suponía que iban a realizar sus exámenes, parecían los más relajados, pero nosotros, los de primero, nos lo tomábamos muy en serio y estábamos completamente exhaustos.[p]
+Llevo mucho tiempo sin tocar la guitarra, porque las actividades del club se suspenden una semana antes de los exámenes. …Me invade el miedo de volver a ser un pésimo guitarrista.[p]
+Pero incluso así, Minami me hacía la comida todos los días, y sus habilidades culinarias mejoraron como si lo de los primeros días hubiera sido mentira.[p]
+Y para ser honesto, ha llegado a cocinar mejor que mi mamá.[p]
+No esperaba que Minami tuviera tanto ánimo, así que cuando la alabé con sinceridad, se puso roja.[p]
 [hokuto_s_bishou]
 #hokuto
-「At this rate, you'll be a great wife, Minami」[p][stopse buf=1]
+「A este ritmo, serás una gran esposa, Minami」[p][stopse buf=1]
 #
 [minami_s_tere]
 #minami
-「Wha—?!」[p][stopse buf=2][voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=234 ]
+「¡¡Qu—?!」[p][stopse buf=2][voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=234 ]
 #
 [hide]
-Did I say something weird…?[p]
-And, by the way, I crossed paths with the president in the hallway after that.[p]
+¿He dicho algo raro…?[p]
+Y, por cierto, después de eso me crucé con la presidenta en el pasillo,[p]
 [bg2 storage=rouka_s.jpg time=500]
 [nao_niko]
 #nao
-「Hokuto-kun, you say some daring things～」[p][stopse buf=4]
+「Hokuto-kun, tú sí que dices cosas atrevidas～」[p][stopse buf=4]
 #
 [hide]
-And to add to that, even Reito-senpai.[p]
+Y para colmo, hasta Reito-senpai[p]
 [reito_komari]
 #reito
-「I'm kind of envious of that part of you, Hokuto, or maybe not so much…」[p][stopse buf=5]
+「Me da un poco de envidia esa parte de ti, Hokuto, o tal vez no tanto…」[p][stopse buf=5]
 #
 [hide]
-I'm not sure if it was a compliment or a snide remark.[p]
+No estoy seguro de si era un cumplido o un comentario sarcástico.[p]
 [fadeoutbgm time=500]
-After all this, we finally arrived at the three-day exam period.[p]
-I barely made it through English, modern social studies, biology, and math.[p]
-On a slightly sunny day in between the long rainy season, I joined Minami on our way home.[p]
+Después de todo eso, por fin llegamos a los 3 días de exámenes.[p]
+A duras penas conseguí aprobar inglés, estudios sociales modernos, biología y matemáticas.[p]
+En un día ligeramente soleado entre la larga temporada de lluvia, acompañé a Minami de camino a casa.[p]
 
 [fadeinbgm storage=bg/river.ogg time=1000]
 [bg2 storage="michi.jpg" time="500"]
 [hokuto_s_bishou left=640 wait=false][minami_s_bishou left=40]
 
 #hokuto
-「Here you go. Thank you for today's lunch」[p][stopse buf=1]
+「Aquí tienes, gracias por el almuerzo de hoy」[p][stopse buf=1]
 #minami
-「Thank you for eating it」[p][stopse buf=2]
+「Gracias por comértelo」[p][stopse buf=2]
 #hokuto
 [hs/kanasimi]
-「Really, I'm sorry. I'm really sorry for making you do this even during the exams」[p][stopse buf=1]
+「De verdad, lo siento. Siento mucho haberte hecho hacer esto incluso durante los exámenes」[p][stopse buf=1]
 #minami
 [ms/magao2]
-「That's okay. I've gotten used to it lately」[p][stopse buf=2]
+「No pasa nada. Me he acostumbrado últimamente」[p][stopse buf=2]
 #hokuto
 [hs/metozi]
-「No, but it's really great to see how much you've improved in such a short period of time… It's really helpful」[p][stopse buf=1]
+「Pero es genial ver lo mucho que has mejorado en tan poco tiempo… es de gran ayuda」[p][stopse buf=1]
 #minami
 [ms/bishou]
-「You're welcome」[p][stopse buf=2]
+「De nada」[p][stopse buf=2]
 #hokuto
 [hs/akire]
-「…I wanted to do something for the old man, but I think I should thank you first, Minami」[p][stopse buf=1]
+「quería hacer algo por el viejo, pero creo que primero debería darte las gracias a ti, Minami…」[p][stopse buf=1]
 #minami
 [ms/magao2]
-「Eh, I really don't mind. …I'm doing it because I like it」[p][stopse buf=2]
+「Eh, realmente no me importa. …lo hago porque me gusta」[p][stopse buf=2]
 #hokuto
 [hs/magao]
-「No, I'm not going to feel better if you're the only one giving me things. Is there anything you want?」[p][stopse buf=1]
+「No, no voy a sentirme mejor si eres la única que me da cosas. ¿No hay algo que quieras?」[p][stopse buf=1]
 #minami
 [ms/akire]
-「I can't think of anything so suddenly… Ah」[p][stopse buf=2]
+「Si me lo preguntas así de repente no se me va a ocurrir nada… Ah」[p][stopse buf=2]
 #hokuto
 [hs/bishou]
-「There's something, right? Tell me」[p][stopse buf=1]
+「Hay algo, ¿verdad? Dime」[p][stopse buf=1]
 #minami
 [ms/dere]
-「No, um, let's see. …Recently, there's a coffee shop in front of the station, and their special parfait is getting a reputation for being really good」[p][stopse buf=2]
+「No, bueno… recientemente, hay una cafetería en frente de la estación, y su parfait especial está consiguiendo fama por ser muy bueno」[p][stopse buf=2]
 #minami
 [ms/tun]
-「But they say it's hard to get a table because reservations fill up quickly. I've always wanted to try it… Sorry, don't worry about it」[p][stopse buf=2]
+「Pero dicen que es difícil conseguir mesa porque las reservaciones se llenan rápido. Siempre he querido probarlo… perdón, no te preocupes」[p][stopse buf=2]
 #hokuto
 [hs/akire]
-「Ah, well, you like sweets, don't you… Hmm? Special parfait in front of the station…? Is that place Cat's Tail, by any chance?」[p][stopse buf=1]
+「Ah, bueno, a ti te gustan los dulces, ¿verdad? …¿hmm?　¿Un parfait especial frente a la estación…? ¿Por casualidad ese sitio no será "Cola de Gato"?」[p][stopse buf=1]
 #minami
 [ms/odoroki]
-「Ah, yeah, do you know it?」[p][stopse buf=2]
+「Sí, ¿lo conoces?」[p][stopse buf=2]
 #hokuto
 [hs/magao][kanim name="hokuto" keyframe="nod" time="500"]
-「Yeah, I see, that place…」[p][stopse buf=1]
+「Sí, ya veo, ese lugar…」[p][stopse buf=1]
 #minami
 [ms/magao]
-「Hokuto?」[p][stopse buf=2]
+「¿Hokuto?」[p][stopse buf=2]
 #hokuto
 [hs/metozi]
-「…After the exam tomorrow, the heavy subjects will be taken care of, and after school tomorrow, there will be some free time… But after that, our club activities will start up again…」[p][stopse buf=1]
+「Después del examen de mañana, las asignaturas más pesadas pasarán, y tras las clases de mañana, habrá algo de tiempo libre… pero después de eso, nuestras actividades del club comenzarán de nuevo…」[p][stopse buf=1]
 #minami
 [ms/magao2]
-「Hokuto… Hokuto, are you listening?」[p][stopse buf=2]
+「Hokuto…  Hokuto, ¿Estás escuchandome?」[p][stopse buf=2]
 #hokuto
 [hs/magao]
 「Minami」[p][stopse buf=1]
 #minami
 [ms/magao]
-「Eh? Yes!」[p][stopse buf=2]
+「¿Eh? ¡Si!」[p][stopse buf=2]
 #hokuto
 [hs/egao]
-「Let's have it tomorrow, the special parfait」[p][stopse buf=1]
+「Vayamos a comer mañana, ese parfait especial」[p][stopse buf=1]
 #minami
 [ms/odoroki]
-「Eh?!」[p][stopse buf=2]
+「¡¿Eh?!」[p][stopse buf=2]
 #hokuto
 [hs/egao2]
-「I'll make a reservation, so we can meet at the school gate tomorrow, after school」[p][stopse buf=1]
+「Voy a hacer una reserva, así que nos encontramos en la puerta principal mañana después de la escuela」[p][stopse buf=1]
 #
 [hhide wait=false][move name=minami left=360]
 #minami
-「Eh, wait a minute, what do you mean?!」[p][stopse buf=2]
+「Eh, espera un minuto, ¡¿qué quieres decir?!」[p][stopse buf=2]
 [fadeoutbgm time=500]
 #
 [mask time=500]
@@ -147,81 +147,81 @@ On a slightly sunny day in between the long rainy season, I joined Minami on our
 [mask_off time=500]
 [fadeinbgm storage=bg/cafe.ogg time=1000]
 #Employee
-「Welcome… Oh, Hokuto-kun!」[p]
+「Bienvenidos… ¡Oh, Hokuto-kun!」[p]
 #hokuto
-「It's been a while」[p][stopse buf=1]
+「Ha pasado mucho tiempo」[p][stopse buf=1]
 #Employee
-「Yesterday you suddenly said something about a special parfait and I wondered what was going on. Hokuto-kun, you can be smooth, too, can't you?」[p]
+「Ayer de repente dijiste algo sobre un parfait especial y me pregunté qué estaba pasando. Hokuto-kun, tú también puedes ser todo un galán, ¿no?」[p]
 #minami
 「Oh, no, no…」[p][stopse buf=2]
 #hokuto
 [hs/magao]
-「Eh, what do you mean?」[p][stopse buf=1]
+「¿Eh? ¿A qué te refieres」[p][stopse buf=1]
 #Employee
-「You haven't told me anything about that girl over there」[p]
+「No me habias contado nada, sobre esta chica」[p]
 #hokuto
 [hs/egao2]
-「Oh, she's been very kind to me lately. I wanted to do something in return, and she said she wanted to try this parfait」[p][stopse buf=1]
+「Oh, ella ha sido muy amable conmigo últimamente. Yo quería hacer algo a cambio, y me dijo que quería probar este parfait」[p][stopse buf=1]
 #minami
 [ms/tun]
-「T-That's right…」[p][stopse buf=2]
+「A-Así es…」[p][stopse buf=2]
 #Employee
-「Yes, you're right. I'll leave it like that. Now, your order would be your reserved special parfait. What about your drinks?」[p]
+「Sí, tienes razón. Lo dejo ahí. Ahora, su pedido sería su parfait especial reservado, ¿y sus bebidas?」[p]
 #hokuto
 [hs/bishou]
-「I'll go with a coffee blend. What about you, Minami?」[p][stopse buf=1]
+「Yo tomaré la mezcla de café del día. ¿Y tú, Minami?」[p][stopse buf=1]
 #minami
 [ms/odoroki]
-「Eh, tea」[p][stopse buf=2]
+「Eh, Té」[p][stopse buf=2]
 #Employee
-「Okay. One coffee blend and one tea. Would you like sugar and milk?」[p]
+「De acuerdo. Una taza de café y otra de té. ¿Desean azúcar y leche?」[p]
 #hokuto
 [hs/bishou]
-「We have that super sweet parfait coming, so it would be fine if we don't ask for that, right?」[p][stopse buf=1]
+「Tenemos ese parfait tan dulce preparado, así que no pasa nada si no pedimos eso, ¿verdad?」[p][stopse buf=1]
 #minami
 [ms/dere]
-「Y-Yeah」[p][stopse buf=2]
+「S-Sí…」[p][stopse buf=2]
 #Employee
-「Understood. Then please wait a moment」[p]
+「Entendido. Entonces por favor esperen unos minutos」[p]
 #hokuto
 [hs/egao2]
-「Okay!」[p][stopse buf=1]
+「¡Claro!」[p][stopse buf=1]
 #minami
 [ms/tun]
-「…Hey, Hokuto…」[p][stopse buf=2]
+「Oye, Hokuto…」[p][stopse buf=2]
 #hokuto
 [hs/bishou]
-「Hm?」[p][stopse buf=1]
+「¿Hmm?」[p][stopse buf=1]
 #minami
-「…You're so used to it. Have you been here before?」[p][stopse buf=2]
+「Parece que estás acostumbrado. ¿Has estado aquí antes?…」[p][stopse buf=2]
 #hokuto
-「The lady who just helped us, she's the mother of a member of our middle school's basketball team」[p][stopse buf=1]
+「La señora que nos acaba de ayudar, es la mamá de un miembro del equipo de baloncesto de nuestra escuela secundaria」[p][stopse buf=1]
 #minami
 [ms/magao2]
-「Ah, really?」[p][stopse buf=2]
+「¿En serio?」[p][stopse buf=2]
 #hokuto
 [hs/egao2]
-「So I've been invited a few times, and I used to come here when I couldn't concentrate at home, like during the exams. So I asked her to make an appointment for me today」[p][stopse buf=1]
+「Me han invitado varias veces, y solía venir aquí cuando no podía concentrarme en casa, como durante los exámenes. Así que le rogué que me diera una reserva para hoy」[p][stopse buf=1]
 #
-I was given a large discount on coffee because of the middle school student price, so I was able to be here with my small allowance.[p]
-In hindsight, this may have been what kept me from going bust at the time.[p]
+Me hicieron un gran descuento en el café por ser estudiante de secundaria, así que podía estar aquí con mi pequeña mesada.[p]
+Pensándolo bien, puede que eso me impidiera quebrar en su momento.[p]
 #minami
-「I didn't know that… I feel like I've been seeing a lot of aspects of you lately that I didn't know about」[p][stopse buf=2]
+「No lo sabía… Siento que últimamente he visto muchos aspectos tuyos que no conocía」[p][stopse buf=2]
 #hokuto
 [hs/odoroki]
-「Really?」[p][stopse buf=1]
+「¿En serio?」[p][stopse buf=1]
 #minami
 [ms/bishou][kanim name="minami" keyframe="nod" time="500"]
-「Yeah, you've changed a little bit. Well, you're still getting caught up in sudden and unexpected things」[p][stopse buf=2]
+「Sí, has cambiado un poco. Bueno, pero como siempre sigues metiéndote en cosas repentinas e inesperadas」[p][stopse buf=2]
 #hokuto
 [hs/bishou]
-「…Yeah. But I think Minami is the one who's been dragging me around」[p][stopse buf=1]
+「Sí. Pero creo que eres tu quien me ha estado arrastrando, Minami…」[p][stopse buf=1]
 #minami
 [ms/odoroki]
-「Me?」[p][stopse buf=2]
+「¿Yo?」[p][stopse buf=2]
 #hokuto
 [hs/egao2]
-「Yup, since we were little kids」[p][stopse buf=1]
+「Sí, desde que éramos pequeños」[p][stopse buf=1]
 [fadeoutbgm time=1000]
 #
 [mask time=500]
@@ -231,28 +231,28 @@ In hindsight, this may have been what kept me from going bust at the time.[p]
 [mask_off time=500]
 #hokuto
 [hs_bishou]
-「After my father died, I was depressed for a while, you know? I didn't want to go to school, and I didn't talk to anyone. Even when I was at home, I just cowered and cried all the time」[p][stopse buf=1]
+「Después de la muerte de mi padre, estuve deprimido durante un tiempo, ¿sabes?　No quería ir al colegio y no hablaba con nadie.　Incluso cuando estaba en casa, me escondía y lloraba todo el tiempo」[p][stopse buf=1]
 [mhhide]
 #minami
 [ms_bishou]
-「…Yeah. That happened…」[p][stopse buf=2]
+「…Sí, eso pasó…」[p][stopse buf=2]
 [mmhide]
 #
 [image storage=still_minami.png layer=0 time=500 width=1920 height=1972 top=-700][eval exp="sf.ST7=1"]
 [camera time=60000 y=+700 layer=0 wait=false]
 #hokuto
 [hs_egao2]
-「But then, you came to my house, not to mention the school, and tried to take me outside to the schoolyard, the park, and other places」[p][stopse buf=1]
+「Pero entonces, viniste a mi casa, sin mencionar la escuela, e intentaste llevarme afuera, al patio de la escuela, al parque y a otros lugares…」[p][stopse buf=1]
 [mhhide]
 #minami
-「Hokuto, let's play, okay?」[p][stopse buf=2]
+「Hokuto, vamos a jugar, ¿sí?」[p][stopse buf=2]
 #minami
 [ms_uwame]
 「…」[p][stopse buf=2]
 [mmhide]
 #hokuto
 [hs_kanasimi]
-「At first, I was annoyed. I wanted you to leave me alone. …But you wouldn't give up on me」[p][stopse buf=1]
+「Al principio, estaba molesto. Quería que me dejaras en paz. …pero tú nunca te rendiste」[p][stopse buf=1]
 [mhhide]
 #minami
 [ms_magao]
@@ -260,20 +260,20 @@ In hindsight, this may have been what kept me from going bust at the time.[p]
 [mmhide]
 #
 [bg2 storage=gl_minami.png time=0]
-[freeimage layer=0 time=500]
+[freeimage  layer=0 time=500]
 #hokuto
 [hs_egao2]
-「I had no choice but to raise my face, and when I looked at you, you looked worse than I did, with tears in your eyes, and desperately reached out your hand to me. I had no choice but to take your hand」[p][stopse buf=1]
+「No tuve más remedio que levantar la cara, y cuando te miré, te veías peor que yo, con lágrimas en los ojos, mientras me tendías desesperadamente la mano. No tuve más remedio que aceptar tu mano」[p]
 [mhhide]
 #minami
 [ms_kanasimi]
-「……Really, I'm sorry… Even at that time…」[p][stopse buf=2]
+「En serio, perdón… incluso en esos momentos…」[p][stopse buf=2]
 [mmhide]
 #hokuto
 [hs_bishou]
-「But when I took your hand, you looked so happy. So we played tag and hide-and-seek until it got dark… My mind went blank」[p][stopse buf=1]
+「Jugamos al escondite y otras cosas hasta que anochecía… y mi mente se quedaba en blanco」[p][stopse buf=1]
 #hokuto
-「The loneliness of losing my dad, it disappeared. Really, I don't know what I would have done without you」[p][stopse buf=1]
+「La soledad por la pérdida de mi papá, desaparecía. De verdad, no sé qué habría hecho sin ti」[p][stopse buf=1]
 [mhhide]
 #minami
 [ms_uwame]
@@ -289,226 +289,226 @@ In hindsight, this may have been what kept me from going bust at the time.[p]
 [mask_off time=500]
 
 #hokuto
-「So I started to participate in various clubs, lessons, and extracurricular activities in my own way… But in the end, I just needed to prove to myself that I wasn't lonely, that I was doing the right thing」[p][stopse buf=1]
+「Así que empecé a participar en varios clubes, clases y actividades extraescolares a mi modo… Pero al final, sólo quería demostrarme a mí misma que no estaba solo, que estaba haciendo lo que debía」[p][stopse buf=1]
 #hokuto
-「And yet, no matter what I did, I was always running alone, and I was useless. I even pushed most of the student council duties on you in middle school」[p][stopse buf=1]
+「Y, sin embargo, hiciera lo que hiciera, siempre andaba solo y no servía para nada. Incluso te cargué con la mayoría de las tareas del consejo estudiantil en la escuela secundaria」[p][stopse buf=1]
 #minami
-「That was only because you looked overwhelmed, so I took your place, Hokuto…」[p][stopse buf=2]
+「Eso fue sólo porque parecías agobiado, así que tomé tu lugar, Hokuto.…」[p][stopse buf=2]
 #hokuto
 [hs/bishou][kanim name="hokuto" keyframe="nod" time="500"]
-「Yes. But I went through a lot of things and caused Minami a lot of trouble… But now I am extremely fulfilled. I met the senpais and old man Takamura, but…」[p][stopse buf=1]
+「Sí. Pero pasé por muchas cosas y te causé muchos problemas, Minami… pero ahora me siento muy satisfecho. Conocí a los senpais y al viejo Takamura, pero…」[p][stopse buf=1]
 #hokuto
 [hs/egao]
-「Of course, it was you who came along with me to practice, stargazed with me, and even made me lunch」[p][stopse buf=1]
+「Como siempre, fuiste tú quien me acompañó a los ensayos, miró las estrellas conmigo y hasta me preparó el almuerzo」[p][stopse buf=1]
 #hokuto
-「…I think I can do my best because you are right next to me, pulling me along, not pushing me, but letting me lean on you, making me feel that it is okay to ask for help. Thank you so much」[p][stopse buf=1]
+「Creo que puedo dar lo mejor de mí porque estás a mi lado, impulsándome, pero sin empujarme, dejando que me apoye en ti, haciéndome sentir que está bien pedir ayuda. Muchas gracias…」[p][stopse buf=1]
 #minami
 [ms/dere]
 「……」[p][stopse buf=2]
 #hokuto
 [hs/magao]
-「But can I ask you something? There's something I've been meaning to ask you」[p][stopse buf=1]
+「Pero, ¿te puedo preguntar algo? Hay algo que he querido preguntarte」[p][stopse buf=1]
 #minami
 [ms/uwame]
-「…What?」[p][stopse buf=2]
+「¿Qué?」[p][stopse buf=2]
 #hokuto
 [hs/kanasimi]
-「Why do you care so much about me? Why are you helping me?」[p][stopse buf=1]
+「¿Por qué te preocupas tanto por mí? ¿Por qué me ayudas?」[p][stopse buf=1]
 #minami
 [ms/odoroki]
-「Eh?」[p][stopse buf=2]
+「¿Eh?」[p][stopse buf=2]
 #hokuto
 [hs/metozi]
-「I mean, you even make me lunch everyday. That's not normal. But it's not something I can say while I'm still relying on your kindness…」[p][stopse buf=1]
+「Quiero decir, incluso me haces el almuerzo todos los días, eso no es normal. Pero no es algo de lo que pueda hablar mientras siga esperando tu amabilidad…」[p][stopse buf=1]
 #minami
 [ms/magao]
 「……」[p][stopse buf=2]
 #hokuto
 [hs/kanasimi]
-「Until recently, I thought you felt responsible for my dad's death」[p][stopse buf=1]
+「Hasta hace poco, pensaba que te sentías responsable de la muerte de mi papá」[p][stopse buf=1]
 #hokuto
-「I'm thinking that you're carrying a cross that you don't need and you're just looking out for me. …And I've said terrible things like that before」[p][stopse buf=1]
+「Estoy pensando que estás cargando con una cruz que no necesitas y que sólo estás cuidando de mí. …Y además te dije cosas horribles antes」[p][stopse buf=1]
 #minami
 [ms/kanasimi]
-「…Yeah, maybe that was part of it」[p][stopse buf=2]
+「Sí, puede que esa responsabilidad fuera parte de por lo que lo había hecho…」[p][stopse buf=2]
 #hokuto
 [hs/magao]
-「But you've been doing a lot more for me since then… Why? If it's not out of a sense of guilt or responsibility, why…」[p]
+「Pero desde entonces has hecho mucho más por mí… ¿por qué? Si no es por un sentimiento de culpa o responsabilidad, ¿por qué?…」[p]
 #minami
 [ms/magao2]
-「Well…」[p][stopse buf=2][fadeoutbgm time=1000]
+「Pues…」[p][stopse buf=2][fadeoutbgm time=1000]
 #Employee
-「Here you go. We have a blended coffee, Earl Grey tea, and our special parfait!」[p]
+「Aquí tienen. ¡Tenemos un café preparado, un té Earl Grey y nuestro parfait especial!」[p]
 #hokuto
 [hs/bishou]
-「…Ah, thanks」[p][stopse buf=1]
+「…Ah, gracias」[p][stopse buf=1]
 #
-…What bad timing…[p][fadeinbgm storage=minami.ogg time=1000]
+…What a bad timming…[p][fadeinbgm storage=minami.ogg time=1000]
 #minami
 [ms/kira]
-「…EH?」[p][stopse buf=2]
+「¿EH?…」[p][stopse buf=2]
 #
-Minami's eyes become smaller. Her eyes are in disbelief at the sight in front of her.[p]
-But on the other hand, she can't hide her joy and excitement.[p]
+Los ojos de Minami se hacen pequeños. Sus ojos no pueden creer lo que tienen delante.[p]
+Pero por otro lado, no puede ocultar su alegría y emoción.[p]
 [hide]
 [bg2 storage=still_pafe.png time=500][eval exp="sf.ST8=1"]
-It was obvious. In front of her, a heaping heap of fresh cream, ice cream, sponge, and yogurt, with early summer fruits such as loquats and plums as the base, is piled up as high as it will go.[p]
-This is the Cat's Tail famous (mainly for its size) special parfait. Anyway, it's huge. And it looks really delicious.[p]
-On the other side of the parfait, Minami is already superbly engrossed in the parfait.[p]
-…Oh, we can't talk about serious things anymore.[p]
+Era obvio. Delante de ella, un montón de crema fresca, helado, bizcocho y yogur, con frutas de verano, nísperos y ciruelas de base, se apilan hasta arriba.[p]
+Este es el parfait especial de "Cola de Gato" famoso (Principalmente por su tamaño). Es enorme. Y se ve realmente delicioso.[p]
+Al otro lado del parfait, Minami ya está completamente inmersa en el parfait.[p]
+Ah, así no vamos a poder hablar de cosas serias…[p]
 #minami
 [ms_tun2]
-「Ho-Hokuto… how much does this cost?」[p][stopse buf=2]
+「Ho-Hokuto… ¿cuánto cuesta esto?」[p][stopse buf=2]
 [mmhide]
 #hokuto
 [hs_akire]
-「The daughter of the director of the city's best hospital, after all, is worried by something so ordinary as that……」[p][stopse buf=1]
+「La hija del director del mejor hospital de la ciudad, al fin y al cabo, se preocupa por algo tan ordinario como eso…」[p][stopse buf=1]
 [mhhide]
 #minami
 [ms_tun2]
-「No, because I didn't think it would be this much… I didn't bring that much money here…」[p][stopse buf=2]
+「No, no creía que fuera a ser tanto… No tengo tanto dinero aquí…」[p][stopse buf=2]
 [mmhide]
 #hokuto
 [hs_bishou]
-「Oh, don't worry. I'll pay for everything, even the drinks」[p][stopse buf=1]
+「No te preocupes. Voy a pagar por todo, incluso las bebidas」[p][stopse buf=1]
 [mhhide]
 #minami
 [ms_tere]
-「Eh?!」[p][stopse buf=2]
+「¡¿Eh?!」[p][stopse buf=2]
 [mmhide]
 #hokuto
 [hs_egao2]
-「Because I'm grateful for all you do, and I can't let you pay for it」[p][stopse buf=1]
+「Porque estoy agradecido por todo lo que haces, y no puedo dejar que pagues hoy」[p][stopse buf=1]
 [mhhide]
 #minami
 [ms_uwame]
-「…Do you have that kind of money?」[p][stopse buf=2]
+「¿Tienes tanto dinero?」[p][stopse buf=2]
 [mmhide]
 #hokuto
 [hs_bishou]
-「I haven't used my allowance lately, except for what I spend on club activities. This much is fine. Don't worry about it, enjoy it」[p][stopse buf=1]
+「Últimamente no he usado mi mesada, salvo lo que gasto en las actividades del club. Está bien. No te preocupes, disfrútalo」[p][stopse buf=1]
 #
 [mhhide]
-Minami also increased my allowance a little bit because she started making me lunch, which helped me save on food expenses.[p]
-Of course, my mom apparently gives some money to Minami's family for the cost of the ingredients for my lunch box.[p]
+Minami también ha incrementado un poco mi mesada porque ha empezado a prepararme el almuerzo, lo que me ha ayudado a reducir los gastos de comida.[p]
+Por supuesto, mi madre aparentemente da algo de dinero a la familia de Minami para el coste de los ingredientes de mi almuerzo.[p]
 #minami
 [ms_uwame]
-「…Really?」[p][stopse buf=2]
+「…¿En serio?」[p][stopse buf=2]
 [mmhide]
 #hokuto
 [hs_egao2]
-「I told you, I always return favors. Now, eat quickly or it'll melt」[p][stopse buf=1]
+「Ya te dije que sí. Siempre devuelvo los favores. Ahora, come rápido o se derretirá」[p][stopse buf=1]
 [mhhide]
 #minami
 [ms_magao]
-「…Well, let's eat」[p][stopse buf=2]
+「Bueno, gracias por la comida…」[p][stopse buf=2]
 #
 [mmhide]
 [bg2 storage=cafe.jpg time=500]
 [minami_s_mogu]
-She picked up a spoon, hesitantly scooped up a portion of parfait ice cream, and brought it to her mouth.[p]
-At the next moment—[p]
+Agarró una cuchara y, indecisa, tomó una porción de helado del parfait y se la llevó a la boca.[p]
+At the next moment[p]
 #minami
-「Mmm～! Delicious～!」[p][stopse buf=2]
+「¡Mm~!  ¡Delicioso~!」[p][stopse buf=2]
 #
-…Minami's face, which always looked somewhat cold, was melting away happily.[p]
-From the second mouthful, there was no more hesitation.[p]
-She keeps bringing more and more piles of cream and fruit to her mouth, breaking them down and chewing on them with a full smile, as if the sweetness is happiness itself.[p]
+La cara de Minami, que siempre parecía algo fría, se estaba derritiendo de felicidad.[p]
+A partir del segundo bocado, no dudó más.[p]
+Se lleva cada vez más montones de crema y fruta a la boca, los parte y mastica con una sonrisa de oreja a oreja, como si la dulzura fuera la felicidad misma.[p]
 [move name=minami left=40 wait=true][hokuto_s_bishou left=640]
 #hokuto
-「The way you eat it, you make it look delicious, don't you?…」[p][stopse buf=1]
+「La forma en que lo comes hace que luzca delicioso, ¿no?…」[p][stopse buf=1]
 #minami
-「Because it's really yummy!…」[p][stopse buf=2]
+「¡Porque está riquísimo!…」[p][stopse buf=2]
 #
-Somehow, even her vocabulary is becoming infantile.[p]
-Even my cheeks loosened up as I sipped my coffee.[p]
+De alguna manera, incluso su vocabulario se está volviendo infantil.[p]
+Incluso mis mejillas se relajaron mientras tomaba mi café.[p]
 #hokuto
-「If it makes you that happy, I'm glad I brought you here」[p][stopse buf=1]
+「Si te hace así de feliz, me alegro de haberte traído aquí」[p][stopse buf=1]
 #minami
 [ms/uwame][kanim name="minami" keyframe="nod" time="500"]
-「Yeah, thank you so much… Eh, you're not going to eat, Hokuto?」[p][stopse buf=2]
+「Sí, muchas gracias… eh, ¿no te vas a comer a Hokuto?」[p][stopse buf=2]
 #hokuto
 [hs/magao]
-「No, that's what I asked for for you」[p][stopse buf=1]
+「No, ese lo pedí para ti」[p][stopse buf=1]
 #minami
 [ms/egao2]
-「I can't eat all this by myself. Here, why don't you try some, Hokuto?」[p][stopse buf=2]
+「No me puedo comer todo esto yo sola. Toma, ¿por qué no pruebas un poco, Hokuto?」[p][stopse buf=2]
 #
-Then, she scooped up a bite and held out her spoon to me.[p]
+Luego, tomó un bocado y me acercó su cuchara.[p]
 #hokuto
 [hs/egao]
-「Well, aaah」[p][stopse buf=1]
+「Bueno, Aaah」[p][stopse buf=1]
 #minami
 [ms/egao]
-「Aaah, hm?」[p][stopse buf=2]
+「Aaah… ¿Hmm?」[p][stopse buf=2]
 #
-I eat the contents of the spoon and taste the plum and the cream.[p]
-It was so natural to both of us that it took a while to understand what just happened.[p][fadeoutbgm time=1000]
+Me como todo lo que hay en la cuchara y saboreo la ciruela y la crema.[p]
+Fue tan natural para ambos que tardamos un poco en comprender lo que acababa de pasar.[p][fadeoutbgm time=1000]
 #minami
 [ms/tere]
-「……Eh?」[p][stopse buf=2]
+「¿Eh…?」[p][stopse buf=2]
 #hokuto
 [hs/tere]
-「……Hm?」[p][stopse buf=1]
+「¿Hm…?」[p][stopse buf=1]
 #
-Minami is turning bright red as she alternates between the spoon and my face. I wonder what's wrong.[p]
-What just happened? Let's look back.[p]
-Minami. Her spoon. Minami held out her spoon to me. And I ate.[p]
-I said Aaah…  She said Aaah…[p]
-We… just… did… that…[p]
+Minami se está poniendo muy roja mientras me mira a mí y a la cuchara. Me pregunto qué le pasa.[p]
+¿Qué acaba de ocurrir? Retrocedamos.[p]
+Minami. Su cuchara. Minami me dio su cuchara. Y yo comí.[p]
+Yo dije Aaah  Ella dijo Aaah…[p]
+Acabamos… de… hacer… eso…[p]
 [fadeinbgm storage=bg/cafe.ogg time=1000]
-The looks around us are really bad. It hurts. Or better yet, I'm steaming hot.[p]
-Hey, waitress.[p]
-Don't put your hand over your mouth like you're about to get a speech bubble saying, "Tsk tsk! Oh my! Oh my!" I'm not coming back![p]
-Fearfully, I turned to Minami and there she was, bright red and about to boil.[p]
+Las miradas a nuestro alrededor, son realmente nefastas. Eso duele. O mejor dicho, estoy ardiendo.[p]
+Oye mesera.[p]
+No te tapes la boca con la mano como si te fuera a salir un globito diciendo "tsk tsk" "¡Oh cielos! Oh cielos!". No volveré a este lugar![p]
+Temeroso, volví a mirar a Minami y allí estaba, roja como un tomate y a punto de estallar.[p]
 #hokuto
 [hs/dere]
-「…Uh, Minami, I'm…sorry」[p][stopse buf=1]
+「Uh, Minami, Yo… lo siento」[p][stopse buf=1]
 #minami
 [ms/dere]
-「No, no, It's my fault, as well…」[p][stopse buf=2]
+「No, no, también fue mi culpa…」[p][stopse buf=2]
 #
 ……[p]
 #hokuto
-「…You want another spoon?」[p][stopse buf=1]
+「¿Quieres otra cuchara?…」[p][stopse buf=1]
 #minami
 [ms/dere2]
-「Y-Yeah, let's get a new one…」[p][stopse buf=2]
+「S-Sí, pidamos otra…」[p][stopse buf=2]
 #
-Well, even if we got a replacement, it doesn't change the fact that we kissed indirectly.[p]
-…No, wait, don't be conscious of it. We're talking about Minami. I have had plenty of these.[p]
-I used to play house with Minami.[p]
+Bueno, incluso si la cambiamos por otra, no cambia el hecho de que nos besamos indirectamente.[p]
+…No, espera, no seas consciente de ello. Estamos hablando de Minami. Ya habia pasado por muchas de estas.[p]
+Hasta solía jugar a la casita con Minami.[p]
 #Employee
-「Are you sure? You really want to replace it?」[p]
+「¿Estás segura? ¿De verdad quieres cambiarla?」[p]
 #minami
 [ms/tun2]
-「YES! I mean, I'm sorry, please do…」[p][stopse buf=2]
+「¡Sí! Quiero decir, si, por favor…」[p][stopse buf=2]
 #
-Minami is rushing around, asking the waitress to change her spoon.[p]
-…Nevertheless. I corrected what I said earlier about Minami being cold.[p]
-If anything, Minami is the type of person whose facial expressions change from one to the other. Yeah, cute.[p]
+Minami se apresura a pedirle a la mesera que le cambie la cuchara.[p]
+…No obstante. Deberia corregir lo que dije antes sobre Minami, que era fria.[p]
+De hecho, Minami es el tipo de persona cuyas expresiones faciales cambian de una a otra. Sí, es linda.[p]
 …………[p]
-Cu-te.[p]
-Do I think Minami is cute now? No, this is, you know, that.[p]
-On the one hand, she takes me seriously, on the other hand, she is excited like a child for the first time in a long time, and on the other hand, she turns bright red like this.[p]
-Girls like that are cute, not only Minami.[p]
-I mean, you know. Yes, I'm a boy no matter what.[p]
-Minami, being a girl, just forced the crush switch in my heart to on. Yeah. So. I mean…[p]
-It's not that Minami is particularly cute or anything…[p]
-…Let's just have some coffee and calm down. Yeah…[p]
+Lin-da.[p]
+¿Ahora creo que Minami es linda? No, esto es, tú sabes, eso.[p]
+Por un lado, me toma en serio, por otro, se emociona como una niña por primera vez desde hace mucho tiempo y, por último, se pone así de roja..[p]
+Las chicas así son lindas, no sólo Minami.[p]
+Quiero decir, ya sabes. Sí, soy un chico al fin y al cabo.[p]
+Minami, al ser una chica, acaba de encender el interruptor de amor en mi corazón. Sí. Así que… lo que quiero decir es…[p]
+No es que Minami sea especialmente linda o algo así…[p]
+Tomemos el café y calmémonos. Sí…[p]
 #minami
 [ms/dere2]
-「…I'm so embarrassed I can't even taste it…」[p][stopse buf=2]
+「Estoy tan avergonzada que ni siquiera puedo saborearlo…」[p][stopse buf=2]
 #hokuto
-「…You can have another cup of tea and relax」[p][stopse buf=1]
+「Puedes tomarte otra taza de té y relajarte」[p][stopse buf=1]
 #
-I'll do the same. Because I'm having the exact same symptoms right now.[p]
+Yo haré lo mismo. Porque estoy teniendo exactamente los mismos síntomas en este momento.[p]
 #minami
 [ms/dere]
-「…Thanks」[p][stopse buf=2]
+「Gracias…」[p][stopse buf=2]
 #
-I was really glad that I brought more pocket money. It's important to know where to spend your money. Yeah.[p]
-We managed to finish the special parfait together, even though it was embarrassing to share the parfait together.[p]
+Me alegré mucho de haber traído más dinero suelto. Es importante saber en qué gastas tu dinero. Sí.[p]
+Conseguimos terminar juntos el parfait especial, aunque fue vergonzoso compartir el parfait juntos.[p]
 [fadeoutbgm time=1000]
 [mask time=500]
 [ms/uwame time=0][hs/metozi time=0]
@@ -517,114 +517,114 @@ We managed to finish the special parfait together, even though it was embarrassi
 [mask_off time=500]
 
 #minami
-「…Thanks for the food today」[p][stopse buf=2]
+「Gracias por la comida de hoy…」[p][stopse buf=2]
 #
-On the way back from the coffee shop. Back to the usual riverside.[p]
-The reality of having to study for the rest of the exams hits me now, but honestly, it's not worth it, and it's awkward.[p]
+Volviendo de la cafetería. Volvemos a la orilla de siempre.[p]
+La realidad de tener que estudiar para el resto de los exámenes me invade, pero sinceramente, no merece la pena, y es incómodo.[p]
 #hokuto
-「Well… A lot happened, but… Did you enjoy it?」[p][stopse buf=1]
+「Bueno… pasaron muchas cosas, pero… ¿estuviste satisfecha?」[p][stopse buf=1]
 #minami
 [ms/bishou][kanim name="minami" keyframe="nod" time="500"]
-「Yeah, the parfait was delicious」[p][stopse buf=2]
+「Sí, el parfait estaba delicioso」[p][stopse buf=2]
 #hokuto
 [hs/bishou]
-「I see. Well, that's good…」[p][stopse buf=1]
+「Ya veo. Bueno, eso está bien…」[p][stopse buf=1]
 #minami
-「Yeah……」[p][stopse buf=2]
+「Sí…」[p][stopse buf=2]
 #hokuto
 [hs/kanasimi]
-「……You know, I've been taken care of so much. I can't repay you at all. I'm really sorry I could only do this」[p][stopse buf=1]
+「Me has ayudado tanto que no puedo agradecértelo en absoluto. Siento mucho que solo pudiera hacer esto」[p][stopse buf=1]
 #minami
-「No, I kind of had fun today, and I was happy that you did this for me, Hokuto」[p][stopse buf=2]
+「No, hoy me divertí mucho, y me alegré de que hicieras esto por mí, Hokuto」[p][stopse buf=2]
 #hokuto
 [hs/bishou]
-「I see. …Well, let's go somewhere some other time, make some time to do it or something. …But I'm not sure I'd feel comfortable going back to that place again」[p][stopse buf=1]
+「Ya veo. …Bueno, vayamos a otro sitio en otro momento. …pero, no estoy seguro de sentirme cómodo si vuelvo a ese lugar」[p][stopse buf=1]
 #minami
 [ms/magao2]
-「…It's fine. We can go one more time」[p][stopse buf=2]
+「No pasa nada, vamos una vez más…」[p][stopse buf=2]
 #hokuto
 [hs/magao]
-「Why?」[p][stopse buf=1]
+「¿Por que?」[p][stopse buf=1]
 #minami
 [ms/dere]
-「But… The daily sundae on that promotional sign looked good, too」[p][stopse buf=2]
+「Pero es que… el sundae del día en ese cartel promocional también se veía rico」[p][stopse buf=2]
 #hokuto
 [hs/akire]
-「…You really are a glutton…」[p][stopse buf=1]
+「Realmente eres una glotona…」[p][stopse buf=1]
 #minami
 [ms/dere2]
-「It can't be helped. The food was delicious…」[p][stopse buf=2]
+「No puedo evitarlo, la comida estaba deliciosa.…」[p][stopse buf=2]
 #hokuto
 [hs/bishou]
-「…Well, they say it's the best coffee shop around here. Okay, let's go back there again」[p][stopse buf=1]
+「Dicen que es la mejor cafetería de por aquí. Está bien, volvamos allá otra vez」[p][stopse buf=1]
 #minami
 [ms/dere][kanim name="minami" keyframe="nod" time="500"]
 「Yeah」[p][stopse buf=2]
 #hokuto
 [hs/egao2]
-「Oh, yes, maybe next time we should invite our senpais and the old man, too. I promised him that we would do something together after the rainy season」[p][stopse buf=1]
+「Ah, sí, quizá la próxima vez deberíamos invitar también a nuestros senpais y al viejo. Le prometí que haríamos algo juntos después de la temporada de lluvia」[p][stopse buf=1]
 [fadeoutbgm time=500]
 #minami
 [ms/bishou]
 「……」[p][stopse buf=2]
 #hokuto
 [hs/odoroki]
-「…What's wrong?」[p][stopse buf=1]
+「¿Qué pasa?…」[p][stopse buf=1]
 #minami
 [ms/uwame]
-「Hokuto, you asked me earlier, why do I care about you?」[p][stopse buf=2]
+「Hokuto, antes me preguntaste, ¿por qué me preocupo por ti?」[p][stopse buf=2]
 #hokuto
-「Y-Yeah」[p][stopse buf=1]
+「S-Sí」[p][stopse buf=1]
 #minami
 [ms/bishou]
-「I'll answer that question now」[p][stopse buf=2]
+「Te voy a responder a esa pregunta」[p][stopse buf=2]
 #hokuto
 [hs/magao]
 「……」[p][stopse buf=1]
 #
 [hide][minami_s_kanasimi]
 #minami
-「You see, I have always hated seeing you lonely. If I left you alone, you would suddenly sink down, become reckless or even try too hard… I couldn't stand to watch. I couldn't leave you alone」[p][stopse buf=2]
+「Verás, siempre he odiado verte solo. Si te dejaba solo, de repente te deprimías, te volvías imprudente o hasta intentabas demasiado… No podía soportar verlo. No podía dejarte solo」[p][stopse buf=2]
 #minami
 [ms/bishou]
-「But lately, like now, I am happy to see Hokuto liking Takamura-san, and our senpais, people I don't know… All kinds of people, and trying his best and being friendly with them, as if it were me」[p][stopse buf=2]
+「Pero últimamente, al igual que ahora, estoy feliz de que Hokuto quiera a Takamura-san, a nuestros senpais, a gente que ni conozco… a todos, y que te esfuerces y seas amable con ellos, como si se tratara de mí」[p][stopse buf=2]
 #minami
-「So now I want to push you to do better」[p][stopse buf=2]
+「Así que ahora quiero impulsarte a que lo hagas mejor」[p][stopse buf=2]
 #
 [move name=minami left=40 wait=true][hokuto_s_akire left=640]
 #hokuto
-「…What, are you my mom or something?」[p][stopse buf=1]
+「¿Acaso eres mi mamá o algo así?…」[p][stopse buf=1]
 #minami
-「…Yeah, maybe something like that…」[p][stopse buf=2]
+「Sí, tal vez sea algo así…」[p][stopse buf=2]
 #hokuto
-「Hey…」[p][stopse buf=1]
+「Oye…」[p][stopse buf=1]
 #minami
 [ms/tere]
-「It's because. You relied on me. And you said thank you. I'm very happy that you thanked me to the best of your ability」[p][stopse buf=2]
+「Es porque. Confiaste en mí. Y me diste las gracias. Estoy muy contenta de que me hayas dado las gracias de la mejor forma posible」[p][stopse buf=2]
 #hokuto
 [hs/odoroki]
-「…I see. I see…no, what can I say? I was supposed to be the one thanking you… It's kind of embarrassing…」[p][stopse buf=1]
+「Ya veo, ya veo… no, ¿qué puedo decir? Se suponía que debía ser yo quien te diera las gracias… es un poco vergonzoso…」[p][stopse buf=1]
 #hokuto
 [hs/dere]
-「…At times like this, you're so honest and straightforward, Minami」[p][stopse buf=1]
+「En ocasiones como esta, eres tan honesta y directa, Minami」[p][stopse buf=1]
 #minami
 [ms/uwame]
-「I'm always honest, okay?」[p][stopse buf=2]
+「Siempre soy honesta, ¿ok?」[p][stopse buf=2]
 #hokuto
 [hs/bishou]
-「…You're a bit of a liar, though」[p][stopse buf=1]
+「Pero también eres un poco mentirosa」[p][stopse buf=1]
 #minami
 [ms/bishou]
-「…Well, yeah…」[p][stopse buf=2]
+「Bueno, sí…」[p][stopse buf=2]
 #
-After talking about it, we've already reached the point where we always split up.[p]
+Después de hablar sobre eso, ya habíamos llegado al punto en el que siempre nos separamos.[p]
 #hokuto
-「…See you tomorrow. …Well, I mean, please take care of my delicious lunch for tomorrow, as well!」[p][stopse buf=1]
+「Hasta mañana… y bueno, por favor, encárgate también de mi delicioso almuerzo de mañana.」[p][stopse buf=1]
 #minami
-「Just hold your breath」[p][stopse buf=2]
+「Espera y verás」[p][stopse buf=2]
 #hokuto
 [hs/magao]
-「……I look forward to it. Bye」[p][stopse buf=1]
+「Lo espero con ansias. Adiós…」[p][stopse buf=1]
 #
 [fadeoutbgm time=1000]
 [hide]
@@ -632,32 +632,32 @@ After talking about it, we've already reached the point where we always split up
 #minami
 「…Hokuto」[p][stopse buf=2]
 #hokuto
-「…What?」[p][stopse buf=1]
+「…¿Qué?」[p][stopse buf=1]
 #minami
-「The reason why I care about you… No, the reason why I want to be with you. It's…」[p][stopse buf=2]
+「La razón por la que me importas… No, la razón por la que quiero estar contigo. Es…」[p][stopse buf=2]
 [fadeinbgm time=1000 storage=BGM4.ogg]
 #minami
-「You're dedicated to what you like and to the people you like, and that's why I like you, because you try your best, Hokuto」[p][stopse buf=2]
+「Te dedicas a lo que te gusta y a la gente que te gusta, y por eso me gustas, porque te esfuerzas al máximo, Hokuto」[p][stopse buf=2]
 #hokuto
 「!」[p][stopse buf=1]
 #minami
-「Lately, I like you even more. I like you more than your father or your mother. No, I like you more than anyone else on this earth, on any star, or anywhere else in the universe」[p][stopse buf=2]
+「Últimamente, me gustas aún más. Me gustas más de lo que le gustas a tu padre o a tu madre. No, me gustas más que cualquier otra persona en esta tierra, en cualquier estrella o en otro lugar del universo」[p][stopse buf=2]
 #hokuto
 「……」[p][stopse buf=1]
 #minami
-「…That's how it is. …Well then, see you later」[p][stopse buf=2]
+「Así es como me siento. …Bueno, hasta luego」[p][stopse buf=2]
 #
 [bg2 storage=michi_e.jpg time=500]
-With that, Minami headed home on her own.[p]
+Con eso, Minami se fue a casa por su cuenta..[p]
 [hokuto_s_dere]
 #hokuto
 「……」[p][stopse buf=1]
 #
-Sure, I did say she was straightforward and honest, though.[p]
+Claro, dije que era directa y honesta, aunque…[p]
 #hokuto
-「…That's cheating…」[p][stopse buf=1]
+「Eso es trampa…」[p][stopse buf=1]
 #
-After receiving such a straightforward confession of love, I realized that I am just a human being, and that I am not good enough to switch my mind back to my studies.[p]
+Después de recibir una confesión de amor tan directa, me di cuenta de que no soy más que un ser humano, y de que no soy lo bastante bueno como para volver a concentrarme en mis estudios.[p]
 [fadeoutbgm time=1000]
 
 [mask time=500]
@@ -667,17 +667,17 @@ After receiving such a straightforward confession of love, I realized that I am 
 [mask_off time=500]
 
 #hokuto
-「I-I'll do something about that…」[p][stopse buf=1][fadeoutse buf=8 time=500]
+「T-Tendré que hacer algo al respecto…」[p][stopse buf=1][fadeoutse buf=8 time=500]
 #
 [hide][bg2 storage=black.jpg time=1000]
-The third day of the exams …After Minami's confession, I could hardly get any studying done last night, as expected.[p]
-Even worse, I couldn't sleep normally… I realized for the first time that it is true that people have trouble sleeping due to nerves and other psychological conditions.[p]
-So, after a little bit of drowsiness, I just crammed from dawn onward.[p]
-…I usually don't feel anything, but today, the content of the health class is bringing up a lot of random thoughts.[p]
-It was now a battle against those distractions and sleepiness.[p]
-In addition, Minami's bento was obviously more elaborate than usual, but the shape of the hamburger was distorted, as if she was agitated. I could already feel Minami's embarrassment.[p]
-No, I mean, it was like… I'm getting a little embarrassed.[p]
-But after school, when I thought I had managed to get through the three-day long exams.[p]
+El tercer día de exámenes… Después de la confesión de Minami, apenas pude estudiar anoche como esperaba.[p]
+Peor aún, no pude dormir con normalidad... Me di cuenta por primera vez de que es cierto que la gente tiene problemas para dormir debido a los nervios y a otras condiciones psicológicas.[p]
+Así que, tras un poco de sueño, me dediqué a estudiar desde el alba.[p]
+Normalmente no siento nada, pero hoy, el contenido de la clase de salud me está provocando un montón de pensamientos inesperados…[p]
+Ahora era una batalla contra esas distracciones y esa somnolencia.[p]
+Además, el almuerzo que Minami había preparado era obviamente más elaborado de lo habitual, pero la forma de la hamburguesa estaba deformada, como si estuviera nerviosa. Podía sentir la vergüenza de Minami.[p]
+No, quiero decir, era como… Hasta me estoy poniendo un poco avergonzado.[p]
+Pero después de la escuela, cuando creía que había logrado superar los tres largos días de exámenes…[p]
 [mask time=500]
 [bg2 storage=ongaku.jpg height=1554 top="-200" time=500]
 [hokuto_s_dere left=640 time=0][minami_s_dere left=40 time=0]
@@ -687,29 +687,29 @@ But after school, when I thought I had managed to get through the three-day long
 #minami
 「……」[p][stopse buf=2]
 #
-…Of course, when I go to the clubroom, I will face Minami again.[p]
+Por supuesto, cuando llegue a la sala del club, me encontre de nuevo con Minami.[p]
 #reito
 [r_komari]
-「…Um, Hokuto, Minami? What are you guys——…」[p][stopse buf=5]
+「…Um, ¿Hokuto, Minami? ¿Qué están haci——」[p][stopse buf=5]
 [mrhide]
 #kaname
 [k_niyake]
-「Reito-kun, come over here for a minute. I have something urgent to tell you～」[p][stopse buf=6]
+「Reito-kun, ven aquí un momento, tengo algo urgente que decirte～」[p][stopse buf=6]
 [mkhide]
 #reito
 [r_komari]
-「Eh, what do you mean? Ah, wait…」[p][stopse buf=5]
+「Eh, ¿qué quieres decir? Ah, espera…」[p][stopse buf=5]
 [mrhide]
 #
-The vice president removed Reito-senpai from the room in a matter of seconds.[p]
-…Vice president, you could have taken care of it, thank you for the inconvenience.[p]
+La vicepresidenta sacó a Reito-senpai del club en cuestión de segundos.[p]
+… Vicepresidenta, quizá lo hiciste de buena fe, pero gracias por las molestias.[p]
 #minami
 「……」[p][stopse buf=2]
 #hokuto
-「……Oh, I'll return your lunch box. Thanks again for today」[p][stopse buf=1]
+「Oh, te devolveré la caja del almuerzo. Gracias de nuevo por hoy…」[p][stopse buf=1]
 #minami
 [ms/dere2]
-「……Yeah, thanks for eating it」[p][stopse buf=2]
+「Sí, gracias por comerlo……」[p][stopse buf=2]
 #hokuto
 「……」[p][stopse buf=1]
 #minami
@@ -717,41 +717,41 @@ The vice president removed Reito-senpai from the room in a matter of seconds.[p]
 「……」[p][stopse buf=2]
 #hokuto
 [hs/tere]
-「…You know, about yesterday…」[p][stopse buf=1]
+「Sabes, sobre lo que pasó ayer…」[p][stopse buf=1]
 #minami
-「…Yeah」[p][stopse buf=2]
+「Sí……」[p][stopse buf=2]
 #hokuto
 [hs/dere]
-「…I'm going to be honest about my feelings right now」[p][stopse buf=1]
+「Voy a ser honesto sobre mis sentimientos justo ahora…」[p][stopse buf=1]
 #minami
 [ms/odoroki]
 「…!」[p][stopse buf=2]
 [fadeinbgm time=1000 storage=kaisou.ogg]
 #hokuto
-「So, uhm…」[p][stopse buf=1]
+「Y, pues…」[p][stopse buf=1]
 #
-…It's good to start the conversation, but what do I do?[p]
-It's not like I don't like Minami at all.[p]
-In fact, I've been finding her rather cute lately.[p]
-However, I keep bothering her, taking her around for club activities and stargazing, and to top it all off, asking her to make me lunch.[p]
-Am I allowed to say that I like Minami?[p]
-But now, there is a girl in front of me, waiting for my response with a desperate gaze.[p]
-Minami told me that she likes me more than anyone else in the universe.[p]
-I would like to respond to that feeling, I think.[p]
-So…[p]
+…Es bueno empezar la conversación, pero ¿qué hago?[p]
+No es que no me guste Minami en absoluto.[p]
+De hecho, últimamente la encuentro bastante linda.[p]
+Sin embargo, sigo molestándola, invitándola a participar en las actividades del club y a ver las estrellas y, para colmo, le pido que me haga el almuerzo.[p]
+¿Puedo decir que me gusta Minami?[p]
+Pero ahora, hay una chica frente a mí, esperando mis palabras mientras me mira desesperada.[p]
+Minami me dijo que le gusto más que nadie en el universo.[p]
+Me gustaría replicar ese sentimiento, creo.[p]
+Asi que…[p]
 #hokuto
 [hs_iradati]
-「I, I…!」[p][stopse buf=1]
+「Yo, yo…!」[p][stopse buf=1]
 #minami
 [ms/tere]
 「……!」[p][stopse buf=2]
 [stopbgm]
 #nao
-「Hey, what are you two doing?」[p][stopse buf=4]
+「Oigan, ¿qué hacen ahí los dos?」[p][stopse buf=4]
 #kaname
-「Shhh～! Nao, be quiet! They're talking about something important inside!」[p][stopse buf=6]
+「¡Shhh~! ¡Nao, cállate! ¡Están hablando de algo importante dentro!」[p][stopse buf=6]
 #reito
-「You can't enter!」[p][stopse buf=5]
+「¡No puedes entrar!」[p][stopse buf=5]
 #hokuto
 [hs/kanasimi]
 「……」[p][stopse buf=1]
@@ -760,78 +760,78 @@ So…[p]
 「……」[p][stopse buf=2]
 #
 [hide]
-At that moment I held my head and Minami covered her face.[p]
-…Well, to be honest, it never crossed my mind that it would be like this.[p]
+En ese momento me agarré la cabeza y Minami se cubrió la cara.[p]
+Bueno, para ser sincero, nunca se me pasó por la cabeza que pudiera pasar esto.[p]
 #hokuto
 [hs_akire]
-「…Oh—you can come in!」 (Neglected)[p][stopse buf=1]
+「¡Hey - pueden entrar! (Resignado)」[p][stopse buf=1]
 [mhhide]
 #
 [nao_bishou]
 #nao
-「Oh, hey, Hokuto-kun, Minami-chan」[p][stopse buf=4]
+「Oh, hola, Hokuto-kun, Minami-chan」[p][stopse buf=4]
 #
 [hide][hokuto_s_iradati2 left=640 wait=false][minami_s_odoroki left=40]
 #hokuto
-「…President, what's happening?」[p][stopse buf=1]
+「Presidenta, ¿qué pasa?…」[p][stopse buf=1]
 #nao
 [n_magao]
-「I got a letter addressed to you guys」[p][stopse buf=4]
+「Tengo una carta para ustedes」[p][stopse buf=4]
 [mnhide]
 #hokuto
 [hs/magao wait=false][ms/magao]
-「Wait, why do you have a letter addressed to us, anyway?」[p][stopse buf=1]
+「Espera, ¿por qué tienes una carta dirigida a nosotros?」[p][stopse buf=1]
 #nao
 [n_iradati]
-「I heard it was delivered to the school. The teacher gave it to me」[p][stopse buf=4]
+「Me dijeron que lo habían entregado en la escuela. El profesor me la dio」[p][stopse buf=4]
 [mnhide]
 #hokuto
 [hs/odoroki]
-「I…see？…Well, thanks!」[p][stopse buf=1]
+「Ya veo… Bueno, gracias」[p][stopse buf=1]
 #
 [playse storage=se/paper.ogg buf=8]
-Controlling my breathing, I accept the envelope without a second thought and check the sender on the other side.[p]
+Controlando mi respiración, tomo el sobre sin pensármelo dos veces y reviso el remitente del otro lado.[p]
 『Seiji Takamura』[p]
 #hokuto
 [hs/aseri]
-「!?」[p][stopse buf=1]
+「¡¿!?」[p][stopse buf=1]
 #
-I hurriedly cut the envelope, open and read the letter inside.[p]
+Me apresuré a cortar el sobre y leer la carta que contenía.[p]
 #nao
 [n_iradati]
-「Hey, what's wrong?」[p][stopse buf=4]
+「Oye, ¿qué pasa?」[p][stopse buf=4]
 [mnhide]
 #hokuto
 [hs/kanasimi]
-「…This is… Sorry, I know we just had a long break, but… Can you give me and Minami the day off tomorrow?」[p][stopse buf=1]
+「Esto es… lo siento, sé que acabamos de tener unas largas vacaciones, pero… ¿puedes darnos a Minami y a mí el día libre mañana?」[p][stopse buf=1]
 #minami
 [ms/odoroki]
-「Eh? What do you mean?」[p][stopse buf=2]
+「¿Eh? ¿Qué quieres decir?」[p][stopse buf=2]
 #hokuto
 [hs/magao]
-「Read this」[p][stopse buf=1]
+「Lee esto」[p][stopse buf=1]
 #minami
 [ms/aozame]
-「……This…」[p][stopse buf=2]
+「Esto…」[p][stopse buf=2]
 #nao
 [n_iradati]
-「…It seems something's going on」[p][stopse buf=4]
+「Parece que algo pasó…」[p][stopse buf=4]
 [mnhide]
 #hokuto
 [hs/kanasimi]
-「I'm sorry…」[p][stopse buf=1]
+「Lo siento…」[p][stopse buf=1]
 #nao
 [n_kanasimi]
-「That's all right. Just one day, okay?」[p][stopse buf=4]
+「No pasa nada. Pero sólo un día, ¿ok?」[p][stopse buf=4]
 [mnhide]
 #hokuto
 [hs/magao]
-「Yes, thank you very much」[p][stopse buf=1]
+「Sí, muchas gracias」[p][stopse buf=1]
 
 [mask graphic="cut/cutin_hokuto.png" time=1500]
 [wait time=500]
 [eval exp="sf.chap7=1"]
-[playbgm storage=eyecatch.ogg loop="false"]
+[playbgm storage=eyecatch.ogg  loop="false"]
 [hide time=0]
 [bg2 storage="byouin.jpg" time="4000"][stopbgm]
 [mask_off time=500]

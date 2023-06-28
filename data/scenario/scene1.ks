@@ -27,10 +27,10 @@
 #
 *chapter1
 #kaname
-「So, just sign right here…」[p][stopse buf=6]
+「Solo firmen aquí…」[p][stopse buf=6]
 #minami
 [mw_magao]
-「Okay…」[p][stopse buf=2]
+「Ok…」[p][stopse buf=2]
 [mmhide]
 [vostop]
 #hokuto
@@ -41,121 +41,121 @@
 [hide][fadeinbgm time=1000 storage=nichijo.ogg][nao_niko left=140 wait=false][reito_komari left=680]
 #nao
 [kanim name="nao" keyframe="nod" time="500"]
-「…Okay, that's it. With this, our members have been confirmed! Let's do our very best as five!」[p][stopse buf=4]
+「…Listo. con esto, ¡nuestros nuevos miembros han sido ratificados! ¡Hagámoslo lo mejor posible entre los cinco!」[p][stopse buf=4]
 #reito
-「In the end, we only had two new members, the ones that arrived on the first day…」[p][stopse buf=5]
+「Al final, sólo tenemos dos nuevos miembros, los que llegaron el primer día…」[p][stopse buf=5]
 #nao
 [n/niko2]
-「We're fine, we're fine. We only had one or two per grade to begin with」[p][stopse buf=4]
+「No pasa nada. Sólo teníamos uno o dos por curso en un principio」[p][stopse buf=4]
 #
 [hide][kaname_niko]
 #kaname
-「Thank you both for coming by every day. From now on, you are officially members of the club, and we look forward to working with you」[p][stopse buf=6]
+「Gracias a los dos por venir todos los días. A partir de ahora, son oficialmente miembros del club y esperamos seguir contando con su colaboración」[p][stopse buf=6]
 #hokuto
 [hw_egao2]
-「Yes!」[p][stopse buf=1]
+「¡Sí!」[p][stopse buf=1]
 [mhhide]
 #minami
 [mw_bishou]
-「Thanks for having us!」[p][stopse buf=2]
+「¡Gracias por recibirnos!」[p][stopse buf=2]
 [mask time=500]
 [mmhide time=0][hide time=0][nao_niko]
 #
 [mask_off time=500]
 
 #nao
-「Now that we have our members for this year, I would like to hold our first club meeting of the year!」[p][stopse buf=4]
+「Ahora que ya sabemos quiénes serán nuestros miembros este año, ¡me gustaría convocar nuestra primera reunión de club del año!」[p][stopse buf=4]
 #itidou
 [hw_egao2][playse storage=se/clap.ogg buf=8]
-「OH!」 (Clap Clap)[p][stopse buf=1][stopse buf=8]
+「¡OH!(Aplausos)」[p][stopse buf=1][stopse buf=8]
 #
 [mhhide]
 #nao
 [n/magao]
-「We have some things we need to do」[p][stopse buf=4]
+「Tenemos algunas cosas que hacer」[p][stopse buf=4]
 #hokuto
 [hw_mu2]
-「Things we need to do?」[p][stopse buf=1]
+「¿Cosas que hacer?」[p][stopse buf=1]
 [mhhide]
 #minami
 [mw_magao2]
-「…Like what?」[p][stopse buf=2]
+「…¿Como qué?」[p][stopse buf=2]
 [mmhide]
 #nao
 [n/magao]
-「We need to…revise the rules of the club!」[p][stopse buf=4]
+「Necesitamos… ¡modificar las reglas del club!」[p][stopse buf=4]
 #
 [hide][reito_komari]
 #reito
 「Ah…」[p][stopse buf=5]
 #kaname
 [kaname_bishou]
-「We have new members, so we have to have new rules」[p][stopse buf=6]
+「Tenemos nuevos miembros, así que debemos tener nuevas reglas」[p][stopse buf=6]
 #hokuto
 [hw_mu]
-「Oh, is that how it is? If you've already have something in place, why don't you just leave it as it is? We'll abide by it, too」[p][stopse buf=1]
+「¿Así son las cosas? Si ya tienen algo establecido, ¿por qué no lo dejan como está?　Nosotros también lo cumpliremos」[p][stopse buf=1]
 [mhhide]
 #reito
 [r/magao]
-「No, the club rules are so bad… That's why we're taking this opportunity to change them too, Nao-san」[p][stopse buf=5]
+「No, las reglas del club son malas… Por eso vamos a aprovechar esta oportunidad para modificarlas, Nao-san」[p][stopse buf=5]
 #
 [hide][nao_niko]
 #nao
-「Yeah…」[p][stopse buf=4]
+「Si…」[p][stopse buf=4]
 #minami
 [mw_magao2]
-「…Are they that bad?… What are the rules of the club, anyway?」[p][stopse buf=2]
+「¿Son tan malas?… ¿Cuales son las reglas del club, por cierto?」[p][stopse buf=2]
 [mmhide]
 #nao
 [n/iradati]
-「You see…」[p][stopse buf=4]
+「Verán…」[p][stopse buf=4]
 
 #
 [fadeoutbgm time=1000]
 [hide][kaname_magao left=-80 wait=false][nao_magao left=460 wait=false][reito_magao left=850]
 #sannin
-「「「Let's be interesting」」」[p][stopse buf=4]
+「「「Seamos interesantes」」」[p][stopse buf=4]
 #
 [hide][minami_w_tun left=40 wait=false][hokuto_w_aseri left=640]
 #hutari
-「「…What?」」[p][stopse buf=1][fadeinbgm storage=nichijo.ogg time=1000]
+「「…¿Qué?」」[p][stopse buf=1][fadeinbgm storage=nichijo.ogg time=1000]
 #
 [hide][nao_kanasimi]
 #nao
-「No, really. It's just these three words. "Let's be interesting."」[p][stopse buf=4]
+「No, en serio. Son sólo estas 2 palabras. "Seamos interesantes"」[p][stopse buf=4]
 #hokuto
 [hw_kanasimi]
-「…It sounds more like the company motto of an entertainment agency than the rules of a light music club」[p][stopse buf=1]
+「…Parece más el eslogan de una agencia de entretenimiento que las reglas de un club de música ligera」[p][stopse buf=1]
 [mhhide]
 [reito_kanasimi]
 #reito
-「It's true. The senpais from last year made it up as a bad joke」[p][stopse buf=5]
+「Cierto. Los senpais del año pasado se lo inventaron como una broma de mal gusto」[p][stopse buf=5]
 #minami
 [mw_magao2]
-「Why didn't you stop them?」[p][stopse buf=2]
+「¿Por qué no los detuvieron?」[p][stopse buf=2]
 [mmhide]
 #nao
-「No, we couldn't, they told us after they submitted it to the student council」[p][stopse buf=4]
+「No, no podíamos, nos lo dijeron después de que lo presentaran al consejo estudiantil」[p][stopse buf=4]
 #reito
 [r/komari]
-「They just informed us after they did it… That was bad…」[p][stopse buf=5]
+「Nos informaron después de hacerlo… Eso estuvo mal…」[p][stopse buf=5]
 #hokuto
 [hw_kanasimi]
 「Wow…」[p][stopse buf=1]
 [mhhide]
 #nao
 [n/magao]
-「…So, in order to sever those awful memories, I'd like to make proper club rules with our two new members!」[p][stopse buf=4]
+「…Así que, para borrar esos horribles recuerdos, ¡me gustaría redactar unas reglas del club con nuestros dos nuevos miembros!」[p][stopse buf=4]
 #itidou
 [hw_egao2][playse storage=se/clap.ogg buf=8]
-「OH!」 (Clap Clap)[p][stopse buf=1][stopse buf=8]
+「¡OH! (Aplausos)」[p][stopse buf=1][stopse buf=8]
 [mhhide]
 #nao
 [n/bishou]
-「So, we're going to have a quick meeting. Kaname, take notes」[p][stopse buf=4]
+「Así que tendremos una reunión rápida. Kaname, toma notas」[p][stopse buf=4]
 #kaname
 [k_bishou]
-「Yeah… I'll use the blackboard, then」[p][stopse buf=6]
+「Sí… usaré el tablero entonces」[p][stopse buf=6]
 
 [fadeoutbgm time=1000]
 [mask time=500]
@@ -164,153 +164,153 @@
 [mask_off time=500]
 [fadeinbgm storage=minami.ogg time=1000]
 #nao
-「Now, let's get right to it… Anyone got any ideas?」[p][stopse buf=4]
+「Bueno, vamos al grano… ¿Alguien tiene alguna idea?」[p][stopse buf=4]
 #reito
 [r/kanasimi]
-「…Well, any type of management rules and stuff like that is already in the general club rules, so for the most part, clubs use these rules more like slogans and such…」[p][stopse buf=5]
+「…Bueno, cualquier tipo de reglas de administración y cosas por el estilo ya están en las normas generales de los clubes, por lo que en su mayor parte, los clubes utilizan estas reglas más como lemas y demás…」[p][stopse buf=5]
 #nao
 [n/kanasimi]
-「The teachers and the student council are also quite relaxed. They seem like they would just accept one-word club rules」[p][stopse buf=4]
+「Los profesores y el consejo de estudiantes también son bastante relajados. Pareciera que aceptarían reglas de club de una sola palabra」[p][stopse buf=4]
 #hokuto
 [hw_kanasimi2]
-「…Is this school doing all right…?」[p][stopse buf=1]
+「…¿esta escuela funciona bien?…」[p][stopse buf=1]
 [mhhide]
 #kaname
 [k/bishou2]
-「…They are doing properly what they actually have to do… Hahaha…」[p][stopse buf=6]
+「…Al menos cumplen con lo que realmente tienen que hacer… Ha ha ha…」[p][stopse buf=6]
 #minami
 [mw_magao2]
-「…Well, in other words, what sort of club do we want this club to be? We should write something like that, right?」[p][stopse buf=2]
+「…Bueno, en otras palabras, ¿qué clase de club queremos que sea este club? ¿Deberíamos escribir algo así, no?」[p][stopse buf=2]
 [mmhide]
 #nao
 [n/niko]
-「Minami-chan, you say good things! Let's do that!」[p][stopse buf=4]
+「¡Minami-chan, hablas bien! ¡Hagámoslo!」[p][stopse buf=4]
 #hokuto
 [hw_mu2]
-「What kind of club do we want, huh…?」[p][stopse buf=1]
+「¿Qué clase de club queremos?」[p][stopse buf=1]
 [mhhide]
 #kaname
 [k/magao]
-「I don't know, I can't think of too many… I guess I'd like to be friends with everyone all the time…」[p][stopse buf=6]
+「No sé, no se me ocurren muchas reglas… Supongo que me gustaría ser amiga de todos todo el tiempo…」[p][stopse buf=6]
 #nao
 [n/magao]
-「It's settled. From today on, our club rule is "Let's get along with each other!"」[p][stopse buf=4]
+「Está decidido. A partir de hoy, la regla de nuestro club es: "¡Llevémonos bien entre todos!"」[p][stopse buf=4]
 #hokuto
 [hw_tere]
-「Wait! Wait! Wait!」[p][stopse buf=1]
+「¡Espera! ¡Espera! ¡Espera!」[p][stopse buf=1]
 [mhhide]
 #reito
 [r/tukomi]
-「That's too fast!」[p][stopse buf=5]
+「Demasiado rápido」[p][stopse buf=5]
 #nao
 [n/iradati]
-「Shut up. If Kaname says it, it's final!」[p][stopse buf=4]
+「Cállate, ¡Si Kaname lo dice, es irrevocable!」[p][stopse buf=4]
 #minami
 [mw_akire]
-「Normally in these situations, what the president says is final, but apparently in this club it's what the vice president says……」[p][stopse buf=2]
+「Normalmente en estas situaciones, lo que dice la presidenta es definitivo, pero al parecer en este club es lo que dice la vicepresidenta…」[p][stopse buf=2]
 [mmhide]
 #nao
 [n/bishou]
-「Because it's Kaname. If this girl says it, then there's no other way around it!」[p][stopse buf=4]
+「Porque es Kaname, ¡Si esta chica lo dice, no hay de otra!」[p][stopse buf=4]
 #reito
 [r/komari]
-「…Why do you have so much trust in Kaname-san, Nao-san…」[p][stopse buf=5]
+「…¿Por qué tienes tanta confianza en Kaname-san, Nao-san?…」[p][stopse buf=5]
 #kaname
 [k/niyake]
-「…Hmm, I don't want you to say that, Reito-kun… Well, I'm the one who said it, but let's think about it some more, shall we, Nao?」[p][stopse buf=6]
+「…Hmm, no quiero que digas eso Reito-kun… Bueno, fui yo quien lo dijo, pero vamos a pensarlo un poco más, ¿no, Nao?」[p][stopse buf=6]
 #nao
 [n/kanasimi]
-「Hmmm, if Kaname says so. But I thought it was a good idea…」[p][stopse buf=4]
+「Hmmm, si Kaname lo dice, está bien. Pero pensé que era una buena idea…」[p][stopse buf=4]
 #minami
 [mw_magao2]
-「…I mean, we could just put it in there. As long as we add other things」[p][stopse buf=2]
+「…Podríamos ponerla ahí también. Mientras añadamos otras cosas」[p][stopse buf=2]
 [mmhide]
 #hokuto
 [hw_mu2]
-「You are right. It doesn't have to be just one rule」[p][stopse buf=1]
+「Tienes razón. No tiene que ser sólo una regla」[p][stopse buf=1]
 [mhhide]
 #reito
 [r/komari]
-「Well, usually there are a lot of them. …It's just that our club has been weird until now」[p][stopse buf=5]
+「Bueno, normalmente hay muchas reglas　…Solo que nuestro club ha sido raro hasta ahora」[p][stopse buf=5]
 #nao
 [n/bishou]
-「Then let's think of something else. So what club do you want to be in?」[p][stopse buf=4]
+「Entonces pensemos en algo más ¿En qué tipo de club quieren estar?」[p][stopse buf=4]
 #reito
 [r/magao]
-「…I mean, we are in a light music club so, I would like to include things about daily practice and performances」[p][stopse buf=5]
+「…Estamos en un club de música ligera, así que me gustaría incluir cosas sobre los ensayos diarios y las presentaciones」[p][stopse buf=5]
 #hokuto
 [hw_magao]
-「Oh, right, this is a light music club」[p][stopse buf=1]
+「Oh, cierto, este es un club de música ligera」[p][stopse buf=1]
 [mhhide]
 #minami
 [mw_akire]
-「…Hokuto, you're so rude」[p][stopse buf=2]
+「…Hokuto, eres muy grosero」[p][stopse buf=2]
 [mmhide]
 #kaname
 [k/magao]
-「Things regarding light music… Like take it seriously, or something?」[p][stopse buf=6]
+「Cosas relacionadas con la música… ¿Como tomárselo en serio, o algo así?」[p][stopse buf=6]
 #nao
 [n/bishou]
-「…But some people just want to do it because they like it. There is no such thing as a competition, and most of all, I want everyone to have fun」[p][stopse buf=4]
+「…Pero hay gente que simplemente quiere hacerlo porque le gusta. No hay competencias y, sobre todo, quiero que todo el mundo se divierta」[p][stopse buf=4]
 #reito
 [r/kanasimi]
 「……」[p][stopse buf=5]
 #nao
 [n/niko3]
-「This isn't that kind of place… I want it to be a place where everyone can have a good time… Not just with music, but also sometimes just goofing around」[p][stopse buf=4]
+「Este no es ese tipo de lugar… quiero que sea un lugar donde todo el mundo pueda pasar un buen rato… no sólo con la música, sino también a veces simplemente divirtiéndose」[p][stopse buf=4]
 #minami
 [mw_magao2]
-「…But that doesn't mean you can be lazy」[p][stopse buf=2]
+「…pero eso no significa que puedas ser perezoso」[p][stopse buf=2]
 [mmhide]
 #hokuto
 [hw_magao]
-「I would like to be able to perform as well as you did at the orientation concert. For that, I think I should keep improving my performance…」[p][stopse buf=1]
+「Me gustaría poder tocar tan bien como lo hicieron ustedes en el concierto de orientación. Por eso, creo que debería seguir mejorando…」[p][stopse buf=1]
 [mhhide]
 #kaname
 [k/magao]
-「Hmm, what should we do…」[p][stopse buf=6]
+「Hmm, ¿qué hacemos?…」[p][stopse buf=6]
 #minami
 [mw_magao]
-「…How about…」[p][stopse buf=2]
+「…Que tal si…」[p][stopse buf=2]
 [mmhide]
 #nao
 [n/magao]
-「Minami-chan, did something come to mind?」[p][stopse buf=4]
+「Minami-chan, ¿Se te ha ocurrido algo?」[p][stopse buf=4]
 #
 [hide][minami_w_magao2]
 #minami
-「When you're serious, you have fun doing it, and when you overdo it, you take a proper break」[p][stopse buf=2]
+「Cuando te lo tomas en serio, te diviertes haciéndolo, y cuando te excedes, te tomas un descanso como es debido」[p][stopse buf=2]
 #minami
-「And if you get a little too playful and lose your edge, you can make up for it by taking it seriously, creating a balance. What do you think?」[p][stopse buf=2]
+「Y si te pones a jugar demasiado y pierdes tu habilidad, puedes compensarlo tomándotelo en serio, creando un equilibrio, ¿qué les parece?」[p][stopse buf=2]
 [mmhide]
 #kaname
 [k_bishou2]
-「I like it!」[p][stopse buf=6]
+「¡Me gusta!」[p][stopse buf=6]
 [hide wait=false][mkhide]
 #hokuto
 [hokuto_w_magao]
-「But if we say "create a balance," the meaning might not get transmitted. Hmm… Okay, how about this…」[p][stopse buf=1]
+「Pero, si decimos "Crear un equilibrio" puede que no se transmita el significado, Hmm… Ok, qué tal esto…」[p][stopse buf=1]
 #hokuto
 [chara_mod name=hokuto storage=hokuto_win/egao2.png time=700]
-「"Seriousness and fun should go hand in hand!"」[p][stopse buf=1]
+「『La seriedad y la diversión deben ir de la mano』」[p][stopse buf=1]
 [hide]
 #nao
 [nao_niko]
-「Good, I like it! The "should go" makes it sound like a club rule!」[p][stopse buf=4]
+「Bien, me gusta. El "deben ir" hace que parezca una regla del club」[p][stopse buf=4]
 #kaname
 [k_bishou2]
-「Okay, I'll add this one, too」[p][stopse buf=6]
+「Está bien, añadiré ésta también」[p][stopse buf=6]
 [mkhide]
 #nao
 [n/niko3][kanim name="nao" keyframe="nod" time="500"]
-「Yeah, yeah, it's looking good. Definitely better than last year's!」[p][stopse buf=4]
+「Sí, sí, se ve muy bien. ¡Definitivamente mejor que las del año pasado!」[p][stopse buf=4]
 #
 [hide]
 [bg2 storage=still_busoku.png time=500][eval exp="sf.ST3=1"]
-Light music club rules[p]
-I. Always get along with everyone! [p]
-II. Seriousness and fun should go hand in hand![p]
-Let's protect them together! Kaname[p]
+Reglas del club de música ligera[p]
+I.  ¡Llévate siempre bien con todo el mundo! [p]
+II. ¡La seriedad y la diversión deben ir de la mano![p]
+¡Protejámoslas juntos!　Kaname[p]
 [fadeoutbgm time=1000]
 [mask time=500]
 [wait time=1500]
@@ -319,109 +319,109 @@ Let's protect them together! Kaname[p]
 [mask_off time=500]
 #nao
 [n/bishou]
-「All right. That's enough on the club rules. Let's move on to the upcoming live performances」[p][stopse buf=4]
+「De acuerdo. Es suficiente de las reglas del club. Vamos a pasar a las próximas presentaciones en vivo」[p][stopse buf=4]
 #kaname
 [k/bishou]
-「We'll have to decide on the songs soon」[p][stopse buf=6]
+「Tendremos que decidir las canciones pronto」[p][stopse buf=6]
 #hokuto
 [hw_odoroki]
-「What songs are you going for?」[p][stopse buf=1]
+「¿Qué canciones están pensando tocar?」[p][stopse buf=1]
 [mhhide]
 #reito
 [r/bishou]
-「Everyone usually brings a song they'd like to play」[p][stopse buf=5]
+「Todo el mundo suele traer una canción que le gustaría tocar」[p][stopse buf=5]
 #reito
-「This time we have about three months to practice, so I'd say we should do three or four songs…?」[p][stopse buf=5]
+「Esta vez tenemos unos tres meses para ensayar, así que me gustaría tocar tres o cuatro canciones…」[p][stopse buf=5]
 #nao
 [n/kanasimi]
-「Well…it will be our last show, so we want to make sure there are no knots in our throats」[p][stopse buf=4]
+「Bueno… será nuestro último show, así que queremos asegurarnos de que no tengamos nudos en la garganta」[p][stopse buf=4]
 #hokuto
 [hw_metozi]
-「Knots in your throats…?」[p][stopse buf=1]
+「¿nudos en sus gargantas…?」[p][stopse buf=1]
 [mhhide]
 #minami
 [mw_magao2]
-「What do you mean? You mean you don't want to have any regrets?」[p][stopse buf=2]
+「¿Qué quieren decir? ¿Quieres decir que no quieres tener remordimientos?」[p][stopse buf=2]
 [mmhide]
 #nao
 [n/niko]
-「Ah, sorry. One of our senpais said it in a meeting and it became a saying over here. No knots in our throats」[p][stopse buf=4]
+「Ah perdón, En una reunión uno de nuestros senpais lo dijo y se convirtió en un dicho por aquí, sin nudos en la garganta」[p][stopse buf=4]
 #hokuto
 [hw_metozi]
-「Well, normally you shouldn't have any regrets…」[p][stopse buf=1]
+「Bueno, normalmente, no deberían tener ningún remordimiento…」[p][stopse buf=1]
 #
 [mhhide]
-But why does it feel natural to say it like that…[p]
-No knots in our throats, no knots in our throats. Yeah, feels easier to say.[p]
+Pero, ¿por qué me parece natural decirlo así?…[p]
+sin nudos en la garganta, sin nudos en la garganta. Sí, se siente mejor decirlo así.[p]
 #reito
 [r/magao]
-「…Anyways, back on topic」[p][stopse buf=5]
+「…En fin, volviendo al tema」[p][stopse buf=5]
 #nao
 [n/bishou]
-「Oh, yeah. Let's see, about the song, who has a song they would like to play?」[p][stopse buf=4]
+「Ah, sí. Veamos, sobre las canciones ¿quién tiene una canción que le gustaría tocar?」[p][stopse buf=4]
 #kaname
 [k/bishou2]
-「You have something, right?」[p][stopse buf=6]
+「Tú tienes algo, ¿verdad?」[p][stopse buf=6]
 #nao
 [n/niko3][kanim name="nao" keyframe="nod" time="500"]
-「Oh, yeah. It's kind of an old song, but it's a great song…」[p][stopse buf=4]
+「Ah, sí. Es una canción un poco vieja. pero es una gran canción…」[p][stopse buf=4]
 #
 [hide]
-With that said, the president opened a video site on her phone and played a video.[p]
+Dicho esto, la presidenta abrió un sitio de vídeo en su teléfono y reprodujo un vídeo.[p]
 [fadeinbgm time=1000 storage=ED.ogg]
 [kaname_magao left=-80 wait=false][nao_niko3 left=460 wait=false][reito_magao left=850]
 #reito
-「…Is it a Showa song?」 (1926-1989)[p][stopse buf=5]
+「…¿Es una canción de la era Showa? (1926-1989)」[p][stopse buf=5]
 #nao
 [n/bishou][kanim name="nao" keyframe="nod" time="500"]
-「Yeah. Oh, and don't worry, I've already searched the score for the band arrangement」[p][stopse buf=4]
+「Sí. Oh, y no se preocupen, ya he buscado la partitura para el arreglo de la banda」[p][stopse buf=4]
 #kaname
 [k/bishou2]
-「Here it is. Nao's classic nostalgic song」[p][stopse buf=6]
+「Aquí está. La clásica canción nostálgica de Nao」[p][stopse buf=6]
 #nao
 [n/niko]
-「Ehehe. Sorry for being like this till the end」[p][stopse buf=4]
+「Ehehe. Perdón por ser así hasta el final」[p][stopse buf=4]
 #kaname
 [k/bishou]
-「No, that's just like you, Nao. It's a much softer tune, though」[p][stopse buf=6]
+「No, así eres tú, Nao. Es una melodía más suave」[p][stopse buf=6]
 #nao
 [n/bishou][kanim name="nao" keyframe="nod" time="500"]
-「Yes, that's why I think we should do it in the second half」[p][stopse buf=4]
+「Sí, por eso creo que deberíamos tocarla en la segunda parte」[p][stopse buf=4]
 #hokuto
 [hw_mu]
 「……」[p][stopse buf=1]
 [mhhide]
 #minami
 [mw_magao2]
-「Hokuto?」[p][stopse buf=2]
+「¿Hokuto?」[p][stopse buf=2]
 [mmhide]
 #hokuto
 [hw_mu2]
-「…I've heard this song somewhere. Where was it?…」[p][stopse buf=1]
+「…He oído esta canción en alguna parte. ¿Dónde era?…」[p][stopse buf=1]
 [mhhide]
 #nao
 [n/niko]
-「It's a song called "Becoming a Second Star." It's pretty famous, so maybe you've heard it somewhere」[p][stopse buf=4]
+「Es una canción llamada "Convirtiéndose en una segunda estrella". Es bastante famosa, así que quizá la hayas oído en alguna parte」[p][stopse buf=4]
 #
 [hide][hokuto_w_metozi]
 #hokuto
 「……」[p][stopse buf=1]
 #
 [hide]
-I concentrate on the slightly poor sound quality voice that comes through the phone's speaker.[p]
-Something about it makes me nostalgic.[p]
-It is not because the tune is typical of nostalgic songs.[p]
-The name of the singer, "Yuko Kitano," which is written in the video's summary section, certainly looks like something I've seen somewhere, but that's not it.[p]
+Me concentro en la voz de mala calidad que sale por el altavoz del teléfono.[p]
+Hay algo que me da nostalgia.[p]
+No es porque la melodía sea típica de las canciones nostálgicas.[p]
+El nombre de la cantante, "Yuko Kitano", que está escrito en la sección de resumen del vídeo, ciertamente me suena haberlo visto en alguna parte, pero tampoco es eso.[p]
 [mask time=500]
 [bg2 storage=byousitu.jpg time=200]
 [filter blur=50 layer=base]
 [wait time=100]
 [mask_off time=500]
-There is something that comes to the front of my mind.[p]
-White walls and a small place. That kind of vague image.[p]
-…No. I can't remember anything else.[p]
-But I can tell that this is a good song.[p]
-It's a sad farewell song.[p]
+Hay algo que me viene a la cabeza.[p]
+Paredes blancas y un pequeño lugar. Una imagen confusa.[p]
+…No. No puedo recordar nada más.[p]
+Pero puedo notar que es una buena canción.[p]
+Es una triste canción de despedida.[p]
 [fadeoutbgm time=1000]
 [mask time=500]
 [free_filter layer=base]
@@ -429,117 +429,118 @@ It's a sad farewell song.[p]
 [bg2 storage=ongaku.jpg height=1554 top="-200" time=1300]
 [mask_off time=500]
 #nao
-「It's kind of embarrassing, though」[p]
+「Aunque es un poco vergonzoso」[p]
 #nao
-「But it's the last show for me and Kaname, so I wanted to include a song about properly saying goodbye」[p][stopse buf=4]
+「Pero es el último concierto para mi y para Kaname, así que quería incluir una canción para despedirnos adecuadamente」[p][stopse buf=4]
 #
 [hide][reito_komari]
 #reito
-「…Please don't say such sad things」[p][stopse buf=5]
+「…Por favor, no digas cosas tan tristes」[p][stopse buf=5]
 #
 [kaname_bishou]
 #kaname
-「…You're right, this song might be good」[p][stopse buf=6]
+「…Tienes razón, esta canción debería servir」[p][stopse buf=6]
 #
 [hide][minami_w_bishou]
 #minami
-「I agree… What about you, Hokuto?」[p][stopse buf=2]
+「Estoy de acuerdo… ¿Y tú, Hokuto?」[p][stopse buf=2]
 #
-…There is something about this song that draws me in.[p]
-Although I don't know what it is yet. I want to find out. I feel that way.[p]
+…Hay algo en esta canción que me atrae.[p]
+Aunque todavía no sé lo que es. Quiero averiguarlo. Eso siento.[p]
 [hide][hokuto_w_mu]
 #hokuto
-「I also want to play this song」[p][stopse buf=1]
+「También quiero tocar esta canción」[p][stopse buf=1]
 [hide][kaname_magao left=-80 wait=false][nao_niko3 left=460 wait=false][reito_magao left=850]
 #nao
-「Okay, that's settled, then. Does anyone else have a song they'd like to play?」[p][stopse buf=4]
+「Bueno, entonces está decidido, ¿alguien más tiene una canción que le gustaría tocar?」[p][stopse buf=4]
 #reito
-「I actually…」[p][stopse buf=5]
+「De hecho yo…」[p][stopse buf=5]
 #kaname
 [k/bishou2]
-「What about this…?」[p][stopse buf=6]
+「¿Qué te parece esta…?」[p][stopse buf=6]
 #minami
 [mw_magao2]
-「Can I think about it for a little bit…?」[p][stopse buf=2]
+「¿Me dejas pensarlo un poco…?」[p][stopse buf=2]
 [mmhide]
 #
-After a week of discussions just like this, the set list was finally decided.[p]
+Y tras una semana de discusiones como ésta, por fin decidimos la lista de canciones.[p]
 
 [mask time=500]
 [hide]
 [bg2 storage="genkan.jpg" time="1000"]
 [fadeinbgm storage=bg/room.ogg time=1000]
 [mask_off time=500]
-[playse storage="se/door.ogg" buf=8]
+[playse  storage="se/door.ogg" buf=8]
 #hokuto
 [hw_magao]
-「I'm home」[p][stopse buf=1]
+「Estoy en casa」[p][stopse buf=1]
 #
 [mhhide]
-……Of course, there's no answer.[p]
+……Por supuesto, aquí nadie responde.[p]
 [fadeinse storage="bg/clock.ogg" loop=true buf=9 time=1000]
 [bg2 storage="ima.jpg" time="500"]
 #hokuto
-「…Anyways」[p][stopse buf=1]
+「…En fin」[p][stopse buf=1]
 #
-[playse storage="se/fridge.ogg" buf=8]
-I take out my mother's leftovers from the refrigerator. Today it's fried rice, it seems.[p]
+[playse  storage="se/fridge.ogg" buf=8]
+Saco las sobras que ha hecho mi mamá de la nevera. Hoy parece que es arroz frito.[p]
 #hokuto
-「I think it's a bit light today… Mom」[p][stopse buf=1]
+「Creo que hoy está un poco blando… mamá」[p][stopse buf=1]
 #
-However, I should be thankful that she makes food for me every day.[p]
-Looking at the condiment shelf in the refrigerator, I notice an unopened soup bag of instant ramen.[p]
+Sin embargo, debería estar agradecido de que me haga la comida todos los días.[p]
+Mirando en la estantería de condimentos, me percato de que hay una bolsa de sopa de ramen instantáneo sin abrir.[p]
 #hokuto
-「Mom, again, you just ate instant noodles for lunch… And you opened two bags of these?」[p][stopse buf=1]
+「Mamá, otra vez, acabaste comiendo fideos instantáneos para el almuerzo… ¿y abriste dos bolsas de estas?」[p][stopse buf=1]
 #
-Although she cooks a reasonable amount of food for her growing son, as soon as she is left alone, she will eat instant food or packed foods.[p]
+Aunque cocina una cantidad razonable de comida para su hijo en crecimiento, apenas se trata de ella, come comida instantánea o alimentos envasados.[p]
 #hokuto
-「…It's no use」[p][stopse buf=1]
+「…Que se le va a hacer」[p][stopse buf=1]
 #
-My mother is very busy and works in the night, as well.[p]
+Mi mamá está muy ocupada y además trabaja por la noche.[p]
 
 #hokuto
-「Thanks for the food」[p][stopse buf=1]
+「Gracias por la comida」[p][stopse buf=1]
 #
-19:00. I had dinner a little later than usual today.[p]
-But it is much earlier than the nights when I do stargazing with the old man.[p]
+19:00. Hoy cené un poco más tarde de lo habitual.[p]
+Pero es mucho más temprano que en las noches en las que miro las estrellas con el viejo.[p]
 
 #hokuto
 「……」[p][stopse buf=1]
 #
-I can't stand the silence, so I turn on the TV randomly.[p]
-The prime time for variety shows.[p]
-I used to like it a lot, I think, but now it's all so noisy and rather uninspiring that I've switched over to the news.[p]
+No soporto el silencio, así que enciendo la televisión.[p]
+El horario estelar de los programas de variedades.[p]
+Antes me gustaban mucho, pero ahora es tan ruidoso y aburrido que cambio al canal de noticias.[p]
 #hokuto
-「Thanks for the delicious meal」[p][stopse buf=1]
+「Estuvo deliciosa」[p][stopse buf=1]
 #
-I wash the dishes after eating and take a quick shower.[p]
+Lavo los platos después de comer y me doy una ducha rápida.[p]
 #hokuto
-「…Now, let's prep for tomorrow classes」[p][stopse buf=1]
+「…Ahora, preparémonos para las clases de mañana」[p][stopse buf=1]
 #
 [bg2 storage="heya.jpg" time="500"]
-20:00. Tomorrow the three main subjects are all together, so today's prep will be tough.[p]
-We'll start with Math I.[p]
-Math, which would have been my least favorite subject in middle school, somehow feels the easiest now.[p]
-Maybe it's because these are the basics of integers and real numbers, but I think the main reason is that it's something you can manage if you move your hands enough.[p]
-In Japanese Literature and English, I was able to get by in middle school as long as I could make sense of the sentences, but once I got to high school, all I could do was memorize grammar.[p]
-Transform into 4th dan to upper 1st, 2nd dan, lower 1st, 2nd dan.[p]
-I don't know what the basic five sentence patterns are…[p]
-I honestly don't want to remember them.[p]
-Why is "is" sometimes existence and sometimes is not? "Is" is "is," right?[p]
-…If I say it in English, would it be "is is a is…" Or something like that?[p]
+20:00. Mañana las 3 asignaturas principales están todas juntas, así que la preparación de hoy será dura.[p]
+Empezaremos con Matemáticas I.[p]
+Matemáticas, la asignatura que menos me gustaba en secundaria, ahora me parece la más fácil.[p]
+Tal vez sea porque estos son los básicos de los números enteros y reales, pero creo que la razón principal es[p]
+que es algo que puedes solucionar si mueves las manos lo suficiente[p]
+En literatura japonesa e inglés, podía arreglármelas en la secundaria siempre y cuando pudiera entender las oraciones, pero cuando llegué a la preparatoria, todo lo que pude hacer era memorizar gramática.[p]
+Transformar en 4º dan a 1º dan superior, 2º dan, 1º dan inferior, 2º dan.[p]
+Ni siquiera sé cuáles son los 5 patrones básicos de las frases…[p]
+Y la verdad no quiero recordarlos.[p]
+¿Por qué "is" a veces es existencia y a veces no? "is" es "is", ¿no?[p]
+…Si lo digo en inglés, ¿sería "Is is a is"… o algo así?[p]
 #hokuto
-「…I don't know」[p][stopse buf=1]
+「…No entiendo」[p][stopse buf=1]
 #
-Anyway, I had no choice but to do it. I can't afford to drop my grade.[p]
-The last time I took a placement test, I was fifth in my grade. That's not bad.[p]
-But I must keep going.[p]
-I have to do it.[p]
-In the end, I didn't finish my prep work completely until the date changed.[p]
+De todos modos, no tengo más remedio que hacerlo. No puedo permitirme bajar mis notas.[p]
+La última vez que hice una evaluación quedé quinto en mi curso. No está mal.[p]
+Pero debo seguir adelante.[p]
+Tengo que hacerlo.[p]
+Al final, no terminé mi trabajo de preparación por completo hasta media noche.[p]
 #hokuto
-「…Dang, I need to sleep」[p][stopse buf=1]
+「…Diablos, necesito dormir」[p][stopse buf=1]
 #
-And so another quiet night passes, all alone again.[p]
+Y así transcurre otra noche tranquila, de nuevo completamente solo.[p]
 [fadeoutbgm time=500][fadeoutse buf=9 time=500]
 
 [mask time=500]
@@ -549,41 +550,41 @@ And so another quiet night passes, all alone again.[p]
 [vostop]
 [mask_off time=500]
 
-#？？？
-「20:31, Time of death」[p][vostart]
+#???
+「20:31, Hora del fallecimiento」[p][vostart]
 #Hokuto's Mother
-「…… Darling…」[p]
+「Querido…」[p]
 #hokuto
-「…Time of death? What do you mean, sir?」[p][stopse buf=1][vostop]
-#？？？
-「…I'm sorry, Hokuto-kun. I couldn't cure your father's illness. I'm really sorry」[p][vostart]
+「…¿Hora del fallecimiento? ¿Qué quiere decir, señor?」[p][stopse buf=1][vostop]
+#???
+「…Lo siento, Hokuto-kun. No pude curar la enfermedad de tu padre. Lo siento mucho」[p][vostart]
 #hokuto
-「You couldn't…cure him? What happened to my dad?」[p][stopse buf=1][vostop]
-#？？？
-「Your father is in heaven」[p]
+「¿No pudiste… curarlo? ¿Qué le pasó a mi papá?」[p][stopse buf=1][vostop]
+#???
+「Tu papá está en el cielo」[p]
 [vostart]
 #hokuto
-「No… That's not true! Because you said you'll help my father. Minami said that, as well!」[p][stopse buf=1][vostop]
-#？？？
-「I'm sorry. I'm really sorry…」[p][vostart]
+「No… ¡No es verdad! Me dijiste que ayudarías a mi padre. ¡Minami también me dijo eso!」[p][stopse buf=1][vostop]
+#???
+「Lo siento, lo siento mucho…」[p][vostart]
 #hokuto
-「Liars… Both you and Minami are liars!」[p][stopse buf=1]
+「Mentirosos… ¡tú y Minami son unos mentirosos!」[p][stopse buf=1]
 #
-The boy is crying.[p]
+El niño llora.[p]
 [fadeoutbgm time=1000]
 [mask time=500]
 [fkaisou]
 [bg2 storage="heya.jpg" time="1500"]
 [mask_off time=500]
-[playse storage="se/alarm.ogg" buf=8][playse storage="se/futon.ogg" buf=9]
+[playse storage="se/alarm.ogg" buf=8][playse  storage="se/futon.ogg" buf=9]
 #hokuto
 「……」[p][stopse buf=1]
 #
-The alarm on my cell phone is ringing. The screen reads 6:45.[p]
+Suena la alarma de mi celular. La pantalla indica las 6:45[p]
 #hokuto
-「……I have to get up」[p][stopse buf=1][stopse buf=8]
+「……Tengo que levantarme」[p][stopse buf=1][stopse buf=8]
 #
-In this day-to-day world, I have no time to weep over the past.[p]
+En este día a día, no tengo tiempo para llorar sobre el pasado.[p]
 
 [mask graphic="cut/cutin_takamura.png" time=1500]
 [vostop]

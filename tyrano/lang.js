@@ -2,8 +2,8 @@ window.tyrano_lang = {
 
     word : {
         
-        "go_title":"Do you want to go back to the title screen?",
-        "exit_game":"Are you sure you want to exit the game?",
+        "go_title":"¿Deseas volver a la pantalla de inicio?",
+        "exit_game":"¿Estas seguro que deseas salir del juego?",
         "not_saved":" ",
         "tag":"タグ",
         "not_exists":"は存在しません",

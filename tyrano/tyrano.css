@@ -115,6 +115,10 @@ abbr,acronym{
 	z-index: 2;
 }
 
+.button_smart{
+	opacity:0;
+}
+
 /* バックログ画面
 --------------------------------------*/
 .log_body {

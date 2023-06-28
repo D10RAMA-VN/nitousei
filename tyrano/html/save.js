@@ -189,7 +189,3 @@ document.getElementById("27").style.display ="block";
 document.getElementById("28").style.display ="block";
 document.getElementById("29").style.display ="block";
 });
-
-$('.non').mouseover(function(){
-	tyrano.plugin.kag.ftag.startTag("playse",{storage:"se/harmonics.ogg"})
-});
