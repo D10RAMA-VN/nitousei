@@ -1,4 +1,4 @@
-[title name="見えない二等星"]
+[title name=&"String('La\x20estrella\x20invisible')"]
 
 [stop_keyconfig]
 [hidemenubutton]

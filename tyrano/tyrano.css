@@ -1216,7 +1216,10 @@ audio {
 	transition: 1s;
 	width: 400px;
     height: 200px;
+}
 
+.chara_name_area{
+	letter-spacing: 8px !important;
 }
 
 @keyframes wave {

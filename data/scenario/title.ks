@@ -20,7 +20,6 @@
 
 [if exp="sf.ST1==undefined"][eval exp="sf.ST1=0"][endif]
 
-
 [iscript]
 if($.isElectron() || $.isNWJS()){
     //PC
