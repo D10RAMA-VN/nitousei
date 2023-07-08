@@ -21,7 +21,7 @@
 [rolebutton]
 [M0]
 @layopt layer=message0 visible=true
-[ptext name="chara_name_area" layer="message0" color="white" size=44 bold=true x=350 y=755 face="NotoInitial"]
+[ptext name="chara_name_area" layer="message0" color="white" size=44 bold=true x=350 y=755 face="akko"]
 [wait time=500]
 [mask_off time=1000]
 #
@@ -46,11 +46,11 @@ Okay…[p][stopse buf=2]
 In the end, we only had two new members, the ones that arrived on the first day…[p][stopse buf=5]
 #nao
 [n/niko2]
-We're fine, we're fine. We only had one or two per grade to begin with[p][stopse buf=4]
+We're fine, we're fine. We only had one or two per grade to begin with.[p][stopse buf=4]
 #
 [hide][kaname_niko]
 #kaname
-Thank you both for coming by every day. From now on, you are officially members of the club, and we look forward to working with you[p][stopse buf=6]
+Thank you both for coming by every day. From now on, you are officially members of the club, and we look forward to working with you.[p][stopse buf=6]
 #hokuto
 [hw_egao2]
 Yes![p][stopse buf=1]
@@ -72,7 +72,7 @@ OH! (Clap Clap)[p][stopse buf=1][stopse buf=8]
 [mhhide]
 #nao
 [n/magao]
-We have some things we need to do[p][stopse buf=4]
+We have some things we need to do.[p][stopse buf=4]
 #hokuto
 [hw_mu2]
 Things we need to do?[p][stopse buf=1]
@@ -90,14 +90,14 @@ We need to…revise the rules of the club![p][stopse buf=4]
 Ah…[p][stopse buf=5]
 #kaname
 [kaname_bishou]
-We have new members, so we have to have new rules[p][stopse buf=6]
+We have new members, so we have to have new rules.[p][stopse buf=6]
 #hokuto
 [hw_mu]
-Oh, is that how it is? If you've already have something in place, why don't you just leave it as it is? We'll abide by it, too[p][stopse buf=1]
+Oh, is that how it is? If you've already have something in place, why don't you just leave it as it is? We'll abide by it, too.[p][stopse buf=1]
 [mhhide]
 #reito
 [r/magao]
-No, the club rules are so bad… That's why we're taking this opportunity to change them too, Nao-san[p][stopse buf=5]
+No, the club rules are so bad… That's why we're taking this opportunity to change them too, Nao-san.[p][stopse buf=5]
 #
 [hide][nao_niko]
 #nao
@@ -114,7 +114,7 @@ You see…[p][stopse buf=4]
 [fadeoutbgm time=1000]
 [hide][kaname_magao left=-80 wait=false][nao_magao left=460 wait=false][reito_magao left=850]
 #sannin
-Let's be interesting[p][stopse buf=4]
+Let's be interesting.[p][stopse buf=4]
 #
 [hide][minami_w_tun left=40 wait=false][hokuto_w_aseri left=640]
 #hutari
@@ -125,17 +125,17 @@ Let's be interesting[p][stopse buf=4]
 No, really. It's just these three words. "Let's be interesting."[p][stopse buf=4]
 #hokuto
 [hw_kanasimi]
-…It sounds more like the company motto of an entertainment agency than the rules of a light music club[p][stopse buf=1]
+…It sounds more like the company motto of an entertainment agency than the rules of a light music club.[p][stopse buf=1]
 [mhhide]
 [reito_kanasimi]
 #reito
-It's true. The senpais from last year made it up as a bad joke[p][stopse buf=5]
+It's true. The senpais from last year made it up as a bad joke.[p][stopse buf=5]
 #minami
 [mw_magao2]
 Why didn't you stop them?[p][stopse buf=2]
 [mmhide]
 #nao
-No, we couldn't, they told us after they submitted it to the student council[p][stopse buf=4]
+No, we couldn't, they told us after they submitted it to the student council.[p][stopse buf=4]
 #reito
 [r/komari]
 They just informed us after they did it… That was bad…[p][stopse buf=5]
@@ -152,10 +152,10 @@ OH! (Clap Clap)[p][stopse buf=1][stopse buf=8]
 [mhhide]
 #nao
 [n/bishou]
-So, we're going to have a quick meeting. Kaname, take notes[p][stopse buf=4]
+So, we're going to have a quick meeting. Kaname, take notes.[p][stopse buf=4]
 #kaname
 [k_bishou]
-Yeah… I'll use the blackboard, then[p][stopse buf=6]
+Yeah… I'll use the blackboard, then.[p][stopse buf=6]
 
 [fadeoutbgm time=1000]
 [mask time=500]
@@ -170,7 +170,7 @@ Now, let's get right to it… Anyone got any ideas?[p][stopse buf=4]
 …Well, any type of management rules and stuff like that is already in the general club rules, so for the most part, clubs use these rules more like slogans and such…[p][stopse buf=5]
 #nao
 [n/kanasimi]
-The teachers and the student council are also quite relaxed. They seem like they would just accept one-word club rules[p][stopse buf=4]
+The teachers and the student council are also quite relaxed. They seem like they would just accept one-word club rules.[p][stopse buf=4]
 #hokuto
 [hw_kanasimi2]
 …Is this school doing all right…?[p][stopse buf=1]
@@ -223,44 +223,44 @@ Because it's Kaname. If this girl says it, then there's no other way around it![
 Hmmm, if Kaname says so. But I thought it was a good idea…[p][stopse buf=4]
 #minami
 [mw_magao2]
-…I mean, we could just put it in there. As long as we add other things[p][stopse buf=2]
+…I mean, we could just put it in there. As long as we add other things.[p][stopse buf=2]
 [mmhide]
 #hokuto
 [hw_mu2]
-You are right. It doesn't have to be just one rule[p][stopse buf=1]
+You are right. It doesn't have to be just one rule.[p][stopse buf=1]
 [mhhide]
 #reito
 [r/komari]
-Well, usually there are a lot of them. …It's just that our club has been weird until now[p][stopse buf=5]
+Well, usually there are a lot of them. …It's just that our club has been weird until now.[p][stopse buf=5]
 #nao
 [n/bishou]
 Then let's think of something else. So what club do you want to be in?[p][stopse buf=4]
 #reito
 [r/magao]
-…I mean, we are in a light music club so, I would like to include things about daily practice and performances[p][stopse buf=5]
+…I mean, we are in a light music club so, I would like to include things about daily practice and performances.[p][stopse buf=5]
 #hokuto
 [hw_magao]
-Oh, right, this is a light music club[p][stopse buf=1]
+Oh, right, this is a light music club.[p][stopse buf=1]
 [mhhide]
 #minami
 [mw_akire]
-…Hokuto, you're so rude[p][stopse buf=2]
+…Hokuto, you're so rude.[p][stopse buf=2]
 [mmhide]
 #kaname
 [k/magao]
 Things regarding light music… Like take it seriously, or something?[p][stopse buf=6]
 #nao
 [n/bishou]
-…But some people just want to do it because they like it. There is no such thing as a competition, and most of all, I want everyone to have fun[p][stopse buf=4]
+…But some people just want to do it because they like it. There is no such thing as a competition, and most of all, I want everyone to have fun.[p][stopse buf=4]
 #reito
 [r/kanasimi]
 ……[p][stopse buf=5]
 #nao
 [n/niko3]
-This isn't that kind of place… I want it to be a place where everyone can have a good time… Not just with music, but also sometimes just goofing around[p][stopse buf=4]
+This isn't that kind of place… I want it to be a place where everyone can have a good time… Not just with music, but also sometimes just goofing around.[p][stopse buf=4]
 #minami
 [mw_magao2]
-…But that doesn't mean you can be lazy[p][stopse buf=2]
+…But that doesn't mean you can be lazy.[p][stopse buf=2]
 [mmhide]
 #hokuto
 [hw_magao]
@@ -279,7 +279,7 @@ Minami-chan, did something come to mind?[p][stopse buf=4]
 #
 [hide][minami_w_magao2]
 #minami
-When you're serious, you have fun doing it, and when you overdo it, you take a proper break[p][stopse buf=2]
+When you're serious, you have fun doing it, and when you overdo it, you take a proper break.[p][stopse buf=2]
 #minami
 And if you get a little too playful and lose your edge, you can make up for it by taking it seriously, creating a balance. What do you think?[p][stopse buf=2]
 [mmhide]
@@ -299,7 +299,7 @@ But if we say "create a balance," the meaning might not get transmitted. Hmm… 
 Good, I like it! The "should go" makes it sound like a club rule![p][stopse buf=4]
 #kaname
 [k_bishou2]
-Okay, I'll add this one, too[p][stopse buf=6]
+Okay, I'll add this one, too.[p][stopse buf=6]
 [mkhide]
 #nao
 [n/niko3][kanim name="nao" keyframe="nod" time="500"]
@@ -307,10 +307,10 @@ Yeah, yeah, it's looking good. Definitely better than last year's![p][stopse buf
 #
 [hide]
 [bg2 storage=still_busoku.png time=500][eval exp="sf.ST3=1"]
-Light music club rules[p]
+Light music club rules.[p]
 I. Always get along with everyone! [p]
 II. Seriousness and fun should go hand in hand![p]
-Let's protect them together! Kaname[p]
+Let's protect them together! Kaname.[p]
 [fadeoutbgm time=1000]
 [mask time=500]
 [wait time=1500]
@@ -319,22 +319,22 @@ Let's protect them together! Kaname[p]
 [mask_off time=500]
 #nao
 [n/bishou]
-All right. That's enough on the club rules. Let's move on to the upcoming live performances[p][stopse buf=4]
+All right. That's enough on the club rules. Let's move on to the upcoming live performances.[p][stopse buf=4]
 #kaname
 [k/bishou]
-We'll have to decide on the songs soon[p][stopse buf=6]
+We'll have to decide on the songs soon.[p][stopse buf=6]
 #hokuto
 [hw_odoroki]
 What songs are you going for?[p][stopse buf=1]
 [mhhide]
 #reito
 [r/bishou]
-Everyone usually brings a song they'd like to play[p][stopse buf=5]
+Everyone usually brings a song they'd like to play.[p][stopse buf=5]
 #reito
 This time we have about three months to practice, so I'd say we should do three or four songs…?[p][stopse buf=5]
 #nao
 [n/kanasimi]
-Well…it will be our last show, so we want to make sure there are no knots in our throats[p][stopse buf=4]
+Well…it will be our last show, so we want to make sure there are no knots in our throats.[p][stopse buf=4]
 #hokuto
 [hw_metozi]
 Knots in your throats…?[p][stopse buf=1]
@@ -345,7 +345,7 @@ What do you mean? You mean you don't want to have any regrets?[p][stopse buf=2]
 [mmhide]
 #nao
 [n/niko]
-Ah, sorry. One of our senpais said it in a meeting and it became a saying over here. No knots in our throats[p][stopse buf=4]
+Ah, sorry. One of our senpais said it in a meeting and it became a saying over here. No knots in our throats.[p][stopse buf=4]
 #hokuto
 [hw_metozi]
 Well, normally you shouldn't have any regrets…[p][stopse buf=1]
@@ -355,7 +355,7 @@ But why does it feel natural to say it like that…[p]
 No knots in our throats, no knots in our throats. Yeah, feels easier to say.[p]
 #reito
 [r/magao]
-…Anyways, back on topic[p][stopse buf=5]
+…Anyways, back on topic.[p][stopse buf=5]
 #nao
 [n/bishou]
 Oh, yeah. Let's see, about the song, who has a song they would like to play?[p][stopse buf=4]
@@ -374,19 +374,19 @@ With that said, the president opened a video site on her phone and played a vide
 …Is it a Showa song? (1926-1989)[p][stopse buf=5]
 #nao
 [n/bishou][kanim name="nao" keyframe="nod" time="500"]
-Yeah. Oh, and don't worry, I've already searched the score for the band arrangement[p][stopse buf=4]
+Yeah. Oh, and don't worry, I've already searched the score for the band arrangement.[p][stopse buf=4]
 #kaname
 [k/bishou2]
-Here it is. Nao's classic nostalgic song[p][stopse buf=6]
+Here it is. Nao's classic nostalgic song.[p][stopse buf=6]
 #nao
 [n/niko]
-Ehehe. Sorry for being like this till the end[p][stopse buf=4]
+Ehehe. Sorry for being like this till the end.[p][stopse buf=4]
 #kaname
 [k/bishou]
-No, that's just like you, Nao. It's a much softer tune, though[p][stopse buf=6]
+No, that's just like you, Nao. It's a much softer tune, though.[p][stopse buf=6]
 #nao
 [n/bishou][kanim name="nao" keyframe="nod" time="500"]
-Yes, that's why I think we should do it in the second half[p][stopse buf=4]
+Yes, that's why I think we should do it in the second half.[p][stopse buf=4]
 #hokuto
 [hw_mu]
 ……[p][stopse buf=1]
@@ -401,7 +401,7 @@ Hokuto?[p][stopse buf=2]
 [mhhide]
 #nao
 [n/niko]
-It's a song called "Becoming a Second Star." It's pretty famous, so maybe you've heard it somewhere[p][stopse buf=4]
+It's a song called "Becoming a Second Star." It's pretty famous, so maybe you've heard it somewhere.[p][stopse buf=4]
 #
 [hide][hokuto_w_metozi]
 #hokuto
@@ -429,17 +429,17 @@ It's a sad farewell song.[p]
 [bg2 storage=ongaku.jpg height=1554 top="-200" time=1300]
 [mask_off time=500]
 #nao
-It's kind of embarrassing, though[p]
+It's kind of embarrassing, though.[p]
 #nao
-But it's the last show for me and Kaname, so I wanted to include a song about properly saying goodbye[p][stopse buf=4]
+But it's the last show for me and Kaname, so I wanted to include a song about properly saying goodbye.[p][stopse buf=4]
 #
 [hide][reito_komari]
 #reito
-…Please don't say such sad things[p][stopse buf=5]
+…Please don't say such sad things.[p][stopse buf=5]
 #
 [kaname_bishou]
 #kaname
-…You're right, this song might be good[p][stopse buf=6]
+…You're right, this song might be good.[p][stopse buf=6]
 #
 [hide][minami_w_bishou]
 #minami
@@ -449,7 +449,7 @@ I agree… What about you, Hokuto?[p][stopse buf=2]
 Although I don't know what it is yet. I want to find out. I feel that way.[p]
 [hide][hokuto_w_mu]
 #hokuto
-I also want to play this song[p][stopse buf=1]
+I also want to play this song.[p][stopse buf=1]
 [hide][kaname_magao left=-80 wait=false][nao_niko3 left=460 wait=false][reito_magao left=850]
 #nao
 Okay, that's settled, then. Does anyone else have a song they'd like to play?[p][stopse buf=4]
@@ -473,19 +473,19 @@ After a week of discussions just like this, the set list was finally decided.[p]
 [playse storage="se/door.ogg" buf=8]
 #hokuto
 [hw_magao]
-I'm home[p][stopse buf=1]
+I'm home.[p][stopse buf=1]
 #
 [mhhide]
 ……Of course, there's no answer.[p]
 [fadeinse storage="bg/clock.ogg" loop=true buf=9 time=1000]
 [bg2 storage="ima.jpg" time="500"]
 #hokuto
-…Anyways[p][stopse buf=1]
+…Anyways.[p][stopse buf=1]
 #
 [playse storage="se/fridge.ogg" buf=8]
 I take out my mother's leftovers from the refrigerator. Today it's fried rice, it seems.[p]
 #hokuto
-I think it's a bit light today… Mom[p][stopse buf=1]
+I think it's a bit light today… Mom.[p][stopse buf=1]
 #
 However, I should be thankful that she makes food for me every day.[p]
 Looking at the condiment shelf in the refrigerator, I notice an unopened soup bag of instant ramen.[p]
@@ -499,7 +499,7 @@ Although she cooks a reasonable amount of food for her growing son, as soon as s
 My mother is very busy and works in the night, as well.[p]
 
 #hokuto
-Thanks for the food[p][stopse buf=1]
+Thanks for the food.[p][stopse buf=1]
 #
 19:00. I had dinner a little later than usual today.[p]
 But it is much earlier than the nights when I do stargazing with the old man.[p]
@@ -511,11 +511,11 @@ I can't stand the silence, so I turn on the TV randomly.[p]
 The prime time for variety shows.[p]
 I used to like it a lot, I think, but now it's all so noisy and rather uninspiring that I've switched over to the news.[p]
 #hokuto
-Thanks for the delicious meal[p][stopse buf=1]
+Thanks for the delicious meal.[p][stopse buf=1]
 #
 I wash the dishes after eating and take a quick shower.[p]
 #hokuto
-…Now, let's prep for tomorrow classes[p][stopse buf=1]
+…Now, let's prep for tomorrow classes.[p][stopse buf=1]
 #
 [bg2 storage="heya.jpg" time="500"]
 20:00. Tomorrow the three main subjects are all together, so today's prep will be tough.[p]
@@ -529,7 +529,7 @@ I honestly don't want to remember them.[p]
 Why is "is" sometimes existence and sometimes is not? "Is" is "is," right?[p]
 …If I say it in English, would it be "is is a is…" Or something like that?[p]
 #hokuto
-…I don't know[p][stopse buf=1]
+…I don't know.[p][stopse buf=1]
 #
 Anyway, I had no choice but to do it. I can't afford to drop my grade.[p]
 The last time I took a placement test, I was fifth in my grade. That's not bad.[p]
@@ -537,7 +537,7 @@ But I must keep going.[p]
 I have to do it.[p]
 In the end, I didn't finish my prep work completely until the date changed.[p]
 #hokuto
-…Dang, I need to sleep[p][stopse buf=1]
+…Dang, I need to sleep.[p][stopse buf=1]
 #
 And so another quiet night passes, all alone again.[p]
 [fadeoutbgm time=500][fadeoutse buf=9 time=500]
@@ -550,17 +550,17 @@ And so another quiet night passes, all alone again.[p]
 [mask_off time=500]
 
 #？？？
-20:31, Time of death[p][vostart]
+20:31, Time of death.[p][vostart]
 #Hokuto's Mother
 …… Darling…[p]
 #hokuto
 …Time of death? What do you mean, sir?[p][stopse buf=1][vostop]
 #？？？
-…I'm sorry, Hokuto-kun. I couldn't cure your father's illness. I'm really sorry[p][vostart]
+…I'm sorry, Hokuto-kun. I couldn't cure your father's illness. I'm really sorry.[p][vostart]
 #hokuto
 You couldn't…cure him? What happened to my dad?[p][stopse buf=1][vostop]
 #？？？
-Your father is in heaven[p]
+Your father is in heaven.[p]
 [vostart]
 #hokuto
 No… That's not true! Because you said you'll help my father. Minami said that, as well![p][stopse buf=1][vostop]
@@ -581,7 +581,7 @@ The boy is crying.[p]
 #
 The alarm on my cell phone is ringing. The screen reads 6:45.[p]
 #hokuto
-……I have to get up[p][stopse buf=1][stopse buf=8]
+……I have to get up.[p][stopse buf=1][stopse buf=8]
 #
 In this day-to-day world, I have no time to weep over the past.[p]
 

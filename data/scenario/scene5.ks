@@ -17,7 +17,7 @@
 [rolebutton]
 [M0]
 @layopt layer=message0 visible=true
-[ptext name="chara_name_area" layer="message0" color="white" size=44 bold=true x=350 y=755 face="NotoInitial"]
+[ptext name="chara_name_area" layer="message0" color="white" size=44 bold=true x=350 y=755 face="akko"]
 [wait time=500]
 [mask_off time=1000]
 #
@@ -25,7 +25,7 @@
 [fadeinbgm storage="bg/river.ogg" time=1000]
 [hokuto_s_magao left=710 wait=false][minami_s_tun left=10]
 #hokuto
-…Good morning[p][stopse buf=1]
+…Good morning.[p][stopse buf=1]
 #minami
 [minami_s_tun]
 Good morning…[p][stopse buf=2]
@@ -50,15 +50,15 @@ While I was worrying about these things, Monday arrived, and here I am, face-to-
 This is awkward. Anyway, I have to say something.[p]
 #hokuto
 [hs/mu]
-Listen[p][stopse buf=1]
+Listen.[p][stopse buf=1]
 #minami
 [ms/magao]
-…Yeah[p][stopse buf=2]
+…Yeah.[p][stopse buf=2]
 #hokuto
 [hs/kanasimi]
-…What I said Thursday was horrible. I'm sorry[p][stopse buf=1]
+…What I said Thursday was horrible. I'm sorry.[p][stopse buf=1]
 #minami
-…Yeah, it's fine[p][stopse buf=2]
+…Yeah, it's fine.[p][stopse buf=2]
 #hokuto
 [hs/kanasimi2]
 …[p][stopse buf=1]
@@ -73,7 +73,7 @@ I knew it, but I couldn't do anything about it.[p]
 However, it was Minami who unexpectedly broke this silence.[p]
 #minami
 [minami_s_uwame]
-…Here[p][stopse buf=2]
+…Here.[p][stopse buf=2]
 #hokuto
 [hs_odoroki]
 Eh?[p][stopse buf=1]
@@ -86,30 +86,30 @@ She offered me a blue bag with a square object in it.[p]
 [mhhide]
 #minami
 [ms/tun2]
-…A lunch box… Well…… My mom made it for you[p][stopse buf=2]
+…A lunch box… Well…… My mom made it for you.[p][stopse buf=2]
 #hokuto
 [hs_aseri]
 Your mom?[p][stopse buf=1]
 [mhhide]
 #minami
 [ms/tun]
-…When I told her that you always eat convenience store onigiris and protein bars for lunch, well… She said she'd make one for you, too[p][stopse buf=2]
+…When I told her that you always eat convenience store onigiris and protein bars for lunch, well… She said she'd make one for you, too.[p][stopse buf=2]
 #hokuto
 [hs_mu2]
-Oh, no. …I'm sorry, I know your mom's busy, too[p][stopse buf=1]
+Oh, no. …I'm sorry, I know your mom's busy, too.[p][stopse buf=1]
 [mhhide]
 #minami
 [ms/tun]
-…Well, you know, she said there's no difference if she makes food for one or for two people. Besides, look, she already did it today. It would be a waste if you don't eat it[p][stopse buf=2]
+…Well, you know, she said there's no difference if she makes food for one or for two people. Besides, look, she already did it today. It would be a waste if you don't eat it.[p][stopse buf=2]
 #
 As usual, Minami holds out the bag.[p]
 …It would be rude not to take it at after she said all that.[p]
 [hide][hokuto_s_bishou left=680 wait=false][minami_s_tun left=40]
 #hokuto
-…I see. Well, thanks[p][stopse buf=1]
+…I see. Well, thanks.[p][stopse buf=1]
 #minami
 [ms/tere]
-…But[p][stopse buf=2]
+…But.[p][stopse buf=2]
 #hokuto
 [hs/magao][stopse buf=1]
 Hm?[p][stopse buf=1]
@@ -118,10 +118,10 @@ Hm?[p][stopse buf=1]
 …She said …She didn't have a lot of time today, so it might be a little rough…[p][stopse buf=2]
 #hokuto
 [hs/bishou]
-I see. Well, I'm just grateful that she made it for me[p][stopse buf=1]
+I see. Well, I'm just grateful that she made it for me.[p][stopse buf=1]
 #minami
 [ms/dere][kanim name="minami" keyframe="nod" time="500"]
-…Yeah[p][stopse buf=2]
+…Yeah.[p][stopse buf=2]
 #hokuto
 [hs/mu]
 …?[p][stopse buf=1]
@@ -150,7 +150,7 @@ Hokuto, um… Would you like to have lunch with me in the clubroom?[p][stopse bu
 What? Well, yeah of course, but… Is that ok?[p][stopse buf=1]
 #reito
 [r/bishou]
-I got the key to the clubroom. Come on[p][stopse buf=5]
+I got the key to the clubroom. Come on.[p][stopse buf=5]
 #
 So, I had lunch today with Reito-senpai in the clubroom.[p]
 [fadeoutbgm time=500]
@@ -169,21 +169,21 @@ It's been a little over two months since I joined the club. Even though we are t
 Um, why?…[p][stopse buf=1]
 [mhhide]
 #reito
-…Because you seem to have a lot on your mind these days[p][stopse buf=5]
+…Because you seem to have a lot on your mind these days.[p][stopse buf=5]
 #hokuto
 [hs_mu]
 Huh…[p][stopse buf=1]
 [mhhide]
 #reito
 [r/magao]
-…I've also been there a few times since I joined the club… When things didn't go my way at all[p][stopse buf=5]
+…I've also been there a few times since I joined the club… When things didn't go my way at all.[p][stopse buf=5]
 #hokuto
 [hs_odoroki]
 Really?[p][stopse buf=1]
 [mhhide]
 #reito
 [r/kanasimi][kanim name="reito" keyframe="nod" time="500"]
-Yes, I did. …At times like that, the people that graduated, or Kaname-san, or…Nao-san, would listen to me while we ate dinner together like this[p][stopse buf=5]
+Yes, I did. …At times like that, the people that graduated, or Kaname-san, or…Nao-san, would listen to me while we ate dinner together like this.[p][stopse buf=5]
 #hokuto
 [hs_mu2]
 …[p][stopse buf=1]
@@ -193,14 +193,14 @@ Yes, I did. …At times like that, the people that graduated, or Kaname-san, or�
 ……So now I wanted to do that for you… Did I bother you?[p][stopse buf=5]
 #hokuto
 [hs_metozi]
-No, not at all… I'm sorry to worry you[p][stopse buf=1]
+No, not at all… I'm sorry to worry you.[p][stopse buf=1]
 [mhhide]
 #reito
 [r/bishou]
-No, it's okay. Let's just eat lunch for now[p][stopse buf=5]
+No, it's okay. Let's just eat lunch for now.[p][stopse buf=5]
 #hokuto
 [hs_mu]
-…Yeah[p][stopse buf=1]
+…Yeah.[p][stopse buf=1]
 #
 [hide wait=false][mhhide]
 Reito-senpai is concerned about me. I am thankful and ashamed about this situation.[p]
@@ -228,7 +228,7 @@ Or at the very least, she wouldn't burn things…[p]
 What's wrong?[p][stopse buf=5]
 #hokuto
 [hs/hutyou]
-…No, it's nothing. Let's eat[p][stopse buf=1]
+…No, it's nothing. Let's eat.[p][stopse buf=1]
 #
 I take a bite of the egg roll.[p]
 It's not completely burnt, just a little hard.[p]
@@ -255,7 +255,7 @@ Sorry, everyone, I burned the hamburgers and the miso soup got all soggy after b
 #Classmates
 ……[p]
 #hokuto
-Everyone has to eat what they have on their plate. I'll get a second plate of what's left in the pot[p][stopse buf=1]
+Everyone has to eat what they have on their plate. I'll get a second plate of what's left in the pot.[p][stopse buf=1]
 #minami
 Hokuto…?[p][stopse buf=2]
 #hokuto
@@ -316,10 +316,10 @@ Well, I'm sorry to ask so suddenly, but… Can we have a little session?[p][stop
 …Did you figure something out?[p][stopse buf=5]
 #hokuto
 [hs/egao2]
-Yes[p][stopse buf=1]
+Yes.[p][stopse buf=1]
 #reito
 [r/magao]
-…All right[p][stopse buf=5]
+…All right.[p][stopse buf=5]
 
 [mask time=500]
 [hide time=500]
@@ -360,7 +360,7 @@ Yes[p][stopse buf=1]
 [hs/egao2]
 …It was amazing![p][stopse buf=1]
 #reito
-Yeah, I think it was good, too[p][stopse buf=5]
+Yeah, I think it was good, too.[p][stopse buf=5]
 #hokuto
 [hs/kanasimi]
 I'm sorry, that came out of nowhere…[p][stopse buf=1]
@@ -369,38 +369,38 @@ I'm sorry, that came out of nowhere…[p][stopse buf=1]
 Don't worry. …So, did you get it?[p][stopse buf=5]
 #hokuto
 [hs/magao]
-Yes, I'm sorry. …I've been so busy playing my own part that I've forgotten about matching the pace of everyone else[p][stopse buf=1]
+Yes, I'm sorry. …I've been so busy playing my own part that I've forgotten about matching the pace of everyone else.[p][stopse buf=1]
 #reito
-Yes. So, when you make a mistake and slip up, you continue to slip up until the end of the song[p][stopse buf=5]
+Yes. So, when you make a mistake and slip up, you continue to slip up until the end of the song.[p][stopse buf=5]
 #hokuto
 [hs/aozame2]
 …Once I figured it out, I was surprised to find that I had missed the basics of the basics…[p][stopse buf=1]
 #reito
-If that's all, it's fine[p][stopse buf=5]
+If that's all, it's fine.[p][stopse buf=5]
 #reito
-The problem was that you were in such a hurry to do something about it on your own that you didn't listen to everything that was going on around you[p][stopse buf=5]
+The problem was that you were in such a hurry to do something about it on your own that you didn't listen to everything that was going on around you.[p][stopse buf=5]
 #hokuto
 [hs/magao]
 When trying to get back to my rhythm, I shouldn't panic…[p][stopse buf=1]
 #reito
 [r/bishou]
-Yes, once you make a mistake, be aware of your surroundings[p][stopse buf=5]
+Yes, once you make a mistake, be aware of your surroundings.[p][stopse buf=5]
 #reito
-Then carefully identify what tempo and where in the phrase the whole song is[p][stopse buf=5]
+Then carefully identify what tempo and where in the phrase the whole song is.[p][stopse buf=5]
 #reito
-Once you hear the sounds around you, it's easier than you think to get back in[p][stopse buf=5]
+Once you hear the sounds around you, it's easier than you think to get back in.[p][stopse buf=5]
 #hokuto
 [hs/bishou]
-…I've been thinking a lot about it lately, and I've just realized that[p][stopse buf=1]
+…I've been thinking a lot about it lately, and I've just realized that.[p][stopse buf=1]
 #hokuto
-There is no point in being impatient or irritated. I think it's important to lean on someone else[p][stopse buf=1]
+There is no point in being impatient or irritated. I think it's important to lean on someone else.[p][stopse buf=1]
 #hokuto
-With that in mind, I tried to follow the rhythm of Reito-senpai with all my might[p][stopse buf=1]
+With that in mind, I tried to follow the rhythm of Reito-senpai with all my might.[p][stopse buf=1]
 #
 Thanks to the old man's advice, I was able to devote more concentration to the sounds around me because I wasn't pushing myself too hard in my picking.[p]
 However, it was thanks to someone's meddling that I got the idea to try to be spoiled by the people around me.[p]
 #reito
-That's all right. Just drums now, but it would be the same if there were more instruments. …Although Nao-san changes the tempo abruptly when she improvises[p][stopse buf=5]
+That's all right. Just drums now, but it would be the same if there were more instruments. …Although Nao-san changes the tempo abruptly when she improvises.[p][stopse buf=5]
 #hokuto
 [hs/odoroki]
 Eh? She does that?[p][stopse buf=1]
@@ -412,10 +412,10 @@ Although she's been keeping it down lately. As soon as you get better, I'm sure 
 Wow, I wonder if I could keep up…[p][stopse buf=1]
 #reito
 [r/niko]
-Don't worry, I'll match as fast as I can, and you can just try to match me, Hokuto[p][stopse buf=5]
+Don't worry, I'll match as fast as I can, and you can just try to match me, Hokuto.[p][stopse buf=5]
 #reito
 [r/bishou]
-It's not like you've been with her for a year. You won't be able to get that far[p]
+It's not like you've been with her for a year. You won't be able to get that far.[p]
 #hokuto
 [hs/bishou]
 Senpai…[p][stopse buf=1][font size=30]
@@ -427,13 +427,13 @@ But even with all this, I still can't quite keep up…[p][stopse buf=5][resetfon
 Eh?[p][stopse buf=1]
 #reito
 [r/bishou]
-No, don't worry[p][stopse buf=5]
+No, don't worry.[p][stopse buf=5]
 #hokuto
 [hs/egao2]
 …Reito-senpai, can we please do it again so I don't forget this instinct I've grasped?[p][stopse buf=1]
 #reito
 [r/niko][kanim name="reito" keyframe="nod" time="500"]
-Okay, let's play all the way through[p][stopse buf=5]
+Okay, let's play all the way through.[p][stopse buf=5]
 #
 And so, for a short time until the end of the lunch break, I enjoyed a long-desired, proper session with Reito-senpai.[p]
 
@@ -485,10 +485,10 @@ I stood at the door and just listened to it until the song ended.[p]
 
 #hokuto
 [hokuto_s_egao2]
-Good morning, Minami[p][stopse buf=1]
+Good morning, Minami.[p][stopse buf=1]
 #minami
 [minami_s_tun2]
-…Good morning[p][stopse buf=2]
+…Good morning.[p][stopse buf=2]
 #
 Someone comes into the club room. We greet each other with a good morning for the second time today because it is a unique rule of the light music club.[p]
 #minami
@@ -502,18 +502,18 @@ Oh, you were listening. Well, that's a little embarrassing…[p][stopse buf=1]
 What happened?[p][stopse buf=2]
 #hokuto
 [hs/magao]
-Well… Things happened. I wasn't listening to the sounds around me, so I didn't notice that I was out of sync with my surroundings[p][stopse buf=1]
+Well… Things happened. I wasn't listening to the sounds around me, so I didn't notice that I was out of sync with my surroundings.[p][stopse buf=1]
 #minami
 [ms/magao]
-…Yes. I noticed[p][stopse buf=2]
+…Yes. I noticed.[p][stopse buf=2]
 #hokuto
 [hs/akire]
-I knew it. Minami knew it, too. You need to tell me[p][stopse buf=1]
+I knew it. Minami knew it, too. You need to tell me.[p][stopse buf=1]
 #minami
 [ms/magao2]
-Because until you learn to move your fingers properly, your body will not follow even if you tell it to[p][stopse buf=2]
+Because until you learn to move your fingers properly, your body will not follow even if you tell it to.[p][stopse buf=2]
 #minami
-Well, recently the president told me to wait until you found out on your own[p][stopse buf=2]
+Well, recently the president told me to wait until you found out on your own.[p][stopse buf=2]
 #hokuto
 [hs/metozi]
 …I see. So, Reito-senpai was also trying to make me understand…[p][stopse buf=1]
@@ -525,12 +525,12 @@ But I guess it was kind of Reito-senpai to try to help me out by asking me to ha
 …So you were practicing alone?[p][stopse buf=2]
 #hokuto
 [hs/egao2]
-Well, there's no way to match them if I don't have a solid foundation of my own[p][stopse buf=1]
+Well, there's no way to match them if I don't have a solid foundation of my own.[p][stopse buf=1]
 #hokuto
-And… I'm finally having some real fun with music, so… I'm kind of happy about it[p][stopse buf=1]
+And… I'm finally having some real fun with music, so… I'm kind of happy about it.[p][stopse buf=1]
 #minami
 [ms/tun2]
-……You're just dumb[p][stopse buf=2]
+……You're just dumb.[p][stopse buf=2]
 #hokuto
 [hs/tere]
 That's terrible. It's fine. Let me be…[p][stopse buf=1]
@@ -542,7 +542,7 @@ That's terrible. It's fine. Let me be…[p][stopse buf=1]
 …What?[p][stopse buf=1]
 #minami
 [ms/bishou]
-…I haven't seen you say that you enjoy doing something recently, Hokuto[p][stopse buf=2]
+…I haven't seen you say that you enjoy doing something recently, Hokuto.[p][stopse buf=2]
 #hokuto
 [hs/magao]
 …Maybe. I've been thinking about it all weekend. What do I really want to do?[p][stopse buf=1]
@@ -553,25 +553,25 @@ That's terrible. It's fine. Let me be…[p][stopse buf=1]
 [hs/metozi]
 Well, I thought about it a lot… First of all, why did I want to join the light music club?[p][stopse buf=1]
 #hokuto
-…Well, to put it simply, I wasn't thinking that deeply about it. If Minami is interested, I'll do it, too. Just like that[p][stopse buf=1]
+…Well, to put it simply, I wasn't thinking that deeply about it. If Minami is interested, I'll do it, too. Just like that.[p][stopse buf=1]
 #minami
 [ms/magao]
 …[p][stopse buf=2]
 #hokuto
 [hs/kanasimi]
-And when I tried to do it, I couldn't get it right. But I was very impatient because I would bother everyone if I couldn't do it[p][stopse buf=1]
+And when I tried to do it, I couldn't get it right. But I was very impatient because I would bother everyone if I couldn't do it.[p][stopse buf=1]
 #minami
 [ms/kanasimi]
 Hokuto…[p][stopse buf=2]
 #hokuto
 [hs/magao]
-But everyone in the light music club enjoys music and the space and the time, enjoying it to the fullest[p][stopse buf=1]
+But everyone in the light music club enjoys music and the space and the time, enjoying it to the fullest.[p][stopse buf=1]
 #minami
 [ms/magao]
 …[p][stopse buf=2]
 #hokuto
 [hs/bishou]
-It would be a shame for me in here, to end up in this situation, full of knots in my throat[p][stopse buf=1]
+It would be a shame for me in here, to end up in this situation, full of knots in my throat.[p][stopse buf=1]
 #minami
 [ms/uwame]
 Wait, "knots" in…[p][stopse buf=2]
@@ -580,7 +580,7 @@ Wait, "knots" in…[p][stopse buf=2]
 Hehe, but it's true. I'm really feeling that word right now. But it's more than that…[p][stopse buf=1]
 #hokuto
 [hs/bishou]
-Most of all, I can't stand that Minami is always worrying about me and can't have fun[p][stopse buf=1]
+Most of all, I can't stand that Minami is always worrying about me and can't have fun.[p][stopse buf=1]
 #minami
 [ms/tere]
 …![p][stopse buf=2]
@@ -591,7 +591,7 @@ So, you know…[p][stopse buf=1]
 With that, I took out what I was looking for from my bag and held it out to Minami.[p]
 #hokuto
 [hs/bishou]
-…Here, thanks for the food[p][stopse buf=1]
+…Here, thanks for the food.[p][stopse buf=1]
 #minami
 [ms/odoroki]
 …Eh? The lunch box?[p][stopse buf=2]
@@ -605,21 +605,21 @@ Eh, no, my mom made that…[p][stopse buf=2]
 As Minami is trying to play it cool, I approach her.[p]
 #hokuto
 [hs/magao]
-…Minami, I feel terrible that I said such horrible things about you and your dad, that you were liars when my father died[p][stopse buf=1]
+…Minami, I feel terrible that I said such horrible things about you and your dad, that you were liars when my father died.[p][stopse buf=1]
 #hokuto
-Please don't make me call you a liar again[p][stopse buf=1]
+Please don't make me call you a liar again.[p][stopse buf=1]
 #minami
 [ms/dere]
 ……Isn't it unfair to bring those things here?[p][stopse buf=2]
 #hokuto
 [hs/iradati]
-Which one of us is unfair? "Mom made it," and you made a homemade lunch box for me. I knew in an instant when I bit into the omelet. It was so salty[p][stopse buf=1]
+Which one of us is unfair? "Mom made it," and you made a homemade lunch box for me. I knew in an instant when I bit into the omelet. It was so salty.[p][stopse buf=1]
 #minami
 [ms/tun]
 …If it's salty, why does it mean I made it?[p][stopse buf=2]
 #hokuto
 [hs/akire]
-…Home economics in fifth grade, a cooking class[p][stopse buf=1]
+…Home economics in fifth grade, a cooking class.[p][stopse buf=1]
 #minami
 [ms/tun2]
 Uh…[p][stopse buf=2]
@@ -628,10 +628,10 @@ Uh…[p][stopse buf=2]
 Who was the one who prepared the miso soup with the soggy egg omelet and the mushy mushrooms that were boiled down to a paste?[p][stopse buf=1]
 #minami
 [ms/tun2]
-…You remember it well[p][stopse buf=2]
+…You remember it well.[p][stopse buf=2]
 #hokuto
 [hs/bishou]
-I'm the one who ate that, after all[p][stopse buf=1]
+I'm the one who ate that, after all.[p][stopse buf=1]
 #minami
 [ms/dere]
 ……[p][stopse buf=2]
@@ -646,13 +646,13 @@ I'm the one who ate that, after all[p][stopse buf=1]
 [fadeinbgm storage=kaisou.ogg time=1000]
 #minami
 [ms/magao2]
-…Last Friday, I had a quick chat……with Takamura-san[p]
+…Last Friday, I had a quick chat……with Takamura-san.[p]
 #hokuto
 [hs/odoroki]
 ! With Takamura-san?[p][stopse buf=1]
 #minami
 [ms/magao]
-I was really just going to tell him that Hokuto wasn't coming, but… We ended up talking about a lot of things[p][stopse buf=2]
+I was really just going to tell him that Hokuto wasn't coming, but… We ended up talking about a lot of things.[p][stopse buf=2]
 #hokuto
 [hs/odoroki]
 …A lot of things?[p][stopse buf=1]
@@ -664,7 +664,7 @@ I was really just going to tell him that Hokuto wasn't coming, but… We ended u
 (Minami talked to the old man just like I did?…)[p][stopse buf=1]
 #minami
 [ms/magao]
-And then he told me… What do I want to do for Hokuto… And what I want him to do for me[p][stopse buf=2]
+And then he told me… What do I want to do for Hokuto… And what I want him to do for me.[p][stopse buf=2]
 #hokuto
 [hs/odoroki]
 …[p][stopse buf=1]
@@ -673,15 +673,15 @@ And then he told me… What do I want to do for Hokuto… And what I want him to
 I thought, well, maybe I should apologize, or maybe I wanted him to apologize, but…[p][stopse buf=2]
 #hokuto
 [hs/metozi]
-I'm really sorry[p][stopse buf=1]
+I'm really sorry.[p][stopse buf=1]
 #
 Seriously, this time it was my fault, so I just apologize flat out.[p]
 #minami
 [ms/tun]
-God. …I thought that Hokuto would apologize to me like that[p][stopse buf=2]
+God. …I thought that Hokuto would apologize to me like that.[p][stopse buf=2]
 #hokuto
 [hs/dere]
-…Right[p][stopse buf=1]
+…Right.[p][stopse buf=1]
 #minami
 [ms/dere]
 So, you know, when I thought about what came after… You know, uh…[p][stopse buf=2]
@@ -690,9 +690,9 @@ So, you know, when I thought about what came after… You know, uh…[p][stopse 
 …What?[p][stopse buf=1]
 #minami
 [ms/dere2]
-……You said that you haven't been eating lunch well lately, Hokuto[p][stopse buf=2]
+……You said that you haven't been eating lunch well lately, Hokuto.[p][stopse buf=2]
 #minami
-…I just wanted to make sure you had a proper meal[p][stopse buf=2]
+…I just wanted to make sure you had a proper meal.[p][stopse buf=2]
 #hokuto
 [hs/odoroki]
 ![p][stopse buf=1]
@@ -715,38 +715,38 @@ So I practiced yesterday, but I still couldn't get it right the first time, but 
 …Sorry, it didn't taste good, right?…[p][stopse buf=2]
 #hokuto
 [hs/magao]
-Minami. I never said it was bad[p][stopse buf=1]
+Minami. I never said it was bad.[p][stopse buf=1]
 #minami
 [ms/odoroki]
 …![p][stopse buf=2]
 #hokuto
 [hs/bishou]
-…And besides. I was kind of…happy to know that you made it for me[p][stopse buf=1]
+…And besides. I was kind of…happy to know that you made it for me.[p][stopse buf=1]
 #hokuto
 [hs/egao2]
-I wondered why, though[p][stopse buf=1]
+I wondered why, though.[p][stopse buf=1]
 #hokuto
-I didn't know if Minami wanted to make up with me in her own way or not… But I knew that her feelings were in it, and that's all I knew[p][stopse buf=1]
+I didn't know if Minami wanted to make up with me in her own way or not… But I knew that her feelings were in it, and that's all I knew.[p][stopse buf=1]
 #minami
 [ms/uwame]
-……Hokuto[p][stopse buf=2]
+……Hokuto.[p][stopse buf=2]
 #
 Then I look at the whiteboard, the one in the clubroom.[p]
 [hide]
 [bg2 storage=still_busoku.png time=500]
 #hokuto
 [hs_bishou]
-You know, the club rule, "Seriousness and fun should go hand in hand!" I proposed it myself and completely forgot about it[p][stopse buf=1]
+You know, the club rule, "Seriousness and fun should go hand in hand!" I proposed it myself and completely forgot about it.[p][stopse buf=1]
 #hokuto
-It might have been better if it was just "be interesting." I really felt that if I didn't have fun like those people, nothing would start[p][stopse buf=1]
+It might have been better if it was just "be interesting." I really felt that if I didn't have fun like those people, nothing would start.[p][stopse buf=1]
 #hokuto
 [chara_mod name=hokuto storage=hokuto_sum/metozi.png time=700]
-And then there's the other rule. "Always get along with everyone!" "Get along," but to be honest, I didn't really know exactly what that meant[p][stopse buf=1]
+And then there's the other rule. "Always get along with everyone!" "Get along," but to be honest, I didn't really know exactly what that meant.[p][stopse buf=1]
 #hokuto
-But I kinda get it now[p][stopse buf=1]
+But I kinda get it now.[p][stopse buf=1]
 #hokuto
 [chara_mod name=hokuto storage=hokuto_sum/hohoemi.png time=700]
-Sometimes it's important to lean on the generosity of others, and more importantly, to be grateful for it[p][stopse buf=1]
+Sometimes it's important to lean on the generosity of others, and more importantly, to be grateful for it.[p][stopse buf=1]
 [mhhide]
 #minami
 [ms_uwame]
@@ -766,7 +766,7 @@ Can you make my lunch tomorrow, too?[p][stopse buf=1]
 …![p][stopse buf=2]
 #hokuto
 [hs/tere]
-I may be presumptuous, but I'll make sure I never leave any leftovers. Just like today and that other cooking lesson[p][stopse buf=1]
+I may be presumptuous, but I'll make sure I never leave any leftovers. Just like today and that other cooking lesson.[p][stopse buf=1]
 #hokuto
 …So, you know. Maybe just once in a while…[p][stopse buf=1]
 #minami
@@ -778,7 +778,7 @@ I may be presumptuous, but I'll make sure I never leave any leftovers. Just like
 …Spoil me, okay?[p][stopse buf=1]
 #minami
 [ms/egao][kanim name="minami" keyframe="nod" time="500"]
-…Oh, well, I guess I'll just have to do it now[p][stopse buf=2]
+…Oh, well, I guess I'll just have to do it now.[p][stopse buf=2]
 #
 With that, Minami accepted the lunch box I offered her with a troubled but firm smile on her face.[p]
 
@@ -787,16 +787,16 @@ With that, Minami accepted the lunch box I offered her with a troubled but firm 
 Oh, should I have washed it before returning it?[p][stopse buf=1]
 #minami
 [ms/tun]
-…That's okay, I'll probably use it again tomorrow anyway[p][stopse buf=2]
+…That's okay, I'll probably use it again tomorrow anyway.[p][stopse buf=2]
 #
 You're ready to make it again tomorrow. I told you just once in a while.[p]
 I really don't get Minami.[p]
 #hokuto
 [hs/egao]
-…I see. Well, then I'll take your word for it[p][stopse buf=1]
+…I see. Well, then I'll take your word for it.[p][stopse buf=1]
 #minami
 [ms/dere]
-…Yeah[p][stopse buf=2]
+…Yeah.[p][stopse buf=2]
 [fadeoutbgm time=1000]
 [mask time=500]
 [hide time=0][kaname_niyake left=-80 wait=false][nao_niko left=460 wait=false][reito_komari left=850]
@@ -806,12 +806,12 @@ I really don't get Minami.[p]
 #kaname
 …Did you hear them?[p][stopse buf=6]
 #nao
-Oh no. I think I'm going to melt. "Should I have washed it before returning it?" I can't take this. Just like a married couple. We need to go to a church. Reito-kun, become a father for a little bit[p][stopse buf=4]
+Oh no. I think I'm going to melt. "Should I have washed it before returning it?" I can't take this. Just like a married couple. We need to go to a church. Reito-kun, become a father for a little bit.[p][stopse buf=4]
 #reito
 Nao-san, your vocabulary is just like an otaku's…[p][stopse buf=5]
 #nao
 [n/niko3]
-I mean, that's not fair. Are there high school students who make lunch boxes for their beloved husbands nowadays? Minami-chan, you are an endangered species. We have to protect her[p][stopse buf=4]
+I mean, that's not fair. Are there high school students who make lunch boxes for their beloved husbands nowadays? Minami-chan, you are an endangered species. We have to protect her.[p][stopse buf=4]
 #reito
 [r/magao]
 Well, yeah…[p][stopse buf=5]
@@ -821,7 +821,7 @@ Well, yeah…[p][stopse buf=5]
 #
 [hide][nao_niko]
 #nao
-Miss, Reito-kun is smiling as if he is saying some kind of cool monologue[p][stopse buf=4]
+Miss, Reito-kun is smiling as if he is saying some kind of cool monologue.[p][stopse buf=4]
 #reito
 [reito_komari left=850]
 Wha?![p][stopse buf=5]
@@ -848,7 +848,7 @@ I picked up a single music sheet.[p]
 …Hmm? Hokuto, that's…[p][stopse buf=2]
 #hokuto
 [hs/magao]
-Yeah, it's just that I feel like I need to hurry up and learn this song[p][stopse buf=1]
+Yeah, it's just that I feel like I need to hurry up and learn this song.[p][stopse buf=1]
 #minami
 [ms/magao]
 ?[p][stopse buf=2]
@@ -856,7 +856,7 @@ Yeah, it's just that I feel like I need to hurry up and learn this song[p][stops
 With a curious Minami at my side, I hold up my guitar.[p]
 #hokuto
 [hs/odoroki]
-Ah, right. I have a question for you, Minami[p][stopse buf=1]
+Ah, right. I have a question for you, Minami.[p][stopse buf=1]
 #minami
 What?[p][stopse buf=2]
 #hokuto

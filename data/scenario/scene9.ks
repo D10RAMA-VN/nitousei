@@ -17,7 +17,7 @@
 [rolebutton]
 [M0]
 @layopt layer=message0 visible=true
-[ptext name="chara_name_area" layer="message0" color="white" size=44 bold=true x=350 y=755 face="NotoInitial"]
+[ptext name="chara_name_area" layer="message0" color="white" size=44 bold=true x=350 y=755 face="akko"]
 [wait time=500]
 [mask_off time=1000]
 
@@ -41,16 +41,16 @@ When we reached the rooftop, the sky was covered with stars.[p]
 The stars are more dazzling than usual in a place like this that is usually inaccessible. And the Milky Way is faintly visible.[p]
 I realize that before I knew it, we were approaching summer.[p]
 #hokuto
-…Come on, old man. Let's set up the telescope[p][stopse buf=1]
+…Come on, old man. Let's set up the telescope.[p][stopse buf=1]
 #seiji
 [sh/hohoemi2]
-……Yeah, I know, but maybe it won't be necessary[p][stopse buf=3]
+……Yeah, I know, but maybe it won't be necessary.[p][stopse buf=3]
 #hokuto
 [hs/odoroki]
 Eh?[p][stopse buf=1]
 #seiji
 [sh/hohoemi]
-Look, it's starting[p][stopse buf=3]
+Look, it's starting.[p][stopse buf=3]
 #
 [hide][fadeinbgm time=1000 storage=seiji.ogg]
 [bg2 storage=still_perseus.png time=500][eval exp="sf.ST10=1"]
@@ -67,7 +67,7 @@ Oh, again…[p][stopse buf=1]
 ;[mhhide]
 #seiji
 ;[sh_hohoemi2]
-It's the Perseid meteor shower. Actually, the best time to see them is around the time of the Obon festival, but… We were able to see them today, as well[p][stopse buf=3]
+It's the Perseid meteor shower. Actually, the best time to see them is around the time of the Obon festival, but… We were able to see them today, as well.[p][stopse buf=3]
 ;[mshide]
 #hokuto
 ;[hs_odoroki]
@@ -86,22 +86,22 @@ Yet, so beautiful.[p]
 [bg2 storage=okujou.jpg time=500]
 [minami_s_bishou left=840 wait=false][hokuto_s_egao2 left=360 wait=false][seizi_h_hohoemi left=-195]
 #seiji
-I wanted to show this to you guys. It's the right time of the year. I wanted to show you a meteor shower, a celestial show[p][stopse buf=3]
+I wanted to show this to you guys. It's the right time of the year. I wanted to show you a meteor shower, a celestial show.[p][stopse buf=3]
 #minami
 [ms/odoroki]
 So this is also for us…?[p][stopse buf=2]
 #seiji
 [sh/hohoemi2]
-Hokuto-kun, I told you today is a rehearsal. I hope we can see the real show again on Obon[p][stopse buf=3]
+Hokuto-kun, I told you today is a rehearsal. I hope we can see the real show again on Obon.[p][stopse buf=3]
 #hokuto
 [hs/bishou]
-Yeah, sure, old man. Let's do it again. Next time, we'll do it again, on that riverside[p][stopse buf=1]
+Yeah, sure, old man. Let's do it again. Next time, we'll do it again, on that riverside.[p][stopse buf=1]
 #seiji
 [sh/hohoemi]
-…Yeah. But maybe you two should go alone when you do[p][stopse buf=3]
+…Yeah. But maybe you two should go alone when you do.[p][stopse buf=3]
 #hokuto
 [hs/odoroki]
-Why? Let's go together[p][stopse buf=1]
+Why? Let's go together.[p][stopse buf=1]
 #seiji
 It's not good for an old man to stand in the way of two young people forever, right?[p][stopse buf=3]
 #minami
@@ -109,12 +109,12 @@ It's not good for an old man to stand in the way of two young people forever, ri
 Wh—?![p][stopse buf=2]
 #hokuto
 [hs/dere]
-…Don't make fun of us[p][stopse buf=1]
+…Don't make fun of us.[p][stopse buf=1]
 #
 [hide]
 [seizi_h_kuti]
 #seiji
-Ha ha ha, and you know what, I've had enough for today. No more "knots in my throat" for me[p][stopse buf=3]
+Ha ha ha, and you know what, I've had enough for today. No more "knots in my throat" for me.[p][stopse buf=3]
 #hokuto
 [hs_magao]
 …Old man…[p][stopse buf=1]
@@ -123,17 +123,17 @@ Ha ha ha, and you know what, I've had enough for today. No more "knots in my thr
 …Don't do that. Don't make fun of me using those words.[p]
 #seiji
 [sh/hohoemi]
-Today, or rather, until today. The past few months since your visit at the beginning of spring have been very lively and enjoyable[p][stopse buf=3]
+Today, or rather, until today. The past few months since your visit at the beginning of spring have been very lively and enjoyable.[p][stopse buf=3]
 #minami
 [ms_kanasimi]
 No, we didn't…[p][stopse buf=2]
 [mmhide]
 #hokuto
 [hs_iradati]
-Yes, stop it, old man[p][stopse buf=1]
+Yes, stop it, old man.[p][stopse buf=1]
 [mhhide]
 #seiji
-No, no, no, really. I haven't felt this full since I lost Yuko[p][stopse buf=3]
+No, no, no, really. I haven't felt this full since I lost Yuko.[p][stopse buf=3]
 #
 Then the old man slowly closed his eyes.[p]
 Somewhat pained, yet somehow fulfilled.[p]
@@ -154,9 +154,9 @@ The invisible second star, the one we can't see.[p]
 [hide]
 [hokuto_s_kanasimi left=680 wait=false][seizi_h_metozi left=15]
 #seiji
-…Hey, Hokuto-kun[p][stopse buf=3]
+…Hey, Hokuto-kun.[p][stopse buf=3]
 #hokuto
-What… Old man[p][stopse buf=1]
+What… Old man.[p][stopse buf=1]
 #seiji
 …Can you play that song for me?[p][stopse buf=3]
 #hokuto
@@ -166,10 +166,10 @@ Old man…[p][stopse buf=1]
 I don't need to ask which song the old man is talking about.[p]
 #seiji
 [sh/hohoemi2]
-Let me hear how good you've become at playing the guitar[p][stopse buf=3]
+Let me hear how good you've become at playing the guitar.[p][stopse buf=3]
 #hokuto
 [hs/bishou]
-…Yeah, of course, old man[p][stopse buf=1]
+…Yeah, of course, old man.[p][stopse buf=1]
 #
 [hide]
 I crouch down in front of the old man, guitar at the ready, and my fingers meet on the first chord.[p]
@@ -212,7 +212,7 @@ Minami's voice was choked up and she began to cry at the sight of that beautiful
 I sighed and looked up to the heavens.[p]
 In front of me, two second stars were twinkling discreetly, but I could see them clearly in the star-filled sky.[p]
 #hokuto
-……Hey, don't clap, but at least give me some feedback, old man[p][stopse buf=1]
+……Hey, don't clap, but at least give me some feedback, old man.[p][stopse buf=1]
 #
 The only thing I could do was to say those remarks, in my immaturity.[p]
 [fadeoutbgm time=1000]
