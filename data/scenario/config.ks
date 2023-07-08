@@ -97,39 +97,33 @@
 	<div class="config_body">
 			<img style="position:absolute;top:40px;left:-220px;" src="tyrano/images/system/icon_hokuto.png">
 			<div class="range">
-				<p><span class="config_voice_name" style="top:40px;left:-50px;font-size:35px;color:#606589;font-family:erangle;">Kagaya Hokuto</span></p>
-				<p><span class="config_voice_name" style="top:65px;left:-50px;">加賀屋 <span style="font-family:NotoBlack;">北斗</span></span></p>
+				<p><span class="config_voice_name" style="top:65px;left:-50px;">Kagaya <span style="font-family:NotoBlack;">Hokuto</span></span></p>
 				<input type="range" id="vo1_volume" min="0" max="100" step="1" value="50" style="top:140px;position:absolute;width:300px;left:-39px;">
 			</div>
 			<img style="position:absolute;top:240px;left:-220px;" src="tyrano/images/system/icon_minami.png">
 			<div class="range">
-				<p><span class="config_voice_name" style="top:240px;left:-50px;font-size:35px;color:#606589;font-family:erangle;">Kuruse Minami</span></p>
-				<p><span class="config_voice_name" style="top:265px;left:-50px;">来瀬 <span style="font-family:NotoBlack;">美波</span></span></p>
+				<p><span class="config_voice_name" style="top:265px;left:-50px;">Kuruse <span style="font-family:NotoBlack;">Minami</span></span></p>
 				<input type="range" id="vo2_volume" min="0" max="100" step="1" value="50" style="top:340px;position:absolute;width:300px;left:-39px;">
 			</div>
 			<img style="position:absolute;top:440px;left:-220px;" src="tyrano/images/system/icon_takamura.png">
 			<div class="range">
-				<p><span class="config_voice_name" style="top:440px;left:-50px;font-size:35px;color:#606589;font-family:erangle;">Takamura Seiji</span></p>
-				<p><span class="config_voice_name" style="top:465px;left:-50px;">高村 <span style="font-family:NotoBlack;">清二</span></span></p>
+				<p><span class="config_voice_name" style="top:465px;left:-50px;">Takamura <span style="font-family:NotoBlack;">Seiji</span></span></p>
 				<input type="range" id="vo3_volume" min="0" max="100" step="1" value="50" style="top:540px;position:absolute;width:300px;left:-39px;">
 			</div>
 			
 			<img style="position:absolute;top:40px;left:440px;" src="tyrano/images/system/icon_nao.png">
 			<div class="range">
-				<p><span class="config_voice_name" style="top:40px;left:610px;font-size:35px;color:#606589;font-family:erangle;">Hoshina Nao</span></p>
-				<p><span class="config_voice_name" style="top:65px;left:610px;">保科 <span style="font-family:NotoBlack;">七音</span></span></p>
+				<p><span class="config_voice_name" style="top:65px;left:610px;">Hoshina <span style="font-family:NotoBlack;">Nao</span></span></p>
 				<input type="range" id="vo4_volume" min="0" max="100" step="1" value="50" style="top:140px;position:absolute;width:300px;left:621px;">
 			</div>
 			<img style="position:absolute;top:240px;left:440px;" src="tyrano/images/system/icon_reito.png">
 			<div class="range">
-				<p><span class="config_voice_name" style="top:240px;left:610px;font-size:35px;color:#606589;font-family:erangle;">Souma Reito</span></p>
-				<p><span class="config_voice_name" style="top:265px;left:610px;">草間 <span style="font-family:NotoBlack;">令人</span></span></p>
+				<p><span class="config_voice_name" style="top:265px;left:610px;">Souma <span style="font-family:NotoBlack;">Reito</span></span></p>
 				<input type="range" id="vo5_volume" min="0" max="100" step="1" value="50" style="top:340px;position:absolute;width:300px;left:621px;">
 			</div>
 			<img style="position:absolute;top:440px;left:440px;" src="tyrano/images/system/icon_kaname.png">
 			<div class="range">
-				<p><span class="config_voice_name" style="top:440px;left:610px;font-size:35px;color:#606589;font-family:erangle;">Amamiya Kaname</span></p>
-				<p><span class="config_voice_name" style="top:465px;left:610px;">天宮 <span style="font-family:NotoBlack;">奏女</span></span></p>
+				<p><span class="config_voice_name" style="top:465px;left:610px;">Amamiya <span style="font-family:NotoBlack;">Kaname</span></span></p>
 				<input type="range" id="vo6_volume" min="0" max="100" step="1" value="50" style="top:540px;position:absolute;width:300px;left:621px;">
 			</div>
 			<div class=min_max style="left:-52px;top:125px;">min</div><div class=min_max style="left:318px;top:125px;">MAX</div>

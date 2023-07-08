@@ -409,7 +409,7 @@ input[type=radio]:checked + .checkbox:after {
 	display:inline-block;
 	position:absolute;
 	text-align:left;
-	width:250px;
+	width:350px;
 }
 
 .config_button{
@@ -1022,7 +1022,7 @@ audio {
 	top: 120px;
 	left: 590px;
 	font-size: 20px;
-	font-family: Noto;
+	font-family: akko;
 	width: 620px;
 	text-align:left;
   color: #606589;
