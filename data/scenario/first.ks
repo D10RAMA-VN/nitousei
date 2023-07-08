@@ -1,5 +1,4 @@
-[title name="見えない二等星"]
-
+[title name=&"String('The\x20Invisible\x20Star')"]
 [stop_keyconfig]
 [hidemenubutton]
 [call storage="novecole.ks"]

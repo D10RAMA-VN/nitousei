@@ -98,7 +98,7 @@ $('.non').mouseover(function(){
 
 [else]
 [html]
-<div style="position:absolute;top:1002px;left:740px;width:1200px;height:70px;display:flex;float:left;">
+<div style="position:absolute;top:994px;left:740px;width:1200px;height:70px;display:flex;float:left;">
 <div id="title_start" class="title_itemC">
 	<img src="data/image/title_start.png" alt="" class="non" style="height:33px;">
 </div>
