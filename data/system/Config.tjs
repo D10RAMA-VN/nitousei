@@ -70,7 +70,7 @@
 ;defaultFontSize=38
 ;defaultLineSpacing=19
 ;defaultPitch=0
-;userFace=Noto,Erangle,Ubuntu, ubuntu-italic, Yu Gothic, ヒラギノ角ゴシック Pro, Hiragino Kaku Gothic Pro, メイリオ, Meiryo, Osaka, ＭＳ Ｐゴシック, MS PGothic, sans-serif,Arial
+;userFace=Noto, Ubuntu, ubuntu-italic, Yu Gothic, ヒラギノ角ゴシック Pro, Hiragino Kaku Gothic Pro, メイリオ, Meiryo, Osaka, ＭＳ Ｐゴシック, MS PGothic, sans-serif,Arial
 ;defaultChColor=0xffffff
 ;defaultBold=false
 ;defaultRubySize=10

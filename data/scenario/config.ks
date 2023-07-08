@@ -45,8 +45,8 @@
 
 <div class='tabs' style="width:960px;">
   <div class='tab-buttons'>
-    <span class='content1' id="tab_button1" style="margin-left:110px;padding-top:17px;">Configuración</span>
-    <span class='content2' id="tab_button2" style="padding-top:17px;margin-left:20px;color:#606589;">&nbsp;Configuración&nbsp;de&nbsp;Voces</span> 
+    <span class='content1' id="tab_button1" style="margin-left:118px;padding-top:17px;">Configuración</span>
+    <span class='content2' id="tab_button2" style="padding-top:17px;margin-left:24px;color:#606589;">&nbsp;Configuración&nbsp;de&nbsp;Voces</span> 
   </div>
   
   <div class='tab-content'>
@@ -97,39 +97,33 @@
 	<div class="config_body">
 			<img style="position:absolute;top:40px;left:-220px;" src="tyrano/images/system/icon_hokuto.png">
 			<div class="range">
-				<p><span class="config_voice_name" style="top:40px;left:-50px;font-size:35px;color:#606589;font-family:erangle;">Kagaya Hokuto</span></p>
-				<p><span class="config_voice_name" style="top:65px;left:-50px;">加賀屋 <span style="font-family:NotoBlack;">北斗</span></span></p>
+				<p><span class="config_voice_name" style="top:65px;left:-50px;">Kagaya <span style="font-family:NotoBlack;">Hokuto</span></span></p>
 				<input type="range" id="vo1_volume" min="0" max="100" step="1" value="50" style="top:140px;position:absolute;width:300px;left:-39px;">
 			</div>
 			<img style="position:absolute;top:240px;left:-220px;" src="tyrano/images/system/icon_minami.png">
 			<div class="range">
-				<p><span class="config_voice_name" style="top:240px;left:-50px;font-size:35px;color:#606589;font-family:erangle;">Kuruse Minami</span></p>
-				<p><span class="config_voice_name" style="top:265px;left:-50px;">来瀬 <span style="font-family:NotoBlack;">美波</span></span></p>
+				<p><span class="config_voice_name" style="top:265px;left:-50px;">Kuruse <span style="font-family:NotoBlack;">Minami</span></span></p>
 				<input type="range" id="vo2_volume" min="0" max="100" step="1" value="50" style="top:340px;position:absolute;width:300px;left:-39px;">
 			</div>
 			<img style="position:absolute;top:440px;left:-220px;" src="tyrano/images/system/icon_takamura.png">
 			<div class="range">
-				<p><span class="config_voice_name" style="top:440px;left:-50px;font-size:35px;color:#606589;font-family:erangle;">Takamura Seiji</span></p>
-				<p><span class="config_voice_name" style="top:465px;left:-50px;">高村 <span style="font-family:NotoBlack;">清二</span></span></p>
+				<p><span class="config_voice_name" style="top:465px;left:-50px;">Takamura <span style="font-family:NotoBlack;">Seiji</span></span></p>
 				<input type="range" id="vo3_volume" min="0" max="100" step="1" value="50" style="top:540px;position:absolute;width:300px;left:-39px;">
 			</div>
 			
 			<img style="position:absolute;top:40px;left:440px;" src="tyrano/images/system/icon_nao.png">
 			<div class="range">
-				<p><span class="config_voice_name" style="top:40px;left:610px;font-size:35px;color:#606589;font-family:erangle;">Hoshina Nao</span></p>
-				<p><span class="config_voice_name" style="top:65px;left:610px;">保科 <span style="font-family:NotoBlack;">七音</span></span></p>
+				<p><span class="config_voice_name" style="top:65px;left:610px;">Hoshina <span style="font-family:NotoBlack;">Nao</span></span></p>
 				<input type="range" id="vo4_volume" min="0" max="100" step="1" value="50" style="top:140px;position:absolute;width:300px;left:621px;">
 			</div>
 			<img style="position:absolute;top:240px;left:440px;" src="tyrano/images/system/icon_reito.png">
 			<div class="range">
-				<p><span class="config_voice_name" style="top:240px;left:610px;font-size:35px;color:#606589;font-family:erangle;">Souma Reito</span></p>
-				<p><span class="config_voice_name" style="top:265px;left:610px;">草間 <span style="font-family:NotoBlack;">令人</span></span></p>
+				<p><span class="config_voice_name" style="top:265px;left:610px;">Souma <span style="font-family:NotoBlack;">Reito</span></span></p>
 				<input type="range" id="vo5_volume" min="0" max="100" step="1" value="50" style="top:340px;position:absolute;width:300px;left:621px;">
 			</div>
 			<img style="position:absolute;top:440px;left:440px;" src="tyrano/images/system/icon_kaname.png">
 			<div class="range">
-				<p><span class="config_voice_name" style="top:440px;left:610px;font-size:35px;color:#606589;font-family:erangle;">Amamiya Kaname</span></p>
-				<p><span class="config_voice_name" style="top:465px;left:610px;">天宮 <span style="font-family:NotoBlack;">奏女</span></span></p>
+				<p><span class="config_voice_name" style="top:465px;left:610px;">Amamiya <span style="font-family:NotoBlack;">Kaname</span></span></p>
 				<input type="range" id="vo6_volume" min="0" max="100" step="1" value="50" style="top:540px;position:absolute;width:300px;left:621px;">
 			</div>
 			<div class=min_max style="left:-52px;top:125px;">min</div><div class=min_max style="left:318px;top:125px;">MAX</div>
@@ -144,19 +138,19 @@
 </div>
 	
 	
-	<div class="border1" style="position:absolute;top:299px;left:895px;width:940px;height:620px;border-top:solid #606589;border-right:solid #606589;z-index:-1;"></div>
+	<div class="border1" style="position:absolute;top:299px;left:912px;width:880px;height:620px;border-top:solid #606589;border-right:solid #606589;z-index:-1;"></div>
 	<div class="border2" style="position:absolute;top:299px;left:300px;width:320px;height:622px;border-left:solid #606589;z-index:-1;"></div>
-	<div class="border3" style="position:absolute;top:299px;left:300px;width:222px;height:622px;border-top:solid #606589;display:none;z-index:-1;"></div>
-	<div class="border4" style="position:absolute;top:299px;left:523px;width:400px;height:622px;border-top:solid #606589;z-index:-1;"></div>
-	<div class="border5" style="position:absolute;top:234px;left:300px;width:220px;height:64px;border-top:solid white;border-right:solid #606589;border-left:solid #606589;z-index:-1;"></div>
-	<div class="border6" style="position:absolute;top:234px;left:520px;width:370px;height:64px;border-top:solid white;border-right:solid #606589;border-left:solid #606589;z-index:-1;display:none;"></div>
+	<div class="border3" style="position:absolute;top:299px;left:300px;width:242px;height:622px;border-top:solid #606589;display:none;z-index:-1;"></div>
+	<div class="border4" style="position:absolute;top:299px;left:543px;width:400px;height:622px;border-top:solid #606589;z-index:-1;"></div>
+	<div class="border5" style="position:absolute;top:234px;left:300px;width:240px;height:64px;border-top:solid white;border-right:solid #606589;border-left:solid #606589;z-index:-1;"></div>
+	<div class="border6" style="position:absolute;top:234px;left:540px;width:370px;height:64px;border-top:solid white;border-right:solid #606589;border-left:solid #606589;z-index:-1;display:none;"></div>
 	<div style="position:absolute;top:0px;width:50px;height:1280px;background:linear-gradient(#0C008A, #007882);"></div>
 	<img src="tyrano/images/system/title_setting.png" style="left:130px;top:80px;position:absolute;">
 	<img src="tyrano/images/system/logo_h.png" style="width:600px;left:1200px;top:50px;position:absolute;">
 	<div class="menu_close save_close config_back" style="left:240px;top:950px;position:absolute;cursor:pointer;">
 	  <img src="tyrano/images/system/back_button.png" alt="" class="non">
 	</div>
-	<div class="config_button menu_back_title" style="left:1260px;top:970px;position:absolute;">
+	<div class="config_button menu_back_title" style="left:1230px;top:970px;position:absolute;">
 	   <img src="tyrano/images/system/set_title_gray.png">
 	   <img src="tyrano/images/system/set_title_w.png" class="config_button_hover">
 	</div>

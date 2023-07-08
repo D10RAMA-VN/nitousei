@@ -98,21 +98,21 @@ $('.non').mouseover(function(){
 
 [else]
 [html]
-<div style="position:absolute;top:980px;left:740px;width:1200px;height:70px;display:flex;float:left;">
+<div style="position:absolute;top:1003px;left:602px;width:1200px;height:70px;display:flex;float:left;">
 <div id="title_start" class="title_itemC">
-	<img src="data/image/title_start.png" alt="" class="non" style="height:33px;">
+	<img src="data/image/title_start.png" alt="" class="non" style="height:30px;">
 </div>
 <div id="title_load" class="title_itemC">
-	<img src="data/image/title_load.png" alt="" class="non" style="height:33px;">
+	<img src="data/image/title_load.png" alt="" class="non" style="height:30px;">
 </div>
 <div id="title_config" class="title_itemC">
-	<img src="data/image/title_settings.png" alt="" class="non" style="height:42px;">
+	<img src="data/image/title_settings.png" alt="" class="non" style="height:37px;">
 </div>
 <div id="title_gallery" class="title_itemC menu_gallery">
-	<img src="data/image/title_gallery.png" alt="" class="non" style="height:39px;">
+	<img src="data/image/title_gallery.png" alt="" class="non" style="height:31px;">
 </div>
 <div id="title_quit" class="title_itemC">
-	<img src="data/image/title_quit.png" alt="" class="non" style="height:42px;">
+	<img src="data/image/title_quit.png" alt="" class="non" style="height:32px;">
 </div>
 </div>
 <img src="data/fgimage/title_d10rama.png" style="width:300px;left:1550px;top:70px;position:absolute;" class="jumpHP">

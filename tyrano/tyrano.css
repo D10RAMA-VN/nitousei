@@ -413,7 +413,7 @@ input[type=radio]:checked + .checkbox:after {
 	display:inline-block;
 	position:absolute;
 	text-align:left;
-	width:250px;
+	width:350px;
 }
 
 .config_button{
@@ -609,7 +609,7 @@ input[type=radio]:checked + .checkbox:after {
 	margin: 0;
 	padding: 10px 10px 0 10px;
 	font-size: 18px;
-	font-family:Noto;
+	font-family:akko;
 	overflow: hidden;
 	box-sizing: border-box;
 	color: white;
@@ -621,7 +621,7 @@ input[type=radio]:checked + .checkbox:after {
  	position: absolute;
  	top: 40px;
  	left: -50px;
- 	width: 220px;
+ 	width: 260px;
  	height: 40px;
  	border-bottom: 3px solid #606589;
  	border-left: 4.5px solid #606589;
@@ -630,7 +630,7 @@ input[type=radio]:checked + .checkbox:after {
 }
 
 .save_close:hover:before{
-	width: 260px;
+	width: 300px;
 	left: -90px;
 	border-bottom: 3px solid #606589;
  	border-left: 4.5px solid #606589;
@@ -795,7 +795,7 @@ body{
 /*名前欄*/
 .vchat-name {
     margin-top:20px;
-    font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; 
+    font-family: akko, Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; 
 }
 
 /*吹き出しテキスト */
@@ -817,7 +817,7 @@ body{
   overflow-wrap: break-word;
   -webkit-touch-callout:none;
   -webkit-user-select: none;
-  font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; 
+  font-family: akko, Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; 
   /*float: left;*/
 }
 
@@ -889,7 +889,7 @@ audio {
 #play{
   position:absolute;
   top:490px;
-  left:790px;
+  left:840px;
   width:38px;
   height:51px;
   cursor:pointer;
@@ -1026,7 +1026,7 @@ audio {
 	top: 120px;
 	left: 590px;
 	font-size: 20px;
-	font-family: Noto;
+	font-family: akko;
 	width: 620px;
 	text-align:left;
   color: #606589;
@@ -1036,8 +1036,8 @@ audio {
 	position:absolute;
   /* float: right; */
   letter-spacing: 0.1em;
-  font-family: Noto;
-	top:280px;
+  font-family: akko;
+	top:310px;
 	left:960px;
 	background:#606589;
 	border-radius:50vh;
@@ -1164,7 +1164,7 @@ audio {
 
 .title_item{
 	position:absolute;
-	left:1450px;
+	left:1350px;
 	cursor:pointer;
 }
 
