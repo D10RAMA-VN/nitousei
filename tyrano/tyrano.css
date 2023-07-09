@@ -619,7 +619,7 @@ input[type=radio]:checked + .checkbox:after {
  	content: '';
     /*絶対配置で位置を指定*/
  	position: absolute;
- 	top: 40px;
+ 	top: 20px;
  	left: -50px;
  	width: 260px;
  	height: 40px;
@@ -1026,7 +1026,7 @@ audio {
 	top: 120px;
 	left: 590px;
 	font-size: 20px;
-	font-family: akko;
+	font-family: Noto;
 	width: 620px;
 	text-align:left;
   color: #606589;
@@ -1037,7 +1037,7 @@ audio {
   /* float: right; */
   letter-spacing: 0.1em;
   font-family: akko;
-	top:310px;
+	top:365px;
 	left:960px;
 	background:#606589;
 	border-radius:50vh;
@@ -1055,13 +1055,13 @@ audio {
 
 .chapterchoice{
 	position:absolute;
-	top:404px;
+	top:444px;
 	left:55px;
 }
 
 .chapterchoice2{
 	position:absolute;
-	top:524px;
+	top:564px;
 	left:180.5px;
 }
 
@@ -1081,7 +1081,7 @@ audio {
 
 .chapbar{
 	position:absolute;
-	top:480px;
+	top:520px;
 	width:190px;
 	height:1px;
 	background:#606589;
@@ -1219,7 +1219,7 @@ audio {
 }
 
 .chara_name_area{
-	letter-spacing: 8px !important;
+	letter-spacing: 4px !important;
 }
 
 @keyframes wave {

@@ -17,7 +17,7 @@
 [rolebutton]
 [M0]
 @layopt layer=message0 visible=true
-[ptext name="chara_name_area" layer="message0" color="white" size=44 bold=true x=350 y=755 face="NotoInitial"]
+[ptext name="chara_name_area" layer="message0" color="white" size=44 bold=true x=350 y=755 face="akko"]
 [wait time=500]
 [mask_off time=1000]
 
@@ -34,20 +34,20 @@ Hoy, pase lo que pase, tengo que preguntarle algo al viejo.[p]
 #hokuto
 Viejo…[p][stopse buf=1]
 #seiji
-Ah, ahí están. Veo que ambos vinieron esta noche[p][stopse buf=3]
+Ah, ahí están. Veo que ambos vinieron esta noche.[p][stopse buf=3]
 #minami
 Si…[p][stopse buf=2]
 #seiji
 [s/hohoemi2]
-Me alegro de que hayan podido reconciliarse[p][stopse buf=3]
+Me alegro de que hayan podido reconciliarse.[p][stopse buf=3]
 #hokuto
-Gracias por tu ayuda, viejo[p][stopse buf=1]
+Gracias por tu ayuda, viejo.[p][stopse buf=1]
 #minami
 [ms/magao2]
 ¿Qué estás haciendo?[p][stopse buf=2]
 #seiji
 [s/hohoemi]
-Sólo le estaba dando un poco de comida a un gato callejero[p][stopse buf=3]
+Sólo le estaba dando un poco de comida a un gato callejero.[p][stopse buf=3]
 #
 [hide][bg2 storage="kawa_n.jpg" width=2300 height=1294 left=-170 top=-220 time="500"]
 Vi a un gato callejero blanco devorando bonito seco de la mano del viejo mientras estaba agachado.[p]
@@ -57,7 +57,7 @@ Oye, no puedes alimentar a los gatos callejeros, ¿verdad?[p][stopse buf=1]
 [mhhide]
 #seiji
 [s_kuti]
-Ja, bueno, tienes razón. Este chico vive bajo el puente del ferrocarril, sale de vez en cuando… es un gato muy hermoso[p][stopse buf=3]
+Ja, bueno, tienes razón. Este chico vive bajo el puente del ferrocarril, sale de vez en cuando… es un gato muy hermoso.[p][stopse buf=3]
 [mshide]
 #minami
 [ms_kanasimi]
@@ -65,7 +65,7 @@ Es muy lindo. Además, parece como de raza extranjera…[p][stopse buf=2]
 [mmhide]
 #seiji
 [s_kanasimi]
-Es imposible que fuera originalmente un gato callejero. Debe haber sido abandonado por alguien. Pensé que sería imposible que un gato como este se pudiera alimentar[p][stopse buf=3]
+Es imposible que fuera originalmente un gato callejero. Debe haber sido abandonado por alguien. Pensé que sería imposible que un gato como este se pudiera alimentar.[p][stopse buf=3]
 [mshide]
 #hokuto
 [hs_magao]
@@ -77,11 +77,11 @@ Oh, ¿quieres llevarte el resto a tu guarida? ¡No lo dejes caer!…[p][stopse b
 [mshide]
 #
 [playse storage=se/cat.ogg buf=8]
-Before the old man could finish, the cat took off toward the railroad bridge[p]
+Before the old man could finish, the cat took off toward the railroad bridge.[p]
 [bg2 storage="kawa_n.jpg" time="500"]
 [hokuto_s_magao left=680 wait=false][seizi_hohoemi left=-35]
 #seiji
-Bueno, miremos las estrellas de hoy[p][stopse buf=3]
+Bueno, miremos las estrellas de hoy.[p][stopse buf=3]
 #hokuto
 [hs/metozi]
 Antes de eso, sólo tengo un par de preguntas…[p][stopse buf=1]
@@ -113,7 +113,7 @@ Entonces cambiaré la pregunta… esa estrella es una segunda estrella, que sól
 ¿Por qué piensas eso?[p][stopse buf=3]
 #hokuto
 [hs/magao]
-Por esto[p][stopse buf=1]
+Por esto.[p][stopse buf=1]
 [stopbgm]
 #
 [hide][fadeinbgm time=1000 storage=nitousei.ogg]
@@ -135,12 +135,12 @@ La canción que el viejo estaba tocando antes. Esa es la respuesta, ¿verdad?[p]
 [mshide]
 #hokuto
 [hs/bishou]
-Publicado en 1980, "Convirtiéndose en una segunda estrella". Letra y canción de Yuko Kitano. Compuesta por S[ruby text=星]eij[ruby text=司]i Takamura[p][stopse buf=1]
+Publicado en 1980, "Convirtiéndose en una segunda estrella". Letra y canción de Yuko Kitano. Compuesta por S[ruby text=星]eij[ruby text=司]i Takamura.[p][stopse buf=1]
 #hokuto
 Viejo, tú compusiste esta canción, ¿verdad?…[p][stopse buf=1]
 #seiji
 [seizi_metozi]
-De ninguna manera, sólo una coincidencia. Sabía que la canción fue escrita por un tipo que tenía un nombre similar[p][stopse buf=3]
+De ninguna manera, sólo una coincidencia. Sabía que la canción fue escrita por un tipo que tenía un nombre similar.[p][stopse buf=3]
 #hokuto
 [hs/akire]
 ¿De verdad crees que puedes engañarnos con un seudónimo que simplemente cambia los kanjis de tu nombre propio?[p][stopse buf=1]
@@ -149,7 +149,7 @@ De ninguna manera, sólo una coincidencia. Sabía que la canción fue escrita po
 No, no. …¿Pero por qué asumiste eso?[p][stopse buf=3]
 #hokuto
 [hs/magao]
-Cuando el otro día me tocaste esta canción como ejemplo, lo hiciste muy bien[p][stopse buf=1]
+Cuando el otro día me tocaste esta canción como ejemplo, lo hiciste muy bien.[p][stopse buf=1]
 #hokuto
 Además, dijiste que solías trabajar en la ciudad. ¿No es porque trabajabas como compositor?[p][stopse buf=1]
 #seiji
@@ -157,7 +157,7 @@ Además, dijiste que solías trabajar en la ciudad. ¿No es porque trabajabas co
 Claro que no…[p][stopse buf=3]
 #hokuto
 [hs/kanasimi]
-Pero eso no es todo. Esta canción… hemos estado tocando esta canción en nuestro club recientemente, y se me ha quedado pegada[p][stopse buf=1]
+Pero eso no es todo. Esta canción… hemos estado tocando esta canción en nuestro club recientemente, y se me ha quedado pegada.[p][stopse buf=1]
 [voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_416_{number}.ogg" number=1 ]
 #hokuto
 Pero sentí una especie de nostalgia. No podía recordar lo que era durante mucho tiempo…[p][stopse buf=1][voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=417 ]
@@ -228,22 +228,22 @@ El hospital donde Yuko Kitano exhaló su último suspiro…[p][stopse buf=1][vos
 …![p][vostart]
 [mshide]
 #hokuto
-Los medios de comunicación descubrirían fácilmente que Yuko Kitano había sido hospitalizada en Tokio. Por eso se hospitalizó en un hospital rural hasta su fallecimiento[p][stopse buf=1]
+Los medios de comunicación descubrirían fácilmente que Yuko Kitano había sido hospitalizada en Tokio. Por eso se hospitalizó en un hospital rural hasta su fallecimiento.[p][stopse buf=1]
 [vostop][playse storage=hokuto/hokuto_425_2.ogg loop=false buf=1]
 #hokuto
 [hs/metozi]
-El nombre de ese hospital rural es Hospital General Kuruse… el hospital que el abuelo de Minami fundó en este pueblo hace mucho tiempo, cuando aún era pequeño[p][stopse buf=1][vostart]
+El nombre de ese hospital rural es Hospital General Kuruse… el hospital que el abuelo de Minami fundó en este pueblo hace mucho tiempo, cuando aún era pequeño.[p][stopse buf=1][vostart]
 #
 [hide][minami_s_kanasimi left=680 wait=false][seizi_kanasimi left=-35]
 #seiji
 Minami-kun…[p][stopse buf=3]
 #minami
 [ms/oogoe]
-¡Lo siento! No quería hacerlo… pero mi abuelo me contó una vez algo. Cuando aún era una clínica pequeña, una famosa cantante de TV fue admitida en el hospital[p][stopse buf=2]
+¡Lo siento! No quería hacerlo… pero mi abuelo me contó una vez algo. Cuando aún era una clínica pequeña, una famosa cantante de TV fue admitida en el hospital.[p][stopse buf=2]
 #minami
-Tuvo que ir por ahí pidiendo a las enfermeras y a otros pacientes que lo mantuvieran en secreto para que el mundo no lo supiera[p][stopse buf=2]
+Tuvo que ir por ahí pidiendo a las enfermeras y a otros pacientes que lo mantuvieran en secreto para que el mundo no lo supiera.[p][stopse buf=2]
 #minami
-Pero nunca me dijo quién era la cantante[p][stopse buf=2]
+Pero nunca me dijo quién era la cantante.[p][stopse buf=2]
 #
 [hide][hokuto_s_magao]
 #hokuto
@@ -265,7 +265,7 @@ Cuando le preguntaron en una entrevista para una revista de la época cuáles er
 Me sorprende que incluso investigaste eso…[p][stopse buf=3]
 #hokuto
 [hs/magao]
-Hoy en día es fácil encontrar ese tipo de información en Internet[p][stopse buf=1]
+Hoy en día es fácil encontrar ese tipo de información en Internet.[p][stopse buf=1]
 #hokuto
 Viejo. Para ser honesto, todo lo que he dicho hasta ahora son sólo pruebas circunstanciales…[p][stopse buf=1]
 #seiji
@@ -278,17 +278,17 @@ Lo sabia…[p][stopse buf=1]
 #
 [hide][seizi_metozi]
 #seiji
-Yuko Kitano. Su verdadero nombre era Yuko Takamura. Como habrás investigado, yo escribía sus canciones y ella las cantaba… eso es lo que hacíamos. …Eso fue hace casi 40 años[p][stopse buf=3]
+Yuko Kitano. Su verdadero nombre era Yuko Takamura. Como habrás investigado, yo escribía sus canciones y ella las cantaba… eso es lo que hacíamos. …Eso fue hace casi 40 años.[p][stopse buf=3]
 #seiji
 [s/kanasimi]
-Tenía cáncer de seno… Yo tenía algunos contactos, así que le pedí al Dr. Kuruse que la internara en esa clínica. El Dr. Kurese me ayudó con la cirugía y todo eso[p][stopse buf=3]
+Tenía cáncer de seno… Yo tenía algunos contactos, así que le pedí al Dr. Kuruse que la internara en esa clínica. El Dr. Kurese me ayudó con la cirugía y todo eso.[p][stopse buf=3]
 #minami
 [ms_magao]
 …[p][stopse buf=2]
 [mmhide]
 #seiji
 [s/hohoemi2]
-…Aunque no me di cuenta cuando los conocí.  …me sorprendí cuando me enteré de lo de sus padres. Nunca hubiera adivinado que Minami-kun es la nieta de aquel Dr. Kuruse[p][stopse buf=3]
+…Aunque no me di cuenta cuando los conocí.  …me sorprendí cuando me enteré de lo de sus padres. Nunca hubiera adivinado que Minami-kun es la nieta de aquel Dr. Kuruse.[p][stopse buf=3]
 #minami
 [ms_kanasimi]
 Bueno, disculpas por mi abuelo…[p][stopse buf=2]
@@ -297,21 +297,21 @@ Bueno, disculpas por mi abuelo…[p][stopse buf=2]
 [s/hohoemi]
 No, no tienes que preocuparte. Además, el doctor dijo. "No creo que una pequeña clínica en una zona rural como esta sea una buena idea" "Creo que un hospital en la ciudad con mejores equipamientos sería mejor"[p][stopse buf=3]
 #seiji
-Y fuimos nosotros los que lo presionamos[p][stopse buf=3]
+Y fuimos nosotros los que lo presionamos.[p][stopse buf=3]
 #hokuto
 [hs_kanasimi]
 Tuvieron que llegar tan lejos para ocultarlo…[p][stopse buf=1]
 [mhhide]
 #seiji
 [s/hohoemi2]
-Tienes razón, pero eso no es todo. Todavía eres joven para jugar al detective, Hokuto-kun[p][stopse buf=3]
+Tienes razón, pero eso no es todo. Todavía eres joven para jugar al detective, Hokuto-kun.[p][stopse buf=3]
 #hokuto
 [hs_magao]
 =Eh?[p][stopse buf=1]
 [mhhide]
 #seiji
 [s/kuti]
-Ya te lo había dicho antes. Puedes ver fácilmente las estrellas en esta ciudad[p][stopse buf=3]
+Ya te lo había dicho antes. Puedes ver fácilmente las estrellas en esta ciudad.[p][stopse buf=3]
 #hokuto
 [hs_odoroki]
 …![p][stopse buf=1]
@@ -327,7 +327,7 @@ Ya te lo había dicho antes. Puedes ver fácilmente las estrellas en esta ciudad
 [mask_off time=500]
 
 #seiji
-Yuko me dijo que éste era el lugar perfecto para ella. "Si voy a quedarme aquí, me gustaría estar en un hospital donde pueda ver hermosas estrellas" Y, por la noche, solía mirar las estrellas desde su ventana[p][stopse buf=3]
+Yuko me dijo que éste era el lugar perfecto para ella. "Si voy a quedarme aquí, me gustaría estar en un hospital donde pueda ver hermosas estrellas" Y, por la noche, solía mirar las estrellas desde su ventana.[p][stopse buf=3]
 [mshide]
 #hokuto
 [hs_magao]
@@ -356,44 +356,44 @@ Me quedé solo, y Yuko se convirtió en una estrella…[p][stopse buf=3]
 [mhhide]
 #seiji
 [s/metozi]
-volver a escribir canciones, pero no se me ocurría nada. Aunque sabía que tenía que trabajar, no podía escribir pensando que sería otra persona la que cantaría, y no Yuko[p][stopse buf=3]
+volver a escribir canciones, pero no se me ocurría nada. Aunque sabía que tenía que trabajar, no podía escribir pensando que sería otra persona la que cantaría, y no Yuko.[p][stopse buf=3]
 #hokuto
 [hs_kanasimi]
 No pudiste escribir si no era para tu esposa…[p][stopse buf=1]
 [mhhide]
 #seiji
 [s/mu]
-Sí. Pensé que podría escribir una canción sobre Yuko, pero… cuanto más lo pensaba, más perdido me sentía[p][stopse buf=3]
+Sí. Pensé que podría escribir una canción sobre Yuko, pero… cuanto más lo pensaba, más perdido me sentía.[p][stopse buf=3]
 #seiji
-No podía hacer nada. Trabajar o hacer cualquier otra cosa, me costaba estar solo[p][stopse buf=3]
+No podía hacer nada. Trabajar o hacer cualquier otra cosa, me costaba estar solo.[p][stopse buf=3]
 #seiji
 Así que en un momento pensé en seguir a Yuko y suicidarme. Pero…[p][stopse buf=3]
 #seiji
 [s/magao]
-Cuando apoyé el cuchillo en mi muñeca. …vi el reflejo de la luz de una estrella en la hoja del cuchillo[p][stopse buf=3]
+Cuando apoyé el cuchillo en mi muñeca. …vi el reflejo de la luz de una estrella en la hoja del cuchillo.[p][stopse buf=3]
 #hokuto
 [hs_magao]
 ¿Luz de una estrella?[p][stopse buf=1]
 [mhhide]
 #seiji
 [s/metozi]
-Sí, si lo piensas, una luz tan débil como la de una estrella en el cielo no debería reflejarse en la hoja de un cuchillo. Pudo ser que el cuchillo reflejara alguna luz al azar, o simplemente una alucinación[p][stopse buf=3]
+Sí, si lo piensas, una luz tan débil como la de una estrella en el cielo no debería reflejarse en la hoja de un cuchillo. Pudo ser que el cuchillo reflejara alguna luz al azar, o simplemente una alucinación.[p][stopse buf=3]
 #seiji
-Pero en ese momento, vi un único punto de luz, tenue pero dulce, tan brillante como una segunda estrella[p][stopse buf=3]
+Pero en ese momento, vi un único punto de luz, tenue pero dulce, tan brillante como una segunda estrella.[p][stopse buf=3]
 #seiji
 [s/kanasimi]
-Esa luz se sentía como si fuera Yuko, que se había convertido en una estrella, diciéndome que no siguiera… Fue entonces cuando empecé. Cada noche, me puse a mirar hacia el cielo estrellado[p][stopse buf=3]
+Esa luz se sentía como si fuera Yuko, que se había convertido en una estrella, diciéndome que no siguiera… Fue entonces cuando empecé. Cada noche, me puse a mirar hacia el cielo estrellado.[p][stopse buf=3]
 #seiji
-En algún lugar de este cielo nocturno, estoy seguro de que Yuko está ahí, y siempre estoy buscándola[p][stopse buf=3]
+En algún lugar de este cielo nocturno, estoy seguro de que Yuko está ahí, y siempre estoy buscándola.[p][stopse buf=3]
 #minami
 [ms_kanasimi]
 Takamura-san…[p][stopse buf=2]
 [mmhide]
 #seiji
 [s/metozi]
-Debes pensar que soy idiota, Minami-kun. …Yo también lo sé. Sé que estoy haciendo una estupidez[p][stopse buf=3]
+Debes pensar que soy idiota, Minami-kun. …Yo también lo sé. Sé que estoy haciendo una estupidez.[p][stopse buf=3]
 #seiji
-Pero… si no lo hiciera, no estaría vivo[p][stopse buf=3]
+Pero… si no lo hiciera, no estaría vivo.[p][stopse buf=3]
 [fadeoutbgm time=1000]
 [fadeinbgm storage=bg/river.ogg time=1000]
 #
@@ -401,7 +401,7 @@ Pero… si no lo hiciera, no estaría vivo[p][stopse buf=3]
 #hokuto
 entiendo un poco cómo te sientes, viejo. Quiero decir, eso es más o menos lo que me dijiste,[p][stopse buf=1]
 #hokuto
-Hay gente a la que nunca quieres dejar ir, gente que necesita apoyarte o tendrás problemas[p][stopse buf=1]
+Hay gente a la que nunca quieres dejar ir, gente que necesita apoyarte o tendrás problemas.[p][stopse buf=1]
 #hokuto
 Si alguien así me abandonara por completo… no sé qué haría…[p][stopse buf=1]
 #minami
@@ -409,7 +409,7 @@ Si alguien así me abandonara por completo… no sé qué haría…[p][stopse bu
 ¿Hokuto…?[p][stopse buf=2]
 #hokuto
 [hs/kanasimi]
-Ahora entiendo por qué no pude resistirme a hablar contigo la primera vez que te vi[p][stopse buf=1]
+Ahora entiendo por qué no pude resistirme a hablar contigo la primera vez que te vi.[p][stopse buf=1]
 #hokuto
 En ese momento, realmente intentabas encontrar algo, estabas buscando algo. Algo que necesitabas, algo irremplazable…[p][stopse buf=1]
 #hokuto
@@ -419,7 +419,7 @@ Creo que me sentí atraído por ti porque no tenía nada parecido en ese momento
 ¿Lo encontraste?[p][stopse buf=3]
 #hokuto
 [hs/akire]
-Viejo, sabes que estás preguntando una tontería[p][stopse buf=1]
+Viejo, sabes que estás preguntando una tontería.[p][stopse buf=1]
 #
 Estaba un poco avergonzado, porque parecía que nuestras posiciones habían cambiado desde nuestra última conversación.[p]
 Pero si me preguntaras qué fue lo que encontré, tengo que admitir que aún no puedo expresarlo con palabras, así que mentí un poco…[p]
@@ -430,19 +430,19 @@ Sí…[p][stopse buf=3]
 No sé si esta respuesta le pareció graciosa, o si se dio cuenta de lo que pensaba, pero se rió un poco…[p]
 #hokuto
 [hs/bishou]
-Bueno, no odio esa parte de ti, viejo[p][stopse buf=1]
+Bueno, no odio esa parte de ti, viejo.[p][stopse buf=1]
 #minami
 [ms/magao2]
 ¿De qué estan hablando?[p][stopse buf=2]
 #hokuto
 [hs/magao]
-De nada. Bueno, viejo, lamento hacer tantas preguntas[p][stopse buf=1]
+De nada. Bueno, viejo, lamento hacer tantas preguntas.[p][stopse buf=1]
 #seiji
 [s/magao]
-Desde luego. Realmente te estás metiendo en mi vida privada[p][stopse buf=3]
+Desde luego. Realmente te estás metiendo en mi vida privada.[p][stopse buf=3]
 #hokuto
 [hs/bishou]
-Déjame disculparme… Me quedaré contigo hasta el final, buscando esa estrella[p][stopse buf=1]
+Déjame disculparme… Me quedaré contigo hasta el final, buscando esa estrella.[p][stopse buf=1]
 #seiji
 [s/mu]
 ¿Qué?…[p][stopse buf=3]
@@ -450,7 +450,7 @@ Déjame disculparme… Me quedaré contigo hasta el final, buscando esa estrella
 [ms/kanasimi]
 ¿Hokuto? Pero, la estrella que estamos buscando…[p][stopse buf=2]
 #hokuto
-Sí. Su esposa. Pero ya que no puede encontrarla, tal vez podamos encontrar algo más[p][stopse buf=1]
+Sí. Su esposa. Pero ya que no puede encontrarla, tal vez podamos encontrar algo más.[p][stopse buf=1]
 #seiji
 [s/kanasimi]
 ¿Encontrar algo mas…?[p][stopse buf=3]
@@ -462,10 +462,10 @@ Bueno, quizá no algo demasiado ostentoso... algo que disfrute, algo que le gust
 Hokuto-kun eso…[p][stopse buf=3]
 #hokuto
 [hs/egao]
-…Jeje[p][stopse buf=1]
+…Jeje.[p][stopse buf=1]
 #
 Algo que la gente seguro necesita para vivir.[p]
-Algo que tanto yo como el viejo habíamos perdido de vista hacía un rato[p]
+Algo que tanto yo como el viejo habíamos perdido de vista hacía un rato.[p]
 Una estrella por la que vivir (Guía).[p]
 O tal vez algo que llamamos un propósito en la vida.[p]
 Eso no es completamente intrusivo. Así que…[p]
@@ -476,7 +476,7 @@ Hokuto-kun, realmente eres arrogante…[p][stopse buf=3]
 Me dijo unas palabras duras. Pero aun así…[p]
 #hokuto
 [hs/egao2]
-Lo siento. Pero pregunté demasiadas cosas, por lo que quiero pedir disculpas y expresar mi gratitud[p][stopse buf=1]
+Lo siento. Pero pregunté demasiadas cosas, por lo que quiero pedir disculpas y expresar mi gratitud.[p][stopse buf=1]
 #hokuto
 Sólo quiero hacer algo. Si no hago algo, voy a acabar con un nudo en la garganta…[p][stopse buf=1]
 #seiji
@@ -484,10 +484,10 @@ Sólo quiero hacer algo. Si no hago algo, voy a acabar con un nudo en la gargant
 ¿Nudo en la garganta…?[p][stopse buf=3]
 #minami
 [ms/odoroki]
-Sí, eso significa que tendrá remordimientos[p][stopse buf=2]
+Sí, eso significa que tendrá remordimientos.[p][stopse buf=2]
 #seiji
 [s/magao]
-Ah, el llamado argot juvenil[p][stopse buf=3]
+Ah, el llamado argot juvenil.[p][stopse buf=3]
 ;美波呆れから真顔
 #minami
 [ms/magao]
@@ -497,10 +497,10 @@ Es un poco distinto… Pero yo también quiero hacer algo por Takamura-san. Sól
 Chicos…[p][stopse buf=3]
 #hokuto
 [hs/magao]
-No tengo ni idea de que hacer… pero, volveré a estar aquí la semana que viene, mirando las estrellas, tocando la guitarra… quizá podríamos comer algo juntos. Ah, sí, Minami, prepara algo de comer[p][stopse buf=1]
+No tengo ni idea de que hacer… pero, volveré a estar aquí la semana que viene, mirando las estrellas, tocando la guitarra… quizá podríamos comer algo juntos. Ah, sí, Minami, prepara algo de comer.[p][stopse buf=1]
 #minami
 [ms/magao2]
-¿Eh…? Todavía no tengo confianza en mi habilidad culinaria, pero haré lo que pueda[p][stopse buf=2]
+¿Eh…? Todavía no tengo confianza en mi habilidad culinaria, pero haré lo que pueda.[p][stopse buf=2]
 #seiji
 [s/hohoemi]
 Me alegro de que se sientan así, pero es algo irrazonable. Además, nos tomaremos un descanso durante un tiempo…[p][stopse buf=3]
@@ -521,7 +521,7 @@ Oh, hay una señal de lluvia a partir del próximo fin de semana…[p][stopse bu
 ¿En serio?[p][stopse buf=1]
 #seiji
 [s/hohoemi2]
-Sí, así es. Pronto llegará la temporada de lluvias. No va a ser una época muy buena para mirar las estrellas[p][stopse buf=3]
+Sí, así es. Pronto llegará la temporada de lluvias. No va a ser una época muy buena para mirar las estrellas.[p][stopse buf=3]
 #hokuto
 [hs/hutyou]
 Ya veo… bueno, entonces podemos hacer otra cosa…[p][stopse buf=1]
@@ -542,19 +542,19 @@ Eso es… algo en lo que he estado intentando no pensar demasiado…[p][stopse b
 Pero igual, tiene razón…[p][stopse buf=2]
 #seiji
 [s/magao]
-Sí. Por eso dije que nos tomaremos un descanso por un tiempo[p][stopse buf=3]
+Sí. Por eso dije que nos tomaremos un descanso por un tiempo.[p][stopse buf=3]
 #hokuto
 [hs/magao]
 Ya veo… Bueno, al menos dediquemos algo de tiempo a pensar qué hacer mientras pasa la lluvia…[p][stopse buf=1]
 #hokuto
 [hs/bishou]
-Oh, sí, vamos a tener un concierto en agosto. Será un espectáculo lo suficientemente bueno como para satisfacerte como músico, viejo. Así que no puedes faltar[p][stopse buf=1]
+Oh, sí, vamos a tener un concierto en agosto. Será un espectáculo lo suficientemente bueno como para satisfacerte como músico, viejo. Así que no puedes faltar.[p][stopse buf=1]
 #minami
 [ms/egao2]
-Es verdad. tienes que venir[p][stopse buf=2]
+Es verdad. tienes que venir.[p][stopse buf=2]
 #seiji
 [s/hohoemi2]
-Sí, lo esperaré ansiosamente. …Si es que puedo ir[p][stopse buf=3][fadeoutbgm time=1000]
+Sí, lo esperaré ansiosamente. …Si es que puedo ir.[p][stopse buf=3][fadeoutbgm time=1000]
 #hokuto
 [hs/magao]
 (¿…?)[p][stopse buf=1]

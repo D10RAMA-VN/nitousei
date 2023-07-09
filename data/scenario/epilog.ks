@@ -17,7 +17,7 @@
 [rolebutton]
 [M0]
 @layopt layer=message0 visible=true
-[ptext name="chara_name_area" layer="message0" color="white" size=44 bold=true x=350 y=755 face="NotoInitial"]
+[ptext name="chara_name_area" layer="message0" color="white" size=44 bold=true x=350 y=755 face="akko"]
 [wait time=500]
 [minami_s_bishou left=40 time=0][hokuto_s_kanasimi left=640 time=0]
 [mask_off time=1000]
@@ -27,7 +27,7 @@
 #minami
 …Es una buena canción, no?[p][stopse buf=2]
 #hokuto
-…Sí[p][stopse buf=1]
+…Sí.[p][stopse buf=1]
 #
 [mask time=500]
 [hide time=0]
@@ -42,8 +42,8 @@ En el reverso, con letra temblorosa pero experta, se leía "Para Hokuto-kun y Mi
 [playse storage=se/paper.ogg buf=8]
 En su interior había una hoja de papel para escribir y una partitura.[p]
 Y en el papel de escribir,[p]
-Cuídense los unos a los otros, ayúdense mutuamente y no pierdan nunca el deseo de amar a la gente[p]
-No importa cuántos cientos de veces esos sentimientos no sean correspondidos. Si haces eso, seguro que serán felices juntos[p]
+Cuídense los unos a los otros, ayúdense mutuamente y no pierdan nunca el deseo de amar a la gente.[p]
+No importa cuántos cientos de veces esos sentimientos no sean correspondidos. Si haces eso, seguro que serán felices juntos.[p]
 Decia eso y que me iba a regalar su telescopio.[p]
 Y en la partitura, el viejo nos dejó su última canción, que escribió con las pocas fuerzas que le quedaban.[p]
 El título estaba en blanco y no tenía letra.[p]
@@ -67,15 +67,15 @@ Así que por ahora sólo intento tocar esta pieza musical en blanco con Minami.[
 
 #minami
 [ms/uwame]
-Por cierto, Hokuto, te has vuelto muy bueno tocando la guitarra[p][stopse buf=2]
+Por cierto, Hokuto, te has vuelto muy bueno tocando la guitarra.[p][stopse buf=2]
 #hokuto
 [hs/egao2]
-Sí. Pero aún no llego a la meta. Quiero mejorar. Tanto para esta canción como para las que interpretamos en el concierto. Y eso no es todo. Quiero tocar muchas más canciones[p][stopse buf=1]
+Sí. Pero aún no llego a la meta. Quiero mejorar. Tanto para esta canción como para las que interpretamos en el concierto. Y eso no es todo. Quiero tocar muchas más canciones.[p][stopse buf=1]
 #minami
-Estás muy motivado, Hokuto[p][stopse buf=2]
+Estás muy motivado, Hokuto.[p][stopse buf=2]
 #hokuto
 [hs/egao]
-Sí, no sé si alguna vez he querido trabajar tan duro antes[p][stopse buf=1]
+Sí, no sé si alguna vez he querido trabajar tan duro antes.[p][stopse buf=1]
 #minami
 [ms/magao]
 …¿Es gracias a Takamura-san?[p][stopse buf=2]
@@ -87,15 +87,15 @@ No sé… quizás es porque no sé si el viejo estaba contento en ese momento o 
 …Estoy seguro de que estaba satisfecho. Sin nudos en la garganta, ¿verdad?[p][stopse buf=2]
 #hokuto
 [hs/akire]
-Oye, oye, oye… Sí, ese es exactamente el nudo que tengo… Que le enseñé al viejo esa palabra… Pero, tengo la sensación de que todavía está ahí arriba en el cielo riéndose de mí[p][stopse buf=1]
+Oye, oye, oye… Sí, ese es exactamente el nudo que tengo… Que le enseñé al viejo esa palabra… Pero, tengo la sensación de que todavía está ahí arriba en el cielo riéndose de mí.[p][stopse buf=1]
 #minami
-Eso está bien. Takamura-san nos está cuidando[p][stopse buf=2]
+Eso está bien. Takamura-san nos está cuidando.[p][stopse buf=2]
 #hokuto
 [hs/kanasimi2]
 Siento que me diría… "Hokuto-kun, olvidaste lo que te dije", o algo así…[p][stopse buf=1]
 #minami
 [ms/egao]
-Tal vez[p][stopse buf=2]
+Tal vez.[p][stopse buf=2]
 #hokuto
 [hs/odoroki]
 …Ah…[p][stopse buf=1]
@@ -104,7 +104,7 @@ Tal vez[p][stopse buf=2]
 ¿Que pasa?[p][stopse buf=2]
 #hokuto
 [hs/odoroki]
-Se me había olvidado. El consejo del viejo[p][stopse buf=1]
+Se me había olvidado. El consejo del viejo.[p][stopse buf=1]
 #minami
 [ms/magao]
 ¿Eh? ¿A que te refieres?[p][stopse buf=2]
@@ -115,7 +115,7 @@ Tengo que decirte algo antes de hablar de eso…[p][stopse buf=1]
 ¿Eh…?[p][stopse buf=2]
 #hokuto
 [hs/metozi]
-Bueno, voy a responder a tu confesión, aunque hace tiempo que está en el aire[p][stopse buf=1]
+Bueno, voy a responder a tu confesión, aunque hace tiempo que está en el aire.[p][stopse buf=1]
 #minami
 [ms/odoroki]
 …![p][stopse buf=2]
@@ -124,7 +124,7 @@ Bueno, voy a responder a tu confesión, aunque hace tiempo que está en el aire[
 [hs/bishou]
 Pues, tú sabes. He estado pensando. Voy a seguir en este club, tocar varias canciones, graduarme, crecer… y en el proceso, voy a ser feliz y divertirme mucho…[p][stopse buf=1]
 #hokuto
-Estoy seguro de que podré superar los momentos difíciles y los tristes.　Y la razón por la que me siento así es porque… tú estarías conmigo[p][stopse buf=1]
+Estoy seguro de que podré superar los momentos difíciles y los tristes.　Y la razón por la que me siento así es porque… tú estarías conmigo.[p][stopse buf=1]
 #minami
 [ms/tere]
 ……![p][stopse buf=2]
@@ -141,19 +141,19 @@ No me lo imagino… Podría ser como el viejo, buscándote frenéticamente a tra
 ¿De qué estás hablando?[p][stopse buf=2]
 #hokuto
 [hs/bishou]
-Porque sería un problema si ya no puedo comer tu almuerzo[p][stopse buf=1]
+Porque sería un problema si ya no puedo comer tu almuerzo.[p][stopse buf=1]
 #minami
 [ms/akire]
 ¿Eh? ¿Estas hablando de la comida?[p][stopse buf=2]
 #hokuto
 [hs/egao]
-…Jeje. Por supuesto, eso no es todo[p][stopse buf=1]
+…Jeje. Por supuesto, eso no es todo.[p][stopse buf=1]
 #minami
 [ms/uwame]
 …Santo cielo…[p][stopse buf=2]
 #hokuto
 [hs/bishou]
-Además, el viejo me dijo… sólo conocerás a una mujer en toda tu vida que realmente se preocupe por ti[p][stopse buf=1]
+Además, el viejo me dijo… sólo conocerás a una mujer en toda tu vida que realmente se preocupe por ti.[p][stopse buf=1]
 #minami
 [ms/magao2]
 Eso fue lo que te dijo…[p][stopse buf=2]
@@ -165,18 +165,18 @@ Sí. Y yo, eh… ya sabes, ya conocí a Minami, así que…[p][stopse buf=1]
 ![p][stopse buf=2]
 #hokuto
 [hs/bishou]
-Hace rato que lo estoy postergando… Voy a decirlo[p][stopse buf=1]
+Hace rato que lo estoy postergando… Voy a decirlo.[p][stopse buf=1]
 #minami
 [ms/dere]
 Sí…[p][stopse buf=2]
 #hokuto
 [hs/egao2]
-Tú también me gustas, Minami. Quiero a Minami. No quiero estar sin ti[p][stopse buf=1]
+Tú también me gustas, Minami. Quiero a Minami. No quiero estar sin ti.[p][stopse buf=1]
 #hokuto
-Así que… quiero que te quedes a mi lado. Siempre, a partir de ahora[p][stopse buf=1]
+Así que… quiero que te quedes a mi lado. Siempre, a partir de ahora.[p][stopse buf=1]
 #minami
 [ms/dere]
-…Sí, esta bien[p][stopse buf=2]
+…Sí, esta bien.[p][stopse buf=2]
 #hokuto
 [hs/tere]
 …Oye, ¿qué quieres decir con que "Está bien"?[p][stopse buf=1]
@@ -202,7 +202,7 @@ Digo, justo ahora, sentí que estaban jurando su amor frente al padre, ¿así qu
 ¿Hmm?[p][stopse buf=4]
 #kaname
 [k/bishou2]
-¿Qué? Sigan, sigan[p][stopse buf=6]
+¿Qué? Sigan, sigan.[p][stopse buf=6]
 #
 [reito_komari left=850]
 #reito
@@ -247,7 +247,7 @@ Bueno, nuestra mayor preocupación, la historia de amor de Hokuto-kun y Minami-c
 #hokuto
 ¿Así que su mayor preocupación éramos… nosotros?[p][stopse buf=1]
 #kaname
-Así es. Deberías pagarnos por ponernos nerviosos con una interpretación impecable[p][stopse buf=6]
+Así es. Deberías pagarnos por ponernos nerviosos con una interpretación impecable.[p][stopse buf=6]
 #minami
 Sí, señora…[p][stopse buf=2]
 #reito 

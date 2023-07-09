@@ -17,7 +17,7 @@
 [rolebutton]
 [M0]
 @layopt layer=message0 visible=true
-[ptext name="chara_name_area" layer="message0" color="white" size=44 bold=true x=350 y=755 face="NotoInitial"]
+[ptext name="chara_name_area" layer="message0" color="white" size=44 bold=true x=350 y=755 face="akko"]
 [wait time=500]
 [mask_off time=1000]
 
@@ -31,7 +31,7 @@ Por la noche, mi fiebre había desaparecido y ya me sentía bastante bien.[p]
 Mamá se tomó ayer el día para cuidarme, pero no podía volver a faltar al trabajo, así que al anochecer se fue a trabajar como de costumbre.[p]
 Cuando mire mi teléfono por primera vez en todo el día, vi un mensaje que decía que las actividades del club se cancelaban hasta el próximo lunes.[p]
 La culpa es definitivamente mía.[p]
-Me preparé por un segundo, esperando algo de Minami, pero no había ningún mensaje de ella[p]
+Me preparé por un segundo, esperando algo de Minami, pero no había ningún mensaje de ella.[p]
 Hay una parte de mí que no puede evitar sentirse mal por hacerle daño, y hay una parte de mí que se alegra de que no me hubiera enviado nada.[p]
 Me comí un montón de avena que mi mamá me preparó.[p]
 Pasar tiempo bajo las sábanas comenzaba a aburrirme.[p]
@@ -39,7 +39,7 @@ Me pregunto si el viejo sigue hoy en la orilla del río…[p]
 Minami me dijo que no fuera, y pienso que se lo dijo al viejo también.[p]
 Pero ya no puedo pasar mi tiempo agonizando así.[p]
 #hokuto
-…Vamos[p][stopse buf=1]
+…Vamos.[p][stopse buf=1]
 
 [fadeoutse buf=9 time=500]
 [fadeoutbgm time=500]
@@ -56,13 +56,13 @@ Oh, Hokuto-kun. ¿Pensé que estabas cuidando de tu salud?[p][stopse buf=3]
 #hokuto
 Bueno, un poco. Así que Minami te contó, ¿eh?…[p][stopse buf=1]
 #seiji
-Sí, anoche. También dijo que ustedes se pelearon[p][stopse buf=3]
+Sí, anoche. También dijo que ustedes se pelearon.[p][stopse buf=3]
 #hokuto
 [hs/akire]
 Minami, realmente te lo contó todo…[p][stopse buf=1]
 #seiji
 [s/kanasimi]
-No digas eso. Ha estado bastante preocupada[p][stopse buf=3]
+No digas eso. Ha estado bastante preocupada.[p][stopse buf=3]
 #hokuto
 [hs/magao]
 …[p][stopse buf=1]
@@ -98,7 +98,7 @@ Algunas cosas ocurrieron hace mucho tiempo…[p][stopse buf=1][vostop]
 ¿Me escucharías por unos minutos?…[p][stopse buf=1]
 #seiji
 [s/mu]
-Si quieres hablar de ello, soy todo oídos. Si no quieres, no es necesario[p][stopse buf=3]
+Si quieres hablar de ello, soy todo oídos. Si no quieres, no es necesario.[p][stopse buf=3]
 #
 Incluso cuando habla de una manera brusca, el viejo aún me ofrece una salida.[p]
 Tal vez por eso quiero hablar con él…[p]
@@ -110,15 +110,15 @@ Es acerca de eso…[p][stopse buf=1]
 ¿Eso?[p][stopse buf=3]
 #hokuto
 [hs/kanasimi]
-Una historia sobre mi padre[p][stopse buf=1]
+Una historia sobre mi padre.[p][stopse buf=1]
 #seiji
-Hmm[p][stopse buf=3]
+Hmm.[p][stopse buf=3]
 #hokuto
 [hs/mu]
-Falleció… Hace mucho tiempo[p][stopse buf=1]
+Falleció… Hace mucho tiempo.[p][stopse buf=1]
 #seiji
 [s/kanasimi]
-Ya veo[p][stopse buf=3]
+Ya veo.[p][stopse buf=3]
 #hokuto
 [hs/mu2]
 Pues, tenía una enfermedad común y corriente. Probaron tratamientos, cirugías y demás, pero nada funcionó, así que…[p][stopse buf=1][vostop]
@@ -127,7 +127,7 @@ Pues, tenía una enfermedad común y corriente. Probaron tratamientos, cirugías
 #
 [hide][hokuto_s_mu]
 #hokuto
-el médico de mi padre era el padre de Minami[p][stopse buf=1]
+el médico de mi padre era el padre de Minami.[p][stopse buf=1]
 #
 [hide][seizi_magao]
 #seiji
@@ -144,7 +144,7 @@ Pero cuando le dije a Minami que mi padre estaba enfermo, ella me dijo "mi papi 
 El padre de Minami intentó curarlo, pero, bueno, como he dicho antes, no funcionó. Así que…[p][stopse buf=1]
 #hokuto
 [hs/mu2]
-Parece sentirse responsable de muchas cosas sin ningún motivo[p][stopse buf=1][vostop]
+Parece sentirse responsable de muchas cosas sin ningún motivo.[p][stopse buf=1][vostop]
 #seiji
 [s_magao]
 ……[p][vostart]
@@ -160,7 +160,7 @@ Por eso empezó a preocuparse por mí de todo tipo de formas…[p][stopse buf=1]
 #
 [seizi_magao]
 #seiji
-Bueno… eso sí… que es bastante[p][stopse buf=3]
+Bueno… eso sí… que es bastante.[p][stopse buf=3]
 #hokuto
 [hs/metozi]
 Sí…[p][stopse buf=1]
@@ -169,7 +169,7 @@ Sí…[p][stopse buf=1]
 Hmm… pero entonces, ¿Qué quieres que haga Minami? ¿Qué quieres hacer tú?[p][stopse buf=3]
 #hokuto
 [hs/mu]
-No quería decir nada malo, y quiero disculparme[p][stopse buf=1]
+No quería decir nada malo, y quiero disculparme.[p][stopse buf=1]
 [voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=253 ]
 [voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=104 ]
 #seiji
@@ -179,7 +179,7 @@ Entonces deberías haberte disculpado antes de visitarme, ¿no?…[p][stopse buf
 No pude decir nada…[p]
 #hokuto
 [hs/magao]
-Bueno, sí, lo siento, sé que esto es un poco raro de escuchar[p][stopse buf=1]
+Bueno, sí, lo siento, sé que esto es un poco raro de escuchar.[p][stopse buf=1]
 #
 [hide]
 Sabía que debía ir a pedirle disculpas de inmediato. Cuando estaba a punto de irme pensando eso, el viejo me detuvo.[p]
@@ -191,16 +191,16 @@ Espera, Hokuto-kun. Sé que querías que te escuchara de todos modos, pero… es
 ¿Eh…?[p][stopse buf=1]
 [mhhide]
 #seiji
-En fin, sabes que deberías disculparte porque te sientes mal, pero no sabes muy bien qué decir[p][stopse buf=3]
+En fin, sabes que deberías disculparte porque te sientes mal, pero no sabes muy bien qué decir.[p][stopse buf=3]
 #hokuto
 [hs_magao]
 ……¿Como lo sabes?[p][stopse buf=1]
 [mhhide]
 #seiji
 [s/hohoemi]
-Eres de los que se mueven antes de pensar, por lo que veo[p][stopse buf=3]
+Eres de los que se mueven antes de pensar, por lo que veo.[p][stopse buf=3]
 #seiji
-Y sin embargo, que hayas acudido a mí y no a Minami-kun significa que quieres algún tipo de respuesta, o de lo contrario no serías capaz de hablar con Minami-kun[p][stopse buf=3]
+Y sin embargo, que hayas acudido a mí y no a Minami-kun significa que quieres algún tipo de respuesta, o de lo contrario no serías capaz de hablar con Minami-kun.[p][stopse buf=3]
 #seiji
 O quizás pienses que aunque te disculpes ahora, seguirá habiendo algún tipo de conflicto… ¿no?[p][stopse buf=3]
 #
@@ -210,7 +210,7 @@ Parece que me encontré con toda la confusión que no había sido capaz de artic
 ¿Es esto, de lo que hablan? ¿"Cuanto más viejo más sabio"?…[p][stopse buf=1]
 #seiji
 [s/hohoemi2]
-No es para tanto. …Yo solía pelearme mucho con mi mujer, pero al final muchas veces no sabía por qué estaba enfadada, eso es todo[p][stopse buf=3]
+No es para tanto. …Yo solía pelearme mucho con mi mujer, pero al final muchas veces no sabía por qué estaba enfadada, eso es todo.[p][stopse buf=3]
 #hokuto
 [hs/odoroki]
 ¿Mujer?  Viejo, ¿tienes esposa?[p][stopse buf=1]
@@ -218,14 +218,14 @@ No es para tanto. …Yo solía pelearme mucho con mi mujer, pero al final muchas
 Una palabra sorpresiva. Pensé que era soltero, ya que siempre está solo.[p]
 #seiji
 [s/magao]
-Sí. …bueno, no hablemos de nosotros. Ahora se trata de ustedes. Voy a preguntarte otra vez[p][stopse buf=3]
+Sí. …bueno, no hablemos de nosotros. Ahora se trata de ustedes. Voy a preguntarte otra vez.[p][stopse buf=3]
 #seiji
 ¿Qué quieres que haga Minami-kun? ¿Qué quieres hacer tú?[p][stopse buf=3]
 #hokuto
 [hs/kanasimi]
 Yo…[p][stopse buf=1]
 #seiji
-Si no entiendes eso, nada cambiará[p][stopse buf=3]
+Si no entiendes eso, nada cambiará.[p][stopse buf=3]
 #hokuto
 [hs/kanasimi2]
 ……[p][stopse buf=1]
@@ -251,12 +251,12 @@ Imposible…[p][stopse buf=1]
 Perdón, no estoy seguro…[p][stopse buf=1]
 #seiji
 [s/hohoemi]
-Ya veo. Bueno, tómate tu tiempo y piénsalo. Pero no tardes demasiado o las cosas se complicarán[p][stopse buf=3]
+Ya veo. Bueno, tómate tu tiempo y piénsalo. Pero no tardes demasiado o las cosas se complicarán.[p][stopse buf=3]
 #seiji
-Miremos un poco las estrellas, sólo un poco, ya que dices que estás enfermo[p][stopse buf=3]
+Miremos un poco las estrellas, sólo un poco, ya que dices que estás enfermo.[p][stopse buf=3]
 #hokuto
 [hs/bishou]
-Si… déjame[p][stopse buf=1]
+Si… déjame.[p][stopse buf=1]
 #
 Entonces intenté poner mi mano en el telescopio del viejo.[p]
 #seiji
@@ -266,7 +266,7 @@ Bueno, no usemos esto hoy. Simplemente miremos todo el cielo estelar, ¿de acuer
 ¿Eh…?[p][stopse buf=1]
 #seiji
 [s/hohoemi2]
-Pensándolo bien, tal vez debí haberte enseñado esto primero[p][stopse buf=3]
+Pensándolo bien, tal vez debí haberte enseñado esto primero.[p][stopse buf=3]
 #
 [hide][fadeinbgm storage=seiji.ogg time=1000]
 Con eso, el viejo señaló hacia el cielo.[p]
@@ -282,7 +282,7 @@ Sí… dijiste que si estiras la parte de la cuchara, llegarás a la estrella po
 [mhhide]
 #seiji
 [s_hohoemi2]
-Así es.　Ahora estira el mango a lo largo de esa forma de arco[p][stopse buf=3]
+Así es.　Ahora estira el mango a lo largo de esa forma de arco.[p][stopse buf=3]
 #
 [mshide]
 [bg2 storage="seiza/usikai.png" width=1951 height=1635 time=500 left=0 top=-500]
@@ -292,7 +292,7 @@ Así es.　Ahora estira el mango a lo largo de esa forma de arco[p][stopse buf=3
 [mhhide]
 #seiji
 [s_hohoemi]
-Es Arcturus de Bootes. Ahora, sigue su curva[p][stopse buf=3]
+Es Arcturus de Bootes. Ahora, sigue su curva.[p][stopse buf=3]
 #
 [mshide]
 Muevo los dedos como me indica.[p]
@@ -312,7 +312,7 @@ Te resulta familiar, ¿verdad?[p][stopse buf=3]
 [mhhide]
 #seiji
 [s_hohoemi]
-Sí. Virgo. Su primera estrella, Spica. Esta línea de estrellas se llama la Gran Curva de Primavera[p][stopse buf=3]
+Sí. Virgo. Su primera estrella, Spica. Esta línea de estrellas se llama la Gran Curva de Primavera.[p][stopse buf=3]
 [mshide]
 #hokuto
 [hs_mu]
@@ -328,22 +328,22 @@ La constelación de Minami. ¿Por qué me muestras esto justo ahora?[p]
 [bg2 storage="seiza/Stryangle.png" width=1951 height=1635 time=500 left=0 top=-50]
 #hokuto
 [hs_odoroki]
-…Leo[p][stopse buf=1]
+…Leo.[p][stopse buf=1]
 #
 [mhhide]
 Ahora llegamos a mi constelación.[p]
 [bg2 storage="seiza/Stryangle.png" width=2050 height=1718 time=500 left=-130 top=-550]
 #seiji
 [s_hohoemi]
-Sí, Denebola en Leo. A estas tres estrellas se les conoce como el Gran Triángulo de Primavera[p][stopse buf=3]
+Sí, Denebola en Leo. A estas tres estrellas se les conoce como el Gran Triángulo de Primavera.[p][stopse buf=3]
 [mshide]
 #hokuto
 [hs_mu]
-El Gran Triángulo de la Primavera… algo relacionado con el Cucharón, Leo y Virgo[p][stopse buf=1]
+El Gran Triángulo de la Primavera… algo relacionado con el Cucharón, Leo y Virgo.[p][stopse buf=1]
 [mhhide]
 #seiji
 [s_hohoemi]
-Yeah[p][stopse buf=3]
+Yeah.[p][stopse buf=3]
 #
 [mshide]
 Podía imaginar lo que el viejo estaba tratando de hacer… pero…[p]
@@ -354,21 +354,21 @@ Viejo, sé lo que quieres decir, pero lo haces muy mal…[p][stopse buf=1]
 #seiji
 En serio? Bueno, en fin, Las estrellas tienen la particularidad de que si encuentras una, o una constelación, puedes encontrar otras constelaciones a su alrededor,[p][stopse buf=3]
 #seiji
-especialmente en las grandes, como el Cucharón o Virgo[p][stopse buf=3]
+especialmente en las grandes, como el Cucharón o Virgo.[p][stopse buf=3]
 #hokuto
 [hs/mu]
 …[p]
 #seiji
 [s/magao]
-Y, sin embargo, una estrella sólo es un punto brillante. Es imposible saber qué estrella es observando sólo una. Se reconocen porque aparecen en el cielo nocturno en forma de constelaciones[p][stopse buf=3]
+Y, sin embargo, una estrella sólo es un punto brillante. Es imposible saber qué estrella es observando sólo una. Se reconocen porque aparecen en el cielo nocturno en forma de constelaciones.[p][stopse buf=3]
 #seiji
-Porque esta justo delante del Cucharón, sabemos que la estrella del norte es una segunda estrella, es su brillo lo que nos permite saber si estamos en Leo o Virgo[p][stopse buf=3]
+Porque esta justo delante del Cucharón, sabemos que la estrella del norte es una segunda estrella, es su brillo lo que nos permite saber si estamos en Leo o Virgo.[p][stopse buf=3]
 #hokuto
 [hs/bishou]
 …¿Y me estás diciendo que la personas son iguales?[p][stopse buf=1]
 #seiji
 [s/hohoemi2]
-Sí, todo funciona de la misma manera[p][stopse buf=3]
+Sí, todo funciona de la misma manera.[p][stopse buf=3]
 #hokuto
 [hs/metozi]
 ……[p][stopse buf=1]
@@ -383,7 +383,7 @@ lo sabía. Intentabas sonar genial…[p][stopse buf=1]
 Jaja, bueno, como sea, ¡vete a casa ahora![p][stopse buf=3]
 #hokuto
 [hs/egao2][kanim name="hokuto" keyframe="nod" time="500"]
-Gracias, viejo. Nos vemos[p][stopse buf=1]
+Gracias, viejo. Nos vemos.[p][stopse buf=1]
 #seiji
 [s/mu]
 Hokuto-kun, todavía me queda una cosa por decir…[p][stopse buf=3]
@@ -406,10 +406,10 @@ Sí, solo una…[p][stopse buf=3]
 [hs/magao]
 Aunque has vivido tanto, sólo has encontrado una, ¿eh?[p]
 #seiji
-Exactamente[p][stopse buf=3]
+Exactamente.[p][stopse buf=3]
 #hokuto
 [hs/magao]
-Ya veo… Está bien, lo tendré en cuenta[p][stopse buf=1]
+Ya veo… Está bien, lo tendré en cuenta.[p][stopse buf=1]
 #
 Y así, me fui a casa.[p]
 

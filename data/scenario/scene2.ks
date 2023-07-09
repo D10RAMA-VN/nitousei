@@ -16,7 +16,7 @@
 [rolebutton]
 [M0]
 @layopt layer=message0 visible=true
-[ptext name="chara_name_area" layer="message0" color="white" size=44 bold=true x=350 y=755 face="NotoInitial"]
+[ptext name="chara_name_area" layer="message0" color="white" size=44 bold=true x=350 y=755 face="akko"]
 [kaname_kanasimi left=-80 time=0][nao_kanasimi left=460 time=0][reito_magao left=850 time=0][hw_hutyou time=0]
 [bg2 storage="ongaku.jpg" height=1554 top="-200" time="500"]
 #
@@ -28,20 +28,20 @@
 ……[p][stopse buf=1]
 [mhhide]
 #nao
-……Hmmm, espera[p][stopse buf=4]
+……Hmmm, espera.[p][stopse buf=4]
 #hokuto
 [hw_kanasimi]
-……Si[p][stopse buf=1]
+……Si.[p][stopse buf=1]
 [mhhide]
 #nao
 ……Bueno, creo que estás leyendo bien las notas, pero tu ritmo está un poco desfasado o algo así…[p][stopse buf=4]
 #hokuto
 [hw_kanasimi2]
-……Lo siento[p][stopse buf=1]
+……Lo siento.[p][stopse buf=1]
 [mhhide]
 #kaname
 [k/bishou]
-Pero bueno, estás mejorando a la hora de seguir partituras, es progreso, progreso[p][stopse buf=6]
+Pero bueno, estás mejorando a la hora de seguir partituras, es progreso, progreso.[p][stopse buf=6]
 #hokuto
 [hw_kanasimi]
 No, si sigo así solo estoy estorbando a todo el mundo. Lo siento…[p][stopse buf=1]
@@ -58,7 +58,7 @@ No, si sigo así solo estoy estorbando a todo el mundo. Lo siento…[p][stopse b
 Sí, ya es hora…[p][stopse buf=5]
 #hokuto
 [hw_kanasimi]
-……Sí. Lo siento… Me voy entonces[p][stopse buf=1]
+……Sí. Lo siento… Me voy entonces.[p][stopse buf=1]
 [hide wait=false][mhhide]
 #minami
 [minami_w_kanasimi]
@@ -97,7 +97,7 @@ El tiempo pasa y pasa y no siento que mejore.[p]
 #seiji
 ¿Y por eso te tomaste la molestia de traer tu guitarra?[p][stopse buf=3]
 #hokuto
-Sí, sólo tenemos un telescopio, así que pensaba practicar mientras ustedes miran las estrellas[p][stopse buf=1]
+Sí, sólo tenemos un telescopio, así que pensaba practicar mientras ustedes miran las estrellas.[p][stopse buf=1]
 #
 [hide]
 Llevé mi guitarra personal a la sesión habitual para mirar las estrellas con el viejo.[p]
@@ -107,26 +107,26 @@ El club también tiene una guitarra acústica que es del club, pero la president
 Gracias a esto, mis bolsillos están un poco vacios. Pero todavía tengo algo de dinero ahorrado.[p]
 [minami_w_magao2]
 #minami
-Vas a molestar a los vecinos, no deberías hacerlo[p][stopse buf=2]
+Vas a molestar a los vecinos, no deberías hacerlo.[p][stopse buf=2]
 #
 [hokuto_w_metozi]
 #hokuto
-Si toco sin el amplificador, casi no hace ruido[p][stopse buf=1]
+Si toco sin el amplificador, casi no hace ruido.[p][stopse buf=1]
 #
 [hide][seizi_mu]
 #seiji
-……Bien. Ahora, déjame escucharte[p][stopse buf=3]
+……Bien. Ahora, déjame escucharte.[p][stopse buf=3]
 #minami
 [mw_odoroki]
 ¿Eh? No, imposible, Hokuto no está a un nivel donde querrías escucharlo…[p][stopse buf=2]
 [mmhide]
 #seiji
 [s/magao]
-No pasa nada. Vamos, Hokuto-kun[p][stopse buf=3]
+No pasa nada. Vamos, Hokuto-kun.[p][stopse buf=3]
 #
 [hide][hokuto_w_magao]
 #hokuto
-…Esta bien[p][stopse buf=1]
+…Esta bien.[p][stopse buf=1]
 #
 Entonces empecé a tocar "Convirtiéndose en una segunda estrella".[p][vostop]
 #seiji
@@ -140,10 +140,10 @@ Entonces empecé a tocar "Convirtiéndose en una segunda estrella".[p][vostop]
 #seiji
 Hokuto-kun, bueno… ya sabes…[p][stopse buf=3]
 #hokuto
-Lo siento, soy terrible en esto… Por eso quería practicar un poco[p][stopse buf=1]
+Lo siento, soy terrible en esto… Por eso quería practicar un poco.[p][stopse buf=1]
 #seiji
 [s/metozi]
-…No, no hay nada por lo que disculparse.  Todos sufrimos al principio[p][stopse buf=3]
+…No, no hay nada por lo que disculparse.  Todos sufrimos al principio.[p][stopse buf=3]
 #hokuto
 [hw/kanasimi]
 ……[p][stopse buf=1]
@@ -160,7 +160,7 @@ Y no me esperaba esta canción…[p][stopse buf=3]
 ¿Eh?[p][stopse buf=1]
 #seiji
 [s/metozi]
-……Hmm[p][stopse buf=3]
+……Hmm.[p][stopse buf=3]
 #
 [hide][seizi_magao]
 #seiji
@@ -184,7 +184,7 @@ Y no me esperaba esta canción…[p][stopse buf=3]
 ¿Trajiste hoy contigo el amplificador y el cable blindado?[p][stopse buf=3]
 #hokuto
 [hw_mu]
-Si, aqui estan[p][stopse buf=1]
+Si, aqui estan.[p][stopse buf=1]
 #
 [mhhide]
 Saco un pequeño amplificador USB recargable y un cable blindado (estoy tentado de decir cable, pero por alguna razón el cable que conecta la guitarra al amplificador se llama cable blindado) y se los doy al viejo..[p]
@@ -215,27 +215,27 @@ Tal y como me pareció cuando la propuso la presidenta, esta canción sí que me
 [fadeinbgm storage=bg/river.ogg time=1000]
 [seizi_metozi left=-145 wait=false][hokuto_w_odoroki left=360 wait=false][minami_w_odoroki left=840]
 #seiji
-…Uf. Llámenme anticuado, pero es un poco vergonzoso… Además, en mi época casi no tocaba la guitarra eléctrica[p][stopse buf=3]
+…Uf. Llámenme anticuado, pero es un poco vergonzoso… Además, en mi época casi no tocaba la guitarra eléctrica.[p][stopse buf=3]
 #hokuto
 ¡¿Y eres así de bueno?![p][stopse buf=1]
 #seiji
 [s/mu]
-Sí, aunque tocaba mucho la guitarra folclórica y el piano[p][stopse buf=3]
+Sí, aunque tocaba mucho la guitarra folclórica y el piano.[p][stopse buf=3]
 #
 Así que no tocabas con mucho sonido crunch, ni reverb, ni nada de eso. Así que la manera en que lo tocó fue simplemente lo que podías hacer en una guitarra acústica.[p]
 #seiji
 [s/metozi]
 Con una guitarra eléctrica, el sonido no tenia profundidad…[p][stopse buf=3]
 #minami
-Aún así fue increíble[p][stopse buf=2]
+Aún así fue increíble.[p][stopse buf=2]
 #hokuto
 [hw/mu2]
 De verdad, no me comparo en nada a ti…[p][stopse buf=1]
 #seiji
 [s/magao]
-Hmmm. Por lo que vi antes, Hokuto-kun, estás demasiado concentrado en mover tus dedos[p][stopse buf=3]
+Hmmm. Por lo que vi antes, Hokuto-kun, estás demasiado concentrado en mover tus dedos.[p][stopse buf=3]
 #seiji
-Tu sonido es demasiado tieso. Deberías ser más suelto y relajado[p][stopse buf=3]
+Tu sonido es demasiado tieso. Deberías ser más suelto y relajado.[p][stopse buf=3]
 #hokuto
 [hw/mu]
 Aunque digas eso…[p][stopse buf=1]
@@ -257,17 +257,17 @@ Creo que toco un poco más fuerte cuando practico en casa que cuando lo hago en 
 Es muy probable que esto fuera lo que estaba produciendo la alteración en el ritmo.[p]
 #seiji
 [s/metozi]
-Hay muchas formas de practicar sin hacer ruido, como ponerse audífonos, aunque sea de noche. Si no lo haces, desarrollarás malos hábitos[p][stopse buf=3]
+Hay muchas formas de practicar sin hacer ruido, como ponerse audífonos, aunque sea de noche. Si no lo haces, desarrollarás malos hábitos.[p][stopse buf=3]
 #seiji
 [s/magao]
-Bueno, lo primero es dejar que tus dedos memoricen la digitación tal y como se muestra en la partitura. tuviste algunos errores ahí[p][stopse buf=3]
+Bueno, lo primero es dejar que tus dedos memoricen la digitación tal y como se muestra en la partitura. tuviste algunos errores ahí.[p][stopse buf=3]
 #hokuto
 [hw/kanasimi2]
 Tienes razón…[p][stopse buf=1]
 #
 [hide][seizi_hohoemi]
 #seiji
-Bueno, eso es algo que se puede solucionar si le dedicas tiempo a hacerlo bien. No es algo por lo que preocuparse[p][stopse buf=3]
+Bueno, eso es algo que se puede solucionar si le dedicas tiempo a hacerlo bien. No es algo por lo que preocuparse.[p][stopse buf=3]
 #
 El viejo me devuelve mi guitarra.[p]
 La acepto lentamente.[p]
@@ -301,13 +301,13 @@ Lo siento mucho, a pesar de ser así de malo, te hice escucharme… Perdón…[p
 #
 [seizi_mu]
 #seiji
-Ya te he dicho que no te preocupes[p][stopse buf=3]
+Ya te he dicho que no te preocupes.[p][stopse buf=3]
 #hokuto
 [hw/mu]
 Pero, tu…[p][stopse buf=1]
 #seiji
 [s/hohoemi]
-Sólo estaba recordando un poco los viejos tiempos. Fue sólo un capricho. Te volverás bueno[p][stopse buf=3]
+Sólo estaba recordando un poco los viejos tiempos. Fue sólo un capricho. Te volverás bueno.[p][stopse buf=3]
 #hokuto
 [hw/mu2]
 ¿En serio?…[p][stopse buf=1]

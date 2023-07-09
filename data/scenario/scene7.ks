@@ -17,7 +17,7 @@
 [rolebutton]
 [M0]
 @layopt layer=message0 visible=true
-[ptext name="chara_name_area" layer="message0" color="white" size=44 bold=true x=350 y=755 face="NotoInitial"]
+[ptext name="chara_name_area" layer="message0" color="white" size=44 bold=true x=350 y=755 face="akko"]
 [wait time=500]
 [mask_off time=1000]
 
@@ -33,7 +33,7 @@ Y para ser honesto, ha llegado a cocinar mejor que mi mamá.[p]
 No esperaba que Minami tuviera tanto ánimo, así que cuando la alabé con sinceridad, se puso roja.[p]
 [hokuto_s_bishou]
 #hokuto
-A este ritmo, serás una gran esposa, Minami[p][stopse buf=1]
+A este ritmo, serás una gran esposa, Minami.[p][stopse buf=1]
 #
 [minami_s_tere]
 #minami
@@ -48,7 +48,7 @@ Y, por cierto, después de eso me crucé con la presidenta en el pasillo,[p]
 Hokuto-kun, tú sí que dices cosas atrevidas～[p][stopse buf=4]
 #
 [hide]
-Y para colmo, hasta Reito-senpai[p]
+Y para colmo, hasta Reito-senpai.[p]
 [reito_komari]
 #reito
 Me da un poco de envidia esa parte de ti, Hokuto, o tal vez no tanto…[p][stopse buf=5]
@@ -65,42 +65,42 @@ En un día ligeramente soleado entre la larga temporada de lluvia, acompañé a 
 [hokuto_s_bishou left=640 wait=false][minami_s_bishou left=40]
 
 #hokuto
-Aquí tienes, gracias por el almuerzo de hoy[p][stopse buf=1]
+Aquí tienes, gracias por el almuerzo de hoy.[p][stopse buf=1]
 #minami
-Gracias por comértelo[p][stopse buf=2]
+Gracias por comértelo.[p][stopse buf=2]
 #hokuto
 [hs/kanasimi]
-De verdad, lo siento. Siento mucho haberte hecho hacer esto incluso durante los exámenes[p][stopse buf=1]
+De verdad, lo siento. Siento mucho haberte hecho hacer esto incluso durante los exámenes.[p][stopse buf=1]
 #minami
 [ms/magao2]
-No pasa nada. Me he acostumbrado últimamente[p][stopse buf=2]
+No pasa nada. Me he acostumbrado últimamente.[p][stopse buf=2]
 #hokuto
 [hs/metozi]
-Pero es genial ver lo mucho que has mejorado en tan poco tiempo… es de gran ayuda[p][stopse buf=1]
+Pero es genial ver lo mucho que has mejorado en tan poco tiempo… es de gran ayuda.[p][stopse buf=1]
 #minami
 [ms/bishou]
-De nada[p][stopse buf=2]
+De nada.[p][stopse buf=2]
 #hokuto
 [hs/akire]
 quería hacer algo por el viejo, pero creo que primero debería darte las gracias a ti, Minami…[p][stopse buf=1]
 #minami
 [ms/magao2]
-Eh, realmente no me importa. …lo hago porque me gusta[p][stopse buf=2]
+Eh, realmente no me importa. …lo hago porque me gusta.[p][stopse buf=2]
 #hokuto
 [hs/magao]
 No, no voy a sentirme mejor si eres la única que me da cosas. ¿No hay algo que quieras?[p][stopse buf=1]
 #minami
 [ms/akire]
-Si me lo preguntas así de repente no se me va a ocurrir nada… Ah[p][stopse buf=2]
+Si me lo preguntas así de repente no se me va a ocurrir nada… Ah.[p][stopse buf=2]
 #hokuto
 [hs/bishou]
-Hay algo, ¿verdad? Dime[p][stopse buf=1]
+Hay algo, ¿verdad? Dime.[p][stopse buf=1]
 #minami
 [ms/dere]
-No, bueno… recientemente, hay una cafetería en frente de la estación, y su parfait especial está consiguiendo fama por ser muy bueno[p][stopse buf=2]
+No, bueno… recientemente, hay una cafetería en frente de la estación, y su parfait especial está consiguiendo fama por ser muy bueno.[p][stopse buf=2]
 #minami
 [ms/tun]
-Pero dicen que es difícil conseguir mesa porque las reservaciones se llenan rápido. Siempre he querido probarlo… perdón, no te preocupes[p][stopse buf=2]
+Pero dicen que es difícil conseguir mesa porque las reservaciones se llenan rápido. Siempre he querido probarlo… perdón, no te preocupes.[p][stopse buf=2]
 #hokuto
 [hs/akire]
 Ah, bueno, a ti te gustan los dulces, ¿verdad? …¿hmm?　¿Un parfait especial frente a la estación…? ¿Por casualidad ese sitio no será "Cola de Gato"?[p][stopse buf=1]
@@ -121,19 +121,19 @@ Después del examen de mañana, las asignaturas más pesadas pasarán, y tras la
 Hokuto…  Hokuto, ¿Estás escuchandome?[p][stopse buf=2]
 #hokuto
 [hs/magao]
-Minami[p][stopse buf=1]
+Minami.[p][stopse buf=1]
 #minami
 [ms/magao]
 ¿Eh? ¡Si![p][stopse buf=2]
 #hokuto
 [hs/egao]
-Vayamos a comer mañana, ese parfait especial[p][stopse buf=1]
+Vayamos a comer mañana, ese parfait especial.[p][stopse buf=1]
 #minami
 [ms/odoroki]
 ¡¿Eh?![p][stopse buf=2]
 #hokuto
 [hs/egao2]
-Voy a hacer una reserva, así que nos encontramos en la puerta principal mañana después de la escuela[p][stopse buf=1]
+Voy a hacer una reserva, así que nos encontramos en la puerta principal mañana después de la escuela.[p][stopse buf=1]
 #
 [hhide wait=false][move name=minami left=360]
 #minami
@@ -149,19 +149,19 @@ Eh, espera un minuto, ¡¿qué quieres decir?![p][stopse buf=2]
 #Employee
 Bienvenidos… ¡Oh, Hokuto-kun![p]
 #hokuto
-Ha pasado mucho tiempo[p][stopse buf=1]
+Ha pasado mucho tiempo.[p][stopse buf=1]
 #Employee
 Ayer de repente dijiste algo sobre un parfait especial y me pregunté qué estaba pasando. Hokuto-kun, tú también puedes ser todo un galán, ¿no?[p]
 #minami
 Oh, no, no…[p][stopse buf=2]
 #hokuto
 [hs/magao]
-¿Eh? ¿A qué te refieres[p][stopse buf=1]
+¿Eh? ¿A qué te refieres.[p][stopse buf=1]
 #Employee
-No me habias contado nada, sobre esta chica[p]
+No me habias contado nada, sobre esta chica.[p]
 #hokuto
 [hs/egao2]
-Oh, ella ha sido muy amable conmigo últimamente. Yo quería hacer algo a cambio, y me dijo que quería probar este parfait[p][stopse buf=1]
+Oh, ella ha sido muy amable conmigo últimamente. Yo quería hacer algo a cambio, y me dijo que quería probar este parfait.[p][stopse buf=1]
 #minami
 [ms/tun]
 A-Así es…[p][stopse buf=2]
@@ -172,7 +172,7 @@ Sí, tienes razón. Lo dejo ahí. Ahora, su pedido sería su parfait especial re
 Yo tomaré la mezcla de café del día. ¿Y tú, Minami?[p][stopse buf=1]
 #minami
 [ms/odoroki]
-Eh, Té[p][stopse buf=2]
+Eh, Té.[p][stopse buf=2]
 #Employee
 De acuerdo. Una taza de café y otra de té. ¿Desean azúcar y leche?[p]
 #hokuto
@@ -182,7 +182,7 @@ Tenemos ese parfait tan dulce preparado, así que no pasa nada si no pedimos eso
 [ms/dere]
 S-Sí…[p][stopse buf=2]
 #Employee
-Entendido. Entonces por favor esperen unos minutos[p]
+Entendido. Entonces por favor esperen unos minutos.[p]
 #hokuto
 [hs/egao2]
 ¡Claro![p][stopse buf=1]
@@ -195,24 +195,24 @@ Oye, Hokuto…[p][stopse buf=2]
 #minami
 Parece que estás acostumbrado. ¿Has estado aquí antes?…[p][stopse buf=2]
 #hokuto
-La señora que nos acaba de ayudar, es la mamá de un miembro del equipo de baloncesto de nuestra escuela secundaria[p][stopse buf=1]
+La señora que nos acaba de ayudar, es la mamá de un miembro del equipo de baloncesto de nuestra escuela secundaria.[p][stopse buf=1]
 #minami
 [ms/magao2]
 ¿En serio?[p][stopse buf=2]
 #hokuto
 [hs/egao2]
-Me han invitado varias veces, y solía venir aquí cuando no podía concentrarme en casa, como durante los exámenes. Así que le rogué que me diera una reserva para hoy[p][stopse buf=1]
+Me han invitado varias veces, y solía venir aquí cuando no podía concentrarme en casa, como durante los exámenes. Así que le rogué que me diera una reserva para hoy.[p][stopse buf=1]
 #
 Me hicieron un gran descuento en el café por ser estudiante de secundaria, así que podía estar aquí con mi pequeña mesada.[p]
 Pensándolo bien, puede que eso me impidiera quebrar en su momento.[p]
 #minami
-No lo sabía… Siento que últimamente he visto muchos aspectos tuyos que no conocía[p][stopse buf=2]
+No lo sabía… Siento que últimamente he visto muchos aspectos tuyos que no conocía.[p][stopse buf=2]
 #hokuto
 [hs/odoroki]
 ¿En serio?[p][stopse buf=1]
 #minami
 [ms/bishou][kanim name="minami" keyframe="nod" time="500"]
-Sí, has cambiado un poco. Bueno, pero como siempre sigues metiéndote en cosas repentinas e inesperadas[p][stopse buf=2]
+Sí, has cambiado un poco. Bueno, pero como siempre sigues metiéndote en cosas repentinas e inesperadas.[p][stopse buf=2]
 #hokuto
 [hs/bishou]
 Sí. Pero creo que eres tu quien me ha estado arrastrando, Minami…[p][stopse buf=1]
@@ -221,7 +221,7 @@ Sí. Pero creo que eres tu quien me ha estado arrastrando, Minami…[p][stopse b
 ¿Yo?[p][stopse buf=2]
 #hokuto
 [hs/egao2]
-Sí, desde que éramos pequeños[p][stopse buf=1]
+Sí, desde que éramos pequeños.[p][stopse buf=1]
 [fadeoutbgm time=1000]
 #
 [mask time=500]
@@ -231,7 +231,7 @@ Sí, desde que éramos pequeños[p][stopse buf=1]
 [mask_off time=500]
 #hokuto
 [hs_bishou]
-Después de la muerte de mi padre, estuve deprimido durante un tiempo, ¿sabes?　No quería ir al colegio y no hablaba con nadie.　Incluso cuando estaba en casa, me escondía y lloraba todo el tiempo[p][stopse buf=1]
+Después de la muerte de mi padre, estuve deprimido durante un tiempo, ¿sabes?　No quería ir al colegio y no hablaba con nadie.　Incluso cuando estaba en casa, me escondía y lloraba todo el tiempo.[p][stopse buf=1]
 [mhhide]
 #minami
 [ms_bishou]
@@ -252,7 +252,7 @@ Hokuto, vamos a jugar, ¿sí?[p][stopse buf=2]
 [mmhide]
 #hokuto
 [hs_kanasimi]
-Al principio, estaba molesto. Quería que me dejaras en paz. …pero tú nunca te rendiste[p][stopse buf=1]
+Al principio, estaba molesto. Quería que me dejaras en paz. …pero tú nunca te rendiste.[p][stopse buf=1]
 [mhhide]
 #minami
 [ms_magao]
@@ -263,7 +263,7 @@ Al principio, estaba molesto. Quería que me dejaras en paz. …pero tú nunca t
 [freeimage  layer=0 time=500]
 #hokuto
 [hs_egao2]
-No tuve más remedio que levantar la cara, y cuando te miré, te veías peor que yo, con lágrimas en los ojos, mientras me tendías desesperadamente la mano. No tuve más remedio que aceptar tu mano[p]
+No tuve más remedio que levantar la cara, y cuando te miré, te veías peor que yo, con lágrimas en los ojos, mientras me tendías desesperadamente la mano. No tuve más remedio que aceptar tu mano.[p]
 [mhhide]
 #minami
 [ms_kanasimi]
@@ -271,9 +271,9 @@ En serio, perdón… incluso en esos momentos…[p][stopse buf=2]
 [mmhide]
 #hokuto
 [hs_bishou]
-Jugamos al escondite y otras cosas hasta que anochecía… y mi mente se quedaba en blanco[p][stopse buf=1]
+Jugamos al escondite y otras cosas hasta que anochecía… y mi mente se quedaba en blanco.[p][stopse buf=1]
 #hokuto
-La soledad por la pérdida de mi papá, desaparecía. De verdad, no sé qué habría hecho sin ti[p][stopse buf=1]
+La soledad por la pérdida de mi papá, desaparecía. De verdad, no sé qué habría hecho sin ti.[p][stopse buf=1]
 [mhhide]
 #minami
 [ms_uwame]
@@ -289,9 +289,9 @@ Hokuto…[p][stopse buf=2]
 [mask_off time=500]
 
 #hokuto
-Así que empecé a participar en varios clubes, clases y actividades extraescolares a mi modo… Pero al final, sólo quería demostrarme a mí misma que no estaba solo, que estaba haciendo lo que debía[p][stopse buf=1]
+Así que empecé a participar en varios clubes, clases y actividades extraescolares a mi modo… Pero al final, sólo quería demostrarme a mí misma que no estaba solo, que estaba haciendo lo que debía.[p][stopse buf=1]
 #hokuto
-Y, sin embargo, hiciera lo que hiciera, siempre andaba solo y no servía para nada. Incluso te cargué con la mayoría de las tareas del consejo estudiantil en la escuela secundaria[p][stopse buf=1]
+Y, sin embargo, hiciera lo que hiciera, siempre andaba solo y no servía para nada. Incluso te cargué con la mayoría de las tareas del consejo estudiantil en la escuela secundaria.[p][stopse buf=1]
 #minami
 Eso fue sólo porque parecías agobiado, así que tomé tu lugar, Hokuto.…[p][stopse buf=2]
 #hokuto
@@ -299,7 +299,7 @@ Eso fue sólo porque parecías agobiado, así que tomé tu lugar, Hokuto.…[p][
 Sí. Pero pasé por muchas cosas y te causé muchos problemas, Minami… pero ahora me siento muy satisfecho. Conocí a los senpais y al viejo Takamura, pero…[p][stopse buf=1]
 #hokuto
 [hs/egao]
-Como siempre, fuiste tú quien me acompañó a los ensayos, miró las estrellas conmigo y hasta me preparó el almuerzo[p][stopse buf=1]
+Como siempre, fuiste tú quien me acompañó a los ensayos, miró las estrellas conmigo y hasta me preparó el almuerzo.[p][stopse buf=1]
 #hokuto
 Creo que puedo dar lo mejor de mí porque estás a mi lado, impulsándome, pero sin empujarme, dejando que me apoye en ti, haciéndome sentir que está bien pedir ayuda. Muchas gracias…[p][stopse buf=1]
 #minami
@@ -307,7 +307,7 @@ Creo que puedo dar lo mejor de mí porque estás a mi lado, impulsándome, pero 
 ……[p][stopse buf=2]
 #hokuto
 [hs/magao]
-Pero, ¿te puedo preguntar algo? Hay algo que he querido preguntarte[p][stopse buf=1]
+Pero, ¿te puedo preguntar algo? Hay algo que he querido preguntarte.[p][stopse buf=1]
 #minami
 [ms/uwame]
 ¿Qué?[p][stopse buf=2]
@@ -325,9 +325,9 @@ Quiero decir, incluso me haces el almuerzo todos los días, eso no es normal. Pe
 ……[p][stopse buf=2]
 #hokuto
 [hs/kanasimi]
-Hasta hace poco, pensaba que te sentías responsable de la muerte de mi papá[p][stopse buf=1]
+Hasta hace poco, pensaba que te sentías responsable de la muerte de mi papá.[p][stopse buf=1]
 #hokuto
-Estoy pensando que estás cargando con una cruz que no necesitas y que sólo estás cuidando de mí. …Y además te dije cosas horribles antes[p][stopse buf=1]
+Estoy pensando que estás cargando con una cruz que no necesitas y que sólo estás cuidando de mí. …Y además te dije cosas horribles antes.[p][stopse buf=1]
 #minami
 [ms/kanasimi]
 Sí, puede que esa responsabilidad fuera parte de por lo que lo había hecho…[p][stopse buf=2]
@@ -341,7 +341,7 @@ Pues…[p][stopse buf=2][fadeoutbgm time=1000]
 Aquí tienen. ¡Tenemos un café preparado, un té Earl Grey y nuestro parfait especial![p]
 #hokuto
 [hs/bishou]
-…Ah, gracias[p][stopse buf=1]
+…Ah, gracias.[p][stopse buf=1]
 #
 …What a bad timming…[p][fadeinbgm storage=minami.ogg time=1000]
 #minami
@@ -370,7 +370,7 @@ No, no creía que fuera a ser tanto… No tengo tanto dinero aquí…[p][stopse 
 [mmhide]
 #hokuto
 [hs_bishou]
-No te preocupes. Voy a pagar por todo, incluso las bebidas[p][stopse buf=1]
+No te preocupes. Voy a pagar por todo, incluso las bebidas.[p][stopse buf=1]
 [mhhide]
 #minami
 [ms_tere]
@@ -378,7 +378,7 @@ No te preocupes. Voy a pagar por todo, incluso las bebidas[p][stopse buf=1]
 [mmhide]
 #hokuto
 [hs_egao2]
-Porque estoy agradecido por todo lo que haces, y no puedo dejar que pagues hoy[p][stopse buf=1]
+Porque estoy agradecido por todo lo que haces, y no puedo dejar que pagues hoy.[p][stopse buf=1]
 [mhhide]
 #minami
 [ms_uwame]
@@ -386,7 +386,7 @@ Porque estoy agradecido por todo lo que haces, y no puedo dejar que pagues hoy[p
 [mmhide]
 #hokuto
 [hs_bishou]
-Últimamente no he usado mi mesada, salvo lo que gasto en las actividades del club. Está bien. No te preocupes, disfrútalo[p][stopse buf=1]
+Últimamente no he usado mi mesada, salvo lo que gasto en las actividades del club. Está bien. No te preocupes, disfrútalo.[p][stopse buf=1]
 #
 [mhhide]
 Minami también ha incrementado un poco mi mesada porque ha empezado a prepararme el almuerzo, lo que me ha ayudado a reducir los gastos de comida.[p]
@@ -397,7 +397,7 @@ Por supuesto, mi madre aparentemente da algo de dinero a la familia de Minami pa
 [mmhide]
 #hokuto
 [hs_egao2]
-Ya te dije que sí. Siempre devuelvo los favores. Ahora, come rápido o se derretirá[p][stopse buf=1]
+Ya te dije que sí. Siempre devuelvo los favores. Ahora, come rápido o se derretirá.[p][stopse buf=1]
 [mhhide]
 #minami
 [ms_magao]
@@ -407,7 +407,7 @@ Bueno, gracias por la comida…[p][stopse buf=2]
 [bg2 storage=cafe.jpg time=500]
 [minami_s_mogu]
 Agarró una cuchara y, indecisa, tomó una porción de helado del parfait y se la llevó a la boca.[p]
-At the next moment[p]
+At the next moment.[p]
 #minami
 ¡Mm~!  ¡Delicioso~![p][stopse buf=2]
 #
@@ -423,13 +423,13 @@ La forma en que lo comes hace que luzca delicioso, ¿no?…[p][stopse buf=1]
 De alguna manera, incluso su vocabulario se está volviendo infantil.[p]
 Incluso mis mejillas se relajaron mientras tomaba mi café.[p]
 #hokuto
-Si te hace así de feliz, me alegro de haberte traído aquí[p][stopse buf=1]
+Si te hace así de feliz, me alegro de haberte traído aquí.[p][stopse buf=1]
 #minami
 [ms/uwame][kanim name="minami" keyframe="nod" time="500"]
 Sí, muchas gracias… eh, ¿no te vas a comer a Hokuto?[p][stopse buf=2]
 #hokuto
 [hs/magao]
-No, ese lo pedí para ti[p][stopse buf=1]
+No, ese lo pedí para ti.[p][stopse buf=1]
 #minami
 [ms/egao2]
 No me puedo comer todo esto yo sola. Toma, ¿por qué no pruebas un poco, Hokuto?[p][stopse buf=2]
@@ -437,7 +437,7 @@ No me puedo comer todo esto yo sola. Toma, ¿por qué no pruebas un poco, Hokuto
 Luego, tomó un bocado y me acercó su cuchara.[p]
 #hokuto
 [hs/egao]
-Bueno, Aaah[p][stopse buf=1]
+Bueno, Aaah.[p][stopse buf=1]
 #minami
 [ms/egao]
 Aaah… ¿Hmm?[p][stopse buf=2]
@@ -463,7 +463,7 @@ No te tapes la boca con la mano como si te fuera a salir un globito diciendo "ts
 Temeroso, volví a mirar a Minami y allí estaba, roja como un tomate y a punto de estallar.[p]
 #hokuto
 [hs/dere]
-Uh, Minami, Yo… lo siento[p][stopse buf=1]
+Uh, Minami, Yo… lo siento.[p][stopse buf=1]
 #minami
 [ms/dere]
 No, no, también fue mi culpa…[p][stopse buf=2]
@@ -500,7 +500,7 @@ Tomemos el café y calmémonos. Sí…[p]
 [ms/dere2]
 Estoy tan avergonzada que ni siquiera puedo saborearlo…[p][stopse buf=2]
 #hokuto
-Puedes tomarte otra taza de té y relajarte[p][stopse buf=1]
+Puedes tomarte otra taza de té y relajarte.[p][stopse buf=1]
 #
 Yo haré lo mismo. Porque estoy teniendo exactamente los mismos síntomas en este momento.[p]
 #minami
@@ -525,7 +525,7 @@ La realidad de tener que estudiar para el resto de los exámenes me invade, pero
 Bueno… pasaron muchas cosas, pero… ¿estuviste satisfecha?[p][stopse buf=1]
 #minami
 [ms/bishou][kanim name="minami" keyframe="nod" time="500"]
-Sí, el parfait estaba delicioso[p][stopse buf=2]
+Sí, el parfait estaba delicioso.[p][stopse buf=2]
 #hokuto
 [hs/bishou]
 Ya veo. Bueno, eso está bien…[p][stopse buf=1]
@@ -533,12 +533,12 @@ Ya veo. Bueno, eso está bien…[p][stopse buf=1]
 Sí…[p][stopse buf=2]
 #hokuto
 [hs/kanasimi]
-Me has ayudado tanto que no puedo agradecértelo en absoluto. Siento mucho que solo pudiera hacer esto[p][stopse buf=1]
+Me has ayudado tanto que no puedo agradecértelo en absoluto. Siento mucho que solo pudiera hacer esto.[p][stopse buf=1]
 #minami
-No, hoy me divertí mucho, y me alegré de que hicieras esto por mí, Hokuto[p][stopse buf=2]
+No, hoy me divertí mucho, y me alegré de que hicieras esto por mí, Hokuto.[p][stopse buf=2]
 #hokuto
 [hs/bishou]
-Ya veo. …Bueno, vayamos a otro sitio en otro momento. …pero, no estoy seguro de sentirme cómodo si vuelvo a ese lugar[p][stopse buf=1]
+Ya veo. …Bueno, vayamos a otro sitio en otro momento. …pero, no estoy seguro de sentirme cómodo si vuelvo a ese lugar.[p][stopse buf=1]
 #minami
 [ms/magao2]
 No pasa nada, vamos una vez más…[p][stopse buf=2]
@@ -547,7 +547,7 @@ No pasa nada, vamos una vez más…[p][stopse buf=2]
 ¿Por que?[p][stopse buf=1]
 #minami
 [ms/dere]
-Pero es que… el sundae del día en ese cartel promocional también se veía rico[p][stopse buf=2]
+Pero es que… el sundae del día en ese cartel promocional también se veía rico.[p][stopse buf=2]
 #hokuto
 [hs/akire]
 Realmente eres una glotona…[p][stopse buf=1]
@@ -556,13 +556,13 @@ Realmente eres una glotona…[p][stopse buf=1]
 No puedo evitarlo, la comida estaba deliciosa.…[p][stopse buf=2]
 #hokuto
 [hs/bishou]
-Dicen que es la mejor cafetería de por aquí. Está bien, volvamos allá otra vez[p][stopse buf=1]
+Dicen que es la mejor cafetería de por aquí. Está bien, volvamos allá otra vez.[p][stopse buf=1]
 #minami
 [ms/dere][kanim name="minami" keyframe="nod" time="500"]
-Yeah[p][stopse buf=2]
+Yeah.[p][stopse buf=2]
 #hokuto
 [hs/egao2]
-Ah, sí, quizá la próxima vez deberíamos invitar también a nuestros senpais y al viejo. Le prometí que haríamos algo juntos después de la temporada de lluvia[p][stopse buf=1]
+Ah, sí, quizá la próxima vez deberíamos invitar también a nuestros senpais y al viejo. Le prometí que haríamos algo juntos después de la temporada de lluvia.[p][stopse buf=1]
 [fadeoutbgm time=500]
 #minami
 [ms/bishou]
@@ -574,22 +574,22 @@ Ah, sí, quizá la próxima vez deberíamos invitar también a nuestros senpais 
 [ms/uwame]
 Hokuto, antes me preguntaste, ¿por qué me preocupo por ti?[p][stopse buf=2]
 #hokuto
-S-Sí[p][stopse buf=1]
+S-Sí.[p][stopse buf=1]
 #minami
 [ms/bishou]
-Te voy a responder a esa pregunta[p][stopse buf=2]
+Te voy a responder a esa pregunta.[p][stopse buf=2]
 #hokuto
 [hs/magao]
 ……[p][stopse buf=1]
 #
 [hide][minami_s_kanasimi]
 #minami
-Verás, siempre he odiado verte solo. Si te dejaba solo, de repente te deprimías, te volvías imprudente o hasta intentabas demasiado… No podía soportar verlo. No podía dejarte solo[p][stopse buf=2]
+Verás, siempre he odiado verte solo. Si te dejaba solo, de repente te deprimías, te volvías imprudente o hasta intentabas demasiado… No podía soportar verlo. No podía dejarte solo.[p][stopse buf=2]
 #minami
 [ms/bishou]
-Pero últimamente, al igual que ahora, estoy feliz de que Hokuto quiera a Takamura-san, a nuestros senpais, a gente que ni conozco… a todos, y que te esfuerces y seas amable con ellos, como si se tratara de mí[p][stopse buf=2]
+Pero últimamente, al igual que ahora, estoy feliz de que Hokuto quiera a Takamura-san, a nuestros senpais, a gente que ni conozco… a todos, y que te esfuerces y seas amable con ellos, como si se tratara de mí.[p][stopse buf=2]
 #minami
-Así que ahora quiero impulsarte a que lo hagas mejor[p][stopse buf=2]
+Así que ahora quiero impulsarte a que lo hagas mejor.[p][stopse buf=2]
 #
 [move name=minami left=40 wait=true][hokuto_s_akire left=640]
 #hokuto
@@ -600,19 +600,19 @@ Sí, tal vez sea algo así…[p][stopse buf=2]
 Oye…[p][stopse buf=1]
 #minami
 [ms/tere]
-Es porque. Confiaste en mí. Y me diste las gracias. Estoy muy contenta de que me hayas dado las gracias de la mejor forma posible[p][stopse buf=2]
+Es porque. Confiaste en mí. Y me diste las gracias. Estoy muy contenta de que me hayas dado las gracias de la mejor forma posible.[p][stopse buf=2]
 #hokuto
 [hs/odoroki]
 Ya veo, ya veo… no, ¿qué puedo decir? Se suponía que debía ser yo quien te diera las gracias… es un poco vergonzoso…[p][stopse buf=1]
 #hokuto
 [hs/dere]
-En ocasiones como esta, eres tan honesta y directa, Minami[p][stopse buf=1]
+En ocasiones como esta, eres tan honesta y directa, Minami.[p][stopse buf=1]
 #minami
 [ms/uwame]
 Siempre soy honesta, ¿ok?[p][stopse buf=2]
 #hokuto
 [hs/bishou]
-Pero también eres un poco mentirosa[p][stopse buf=1]
+Pero también eres un poco mentirosa.[p][stopse buf=1]
 #minami
 [ms/bishou]
 Bueno, sí…[p][stopse buf=2]
@@ -621,7 +621,7 @@ Después de hablar sobre eso, ya habíamos llegado al punto en el que siempre no
 #hokuto
 Hasta mañana… y bueno, por favor, encárgate también de mi delicioso almuerzo de mañana.[p][stopse buf=1]
 #minami
-Espera y verás[p][stopse buf=2]
+Espera y verás.[p][stopse buf=2]
 #hokuto
 [hs/magao]
 Lo espero con ansias. Adiós…[p][stopse buf=1]
@@ -630,22 +630,22 @@ Lo espero con ansias. Adiós…[p][stopse buf=1]
 [hide]
 [bg2 storage=still_kokuhaku.png time=1000][eval exp="sf.ST9=1"]
 #minami
-…Hokuto[p][stopse buf=2]
+…Hokuto.[p][stopse buf=2]
 #hokuto
 …¿Qué?[p][stopse buf=1]
 #minami
 La razón por la que me importas… No, la razón por la que quiero estar contigo. Es…[p][stopse buf=2]
 [fadeinbgm time=1000 storage=BGM4.ogg]
 #minami
-Te dedicas a lo que te gusta y a la gente que te gusta, y por eso me gustas, porque te esfuerzas al máximo, Hokuto[p][stopse buf=2]
+Te dedicas a lo que te gusta y a la gente que te gusta, y por eso me gustas, porque te esfuerzas al máximo, Hokuto.[p][stopse buf=2]
 #hokuto
 ![p][stopse buf=1]
 #minami
-Últimamente, me gustas aún más. Me gustas más de lo que le gustas a tu padre o a tu madre. No, me gustas más que cualquier otra persona en esta tierra, en cualquier estrella o en otro lugar del universo[p][stopse buf=2]
+Últimamente, me gustas aún más. Me gustas más de lo que le gustas a tu padre o a tu madre. No, me gustas más que cualquier otra persona en esta tierra, en cualquier estrella o en otro lugar del universo.[p][stopse buf=2]
 #hokuto
 ……[p][stopse buf=1]
 #minami
-Así es como me siento. …Bueno, hasta luego[p][stopse buf=2]
+Así es como me siento. …Bueno, hasta luego.[p][stopse buf=2]
 #
 [bg2 storage=michi_e.jpg time=500]
 Con eso, Minami se fue a casa por su cuenta..[p]
@@ -769,25 +769,25 @@ Bueno, para ser sincero, nunca se me pasó por la cabeza que pudiera pasar esto.
 #
 [nao_bishou]
 #nao
-Oh, hola, Hokuto-kun, Minami-chan[p][stopse buf=4]
+Oh, hola, Hokuto-kun, Minami-chan.[p][stopse buf=4]
 #
 [hide][hokuto_s_iradati2 left=640 wait=false][minami_s_odoroki left=40]
 #hokuto
 Presidenta, ¿qué pasa?…[p][stopse buf=1]
 #nao
 [n_magao]
-Tengo una carta para ustedes[p][stopse buf=4]
+Tengo una carta para ustedes.[p][stopse buf=4]
 [mnhide]
 #hokuto
 [hs/magao wait=false][ms/magao]
 Espera, ¿por qué tienes una carta dirigida a nosotros?[p][stopse buf=1]
 #nao
 [n_iradati]
-Me dijeron que lo habían entregado en la escuela. El profesor me la dio[p][stopse buf=4]
+Me dijeron que lo habían entregado en la escuela. El profesor me la dio.[p][stopse buf=4]
 [mnhide]
 #hokuto
 [hs/odoroki]
-Ya veo… Bueno, gracias[p][stopse buf=1]
+Ya veo… Bueno, gracias.[p][stopse buf=1]
 #
 [playse storage=se/paper.ogg buf=8]
 Controlando mi respiración, tomo el sobre sin pensármelo dos veces y reviso el remitente del otro lado.[p]
@@ -809,7 +809,7 @@ Esto es… lo siento, sé que acabamos de tener unas largas vacaciones, pero… 
 ¿Eh? ¿Qué quieres decir?[p][stopse buf=2]
 #hokuto
 [hs/magao]
-Lee esto[p][stopse buf=1]
+Lee esto.[p][stopse buf=1]
 #minami
 [ms/aozame]
 Esto…[p][stopse buf=2]
@@ -826,7 +826,7 @@ No pasa nada. Pero sólo un día, ¿ok?[p][stopse buf=4]
 [mnhide]
 #hokuto
 [hs/magao]
-Sí, muchas gracias[p][stopse buf=1]
+Sí, muchas gracias.[p][stopse buf=1]
 
 [mask graphic="cut/cutin_hokuto.png" time=1500]
 [wait time=500]

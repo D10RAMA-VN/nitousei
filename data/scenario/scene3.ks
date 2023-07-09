@@ -17,7 +17,7 @@
 [rolebutton]
 [M0]
 @layopt layer=message0 visible=true
-[ptext name="chara_name_area" layer="message0" color="white" size=44 bold=true x=350 y=755 face="NotoInitial"]
+[ptext name="chara_name_area" layer="message0" color="white" size=44 bold=true x=350 y=755 face="akko"]
 [wait time=500]
 [mask_off time=1000]
 
@@ -38,7 +38,7 @@ Hokuto-kun, quiero enseñarte esto después… ¿puedes hacerlo?[p][stopse buf=4
 #
 [hide][hokuto_w_magao]
 #hokuto
-No hay problema. Lo intentaré[p][stopse buf=1]
+No hay problema. Lo intentaré.[p][stopse buf=1]
 #
 [hide][minami_w_magao]
 #minami
@@ -67,7 +67,7 @@ No lo sé. No se, pero me siento obligado a continuar.[p]
 [hw/aozame]
 Eh…[p][stopse buf=1]
 #
-When I noticed I had fell asleep during math class[p]
+When I noticed I had fell asleep during math class.[p]
 #Profesor
 ¡nada de "Eh"! ¡Vamos, despierta![p]
 #hokuto
@@ -77,13 +77,13 @@ S…i… [p][stopse buf=1]
 #hokuto
 Es…toy Bi…en…[p][stopse buf=1]
 #Profesor
-Déjame revisarte… Oye, tienes fiebre[p]
+Déjame revisarte… Oye, tienes fiebre.[p]
 #hokuto
 eh…?[p][stopse buf=1]
 #Profesor
-…Ve a la enfermería. Consejero de Salud, por favor[p]
+…Ve a la enfermería. Consejero de Salud, por favor.[p]
 #Compañero de Clase
-Si[p]
+Si.[p]
 #hokuto
 [hw/aozame2]
 …[p][stopse buf=1]
@@ -120,25 +120,25 @@ Estoy seguro de que me desmayé durante el segundo período, matemáticas…[p]
 …¿He dormido todo el día?…[p][stopse buf=1]
 [mhhide]
 #Enfermera
-Oh, ¿ya te despertaste? Kagaya-kun[p]
+Oh, ¿ya te despertaste? Kagaya-kun.[p]
 #
 [bg2 storage="hoken.jpg" time="500"][hokuto_s_mu]
 #hokuto
-Ah, Profesora[p][stopse buf=1]
+Ah, Profesora.[p][stopse buf=1]
 #Enfermera
 ¿Estás bien?[p]
 #hokuto
 [hs/mu2]
-Todavía un poco débil, pero ya estoy mejor[p][stopse buf=1]
+Todavía un poco débil, pero ya estoy mejor.[p][stopse buf=1]
 #Enfermera
-Ya veo. ¿Te duele la garganta o algo así? Tenías bastante fiebre[p]
+Ya veo. ¿Te duele la garganta o algo así? Tenías bastante fiebre.[p]
 #hokuto
-No, nada por el estilo[p][stopse buf=1]
+No, nada por el estilo.[p][stopse buf=1]
 #Enfermera
-Ya veo, ¿Te sientes cansado a causa del nuevo semestre? Y últimamente hace mucho calor. El cambio de uniforme también pasó hace poco, me pregunto si tu cuerpo se sorprendió por esos cambios[p]
+Ya veo, ¿Te sientes cansado a causa del nuevo semestre? Y últimamente hace mucho calor. El cambio de uniforme también pasó hace poco, me pregunto si tu cuerpo se sorprendió por esos cambios.[p]
 #hokuto
 [hs/mu]
-…Puede ser[p][stopse buf=1]
+…Puede ser.[p][stopse buf=1]
 #Enfermera
 Ya veo. Ah, cierto, traté de llamar a tu casa un par de veces, pero no logré comunicarme…[p]
 #hokuto
@@ -147,17 +147,17 @@ oh, mis padres, normalmente duermen durante el día…[p][stopse buf=1]
 #Enfermera
 ¿En serio?[p]
 #hokuto
-Pero creo que ya debería estar despierta, y seguro que aún no se ha ido a trabajar[p][stopse buf=1]
+Pero creo que ya debería estar despierta, y seguro que aún no se ha ido a trabajar.[p][stopse buf=1]
 #Enfermera
 Bueno, no quiero ser grosera, pero tus padres, Kagaya-kun…[p]
 #hokuto
 [hs/kanasimi]
-Solo somos mi mamá y yo. Ella trabaja en un supermercado por la noche[p][stopse buf=1]
+Solo somos mi mamá y yo. Ella trabaja en un supermercado por la noche.[p][stopse buf=1]
 #Enfermera
-Ya veo. Eso es mucho trabajo… de todos modos, voy a hacer una llamada más. Necesito que alguien te recoja[p]
+Ya veo. Eso es mucho trabajo… de todos modos, voy a hacer una llamada más. Necesito que alguien te recoja.[p]
 #hokuto
 [hs/mu]
-Lo siento[p][stopse buf=1]
+Lo siento.[p][stopse buf=1]
 #Enfermera
 No pasa nada. …Hablando de eso, Kagaya-kun, ¿esa chica es tu novia?[p]
 #hokuto
@@ -172,9 +172,9 @@ Miré hacia la puerta, como la profesora, y vi a Minami mirándome desde el pasi
 Vino a ver cómo estabas en cada descanso. ¿No deberías agradecerle por eso?[p]
 #hokuto
 [hs/bishou]
-…Sí[p][stopse buf=1]
+…Sí.[p][stopse buf=1]
 #Enfermera
-Bueno, me voy al salón de profesores a hacer algunas llamadas[p]
+Bueno, me voy al salón de profesores a hacer algunas llamadas.[p]
 #
 [hide]
 Asentí y la profesora se fue.[p]
@@ -184,7 +184,7 @@ Las vi hablando de algo en el pasillo, y luego cambiaron de lugar, y una Minami 
 Hokuto, ¿estás bien?…[p][stopse buf=2]
 #hokuto
 [kanim name="hokuto" keyframe="nod" time="500"]
-Sí, por ahora[p][stopse buf=1]
+Sí, por ahora.[p][stopse buf=1]
 #minami
 [ms/dere]
 Ya veo…[p][stopse buf=2]
@@ -197,7 +197,7 @@ Porque oí que te desmayaste…[p][stopse buf=2]
 Estabas preocupada por mí, gracias…[p][stopse buf=1]
 #minami
 [ms/uwame]
-No necesito que me agradezcas… vamos, necesitas acostarte y taparte bien[p][stopse buf=2]
+No necesito que me agradezcas… vamos, necesitas acostarte y taparte bien.[p][stopse buf=2]
 #hokuto
 [hs/hutyou]
 Lo siento…[p][stopse buf=1]
@@ -213,7 +213,7 @@ Francamente, todavía estoy un poco débil, así que agradezco mucho tanta atenc
 ¿Por qué viniste hoy a la escuela?¿Cómo has podido tener fiebre por la mañana, acaso no estabas enfermo cuando te levantaste esta mañana?[p][stopse buf=2]
 #hokuto
 [hs_mu2]
-A decir verdad, me he sentido un poco decaído, pero últimamente siempre ha sido así[p][stopse buf=1]
+A decir verdad, me he sentido un poco decaído, pero últimamente siempre ha sido así.[p][stopse buf=1]
 [mhhide]
 #minami
 [ms/odoroki]
@@ -222,23 +222,23 @@ A decir verdad, me he sentido un poco decaído, pero últimamente siempre ha sid
 [hs_mu]
 Pues, participar en el club todos la semana, estudiar hasta pasada la medianoche todos los días, los fines de semana, club durante el día y a mirar las estrellas con el viejo por la noche y estudiar en la noche…[p][stopse buf=1]
 #hokuto
-…Creo que no he dormido bien desde hace rato[p][stopse buf=1]
+…Creo que no he dormido bien desde hace rato.[p][stopse buf=1]
 [mhhide]
 #minami
 [ms/magao2]
 ¿Y la comida? ¿Estás comiendo bien?…[p][stopse buf=2]
 #hokuto
 [hs_mu]
-Mi mamá me cocina por la noche[p][stopse buf=1]
+Mi mamá me cocina por la noche.[p][stopse buf=1]
 #hokuto
-Pero normalmente comía algo sencillo en el almuerzo, si no en el desayuno. Me comía un onigiri o una barra de proteína[p][stopse buf=1]
+Pero normalmente comía algo sencillo en el almuerzo, si no en el desayuno. Me comía un onigiri o una barra de proteín.[p][stopse buf=1]
 [mhhide]
 #minami
 [ms/aozame]
 …!!! ¿Por qué?[p][stopse buf=2]
 #hokuto
 [hs_metozi]
-No tengo tiempo, y mi mamá tampoco. No me gusta pedirle que me prepare el almuerzo, así que compro algo en el supermercado o el pan en la tienda de la escuela[p][stopse buf=1]
+No tengo tiempo, y mi mamá tampoco. No me gusta pedirle que me prepare el almuerzo, así que compro algo en el supermercado o el pan en la tienda de la escuela.[p][stopse buf=1]
 #hokuto
 Me dan dinero para comprar comida, pero no es mucho, así que no puedo comprar nada lujoso…[p][stopse buf=1]
 [mhhide]
@@ -258,7 +258,7 @@ De momento, ¿por qué no te tomas un descanso? hoy es jueves, así que… Al me
 [mhhide]
 #minami
 [ms/iradati]
-¡No! Tu salud es la prioridad. Voy a decírselo a la Presidenta y al viejo, y te dejaré copiar todos los apuntes de clases que quieras después[p][stopse buf=2]
+¡No! Tu salud es la prioridad. Voy a decírselo a la Presidenta y al viejo, y te dejaré copiar todos los apuntes de clases que quieras después.[p][stopse buf=2]
 #hokuto
 [hs_iradati2]
 No quiero. Vendré mañana. Todavía tengo que…[p][stopse buf=1]
@@ -281,7 +281,7 @@ Miro a Minami, y noto lágrimas en sus ojos.[p]
 Normalmente, cuando tienes un día libre de la escuela o de las actividades del club. Normalmente, los chicos pensarían, "Super, puedo faltar un día", ¿sabes?[p][stopse buf=2]
 #hokuto
 [hs_mu2]
-……Seguro que hay gente así[p][stopse buf=1]
+……Seguro que hay gente así.[p][stopse buf=1]
 [mhhide]
 #minami
 [ms/naki2]
@@ -301,10 +301,10 @@ Es más molesto para ellos si te apareces en este estado…[p][stopse buf=2]
 [ms/ikari]
 Desde hace tiempo, cuando empiezas de repente algo como el béisbol, el fútbol, el judo, el kárate, el baloncesto o incluso el consejo estudiantil, parece divertirte mucho al principio, pero luego no tanto…[p][stopse buf=2]
 #minami
-"¡Tengo que hacerlo!" "Tengo que ir" Aunque no quieras hacerlo[p][stopse buf=2]
+"¡Tengo que hacerlo!" "Tengo que ir" Aunque no quieras hacerlo.[p][stopse buf=2]
 #hokuto
 [hs_akire]
-Pues… ya sabes, en los deportes, a veces no puedes evitarlo. Hay prácticas difíciles. El consejo estudiantil tenía muchos problemas[p][stopse buf=1]
+Pues… ya sabes, en los deportes, a veces no puedes evitarlo. Hay prácticas difíciles. El consejo estudiantil tenía muchos problemas.[p][stopse buf=1]
 [mhhide]
 #minami
 [ms/kanasimi]
@@ -315,20 +315,20 @@ Pero no era sólo eso contigo. No, no. Era algo más, estoy segura…[p][stopse 
 [mhhide]
 #minami
 [ms/ikarinaki]
-Porque… nunca me dijiste que querías descansar, así como lo estás haciendo ahora, y en aquellas cosas te iba bien[p][stopse buf=2]
+Porque… nunca me dijiste que querías descansar, así como lo estás haciendo ahora, y en aquellas cosas te iba bien.[p][stopse buf=2]
 #hokuto
 [hs_mu2]
 …[p][stopse buf=1]
 [mhhide]
 #minami
-Se te daba bien, lo hacías bien, pero sentías que… no eras lo suficientemente bueno, sentías que tenías que hacer más… aunque nadie te lo dijera[p][stopse buf=2]
+Se te daba bien, lo hacías bien, pero sentías que… no eras lo suficientemente bueno, sentías que tenías que hacer más… aunque nadie te lo dijera.[p][stopse buf=2]
 #hokuto
 [hs_mu]
 Eso…[p][stopse buf=1]
 [mhhide]
 #minami
 [ms/ikari]
-Sobre todo cuando se trata de estudiar. Aunque digas que no te gusta estudiar, te esfuerzas muchísimo, ¿verdad?  Has tenido mejores notas que yo desde la escuela secundaria[p][stopse buf=2]
+Sobre todo cuando se trata de estudiar. Aunque digas que no te gusta estudiar, te esfuerzas muchísimo, ¿verdad?  Has tenido mejores notas que yo desde la escuela secundaria.[p][stopse buf=2]
 #hokuto
 [hs_metozi]
 Pero si mis calificaciones bajan—…[p][stopse buf=1]
@@ -351,14 +351,14 @@ Mirar las estrellas es lo que menos entiendo…[p][stopse buf=2]
 ¿Por qué te preocupas tanto por ese viejo? ¿Qué es eso de buscar una estrella invisible? ¿Qué estrella es? ¿Dónde está y cómo se llama?[p][stopse buf=2]
 #hokuto
 [hs_mu]
-…No sé[p][stopse buf=1]
+…No sé.[p][stopse buf=1]
 [mhhide]
 #minami
 [ms/ikarinaki]
 ¡Nunca la encontraremos! Quiero decir, ¿Qué es lo que está buscando ese viejo?…[p][stopse buf=2]
 #hokuto
 [hs_metozi]
-…Tampoco lo sé[p][stopse buf=1]
+…Tampoco lo sé.[p][stopse buf=1]
 [mhhide]
 #minami
 [ms/oogoe]
@@ -381,7 +381,7 @@ A mi…[p][stopse buf=1]
 Si…[p][stopse buf=2]
 #hokuto
 [hs_kanasimi]
-No me gusta estar sola en casa por la noche[p][stopse buf=1]
+No me gusta estar sola en casa por la noche.[p][stopse buf=1]
 [mhhide]
 #minami
 [ms/naki]
@@ -402,7 +402,7 @@ Pero cuando veo la foto de mi papá en el altar familiar, me siento como si me e
 …-…[p][stopse buf=2]
 #hokuto
 [hs_kanasimi]
-Así que… supongo que algo tengo que hacer para no sentirme así… Tengo que quedarme hasta tarde, practicando, ensayando, estando físicamente activo[p][stopse buf=1]
+Así que… supongo que algo tengo que hacer para no sentirme así… Tengo que quedarme hasta tarde, practicando, ensayando, estando físicamente activo.[p][stopse buf=1]
 #hokuto
 y si no siento que estoy dando lo mejor de mí, no me siento bien…[p][stopse buf=1]
 #hokuto
@@ -421,7 +421,7 @@ Lo siento…[p][stopse buf=2]
 Lo sabía… Lo sabía… Es por tu papá… Porque no está aquí… Lo siento, Hokuto… Lo siento…[p][stopse buf=2]
 #hokuto
 [hs_mu]
-Está bien. No es culpa tuya, Minami. No me importa[p][stopse buf=1]
+Está bien. No es culpa tuya, Minami. No me importa.[p][stopse buf=1]
 [mhhide]
 #minami
 ¡Sé que te importa! Me estas diciendo que te sientes solo…[p][stopse buf=2]
@@ -453,10 +453,10 @@ Porque es mi…[p][stopse buf=2]
 [mhhide]
 #minami
 [ms/naki2]
-…Hokuto[p][stopse buf=2]
+…Hokuto.[p][stopse buf=2]
 #hokuto
 [hs_aozame]
-Sal, me está subiendo la fiebre[p][stopse buf=1]
+Sal, me está subiendo la fiebre.[p][stopse buf=1]
 [mhhide]
 #minami
 [ms/ikarinaki]
