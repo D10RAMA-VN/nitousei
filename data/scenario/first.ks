@@ -1,4 +1,17 @@
-[title name="見えない二等星"]
+[if exp="sf.trans==undefined"][eval exp="sf.trans=0"][endif]
+[if exp="sf.trans==2"]
+    [title name=&"String('La\x20estrella\x20invisible')"]
+    [dialog_config_ok text="Si"]
+    [dialog_config_ng text="No"]
+[elsif exp="sf.trans==1"]
+    [title name=&"String('The\x20Invisible\x20Star')"]
+    [dialog_config_ok text="Yes"]
+    [dialog_config_ng text="No"]
+[else]
+    [title name="見えない二等星"]
+    [dialog_config_ok text="はい"]
+    [dialog_config_ng text="いいえ"]
+[endif]
 
 [stop_keyconfig]
 [hidemenubutton]
@@ -41,6 +54,11 @@
 
 [mask_off time=1000]
 
-
-@jump storage="title.ks"
+[if exp="sf.trans==2"]
+@jump storage="es/title.ks"
+[elsif exp="sf.trans==1"]
+@jump storage="en/title.ks"
+[else]
+@jump storage="ja/title.ks"
+[endif]
 [s]

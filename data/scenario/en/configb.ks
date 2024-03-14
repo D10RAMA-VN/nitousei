@@ -134,7 +134,7 @@
 			</div>
 			<div class=min_max style="left:-52px;top:125px;">min</div><div class=min_max style="left:318px;top:125px;">MAX</div>
             <div class=min_max style="left:-52px;top:325px;">min</div><div class=min_max style="left:318px;top:325px;">MAX</div>
-            <div class=min_max style="left:-52px;top:526px;">min</div><div class=min_max style="left:318px;top:526px;">MAX</div>
+            <div class=min_max style="left:-52px;top:526px;">min</div><div class=min_max style="left:318px;top:526px;">MAX</div>
             <div class=min_max style="left:610px;top:125px;">min</div><div class=min_max style="left:980px;top:125px;">MAX</div>
             <div class=min_max style="left:610px;top:325px;">min</div><div class=min_max style="left:980px;top:325px;">MAX</div>
             <div class=min_max style="left:610px;top:526px;">min</div><div class=min_max style="left:980px;top:526px;">MAX</div>

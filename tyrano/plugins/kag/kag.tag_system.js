@@ -574,4 +574,40 @@ tyrano.plugin.kag.tag.eval = {
       e.kag.ftag.nextOrder()
     }) : e.kag.ftag.nextOrder(), console.log(t)
   }
+}, tyrano.plugin.kag.tag.dialog_config_ok = {
+  pm: {
+    text: "",
+    type: "",
+    width: "",
+    margin: "",
+    padding: "",
+    fontsize: "",
+    fontbold: "",
+    fontface: "",
+    fontcolor: "",
+    img: "",
+    imgwidth: "",
+    enterimg: "",
+    activeimg: "",
+    clickimg: "",
+    enterse: "",
+    leavese: "",
+    clickse: "",
+    btnimgtype: ""
+  },
+  start: function (pm) {
+    const that = this.kag.ftag.master_tag.dialog_config;
+    that.init();
+    that.changeButton(pm, !0);
+    this.kag.ftag.nextOrder()
+  }
+},
+tyrano.plugin.kag.tag.dialog_config_ng = {
+  pm: tyrano.plugin.kag.tag.dialog_config_ok.pm,
+  start: function (pm) {
+    const that = this.kag.ftag.master_tag.dialog_config;
+    that.init();
+    that.changeButton(pm, !1);
+    this.kag.ftag.nextOrder()
+  }
 };
