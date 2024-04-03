@@ -35,7 +35,15 @@ tyrano.plugin.kag.tag.eval = {
   },
   start: function (t) {
     var a = this;
-    "true" == t.ask ? $.confirm($.lang("exit_game"), function () {
+    var message;
+    if(TYRANO.kag.variable.sf.trans == 2){
+      message = $.lang("exit_game_es");
+    } else if(TYRANO.kag.variable.sf.trans == 1){
+      message = $.lang("exit_game_en");
+    }else{
+      message = $.lang("exit_game");
+    }
+    "true" == t.ask ? $.confirm(message, function () {
       a.close()
     }, function () {
       a.kag.ftag.nextOrder()
@@ -574,6 +582,281 @@ tyrano.plugin.kag.tag.eval = {
       e.kag.ftag.nextOrder()
     }) : e.kag.ftag.nextOrder(), console.log(t)
   }
+}, tyrano.plugin.kag.tag.dialog_config = {
+  pm: {
+    okpos: "",
+    btntype: "",
+    btnwidth: "",
+    btnmargin: "",
+    btnpadding: "",
+    fontsize: "",
+    fontbold: "",
+    fontface: "",
+    fontcolor: "",
+    btnfontsize: "",
+    btnfontbold: "",
+    btnfontface: "",
+    btnfontcolor: "",
+    boxradius: "",
+    boxcolor: "",
+    boximg: "",
+    boximgpos: "",
+    boximgrepeat: "",
+    boximgsize: "",
+    boxopacity: "",
+    boxwidth: "",
+    boxheight: "",
+    boxpadding: "",
+    bgcolor: "",
+    bgimg: "",
+    bgimgpos: "",
+    bgimgrepeat: "",
+    bgimgsize: "",
+    bgopacity: "",
+    openeffect: "",
+    opentime: "",
+    closeeffect: "",
+    closetime: "",
+    gotitle: "",
+    ingame: ""
+  },
+  __initialized: !1,
+  init() {
+    if (!this.__initialized) {
+      this.__initialized = !0;
+      this.j_overlay = $(".remodal-overlay");
+      this.j_box = $("[data-remodal-id=modal]");
+      this.j_wrapper = this.j_box.parent();
+      this.j_title = this.j_box.find(".remodal_title");
+      this.j_message = this.j_box.find(".remodal_txt");
+      this.j_text = $([this.j_title[0], this.j_message[0]]);
+      this.j_cancel = this.j_box.find(".remodal-cancel").attr("id", "remodal-cancel");
+      this.j_ok = this.j_box.find(".remodal-confirm").attr("id", "remodal-confirm");
+      this.j_button = $([this.j_ok[0], this.j_cancel[0]]);
+      this.j_boxbase = $('<div class="remodal-boxbase"></div>');
+      this.j_box.prepend(this.j_boxbase);
+      this.j_base = $('<div class="remodal-base"></div>');
+      this.j_image = $('<div class="remodal-image"</div>');
+      this.j_base.append(this.j_image);
+      this.j_wrapper.prepend(this.j_base);
+      this.j_ok_img = null;
+      this.j_cancel_img = null
+    }
+  },
+  start: function (pm) {
+    this.init();
+    pm.btntype && this.j_button.attr("class", pm.btntype);
+    pm.btnwidth && this.j_button.setStyle("width", $.convertLength(pm.btnwidth));
+    pm.btnmargin && this.j_button.setMargin(pm.btnmargin);
+    pm.btnpadding && this.j_button.setPadding(pm.btnpadding);
+    pm.fontsize && this.j_text.setStyle("font-size", $.convertLength(pm.fontsize));
+    pm.fontbold && this.j_text.setStyle("font-weight", $.convertFontWeight(pm.fontbold));
+    pm.fontface && this.j_text.setStyle("font-family", pm.fontface);
+    pm.fontcolor && this.j_text.setStyle("color", $.convertColor(pm.fontcolor));
+    pm.btnfontsize && this.j_button.setStyle("font-size", $.convertLength(pm.btnfontsize));
+    pm.btnfontbold && this.j_button.setStyle("font-weight", $.convertFontWeight(pm.btnfontbold));
+    pm.btnfontface && this.j_button.setStyle("font-family", pm.btnfontface);
+    pm.btnfontcolor && this.j_button.setStyle("color", $.convertColor(pm.btnfontcolor));
+    if (pm.boxradius) {
+      this.j_box.setStyle("border-radius", $.convertLength(pm.boxradius + "px"));
+      this.j_boxbase.setStyle("border-radius", $.convertLength(pm.boxradius + "px"))
+    }
+    pm.boxcolor && this.j_boxbase.setStyle("background-color", $.convertColor(pm.boxcolor));
+    pm.boximg && this.j_boxbase.setStyle("background-image", $.convertBackgroundImage(pm.boximg, "image"));
+    pm.boximgpos && this.j_boxbase.setStyle("background-position", $.convertBackgroundPosition(pm.boximgpos));
+    pm.boximgsize && this.j_boxbase.setStyle("background-size", $.convertLength(pm.boximgsize));
+    pm.boximgrepeat && this.j_boxbase.setStyle("background-repeat", pm.boximgrepeat);
+    pm.boxopacity && this.j_boxbase.setStyle("opacity", $.convertOpacity(pm.boxopacity));
+    pm.boxwidth && this.j_box.setStyle("width", $.convertLength(pm.boxwidth)).setStyle("max-width", $.convertLength(pm.boxwidth));
+    pm.boxheight && this.j_box.setStyle("height", $.convertLength(pm.boxheight)).setStyle("max-height", $.convertLength(pm.boxheight));
+    pm.boxpadding && this.j_box.setPadding(pm.boxpadding);
+    (pm.boximg || pm.boxcolor) && this.j_box.setStyleMap({
+      background: "none"
+    });
+    (pm.bgimg || pm.bgcolor) && this.j_overlay.setStyleMap({
+      webkitFilter: "none",
+      filter: "none",
+      background: "none"
+    });
+    pm.bgcolor && this.j_image.setStyle("background-color", $.convertColor(pm.bgcolor));
+    pm.bgimg && this.j_image.setStyle("background-image", $.convertBackgroundImage(pm.bgimg, "image"));
+    pm.bgimgpos && this.j_image.setStyle("background-position", $.convertBackgroundPosition(pm.bgimgpos));
+    pm.bgimgsize && this.j_image.setStyle("background-size", $.convertLength(pm.bgimgsize));
+    pm.bgimgrepeat && this.j_image.setStyle("background-repeat", pm.bgimgrepeat);
+    pm.bgopacity && this.j_image.setStyle("opacity", $.convertOpacity(pm.bgopacity));
+    pm.openeffect && (this.kag.tmp.remodal_opening_effect = pm.openeffect);
+    pm.closeeffect && (this.kag.tmp.remodal_closing_effect = pm.closeeffect);
+    pm.opentime && (this.kag.tmp.remodal_opening_effect_time = pm.opentime + "ms");
+    pm.closetime && (this.kag.tmp.remodal_closing_effect_time = pm.closetime + "ms");
+    pm.gotitle && (tyrano_lang.word.go_title = pm.gotitle);
+    if (pm.okpos) {
+      const insert_method = "left" === pm.okpos ? "insertBefore" : "insertAfter";
+      this.j_ok[insert_method](this.j_cancel);
+      this.j_ok_img && this.j_ok_img[insert_method](this.j_ok);
+      this.j_cancel_img && this.j_cancel_img[insert_method](this.j_cancel)
+    }
+    if (pm.ingame) {
+      const j_remodal = $(".remodal-bg, .remodal-overlay, .remodal-wrapper");
+      if ("true" === pm.ingame) {
+        j_remodal.appendTo("#tyrano_base");
+        j_remodal.setStyle("z-index", "1000000000")
+      } else "false" === pm.ingame && j_remodal.appendTo("body")
+    }
+    this.kag.ftag.nextOrder()
+  },
+  changeButton(pm, is_ok) {
+    if (pm.img && "bg" !== pm.btnimgtype) return this.replaceButton(pm, is_ok);
+    const j_elm = is_ok ? this.j_ok : this.j_cancel,
+      id = is_ok ? "remodal-confirm" : "remodal-cancel",
+      j_old_image = $(`img#${id}`);
+    if (j_old_image.length > 0) {
+      j_old_image.remove();
+      j_elm.show().attr("id", id);
+      TYRANO.kag.makeFocusable(j_elm)
+    }
+    pm.text && j_elm.text(pm.text);
+    pm.type && j_elm.attr("class", pm.type);
+    pm.width && j_elm.setStyle("width", $.convertLength(pm.width));
+    pm.margin && j_elm.setMargin(pm.margin);
+    pm.padding && j_elm.setPadding(pm.padding);
+    pm.fontsize && j_elm.setStyle("font-size", $.convertLength(pm.fontsize));
+    pm.fontbold && j_elm.setStyle("font-weight", $.convertFontWeight(pm.fontbold));
+    pm.fontface && j_elm.setStyle("font-family", pm.fontface);
+    pm.fontcolor && j_elm.setStyle("color", $.convertColor(pm.fontcolor));
+    pm.img && (this.css_map[`#${id}`]["background-image"] = $.convertBackgroundImage(pm.img, "image"));
+    if (pm.activeimg) {
+      this.css_map[`#${id}:active`]["background-image"] = $.convertBackgroundImage(pm.activeimg, "image");
+      this.css_map[`#${id}.active`]["background-image"] = $.convertBackgroundImage(pm.activeimg, "image")
+    }
+    if (pm.enterimg) {
+      this.css_map[`#${id}:hover`]["background-image"] = $.convertBackgroundImage(pm.enterimg, "image");
+      this.css_map[`#${id}.hover`]["background-image"] = $.convertBackgroundImage(pm.enterimg, "image")
+    }
+    pm.clickimg && (this.css_map[`#${id}.clicked`]["background-image"] = $.convertBackgroundImage(pm.clickimg, "image"));
+    this.updateCSS();
+    j_elm.off("init mouseenter mouseleave click");
+    j_elm.on("init", (() => {
+      j_elm.removeClass("clicked")
+    }));
+    j_elm.on("mouseenter", (() => {
+      pm.enterse && this.kag.playSound(pm.enterse)
+    }));
+    j_elm.on("mouseleave", (() => {
+      pm.leavese && this.kag.playSound(pm.leavese)
+    }));
+    j_elm.on("click", (() => {
+      pm.clickse && this.kag.playSound(pm.clickse);
+      j_elm.addClass("clicked")
+    }))
+  },
+  css_map: {
+    "#remodal-confirm": {},
+    "#remodal-confirm:hover": {},
+    "#remodal-confirm.hover": {},
+    "#remodal-confirm:active": {},
+    "#remodal-confirm.active": {},
+    "#remodal-confirm.clicked": {},
+    "#remodal-cancel": {},
+    "#remodal-cancel:hover": {},
+    "#remodal-cancel.hover": {},
+    "#remodal-cancel:active": {},
+    "#remodal-cancel.active": {},
+    "#remodal-cancel.clicked": {}
+  },
+  updateCSS() {
+    let css_exists = !1,
+      css = "";
+    for (const key in this.css_map) {
+      css += `${key}{`;
+      const styles = this.css_map[key];
+      for (const prop in styles) {
+        css += `${prop}:${styles[prop]};`;
+        css_exists = !0
+      }
+      css += "}"
+    }
+    if (!css_exists) return;
+    let style_elm = document.getElementById("dialog_config_style");
+    if (!style_elm) {
+      style_elm = document.createElement("style");
+      style_elm.id = "dialog_config_style";
+      document.head.appendChild(style_elm)
+    }
+    style_elm.textContent = css
+  },
+  replaceButton(pm, is_ok) {
+    pm.img = $.parseStorage(pm.img, "image");
+    pm.enterimg = $.parseStorage(pm.enterimg, "image");
+    pm.activeimg = $.parseStorage(pm.activeimg, "image");
+    pm.clickimg = $.parseStorage(pm.clickimg, "image");
+    const id = is_ok ? "remodal-confirm" : "remodal-cancel",
+      j_original_button = is_ok ? this.j_ok : this.j_cancel,
+      j_old_image = $(`img#${id}`);
+    if (j_old_image.length) j_old_image.remove();
+    else {
+      j_original_button.hide().attr("id", "");
+      TYRANO.kag.makeUnfocusable(j_original_button)
+    }
+    const j_img = this.createButton(pm);
+    pm.margin && j_img.setMargin(pm.margin);
+    pm.padding && j_img.setPadding(pm.padding);
+    j_img.attr("id", id);
+    j_img.addClass("remodal-image-button");
+    j_img.insertBefore(j_original_button);
+    j_img.on("click", (() => {
+      j_original_button.trigger("click")
+    }));
+    j_img.on("touchstart", (() => {
+      j_original_button.trigger("touchstart")
+    }));
+    is_ok ? this.j_ok_img = j_img : this.j_cancel_img = j_img
+  },
+  createButton(pm) {
+    const j_img = $("<img />").attr("src", pm.img);
+    pm.width && j_img.setStyle("width", $.convertLength(pm.width));
+    let clicked = !1;
+    j_img.on("init", (() => {
+      clicked = !1;
+      j_img.attr("src", pm.img)
+    }));
+    j_img.on("mouseenter", (() => {
+      pm.enterimg && (pm.activeimg && 0 !== j_img.filter(":active").length || j_img.attr("src", pm.enterimg));
+      pm.enterse && this.kag.playSound(pm.enterse)
+    }));
+    j_img.on("mouseleave", (() => {
+      pm.activeimg ? clicked || 0 !== j_img.filter(":active").length || j_img.attr("src", pm.img) : clicked || j_img.attr("src", pm.img);
+      pm.leavese && this.kag.playSound(pm.leavese)
+    }));
+    j_img.on("mousedown", (() => {
+      pm.activeimg && j_img.attr("src", pm.activeimg);
+      pm.clickse && this.kag.playSound(pm.clickse);
+      window.__active_element = j_img[0]
+    }));
+    j_img.on("activeoff", (() => {
+      j_img.filter(":hover").length > 0 ? clicked = !0 : pm.activeimg && j_img.attr("src", pm.img)
+    }));
+    j_img.on("click", (() => {
+      clicked = !0;
+      pm.clickimg && j_img.attr("src", pm.clickimg);
+      pm.clickse && this.kag.playSound(pm.clickse)
+    }));
+    j_img.on("remove", (() => {
+      window.__active_element === j_img[0] && (window.__active_element = null)
+    }));
+    if (!window.__is_set_active_remover) {
+      window.__is_set_active_remover = !0;
+      window.addEventListener("mouseup", (() => {
+        if (window.__active_element) {
+          const elm = window.__active_element;
+          window.__active_element = null;
+          $(elm).trigger("activeoff")
+        }
+      }), {
+        capture: !0
+      })
+    }
+    return j_img
+  }
 }, tyrano.plugin.kag.tag.dialog_config_ok = {
   pm: {
     text: "",
@@ -601,13 +884,17 @@ tyrano.plugin.kag.tag.eval = {
     that.changeButton(pm, !0);
     this.kag.ftag.nextOrder()
   }
-},
-tyrano.plugin.kag.tag.dialog_config_ng = {
+}, tyrano.plugin.kag.tag.dialog_config_ng = {
   pm: tyrano.plugin.kag.tag.dialog_config_ok.pm,
   start: function (pm) {
     const that = this.kag.ftag.master_tag.dialog_config;
     that.init();
     that.changeButton(pm, !1);
     this.kag.ftag.nextOrder()
+  }
+}, tyrano.plugin.kag.tag.translation = {
+  start:function () {
+    location.href = "./index.html";
+    return !1
   }
 };

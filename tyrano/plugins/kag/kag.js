@@ -425,7 +425,15 @@ tyrano.plugin.kag = {
     this.kag.tmp.num_anim++
   },
   backTitle: function () {
-    "appJsInterface" in window ? appJsInterface.finishGame() : "function" == typeof TyranoPlayer ? webkit.messageHandlers.backHandler.postMessage("endgame") : $.confirm($.lang("go_title"), function () {
+    var message;
+    if(TYRANO.kag.variable.sf.trans == 2){
+      message = $.lang("go_title_es");
+    } else if(TYRANO.kag.variable.sf.trans == 1){
+      message = $.lang("go_title_en");
+    }else{
+      message = $.lang("go_title");
+    }
+    "appJsInterface" in window ? appJsInterface.finishGame() : "function" == typeof TyranoPlayer ? webkit.messageHandlers.backHandler.postMessage("endgame") : $.confirm(message, function () {
       location.href = "./index.html"
     }, function () {
       return !1
