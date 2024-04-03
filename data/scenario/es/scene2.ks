@@ -318,7 +318,7 @@ Bueno, tal vez necesites un cambio de paisaje, así que ¿por qué no miramos la
 [hide]
 Y así el viejo empezó a mirar las estrellas. Mientras yo, me preocupaba por mi guitarra y mi angustia.[p]
 [fadeoutbgm time=500]
-[mask graphic="cut/cutin_hokuto2.png" time=1500]
+[mask graphic="cut/es/cutin_hokuto2.png" time=1500]
 [wait time=500]
 [playbgm storage=eyecatch.ogg loop=false]
 [hide time=0]

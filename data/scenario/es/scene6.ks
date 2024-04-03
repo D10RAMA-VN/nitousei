@@ -561,7 +561,7 @@ Sí, lo esperaré ansiosamente. …Si es que puedo ir.[p][stopse buf=3][fadeoutb
 #
 Aunque me sentí algo incómodo con la actitud del viejo, decidimos dar el día por terminado y, después de mirar un poco las estrellas, nos despedimos.[p]
 
-[mask graphic="cut/cutin_kaname.png" time=1500]
+[mask graphic="cut/es/cutin_kaname.png" time=1500]
 [wait time=500]
 [eval exp="sf.chap6=1"]
 [playbgm storage=eyecatch2.ogg  loop="false"]

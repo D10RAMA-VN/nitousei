@@ -216,7 +216,7 @@ sf.current_bgm_vol = sf._system_config_bgm_volume;
 #
 そんな悪態をつくしか、未熟な自分にはできなかった。[p]
 [fadeoutbgm time=1000]
-[mask graphic="cut/cutin_hokuto.png" time=1500]
+[mask graphic="cut/ja/cutin_hokuto.png" time=1500]
 [wait time=500]
 [eval exp="sf.chap9=1"]
 [playbgm storage=eok.ogg loop="false"]

@@ -320,7 +320,7 @@
 #北斗
 「爺さん…嘘が下手だって自分で言ってるのに、そういう言い方すんなよ…[r]　ばれるような嘘、つかないでくれよ…」[p][stopse buf=1]
 
-[mask graphic="cut/cutin_takamura.png" time=1500]
+[mask graphic="cut/ja/cutin_takamura.png" time=1500]
 #
 [voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=331 ]
 [voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=222 ]

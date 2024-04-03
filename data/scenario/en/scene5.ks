@@ -866,7 +866,7 @@ Before…[p][stopse buf=1]
 [hide]
 Thus began the last week of May, with things changing little by little along with the seasons.[p]
 
-[mask graphic="cut/cutin_nao.png" time=1500]
+[mask graphic="cut/en/cutin_nao.png" time=1500]
 [wait time=500]
 [eval exp="sf.chap5=1"]
 [playbgm storage=eyecatch.ogg  loop="false"]

@@ -75,7 +75,7 @@ if(typeof tyrano.plugin.kag.variable.sf.vo6_vol!="undefined"){tyrano.plugin.kag.
 <div id="title_quit" class="title_item" style="top:900px;">
 	<img src="data/image/title_quit.png" alt="" class="non">
 </div>
-<img src="data/image/title_title.png" style="left:120px;top:600px;position:absolute;">
+<img src="data/image/en/title_title.png" style="left:120px;top:600px;position:absolute;">
 <img src="data/fgimage/title_d10rama.png" style="width:300px;left:1550px;top:70px;position:absolute;" class="jumpHP">
 </div>
 
@@ -115,8 +115,16 @@ $('.non').mouseover(function(){
 	<img src="data/image/title_quit.png" alt="" class="non" style="height:42px;">
 </div>
 </div>
+
+<div id="title_ja" class="title_itemC">
+	<img src="data/image/title_quit.png" alt="" class="non" style="height:42px;left:100px;top:50px;position:absolute;">
+</div>
+<div id="title_es" class="title_itemC">
+	<img src="data/image/title_quit.png" alt="" class="non" style="height:42px;left:100px;top:150px;position:absolute;">
+</div>
+
 <img src="data/fgimage/title_d10rama.png" style="width:300px;left:1550px;top:70px;position:absolute;" class="jumpHP">
-<img class="img_title" src="data/bgimage/title_cleared.png" style="z-index:-1;left:0px;top:0px;width:1920px;height:1080px;position:absolute;">
+<img class="img_title" src="data/bgimage/en/title_cleared.png" style="z-index:-1;left:0px;top:0px;width:1920px;height:1080px;position:absolute;">
 
 <script>
 $('#title_start').click(function(){tyrano.plugin.kag.ftag.startTag("jump",{target:"gamestart"})});
@@ -127,13 +135,33 @@ $('#title_quit').click(function(){tyrano.plugin.kag.ftag.startTag("close")});
 $('.non').mouseover(function(){
 	tyrano.plugin.kag.ftag.startTag("playse",{storage:"se/harmonics.ogg"})
 });
+
+$('#title_ja').click(function(){
+	tyrano.plugin.kag.ftag.startTag("jump", {target:"ja"})
+});
+$('#title_es').click(function(){
+	tyrano.plugin.kag.ftag.startTag("jump", {target:"es"})
+});
 </script>
 [endhtml]
 [endif]
 
-
 [s]
 
+*ja
+[eval exp="sf.trans=0"]
+@jump target=*reload
+
+*es
+[eval exp="sf.trans=2"]
+@jump target=*reload
+
+*reload
+[fadeoutbgm time=100]
+[cm]
+[clearfix]
+@jump storage=first.ks target="*restart"
+[s]
 
 *gamestart
 [html]

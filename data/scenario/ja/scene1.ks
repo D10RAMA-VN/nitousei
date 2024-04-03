@@ -585,7 +585,7 @@ PM20:00。明日は主要3教科がそろっているので相当予習がきつ
 #
 この日常世界では、過去を思い出して泣くような時間は与えられない。[p]
 
-[mask graphic="cut/cutin_takamura.png" time=1500]
+[mask graphic="cut/ja/cutin_takamura.png" time=1500]
 [vostop]
 [wait time=500]
 [playbgm storage=eyecatch.ogg loop="false"]

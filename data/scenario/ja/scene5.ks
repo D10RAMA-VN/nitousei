@@ -866,7 +866,7 @@
 [hide]
 こうして、季節と一緒に少しずつ何かが変わっていきながら、[r]　５月最後の週が始まっていった。[p]
 
-[mask graphic="cut/cutin_nao.png" time=1500]
+[mask graphic="cut/ja/cutin_nao.png" time=1500]
 [wait time=500]
 [eval exp="sf.chap5=1"]
 [playbgm storage=eyecatch.ogg  loop="false"]

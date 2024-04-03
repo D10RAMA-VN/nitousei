@@ -561,7 +561,7 @@ That's true. Please come.[p][stopse buf=2]
 #
 Although I felt somewhat uncomfortable with the old man's attitude, we decided to call it a day for now, and after a little stargazing, we parted ways.[p]
 
-[mask graphic="cut/cutin_kaname.png" time=1500]
+[mask graphic="cut/en/cutin_kaname.png" time=1500]
 [wait time=500]
 [eval exp="sf.chap6=1"]
 [playbgm storage=eyecatch2.ogg loop="false"]

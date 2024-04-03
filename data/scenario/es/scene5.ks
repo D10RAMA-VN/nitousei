@@ -866,7 +866,7 @@ Antes tú…[p][stopse buf=1]
 [hide]
 Así comenzó la última semana de mayo, con las cosas cambiando poco a poco junto con la estación.[p]
 
-[mask graphic="cut/cutin_nao.png" time=1500]
+[mask graphic="cut/es/cutin_nao.png" time=1500]
 [wait time=500]
 [eval exp="sf.chap5=1"]
 [playbgm storage=eyecatch.ogg  loop="false"]

@@ -318,7 +318,7 @@ Well, maybe you need a change of scenery, so why don't we go look at the stars t
 [hide]
 And so the old man began to stargaze for the day. And I was preoccupied with my guitar and my anxiety.[p]
 [fadeoutbgm time=500]
-[mask graphic="cut/cutin_hokuto2.png" time=1500]
+[mask graphic="cut/en/cutin_hokuto2.png" time=1500]
 [wait time=500]
 [playbgm storage=eyecatch.ogg loop=false]
 [hide time=0]

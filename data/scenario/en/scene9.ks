@@ -216,7 +216,7 @@ In front of me, two second stars were twinkling discreetly, but I could see them
 #
 The only thing I could do was to say those remarks, in my immaturity.[p]
 [fadeoutbgm time=1000]
-[mask graphic="cut/cutin_hokuto.png" time=1500]
+[mask graphic="cut/en/cutin_hokuto.png" time=1500]
 [wait time=500]
 [eval exp="sf.chap9=1"]
 [playbgm storage=eok.ogg loop="false"]

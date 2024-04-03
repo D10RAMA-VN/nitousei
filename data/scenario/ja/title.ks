@@ -45,7 +45,6 @@ if(typeof tyrano.plugin.kag.variable.sf.vo6_vol!="undefined"){tyrano.plugin.kag.
 
 [eval exp="sf.current_bgm_vol=20"]
 
-
 [playbgm storage="kaisou.ogg"]
 *title
 @clearfix
@@ -58,6 +57,7 @@ if(typeof tyrano.plugin.kag.variable.sf.vo6_vol!="undefined"){tyrano.plugin.kag.
 [anim layer=base top=-100 time=2500 effect=easeInOutCubic]
 [wait time=2500]
 
+;クリア前
 [html]
 <div id="tl" style="opacity:0;transition:1s;">
 <div id="title_start" class="title_item" style="top:420px;">
@@ -97,6 +97,7 @@ $('.non').mouseover(function(){
 [endhtml]
 
 [else]
+;クリア後
 [html]
 <div style="position:absolute;top:980px;left:740px;width:1200px;height:70px;display:flex;float:left;">
 <div id="title_start" class="title_itemC">
@@ -115,6 +116,14 @@ $('.non').mouseover(function(){
 	<img src="data/image/title_quit.png" alt="" class="non" style="height:42px;">
 </div>
 </div>
+
+<div id="title_en" class="title_itemC">
+	<img src="data/image/title_quit.png" alt="" class="non" style="height:42px;left:100px;top:50px;position:absolute;">
+</div>
+<div id="title_es" class="title_itemC">
+	<img src="data/image/title_quit.png" alt="" class="non" style="height:42px;left:100px;top:150px;position:absolute;">
+</div>
+
 <img src="data/fgimage/title_d10rama.png" style="width:300px;left:1550px;top:70px;position:absolute;" class="jumpHP">
 <img class="img_title" src="data/bgimage/title_cleared.png" style="z-index:-1;left:0px;top:0px;width:1920px;height:1080px;position:absolute;">
 
@@ -127,13 +136,33 @@ $('#title_quit').click(function(){tyrano.plugin.kag.ftag.startTag("close")});
 $('.non').mouseover(function(){
 	tyrano.plugin.kag.ftag.startTag("playse",{storage:"se/harmonics.ogg"})
 });
+
+$('#title_en').click(function(){
+	tyrano.plugin.kag.ftag.startTag("jump", {target:"en"})
+});
+$('#title_es').click(function(){
+	tyrano.plugin.kag.ftag.startTag("jump", {target:"es"})
+});
 </script>
 [endhtml]
 [endif]
 
-
 [s]
 
+*en
+[eval exp="sf.trans=1"]
+@jump target=*reload
+
+*es
+[eval exp="sf.trans=2"]
+@jump target=*reload
+
+*reload
+[fadeoutbgm time=100]
+[cm]
+[clearfix]
+[translation]
+[s]
 
 *gamestart
 [html]

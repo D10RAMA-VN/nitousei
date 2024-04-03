@@ -216,7 +216,7 @@ Oye, no me aplaudas, pero al menos dame tu opinión, viejo…[p][stopse buf=1]
 #
 Lo único que pude hacer fue decir eso, en medio de mi inmadurez…[p]
 [fadeoutbgm time=1000]
-[mask graphic="cut/cutin_hokuto.png" time=1500]
+[mask graphic="cut/es/cutin_hokuto.png" time=1500]
 [wait time=500]
 [eval exp="sf.chap9=1"]
 [playbgm storage=eok.ogg loop="false"]

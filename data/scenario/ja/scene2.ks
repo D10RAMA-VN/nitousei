@@ -318,7 +318,7 @@ USB充電式の小型アンプとシールド（コードって言いたくな�
 [hide]
 そうして、爺さんはその日の天体観測を始めた。[r]でも自分は、ギターのことと不安で頭がいっぱいだった。[p]
 [fadeoutbgm time=500]
-[mask graphic="cut/cutin_hokuto2.png" time=1500]
+[mask graphic="cut/ja/cutin_hokuto2.png" time=1500]
 [wait time=500]
 [playbgm storage=eyecatch.ogg loop=false]
 [hide time=0]

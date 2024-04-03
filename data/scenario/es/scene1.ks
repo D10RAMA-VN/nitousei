@@ -586,7 +586,7 @@ Suena la alarma de mi celular. La pantalla indica las 6:45.[p]
 #
 En este día a día, no tengo tiempo para llorar sobre el pasado.[p]
 
-[mask graphic="cut/cutin_takamura.png" time=1500]
+[mask graphic="cut/es/cutin_takamura.png" time=1500]
 [vostop]
 [wait time=500]
 [playbgm storage=eyecatch.ogg loop="false"]

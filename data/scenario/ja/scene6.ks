@@ -561,7 +561,7 @@
 #
 爺さんの態度にどこか違和感を感じたものの、[r]その日はとりあえず一区切りということで、[r]少し星を眺めたあと、解散という流れになった。[p]
 
-[mask graphic="cut/cutin_kaname.png" time=1500]
+[mask graphic="cut/ja/cutin_kaname.png" time=1500]
 [wait time=500]
 [eval exp="sf.chap6=1"]
 [playbgm storage=eyecatch2.ogg  loop="false"]

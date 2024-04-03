@@ -98,7 +98,9 @@ tf.savetext = "<span style='font-size:10px'>"+tf.save_date+"</span><br />"+tf.ti
 
 ;メッセージボックス
 [macro name="M0"]
+
 [position layer="message0" left=0 top=790 width=1920 height=290 opacity=&sf.mopacity frame="ui/frame.png" page=fore visible=true]
+
 [position layer="message0" page=fore margint="15" marginl="390" marginr="190" marginb="50"]
 [endmacro]
 

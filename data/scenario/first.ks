@@ -1,4 +1,6 @@
 [if exp="sf.trans==undefined"][eval exp="sf.trans=0"][endif]
+
+*restart
 [if exp="sf.trans==2"]
     [title name=&"String('La\x20estrella\x20invisible')"]
     [dialog_config_ok text="Si"]

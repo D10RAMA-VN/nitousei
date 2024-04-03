@@ -585,7 +585,7 @@ The alarm on my cell phone is ringing. The screen reads 6:45.[p]
 #
 In this day-to-day world, I have no time to weep over the past.[p]
 
-[mask graphic="cut/cutin_takamura.png" time=1500]
+[mask graphic="cut/en/cutin_takamura.png" time=1500]
 [vostop]
 [wait time=500]
 [playbgm storage=eyecatch.ogg loop="false"]

@@ -413,7 +413,7 @@ Ya veo… Está bien, lo tendré en cuenta.[p][stopse buf=1]
 #
 Y así, me fui a casa.[p]
 
-[mask graphic="cut/cutin_reito.png" time=1500]
+[mask graphic="cut/es/cutin_reito.png" time=1500]
 [wait time=500]
 [eval exp="sf.chap4=1"]
 [playbgm storage=eyecatch2.ogg  loop="false"]

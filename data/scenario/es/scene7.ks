@@ -828,7 +828,7 @@ No pasa nada. Pero sólo un día, ¿ok?[p][stopse buf=4]
 [hs/magao]
 Sí, muchas gracias.[p][stopse buf=1]
 
-[mask graphic="cut/cutin_hokuto.png" time=1500]
+[mask graphic="cut/es/cutin_hokuto.png" time=1500]
 [wait time=500]
 [eval exp="sf.chap7=1"]
 [playbgm storage=eyecatch.ogg  loop="false"]
