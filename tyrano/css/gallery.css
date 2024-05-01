@@ -185,6 +185,11 @@ audio {
     color: #606589;
 }
 
+#chapbg {
+    width:500px;
+    margin:25px 0 0 30px;
+}
+
 #chapterbutton {
     position: absolute;
     /* float: right; */
@@ -241,6 +246,13 @@ audio {
     width: 190px;
     height: 1px;
     background: #606589;
+}
+
+.bar1, .bar3, .bar5, .bar7, .bar9 {
+    transform:rotate(45deg);
+}
+.bar2, .bar4, .bar6, .bar8, .bar10 {
+    transform:rotate(-45deg);
 }
 
 /** ボーダー */

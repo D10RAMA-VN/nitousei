@@ -405,11 +405,32 @@ input[type=radio]:checked + .checkbox:after {
     opacity: 1;
 }
 
-.config_voice_name{
-	display:inline-block;
+.content1 input[type='range']{
+  left:145px;
+  position:absolute;
+}
+
+.range_text {
+  display:inline-block;
+  margin-left:-200px;
+  width:300px;
+  text-align:right;
+}
+
+.min_max {
+  left:133px;
+}
+
+.config_voice_name {
+	display: flex;
 	position:absolute;
 	text-align:left;
 	width:250px;
+}
+
+.config_voice_name span {
+  font-family:NotoBlack;
+  margin-left: 10px;
 }
 
 .config_button{

@@ -62,7 +62,7 @@ if(typeof tyrano.plugin.kag.variable.sf.vo6_vol!="undefined"){tyrano.plugin.kag.
 <div id="title_start" class="title_item" style="top:420px;">
 	<img src="data/image/es/title_start.png" alt="" class="non">
 </div>
-<div id="title_load" class="title_item" style="top:540px;">
+<div id="title_load" class="title_item" style="top:480px;">
 	<img src="data/image/es/title_load.png" alt="" class="non">
 </div>
 <div id="title_config" class="title_item" style="top:660px;">
@@ -74,6 +74,11 @@ if(typeof tyrano.plugin.kag.variable.sf.vo6_vol!="undefined"){tyrano.plugin.kag.
 <div id="title_quit" class="title_item" style="top:900px;">
 	<img src="data/image/es/title_quit.png" alt="" class="non">
 </div>
+
+<div id="title_lang" class="title_item" style="left:100px;top:50px;">
+	<img src="data/image/title_language.png" alt="" class="non" style="height:62px;">
+</div>
+
 <img src="data/image/es/title_title.png" style="left:120px;top:600px;position:absolute;">
 <img src="data/fgimage/title_d10rama.png" style="width:300px;left:1550px;top:70px;position:absolute;" class="jumpHP">
 </div>
@@ -84,6 +89,7 @@ $('#title_load').click(function(){tyrano.plugin.kag.ftag.startTag("showload")});
 $('#title_config').click(function(){tyrano.plugin.kag.ftag.startTag("showconfig")});
 $('#title_gallery').click(function(){tyrano.plugin.kag.ftag.startTag("showgallery")});
 $('#title_quit').click(function(){tyrano.plugin.kag.ftag.startTag("close")});
+$('#title_lang').click(function(){tyrano.plugin.kag.ftag.startTag("showlang")});
 $("#tl").on("inview", function (event, isInView) {
 if (isInView) {
 	$("#tl").css('opacity','1');
@@ -115,11 +121,8 @@ $('.non').mouseover(function(){
 </div>
 </div>
 
-<div id="title_en" class="title_itemC">
-	<img src="data/image/title_quit.png" alt="" class="non" style="height:42px;left:100px;top:50px;position:absolute;">
-</div>
-<div id="title_ja" class="title_itemC">
-	<img src="data/image/title_quit.png" alt="" class="non" style="height:42px;left:100px;top:150px;position:absolute;">
+<div id="title_lang" class="title_itemC">
+	<img src="data/image/title_language.png" alt="" class="non" style="height:42px;left:100px;top:50px;position:absolute;">
 </div>
 
 <img src="data/fgimage/title_d10rama.png" style="width:300px;left:1550px;top:70px;position:absolute;" class="jumpHP">
@@ -131,6 +134,7 @@ $('#title_load').click(function(){tyrano.plugin.kag.ftag.startTag("showload")});
 $('#title_config').click(function(){tyrano.plugin.kag.ftag.startTag("showconfig")});
 $('#title_gallery').click(function(){tyrano.plugin.kag.ftag.startTag("showgallery")});
 $('#title_quit').click(function(){tyrano.plugin.kag.ftag.startTag("close")});
+$('#title_lang').click(function(){tyrano.plugin.kag.ftag.startTag("showlang")});
 $('.non').mouseover(function(){
 	tyrano.plugin.kag.ftag.startTag("playse",{storage:"se/harmonics.ogg"})
 });
@@ -145,21 +149,6 @@ $('#title_ja').click(function(){
 [endhtml]
 [endif]
 
-[s]
-
-*en
-[eval exp="sf.trans=1"]
-@jump target=*reload
-
-*ja
-[eval exp="sf.trans=0"]
-@jump target=*reload
-
-*reload
-[fadeoutbgm time=100]
-[cm]
-[clearfix]
-@jump storage=first.ks target="*restart"
 [s]
 
 *gamestart

@@ -33,7 +33,11 @@
 [chara_new  name="hutari" storage="hokuto_win/mu.png" width=900 jname="Both" color=#EA580C]
 [chara_new  name="itidou" storage="hokuto_win/mu.png" width=900 jname="Everyone" color=#EA580C]
 [chara_new  name="sannin" storage="hokuto_win/mu.png" width=900 jname="All Three" color=#EA580C]
-[chara_new  name="hatena" storage="hokuto_win/mu.png" width=900 jname="？？？" color=#EA580C]
+[if exp="sf.trans==2"]
+    [chara_new  name="hatena" storage="hokuto_win/mu.png" width=900 jname="???" color=#EA580C]
+[else]
+    [chara_new  name="hatena" storage="hokuto_win/mu.png" width=900 jname="？？？" color=#EA580C]
+[endif]
 [chara_new  name="hatena2" storage="hokuto_win/mu.png" width=900 jname="？？" color=#EA580C]
 
 [seopt volume="&sf.current_se_vol" effect=true]

@@ -1,10 +1,15 @@
 var lang;
+var tabButton;
 var chapterTitle;
 var summary;
 var chapterButton;
+var chapterButtonStyle;
 var musicTitle;
+var chapterLeft;
+var chapbarLength;
 if (TYRANO.kag.variable.sf.trans == 2) {
   lang = 'es';
+  tabButton = ['Capítulo', 'CG de Eventos', 'Música'];
   chapterTitle = [
     'Prologo', 'Capítulo 1', 'Capítulo 2', 'Capítulo 3', 'Capítulo 4', 'Capítulo 5', 'Capítulo 6', 'Capítulo 7', 'Capítulo 8', 'Capítulo 9', 'Epílogo'
   ];
@@ -22,11 +27,22 @@ if (TYRANO.kag.variable.sf.trans == 2) {
     "Unos días después, Hokuto y Minami hablan de su futuro mientras tocan una partitura que Takamura dejó para ellos. Y finalmente, Hokuto expresa sus verdaderos sentimientos por Minami…"
   ];
   chapterButton = 'Ir al Capítulo';
+  chapterButtonStyle = {
+    left:'900px',top:'365px',fontFamily:'akko',fontSize:'28px'
+  };
   musicTitle = [
     "1. Tema de Hokuto", "2. Tema de Hokuto　2da ver.", "3. Tema de Minami", "4. Tema de Takamura", "5. Reunión del Club de Música Ligera!", "6. Estrella guía", "7. Convirtiéndose en una segunda estrella - Guitarra", "8. La estrella invisible", "9. Convirtiéndose en una segunda estrella"
   ];
+  chapterLeft = [245, 240, 485, 481, 725, 721, 965, 960, 1200];
+  chapbarLength = [40, 160, 280, 400, 520, 640, 760, 880, 1000, 1120];
+  $('.chapterchoice').css('top', '444px');
+  $('.chapterchoice2').css('top', '564px');
+  $('.chapbar').css('top', '520px');
+  $('#chaptertitle').css('font-family', 'akko');
+  $('#title_logo').attr('src', 'tyrano/images/system/logo_es.png');
 } else if (TYRANO.kag.variable.sf.trans == 1){
   lang = 'en';
+  tabButton = ['Chapter', 'Event CG', 'Music'];
   chapterTitle = [
     'Prologue', 'Chapter 1', 'Chapter 2', 'Chapter 3', 'Chapter 4', 'Chapter 5', 'Chapter 6', 'Chapter 7', 'Chapter 8', 'Chapter 9', 'Epilogue'
   ];
@@ -44,11 +60,22 @@ if (TYRANO.kag.variable.sf.trans == 2) {
     "A few days later, Hokuto and Minami talk about their future while they play a piece of music that Takamura left for them in the clubroom. And finally, Hokuto conveys his true feelings for Minami…"
   ];
   chapterButton = 'Go to Chapter';
+  chapterButtonStyle = {
+    left:'900px',top:'370px',fontFamily:'akko',fontSize:'28px'
+  };
   musicTitle = [
     "1. Hokuto's Theme", "2. Hokuto's Theme　2nd ver.", "3. Minami's Theme", "4. Takamura's Theme", "5. Light Music Club Meeting!", "6. Guiding Star", "7. Becoming a second star　Guitar Solo", "8. The unseen second star", "9. Becoming a second star" 
   ];
+  chapterLeft = [245, 240, 485, 481, 725, 721, 965, 960, 1200];
+  chapbarLength = [40, 160, 280, 400, 520, 640, 760, 880, 1000, 1120];
+  $('.chapterchoice').css('top', '444px');
+  $('.chapterchoice2').css('top', '564px');
+  $('.chapbar').css('top', '520px');
+  $('#chaptertitle').css('font-family', 'akko');
+  $('#title_logo').attr('src', 'tyrano/images/system/logo_en.png');
 } else {
   lang = 'ja';
+  tabButton = ['チャプター', 'イベントＣＧ', '音楽'];
   chapterTitle = [
     'Prologue', 'Chapter 1', 'Chapter 2', 'Chapter 3', 'Chapter 4', 'Chapter 5', 'Chapter 6', 'Chapter 7', 'Chapter 8', 'Chapter 9', 'Epilogue'
   ];
@@ -66,9 +93,14 @@ if (TYRANO.kag.variable.sf.trans == 2) {
     '数日後、部室で北斗と美波は高村の残した楽曲を弾きながらこれからのことを語りあう。そして、北斗はついに美波に心からの気持ちを伝える…。'
   ];
   chapterButton = 'チャプターへ移動';
+  chapterButtonStyle = {
+    left: '960px',fontFamily: 'Noto'
+  };
   musicTitle = [
     '1. 北斗のテーマ', '2. 北斗のテーマ　後期ver', '3. 美波のテーマ', '4. 高村のテーマ', '5. 軽音部集合！', '6. 標の星', '7. 二等星になって　ギターソロ', '8. みえない二等星', '9. 二等星になって'
   ];
+  chapterLeft = [245, 240, 485, 481, 725, 721, 965, 960, 1200];
+  chapbarLength = [40, 160, 280, 400, 520, 640, 760, 880, 1000, 1120];
 }
 
 
@@ -302,7 +334,12 @@ $('img').on('click', function(){
   $(this).addClass('selected');
 });
 
+$('.tab-buttons span').each(function(index){
+  $(this).html(tabButton[index]);
+});
+
 $('#chapterbutton').text(chapterButton);
+$('#chapterbutton').css(chapterButtonStyle);
 $('#lang').text(lang);
 
 $('.content3 .m_title').each(function(index){
@@ -314,4 +351,14 @@ function jumpChatpter(target){
   $('.layer_menu').fadeOut(200, function () {
     $('.layer_menu').empty()
   })
+}
+
+for(let i = 1; i <= 10; i++){
+  $('.bar' + i).css('left', chapbarLength[i - 1] + 'px');
+
+  if(i == 10){
+    $('#epilog').css('left', chapterLeft[i - 2] + 'px');
+  } else if(i > 1){
+    $('#chapter' + i).css('left', chapterLeft[i - 2] + 'px');
+  }
 }

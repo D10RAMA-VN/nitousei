@@ -60,6 +60,12 @@
 }
 
 @font-face {
+	font-family:"akko";
+	src:url("../../data/others/AkkoPro-MediumItalic.otf") format("opentype");
+	font-weight:normal;font-style:normal;
+}
+
+@font-face {
 	font-family:"erangle";
 	src:url("../../data/others/erangle.otf") format("opentype");
 	font-weight:bold;font-style:normal;

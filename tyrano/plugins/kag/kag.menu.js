@@ -40,6 +40,24 @@ tyrano.plugin.kag.menu = {
       }, a)
     })
   },
+
+  displayLang: function (t) {
+    var a = this;
+    this.kag.stat.is_skip = !1;
+    var layer_menu = a.kag.layer.getMenuLayer();
+    this.kag.html("lang", {
+      novel: $.novel
+    }, function (q) {
+      var n = $(q);
+      n.find(".menu_back_title").click(function () {
+        a.kag.backTitle()
+      }),
+      "pc" != $.userenv() && (n.find(".button_smart").show(), n.find(".button_arrow_up").click(function () {
+      }));
+      var layer_menu = a.kag.layer.getMenuLayer();
+      a.setMenu(n, t)
+    })
+  },
   
   displayGallery: function (t) {
     var a = this;

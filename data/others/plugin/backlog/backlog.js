@@ -210,7 +210,15 @@
       var e = c("#tyrano_base").find("#backlog");
       e.append("<div class='backlog_button' id='backlog_button_close'>");
       e.append("<img src='./data/others/plugin/backlog/image/title_backlog.png' style='left:130px;top:40px;position:absolute;'>");
-      e.append("<img src='./data/others/plugin/backlog/image/logo_h.png' style='width:600px;left:1200px;top:50px;position:absolute;'>");
+      var title_logo;
+      if (TYRANO.kag.variable.sf.trans == 2) {
+        title_logo = 'tyrano/images/system/logo_es.png';
+      } else if (TYRANO.kag.variable.sf.trans == 1) {
+        title_logo = 'tyrano/images/system/logo_en.png';
+      } else {
+        title_logo = 'tyrano/images/system/logo_h.png';
+      }
+      e.append("<img src='./" + title_logo + "' style='width:600px;left:1200px;top:50px;position:absolute;'>");
       var d = e.find("#backlog_button_close");
       a.kag.tmp.backlog.functions.createButton(d, f);
       a.kag.tmp.backlog.functions.buttonHover(d, f);
