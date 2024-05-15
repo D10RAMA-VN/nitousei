@@ -8,6 +8,8 @@ window.tyrano_lang = {
         "exit_game_en":"Are you sure you want to exit the game?",
         "go_title_es":"¿Deseas volver a la pantalla de inicio?",
         "exit_game_es":"¿Estas seguro que deseas salir del juego?",
+        "go_title_ru":"Do you want to go back to the title screen?",
+        "exit_game_ru":"Are you sure you want to exit the game?",
         "not_saved":" ",
         "tag":"タグ",
         "not_exists":"は存在しません",
