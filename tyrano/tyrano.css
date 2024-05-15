@@ -942,6 +942,25 @@ body{
   }
 }
 
+/** 言語切り替え */
+.lang_list div:before{
+  display: inline-block;
+  content: '';
+  position: relative;
+ 	top: 10px;
+ 	left: 20px;
+	transition:.3s;
+	width:36px;
+	height:101px;
+	transform:rotate(7deg);
+	opacity:0;
+	background-image: url('images/system/click.png');
+}
+
+.lang_list div:hover:before{
+	opacity:1;
+}
+
 /** タイトル */
 
 #title_start{
@@ -959,8 +978,6 @@ body{
 #title_load .non{
 	z-index: 2;
 }
-
-
 
 .title_item{
 	position:absolute;

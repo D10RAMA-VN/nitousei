@@ -98,15 +98,7 @@ tf.savetext = "<span style='font-size:10px'>"+tf.save_date+"</span><br />"+tf.ti
 
 ;メッセージボックス
 [macro name="M0"]
-[if exp="sf.trans==3"]
-[position layer="message0" left=0 top=790 width=1920 height=290 opacity=&sf.mopacity frame="ru/frame.png" page=fore visible=true]
-[elsif exp="sf.trans==2"]
-[position layer="message0" left=0 top=790 width=1920 height=290 opacity=&sf.mopacity frame="es/frame.png" page=fore visible=true]
-[elsif exp="sf.trans==1"]
-[position layer="message0" left=0 top=790 width=1920 height=290 opacity=&sf.mopacity frame="en/frame.png" page=fore visible=true]
-[else]
-[position layer="message0" left=0 top=790 width=1920 height=290 opacity=&sf.mopacity frame="ja/frame.png" page=fore visible=true]
-[endif]
+[position layer="message0" left=0 top=790 width=1920 height=290 opacity=&sf.mopacity frame="ui/frame.png" page=fore visible=true]
 [position layer="message0" page=fore margint="15" marginl="390" marginr="190" marginb="50"]
 [endmacro]
 

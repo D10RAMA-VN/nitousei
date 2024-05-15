@@ -211,7 +211,9 @@
       e.append("<div class='backlog_button' id='backlog_button_close'>");
       e.append("<img src='./data/others/plugin/backlog/image/title_backlog.png' style='left:130px;top:40px;position:absolute;'>");
       var title_logo;
-      if (TYRANO.kag.variable.sf.trans == 2) {
+      if (TYRANO.kag.variable.sf.trans == 3) {
+        title_logo = 'tyrano/images/system/logo_ru.png';
+      } else if (TYRANO.kag.variable.sf.trans == 2) {
         title_logo = 'tyrano/images/system/logo_es.png';
       } else if (TYRANO.kag.variable.sf.trans == 1) {
         title_logo = 'tyrano/images/system/logo_en.png';

@@ -36,7 +36,9 @@ tyrano.plugin.kag.tag.eval = {
   start: function (t) {
     var a = this;
     var message;
-    if(TYRANO.kag.variable.sf.trans == 2){
+    if(TYRANO.kag.variable.sf.trans == 3){
+      message = $.lang("exit_game_ru");
+    } else if(TYRANO.kag.variable.sf.trans == 2){
       message = $.lang("exit_game_es");
     } else if(TYRANO.kag.variable.sf.trans == 1){
       message = $.lang("exit_game_en");

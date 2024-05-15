@@ -1,7 +1,11 @@
 [if exp="sf.trans==undefined"][eval exp="sf.trans=0"][endif]
 
 *restart
-[if exp="sf.trans==2"]
+[if exp="sf.trans==3"]
+    [title name=&"String('The\x20Invisible\x20Star')"]
+    [dialog_config_ok text="Yes"]
+    [dialog_config_ng text="No"]
+[elsif exp="sf.trans==2"]
     [title name=&"String('La\x20estrella\x20invisible')"]
     [dialog_config_ok text="Si"]
     [dialog_config_ng text="No"]
@@ -60,7 +64,9 @@
 
 [mask_off time=1000]
 
-[if exp="sf.trans==2"]
+[if exp="sf.trans==3"]
+@jump storage="ru/title.ks"
+[elsif exp="sf.trans==2"]
 @jump storage="es/title.ks"
 [elsif exp="sf.trans==1"]
 @jump storage="en/title.ks"

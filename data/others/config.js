@@ -226,7 +226,23 @@ var tabText;
 var configMessage;
 var configBorder;
 var voiceName;
-if (TYRANO.kag.variable.sf.trans == 2) {
+if (TYRANO.kag.variable.sf.trans == 3) {
+	tabText = ['Settings', 'Voice&nbsp;Settings'];
+	configMessage = ['BGM Volume', 'SE Volume', 'Voice Volume', 'Text Speed', 'Automode Speed', 'Skip unread Text', 'Fullscreen'];
+	configBorder = [
+		{ top: '299px', left: '750px', width: '940px', height: '620px' }
+		, { top: '299px', left: '300px', width: '300px', height: '622px' }
+		, { top: '299px', left: '300px', width: '195px', height: '622px' }
+		, { top: '299px', left: '496px', width: '400px', height: '622px' }
+		, { top: '234px', left: '300p', width: '194px', height: '64px' }
+		, { top: '234px', left: '494px', width: '250px', height: '64px' }
+	];
+	voiceName = [
+        'Kagaya <span>Hokuto</span>', 'Kuruse <span>Minami</span>', 'Takamura <span>Seiji</span>',
+        'Hoshina <span>Nao</span>', 'Souma <span>Reito</span>', 'Amamiya <span>Kaname</span>'
+    ];
+	$('#title_logo').attr('src', 'tyrano/images/system/logo_ru.png');
+} else if (TYRANO.kag.variable.sf.trans == 2) {
 	tabText = ['Configuración', '&nbsp;Configuración&nbsp;de&nbsp;Voces'];
 	configMessage = ['Volumen BGM', 'Volumen SE', 'Volumen de Voces', 'Velocidad Texto', 'Velocidad Auto', 'Skip sin leer?', 'Fullscreen'];
 	configBorder = [

@@ -11,7 +11,7 @@
 
 		.lang_list img {
 			height: 70px;
-			margin: 0 30px;
+			margin: 0 35px;
 			cursor: pointer;
 		}
 	</style>
@@ -54,6 +54,14 @@ $('#en').click(function(){
 $('#es').click(function(){
 	tyrano.plugin.kag.ftag.startTag("eval",{exp:"sf.trans=2"});
 	tyrano.plugin.kag.ftag.startTag("translation");
+});
+$('#ru').click(function(){
+	tyrano.plugin.kag.ftag.startTag("eval",{exp:"sf.trans=3"});
+	tyrano.plugin.kag.ftag.startTag("translation");
+});
+
+$('.lang_list img, .menu_close img').mouseover(function(){
+	tyrano.plugin.kag.ftag.startTag("playse",{storage:"se/harmonics.ogg"})
 });
 </script>
 

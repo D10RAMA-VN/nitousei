@@ -427,7 +427,9 @@ tyrano.plugin.kag = {
   },
   backTitle: function () {
     var message;
-    if(TYRANO.kag.variable.sf.trans == 2){
+    if(TYRANO.kag.variable.sf.trans == 3){
+      message = $.lang("go_title_ru");
+    } else if(TYRANO.kag.variable.sf.trans == 2){
       message = $.lang("go_title_es");
     } else if(TYRANO.kag.variable.sf.trans == 1){
       message = $.lang("go_title_en");

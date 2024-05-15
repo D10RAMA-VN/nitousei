@@ -7,7 +7,40 @@ var chapterButtonStyle;
 var musicTitle;
 var chapterLeft;
 var chapbarLength;
-if (TYRANO.kag.variable.sf.trans == 2) {
+if (TYRANO.kag.variable.sf.trans == 3){
+  lang = 'ru';
+  tabButton = ['Chapter', 'Event CG', 'Music'];
+  chapterTitle = [
+    'Prologue', 'Chapter 1', 'Chapter 2', 'Chapter 3', 'Chapter 4', 'Chapter 5', 'Chapter 6', 'Chapter 7', 'Chapter 8', 'Chapter 9', 'Epilogue'
+  ];
+  summary = [
+    "Hokuto hasn't found something to devote himself to. Together with his childhood friend Minami, they join the light music club after entering high school. One day on their way home, they see an old man named Takamura, who is stargazing by the riverside. Takamura is searching for an invisible star. Without understanding the situation, Hokuto and Minami join him…",
+    "Hokuto and Minami officially joined the club. At first, they revised the club rules, which used to be a bit of a mess, and then started to make a set list for their next live performance. Nao brought up an old song called \"Becoming a Second Star\" as a candidate for the set list. For some reason, Hokuto felt a strange connection with the song.",
+    "Hokuto doesn't seem to be improving on the guitar. He tries to bring his guitar to the stargazing with Takamura to practice. When Takamura sees him playing, he says, \"………Can I borrow that guitar for a minute?\"",
+    "Hokuto gets overwhelmed with his daily life. He eventually reaches his limit and collapses. When Minami comes to the infirmary to check on him, Hokuto begins to vent his feelings to her. Why is he trying so hard despite not being devoted to anything? Why is he going stargazing with Takamura? Hokuto's thoughts are more unbearable for Minami than for Hokuto himself.",
+    "Hokuto visits Takamura by himself. Why did he make Minami cry? When Takamura asks him about it, Hokuto begins to tell him about his relationship with Minami, as it's related to Hokuto's father who passed away. As Hokuto is troubled, Takamura asks him to look at the stars together, asking him, based on his experience with his wife, \"What do you want to do and what do you want her to do?\"",
+    "Hokuto and Minami continue to feel awkward as another week goes by. In the midst of all this, Minami gives Hokuto a lunch box that she says was made by her mother. That afternoon, while having lunch with Reito, Hokuto begins to understand. He realizes how to play the guitar better and what he wants to do for Minami.",
+    "Hokuto and Minami visit Takamura again. Hokuto asks Takamura what exactly is the star that he is looking for. The answer lies in the song he once played for them, \"Becoming a Second Star.\" Takamura responds, \"It is a star that I saw once.\" Hokuto offers to help Takamura look for his star.",
+    "As the rainy season begins, Hokuto and Minami prepare for their mid-term exams. Minami makes him lunch every day, and Hokuto wants to thank her in some way, so he decides to treat her to a parfait at a nearby coffee shop. Hokuto thanks her while talking about the old days. However, Hokuto is still skeptical about Minami's kindness. Minami replies to him by expressing her feelings, the biggest in this universe…",
+    "Hokuto recieves Minami's confession of love. As he is wondering how he should respond to her feelings, a letter arrives in the mail. Takamura is hospitalized at the hospital where Minami's father works. Hokuto is distressed and angry at Takamura, who is losing his strength day by day, but he is unable to do anything about it. Then Takamura asks for a favor from Hokuto.",
+    "Hokuto and Minami decide to do stargazing on the roof of the hospital with Takamura. As the shooting stars of the Perseid meteor shower are sparkling, Takamura asks Hokuto to play \"Becoming the Second Star\" once again… When the performance ends, a pair of second stars are just shining in the sky…",
+    "A few days later, Hokuto and Minami talk about their future while they play a piece of music that Takamura left for them in the clubroom. And finally, Hokuto conveys his true feelings for Minami…"
+  ];
+  chapterButton = 'Go to Chapter';
+  chapterButtonStyle = {
+    left:'900px',top:'370px',fontFamily:'akko',fontSize:'28px'
+  };
+  musicTitle = [
+    "1. Hokuto's Theme", "2. Hokuto's Theme　2nd ver.", "3. Minami's Theme", "4. Takamura's Theme", "5. Light Music Club Meeting!", "6. Guiding Star", "7. Becoming a second star　Guitar Solo", "8. The unseen second star", "9. Becoming a second star" 
+  ];
+  chapterLeft = [245, 240, 485, 481, 725, 721, 965, 960, 1200];
+  chapbarLength = [40, 160, 280, 400, 520, 640, 760, 880, 1000, 1120];
+  $('.chapterchoice').css('top', '444px');
+  $('.chapterchoice2').css('top', '564px');
+  $('.chapbar').css('top', '520px');
+  $('#chaptertitle').css('font-family', 'akko');
+  $('#title_logo').attr('src', 'tyrano/images/system/logo_ru.png');
+} else if (TYRANO.kag.variable.sf.trans == 2) {
   lang = 'es';
   tabButton = ['Capítulo', 'CG de Eventos', 'Música'];
   chapterTitle = [

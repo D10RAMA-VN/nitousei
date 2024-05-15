@@ -68,7 +68,9 @@ $("#page5").on('click',function(){
 	$("#page5").css( "background-color", "#007882");
 	$("#page1,#page2,#page3,#page4").css( "background-color", "rgba(0,0,0,0)");
 });
-if (TYRANO.kag.variable.sf.trans == 2) {
+if (TYRANO.kag.variable.sf.trans == 3) {
+	$('#title_logo').attr('src', 'tyrano/images/system/logo_ru.png');
+} else if (TYRANO.kag.variable.sf.trans == 2) {
 	$('#title_logo').attr('src', 'tyrano/images/system/logo_es.png');
 } else if (TYRANO.kag.variable.sf.trans == 1) {
 	$('#title_logo').attr('src', 'tyrano/images/system/logo_en.png');
