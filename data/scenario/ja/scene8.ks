@@ -7,7 +7,7 @@
 [wait time=500]
 [voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=563 ]
 [voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=322 ]
-[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=194 ]
+[voconfig sebuf=3 name="seiji" vostorage="seizi/takamura_{number}.ogg" number=194 ]
 [voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=74 ]
 [voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=68 ]
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=40 ]
@@ -243,7 +243,7 @@
 [mask_off time=500]
 #北斗
 「……爺さん、今日の調子はどう？」[p][stopse buf=1]
-[vostop][voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=209 ][vostart]
+[vostop][voconfig sebuf=3 name="seiji" vostorage="seizi/takamura_{number}.ogg" number=209 ][vostart]
 #高村
 「…あまりよくはないな…最近は食事も喉を通らん。」[p][stopse buf=3]
 #北斗
@@ -291,7 +291,7 @@
 #北斗
 [hs/magao]
 「…なに？」[p][stopse buf=1]
-[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=218 ]
+[voconfig sebuf=3 name="seiji" vostorage="seizi/takamura_{number}.ogg" number=218 ]
 #高村
 「今よりも悪くなってしまわぬ前に、[r]　もう一度だけ、君たちと星を眺めたい…[r]　そして、キミのギターがもう一度、聞いてみたいよ。」[p][stopse buf=3]
 #北斗
@@ -323,7 +323,7 @@
 [mask graphic="cut/ja/cutin_takamura.png" time=1500]
 #
 [voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=331 ]
-[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=222 ]
+[voconfig sebuf=3 name="seiji" vostorage="seizi/takamura_{number}.ogg" number=222 ]
 [wait time=500]
 [playbgm storage=eyecatch2.ogg loop="false"][hide time=0][bg2 storage=black.png time=6000][stopbgm]
 [eval exp="sf.chap8=1"]

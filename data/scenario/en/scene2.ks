@@ -7,7 +7,7 @@
 [wait time=500]
 [voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=137 ]
 [voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=100 ]
-[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=64 ]
+[voconfig sebuf=3 name="seiji" vostorage="seizi/takamura_{number}.ogg" number=64 ]
 [voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=58 ]
 [voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=26 ]
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=35 ]
@@ -46,7 +46,7 @@ But look, you're getting better at following sheet music. It's progress, progres
 [hw_kanasimi]
 No, I'm just getting in everyone's way if I keep going like this. Sorry…[p][stopse buf=1]
 [mhhide]
-#minami
+#itidou
 [k/kanasimi wait=false][r/kanasimi wait=false][mw_kanasimi]
 ……[p]
 [mmhide]

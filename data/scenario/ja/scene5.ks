@@ -7,7 +7,7 @@
 [wait time=500]
 [voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=281 ]
 [voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=149 ]
-[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=138 ]
+[voconfig sebuf=3 name="seiji" vostorage="seizi/takamura_{number}.ogg" number=138 ]
 [voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=63 ]
 [voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=28 ]
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=36 ]
@@ -864,7 +864,7 @@
 「前にさ…」[p][stopse buf=1]
 #
 [hide]
-こうして、季節と一緒に少しずつ何かが変わっていきながら、[r]　５月最後の週が始まっていった。[p]
+こうして、季節と一緒に少しずつ何かが変わっていきながら、[r]５月最後の週が始まっていった。[p]
 
 [mask graphic="cut/ja/cutin_nao.png" time=1500]
 [wait time=500]

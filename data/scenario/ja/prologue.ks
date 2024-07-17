@@ -8,7 +8,7 @@
 [voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=1 ]
 [voconfig sebuf=2 name="minami" vostorage="minami2/minami_{number}.ogg" number=1 ]
 [voconfig sebuf=3 name="rouzin" vostorage="seizi/takamura_{number}.ogg" number=1 ]
-[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=22 ]
+[voconfig sebuf=3 name="seiji" vostorage="seizi/takamura_{number}.ogg" number=22 ]
 [voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=2 ]
 [voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=1 ]
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=1 ]
@@ -722,7 +722,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 「…ほう。」[p][stopse buf=3]
 #
 その時初めて、爺さんはこっちを向いてくれた。[p]
-[chara_move name="hokuto" time=700 left=360 anim=true wait=false][chara_move name="seizi" time=700 left=-195 anim=true wait=false][minami_w_odoroki left=840]
+[chara_move name="hokuto" time=700 left=360 anim=true wait=false][chara_move name="seiji" time=700 left=-195 anim=true wait=false][minami_w_odoroki left=840]
 #美波
 「ちょっと、何勝手に言ってるのよ。…すいませんホントに。」[p][stopse buf=2]
 #老人
@@ -1065,7 +1065,7 @@ MCというか、部活説明は全て部長と副部長の２人でやってい
 #高村
 「いやいや。しかし、せっかくなら美波君にちなんで、[r]　南にかかわる星も見てみたいところだが。[r]　南とつく星座と言えば南十字星だけれどもなあ。」[p][stopse buf=3]
 #
-[chara_move name="hokuto" time=700 left=360 wait=false anim=true][chara_move name="seizi" time=700 left=-195 wait=true anim=true][minami_w_bishou left=840]
+[chara_move name="hokuto" time=700 left=360 wait=false anim=true][chara_move name="seiji" time=700 left=-195 wait=true anim=true][minami_w_bishou left=840]
 #美波
 「南十字星、サザンクロス、ですか？」[p][stopse buf=2]
 #北斗

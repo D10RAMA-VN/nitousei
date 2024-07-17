@@ -8,7 +8,7 @@
 [voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=1 ]
 [voconfig sebuf=2 name="minami" vostorage="minami2/minami_{number}.ogg" number=1 ]
 [voconfig sebuf=3 name="rouzin" vostorage="seizi/takamura_{number}.ogg" number=1 ]
-[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=22 ]
+[voconfig sebuf=3 name="seiji" vostorage="seizi/takamura_{number}.ogg" number=22 ]
 [voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=2 ]
 [voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=1 ]
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=1 ]
@@ -722,7 +722,7 @@ So I just said it like I always do.[p]
 …Hoh.[p][stopse buf=3]
 #
 It was only then that the old man looked at me.[p]
-[chara_move name="hokuto" time=700 left=360 anim=true wait=false][chara_move name="seizi" time=700 left=-195 anim=true wait=false][minami_w_odoroki left=840]
+[chara_move name="hokuto" time=700 left=360 anim=true wait=false][chara_move name="seiji" time=700 left=-195 anim=true wait=false][minami_w_odoroki left=840]
 #minami
 Hey, what are you talking about?… I'm really sorry.[p][stopse buf=2]
 #rouzin
@@ -1065,7 +1065,7 @@ The Big Dipper is just one constellation, and yet it is so well-known, easily re
 #seiji
 No, no, no. But if we are going to go this far, let's take a look at the stars related to the south, in honor of Minami-kun. The Southern Cross is the most common formation from the Southern constellations.[p][stopse buf=3]
 #
-[chara_move name="hokuto" time=700 left=360 wait=false anim=true][chara_move name="seizi" time=700 left=-195 wait=true anim=true][minami_w_bishou left=840]
+[chara_move name="hokuto" time=700 left=360 wait=false anim=true][chara_move name="seiji" time=700 left=-195 wait=true anim=true][minami_w_bishou left=840]
 #minami
 Southern Cross, the Crux, right?[p][stopse buf=2]
 #hokuto

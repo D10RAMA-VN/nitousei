@@ -7,7 +7,7 @@
 [wait time=500]
 [voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=621 ]
 [voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=337 ]
-[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=1 ]
+[voconfig sebuf=3 name="seiji" vostorage="seizi/takamura_{number}.ogg" number=1 ]
 [voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=74 ]
 [voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=68 ]
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=40 ]

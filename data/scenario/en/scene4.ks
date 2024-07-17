@@ -7,7 +7,7 @@
 [wait time=500]
 [voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=229 ]
 [voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=149 ]
-[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=91 ]
+[voconfig sebuf=3 name="seiji" vostorage="seizi/takamura_{number}.ogg" number=91 ]
 [voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=63 ]
 [voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=28 ]
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=36 ]
@@ -171,7 +171,7 @@ Hmm… So what do you want Minami to do? What do you want to do?[p][stopse buf=3
 [hs/mu]
 I didn't mean to say anything awful, and I want to apologize.[p][stopse buf=1]
 [voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=253 ]
-[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=104 ]
+[voconfig sebuf=3 name="seiji" vostorage="seizi/takamura_{number}.ogg" number=104 ]
 #seiji
 [s/metozi]
 …Then you should have apologized before visiting me, right?[p][stopse buf=3]

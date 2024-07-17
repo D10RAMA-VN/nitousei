@@ -7,7 +7,7 @@
 [wait time=500]
 [voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=401 ]
 [voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=213 ]
-[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=138 ]
+[voconfig sebuf=3 name="seiji" vostorage="seizi/takamura_{number}.ogg" number=138 ]
 [voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=66 ]
 [voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=64 ]
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=38 ]
@@ -397,7 +397,7 @@
 [fadeoutbgm time=1000]
 [fadeinbgm storage=bg/river.ogg time=1000]
 #
-[move name=seizi left=-195 wait=true][hokuto_s_magao left=360]
+[move name=seiji left=-195 wait=true][hokuto_s_magao left=360]
 #北斗
 「…ちょっとわかるよ、爺さんの気持ち。[r]　というか、これも爺さんに教えられたようなもんだけど。」[p][stopse buf=1]
 #北斗

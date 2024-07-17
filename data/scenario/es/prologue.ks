@@ -8,7 +8,7 @@
 [voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=1 ]
 [voconfig sebuf=2 name="minami" vostorage="minami2/minami_{number}.ogg" number=1 ]
 [voconfig sebuf=3 name="rouzin" vostorage="seizi/takamura_{number}.ogg" number=1 ]
-[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=22 ]
+[voconfig sebuf=3 name="seiji" vostorage="seizi/takamura_{number}.ogg" number=22 ]
 [voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=2 ]
 [voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=1 ]
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=1 ]
@@ -723,7 +723,7 @@ Así que hable como siempre lo hago.[p]
 …Oh.[p][stopse buf=3]
 #
 Fue sólo entonces cuando el anciano dirigió su mirada hacia mí.[p]
-[chara_move name="hokuto" time=700 left=360 anim=true wait=false][chara_move name="seizi" time=700 left=-195 anim=true wait=false][minami_w_odoroki left=840]
+[chara_move name="hokuto" time=700 left=360 anim=true wait=false][chara_move name="seiji" time=700 left=-195 anim=true wait=false][minami_w_odoroki left=840]
 #minami
 Oye, ¿de qué estás hablando?… Lo siento mucho.[p][stopse buf=2]
 #rouzin
@@ -1066,7 +1066,7 @@ El Cucharón es sólo una constelación y, sin embargo, es muy conocida, fácilm
 #seiji
 No, no, no. Pero si vamos a ir tan lejos, deberíamos echarle un vistazo a las estrellas relacionadas con el Sur, en honor a Minami-kun. La Cruz del Sur es la formación más común de las constelaciones del sur.[p][stopse buf=3]
 #
-[chara_move name="hokuto" time=700 left=360 wait=false anim=true][chara_move name="seizi" time=700 left=-195 wait=true anim=true][minami_w_bishou left=840]
+[chara_move name="hokuto" time=700 left=360 wait=false anim=true][chara_move name="seiji" time=700 left=-195 wait=true anim=true][minami_w_bishou left=840]
 #minami
 Cruz del Sur, el Crux ¿verdad?[p][stopse buf=2]
 #hokuto

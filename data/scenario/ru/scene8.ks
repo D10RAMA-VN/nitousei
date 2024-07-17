@@ -7,7 +7,7 @@
 [wait time=500]
 [voconfig sebuf=1 name="hokuto" vostorage="hokuto/hokuto_{number}.ogg" number=563 ]
 [voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=322 ]
-[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=194 ]
+[voconfig sebuf=3 name="seiji" vostorage="seizi/takamura_{number}.ogg" number=194 ]
 [voconfig sebuf=4 name="nao" vostorage="nao/nao_{number}.ogg" number=74 ]
 [voconfig sebuf=5 name="reito" vostorage="reito/reito_{number}.ogg" number=68 ]
 [voconfig sebuf=6 name="kaname" vostorage="kaname/kaname_{number}.ogg" number=40 ]
@@ -243,7 +243,7 @@ No, that's fine. Besides, it is the doctor's duty to bear that kind of anger…[
 [mask_off time=500]
 #hokuto
 ……How are you doing today, old man?[p][stopse buf=1]
-[vostop][voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=209 ][vostart]
+[vostop][voconfig sebuf=3 name="seiji" vostorage="seizi/takamura_{number}.ogg" number=209 ][vostart]
 #seiji
 …Not so good… I can't even get food down my throat these days.[p][stopse buf=3]
 #hokuto
@@ -291,7 +291,7 @@ Hey, Hokuto-kun.[p][stopse buf=3]
 #hokuto
 [hs/magao]
 …What?[p][stopse buf=1]
-[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=218 ]
+[voconfig sebuf=3 name="seiji" vostorage="seizi/takamura_{number}.ogg" number=218 ]
 #seiji
 I just want to look at the stars with you guys one more time before it gets worse than this… And I want to hear you play the guitar one more time.[p][stopse buf=3]
 #hokuto
@@ -323,7 +323,7 @@ Old man… Don't talk like that when you just told me that you are a bad liar…
 [mask time=1500]
 #
 [voconfig sebuf=2 name="minami" vostorage="minami/minami_{number}.ogg" number=331 ]
-[voconfig sebuf=3 name="seizi" vostorage="seizi/takamura_{number}.ogg" number=222 ]
+[voconfig sebuf=3 name="seiji" vostorage="seizi/takamura_{number}.ogg" number=222 ]
 [wait time=500][hide time=0][bg2 storage=black.png time=1000]
 [eval exp="sf.chap8=1"]
 [mask_off time=500]
